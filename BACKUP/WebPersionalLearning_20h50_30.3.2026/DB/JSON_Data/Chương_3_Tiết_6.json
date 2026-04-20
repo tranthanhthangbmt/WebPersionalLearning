@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_3_Tiet_6",
+    "concept_name": "Chương_3_Tiết_6",
+    "file_source": "Chương_3_Tiết_6.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_3_Tiet_6_0",
+      "type": "multiple_choice",
+      "content": "Tại thông điệp đầu cái gì không đo lường được thì không quản trị được Marketing truyền thống mắc phải lỗi gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá cả quá đắt nhưng chất liệu thì rất kém và bị nhòe nhạt"
+        },
+        {
+          "key": "B",
+          "text": "Giới hạn đo lường cụ thể có bao nhiêu khách xem tờ rơi"
+        },
+        {
+          "key": "C",
+          "text": "Lượng tương tác vô biên thu hút vô số tệp khách nhỏ tuổi"
+        },
+        {
+          "key": "D",
+          "text": "Việc đo hiệu suất quảng cáo truyền thống thì tương đối dễ"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Marketing truyền thống thiếu công cụ định lượng minh bạch: Không ai đếm được có bao nhiêu con mắt lướt qua tấm billboard ở ngã tư và không phân minh rạch ròi bao nhiêu cốc cafe bán ra tới từ sự đóng góp của cái loa phường đó.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_1",
+      "type": "multiple_choice",
+      "content": "Lời thở than của John Wanamaker Một nửa số tiền tôi chi cho quảng cáo là lãng phí chỉ ra mặt yếu nào của truyền thông Billboard?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bảng quảng cáo đứng đường gặp mưa sẽ hư ngay"
+        },
+        {
+          "key": "B",
+          "text": "Mua đèn chiếu quá tốn điện cho nhà đầu tư lớn"
+        },
+        {
+          "key": "C",
+          "text": "Không tính nổi người đi trên đường ai đang mua đơn"
+        },
+        {
+          "key": "D",
+          "text": "Rất chiếm vị trí trung tâm triển lãm mỹ thuật"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. \"Khoản lãng phí\" ở đây là việc quảng cáo buộc phải hiện diện với tất cả mọi người (kể cả những người không bao giờ mua sản phẩm đó), khiến hãng bị ép trả tiền cho lượng người xem rác mà không cách nào dồn đạn nhắm tỉa tệp khách tinh hoa.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_2",
+      "type": "multiple_choice",
+      "content": "Tư duy Data-driven Decision Making đòi nhà quản lý quyết định dựa trên điều cốt lõi gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cảm quan tâm lý may rủi bấp bênh"
+        },
+        {
+          "key": "B",
+          "text": "Chờ mùa quý rồi chốt đánh giá to"
+        },
+        {
+          "key": "C",
+          "text": "Trải nghiệm tự phát mà không suy nghĩ"
+        },
+        {
+          "key": "D",
+          "text": "Nền tảng số liệu thật để chỉ đạo"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là D. Data-driven (Dẫn dắt bằng dữ liệu) loại bỏ trò bói kiều: Một chiến dịch dù giám đốc có chê \"quá trẻ trâu\", nhưng nếu biểu đồ CPA báo cáo rẻ khủng khiếp ra đơn ầm ầm thì sếp cũng phải gật đầu bái phục.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_3",
+      "type": "multiple_choice",
+      "content": "Chìa khóa Cảm nhận và Phản hồi real-time tiết kiệm đáng kể bằng cách gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chặn quảng cáo lúc đêm để chờ khách đến ca"
+        },
+        {
+          "key": "B",
+          "text": "Dồn tiền từ Ads chạy lỗ qua Ads ra nhiều đơn"
+        },
+        {
+          "key": "C",
+          "text": "Thêm lương trả cho ban vận hành hệ thống máy"
+        },
+        {
+          "key": "D",
+          "text": "Sửa lại độ nét nhằm khắc phục ảnh bị nhòe"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Sức mạnh tuyệt luân của Thời gian thực (Real-time) cho phép cắt cơn đau chảy máu ngân sách: Nhận ra bài Video B đốt 5 triệu chưa ra đồng nào, khóa ngay lập tức; ôm đống tiền tung cho bài A đang chốt đơn ầm ầm.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_4",
+      "type": "multiple_choice",
+      "content": "Chữ C quan trọng của chuỗi vòng RACE mang hàm ý quyết định là:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ số Phí tổn hao (Cost metric)"
+        },
+        {
+          "key": "B",
+          "text": "Khoảng cách Tiếp cận (Reach)"
+        },
+        {
+          "key": "C",
+          "text": "Tỷ lệ Gắn kết khăng khít (Engage)"
+        },
+        {
+          "key": "D",
+          "text": "Kết quả Chuyển đổi đặt mua (Convert)"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là D. RACE chia hành trình làm 4 cung bậc: R (Reach - Tiếp cận), A (Act - Hành động dừng đọc), C (Convert - Chuyển đổi móc túi chốt mua), và E (Engage - Cưu mang nuôi dưỡng tệp cũ). Bước C quyết định doanh thu cuối cùng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_5",
+      "type": "multiple_choice",
+      "content": "Mô hình ma trận VQVC phục vụ cho việc gì trong kiểm soát số liệu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đo độ uy tín website của chính quyền"
+        },
+        {
+          "key": "B",
+          "text": "Lập trình mã khóa thẻ siêu bảo mật"
+        },
+        {
+          "key": "C",
+          "text": "Phơi bày sức khỏe sâu của các chiến dịch"
+        },
+        {
+          "key": "D",
+          "text": "Nhận định chất lượng video quay nhanh"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. Ma trận VQVC (Khối lượng - Chất lượng - Giá trị - Chi phí) chống loạn thần cho nhà quản trị: Không thể mù quáng vui vì Video Viral triệu view (Volume cao), nhưng CPA ra đơn lại giá trên trời rớt vực (Cost quá cao).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_6",
+      "type": "multiple_choice",
+      "content": "Phép chia Lượt click cho Lượt hiện thị được tính bằng CTR thì chỉ số này đại diện cho cái gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tổng lượng share bài không qua chạy"
+        },
+        {
+          "key": "B",
+          "text": "Độ hấp dẫn lôi cuốn ở banner bài viết"
+        },
+        {
+          "key": "C",
+          "text": "Con số trả hàng của một ca làm chiều"
+        },
+        {
+          "key": "D",
+          "text": "Giới hạn doanh thu trung bình tháng"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Click-Through Rate (CTR) đại diện tỷ lệ khách bấm vào xem. CTR trả lời câu: \"Content quảng cáo này có đủ khiêu gợi, đúng mồi khiến khách ngưng cuộn điện thoại để tò mò rẽ dòng đọc tiếp không?\".",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_7",
+      "type": "multiple_choice",
+      "content": "Impressions theo dõi số lượt xuất hiện còn Reach dùng quản lý con số gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Số tiền đi vay chi để làm nội dung web"
+        },
+        {
+          "key": "B",
+          "text": "Số thiết bị cài app ngăn chặn phần mềm"
+        },
+        {
+          "key": "C",
+          "text": "Khách không thanh toán theo kiểu chuyển khoản"
+        },
+        {
+          "key": "D",
+          "text": "Lượng người duy nhất có xem bài quảng cáo"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là D. Quảng cáo vã 100 cái (100 Impression Hiển thị) nhưng xui xẻo chỉ đập lặp đi lặp lại vào mặt đúng mỗi 1 người (1 Reach Tiếp cận). Đo đếm Reach vạch mặt sự lãng mạn hoang phí trùng lặp trên diện hẹp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_8",
+      "type": "multiple_choice",
+      "content": "Chỉ số thoát ngay lập tức Bounce rate đặc biệt cao tiết lộ vấn đề nào ở web?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nhu cầu khách xem khá lâu ở mục chính"
+        },
+        {
+          "key": "B",
+          "text": "Web tải rất chậm và có phần lạc đề tài"
+        },
+        {
+          "key": "C",
+          "text": "Giá bảo lưu thiết bị khá rẻ cho việc chi"
+        },
+        {
+          "key": "D",
+          "text": "Sản phẩm miêu tả đẹp nên thu nhỏ màn"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Tỷ lệ thoát (Bounce Rate) mà cao chót vót (ví dụ 85%) là hồi chuông báo động: Khách xông vào thấy ảnh gãy nát, nút loading quay mòng mọc cả buổi hoặc treo đầu dê bán thịt chó - rồi chuồn thẳng không lời từ biệt.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_9",
+      "type": "multiple_choice",
+      "content": "Góc nhìn qua lăng kính LTV (Vòng đời mang lợi) khuyến khích các hãng điều hướng gì mạnh dạn?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dám lỗ vốn ngay lúc mua khách ban đầu để hưởng lãi khổng lồ ở thời gian kéo dài"
+        },
+        {
+          "key": "B",
+          "text": "Sẵn sàng trả thêm lãi rất đậm để cắt đứt việc nợ lương nhiều tháng nhân viên kho"
+        },
+        {
+          "key": "C",
+          "text": "Tìm cớ tăng tiền giao dịch để giảm bù trừ việc nâng cấp thiết bị mạng ở trung tâm"
+        },
+        {
+          "key": "D",
+          "text": "Loại bỏ những giỏ hàng nằm chơi nhằm lấy bớt chi phí xử lý trên hệ thống chủ chốt"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là A. Bứt não ngắn hạn CPA: Chấp nhận hụt túi 200k/đơn vé xem phim đầu (CPA > Giá vốn), nhưng thu lại LTV triệu rưỡi vì khách đó sẽ mua kẹo, đưa 5 bạn theo và cài App gắn bó mua hàng hàng tháng trong nhiều năm.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_10",
+      "type": "multiple_choice",
+      "content": "Chỉ số định đoạt phí cho một đơn gõ chuông được các giám đốc marketing bận tâm là:",
+      "options": [
+        {
+          "key": "A",
+          "text": "CPV (Xem hết video ngắn chạy)"
+        },
+        {
+          "key": "B",
+          "text": "CPA (Đổi 1 đơn được thanh lý)"
+        },
+        {
+          "key": "C",
+          "text": "CPM (Ngàn nhấp hiện trên điện)"
+        },
+        {
+          "key": "D",
+          "text": "CPL (Chạy like ảo làm truyền thông)"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Rẻ như xem Youtube CPV hay rẻ như bùn Impression CPM không giải quyết việc phát lương. CPA (Cost Per Acquisition) tóm gọn vào mặt: \"Hôm nay rút hầu bao cỡ này thì cõng 1 ông trùm chốt đơn tốn bao nhiêu tiền?\".",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_11",
+      "type": "multiple_choice",
+      "content": "Khóa ý cốt bên trong nhận định Vanity Metrics (Chỉ báo lừa dối) nhấn mạnh vào giá trị thật nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Share là chứng cứ thu lời ngay cho doanh nghiệp mới mẻ"
+        },
+        {
+          "key": "B",
+          "text": "Tạo độ tương tác phủ sóng để tính đơn hàng trung bình"
+        },
+        {
+          "key": "C",
+          "text": "Like chỉ là ảo và Lãi ròng là câu trả lời của kinh doanh"
+        },
+        {
+          "key": "D",
+          "text": "Liên kết bằng hữu mang về tỷ giá đổi đơn vô cùng lớn"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. Cái trò đếm triệu like cày chéo nức mũi trên FaceBook là màn vuốt ve cái tôi nhảm nhí (Vanity). Khép lại vòng quay, Kế Toán dập bảng Lãi Ròng gõ cái cốp mới là chấm điểm sinh tồn ác nhơn nhưng ngay thẳng bậc nhất.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_12",
+      "type": "multiple_choice",
+      "content": "Hệ số tổng ROI được định nghĩa thế nào khác với mặt ROAS?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ROAS đánh giá phần lợi nhuận sau cùng còn ROI chỉ tính phần Ads chạy mỗi buổi sáng"
+        },
+        {
+          "key": "B",
+          "text": "ROAS chia doanh số trên tiền Ads ROI cõng mọi chi tiêu gồm lương bổng nhà xưởng phí"
+        },
+        {
+          "key": "C",
+          "text": "ROAS chia sẻ cách tính của ROI trong tất cả văn kiện kinh doanh thương mại hằng ngày"
+        },
+        {
+          "key": "D",
+          "text": "ROI tính tiền đi ra đi vào còn ROAS cõng cả thiết bị hao mòn văn phòng trong chục năm"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. ROAS (Team Chạy Ads tự hào) vì Doanh thu Ads lớn quá chia ngân sách Ads ra rất cao; nhưng ROI (Sếp tổng hạch toán) gánh thêm toàn bộ tiền thuê mặt bằng, tiền lương ekip - thì lòi ra ROI âm lụi tận ruột tàn mạt khóc không thành tiếng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_13",
+      "type": "multiple_choice",
+      "content": "Mô tả đúng kỹ thuật A/B Testing trong môi trường thực tiễn Marketing điện tử là:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hỏi tư vấn khách để chọn mua"
+        },
+        {
+          "key": "B",
+          "text": "Chờ một tháng đổi cách chạy khác"
+        },
+        {
+          "key": "C",
+          "text": "Đổi mẫu ảnh chụp qua những đợt"
+        },
+        {
+          "key": "D",
+          "text": "Chạy nửa đỏ nửa xanh để thi tài"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là D. Thử nghiệm phân tách A/B là chia ngẫu nhiên tệp traffic lùa vào phễu làm 2 nhánh tại cùng một thời điểm (50% nhìn bản xanh, 50% chui ống bản đỏ), ép Data 2 bên đấu sát ván xem gãy nhánh nào tỷ suất chốt đơn cao hơn thì chọn làm chuẩn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_6_14",
+      "type": "multiple_choice",
+      "content": "Để đẩy sự giải trí khi tổ chức game mini trên Facebook ta đặt thước đo ở vị trí nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Độ lan truyền (Chia sẻ mạng)"
+        },
+        {
+          "key": "B",
+          "text": "Mức phí trung bình một chốt"
+        },
+        {
+          "key": "C",
+          "text": "Khối lượng người nán lại tính thu"
+        },
+        {
+          "key": "D",
+          "text": "Lượt tiền vào ví công ty mẹ"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là A. Bản chất Minigame trúng thẻ trên Facebook chẳng lòi ra đồng tiền ngay tắp lự. Vũ khí vĩ mô của nó là tóm được thóp hiếu thắng lây nhiễm, KPI phải bắn cực căng vào lượt Share/Reach để tạo luồng phong vũ bão táp gieo mầm Brand lên não đám đông.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

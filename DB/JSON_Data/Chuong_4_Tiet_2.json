@@ -1,0 +1,699 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_4_Tiet_2",
+    "concept_name": "Chuong_4_Tiet_2",
+    "file_source": "Chuong_4_Tiet_2.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_4_Tiet_2_0",
+      "type": "multiple_choice",
+      "content": "Khi một hệ thống TMĐT bị tin tặc đánh sập thì hậu quả tài chính trực tiếp là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phải xây dựng lại toàn bộ trụ sở của công ty"
+        },
+        {
+          "key": "B",
+          "text": "Bị mất doanh thu ngay trong giờ vàng mua sắm"
+        },
+        {
+          "key": "C",
+          "text": "Trang web khách hàng không nạp tải Internet"
+        },
+        {
+          "key": "D",
+          "text": "Phải nộp thuế thu nhập doanh nghiệp gấp đôi"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Bị mất doanh thu ngay trong giờ vàng mua sắm. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_1",
+      "type": "multiple_choice",
+      "content": "Sự cố rò rỉ dữ liệu khiến chuỗi cung ứng bị gián đoạn, kho hàng đóng gói đơn hàng bị tê liệt thuộc loại rủi ro nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rủi ro về mặt pháp lý"
+        },
+        {
+          "key": "B",
+          "text": "Rủi ro về mặt tài chính"
+        },
+        {
+          "key": "C",
+          "text": "Rủi ro về mặt vận hành"
+        },
+        {
+          "key": "D",
+          "text": "Rủi ro về mặt danh tiếng"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Rủi ro về mặt vận hành. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_2",
+      "type": "multiple_choice",
+      "content": "Tại sao doanh nghiệp trong Case Study phải mất tới 6 tháng ròng rã mới phục hồi được tình trạng như trước?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì quá trình viết sửa lại mã nguồn rất phức tạp"
+        },
+        {
+          "key": "B",
+          "text": "Vì máy chủ cần thời gian dài để tháo ráp nâng cấp"
+        },
+        {
+          "key": "C",
+          "text": "Vì việc khôi phục \"Niềm tin\" khách hàng rất khó"
+        },
+        {
+          "key": "D",
+          "text": "Vì chính phủ cấm hoạt động trong suốt thời gian 6 tháng"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Vì việc khôi phục \"Niềm tin\" khách hàng rất khó. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_3",
+      "type": "multiple_choice",
+      "content": "Định lý \"Kim tự tháp lộn ngược\" trong bối cảnh phân tích an ninh mạng mô tả điều gì nổi bật?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Từ một lỗ hổng rất nhỏ tạo ra khủng hoảng lớn"
+        },
+        {
+          "key": "B",
+          "text": "Sự sụp đổ của các doanh nghiệp công nghệ kém"
+        },
+        {
+          "key": "C",
+          "text": "Đầu tư bảo mật rất lớn nhưng phần hiệu quả nhỏ"
+        },
+        {
+          "key": "D",
+          "text": "Khách hàng ít quan tâm nhưng thiệt hại lại lớn"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Từ một lỗ hổng rất nhỏ tạo ra khủng hoảng lớn. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_4",
+      "type": "multiple_choice",
+      "content": "Thông điệp quản trị quan trọng nhất rút ra từ việc giải quyết rủi ro an ninh đối với doanh nghiệp là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Luôn dồn 100% tài chính cho phòng IT để tự sửa chữa"
+        },
+        {
+          "key": "B",
+          "text": "Đây là bài toán sống còn quản trị của ban giám đốc"
+        },
+        {
+          "key": "C",
+          "text": "Ngừng tất cả quy trình bán hàng trực tuyến mọi lúc"
+        },
+        {
+          "key": "D",
+          "text": "Chỉ đưa ra phương án khi chính phủ vào cuộc điều tra"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Đây là bài toán sống còn quản trị của ban giám đốc. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_5",
+      "type": "multiple_choice",
+      "content": "Tại sao yếu tố con người lại có thể bị \"hack\" trong môi trường phòng vệ của doanh nghiệp?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bị lừa bởi các kỹ thuật thao túng đánh lừa tâm lý"
+        },
+        {
+          "key": "B",
+          "text": "Do máy tính cá nhân ở nhà cài đặt hệ điều hành cũ"
+        },
+        {
+          "key": "C",
+          "text": "Vì thiết bị chuyển phát tín hiệu không được mã hóa"
+        },
+        {
+          "key": "D",
+          "text": "Do hệ thống tín hiệu wifi bị theo dõi vị trí hoạt động"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Bị lừa bởi các kỹ thuật thao túng đánh lừa tâm lý. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_6",
+      "type": "multiple_choice",
+      "content": "Cột trụ \"Quy trình\" trong mô hình nền tảng phòng thủ IA thực hiện tác dụng chức năng gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lắp đặt hệ thống phần mềm diệt malware tiên tiến nhất"
+        },
+        {
+          "key": "B",
+          "text": "Kết nối trực tiếp nhanh chóng với khách hàng trực tuyến"
+        },
+        {
+          "key": "C",
+          "text": "Là bộ \"luật lệ\" giúp phân quyền minh bạch và ứng phó vụ việc"
+        },
+        {
+          "key": "D",
+          "text": "Phân chia đánh giá mức xếp loại thu nhập của từng nhân viên"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Là bộ \"luật lệ\" giúp phân quyền minh bạch và ứng phó vụ việc. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_7",
+      "type": "multiple_choice",
+      "content": "Điều gì sẽ xảy ra nếu doanh nghiệp chỉ giữ được 2 góc của Tam giác bảo mật CIA và 1 góc bị thủng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doanh nghiệp chỉ rò rỉ thất thoát 30% doanh thu hàng năm"
+        },
+        {
+          "key": "B",
+          "text": "Hệ thống phần mềm vẫn tạm thời hoạt động được bình thường"
+        },
+        {
+          "key": "C",
+          "text": "Vẫn giữ vững đảm bảo được uy tín cốt lõi lớn với khách hàng"
+        },
+        {
+          "key": "D",
+          "text": "Toàn bộ khối niềm tin và giá trị giao dịch cốt lõi sẽ sụp đổ"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Toàn bộ khối niềm tin và giá trị giao dịch cốt lõi sẽ sụp đổ. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_8",
+      "type": "multiple_choice",
+      "content": "Tính Bảo mật (Confidentiality) trong Tam giác CIA có chứa nguyên tắc yêu cầu tối thượng là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tất cả mọi đối tác đều sẽ có thể xem toàn bộ trên hệ thống"
+        },
+        {
+          "key": "B",
+          "text": "Chỉ những nhân sự con người được cấp phép mới được xem"
+        },
+        {
+          "key": "C",
+          "text": "Dữ liệu quan trọng phải được sao lưu trên rất nhiều máy chủ"
+        },
+        {
+          "key": "D",
+          "text": "Thông tin khách hàng tuyệt đối không bao giờ bị đưa ra ngoài"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Chỉ những nhân sự con người được cấp phép mới được xem. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_9",
+      "type": "multiple_choice",
+      "content": "Tính Toàn vẹn (Integrity) trong Tam giác bảo mật CIA nhằm đảm bảo quy định điều gì lớn nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hệ thống trang có thời gian tỷ lệ Uptime đạt tới mức trên 99.99%"
+        },
+        {
+          "key": "B",
+          "text": "Dữ liệu là sự thật hoàn toàn tuyệt đối và không bị phép cắt xén"
+        },
+        {
+          "key": "C",
+          "text": "Mật khẩu khách thanh toán hàng được phân hóa biến thành ký tự"
+        },
+        {
+          "key": "D",
+          "text": "Máy cá nhân ngăn chặn tuyệt đối một cách hoàn toàn các dạng mã độc"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Dữ liệu là sự thật hoàn toàn tuyệt đối và không bị phép cắt xén. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_10",
+      "type": "multiple_choice",
+      "content": "Mánh khóe dùng kỹ thuật thay đổi giá bán iPhone từ 30 triệu xuống 0đ nhằm tấn công vào tính chất nào của CIA Triad?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tính Chất Công khai"
+        },
+        {
+          "key": "B",
+          "text": "Tính Chất Sẵn sàng"
+        },
+        {
+          "key": "C",
+          "text": "Tính Chất Bảo mật"
+        },
+        {
+          "key": "D",
+          "text": "Tính Chất Toàn vẹn"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Tính Chất Toàn vẹn. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_11",
+      "type": "multiple_choice",
+      "content": "Công cụ nào luôn thường được sử dụng nhiều nhất nhằm chống lại sự thay đổi trái phép bảo vệ Tính Toàn vẹn dữ liệu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hệ máy chủ cài đặt tường lửa"
+        },
+        {
+          "key": "B",
+          "text": "Loại phần mềm chống lọc thư rác"
+        },
+        {
+          "key": "C",
+          "text": "Sử dụng Hàm băm dữ liệu Hashing"
+        },
+        {
+          "key": "D",
+          "text": "Thiết bị lưu trữ bằng dạng USB rời"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Sử dụng Hàm băm dữ liệu Hashing. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_12",
+      "type": "multiple_choice",
+      "content": "Theo bài học khi thông tin đơn hàng TMĐT đi qua cỗ \"máy xay thịt\" hàm băm Hashing thì nó sẽ tạo ra kết quả gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Một file văn bản hóa đơn điện tử PDF in ấn xuất ra ngay lập tức"
+        },
+        {
+          "key": "B",
+          "text": "Một luồng chuỗi ký tự mật mã độc nhất và không thể thay đảo ngược"
+        },
+        {
+          "key": "C",
+          "text": "Một dạng đoạn tin nhắn tự động SMS điện thoại xác nhận thành công"
+        },
+        {
+          "key": "D",
+          "text": "Một dạng mã vùng QR code định danh để quét mã khi shipper giao hàng"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Một luồng chuỗi ký tự mật mã độc nhất và không thể thay đảo ngược. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_13",
+      "type": "multiple_choice",
+      "content": "Tính Sẵn sàng (Availability) trong CIA có đặc trưng bản chất là gì đối với nền tảng kinh doanh TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bảo chứng ẩn đi toàn bộ địa chỉ thông tin IP của bộ máy doanh nghiệp"
+        },
+        {
+          "key": "B",
+          "text": "Khởi tạo mã hóa lớp thông tin thẻ đối với lại khách hàng nạp giao dịch"
+        },
+        {
+          "key": "C",
+          "text": "Bảo đảm toàn bộ máy chủ website luôn luôn khả dụng lên tới mức 99.99%"
+        },
+        {
+          "key": "D",
+          "text": "Ẩn khóa không chủ trương chia sẻ danh sách thành viên khách hàng bảo mật"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Bảo đảm toàn bộ máy chủ website luôn luôn khả dụng lên tới mức 99.99%. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_14",
+      "type": "multiple_choice",
+      "content": "Cuộc tấn công gửi thông tin từ chối dịch vụ (DDoS) nhằm chủ đích đánh sập làm treo máy chủ sẽ dẫn đến việc làm vi phạm tính chất nào của tam giác?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tính năng Trọn vẹn"
+        },
+        {
+          "key": "B",
+          "text": "Tính năng Sẵn sàng"
+        },
+        {
+          "key": "C",
+          "text": "Tính năng Bảo mật"
+        },
+        {
+          "key": "D",
+          "text": "Tính năng Định danh"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Tính năng Sẵn sàng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_15",
+      "type": "multiple_choice",
+      "content": "Vũ khí sử dụng phòng vệ nào được cho là giải pháp hiệu quả nhất để chống lại rủi ro làm mất Tính Sẵn sàng do DDoS gây ra?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thiết lập biến Hàm Hashing tích hợp nhận diện xác thực các loại dạng chữ ký"
+        },
+        {
+          "key": "B",
+          "text": "Thiết lập cơ chế mã hóa cấu trúc dữ liệu rất phức tạp theo nhiều hệ phân tầng"
+        },
+        {
+          "key": "C",
+          "text": "Chiến lược kết hợp song song hệ thống các máy chủ dự phòng và Phân tách tải"
+        },
+        {
+          "key": "D",
+          "text": "Hành động dọn xóa làm mới đi các dạng thẻ thông tin đối tượng người truy cập"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Chiến lược kết hợp song song hệ thống các máy chủ dự phòng và Phân tách tải. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_16",
+      "type": "multiple_choice",
+      "content": "Trong \"Chiến lược cấu trúc Phòng thủ Chiều sâu\" mô hình (Defense in Depth) được giảng giải thì ở vị trí trung tâm lõi trong cùng là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khối chuỗi mã nguồn lập trình của website"
+        },
+        {
+          "key": "B",
+          "text": "Tài sản Dữ liệu của đối tượng những khách hàng"
+        },
+        {
+          "key": "C",
+          "text": "Khối phần mềm tường lửa an ninh của máy chủ"
+        },
+        {
+          "key": "D",
+          "text": "Dàn máy phát tín hiệu mạng Internet không dây"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Tài sản Dữ liệu của đối tượng những khách hàng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_17",
+      "type": "multiple_choice",
+      "content": "Tại sao mô hình chiến lược phòng thủ Defense in Depth lại bắt buộc cần phải xây dựng rất nhiều lớp rào chắn bảo vệ ngăn cản chồng lên liên tục nhau?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bởi vì cho tới hiện tại chưa chứng minh có một phần mềm hay một cánh cửa phòng ngự mạng nào là bất khả xâm phạm tuyệt đối."
+        },
+        {
+          "key": "B",
+          "text": "Bởi vì theo quy định ràng buộc của những đối tác bán ứng dụng bảo mật luôn hướng dẫn bắt ép phải kích hoạt mua đủ trọn bộ."
+        },
+        {
+          "key": "C",
+          "text": "Bởi vì với riêng mỗi một lớp rào che phủ bảo vệ như vậy lại phải tương thích đọc sử dụng với một ngôn ngữ xây dựng website."
+        },
+        {
+          "key": "D",
+          "text": "Bởi vì theo cơ cấu hành chính quy mô bộ phận nhân sự IT trực thuộc công ty luôn rất đông nên phải phân chia ra nhiều tầng."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Bởi vì cho tới hiện tại chưa chứng minh có một phần mềm hay một cánh cửa phòng ngự mạng nào là bất khả xâm phạm tuyệt đối.. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_18",
+      "type": "multiple_choice",
+      "content": "Lớp Tường lửa hệ điều hành chung và Hệ thống nhận diện phát hiện sự xâm nhập mã độc (IDS) được xếp vào cấp rào cản phòng vệ thứ mấy theo tên gọi?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Xếp thuộc vào cấp độ Lớp hệ thống Thiết bị cuối kết nối"
+        },
+        {
+          "key": "B",
+          "text": "Xếp thuộc vào cấp độ Lớp truyền tải Mạng lưới trực tuyến"
+        },
+        {
+          "key": "C",
+          "text": "Xếp thuộc vào cấp độ Lớp quản trị Chính sách nội bộ gốc"
+        },
+        {
+          "key": "D",
+          "text": "Xếp thuộc vào cấp độ Lớp phần mềm Ứng dụng chức năng"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Xếp thuộc vào cấp độ Lớp truyền tải Mạng lưới trực tuyến. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_19",
+      "type": "multiple_choice",
+      "content": "Nếu qua được tường lửa, hacker sẽ phải đối mặt với \"Lớp Thiết bị cuối (Lớp Endpoint)\". Vậy cụ thể lớp bảo vệ này thực chất thường là đại diện cho hệ thống gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dàn cửa kính sử dụng dạng khóa nhận diện cơ học bảo vệ cho khu vực phòng làm việc."
+        },
+        {
+          "key": "B",
+          "text": "Kiến trúc quy chế hệ điều hành nền tảng lõi sâu bên trong các bộ khung nhận máy chủ."
+        },
+        {
+          "key": "C",
+          "text": "Đại diện bằng chính các ứng dụng phần mềm chống mã độc cài tại máy laptop nhân sự."
+        },
+        {
+          "key": "D",
+          "text": "Nơi lưu giữ các cuống giấy ghi chú có nội dung lưu lại tất cả hệ quy tắc phân bố mạng."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Đại diện bằng chính các ứng dụng phần mềm chống mã độc cài tại máy laptop nhân sự.. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_20",
+      "type": "multiple_choice",
+      "content": "Rào cản phòng vệ vị trí nằm phía ngoài cùng bao quanh trên cùng với vai trò ngăn chặn đứng các tay tin tặc theo mô hình bảo vệ qua lớp chiều sâu là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lớp cấu trúc Mạng lưới truyền tải cơ bản (Network)"
+        },
+        {
+          "key": "B",
+          "text": "Lớp thủ tục hình thành nên Chính sách chung (Policy)"
+        },
+        {
+          "key": "C",
+          "text": "Lớp máy móc phần cứng của hệ Thiết bị nhánh (Endpoint)"
+        },
+        {
+          "key": "D",
+          "text": "Lớp khai phá phân loại cơ sở kho Dữ liệu thô (Datalake)"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Lớp thủ tục hình thành nên Chính sách chung (Policy). Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_21",
+      "type": "multiple_choice",
+      "content": "Theo triết lý đúc kết bài học về thiết lập bảo mật trực tuyến thì vấn đề an toàn bảo vệ vòng loại thông tin nên được các cấp lãnh đạo nhìn nhận và định nghĩa đánh giá rủi ro như thế nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Là việc doanh thu chỉ cần nạp vốn trực tiếp mua sỉ những giải pháp chống đỡ chuyên sâu"
+        },
+        {
+          "key": "B",
+          "text": "Là một đích đến cụ thể tĩnh lặng cho thấy hệ thống đang vận hành hoàn toàn ổn định tối"
+        },
+        {
+          "key": "C",
+          "text": "Trở thành một quy trình hành trình tự động bổ túc nâng cấp mở rộng liên tục để sinh tồn"
+        },
+        {
+          "key": "D",
+          "text": "Đóng thành dạng chức năng ngắt kết nối cô lập không trao đổi cho toàn bộ các cá nhân"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Trở thành một quy trình hành trình tự động bổ túc nâng cấp mở rộng liên tục để sinh tồn. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_2_22",
+      "type": "multiple_choice",
+      "content": "Theo các cách phân loại và chức năng đánh giá thành phần trong bài giảng thì tùy chọn nội dung nào sau đây vốn KHÔNG phải được coi và nhắc như là một góc cốt lõi để duy trì hoạt động của tam giác bảo mật CIA?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tính năng kiểm soát thuộc yếu tố Bảo mật chống trộm rò rỉ cơ sở dữ liệu (Yếu tố dạng Confidentiality)"
+        },
+        {
+          "key": "B",
+          "text": "Đảm bảo quá trình kiểm xuất lưu thông lượng đáp ứng Tính Sẵn sàng cung cấp dịch vụ (Yếu tố dạng Availability)"
+        },
+        {
+          "key": "C",
+          "text": "Hệ điều kiện đảm bảo kiểm chứng đo lường thực trạng biểu hiện cho Tính Tiết kiệm lợi tức (Yếu tố dạng Cost-Saving)"
+        },
+        {
+          "key": "D",
+          "text": "Tái thiết quy chuẩn chống chỉnh sửa để giữ vững đặc điểm của Tính Toàn vẹn hệ thống (Yếu tố dạng Integrity)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Hệ điều kiện đảm bảo kiểm chứng đo lường thực trạng biểu hiện cho Tính Tiết kiệm lợi tức (Yếu tố dạng Cost-Saving). Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

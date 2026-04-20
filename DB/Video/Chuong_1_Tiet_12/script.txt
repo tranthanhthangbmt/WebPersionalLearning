@@ -1,0 +1,105 @@
+﻿Slide 1: KHỞI ĐỘNG - TỪ TƯ DUY ĐẾN THỰC THI (TIẾT 12)
+Người 1: Chào các bạn sinh viên lớp BA24M. Ở các tiết 10 và 11 trước đây, chúng ta đã đi sâu vào lý thuyết các mô hình kinh doanh và cấu trúc nền tảng. Hôm nay, ở tiết 12 này, chúng ta sẽ “xắn tay áo” lên để thực chiến. Mời các em nhìn lên Slide 1: “Khởi động: Từ Tư duy đến Thực thi”. thầy có một câu hỏi khởi động: Theo các em, mở một gian hàng online trên sàn TMĐT mất bao lâu?
+Người 2: Dạ, theo em nếu chỉ tải app và đăng ký tài khoản bằng số điện thoại thì chắc thao tác chỉ mất chừng 5 phút thôi ạ.
+Người 1: Rất chính xác! Mở gian hàng online chỉ mất 5 phút, đó là bề nổi của tảng băng chìm. Nhưng thông điệp cốt lõi mà chương trình muốn gửi đến dân Quản trị kinh doanh BA24M chúng ta là: “Để vận hành nó, cần sự chuẩn bị của một doanh nghiệp thực thụ”. Lấy ví dụ thực tế nhé: Một bạn sinh viên trong lớp nảy ra ý tưởng bán áo thun in logo câu lạc bộ. Lập nick Shopee mất 5 phút. Nhưng để bán được 1.000 cái áo, em phải có tư duy quản trị: tìm xưởng may ở đâu, ai chịu trách nhiệm gói hàng, xử lý hàng hoàn thế nào, và làm sao chạy quảng cáo để sinh viên toàn trường biết đến. Đó là ranh giới giữa “người mở gian hàng” và “nhà quản trị kinh doanh”. Hôm nay, chúng ta sẽ đi giải quyết trọn vẹn quy trình 4 bước Onboarding và mổ xẻ các góc khuất về pháp lý, chi phí nhé!
+
+Slide 2: BẢN ĐỒ ONBOARDING - 4 BƯỚC ĐƯA DOANH NGHIỆP LÊN MÂY
+Người 1: Chúng ta cùng chuyển sang Slide 2. Đây chính là tấm bản đồ dẫn đường - quy trình Onboarding. Nó là quá trình người bán đăng ký, xác minh và thiết lập gian hàng để sẵn sàng kinh doanh. Nhìn lên sơ đồ, các em sẽ thấy 4 bước tuần tự: (1) Đăng ký -> (2) Xác minh -> (3) Thiết lập vận hành -> (4) Đăng tải sản phẩm. Bạn nào thử áp dụng 4 bước này cho một doanh nghiệp thực tế xem nào?
+Người 2: Dạ, em xin lấy ví dụ về chuỗi thời trang YODY khi họ đưa cửa hàng lên sàn thương mại điện tử ạ.
+• Bước 1 (Đăng ký): Họ phải tạo một tài khoản doanh nghiệp.
+• Bước 2 (Xác minh): Họ tải lên giấy chứng nhận đăng ký doanh nghiệp của công ty YODY.
+• Bước 3 (Thiết lập): Họ phải kết nối hệ thống kho hàng tại Hải Dương với đơn vị vận chuyển như J&T Express, đồng thời thêm số tài khoản công ty để sàn chuyển tiền về.
+• Bước 4 (Đăng tải): Đội ngũ Marketing sẽ up hình ảnh các bộ sưu tập áo polo mới nhất kèm mô tả chuẩn SEO lên gian hàng.
+Người 1: Một ví dụ “bắt bệnh” cực kỳ chuẩn xác! Các em thấy đấy, nhìn 4 bước thì ngắn gọn, nhưng mỗi bước lại đòi hỏi những nghiệp vụ rất chuyên sâu. Giờ chúng ta sẽ cùng bóc tách chi tiết từng bước một.
+
+Slide 3: BƯỚC 1: CHUẨN BỊ HỒ SƠ - CÁ NHÂN HAY DOANH NGHIỆP?
+Người 1: Mời cả lớp nhìn Slide 3 - Bước chuẩn bị hồ sơ. Trước khi click nút “Đăng ký bán hàng”, các em phải định vị ngay mình thuộc nhóm nào: Bán theo kiểu Cá nhân (C2C) hay mở hệ thống Doanh nghiệp/Mall (B2C)? Tùy vào định vị mà bộ hồ sơ chuẩn bị sẽ rẽ ra hai hướng khác biệt.
+Người 2: thầy ơi, giả sử cuối năm em dọn tủ và chỉ muốn mang vài chiếc váy cũ ra bán thanh lý thì hồ sơ có phức tạp không ạ?
+Người 1: Câu hỏi rất thực tế! Nếu em chỉ dọn tủ và bán “Thanh lý”, em thuộc nhóm Cá nhân. Yêu cầu gia nhập cực kỳ đơn giản: Em chỉ cần cung cấp Số điện thoại, Email, chụp CMND/CCCD hoặc Hộ chiếu và điền tài khoản ngân hàng mang tên em là xong. Nhưng nếu em là CEO của thương hiệu mỹ phẩm thuần chay Cocoon, em muốn mở gian hàng Shopee Mall để khẳng định vị thế và hàng chính hãng thì sao?
+Người 2: Em đoán lúc đó sàn sẽ yêu cầu tính chuyên nghiệp cao hơn, kiểu như phải nộp Giấy phép kinh doanh để chứng minh công ty có thật đúng không ạ?
+Người 1: Rất đúng, nhưng chưa đủ! Đối với gian hàng Mall, yêu cầu cực kỳ phức tạp. Ngoài Giấy phép đăng ký kinh doanh và Mã số thuế, em bắt buộc phải có “Giấy ủy quyền thương hiệu”. Cụ thể, để Cocoon mở Mall, họ phải nộp Giấy chứng nhận đăng ký nhãn hiệu do Cục Sở hữu trí tuệ cấp, hoặc nếu bán hàng nhập khẩu thì phải có Hợp đồng phân phối độc quyền. Sàn bảo vệ người tiêu dùng rất kỹ ở khâu này!
+
+Slide 4: BƯỚC 2: e-KYC VÀ HÀNG RÀO BẢO VỆ NIỀM TIN
+Người 1: Qua được vòng hồ sơ, chúng ta tiến vào “cửa ải bảo mật” ở Slide 4: e-KYC. Chữ KYC (Know Your Customer) trong ngân hàng rất quen thuộc, nhưng trên sàn TMĐT, nó đóng vai trò là hàng rào bảo vệ niềm tin. Nó giúp sàng lọc kẻ lừa đảo, ngăn chặn nạn hàng giả và đảm bảo tuân thủ luật chống rửa tiền. Theo các em, việc xác minh danh tính bây giờ diễn ra như thế nào?
+Người 2: Đợt trước em có thử đăng ký bán hàng trên nền tảng TikTok Shop. Hệ thống không chỉ yêu cầu em chụp ảnh Căn cước công dân 2 mặt rõ nét, mà nó còn bắt em bật camera trước lên, yêu cầu quay mặt sang trái, sang phải, rồi nháy mắt để khớp Face ID với ảnh trên giấy tờ nữa ạ.
+Người 1: Cảm ơn trải nghiệm rất quý báu của em! Đó chính là công nghệ e-KYC. Tại sao sàn phải bắt em quay trái quay phải? Để chống lại vấn nạn các băng nhóm lừa đảo lấy cắp hình ảnh CCCD trên mạng để lập các “shop rác”, chiếm đoạt tiền của khách. Thậm chí, nếu dân BA24M chúng ta muốn vươn ra toàn cầu với Amazon Global Selling, quy trình này còn khốc liệt hơn: Sàn sẽ yêu cầu gọi Video Call trực tiếp bằng tiếng Anh, bắt em đưa mặt sát camera, sau đó phải nộp cả sao kê ngân hàng hoặc hóa đơn tiền điện nước để chứng minh địa chỉ xưởng của em ở Việt Nam là có thật. Thương mại điện tử là kinh doanh niềm tin, và e-KYC chính là người gác đổng cho niềm tin đó!
+
+Slide 5: BƯỚC 3 - THIẾT LẬP “MẠCH MÁU” VẬN HÀNH
+Người 1: Tuyệt vời, sau khi đã vượt qua vòng kiểm duyệt hồ sơ khắt khe với e-KYC, chúng ta bước sang Slide 5: Bước 3 - Thiết lập “Mạch máu” Vận hành. Tại sao thầy lại gọi đây là mạch máu? Bởi vì nếu hàng không đi, tiền không về, thì doanh nghiệp sẽ “chết lâm sàng”. Chúng ta có hai dòng chảy chính cần thiết lập là Logistics (dòng chảy hàng hóa) và Payment (dòng chảy tiền tệ).
+Người 2: Về logistics, em thấy khi mua hàng Shopee, có đơn thì shipper J&T giao, có đơn lại là Giao Hàng Tiết Kiệm hoặc SPX Express. Vậy là do shop tự chọn đơn vị vận chuyển (3PL) đúng không thầy?
+Người 1: Đúng vậy em. Shop sẽ phải thiết lập địa chỉ kho lấy hàng (Pick-up address) hoặc gửi hàng vào kho của sàn (FBL/FBA). Ví dụ, nhóm các em khởi nghiệp làm xưởng đồ gỗ mini ngay tại Buôn Ma Thuột. Các em cài đặt địa chỉ lấy hàng tại xưởng, và chọn đối tác Viettel Post hoặc GHTK vì họ mạnh ở khoản chở hàng cồng kềnh. Còn về dòng tiền, sau khi liên kết tài khoản ngân hàng , sàn bắt buộc các em phải thiết lập Mã PIN cho số dư tài khoản. Có ai biết tại sao không?
+Người 2: Dạ, để bảo mật bắt buộc để rút tiền ạ. Lỡ có ai hack được mật khẩu nick Shopee của em thì cũng không rút được tiền về thẻ của họ nếu không có mã PIN 6 số này.
+Người 1: Rất nhạy bén! Đó là lớp khiên bảo vệ tài sản cuối cùng.
+
+Slide 6: BƯỚC 4 - KỸ THUẬT ĐĂNG TẢI & TỐI ƯU SEO
+Người 1: Mạch máu đã thông, giờ là lúc bày hàng lên kệ. Mời lớp nhìn Slide 6: Bước 4 - Kỹ thuật Đăng tải và Tối ưu SEO. Đừng nghĩ cứ chụp đại tấm hình rồi quăng lên là có người mua. Phải có công thức! Hãy nhìn vào công thức đặt tên chuẩn SEO: [Loại sản phẩm] + [Thương hiệu] + [Model/Tính năng] + [Kích thước/Màu sắc].
+Người 2: Thầy ơi, trước em đăng bán quần áo trên mạng, em chỉ ghi là “Áo thun đẹp”. Chả thấy ai vào xem cả. Như vậy là bị đánh giá là Amateur (Sai lầm nghiệp dư) đúng không ạ?
+Người 1: Chuẩn luôn! Ghi “Áo thun đẹp” thì quá chung chung, trên sàn không ai tìm kiếm bằng từ khóa đó cả. Nhưng nếu em là một nhà bán hàng Professional (Chuyên nghiệp) , áp dụng đúng công thức, em sẽ đặt tên đầy đủ từ khóa, dễ tìm. Ví dụ: “Áo thun nam Adidas cổ tròn chất cotton thoáng mát màu đen Size L”. Về mặt hình ảnh (Visual Standard), các em phải dùng ảnh tỷ lệ 1:1, nền trắng và nhớ rằng video là yếu tố then chốt để khách hàng chốt đơn. Đừng quên phần mô tả (Description) phải cung cấp chi tiết thông số kỹ thuật, hướng dẫn sử dụng và chính sách bảo hành nhé.
+
+
+Slide 7: TRANG TRÍ GIAN HÀNG - TRẢI NGHIỆM & NHẬN DIỆN
+Người 1: Bày hàng xong, muốn bán được giá cao thì phải “làm hình ảnh”. Mời các em sang Slide 7. Hai bức ảnh “Before” và “After” trên slide cho thấy sự lột xác từ một “Shop tạp hóa online lộn xộn” thành một “Showroom cao cấp” hay còn gọi là Flagship Store.
+Người 2: Cái này em công nhận ạ. Bữa em tính mua mỹ phẩm, vào một shop nhìn lộn xộn không có banner gì cả, em sợ hàng fake nên thoát ra luôn. Xong em vào trang của L’Oréal, thấy giao diện sang trọng, bố cục rất rõ ràng.
+Người 1: Trải nghiệm của em chính là Case Study của L’Oréal Export Foppes trên sàn Lazada mà thầy đưa vào slide. Họ dùng tông màu đồng nhất, bố cục chuyên nghiệp tạo ra niềm tin giá trị cao. Việc này làm bằng cách nào? Chỉ cần sử dụng trình thiết kế kéo-thả do chính sàn cung cấp. Mục tiêu tối thượng của việc trang trí này không chỉ là tăng độ nhận diện thương hiệu, mà còn để kéo dài “Time on site” (thời gian khách hàng lưu lại trang).
+
+
+Slide 8: CẤU TRÚC CHI PHÍ - CÁI GIÁ CỦA VIỆC “LÊN SÀN”
+Người 1: Và bây giờ, phần “đẫm máu” nhất đối với dân kinh doanh BA24M. Slide 8: Cấu trúc Chi phí - Cái giá của việc “Lên Sàn”. Hãy nhìn hình ảnh tảng băng chìm này. Một nguyên tắc sống còn: Doanh thu bán hàng hiển thị trên App không bằng số tiền thực nhận về túi.
+Người 2: Ủa thầy, bán được cái đơn 100 ngàn thì tiền về thẻ em không được 100 ngàn ạ? Vậy sàn thu những phí gì ẩn dưới tảng băng kia vậy thầy?
+Người 1: Để thầy tính bài toán thực tế cho em sợ nhé. Em bán một món hàng giá 100.000đ.
+• Thứ nhất, Phí thanh toán (Payment Fee): ngân hàng cắn của em khoảng 2-3%.
+• Thứ hai, Phí cố định (Commission Fee): Nếu em lên Shopee Mall hoặc làm Shop lớn, sàn thu thêm khoảng 1-5%.
+• Thứ ba, Phí dịch vụ (Service Fee): Em muốn đăng ký gói Freeship Extra hoặc Hoàn xu để thu hút khách, mất thêm khoảng 5-7% nữa.
+• Cuối cùng là Phí Marketing: Bao gồm chi phí chạy quảng cáo (đấu thầu từ khóa) và tiền thuê mẫu Livestream.
+Người 2: Trời ơi, tính sơ sơ sàn đã gặm mất mười mấy hai chục phần trăm doanh thu rồi. Nếu em nhập hàng giá 70.000đ, bán 100.000đ, tưởng lãi 30k mà trừ hết đống phí này chắc làm không công mất!
+Người 1: Đó chính là lý do thầy đưa slide này vào! Người bán cần phải nắm thật rõ cấu trúc chi phí để tính toán lợi nhuận ròng chính xác. Nếu chỉ lo đua top “ngàn đơn” mà không tính biên độ lợi nhuận bao gồm cả phí sàn, các em càng bán nhiều sẽ càng lỗ nặng.
+
+Slide 9: CHIẾN LƯỢC MỞ RỘNG - BÁN HÀNG XUYÊN BIÊN GIỚI
+Người 1: Sau khi đã vững chân ở thị trường nội địa, một nhà quản trị BA24M phải nghĩ đến việc “vượt biển”. Mời các em xem Slide 9: Chiến lược Mở rộng: Bán hàng Xuyên biên giới. Đây là cơ hội tuyệt vời để đưa hàng “Make in Vietnam” ra toàn cầu thông qua Amazon hoặc Alibaba. Nhưng “miếng bánh” này không hề dễ xơi. Theo các em, rào cản lớn nhất là gì?
+Người 2: Em nghĩ chắc là khâu vận chuyển và ngôn ngữ ạ. Bán sang Mỹ thì tiền ship có khi đắt hơn tiền hàng.
+Người 1: Rất đúng, nhưng chưa đủ “đô” với một doanh nghiệp. Nhìn lên slide, chúng ta có 3 rào cản cốt lõi. Thứ nhất là Pháp lý: Em bán thực phẩm vào Mỹ thì bắt buộc phải tuân thủ luật sở tại, ví dụ như chứng nhận FDA, hoặc bán sang Châu Âu thì phải lo thuế VAT. Thứ hai là Logistics: Quy trình gửi hàng vào kho Amazon FBA phức tạp và tốn kém hơn nội địa rất nhiều. Cuối cùng là Văn hóa & Ngôn ngữ: Thách thức lớn nằm ở việc dịch thuật listing chuẩn bản địa và chăm sóc khách hàng (CSKH) quốc tế. Các em không thể dùng Google Dịch bồi để bán hàng cho người Mỹ được!
+
+
+Slide 10: CHỈ SỐ VẬN HÀNH - BẢNG ĐIỂM SỨC KHỎE SHOP
+Người 1: Chúng ta quay lại với việc vận hành hàng ngày ở Slide 10: Chỉ số Vận hành - Bảng điểm Sức khỏe Shop. Giống như đi khám sức khỏe định kỳ, việc theo dõi hiệu suất giúp đảm bảo hoạt động kinh doanh ổn định và phát triển trên sàn. Sàn có một hệ thống chấm điểm cực kỳ khắt khe.
+Người 2: Thầy ơi, em thấy có cái “Tỷ lệ đơn không thành công”. Lỡ khách tự hủy thì mình có bị phạt không ạ?
+Người 1: Khách hủy vì đổi ý thì không sao, nhưng nếu em phải tối thiểu hóa việc hủy đơn do nguyên nhân hết hàng hoặc lỗi từ phía shop. Nếu hủy nhiều, em sẽ dính Điểm Sao quả tạ (Penalty Points) - đây là hệ thống phạt của Shopee, vi phạm sẽ bị giảm hiển thị. Ngoài ra, Tỷ lệ phản hồi chat phải đạt yêu cầu >85%, phải trả lời nhanh để giữ khách. Thời gian chuẩn bị hàng (Lead Time) cũng phải tuân thủ, bàn giao cho shipper trong 24h-48h. Ví dụ dịp 11/11 nổ 1000 đơn mà xưởng em không đóng gói kịp trong 48h, sàn sẽ tự động hủy đơn và shop em sẽ “ăn” đủ sao quả tạ, tháng sau khỏi bán luôn!
+
+
+Slide 11: BÃI MÌN PHÁP LÝ & CÁC LỖI THƯỜNG GẶP
+Người 1: Mời cả lớp nhìn thật kỹ Slide 11: Bãi mìn Pháp lý & Các lỗi Thường gặp. Đây là những lỗi có thể khiến shop bị khóa vĩnh viễn, bao nhiêu công sức xây dựng đổ sông đổ biển. Có 3 “bãi mìn” lớn. Bạn nào thử phân tích lỗi “Lôi kéo khách hàng” (Platform Poaching) xem nào?
+Người 2: Theo slide ghi là “Yêu cầu khách hủy đơn trên sàn để giao dịch ngoài”. Chắc sàn sợ bị mất phí hoa hồng nên cấm đúng không thầy?
+Người 1: Chính xác! Sàn đổ hàng tỷ đồng chạy quảng cáo kéo khách về, em lại nhắn tin Zalo xúi khách ra ngoài mua cho rẻ để né phí. Nếu AI của sàn quét được, hậu quả đây là vi phạm nghiêm trọng nhất, cấm hoạt động ngay lập tức. Ngoài ra, còn lỗi Vi phạm Sở hữu trí tuệ (IP) như đăng bán hàng hiệu (Nike, Adidas…) nhưng không có giấy ủy quyền, hậu quả cũng là khóa shop vĩnh viễn. Hoặc lỗi Gian lận Danh mục, cố tình đăng sai danh mục để né phí hoặc tìm traffic, hậu quả là sản phẩm bị xóa hoặc ẩn.
+
+
+Slide 12: SO SÁNH CHIẾN LƯỢC - SÀN NỘI ĐỊA VS. SÀN QUỐC TẾ
+Người 1: Chuyển sang Slide 12, chúng ta cùng làm một phép So sánh Chiến lược: Sàn Nội địa vs. Sàn Quốc tế. Bảng so sánh chỉ ra sự khác biệt một trời một vực giữa Shopee/Lazada (Việt Nam) và Amazon (Quốc tế).
+Người 2: Em thấy đăng ký ở VN thì dễ dàng, duyệt nhanh trong vài phút, còn Amazon lại phức tạp, duyệt lâu tính bằng ngày/tuần.
+Người 1: Đúng vậy! Ở VN em chỉ cần CMND/CCCD (cho tài khoản cá nhân), mở gian hàng miễn phí, yêu cầu IP tương đối lỏng (trừ Mall). Nhưng với Amazon, em phải chuẩn bị Hộ chiếu, Sao kê thẻ tín dụng, Hóa đơn tiện ích; trả phí duy trì 39.99 USD/tháng cho tài khoản chuyên nghiệp; và yêu cầu về IP rất nghiêm ngặt (Brand Registry). Khởi nghiệp quốc tế là một cuộc chơi cần vốn và sự chuẩn bị kỹ lưỡng!
+
+Slide 13: CHIẾN LƯỢC ĐA SÀN - KHÔNG BỎ TRỨNG MỘT GIỎ
+Người 1: Qua Slide 13: Chiến lược Đa sàn. Là nhà quản trị, nguyên tắc là đa dạng hóa kênh bán để giảm thiểu rủi ro phụ thuộc vào một sàn duy nhất. Mỗi sàn có một thế mạnh riêng.
+Người 2: Em hiểu rồi, ví dụ bán quần áo thì lên Shopee , bán sách thì lên Tiki. Vậy TikTok Shop thì sao ạ?
+
+Người 1: TikTok Shop cực mạnh về Video/Livestream, chốt đơn nhờ đánh vào cảm xúc, bán các sản phẩm trend tạo ra hành vi mua sắm ngẫu hứng (Impulse buying). Tuy nhiên, bán nhiều sàn thì dễ bị “loạn” kho. Lúc này, các em phải dùng Hệ thống Quản lý (như Sapo, KiotViet) để đồng bộ Tồn kho & Đơn hàng theo thời gian thực.
+
+Slide 14: BÀI TẬP TÌNH HUỐNG - STARTUP NÔNG SẢN VIỆT
+Người 1: Sau khi đi qua toàn bộ lý thuyết về vận hành, pháp lý và chi phí, bây giờ là lúc lớp BA24M chúng ta thực chiến! Mời các em nhìn lên Slide 14: Bài tập Tình huống: Startup Nông sản Việt. Giả sử lớp chúng ta đang cùng nhau khởi nghiệp một dự án mang tên "Hạt điều Bình Phước Xuất khẩu". Mục tiêu của chúng ta rất rõ ràng: Mở bán sản phẩm trên cả Shopee Việt Nam và Amazon Mỹ.
+Người 2: Chà, dự án này nghe "xịn" quá thầy ạ! Vừa đánh chiếm sân nhà vừa vươn ra quốc tế luôn. Vậy tụi em phải làm gì đây ạ?
+Người 1: Để làm được điều đó, thầy đặt ra cho các em 3 Nhiệm vụ Thách thức. Các nhóm có 5 phút để thảo luận và đưa ra câu trả lời cho các vấn đề sau:
+• Thứ nhất, về mặt Chiến lược: Các em sẽ xác định loại hình gian hàng nào phù hợp trên Shopee? Chọn Shop thường hay lên thẳng Mall, và tại sao? 
+• Thứ hai, về Pháp lý: Hãy liệt kê 3 loại giấy tờ quan trọng nhất để đăng ký Amazon Global Selling cho mặt hàng thực phẩm này. Đừng quên, bán đồ ăn sang Mỹ không giống như bán áo thun đâu nhé!
+• Thứ ba, về Tài chính: Hãy tính toán chi phí phải trả cho sàn Shopee đối với một đơn hàng trị giá 200.000 VNĐ. Giả định chúng ta phải chịu: Phí thanh toán là 2.5%, Phí cố định là 2%, và đăng ký gói Freeship Extra tốn thêm 6%.
+
+
+Slide 15: LỜI GIẢI & PHÂN TÍCH CHIẾN LƯỢC
+Người 1: Đã hết thời gian thảo luận! Bây giờ chúng ta cùng lật mở Slide 15: Lời giải & Phân tích Chiến lược để xem các "CEO tương lai" của lớp BA24M giải quyết bài toán này thế nào nhé. Đầu tiên, về Chiến lược trên Shopee. Nhóm nào chọn Shop thường? Nhóm nào chọn Shopee Mall?
+Người 2: Dạ, nhóm em chọn lên Shopee Mall ạ! Dù biết là hồ sơ khó hơn, nhưng đây là thực phẩm ăn trực tiếp vào người, khách hàng cần độ tin cậy tuyệt đối. Nếu có logo Mall, tụi em sẽ tránh được việc phải cạnh tranh giá rẻ với hàng trôi nổi kém chất lượng trên sàn.
+Người 1: Một tư duy định vị thương hiệu vô cùng xuất sắc! Đúng vậy, bán thực phẩm thì "Niềm tin" đắt giá hơn bất cứ thứ gì. Tiếp theo, nhiệm vụ số 2: Giấy tờ để lên Amazon Mỹ. Để qua được cửa ải này, chúng ta bắt buộc phải có 3 thứ: Một là Giấy phép kinh doanh (đã dịch thuật công chứng). Hai là Chứng nhận FDA, đây là tấm vé thông hành bắt buộc cho mọi loại thực phẩm muốn nhập cảnh vào Mỹ. Và ba là Sao kê tài khoản quốc tế (như Payoneer hoặc PingPong) để nhận tiền USD về Việt Nam.
+Bây giờ đến phần gay cấn nhất: Bài toán Chi phí cho đơn 200k. Hãy xem hóa đơn thanh toán của chúng ta. Với giá bán là 200.000đ:
+• Phí thanh toán (2.5%) sẽ lấy đi của chúng ta 5.000đ.
+• Phí cố định (2%) lấy đi 4.000đ.
+• Phí dịch vụ cho gói Freeship (6%) lấy thêm 12.000đ nữa. Vậy, tổng cộng các loại phí sàn là 21.000đ.
+Người 2: Vậy suy ra, doanh thu thực nhận chảy về túi tụi em chỉ còn đúng 179.000đ thôi đúng không thầy? Nếu giá vốn hạt điều của em đã là 170.000đ rồi thì bán cực khổ cả ngày, trả tiền nhân sự, tiền hộp carton xong là... lỗ ngược luôn!
+Người 1: Chính xác! Bài học quản trị ở đây là: Các em không được định giá sản phẩm chỉ dựa trên giá vốn, mà phải cộng toàn bộ cấu trúc chi phí ẩn này vào trước khi tung ra thị trường. Bán ngàn đơn mà không biết tính toán biên lợi nhuận thì thà không bán còn hơn!
+

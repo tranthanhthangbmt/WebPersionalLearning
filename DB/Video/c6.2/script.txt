@@ -1,0 +1,78 @@
+﻿Slide 1: MODULE 6: ỨNG DỤNG TRÍ TUỆ NHÂN TẠO - Thực Hành và Kiến Tạo Tương Lai với AI
+Người 1: Chào các em. Chào mừng các em đến với Module số sáu, mang tên: Ứng dụng Trí tuệ Nhân tạo - Thực hành và Kiến tạo tương lai với A-I. Bài học hôm nay sẽ cung cấp cho các em một bản thiết kế hoàn chỉnh về ứng dụng A-I tạo sinh, hay còn gọi là Gien-A-I.
+Người 2: Dạ thưa thầy, em thấy chủ đề hôm nay rất hấp dẫn. Có phải chúng ta không chỉ học về công nghệ, mà còn học cách tối ưu hóa sự hợp tác giữa con người và máy móc, cũng như nắm vững các khung nguyên tắc đạo đức cốt lõi khi sử dụng A-I không ạ?
+Người 1: Chính xác! Đó chính là chìa khóa để chúng ta làm chủ công nghệ thay vì bị công nghệ thay thế. Chúng ta hãy cùng bắt đầu nhé!
+ 
+Slide 2: TRÍ TUỆ NHÂN TẠO KHÔNG CÒN LÀ VIỄN TƯỞNG
+Người 1: Sang slide thứ hai, chúng ta cần khẳng định một điều: Trí tuệ nhân tạo không còn là câu chuyện viễn tưởng trên phim ảnh nữa. Trí tuệ nhân tạo, hay A-I, là công nghệ mô phỏng trí thông minh của con người được đặt vào máy móc, giúp chúng có khả năng học hỏi, suy luận và giải quyết vấn đề. Ví dụ đơn giản nhất là chiếc điện thoại thông minh biết nhận diện gương mặt em để mở khóa.
+Người 2: Thưa thầy, em hay nghe người ta nhắc đến Học máy và Học sâu. Hai khái niệm này có nằm trong A-I không ạ?
+Người 1: Câu hỏi rất hay. Em có thể hình dung A-I như một con búp bê Nga lớn nhất. Nằm bên trong nó là Học máy, hay Mơ-sin Lơn-ninh. Đây là nền tảng cho phép máy tự học từ dữ liệu mà không cần chúng ta phải lập trình chi tiết từng bước. Ví dụ như hệ thống tự động phân loại một email là thư rác hay thư quan trọng.
+Người 2: À, vậy lớp búp bê nhỏ nhất, nằm sâu bên trong Học máy chính là Học sâu, hay Đíp Lơn-ninh đúng không thầy? Em hiểu nó giống như việc máy tính sử dụng các mạng nơ-ron phức tạp, nhiều lớp để phân tích dữ liệu phi cấu trúc, giúp nhận dạng khuôn mặt hoặc hiểu giọng nói chính xác hơn.
+ 
+Slide 3: A-I ĐANG ĐỊNH HÌNH LẠI THẾ GIỚI QUANH TA
+Người 1: Đúng vậy em! Và chính những công nghệ này đang định hình lại thế giới quanh ta ở mọi lĩnh vực. Chẳng hạn trong y tế, A-I đang hỗ trợ các bác sĩ chẩn đoán bệnh sớm từ hình ảnh y khoa, giúp độ chính xác có thể cải thiện lên tới ba mươi phần trăm. Hay trong giao thông, A-I chính là xương sống của xe ô tô tự lái và hệ thống giao thông thông minh, giúp chúng ta giảm tới hai mươi phần trăm thời gian di chuyển trên đường.
+Người 2: Dạ, em còn thấy trong lĩnh vực tài chính, các ứng dụng ngân hàng bây giờ dùng A-I để phát hiện giao dịch gian lận rất nhanh, giúp quản lý rủi ro và tự động hóa các giao dịch với tần suất cao. Còn trong sản xuất thì các cánh tay rô-bốt thông minh trong dây chuyền lắp ráp ô tô giúp tăng năng suất và giảm thiểu sai sót đáng kể.
+Người 1: Rất thực tế! Sự hiện diện của A-I là không thể phủ nhận ở bất kỳ ngành nghề nào.
+ 
+Slide 4: VĂN BẢN - TỪ DỮ LIỆU THÔ ĐẾN TRI THỨC SÂU SẮC
+Người 1: Bây giờ chúng ta bước sang slide số bốn. Các em hãy thử nhớ lại xem, phương pháp xử lý tài liệu truyền thống của chúng ta tốn bao nhiêu thời gian? Thực tế, việc đọc và phân tích thủ công chiếm tới sáu mươi phần trăm tổng thời gian nghiên cứu của một người. Điều này cực kỳ thiếu linh hoạt.
+Người 2: Em công nhận ạ! Có những lúc phải đọc cả một xấp tài liệu dày cộp mà không tìm thấy ý chính. Vậy giải pháp ở đây là dùng Gien-A-I để cách mạng hóa việc xử lý văn bản, giúp tự động hóa tới tám mươi phần trăm các tác vụ lặp đi lặp lại đúng không thầy?
+Người 1: Hoàn toàn chính xác! Để thầy đưa ra vài con số cho em thấy sự khủng khiếp của công nghệ này. Gien-A-I có thể tóm tắt một tài liệu dài năm mươi trang chỉ trong vòng hai phút. Nó có thể trả lời chính xác một câu hỏi bất kỳ được rút ra từ một cuốn sách dày một ngàn trang. Không những thế, nó còn dịch thuật qua lại giữa một trăm ngôn ngữ khác nhau với độ chính xác lên tới chín mươi lăm phần trăm.
+ 
+Slide 5: HỆ SINH THÁI CÔNG CỤ GIEN-A-I VĂN BẢN
+Người 1: Với những sức mạnh đó, chúng ta có một hệ sinh thái các công cụ Gien-A-I tổng hợp dành riêng cho văn bản, được chia làm hai nhánh chính. Nhánh thứ nhất là: Xử lý, Phân tích và Sáng tạo.
+Người 2: Ở nhánh này em thấy có Nốt-búc Lờ-Mờ và Cờ-lốt (Claude) dùng để phân tích tài liệu chuyên sâu. Còn Chat-G-P-T thì lại cực kỳ giỏi trong việc đóng vai một trợ lý để soạn thảo email, viết bài đăng mạng xã hội hay lên các kịch bản ma-kết-tinh.
+Người 1: Tuyệt vời. Thế còn nhánh thứ hai: Tự động hóa và Khách hàng thì sao?
+Người 2: Nhánh này mang tính doanh nghiệp hơn ạ. Em thấy A-I có thể tự động phân loại một triệu email mỗi tháng và trích xuất những thông tin quan trọng nhất. Ngoài ra, nó còn tạo ra các Chatbot thương mại thông minh, đóng vai trò như nhân viên hỗ trợ khách hàng liên tục hai mươi tư trên bảy không biết mệt mỏi.
+Người 1: Phân tích rất hay! Việc nắm rõ hệ sinh thái này sẽ giúp các em biết cách chọn đúng công cụ, giải quyết đúng việc. Trong phần tiếp theo, chúng ta sẽ khám phá sự kỳ diệu của A-I trong lĩnh vực âm thanh và video.
+ 
+Slide 6: VIDEO: KỶ NGUYÊN MỚI CỦA NGHỆ THUẬT KỂ CHUYỆN
+Người 1: Chào các em, chúng ta cùng tiếp tục hành trình khám phá với slide số sáu, bước vào một kỷ nguyên mới của nghệ thuật kể chuyện bằng video. Sự phát triển của Gien-A-I đã mang lại một bước nhảy vọt, cho phép chúng ta tạo ra một video hoàn chỉnh chỉ từ văn bản, hay còn gọi là tếch-tu-vi-đê-ô, hoặc từ những hình ảnh tĩnh.
+Người 2: Dạ, nhắc đến video thì không thể không nhắc đến Xô-ra (Sora) của O-pần A-I (OpenAI) ra mắt vào tháng hai năm hai ngàn không trăm hai mươi tư, với khả năng tạo video có độ phân giải một ngàn không trăm tám mươi pê, dài tới sáu mươi giây và giữ được tính nhất quán vật lý rất ấn tượng. Bên cạnh đó, công cụ Gù-gờ Vi-ô (Google Veo) cũng mang đến chất lượng điện ảnh, tập trung rất sâu vào chi tiết và các chuyển động mượt mà.
+Người 1: Rất cập nhật! Các em có biết không, theo nghiên cứu của Gờ-ran Viu Ri-sớt (Grand View Research), tiềm năng thị trường của Video Gien-A-I có thể đạt tới con số khổng lồ là hai trăm tỷ đô la Mỹ vào năm hai ngàn không trăm ba mươi hai.
+ 
+Slide 7: TƯƠNG LAI CỦA GIEN-A-I TRONG VIDEO
+Người 2: Quả là một con số ấn tượng! Vậy bước sang slide số bảy, tương lai của Gien-A-I trong lĩnh vực video sẽ mang lại những thay đổi gì thưa thầy?
+Người 1: Sẽ có bốn xu hướng chính định hình tương lai này. Thứ nhất là khả năng kiểm soát chi tiết cao, nâng cao tới từng píc-xên (pixel), giúp người dùng tạo nội dung gần như hoàn hảo theo ý muốn. Thứ hai là sự tích hợp sâu rộng, tạo nên một sự kết nối liền mạch từ khâu lên kịch bản cho đến quá trình hậu kỳ sản xuất phim.
+Người 2: Dạ, em hiểu rồi ạ. Thứ ba chắc chắn là dân chủ hóa sáng tạo, mở ra cơ hội để cả những người không chuyên nghiệp cũng có thể dễ dàng thể hiện những ý tưởng phức tạp của mình. Và cuối cùng là sự kết hợp với video tương tác và thực tế ảo Vi-a (VR), mang lại những trải nghiệm nhập vai và cá nhân hóa sâu sắc hơn cho người xem.
+ 
+Slide 8: CƠ HỘI VƯỢT TRỘI: KHI CON NGƯỜI VÀ MÁY MÓC HỢP TÁC
+Người 1: Chính xác! Giờ chúng ta chuyển sang slide số tám. Khi máy móc thông minh như vậy, liệu chúng ta có bị thay thế? Câu trả lời nằm ở cơ hội vượt trội khi con người và máy móc hợp tác với nhau. Thầy lấy một ví dụ tình huống thực tế trong việc tối ưu hóa quy trình chăm sóc khách hàng.
+Người 2: Dạ, theo như mô hình trên slide, thay vì để nhân viên bị áp lực thời gian với mọi yêu cầu của khách hàng như vấn đề hiện tại, giải pháp ứng dụng A-I sẽ phân bổ lại luồng công việc. Cụ thể là Chatbot A-I sẽ đóng vai trò phễu lọc, đứng ra giải quyết tám mươi phần trăm các câu hỏi thông thường.
+Người 1: Tuyệt vời, và nhờ vậy, nhân viên chăm sóc khách hàng chỉ cần tập trung chuyên môn để xử lý hai mươi phần trăm các vấn đề phức tạp đòi hỏi sự can thiệp của con người. Đó chính là sự tối ưu hóa sức mạnh của cả hai bên!
+ 
+Slide 9: NGHỆ THUẬT KỸ SƯ CÂU LỆNH (PROMPT ENGINEERING)
+Người 2: Nhưng làm thế nào để "giao việc" cho A-I một cách hiệu quả thưa thầy? Em thấy slide số chín có nhắc đến một khái niệm lạ là Nghệ thuật Kỹ sư Câu lệnh, hay Prôm En-gi-nia-ring (Prompt Engineering).
+Người 1: Đúng vậy, để ra lệnh cho A-I tạo ra được "Kết quả Tối ưu", chúng ta có một công thức cấu trúc bốn phần. Bước một là Rôn (Role), tức là giao cho A-I một vai trò chuyên gia cụ thể, ví dụ như "Bạn là một...". Bước hai là Con-tếch (Context), phần này cung cấp các bối cảnh, đối tượng hướng tới và mục tiêu rõ ràng.
+Người 2: Dạ, bước ba là Tác (Task), đưa ra các yêu cầu cụ thể đi kèm theo tiêu chí đánh giá nhiệm vụ đó. Và bước bốn là Pho-mát (Format), nơi mình chỉ định hình thức đầu ra như bảng, danh sách, đoạn văn và cung cấp thêm ví dụ mẫu cho A-I. Sự kết hợp của bốn yếu tố này sẽ mang lại kết quả chính xác nhất.
+ 
+Slide 10: THỰC HÀNH: CẤU TRÚC MỘT CÂU LỆNH HOÀN HẢO
+Người 1: Rất tốt! Chúng ta hãy áp dụng ngay công thức bốn bước đó vào slide số mười với một đề bài thực hành: "Tạo bài đăng Phây-xờ-búc (Facebook) về ba mẹo an toàn số cho tân sinh viên".
+Người 2: Để phân tích câu lệnh này, đầu tiên phần Vai trò sẽ là: "Bạn là trợ lý truyền thông của Khoa". Tiếp theo, phần Ngữ cảnh: "Viết một bài đăng Phây-xờ-búc cho fanpage của Khoa, hướng dẫn an toàn số nhằm nâng cao nhận thức cho các tân sinh viên mới nhập học".
+Người 1: Hoàn toàn chính xác! Và để hoàn thiện, phần Nhiệm vụ và Định dạng sẽ được gộp lại với nội dung: "Trình bày bao gồm một đoạn văn mở đầu ngắn gọn, hấp dẫn, theo sau là một danh sách ba gạch đầu dòng rõ ràng về các mẹo an toàn". Bằng cách chia nhỏ yêu cầu một cách có hệ thống như vậy, bất cứ ai cũng có thể làm chủ công nghệ này!
+
+Slide 11: HỆ SINH THÁI CÔNG CỤ SÁNG TẠO ĐA PHƯƠNG TIỆN
+Người 1: Chào các em, chúng ta cùng đi đến phần cuối của bản thiết kế ứng dụng A-I với slide số mười một. Nếu như trước đây, chúng ta mới chỉ làm quen với Gien-A-I trong văn bản, thì thực tế hệ sinh thái công cụ sáng tạo đa phương tiện còn rộng lớn hơn nhiều, đặc biệt là trong việc tạo ra hình ảnh.
+Người 2: Dạ, để sáng tạo hình ảnh thì em thấy có các công cụ nổi bật như Sắc-cơ A-I (ShakkerAI), Cờ-linh A-I (Kling AI), Mít-giơ-ni (Midjourney) hay Đan-y (DALL-E). Nhờ chúng mà một người không biết vẽ cũng có thể chuyển đổi văn bản thành các tác phẩm nghệ thuật thị giác hay thiết kế đồ họa rất nhanh chóng phải không thầy?
+Người 1: Chính xác! Cùng với đó là các công cụ sáng tạo video như Xô-ra (Sora), Gù-gờ A-I Vi-đê-ô (Google AI Video), hay Pi-ca Láp (Pika Labs). Chúng giúp tự động hóa khâu sản xuất, thậm chí là tạo ra các hiệu ứng điện ảnh hoành tráng chỉ từ một kịch bản thô ban đầu.
+ 
+Slide 12: XÂY DỰNG MỘT TƯƠNG LAI A-I CÓ TRÁCH NHIỆM
+Người 1: Sang slide số mười hai, khi công cụ ngày càng mạnh, chúng ta càng phải cẩn trọng. Để khai thác lợi ích và giảm thiểu rủi ro, chúng ta cần chủ động xây dựng một khuôn khổ vững chắc dựa trên ba trọng tâm cốt lõi.
+Người 2: Trọng tâm thứ nhất là Quyền riêng tư phải không ạ? Nghĩa là chúng ta cần áp dụng mã hóa dữ liệu, xác thực hai yếu tố, hay còn gọi là Hai-ép-a (2FA), và phải tuân thủ các quy định bảo vệ dữ liệu quốc tế như Gờ-đê-pê-rờ (GDPR) và Xi-xi-pê-a (CCPA).
+Người 1: Đúng thế. Trọng tâm thứ hai là Đạo đức. Nghĩa là phải xây dựng quy tắc đạo đức A-I thật rõ ràng, đảm bảo thuật toán minh bạch và công bằng, không thiên vị. Trọng tâm cuối cùng là Rủi ro, chúng ta phải đầu tư mạnh vào an ninh mạng, xây dựng hệ thống sao lưu và phải thực hiện đánh giá rủi ro định kỳ.
+ 
+Slide 13: 4 NGUYÊN TẮC VÀNG KHI ỨNG DỤNG A-I
+Người 2: Vậy để thực hiện những trọng tâm đó thì có nguyên tắc nào để làm kim chỉ nam không thưa thầy? Em thấy slide số mười ba có nhắc đến Bốn nguyên tắc vàng.
+Người 1: Tuyệt vời. Nguyên tắc thứ nhất: Giám sát của con người là tiên quyết. A-I vẫn có thể mắc lỗi hoặc bị "ảo giác", nên con người phải luôn ở trong vòng lặp để kiểm tra và điều chỉnh.
+Người 2: Dạ, nguyên tắc thứ hai là tuân thủ bảo mật và đạo đức. Vì dữ liệu là tài sản cực kỳ nhạy cảm, nên việc dùng A-I phải minh bạch và có trách nhiệm giải trình. Còn nguyên tắc thứ ba chắc chắn là Đào tạo sử dụng hiệu quả rồi, công nghệ mạnh đến đâu mà người dùng không biết cách khai thác thì cũng bằng không. Đầu tư cho đào tạo chính là đầu tư cho thành công.
+Người 1: Rất chuẩn! Và nguyên tắc thứ tư, cũng là nguyên tắc quan trọng nhất: A-I chỉ là công cụ, không phải sự thay thế. Chúng ta cần tôn trọng và phát huy năng lực cốt lõi mà chỉ con người mới có, đó là sự sáng tạo thực sự, tư duy phản biện và lòng thấu cảm.
+ 
+Slide 14: TƯƠNG LAI VỚI A-I: NẮM BẮT CƠ HỘI, ĐỐI MẶT THÁCH THỨC
+Người 1: Bây giờ, chúng ta sẽ nhìn vào bức tranh toàn cảnh ở slide số mười bốn. Tương lai với A-I là một bức tranh có hai mảng sáng tối. Về mặt cơ hội, chúng ta có thể nâng cao hiệu quả làm việc, học tập, tiết kiệm vô số thời gian. A-I còn hỗ trợ chúng ta sáng tạo đột phá, phân tích dữ liệu nhanh chóng và mang lại các trải nghiệm cá nhân hóa.
+Người 2: Nhưng bên cạnh đó, mảng tối hay chính là những thách thức cũng không hề nhỏ. Đó là nguy cơ chúng ta bị lệ thuộc quá nhiều vào máy móc, hay vấn nạn lan truyền thông tin sai lệch. Chưa kể đến sự thiên vị trong dữ liệu, hay tiếng Anh gọi là Đa-ta bai-át (Data Bias), cùng vô số các vấn đề nhạy cảm về đạo đức, bảo mật và quyền riêng tư nữa.
+ 
+Slide 15: CHÌA KHÓA CỦA KỶ NGUYÊN SỐ
+Người 1: Phân tích rất sâu sắc. Và để kết thúc bài học hôm nay, chúng ta cùng nhìn vào slide số mười lăm. Chìa khóa để bước vào Kỷ nguyên Số được tóm gọn trong một thông điệp cốt lõi. Đó là: Việc sử dụng A-I một cách thông minh, có chọn lọc, kết hợp tư duy phản biện và trách nhiệm chính là kỹ năng thiết yếu nhất trong thế giới số hiện đại.
+Người 2: Dạ, thông điệp này thực sự truyền cảm hứng. Lời kêu gọi hành động cho tất cả chúng ta là: Hãy chủ động kiến tạo, làm chủ công nghệ và duy trì tinh thần học tập suốt đời! Em cảm ơn thầy vì bài giảng ngày hôm nay ạ.
+Người 1: Cảm ơn em và chúc các em sẽ ứng dụng thành công những kiến thức này. Hẹn gặp lại các em ở những bài học sau!
+

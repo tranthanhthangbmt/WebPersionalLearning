@@ -1,0 +1,22 @@
+{
+  "subject_id": "5279da17",
+  "mastery": {
+    "c1.6": {
+      "level": 0.2757929387450451,
+      "attempts": 3,
+      "last_score": 10,
+      "last_updated": 1774719643.3916447,
+      "pure_level": 0.9200000000000002,
+      "_decayed": true
+    },
+    "c8.1": {
+      "level": 0.5,
+      "attempts": 2,
+      "last_score": 10,
+      "last_updated": 1774719993.9921963,
+      "pure_level": 0.5,
+      "_decayed": true
+    }
+  },
+  "current_focus": "c8.1"
+}

@@ -1,0 +1,22 @@
+{
+  "subject_id": "e69bf65f",
+  "mastery": {
+    "c3.1": {
+      "level": 0.2,
+      "attempts": 1,
+      "last_score": 0,
+      "last_updated": 1774715763.4312084,
+      "pure_level": 0.0,
+      "_decayed": true
+    },
+    "c1.1": {
+      "level": 0.15,
+      "attempts": 3,
+      "last_score": 0,
+      "last_updated": 1774719278.459115,
+      "pure_level": 0.15,
+      "_decayed": true
+    }
+  },
+  "current_focus": "c1.1"
+}

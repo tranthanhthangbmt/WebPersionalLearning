@@ -1,0 +1,363 @@
+﻿Slide 1: CHƯƠNG 1 - TỔNG QUAN VỀ THƯƠNG MẠI ĐIỆN TỬ
+Người 1: Chào các bạn sinh viên lớp BA24M. Hôm nay chúng ta chính thức bước vào chương đầu tiên: Tổng quan về Thương mại điện tử. Các bạn hãy nhìn vào hình ảnh minh họa trên Slide 1. Chúng ta thấy một chiếc điện thoại, một giỏ hàng, nhưng xung quanh nó là máy bay, tàu thủy và những mạch kết nối điện tử chằng chịt. Theo em, hình ảnh này muốn truyền tải thông điệp gì về môn học của chúng ta?
+Người 2: Dạ thưa thầy, em thấy chiếc điện thoại là trung tâm, chắc là nói về việc mua sắm online. Còn máy bay với tàu thủy xung quanh… có phải ý nói hàng hóa mình mua có thể được chuyển đến từ khắp nơi trên thế giới không ạ?
+Người 1: Rất chính xác! Nhưng chưa đủ. Dưới góc độ quản trị, hình ảnh này cho thấy TMĐT không chỉ là cái “bề nổi” là việc bấm nút mua hàng trên điện thoại. Bản chất của nó là sự kết hợp giữa Thương mại (với máy bay, tàu thủy đại diện cho Logistics toàn cầu) và Điện tử (với các mạch kết nối đại diện cho dòng chảy dữ liệu và công nghệ). Chúng ta sẽ học cách vận hành cả hệ thống khổng lồ phía sau chiếc màn hình đó, chứ không chỉ học cách bán hàng đơn thuần.
+
+Slide 2: TỔNG QUAN HỌC PHẦN & LỘ TRÌNH 15 BUỔI
+Người 1: Để đi hết môn này thành công, các bạn cần nắm rõ lộ trình 15 buổi học trên Slide 2. Chúng ta có 4 chặng đua chính:
+• Phần 1 (Tuần 1-5): Tổng quan. Chúng ta sẽ học về Khái niệm, Hạ tầng, và các Mô hình kinh doanh. Đây là lúc các bạn chia nhóm và chốt ý tưởng dự án.
+• Phần 2 (Tuần 6-8): Giao dịch & Giữa kỳ. Chúng ta đi sâu vào Thanh toán điện tử, Hợp đồng số. Đặc biệt, tuần 8 sẽ là Kiểm tra giữa kỳ bằng hình thức thuyết trình đề cương dự án.
+• Phần 3 (Tuần 9-10): Marketing. Học cách tiếp cận khách hàng số.
+• Phần 4 (Tuần 11-12+): An toàn & Ứng dụng. Bảo mật và các hệ thống quản trị.
+Người 1: Đặc biệt, các bạn lưu ý 3 buổi cuối cùng (Tuần 13, 14, 15). Đây không phải là giờ giảng lý thuyết nữa. Theo em, chúng ta sẽ làm gì trong 3 buổi “về đích” này?
+Người 2: Dạ nhìn vào lộ trình thì em đoán là thời gian để các nhóm báo cáo sản phẩm cuối kỳ đúng không ạ? Giống như bảo vệ đồ án ấy ạ?
+Người 1: Đúng vậy. 3 buổi cuối là thời gian Bảo vệ đề tài kết thúc học phần. Các bạn sẽ mang dự án mà nhóm đã xây dựng suốt 12 tuần trước đó ra để trình bày và phản biện trước hội đồng. Dự án này là bắt buộc và mang tính thực chiến cao: Các bạn phải xây dựng một mô hình kinh doanh TMĐT hoàn chỉnh, từ ý tưởng, xây dựng website/fanpage, đến kế hoạch marketing và vận hành. Kết quả của dự án này chính là điểm thi kết thúc môn của các bạn.
+
+Slide 3: LỘ TRÌNH CHƯƠNG 1 - XÂY DỰNG NỀN TẢNG
+Người 1: Quay lại với hiện tại, chúng ta đang ở Chương 1. Lộ trình của chương này gồm 4 phần như trên slide. Thầy có một câu hỏi tư duy: Tại sao chúng ta lại phải học về “Hệ thống cơ sở hạ tầng” (gồm Pháp lý và Công nghệ) ở Phần 2, trước khi học về “Các mô hình kinh doanh” (như B2B, B2C) ở Phần 3? Tại sao không dạy cách kinh doanh luôn cho nhanh?
+Người 2: Dạ… em nghĩ là muốn kinh doanh thì phải có “sân chơi” và “luật chơi” trước ạ. Nếu mình mở công ty mà không hiểu luật điện tử hay không có mạng internet ổn định thì không làm được mô hình nào cả. Có phải vậy không thầy?
+Người 1: Câu trả lời rất xuất sắc! Em đã chạm đúng bản chất. Cơ sở hạ tầng (Pháp lý, Công nghệ) chính là nền móng. Nếu không hiểu Luật Giao dịch điện tử, doanh nghiệp có thể phạm pháp. Nếu không hiểu hạ tầng mạng, hệ thống sẽ sập khi quá tải. Sau khi có nền móng, chúng ta mới xây dựng các “ngôi nhà” là các mô hình B2B, B2C. Và cuối cùng, ở Phần 4, thầy sẽ hướng dẫn các bạn một kỹ năng cực kỳ thực tế: Thủ tục đăng ký sàn giao dịch TMĐT với Bộ Công Thương. Đây là quy trình bắt buộc nếu các bạn muốn vận hành sàn TMĐT hợp pháp tại Việt Nam.
+
+Slide 4: BUỔI 1 - BẢN CHẤT & TÁC ĐỘNG CỦA TMĐT
+Người 1: Bây giờ, chúng ta chính thức đi vào nội dung chi tiết của buổi hôm nay: Bản chất và Tác động của TMĐT. Nhìn vào dòng chữ “Vai trò của giao dịch số”, thầy muốn hỏi em: Sáng nay từ lúc ngủ dậy đến giờ, em có thực hiện hành động nào được gọi là “giao dịch số” không?
+Người 2: Dạ để em nhớ… Sáng nay em đặt Grab đi học, sau đó chuyển khoản tiền ăn sáng bằng mã QR, và lúc nãy có lướt xem giá giày trên Shopee nhưng chưa mua ạ.
+Người 1: Đó chính là thực tế. Em đã tham gia vào nền kinh tế số thông qua: Giao dịch vận tải (Grab), Giao dịch tài chính (Banking) và Tra cứu thông tin hàng hóa (Shopee). Mục tiêu của bài hôm nay là giúp các bạn không chỉ nhìn những hành động đó như một người dùng, mà phải nhìn dưới lăng kính của nhà quản trị: Hiểu bản chất dòng tiền, dòng hàng và dòng thông tin đang chạy ngầm bên dưới các ứng dụng đó như thế nào.
+
+Slide 5: MỤC TIÊU & CHUẨN ĐẦU RA (CLO1)
+Người 1: Để đạt được sự thấu hiểu đó, Slide 5 trình bày Mục tiêu và Chuẩn đầu ra (CLO1) của bài học này. Chúng ta sẽ cùng nhau chinh phục 3 công cụ quản trị cốt lõi sau đây, các bạn ghi chú kỹ nhé:
+1. Ma trận 3 chiều (3D Matrix) và Phân biệt TMĐT/Kinh doanh số: Công cụ này giúp em xác định xem một doanh nghiệp đang là “truyền thống”, “TMĐT một phần” hay “TMĐT toàn phần”.
+2. Phân tích các cấp độ số hóa: Chúng ta sẽ đi từ Brick-and-mortar (cửa hàng vật lý) đến Omnichannel (đa kênh hợp nhất) - xu hướng đỉnh cao hiện nay.
+3. Bộ mô hình chiến lược: Gồm 5 Trụ cột hạ tầng (những yếu tố nâng đỡ hệ thống), Tảng băng trôi rủi ro (những nguy cơ tiềm ẩn) và La bàn 6Cs (để định hướng thành công).
+Người 2: Thưa thầy, em thấy có khái niệm “Omnichannel” và “La bàn 6Cs” nghe lạ quá. Hai cái này có quan trọng lắm không ạ?
+Người 1: Cực kỳ quan trọng em nhé. Omnichannel là đích đến mà mọi doanh nghiệp bán lẻ như Walmart hay Thế Giới Di Động đều đang theo đuổi để kết nối online và offline. Còn 6Cs là công thức để giữ chân khách hàng. Nếu nắm vững 3 gạch đầu dòng này, các bạn đã nắm được 50% tư duy quản trị của môn học rồi. Chúng ta sẽ lần lượt “mổ xẻ” từng cái ngay sau đây.
+Slide 6: CHƯƠNG 1 - TIẾT 1: BẢN CHẤT CỦA TMĐT VÀ KINH DOANH SỐ
+Người 1: Các bạn đã thấy bức tranh tổng quan rồi, bây giờ chúng ta chính thức bước vào nội dung chuyên sâu của Tiết 1. Các bạn nhìn tiêu đề slide: “Bản chất của TMĐT và Kinh doanh số”. Thầy có một câu hỏi khởi động để xác định tâm thế học tập: Theo các bạn, tại sao học phần này lại được thiết kế dành riêng cho sinh viên ngành Quản trị Kinh doanh (BA), mà không phải gộp chung với sinh viên Công nghệ thông tin (IT)? Cùng học về TMĐT, nhưng “cái đầu” của dân BA khác dân IT ở chỗ nào?
+Người 2: Dạ, em nghĩ các bạn IT sẽ học cách viết code (lập trình) để xây dựng cái website hoặc cái app cho nó chạy mượt mà. Còn tụi em học BA là học cách dùng cái app đó để kiếm tiền, học cách quản lý dòng tiền và làm sao để khách hàng chịu bấm vào nút mua hàng ạ.
+Người 1: Rất chính xác! Chúng ta học để điều phối “dòng chảy” của giá trị, chứ không phải để ngồi viết mã nguồn. Mục tiêu của tiết này là các bạn phải hiểu khái niệm dưới góc độ quản trị, phân biệt được TMĐT với Kinh doanh số (chúng khác nhau đấy nhé!), và đặc biệt là dùng Ma trận 3 chiều để “đọc vị” bất kỳ doanh nghiệp nào trên thị trường.
+Người 1: Trước khi đi vào lý thuyết, thầy muốn các bạn xem một đoạn video ngắn rất nổi tiếng của Google. Nhưng trước khi xem, thầy có một câu hỏi để các bạn tập trung tìm câu trả lời trong video: “Trong video, hành vi mua sắm của người phụ nữ đã thay đổi như thế nào so với cha ông của cô ấy ngày xưa? Cái gì đã chen vào giữa lúc cô ấy nhìn thấy quảng cáo và lúc cô ấy ra cửa hàng mua?” Mời các bạn xem video “Winning the Zero Moment of Truth”.
+
+Slide 7: THẾ GIỚI ĐÃ THAY ĐỔI: KHOẢNH KHẮC SỰ THẬT BẰNG KHÔNG (ZMOT)
+Người 1: Video vừa rồi nói về một khái niệm đã thay đổi hoàn toàn ngành Marketing và TMĐT: ZMOT - Zero Moment of Truth. Hãy nhìn vào sơ đồ trên Slide 7. Ngày xưa, bố mẹ chúng ta nhìn thấy quảng cáo TV (Stimulus), sau đó chạy ra siêu thị, nhìn thấy hàng trên kệ (FMOT - First Moment of Truth) và quyết định mua. Nhưng bây giờ, sơ đồ đã thêm một bước ở giữa. Giả sử em muốn mua một chiếc Laptop gaming giá 30 triệu. Sau khi xem quảng cáo trên Youtube xong, em có chạy ngay ra Thế Giới Di Động để mua không?
+Người 2: Dạ chắc chắn là không ạ. 30 triệu lận mà thầy! Em phải lên Google tìm “Review laptop X”, rồi vào các hội nhóm công nghệ trên Facebook hỏi xem máy này tản nhiệt tốt không, có hay bị lỗi màn hình không. Sau đó em còn lên Shopee, Lazada so sánh giá xem bên nào rẻ nhất nữa ạ.
+Người 1: Chính xác! Tất cả những hành động “điều tra” đó của em chính là ZMOT. Thuật ngữ này do Google đưa ra. Hành trình mua hàng không còn bắt đầu tại kệ hàng (Offline) nữa, mà bắt đầu ngay trên màn hình điện thoại (Online). Nếu doanh nghiệp của bạn bán Laptop mà khi khách hàng gõ tên sản phẩm lên Google lại không thấy web của bạn, hoặc chỉ thấy toàn lời chê bai từ người dùng trước, thì coi như bạn đã “thua” ngay từ vòng gửi xe, trước cả khi khách hàng kịp nhìn thấy cửa hàng của bạn.
+
+Slide 8: TẠI SAO LẠI LÀ SỐ “0”? (CHIẾN TRƯỜNG MÀN HÌNH)
+Người 1: Tại sao Google lại chọn cái tên là số “0” (Zero) mà không phải số nào khác? Slide 8 giải thích 4 lý do chiến lược đằng sau con số này. Các bạn thử đoán xem, tại sao ZMOT lại được gọi là “Giây phút sinh tử”?
+Người 2: Em nghĩ “sinh tử” là vì ở bước này khách hàng sẽ quyết định “tin” hay “không tin”. Nếu họ thấy một quán ăn bị đánh giá 1 sao trên Google Maps, họ sẽ “khai tử” quán đó trong đầu luôn và không bao giờ đến, dù quán đó có trang trí đẹp thế nào đi nữa.
+Người 1: Phân tích rất sắc sảo! Đó là lý do thứ 3. Thầy tóm tắt 4 lý do các bạn cần nhớ:
+1. Vị trí ưu tiên: Nó xảy ra trước cả FMOT (trước khi đến cửa hàng). Thất bại ở số 0 thì đừng mơ đến số 1.
+2. Khoảng cách bằng 0: Thông tin có ngay lập tức. Em đang ngồi cafe với bạn, nghe bạn khen thỏi son A đẹp, em rút điện thoại ra tìm kiếm ngay. Khoảng cách giữa ý muốn và thông tin là bằng 0.
+3. Giây phút sinh tử: Như bạn vừa nói, đây là lúc hình thành định kiến: “Yêu” hay “Ghét”.
+4. Chủ động: Khách hàng chủ động đi tìm sự thật (Pull), chứ không ngồi đợi quảng cáo “nhồi nhét” vào đầu (Push) như xem TV ngày xưa. Chốt lại: Chiến trường bán hàng thực sự đã dời từ cái kệ gỗ trong siêu thị về cái màn hình 6 inch trên tay các bạn rồi.
+
+Slide 9: ĐỊNH NGHĨA TMĐT (EC) - 4 LĂNG KÍNH
+Người 1: Chúng ta đã hiểu bối cảnh (Context), giờ hãy đi vào định nghĩa (Concept). Theo Kalakota & Whinston, TMĐT không chỉ là “bán hàng trên mạng”. Nếu hiểu như vậy là quá hẹp. Hãy nhìn TMĐT qua 4 lăng kính trên Slide 9. Thầy sẽ đưa ra ví dụ, các bạn hãy cho thầy biết nó thuộc lăng kính nào nhé: Trường hợp 1: Thầy dùng App ngân hàng quét mã QR để chuyển tiền học phí cho nhà trường. Đây là gì?
+Người 2: Dạ, đó là lăng kính Truyền thông (Communication) ạ, vì thầy đang chuyển giao thông tin và thanh toán qua mạng.
+Người 1: Đúng. Trường hợp 2: Một công ty dùng phần mềm ERP để khi kho hết hàng, hệ thống tự động gửi email đặt hàng cho nhà cung cấp mà không cần nhân viên gõ máy.
+Người 2: Cái này nghe giống tự động hóa, chắc là lăng kính Quy trình kinh doanh (Business Process) ạ?
+Người 1: Chuẩn xác! Trường hợp 3: Một hãng hàng không cho phép check-in online để khách đỡ phải xếp hàng ở sân bay, giúp hãng giảm bớt nhân viên quầy thủ tục. Người 2: Dạ đó là lăng kính Dịch vụ (Service) - cắt giảm chi phí và tăng tốc độ phục vụ ạ. Người 1: Và cuối cùng, Trường hợp 4: Em lên Amazon mua một cuốn sách Kindle. Đó là lăng kính Trực tuyến (Online). Là nhà quản trị, các bạn phải biết dùng TMĐT để giải quyết cả 4 bài toán này: Chuyển tiền nhanh hơn, Quy trình tự động hơn, Dịch vụ tốt hơn và Bán hàng rộng hơn. Đừng chỉ chăm chăm vào việc đăng bài bán hàng!
+
+Slide 10: NÂNG CẤP ĐỊNH NGHĨA - TƯ DUY QUẢN TRỊ 4.0
+Người 1: Slide 10 là phần “nâng cấp” tư duy dành riêng cho dân Quản trị hiện đại. Đừng học thuộc lòng định nghĩa cũ, hãy nhìn sự tiến hóa của nó qua 3 cấp độ. Cấp độ 1: Dữ liệu & Hệ sinh thái. Ngày xưa bán xong cái áo là xong. Ngày nay, thông tin khách hàng (Họ tên, SĐT, thói quen mua sắm) mới là tài sản quý nhất. Ví dụ: Tại sao Facebook cho em dùng miễn phí? Vì nó bán dữ liệu hành vi của em cho các nhà quảng cáo. Dữ liệu chính là “mỏ dầu” mới.
+Cấp độ 2: Human-centric (Lấy con người làm trung tâm). Đừng để quy trình tự động hóa biến doanh nghiệp thành “cỗ máy vô hồn”. Dù dùng Chatbot, nhưng Chatbot phải biết nói chuyện duyên dáng như người thật.
+Cấp độ 3: Social Commerce (Thương mại xã hội). Hãy nhìn vào TikTok Shop hay các phiên Livestream. Nó đâu chỉ là bán hàng? Người 2: Dạ đúng rồi, nó còn là giải trí nữa ạ. Em vào xem livestream vì vui, nghe mấy bạn KOC nói chuyện cuốn quá, rồi thấy rẻ nên mua luôn chứ ban đầu đâu có định mua.
+Người 1: Đó chính là sự hội tụ: Truyền thông + Giải trí + Bán hàng. Tổng kết: TMĐT hiện đại là chiến lược tối ưu hóa dòng chảy giá trị, dùng Dữ liệu để chinh phục khách hàng ngay từ ZMOT, và dùng công nghệ để biến việc mua sắm thành niềm vui (Social). Các bạn có thấy định nghĩa này “sâu” hơn nhiều so với việc chỉ nói “TMĐT là mua bán online” không?
+Slide 11: TMĐT (EC) VS. KINH DOANH SỐ (DIGITAL BUSINESS)
+Người 1: Chúng ta hay dùng lẫn lộn từ “Thương mại điện tử” và “Kinh doanh số” như thể chúng là một. Nhưng dưới góc độ quản trị, đây là hai cấp độ hoàn toàn khác nhau. Các bạn nhìn vào sơ đồ trên Slide 11. Một vòng tròn nhỏ “Thương mại điện tử” nằm lọt thỏm bên trong vòng tròn lớn “Kinh doanh số”. Theo em, sự khác biệt cốt lõi giữa hai vòng tròn này là gì? Cái nào là “mẹ”, cái nào là “con”?
+Người 2: Dạ nhìn hình thì Kinh doanh số là “mẹ” vì nó bao trùm hơn. Em đoán TMĐT chỉ là khâu mua bán thôi, còn Kinh doanh số chắc là bao gồm cả những việc nội bộ của công ty nữa ạ?
+Người 1: Rất nhạy bén!
+• Thương mại điện tử (EC): Chỉ tập trung vào các giao dịch bên ngoài (đầu ra và đầu vào). Ví dụ: Em bán hàng trên Shopee, em đặt mua nguyên liệu từ nhà cung cấp qua web. Đó là EC.
+• Kinh doanh số (Digital Business): Nó bao gồm EC cộng với việc số hóa toàn bộ các quy trình nội bộ. Ví dụ thực tế: Hãy nhìn vào Starbucks. Nếu em đặt cà phê qua App Starbucks và đến lấy, đó là TMĐT. Nhưng để ly cà phê đó luôn có vị giống nhau ở 30.000 cửa hàng, họ phải dùng hệ thống đám mây để quản lý công thức, dùng AI để dự báo khi nào hết hạt cafe để tự động nhập kho, và dùng phần mềm để quản lý nhân sự toàn cầu. Tất cả những cái “chìm” đó cộng với cái App bán hàng mới tạo nên Kinh doanh số. Là nhà quản trị, tham vọng của các bạn không chỉ là bán hàng online (EC), mà là chuyển đổi số toàn bộ doanh nghiệp (Digital Business).
+
+Slide 12: MA TRẬN 3 CHIỀU (3D MATRIX) - ĐỊNH VỊ ĐIỆN TỬ HÓA
+Người 1: Vậy làm sao để biết một doanh nghiệp đang “số hóa” ở mức độ nào? Thầy giới thiệu cho các bạn một công cụ cực mạnh: Ma trận 3 chiều của Choi et al. Để định vị một mô hình kinh doanh, chúng ta nhìn vào 3 trục tọa độ:
+1. Sản phẩm (Product): Là vật lý hay hàng số?
+2. Tác nhân giao hàng (Delivery Agent): Shipper giao hay tải về qua mạng?
+3. Quy trình (Process): Giao dịch trực tiếp hay qua mạng?
+Người 1: Thầy lấy ví dụ: Một ứng dụng nghe nhạc như Spotify. Sản phẩm là file nhạc (Số). Giao hàng bằng cách tải về (Số). Thanh toán và chọn bài qua App (Số). Khi cả 3 trục đều là “Số” (Digital), ta gọi đó là TMĐT Thuần túy (Pure EC).
+Người 1: Bây giờ, đố em định vị mô hình GrabFood?
+Người 2: Dạ để em xem…
+• Quy trình đặt món là qua App -> Là Số.
+• Nhưng Sản phẩm là hộp cơm tấm -> Là Vật lý.
+• Người giao hàng là anh tài xế chạy xe máy -> Là Vật lý. Vậy là nó có cả Số và Vật lý. Chắc là “lai” đúng không thầy?
+Người 1: Chính xác! Chúng ta gọi đó là TMĐT Bán phần (Partial EC). Hầu hết các dự án khởi nghiệp của các bạn trong lớp này sẽ rơi vào nhóm “Bán phần”: Dùng công nghệ để tối ưu hóa việc bán các sản phẩm vật lý. Hiểu điều này để các bạn biết mình cần đầu tư vào đâu: Một bên là Server (máy chủ), một bên là Shipper (con người).
+
+Slide 13: ÁP DỤNG MA TRẬN CHOI - PHÂN ĐỊNH RÕ RÀNG (Nội dung Slide: Hình khối lập phương 3 chiều, so sánh TMĐT Thuần túy (Spotify, Netflix) và TMĐT Bán phần (Hộp hàng, xe tải))
+Người 1: Chúng ta vừa làm quen với Ma trận 3 chiều của Choi. Bây giờ, hãy nhìn vào hình ảnh trực quan trên Slide 13 để thấy sự phân cực rõ ràng. Trên slide có hai nhóm biểu tượng: Một bên là Spotify, Netflix. Một bên là gói hàng và xe tải. Thầy đố em: Dựa vào định nghĩa vừa học, tại sao Spotify lại nằm ở đỉnh cao nhất của khối lập phương (điểm giao nhau của 3 trục Kỹ thuật số)?
+Người 2: Dạ, em áp dụng 3 trục tọa độ ạ:
+•	Thứ nhất, Sản phẩm của Spotify là nhạc số, mình không cầm nắm được.
+•	Thứ hai, Quy trình mình mua và nghe nhạc hoàn toàn diễn ra trên App.
+•	Thứ ba, Đại lý giao hàng chính là đường truyền Internet, tải bài hát về máy ngay lập tức. Cả 3 đều là “Số” (Digital), nên nó là TMĐT Thuần túy (Pure E-Commerce).
+Người 1: Rất chính xác! Đó là mô hình lý tưởng về biên lợi nhuận vì chi phí sao chép gần như bằng 0. Thế còn TMĐT Bán phần (Partial E-Commerce) thì sao? Nhìn vào cái hộp các tông và chiếc xe tải kia, em thấy điểm “Vật lý” nằm ở đâu?
+Người 2: Dạ, ví dụ như em mua một cái máy tính Dell trên mạng. Dù em đặt hàng qua Web (Quy trình số), thanh toán Online (Quy trình số), nhưng cuối cùng vẫn phải có anh shipper lái xe tải (Đại lý vật lý) chở cái máy tính (Sản phẩm vật lý) đến nhà em. Vì dính đến yếu tố “Vật lý” nên nó chỉ là “Bán phần” thôi ạ.
+Người 1: Chuẩn xác. Và bài toán quản trị ở đây rất khác nhau. Với TMĐT Thuần túy, em lo về bản quyền số và server. Còn với TMĐT Bán phần, nỗi đau đầu nhất của nhà quản trị là Logistics và Kho bãi.
+
+Slide 14: CÁC “CƯ DÂN” TRONG THẾ GIỚI SỐ (Nội dung Slide: 3 hình thái tổ chức: Brick-and-mortar, Click-and-mortar, Virtual/Pure-play)
+Người 1: Từ ma trận sản phẩm đó, người ta chia các doanh nghiệp thành 3 loại hình tổ chức như trên Slide 14. Đây là kiến thức nền tảng để các bạn định vị đối thủ. Hãy nhìn vào 3 biểu tượng: Ngôi nhà gạch, Ngôi nhà có con chuột máy tính, và Đám mây số. Em hãy gọi tên và lấy ví dụ cho từng loại xem nào?
+Người 2: Dạ thưa thầy:
+1.	Brick-and-mortar (Doanh nghiệp truyền thống): Là mấy tiệm tạp hóa hay quán phở đầu ngõ, họ chỉ bán tại chỗ, hoàn toàn không có Online.
+2.	Virtual / Pure-play (Doanh nghiệp ảo): Là những công ty chỉ sống trên mạng, không có cửa hàng ngoài phố. Ví dụ như Netflix hay eBay thời đầu.
+3.	Click-and-mortar (Doanh nghiệp kết hợp): Là sự kết hợp của cả hai. Ví dụ như Thế Giới Di Động hay Walmart.
+Người 1: Tốt lắm. Câu hỏi tư duy cho lớp: Theo các bạn, trong 3 mô hình này, mô hình nào đang là xu hướng thống trị và bền vững nhất hiện nay? Có phải cứ lên “Mây” (Virtual) hết là tốt không?
+Người 2: Em nghĩ là mô hình ở giữa - Click-and-mortar ạ. Vì như thầy đã nói ở bài trước, khách hàng vẫn cần “Touch and Feel” (Chạm và cảm nhận). Nếu chỉ có Online thôi thì khó tạo niềm tin lắm. Có cửa hàng vật lý để khách ra khiếu nại hay đổi trả vẫn yên tâm hơn.
+Người 1: Chính xác. Đó là lý do tại sao ngay cả những “gã khổng lồ” ảo cũng đang tìm đường “đáp đất”. Chúng ta sẽ hiểu rõ hơn điều này ở slide tiếp theo.
+
+Slide 15: CẤP ĐỘ TIẾN HÓA CAO NHẤT – OMNICHANNEL (Nội dung Slide: Sơ đồ vòng tròn kết nối Khách hàng ở trung tâm với các kênh Mobile, Store, Web, Delivery)
+Người 1: Chúng ta thường nghe nói đến “Bán hàng đa kênh” (Multi-channel). Nhưng Slide 15 giới thiệu một khái niệm cao cấp hơn: Đa kênh hợp nhất (Omnichannel). Nhìn vào sơ đồ, em thấy vị trí của Khách hàng đang ở đâu?
+Người 2: Dạ, Khách hàng nằm chính giữa vòng tròn, và tất cả các mũi tên từ điện thoại, máy tính, cửa hàng, xe giao hàng đều hướng về họ và kết nối với nhau.
+Người 1: Đúng vậy. Sự khác biệt “chí mạng” giữa Multi-channel và Omni-channel nằm ở sự liền mạch và đồng nhất. Ở Multi-channel, cửa hàng và website là 2 bộ phận riêng biệt, cãi nhau chan chát về doanh số. Còn ở Omnichannel, ranh giới Online và Offline bị xóa nhòa. Hãy đọc kịch bản ví dụ trên slide và phân tích cho thầy sự tiện lợi ở đây là gì?
+Người 2: Dạ ví dụ là: Khách hàng đang ở cửa hàng A nhưng hết size, họ có thể rút điện thoại đặt hàng trên App, sau đó chọn nhận hàng tại chi nhánh B gần nhà cho tiện. Nghĩa là họ dùng công cụ Online để giải quyết vấn đề Offline ngay tức thì.
+Người 1: Đó chính là trải nghiệm không điểm dừng. Là nhà quản trị, để làm được điều này, em phải đồng bộ hóa dữ liệu tồn kho theo thời gian thực (Real-time) trên toàn hệ thống. Nếu không, App báo “Còn hàng” mà ra tiệm lại “Hết hàng” là khách sẽ một đi không trở lại ngay.
+
+Slide 16: HỆ SINH THÁI TMĐT - 5 TRỤ CỘT KHÔNG THỂ THIẾU (Nội dung Slide: Khung cấu trúc vận hành với 5 trụ cột: Con người, Chính sách công, Marketing, Dịch vụ hỗ trợ, Đối tác)
+Người 1: Để vận hành được cỗ máy Omnichannel phức tạp đó, chúng ta không thể chỉ dựa vào một cái Website đẹp. Slide 16 trình bày Khung cấu trúc vận hành TMĐT với 5 trụ cột. Tưởng tượng đây là 5 cái chân bàn, gãy 1 cái là bàn đổ. Thầy sẽ chỉ vào từng trụ cột, em hãy cho thầy biết vai trò thực tế của nó là gì nhé. Đầu tiên: Chính sách công (Public Policy)?
+Người 2: Dạ, đó là luật pháp ạ. Ví dụ như luật Thuế, luật An ninh mạng. Nếu mình bán hàng mà không tuân thủ quy định bảo vệ quyền riêng tư của khách thì sẽ bị phạt hoặc đóng cửa.
+Người 1: Chính xác. Tiếp theo: Dịch vụ hỗ trợ (Support Services)?
+Người 2: Cái này chắc chắn là Thanh toán (như MoMo, Visa) và Logistics (như Giao Hàng Tiết Kiệm) rồi ạ. Không có mấy anh này thì hàng không đi, tiền không về được.
+Người 1: Còn Đối tác kinh doanh (Business Partners)?
+Người 2: Dạ là các nhà cung cấp, hoặc các chương trình Tiếp thị liên kết (Affiliate) giúp mình bán hàng ạ.
+Người 1: Rất tốt. Và đừng quên trụ cột quan trọng nhất: Con người (People). Không chỉ là khách hàng, mà là chính đội ngũ nhân viên quản lý, kỹ sư IT vận hành hệ thống. Khi làm đồ án cuối kỳ, thầy yêu cầu các nhóm phải liệt kê rõ 5 trụ cột này trong kế hoạch kinh doanh của mình. Thiếu một trụ cột coi như dự án không khả thi.
+
+Slide 17: THỬ THÁCH NHÓM - GIẢI PHẪU DOANH NGHIỆP SỐ (Nội dung Slide: Hình hộp lập phương có dấu chấm hỏi. Phân loại GrabFood, Netflix, Amazon)
+Người 1: Lý thuyết đã đủ. Bây giờ là lúc thực chiến. Trên Slide 17 là “Thử thách nhóm”. Nhiệm vụ của các bạn là xếp loại 3 ông lớn: GrabFood, Netflix và Amazon vào đúng vị trí trong Ma trận và Cấp độ tổ chức. Đầu tiên: GrabFood?
+Người 2: Dạ, như thầy phân tích lúc nãy: GrabFood có Quy trình là số, nhưng Giao hàng và Sản phẩm (đồ ăn) là vật lý. => Kết luận: TMĐT Bán phần.
+Người 1: Tiếp theo: Netflix?
+Người 2: Netflix thì từ phim ảnh, thanh toán đến việc xem đều qua mạng hết. => Kết luận: TMĐT Thuần túy và là Doanh nghiệp ảo (Virtual).
+Người 1: Cuối cùng, trường hợp thú vị nhất: Amazon. Amazon khởi đầu là một doanh nghiệp ảo (bán sách online), nhưng bây giờ họ lại mở chuỗi cửa hàng Amazon Go. Câu hỏi phản biện trên slide: Tại sao một doanh nghiệp ảo như Amazon lại cần cửa hàng vật lý?
+Người 2: Dạ… có phải vì họ muốn chiếm lĩnh cả thị trường Offline không ạ? Theo gợi ý trên slide, thì là để đáp ứng nhu cầu “chạm và cảm nhận”, và tối ưu hóa logistics chặng cuối (lấy hàng tại tiệm cho nhanh).
+Người 1: Rất sâu sắc! Amazon nhận ra rằng: Để thống trị hoàn toàn, họ phải hiện diện trong mọi khoảnh khắc cuộc sống của khách hàng, chứ không chỉ trên màn hình máy tính. Cửa hàng Amazon Go vừa là nơi bán hàng, vừa là cái kho hàng nằm ngay trong thành phố, giúp giao hàng siêu tốc. Đó chính là chiến lược Omnichannel đỉnh cao mà chúng ta đã nói ở Slide 15.
+Người 1: Bài tập về nhà cho các nhóm: Hãy chọn dự án startup của mình và xác định xem: Các bạn đang là Bán phần hay Thuần túy? Và các bạn định vị mình là Click-and-mortar hay Pure-play? Chúng ta kết thúc phần này ở đây.
+
+Slide 18: TỔNG KẾT HÀNH TRÌNH - TỪ TIỆM TẠP HÓA ĐẾN “PHÉP THUẬT” (Nội dung Slide: Hình ảnh so sánh 3 cấp độ: Tạp hóa truyền thống, Shipper giao hàng, và Sản phẩm số hiện ra ngay lập tức)
+Người 1: Để khép lại phần phân loại doanh nghiệp, thầy muốn các bạn nhìn vào bức tranh tổng kết trên Slide 18. Đây là sự tiến hóa của thương mại qua 3 giai đoạn. Hãy nhìn vào hình ảnh thứ 3 bên phải - “TMĐT Thuần túy”. Slide gọi đây là “Phép thuật” (Magic). Theo em, tại sao một giao dịch kinh tế lại được ví như phép thuật?
+Người 2: Dạ, em nghĩ là do tốc độ ạ. Ở hình 1 (Tạp hóa), em phải lết bộ ra đầu ngõ mới mua được chai nước mắm. Ở hình 2 (TMĐT Bán phần), em đặt hàng trên App nhưng vẫn phải ngồi đợi anh Shipper gõ cửa. Còn ở hình 3 (Thuần túy), ví dụ em mua một skin trong game hay thuê phim trên Netflix, em bấm chuột một cái là “Bùm!”, món hàng hiện ra ngay lập tức để sử dụng. Không có thời gian chờ.
+Người 1: Chính xác! Đó là sự biến mất hoàn toàn của độ trễ vật lý. Đối với nhà quản trị, “Phép thuật” này mang lại lợi nhuận biên khổng lồ vì em bán một bản copy thứ 1 triệu cũng tốn chi phí gần bằng 0 so với bản thứ nhất. Tuy nhiên, TMĐT không chỉ là kênh bán hàng, mà là công cụ chiến lược để tiếp cận toàn cầu và giảm chi phí. Chúng ta sẽ đi sâu vào các quy luật chi phối “phép thuật” này trong phần tiếp theo.
+
+Slide 19: BẢN ĐỒ DẪN ĐƯỜNG - TIẾT 2 (Nội dung Slide: Lộ trình 3 phần: Phân tích la bàn chiến lược, Hiểu dòng chảy vận hành, Khám phá vùng đất mới)
+Người 1: Chào mừng các bạn đến với Tiết 2 của Chương 1. Slide 19 vẽ ra lộ trình chúng ta sẽ đi qua. Chúng ta sẽ tập trung vào 3 trạm dừng chân chính. Đặc biệt, thầy muốn các bạn chú ý đến trạm giữa: “Hiểu dòng chảy vận hành”. Ở đây có hai từ khóa cực kỳ quan trọng trong Chuỗi cung ứng: Push (Đẩy) và Pull (Kéo). Theo em hiểu nôm na, sự khác biệt giữa việc “Đẩy hàng ra thị trường” và “Kéo khách hàng về” là gì?
+Người 2: Dạ, theo em hiểu: “Đẩy” (Push) là kiểu ngày xưa, nhà máy cứ sản xuất đại trà rồi đem ra chợ mời chào, ai mua thì mua. Còn “Kéo” (Pull) là kiểu TMĐT bây giờ, có đơn hàng rồi mới làm, hoặc sản xuất dựa trên nhu cầu thực tế của khách đúng không thầy?
+Người 1: Rất có tư duy hệ thống! Mô hình truyền thống là “Make-to-Stock” (Làm để tồn kho - Đẩy). Mô hình TMĐT hiện đại chuyển dịch sang “Make-to-Order” (Làm theo đơn hàng - Kéo) hoặc định hướng nhu cầu. Điều này giúp giảm rủi ro tồn kho chết - cơn ác mộng của mọi doanh nghiệp. Chúng ta sẽ “mổ xẻ” kỹ hơn ở các slide sau.
+
+Slide 20: CÚ SỐC ĐẦU TIÊN – SHOWROOMING (Nội dung Slide: Một người đàn ông đang xem giày tại cửa hàng nhưng cầm điện thoại để mua online giá $21)
+Người 1: Nhưng trước khi nói về thành công, hãy nói về “nỗi đau” của các doanh nghiệp truyền thống. Slide 20 mô tả một hiện tượng gọi là Showrooming. Hãy nhìn hành động của người đàn ông trong hình. Anh ta đang làm gì?
+Người 2: Dạ, anh ta đang ở trong cửa hàng giày xịn, đèn đóm sáng trưng. Anh ta cầm đôi giày lên ngắm nghía, thử size cho vừa chân. Nhưng thay vì ra quầy tính tiền, anh ta lại rút điện thoại ra đặt mua đôi giày y hệt trên mạng với giá 21 đô rẻ hơn. Rồi anh ta đi về tay không.
+Người 1: Đúng vậy. Cửa hàng vật lý đã vô tình trở thành “phòng thử đồ miễn phí” cho các đối thủ Online. Tại sao đây lại là “thách thức quản trị” sống còn? Vì cửa hàng vật lý phải trả tiền thuê mặt bằng, tiền điện, tiền lương nhân viên để phục vụ anh ta thử giày. Còn đối thủ Online không tốn những chi phí đó nên bán rẻ hơn. Doanh nghiệp truyền thống mất cả chì lẫn chài. Theo em, nếu em là chủ cửa hàng đó, em sẽ làm gì để chặn đứng hành vi này? Cấm khách dùng điện thoại ư?
+Người 2: Dạ cấm thì khách ghét, họ bỏ đi luôn. Chắc là mình phải khớp giá (price matching) hoặc tặng thêm dịch vụ gì đó ngay tại chỗ để họ mua luôn, đỡ phải chờ ship ạ. Hoặc là làm như Amazon Go thầy nói hôm trước, kết hợp cả hai.
+Người 1: Rất thông minh. Đó chính là lý do phải chuyển đổi số để sinh tồn.
+
+Slide 21: QUY LUẬT #1 - SỰ PHỔ QUÁT (UBIQUITY) (Nội dung Slide: So sánh Cửa hàng truyền thống bị giới hạn thời gian/địa điểm với TMĐT hoạt động 24/7)
+Người 1: Để chiến thắng trong cuộc chiến này, chúng ta phải thấu hiểu vũ khí của TMĐT. Vũ khí đầu tiên trên Slide 21: Tính Phổ quát (Ubiquity). Hãy so sánh hai cột trên slide. Sự khác biệt lớn nhất về “trạng thái hoạt động” là gì?
+Người 2: Dạ, cột bên trái (Truyền thống) thì bị “xích” chân tại một địa điểm và chỉ mở cửa theo giờ hành chính. Cột bên phải (TMĐT) thì hoạt động 24/7 và có mặt ở mọi nơi.
+Người 1: Đúng vậy. Giá trị quản trị ở đây là gì? Đó là việc giảm chi phí tìm kiếm (search costs) cho khách hàng. Thử tưởng tượng: 2 giờ sáng, em thèm ăn một món vặt. Nếu là ngày xưa, em phải chịu đói hoặc chạy xe lòng vòng tìm quán mở đêm (chi phí tìm kiếm cao). Nay em chỉ cần mở GrabFood lên (chi phí tìm kiếm gần bằng 0). Với doanh nghiệp, điều này có nghĩa là “cửa hàng” của em đang nằm trong túi quần của khách hàng, mọi lúc mọi nơi.
+
+Slide 22: QUY LUẬT #2 - TOÀN CẦU & CÁ NHÂN HÓA (Nội dung Slide: Bản đồ thế giới kết nối và Logo Amazon, đề cập đến Global Reach và Personalization)
+Người 1: Vũ khí thứ hai còn lợi hại hơn. Slide 22 trình bày một nghịch lý thú vị: Vừa rộng nhất (Toàn cầu) lại vừa sâu nhất (Cá nhân hóa). Đầu tiên, về Tầm với toàn cầu (Global Reach). Slide nói gì về cơ hội cho các doanh nghiệp nhỏ (SME)?
+Người 2: Dạ, nó nói là nhờ TMĐT, các doanh nghiệp nhỏ có thể tiếp cận khách hàng xuyên biên giới với chi phí thấp. Không cần vốn liếng mở văn phòng ở Mỹ, em vẫn có thể bán hàng sang Mỹ được.
+Người 1: Chính xác. Nhưng cái hay nằm ở vế sau: Cá nhân hóa (Personalization). Em hãy đọc ví dụ về Amazon trên slide. Họ làm gì với dữ liệu khách hàng?
+Người 2: Dạ, họ dựa vào lịch sử mua hàng để gợi ý sản phẩm “đo ni đóng giày” cho từng người. Ví dụ em vừa xem sách kinh tế, họ sẽ gợi ý ngay các cuốn sách quản trị khác.
+Người 1: Ở đây có một nghịch lý được nhắc đến ở cuối slide: Tính ẩn danh (Anonymity). Trên mạng, người bán không biết mặt mũi em ra sao (ẩn danh), nhưng họ lại hiểu rõ sở thích, thói quen và nhu cầu của em hơn cả người bán hàng tạp hóa quen mặt đầu ngõ. Đó là sức mạnh của Dữ liệu lớn (Big Data). Như vậy, TMĐT cho phép chúng ta làm hai việc trái ngược cùng lúc: Bán cho cả thế giới (Mass market), nhưng lại phục vụ riêng biệt từng người (Customization).
+
+Slide 23: CHIẾN LƯỢC CHUỖI CUNG ỨNG - TỪ “ĐẨY” SANG “KÉO”
+Người 1: Chúng ta tiếp tục với sự thay đổi cốt lõi trong vận hành. Các bạn nhìn vào Slide 23, có hai sơ đồ dòng chảy hàng hóa. Một cái là mũi tên đi thẳng từ trái sang phải, một cái là vòng tròn khép kín.
+Theo em, sự khác biệt lớn nhất về tư duy giữa hai hình này là gì?
+Người 2: Dạ, hình ở trên (Mô hình Đẩy) giống như kiểu truyền thống: Nhà máy cứ sản xuất xong đẩy ra kho, rồi đẩy ra cửa hàng, rồi ngồi chờ khách đến mua.
+Còn hình dưới (Mô hình Kéo) thì mũi tên bắt đầu từ Khách hàng ngược về Nhà máy. Có phải là có khách hỏi mua rồi mới làm không ạ?
+Người 1: Rất chính xác! Đó là sự chuyển dịch từ “Guessing” (Đoán nhu cầu) sang “Responding” (Đáp ứng yêu cầu).
+Mô hình Đẩy (Push) dựa trên dự báo. Mà dự báo thì luôn sai số. Nếu em đoán sai, em sẽ bị tồn kho chết, tiền nằm im trong kho.
+Ngược lại, TMĐT cho phép thực hiện Mô hình Kéo (Pull) hay Build-to-order.
+Lợi ích chiến lược ở đây là gì?
+Người 2: Dạ là giảm rủi ro ế hàng và không tốn tiền thuê kho bãi để chứa đống hàng thừa đó ạ.
+Người 1: Đúng vậy. Dell là ví dụ kinh điển cho mô hình này. Họ không lắp sẵn máy tính. Khi em đặt hàng cấu hình cụ thể trên Web, họ mới bắt đầu lắp ráp. Đó là sự linh hoạt tuyệt đối với nhu cầu thị trường.
+
+Slide 24: CÁC GIAI ĐOẠN TIẾN HÓA - NHẬN DIỆN “DNA” SỐ
+Người 1: Từ mô hình vận hành, chúng ta xem xét các hình thái tổ chức của doanh nghiệp trên Slide 24.
+Chúng ta có 3 thuật ngữ tiếng Anh rất hình tượng: Brick-and-mortar, Click-and-mortar và Virtual. Em hãy nhìn biểu tượng và giải thích giúp thầy?
+Người 2: Dạ thưa thầy:
+1. Brick-and-mortar (Gạch và vữa): Biểu tượng ngân hàng truyền thống. Chắc là chỉ những nơi chỉ có cửa hàng vật lý, muốn mua phải đến tận nơi.
+2. Virtual / Pure-play (Thuần trực tuyến): Biểu tượng đám mây. Là những công ty chỉ sống trên mạng, không có cửa hàng ngoài phố, ví dụ như eBay hay Amazon hồi xưa.
+3. Click-and-mortar (Gạch và Click): Biểu tượng ngôi nhà có con chuột máy tính. Là kết hợp cả hai ạ.
+Người 1: Chính xác. Click-and-mortar chính là mô hình lai ghép, sử dụng kênh Online để hỗ trợ cho cửa hàng vật lý.
+Điển hình như Walmart hay ở Việt Nam là Thế Giới Di Động.
+Các bạn lưu ý, xu hướng hiện nay không phải là bỏ “Gạch” để lên “Mây” hoàn toàn, mà là sự kết hợp. Tại sao lại thế? Chúng ta sang slide tiếp theo.
+
+Slide 25: ĐÍCH ĐẾN TỐI THƯỢNG - OMNICHANNEL (ĐA KÊNH HỢP NHẤT)
+Người 1: Slide 25 giới thiệu khái niệm quan trọng nhất của bán lẻ hiện đại: Omnichannel.
+Nhìn vào sơ đồ, em thấy vị trí của Khách hàng ở đâu và các mũi tên đi như thế nào?
+Người 2: Dạ, khách hàng nằm chính giữa. Các mũi tên từ Web, App, Cửa hàng (Physical Store), Mạng xã hội (Social Media) đều nối với nhau và xoay quanh khách hàng.
+Người 1: Đúng. Khác với “Đa kênh” (Multi-channel) là các kênh hoạt động rời rạc, Omnichannel xóa nhòa ranh giới Online và Offline.
+Đặc điểm cốt lõi là trải nghiệm nhất quán và liền mạch.
+Em hãy đọc ví dụ về Zara trên slide và cho thầy biết sự “liền mạch” thể hiện ở đâu?
+Người 2: Dạ ví dụ là: Khách đặt mua trên Web/App nhưng có thể chọn nhận hàng hoặc đổi trả tại bất kỳ cửa hàng nào.
+Nghĩa là bắt đầu ở kênh này (Online) nhưng kết thúc ở kênh kia (Offline) mà không bị gián đoạn.
+Người 1: Chính xác. Điều này giúp khách tiết kiệm phí vận chuyển và thời gian chờ đợi. Đối với nhà quản trị, nó đòi hỏi hệ thống dữ liệu phải đồng bộ theo thời gian thực (Real-time) giữa kho online và kho cửa hàng.
+
+Slide 26: CUỘC ĐỐI ĐẦU CỦA NHỮNG GÃ KHỔNG LỒ
+Người 1: Để minh chứng cho xu hướng Omnichannel, hãy nhìn vào cuộc chuyển mình của hai gã khổng lồ trên Slide 26: Walmart và Amazon.
+Đây là một cuộc đua thú vị. Một kẻ từ “Đất” muốn lên “Mây”, một kẻ từ “Mây” muốn đáp “Đất”.
+Người 2: Dạ em thấy trên slide:
+• Walmart: Xuất phát là “Brick-and-mortar”. Họ chuyển sang “Click-and-mortar” bằng cách tận dụng hệ thống siêu thị khổng lồ làm điểm giao nhận cho đơn hàng Online.
+• Amazon: Xuất phát là “Virtual”. Nhưng giờ họ lại mở cửa hàng vật lý như Amazon Go.
+Người 1: Tại sao Amazon, vua bán hàng online, lại phải tốn tiền mở cửa hàng vật lý làm gì?
+Người 2: Dạ chắc là để đáp ứng nhu cầu trải nghiệm thực tế, “sờ tận tay” của khách hàng mà online không làm được ạ?
+Người 1: Rất đúng. Bài học quản trị ở đây là: Không có mô hình nào là vĩnh viễn.
+Thành công nằm ở khả năng thích ứng linh hoạt. Walmart cần Online để tiện lợi, Amazon cần Offline để tin cậy và trải nghiệm. Cuối cùng, họ gặp nhau ở Omnichannel.
+
+Slide 27: THỬ THÁCH NHANH - PHÂN LOẠI HÀNH TRÌNH MUA SẮM
+Người 1: Để chốt lại phần này, chúng ta cùng làm bài tập nhanh trên Slide 27.
+Thầy sẽ đọc hành vi, các bạn hãy gọi tên mô hình nhé. Trường hợp 1: Chạy ra đầu ngõ mua ổ bánh mì tại tiệm tạp hóa?
+Người 2: Dạ cái này dễ: Brick-and-mortar (Truyền thống) ạ.
+Người 1: Trường hợp 2: Đăng ký thuê bao xem phim trên Netflix?
+Người 2: Sản phẩm số, giao dịch số, giao hàng số. Là Virtual / Pure-play (TMĐT thuần túy) ạ.
+Người 1: Trường hợp 3: Đặt vé máy bay qua App nhưng ra đại lý thanh toán tiền mặt?
+Người 2: Có kết hợp Online và điểm giao dịch vật lý -> Click-and-mortar.
+Người 1: Trường hợp 4: Mua máy tính Dell online và đợi giao tận nhà? (Lưu ý: Hàng hóa vật lý).
+Người 2: Dạ là TMĐT bán phần (Partial E-commerce) ạ.
+Người 1: Cuối cùng: Tải nhạc trên iTunes?
+Người 2: TMĐT thuần túy (Pure E-commerce) ạ.
+Người 1: Rất tốt! Các bạn đã nắm vững cách phân loại để định vị doanh nghiệp rồi. Chúng ta sẽ áp dụng tư duy này vào dự án nhóm nhé.
+
+Slide 28: ĐÚC KẾT HÀNH TRÌNH - TÁI CẤU TRÚC ĐỂ DẪN ĐẦU
+Người 1: Trước khi khép lại phần các mô hình vận hành, thầy muốn các bạn nhìn vào Slide 28 để ghi nhớ 3 hình ảnh ẩn dụ cốt lõi. Đây là chìa khóa để các bạn phân biệt rõ ràng sự tiến hóa của thương mại.
+Thầy mời một bạn tóm tắt lại 3 cấp độ này dựa trên hình ảnh trên slide?
+Người 2: Dạ thưa thầy, em xin tóm tắt ạ:
+• Thương mại truyền thống: Giống như việc đi bộ ra tiệm tạp hóa. Nó bị giới hạn bởi sức người (mệt) và địa lý (chỉ mua được ở gần nhà).
+• TMĐT bán phần: Giống như chờ shipper gõ cửa. Mình ngồi nhà đặt qua App (thế giới số) nhưng vẫn phải đợi người giao hàng (thế giới vật lý).
+• TMĐT thuần túy: Slide gọi là “Phép thuật”. Vì chỉ cần nhấp chuột là phim, nhạc hay phần mềm hiện ra ngay lập tức, không có độ trễ.
+Người 1: Rất chính xác. Và để đạt được “phép thuật” đó, doanh nghiệp buộc phải tái cấu trúc quy trình từ “Đẩy” (sản xuất rồi bán) sang “Kéo” (bán rồi mới sản xuất/cung cấp).
+Chỉ có mô hình “Kéo” mới giúp chúng ta đạt được tốc độ và sự cá nhân hóa tối đa.
+
+Slide 29: CHƯƠNG 1 - TIẾT 3: LỢI THẾ CHIẾN LƯỢC & CHÌA KHÓA THÀNH CÔNG
+Người 1: Chào mừng các bạn đến với Tiết 3, cũng là tiết cuối cùng của Chương 1.
+Ở các tiết trước, chúng ta đã biết “TMĐT là gì” và “Nó vận hành thế nào”. Hôm nay, câu hỏi quan trọng hơn là: “Tại sao nó lại chiến thắng?”. Hãy nhìn vào Mục tiêu tiết học trên Slide 29. Chúng ta sẽ cùng nhau giải mã 3 vấn đề lớn.
+Đặc biệt, thầy muốn các bạn chú ý đến mục tiêu số 3: “Mô hình 6Cs và OVP”.
+OVP (Online Value Proposition) hay “Đề xuất giá trị trực tuyến” chính là câu trả lời cho câu hỏi: “Tại sao tôi phải vào web của bạn thay vì ra chợ?”.
+Người 2: Thưa thầy, còn khái niệm “Tảng băng trôi” ở mục tiêu số 2 nghĩa là gì ạ? Có phải nói về những rủi ro ngầm không ạ?
+Người 1: Đúng vậy. Chúng ta thường chỉ nhìn thấy bề nổi là lợi ích (doanh số, tiện lợi), nhưng phần chìm bên dưới là những rào cản về công nghệ và niềm tin có thể đánh chìm doanh nghiệp bất cứ lúc nào. Chúng ta sẽ “lặn” xuống đó ngay sau đây.
+
+Slide 30: HẢI TRÌNH HÔM NAY - LỘ TRÌNH CHINH PHỤC ĐẠI DƯƠNG SỐ
+Người 1: Để các bạn dễ hình dung, hãy coi hành trình hôm nay như một chuyến ra khơi chinh phục đại dương số. Slide 30 vẽ ra lộ trình 3 chặng của chúng ta.
+• Chặng 1: Khám phá Luật chơi mới. Chúng ta sẽ tìm hiểu 3 tác động chiến lược của thông tin.
+• Chặng 2: Quần đảo Kho báu & Tảng băng trôi. Nơi chúng ta phân tích Lợi ích (Kho báu) và Rủi ro (Tảng băng).
+• Chặng 3: Hải đồ Thành công. Chúng ta sẽ cầm trong tay chiếc “la bàn” 6Cs để định hướng.
+Người 1: Các thủy thủ đoàn lớp BA24M đã sẵn sàng chưa? Chúng ta bắt đầu với “Luật chơi mới”.
+
+Slide 31: BA TÁC ĐỘNG CHIẾN LƯỢC (LUẬT CHƠI MỚI)
+Người 1: Ngày xưa trong kinh doanh truyền thống, có một quy luật nghiệt ngã: “Bạn chỉ có thể chọn 1 trong 2: Hoặc là tiếp cận nhiều người (Reach), Hoặc là cung cấp thông tin chi tiết cho ít người (Richness)”. Nhưng Slide 31 cho thấy TMĐT đã phá vỡ quy luật đó như thế nào. Hãy nhìn vào 3 vòng tròn: Reach, Richness và Affiliation.
+Thầy đố em: “Độ phong phú” (Richness) trong TMĐT khác gì so với tờ rơi quảng cáo ngày xưa?
+Người 2: Dạ, tờ rơi thì chỉ có chữ với hình tĩnh, thông tin rất ít. Còn trên TMĐT, “Richness” nghĩa là mình có thể xem video review sản phẩm, xoay hình ảnh 3D, thậm chí chat trực tiếp với người bán để hỏi kỹ từng chút một.
+Thông tin nó “giàu” hơn rất nhiều ạ.
+Người 1: Chính xác. Thế còn “Tầm với” (Reach)?
+Người 2: Dạ là khả năng vươn ra toàn cầu ạ. Nhờ Google và Internet, một shop nhỏ ở Việt Nam cũng có thể tiếp cận khách hàng ở Mỹ với chi phí rất thấp.
+Người 1: Đúng. Và yếu tố thứ 3 là “Sự liên kết” (Affiliation). TMĐT cho phép chúng ta kết nối với các đối tác và cộng đồng dễ dàng hơn bao giờ hết.
+Ba yếu tố này cộng lại tạo nên một “Luật chơi mới”: Doanh nghiệp nhỏ vẫn có thể thắng doanh nghiệp lớn nếu biết dùng thông tin để tiếp cận khách hàng tốt hơn.
+
+Slide 32: LỢI ÍCH ĐỐI VỚI TỔ CHỨC - TỐI ƯU HÓA CỖ MÁY
+Người 1: Cụ thể hơn, những “quy luật mới” đó mang lại tiền bạc gì cho doanh nghiệp? Slide 32 liệt kê 4 lợi ích cốt lõi.
+Thầy muốn các bạn tập trung vào ý số 3: “Cá nhân hóa quy mô lớn” (Mass Customization).
+Nghe có vẻ mâu thuẫn nhỉ? Đã “quy mô lớn” (Mass) tức là bán cho hàng triệu người, thì làm sao mà “Cá nhân hóa” (Customization) cho từng người được?
+Người 2: Dạ, em nghĩ chìa khóa nằm ở “Dữ liệu” ạ. Ví dụ như Netflix, họ có hàng trăm triệu người dùng (Quy mô lớn), nhưng giao diện màn hình chính của mỗi người lại khác nhau hoàn toàn dựa trên phim họ đã xem (Cá nhân hóa). Họ dùng thuật toán để “đo ni đóng giày” cho từng người một cách tự động, chứ không phải dùng sức người để tư vấn thủ công ạ.
+Người 1: Phân tích rất sắc sảo! Đó chính là sức mạnh của công nghệ. Ngoài ra, TMĐT còn giúp “Giảm chi phí vận hành” khủng khiếp. Nhất là chi phí gì em biết không?
+Người 2: Dạ là chi phí kho bãi và hàng tồn kho ạ. Như thầy nói lúc nãy về mô hình “Kéo”, mình không cần trữ hàng đống trong kho nữa nên tiết kiệm được rất nhiều tiền ạ.
+Người 1: Chính xác. Và cuối cùng là khả năng phục vụ 24/7/365. Cỗ máy kiếm tiền của các bạn sẽ chạy ngay cả khi các bạn đang ngủ. Đó là giấc mơ của mọi nhà quản trị.
+
+Slide 33: LỢI ÍCH ĐỐI VỚI NGƯỜI TIÊU DÙNG - QUYỀN LỰC CỦA CÁI ĐUÔI DÀI
+Người 1: Chúng ta đã nói về lợi ích cho doanh nghiệp. Bây giờ hãy nhìn từ phía chúng ta - những người tiêu dùng.
+Trên Slide 33 có một biểu đồ rất nổi tiếng: Biểu đồ Cái đuôi dài (The Long Tail).
+Các bạn thấy biểu đồ chia làm 2 phần: Phần đầu (Head) màu đậm và Phần đuôi (Long Tail) màu nhạt kéo dài mãi.
+Theo em, sự khác biệt giữa một tiệm sách ngoài phố và Amazon nằm ở đâu trên biểu đồ này?
+Người 2: Dạ, tiệm sách ngoài phố diện tích có hạn, họ chỉ bày bán những cuốn sách bán chạy nhất (Best-seller) thôi. Chắc đó là phần “Head”.
+Còn Amazon thì kho hàng vô tận, họ bán cả những cuốn sách cực hiếm, sách chuyên ngành mà ít người mua. Đó là phần “Long Tail”.
+Người 1: Rất chính xác. TMĐT cho phép người dùng tiếp cận sự “Lựa chọn đa dạng” mà cửa hàng truyền thống không thể nào trưng bày hết được.
+Ngoài ra, người dùng còn được hưởng lợi từ “Tính phổ quát” (Ubiquity) - mua mọi lúc mọi nơi.
+Và đặc biệt là tốc độ. Nếu em mua phần mềm hay phim ảnh (sản phẩm số), em nhận hàng nhanh như thế nào?
+Người 2: Dạ nhận ngay lập tức sau khi thanh toán ạ. Không phải chờ ship.
+À, em còn thấy một lợi ích nữa là “Tìm kiếm giá hời”. Mình dùng mấy trang so sánh giá là biết ngay chỗ nào bán rẻ nhất để mua.
+Người 1: Đúng vậy. Người tiêu dùng ngày nay nắm quyền lực thông tin rất lớn.
+
+Slide 34: HẠN CHẾ VÀ RÀO CẢN - MÔ HÌNH “TẢNG BĂNG TRÔI”
+Người 1: Tuy nhiên, không có gì là hoàn hảo. Slide 34 đưa chúng ta quay lại với thực tế khắc nghiệt: Mô hình “Tảng băng trôi”.
+Thành công bề nổi (như doanh số khủng, web đẹp) chỉ là phần nhỏ. Nó có thể che giấu những mối nguy chí mạng bên dưới.
+Là nhà quản trị, nhiệm vụ của các em là phải nhìn thấu mặt nước để nhận diện các “rủi ro ngầm” này trước khi con tàu doanh nghiệp đâm phải nó.
+
+Slide 35: GIẢI PHẪU “TẢNG BĂNG TRÔI” - NHỮNG CÁI BẪY NGẦM
+Người 1: Vậy cụ thể bên dưới mặt nước có gì? Slide 35 “giải phẫu” tảng băng này thành 2 loại rào cản: Kỹ thuật và Phi kỹ thuật.
+Hãy nhìn vào Phần nổi trước. Khách hàng thấy gì?
+Người 2: Dạ họ thấy Website đẹp, chương trình khuyến mãi hấp dẫn và giao hàng nhanh. Mọi thứ trông có vẻ rất ổn.
+Người 1: Nhưng hãy nhìn xuống Phần chìm. Về Kỹ thuật, chúng ta đối mặt với cái gì?
+Người 2: Dạ là rủi ro bị hack, bị tấn công DDoS hoặc virus.
+Với lại vấn đề tích hợp hệ thống cũ (legacy systems) nữa. Kiểu như phần mềm kế toán cũ không khớp với web bán hàng mới thì dữ liệu bị lệch hết.
+Người 1: Chính xác. Còn rào cản Phi kỹ thuật (Non-technical) thì sao? Cái này liên quan đến con người và tâm lý.
+Người 2: Em thấy cái lớn nhất là “Thiếu lòng tin”. Mua hàng mà không thấy mặt người bán (“faceless”) nên khách sợ bị lừa.
+Ngoài ra còn vấn đề riêng tư nữa. Khách sợ bị web cài cookies hay spyware để theo dõi lén ạ.
+Người 1: Và đừng quên “Sự kháng cự thay đổi”. Nhiều người vẫn thích thói quen ra chợ trả giá hơn là bấm chuột.
+Hiểu rõ tảng băng này để thấy rằng làm TMĐT không chỉ là vẽ cái web cho đẹp, mà là cuộc chiến về an ninh, niềm tin và thói quen.
+
+Slide 36: CHÌA KHÓA THÀNH CÔNG - LA BÀN ĐIỀU HƯỚNG 6Cs
+Người 1: Làm sao để con tàu của chúng ta lách qua được những tảng băng đó? Slide 36 trao cho các bạn một công cụ định hướng: La bàn 6Cs.
+Đây là bộ tọa độ giúp các bạn tối ưu hóa chiến lược.
+Nhìn vào chiếc la bàn trên slide, em thấy những mũi kim chỉ vào những yếu tố nào?
+Người 2: Dạ em thấy có 6 yếu tố: Bảo mật, Truyền thông, Trí tuệ, Thương mại, Liên kết… và cái gì nữa ạ? Hình như slide sau sẽ giải thích kỹ hơn.
+Người 1: Đúng vậy. 6 chữ C này là viết tắt của các từ tiếng Anh. Chúng ta sẽ đi sâu vào từng chữ C ngay sau đây để xem nó giúp gì cho doanh nghiệp.
+
+Slide 37: 6 TỌA ĐỘ VÀNG CỦA “LA BÀN 6Cs”
+Người 1: Đây là nội dung cốt lõi các bạn cần ghi nhớ. Slide 37 giải mã 6 chữ C.
+Thầy sẽ đi qua từng chữ, các bạn hãy liên hệ thực tế nhé. Đầu tiên, Content (Nội dung). Nó không chỉ là đăng bài bán hàng, mà là cung cấp thông tin giá trị cao để khách quyết định.
+Thứ hai, Customisation (Cá nhân hóa). Em thấy ví dụ của Amazon trên slide không?
+Người 2: Dạ thấy ạ. Dòng chữ quen thuộc: “Customers who bought this item also bought…” (Khách hàng mua món này cũng mua thêm…).
+Nó dựa vào lịch sử mua sắm để gợi ý đúng ý mình luôn.
+Người 1: Tiếp theo là Community (Cộng đồng). Tại sao các sàn TMĐT lại cần phần Đánh giá (Review)?
+Người 2: Dạ để xây dựng niềm tin ạ. Em mua hàng toàn đọc comment trước.
+Người 1: Convenience (Tiện lợi): Quy trình phải mượt mà, ít thao tác.
+Choice (Lựa chọn): Danh mục sản phẩm phải đa dạng.
+Và cuối cùng, Cost reduction (Giảm chi phí): Biến lợi thế chi phí thấp thành giá rẻ cho khách hàng.
+Người 1: Tổng kết lại, nếu dự án của các bạn đảm bảo được 6 chữ C này, các bạn đã nắm trong tay 80% cơ hội chiến thắng trên thị trường số. Bài học hôm nay dừng ở đây. Các nhóm về nhà rà soát lại ý tưởng của mình dựa trên La bàn 6Cs này nhé!
+
+Slide 38: ĐỀ XUẤT GIÁ TRỊ TRỰC TUYẾN (OVP) - LÁ CỜ CỦA RIÊNG BẠN
+Người 1: Sau khi đã có chiến lược 6Cs, chúng ta cần một thông điệp để gói gọn tất cả lại. Đó chính là OVP - Đề xuất giá trị trực tuyến.
+Slide 38 ví OVP như là “Lá cờ” của riêng bạn. Theo em, tại sao một doanh nghiệp online lại cần một “lá cờ” riêng biệt so với cửa hàng truyền thống của chính họ?
+Người 2: Dạ, em nghĩ là để khách hàng biết lý do tại sao nên lên mạng mua thay vì ra cửa hàng.
+Nếu lên mạng mua mà giá y chang, hàng y chang, lại còn phải chờ ship, thì thà em chạy ra tiệm mua cho nhanh. Nên OVP phải là những lợi ích độc đáo chỉ có ở online, đúng không thầy?
+Người 1: Rất chính xác. OVP giúp phân biệt chúng ta với đối thủ và với chính kênh offline của mình.
+Quan trọng hơn, nó tạo ra một thứ gọi là “Soft lock-in” (Khóa chân mềm). Nghĩa là khách hàng tự nguyện ở lại vì họ thấy lợi ích, và OVP giúp chúng ta chiến thắng ngay từ giai đoạn ZMOT (tìm kiếm thông tin).
+Hãy nhìn ví dụ của Amazon trên slide: “Sự lựa chọn lớn nhất Trái đất”.
+Câu này khẳng định điều gì?
+Người 2: Dạ khẳng định là ở đây có tất cả mọi thứ, cái gì cũng có, cửa hàng vật lý không thể đọ lại được số lượng hàng hóa này.
+Người 1: Đúng vậy. Hoặc Kelkoo: “So sánh. Mua. Tiết kiệm”. Rất ngắn gọn và đánh trúng tâm lý muốn giá rẻ.
+
+Slide 39: THẤU HIỂU CƯ DÂN MỚI - KHÁCH HÀNG XÃ HỘI (SOCIAL CUSTOMER)
+Người 1: Chúng ta đã có “Lá cờ” (OVP), nhưng ai là người sẽ nhìn thấy lá cờ đó? Slide 39 giới thiệu một thế hệ khách hàng mới: Social Customer (Khách hàng xã hội).
+Em thấy hành vi của nhóm khách hàng này có gì khác so với thế hệ trước?
+Người 2: Dạ, họ không tin quảng cáo tivi nữa.
+Họ tin vào ý kiến của bạn bè, hoặc các chuyên gia review (mavens) trên mạng xã hội hơn.
+Trước khi mua cái gì, họ đều lên Facebook hay TikTok tìm xem người ta nói gì về nó.
+Người 1: Chính xác. Quyền năng của họ rất lớn. Họ không chỉ mua, mà còn tham gia vào quá trình lan truyền (Viral Marketing).
+Họ sẵn sàng khen hết lời nhưng cũng sẵn sàng “bóc phốt” nếu không hài lòng. Vậy chiến lược ứng phó của doanh nghiệp là gì?
+Người 2: Dạ trên slide ghi là phải chuyển từ “Độc thoại” sang “Đối thoại”.
+Nghĩa là không được chỉ ra rả nói về mình tốt thế nào, mà phải lắng nghe và trả lời bình luận của khách hàng một cách chân thực (Social CRM).
+Người 1: Đúng vậy. Đừng bao giờ lờ đi phản hồi của Khách hàng xã hội.
+
+Slide 40: HOẠT ĐỘNG LỚP - TRANH BIỆN “VƯỢT TẢNG BĂNG TRÔI”
+Người 1: Bây giờ, chúng ta sẽ áp dụng tất cả kiến thức: Tảng băng trôi, 6Cs, OVP và Social Customer vào bài tập tình huống thực tế. Các bạn nhìn Slide 40. Đây là đề bài chi tiết cho hoạt động mà thầy đã giới thiệu sơ qua ở phần trước.
+Tình huống: Nhóm các bạn đóng vai Ban Giám đốc một Startup nông sản sạch.
+Các bạn có 10 phút để giải quyết 4 thử thách sau đây:
+Người 2: Dạ thầy ơi, cụ thể 4 việc phải làm là gì ạ?
+Người 1: Phân tích Tảng băng trôi: Chỉ ra những rủi ro “chìm” lớn nhất (như lỗi thanh toán, bảo mật…).
+1. Tranh luận đầu tư: Quyết định xem nên đổ tiền vào đâu để cứu “phần chìm” của con tàu.
+2. Xây dựng OVP: Hãy viết ra một câu slogan đủ mạnh để thu hút khách hàng ngay lập tức.
+3. Lựa chọn chiến lược 6Cs: Chọn một chữ C làm vũ khí chủ lực và giải thích tại sao.
+Người 2: Dạ rõ rồi ạ. Nhóm em sẽ tập trung vào chữ C là “Community” (Cộng đồng) và xử lý rủi ro “Niềm tin” như thầy đã gợi ý lúc nãy ạ.
+Người 1: Rất tốt. Các nhóm bắt đầu thảo luận ngay nhé!
+
+Slide 41: TỔNG KẾT & ẨN DỤ GHI NHỚ
+Người 1: Thời gian thảo luận đã hết. Để khép lại buổi học hôm nay, thầy muốn các bạn ghi nhớ hình ảnh ẩn dụ cuối cùng trên Slide 41.
+Hãy tưởng tượng doanh nghiệp TMĐT của bạn như một chiếc tàu siêu tốc trên biển.
+Chiếc tàu này có hai mặt đối lập nào?
+Người 2: Dạ thưa thầy:
+• Mặt lợi thế là Tốc độ: Nó chạy cực nhanh để chiếm lĩnh thị trường mới.
+• Nhưng mặt nguy hiểm là: Những “Tảng băng trôi”. Đó là rủi ro vận hành và lòng tin nằm ẩn dưới làn sóng công nghệ hào nhoáng.
+Người 1: Rất chính xác. Thông điệp chủ đạo thầy muốn gửi gắm: TMĐT là con đường tất yếu, nhưng thành công chỉ đến với nhà quản trị biết cân bằng giữa Tốc độ (Marketing, Sales) và Sự an toàn (Vận hành, Pháp lý, Bảo mật).
+Đừng lái tàu quá nhanh mà quên nhìn bản đồ ngầm.
+Người 2: Dạ, em sẽ nhớ kỹ bài học này cho dự án của nhóm ạ.
+Người 1: Bài tập về nhà: Các bạn hãy chuẩn bị nội dung về “Cơ sở hạ tầng TMĐT” cho buổi học tuần sau nhé.
+Cảm ơn cả lớp và hẹn gặp lại!
+

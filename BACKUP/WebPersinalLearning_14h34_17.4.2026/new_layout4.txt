@@ -1,0 +1,70 @@
+             with ui.splitter(value=65).classes('w-full h-full').props('separator-class="bg-blue-100"') as main_splitter:
+                 with main_splitter.before:
+                     with ui.splitter(horizontal=True, value=25).classes('w-full h-full').props('separator-class="bg-blue-100"') as left_splitter:
+                         with left_splitter.before:
+                             with ui.row().classes('w-full h-full bg-slate-50 p-4 no-wrap gap-4 items-stretch'):
+                                 with ui.column().classes('flex-grow h-full no-wrap bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden'):
+                                     with ui.row().classes('w-full bg-blue-50/50 p-2 items-center border-b border-blue-100 gap-2'):
+                                         ui.icon('assignment', color='blue-600').classes('text-lg ml-2')
+                                         ui.label('Đề bài & Yêu cầu').classes('font-bold text-blue-900')
+                                     with ui.scroll_area().classes('w-full flex-grow p-4'):
+                                         tutor_problem = ui.textarea(placeholder='Nhập nội dung đề bài vào đây...').classes('w-full text-base').props('borderless autogrow autofocus')
+                                 
+                                 with ui.column().classes('justify-start w-[180px] shrink-0 pt-2'):
+                                     ui.button('Bắt đầu làm bài', on_click=lambda: getattr(ui, 'timer')(0.1, tutor_start_exercise, once=True)).classes('w-full bg-gradient-to-r from-blue-600 to-blue-500 text-white shadow-md hover:shadow-lg font-bold py-3 transition-all').props('rounded text-color="white" icon="play_arrow"')
+                         
+                         with left_splitter.separator:
+                             with ui.row().classes('w-full h-full items-center justify-center bg-gray-200/50 transition hover:bg-blue-200 cursor-row-resize'):
+                                 ui.icon('drag_handle', color='gray').classes('text-lg')
+
+                         with left_splitter.after:
+                             with ui.column().classes('flex-grow h-full bg-gray-50 flex flex-col w-full no-wrap relative'):
+                                 with ui.row().classes('w-full p-4 items-center border-b border-gray-200 bg-white shadow-sm z-10'):
+                                     ui.icon('code', color='green-600').classes('text-2xl')
+                                     ui.label('Không gian làm bài').classes('font-bold text-gray-800 text-lg')
+                                 with ui.scroll_area().classes('w-full flex-grow p-4 bg-white shadow-inner'):
+                                     tutor_workspace = ui.textarea(placeholder='Hãy trình bày lời giải của bạn...').classes('w-full text-base font-mono').props('borderless autogrow')
+                                 
+                                 def send_predefined_prompt(action):
+                                     if action == 'run':
+                                         tutor_input.value = "Đóng vai trình biên dịch, hãy thử chạy hoặc phân tích đoạn code/lời giải trong Không gian làm bài của tôi."
+                                     elif action == 'eval':
+                                         tutor_input.value = "Đây là phần làm bài của tôi, hãy chấm điểm và đánh giá sửa lỗi chi tiết nhé."
+                                     elif action == 'help':
+                                         tutor_input.value = "Tôi đang gặp khó khăn, hãy giải thích và gợi ý cho tôi vài ý tưởng để làm bước tiếp theo."
+                                     getattr(ui, 'timer')(0.1, tutor_send_message, once=True)
+
+                                 with ui.row().classes('w-full p-3 border-t border-gray-200 bg-gray-50 gap-4 justify-center items-center shadow-[0_-2px_4px_rgba(0,0,0,0.02)]'):
+                                     ui.button('▶ Chạy code', on_click=lambda: send_predefined_prompt('run')).classes('bg-green-600 text-white hover:bg-green-700 transition').props('unelevated rounded')
+                                     ui.button('💬 Chấm bài & Đánh giá', on_click=lambda: send_predefined_prompt('eval')).classes('bg-blue-600 text-white hover:bg-blue-700 transition').props('unelevated rounded')
+                                     ui.button('💡 AI Giúp đỡ', on_click=lambda: send_predefined_prompt('help')).classes('bg-yellow-600 text-white hover:bg-yellow-700 transition').props('unelevated rounded')
+
+                 with main_splitter.separator:
+                     with ui.column().classes('w-full h-full items-center justify-center bg-gray-200/50 transition hover:bg-blue-200 cursor-col-resize'):
+                         ui.icon('drag_indicator', color='gray').classes('text-lg')
+
+                 with main_splitter.after:
+                     with ui.column().classes('w-full h-full bg-white flex flex-col shadow-[0_0_15px_rgba(0,0,0,0.05)] z-20 no-wrap'):
+                         with ui.row().classes('w-full p-4 items-center border-b border-gray-100 bg-gradient-to-r from-blue-50 to-white shadow-sm'):
+                             ui.avatar(icon='smart_toy', color='blue-600', text_color='white').props('size=sm')
+                             ui.label('Gia sư AI').classes('font-bold text-blue-900 ml-2')
+                         
+                         with ui.scroll_area().classes('flex-grow w-full p-4 bg-gray-50/50') as tutor_chat_scroll:
+                             tutor_chat_container = ui.column().classes('w-full gap-4')
+                             with tutor_chat_container:
+                                 with ui.row().classes('w-full no-wrap items-start gap-3'):
+                                     ui.icon('auto_awesome', color='blue-600').classes('text-xl mt-1')
+                                     with ui.column().classes('bg-blue-50/60 p-3 rounded-2xl rounded-tl-sm shadow-sm w-full'):
+                                         ui.markdown('Chào bạn, mình là Gia sư AI. Hãy nhập đề bài và nhấn **"Bắt đầu làm bài"** nhé!')
+                         
+                         async def tutor_start_exercise():
+                             prob = tutor_problem.value
+                             if not prob or not prob.strip():
+                                 ui.notify('Vui lòng nhập đề bài trước khi bắt đầu!', type='warning')
+                                 return
+                             
+                             with tutor_chat_container:
+                                 spinner = ui.row().classes('items-center gap-2')
+                                 with spinner:
+                                     ui.spinner('dots', size='md', color='blue-500')
+                                     ui.label('Đang phân tích đề bài...').classes('text-gray-400 text-xs italic')

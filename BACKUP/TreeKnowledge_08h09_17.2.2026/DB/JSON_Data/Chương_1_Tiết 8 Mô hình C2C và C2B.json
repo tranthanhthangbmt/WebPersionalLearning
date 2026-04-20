@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "concept_id": "CONCEPT_60ea4c",
+    "concept_name": "Chương_1_Tiết 8 Mô hình C2C và C2B",
+    "file_source": "Chương_1_Tiết 8 Mô hình C2C và C2B.csv"
+  },
+  "questions": [
+    {
+      "id": "CONCEPT_f08604_0",
+      "type": "multiple_choice",
+      "content": "Trong mô hình Thương mại điện tử C2C, các bên tham gia giao dịch chính là ai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doanh nghiệp và Chính phủ."
+        },
+        {
+          "key": "B",
+          "text": "Cá nhân với cá nhân."
+        },
+        {
+          "key": "C",
+          "text": "Doanh nghiệp bán cho đại lý."
+        },
+        {
+          "key": "D",
+          "text": "Nhà sản xuất và nhà bán buôn."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "C2C (Consumer-to-Consumer) đề cập đến các giao dịch điện tử được thực hiện giữa và trong số các cá nhân/người tiêu dùng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_7dc532_1",
+      "type": "multiple_choice",
+      "content": "Website nào sau đây là ví dụ điển hình cho mô hình C2C thông qua đấu giá trực tuyến?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Amazon.com."
+        },
+        {
+          "key": "B",
+          "text": "Walmart.com."
+        },
+        {
+          "key": "C",
+          "text": "eBay.com."
+        },
+        {
+          "key": "D",
+          "text": "Dell.com."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "eBay là nền tảng nổi tiếng nhất cho các giao dịch C2C, nơi các cá nhân bán hoặc mua sản phẩm trực tiếp với nhau, thường thông qua đấu giá.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_83f019_2",
+      "type": "multiple_choice",
+      "content": "Mô hình kinh doanh mà cá nhân tạo ra giá trị và bán lại cho doanh nghiệp được gọi là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "B2C."
+        },
+        {
+          "key": "B",
+          "text": "C2B."
+        },
+        {
+          "key": "C",
+          "text": "B2B."
+        },
+        {
+          "key": "D",
+          "text": "G2C."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong C2B (Consumer-to-Business), cá nhân sử dụng Internet để bán sản phẩm hoặc dịch vụ cho các tổ chức/doanh nghiệp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_846d92_3",
+      "type": "multiple_choice",
+      "content": "Hoạt động \"Crowdsourcing\" (Huy động nguồn lực cộng đồng) thuộc nhóm mô hình nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "B2B."
+        },
+        {
+          "key": "B",
+          "text": "C2B."
+        },
+        {
+          "key": "C",
+          "text": "G2G."
+        },
+        {
+          "key": "D",
+          "text": "B2E."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Crowdsourcing tận dụng trí tuệ hoặc sức lao động của đám đông (người tiêu dùng) để giải quyết vấn đề cho doanh nghiệp, thuộc phạm vi C2B.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_a2edee_4",
+      "type": "multiple_choice",
+      "content": "Facebook Marketplace chủ yếu hỗ trợ loại hình giao dịch nào giữa các thành viên?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doanh nghiệp bán sỉ."
+        },
+        {
+          "key": "B",
+          "text": "Mua bán cá nhân (C2C)."
+        },
+        {
+          "key": "C",
+          "text": "Chính phủ đấu thầu."
+        },
+        {
+          "key": "D",
+          "text": "Bán nguyên liệu sản xuất."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Facebook Marketplace là nơi người dùng cá nhân có thể khám phá, mua và bán các mặt hàng với những người khác trong cộng đồng của họ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_de17a6_5",
+      "type": "multiple_choice",
+      "content": "Trang web \"Chợ Tốt\" (Chotot) tại Việt Nam hoạt động chủ yếu dựa trên hình thức nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bán lẻ chính hãng."
+        },
+        {
+          "key": "B",
+          "text": "Rao vặt trực tuyến."
+        },
+        {
+          "key": "C",
+          "text": "Đấu giá ngược B2B."
+        },
+        {
+          "key": "D",
+          "text": "Phân phối độc quyền."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Chợ Tốt hoạt động như một nền tảng rao vặt (classified ads), nơi cá nhân đăng tin bán đồ cũ hoặc mới cho người khác.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_43fc9a_6",
+      "type": "multiple_choice",
+      "content": "Trong mô hình C2B của Priceline, ai là người đưa ra mức giá khởi điểm cho dịch vụ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khách sạn."
+        },
+        {
+          "key": "B",
+          "text": "Khách hàng."
+        },
+        {
+          "key": "C",
+          "text": "Hãng hàng không."
+        },
+        {
+          "key": "D",
+          "text": "Chính phủ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong mô hình \"Name-Your-Own-Price\" của Priceline, người mua (khách hàng) đưa ra mức giá họ muốn trả, và doanh nghiệp quyết định chấp nhận hay không.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_efbeea_7",
+      "type": "multiple_choice",
+      "content": "Influencer Marketing (Tiếp thị qua người ảnh hưởng) thể hiện đặc điểm C2B như thế nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cá nhân bán sức ảnh hưởng cho nhãn hàng."
+        },
+        {
+          "key": "B",
+          "text": "Nhãn hàng bán sản phẩm cho người nổi tiếng."
+        },
+        {
+          "key": "C",
+          "text": "Doanh nghiệp trả lương cứng cho khách."
+        },
+        {
+          "key": "D",
+          "text": "Người dùng mua hàng giá cao hơn."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Influencer cung cấp dịch vụ tiếp thị (sức ảnh hưởng) cho doanh nghiệp, tức là cá nhân tạo giá trị cho doanh nghiệp (C2B).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_3b7a31_8",
+      "type": "multiple_choice",
+      "content": "Sự khác biệt chính giữa \"Rao vặt\" (Classified Ads) và \"Đấu giá\" (Auctions) trong C2C là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rao vặt thường không tích hợp thanh toán ngay."
+        },
+        {
+          "key": "B",
+          "text": "Rao vặt luôn có giá bán cao hơn."
+        },
+        {
+          "key": "C",
+          "text": "Đấu giá không cần người trung gian."
+        },
+        {
+          "key": "D",
+          "text": "Rao vặt chỉ dành cho doanh nghiệp lớn."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Các trang rao vặt (như Craigslist, Chợ Tốt) thường chỉ liệt kê thông tin; giao dịch và thanh toán diễn ra trực tiếp bên ngoài, khác với eBay có tích hợp thanh toán.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_7bdddd_9",
+      "type": "multiple_choice",
+      "content": "Tại sao các nền tảng C2C như eBay hay Chotot cần đạt được \"Critical Mass\" (Khối lượng tới hạn)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Để giảm chi phí vận hành kho."
+        },
+        {
+          "key": "B",
+          "text": "Để tạo hiệu ứng mạng lưới."
+        },
+        {
+          "key": "C",
+          "text": "Để tránh bị đánh thuế."
+        },
+        {
+          "key": "D",
+          "text": "Để hạn chế người dùng ảo."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Cần có đủ số lượng người mua để thu hút người bán và ngược lại (hiệu ứng mạng lưới), nếu không sàn giao dịch sẽ không có giá trị.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_c14981_10",
+      "type": "multiple_choice",
+      "content": "Rủi ro lớn nhất mà người mua thường gặp phải khi giao dịch trên nền tảng C2C là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá sản phẩm quá đắt."
+        },
+        {
+          "key": "B",
+          "text": "Chất lượng khó kiểm chứng."
+        },
+        {
+          "key": "C",
+          "text": "Thời gian giao hàng quá nhanh."
+        },
+        {
+          "key": "D",
+          "text": "Không có nhiều lựa chọn hàng hóa."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Thiếu lòng tin và khó khăn trong việc kiểm định chất lượng hàng hóa thực tế từ người bán cá nhân là rủi ro lớn của C2C.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_43110b_11",
+      "type": "multiple_choice",
+      "content": "Hoạt động nào sau đây là ví dụ của Crowdsourcing trong mô hình C2B?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khách hàng mua cà phê tại quán."
+        },
+        {
+          "key": "B",
+          "text": "Khách hàng đóng góp ý tưởng sản phẩm mới."
+        },
+        {
+          "key": "C",
+          "text": "Doanh nghiệp thuê chuyên gia tư vấn."
+        },
+        {
+          "key": "D",
+          "text": "Nhân viên bán hàng cho khách."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Ví dụ như \"My Starbucks Idea\", nơi khách hàng đóng góp ý tưởng để doanh nghiệp cải thiện sản phẩm/dịch vụ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_e45ad2_12",
+      "type": "multiple_choice",
+      "content": "Mô hình Etsy khác biệt với eBay chủ yếu ở loại hàng hóa nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đồ điện tử cũ."
+        },
+        {
+          "key": "B",
+          "text": "Đồ thủ công và Vintage."
+        },
+        {
+          "key": "C",
+          "text": "Xe ô tô đã qua sử dụng."
+        },
+        {
+          "key": "D",
+          "text": "Bất động sản và nhà đất."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Etsy là thị trường ngách tập trung vào các sản phẩm thủ công (handmade), đồ cổ điển (vintage) và vật tư thủ công.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_486c8c_13",
+      "type": "multiple_choice",
+      "content": "Trong mô hình C2C, vai trò của bên trung gian (như Shopee, eBay) chủ yếu là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sản xuất hàng hóa."
+        },
+        {
+          "key": "B",
+          "text": "Cung cấp nền tảng kết nối."
+        },
+        {
+          "key": "C",
+          "text": "Mua đứt bán đoạn sản phẩm."
+        },
+        {
+          "key": "D",
+          "text": "Định giá sản phẩm cho người bán."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các sàn C2C đóng vai trò trung gian cung cấp nền tảng công nghệ và quy tắc để các cá nhân tự giao dịch với nhau.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_25d11f_14",
+      "type": "multiple_choice",
+      "content": "Tại sao mô hình C2C thường yêu cầu dịch vụ \"Escrow\" (Ký quỹ/Thanh toán đảm bảo)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Để tăng lợi nhuận cho sàn."
+        },
+        {
+          "key": "B",
+          "text": "Để giải quyết vấn đề thiếu lòng tin."
+        },
+        {
+          "key": "C",
+          "text": "Vì ngân hàng bắt buộc sử dụng."
+        },
+        {
+          "key": "D",
+          "text": "Để làm chậm quá trình giao hàng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Do người mua và bán là cá nhân xa lạ, thiếu tin tưởng, dịch vụ Escrow giữ tiền và chỉ chuyển cho người bán khi người mua đã nhận hàng ưng ý.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_a43a0f_15",
+      "type": "multiple_choice",
+      "content": "Một thách thức pháp lý lớn đối với mô hình Kinh tế chia sẻ (như Airbnb) trong nhóm C2C/P2P là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chi phí công nghệ quá cao."
+        },
+        {
+          "key": "B",
+          "text": "Các quy định về thuế và an toàn."
+        },
+        {
+          "key": "C",
+          "text": "Thiếu người có nhu cầu thuê nhà."
+        },
+        {
+          "key": "D",
+          "text": "Khách hàng không thích giá rẻ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các mô hình chia sẻ tài sản cá nhân thường vấp phải các rào cản pháp lý về đóng thuế, bảo hiểm và quy định an toàn so với kinh doanh truyền thống.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_e4372f_16",
+      "type": "multiple_choice",
+      "content": "Yếu tố nào giúp mô hình C2B (như Priceline) tạo ra lợi thế cho người tiêu dùng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doanh nghiệp áp đặt giá cố định."
+        },
+        {
+          "key": "B",
+          "text": "Khách hàng có quyền lực định giá."
+        },
+        {
+          "key": "C",
+          "text": "Sản phẩm luôn có chất lượng thấp."
+        },
+        {
+          "key": "D",
+          "text": "Giảm sự cạnh tranh giữa các doanh nghiệp."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "C2B đảo ngược quy trình truyền thống, trao quyền lực (empowerment) cho người tiêu dùng trong việc định giá hoặc yêu cầu dịch vụ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_f39e2b_17",
+      "type": "multiple_choice",
+      "content": "Khi Influencer (KOL) quảng cáo sản phẩm không đúng sự thật, rủi ro lớn nhất cho nhãn hàng là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng doanh số bán hàng."
+        },
+        {
+          "key": "B",
+          "text": "Mất uy tín và khủng hoảng truyền thông."
+        },
+        {
+          "key": "C",
+          "text": "Phải trả thêm tiền cho Influencer."
+        },
+        {
+          "key": "D",
+          "text": "Không ảnh hưởng gì đến thương hiệu."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong mô hình C2B này, uy tín của thương hiệu gắn liền với cá nhân Influencer; thông tin sai lệch sẽ gây thiệt hại nghiêm trọng về lòng tin (Trust).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_b25c6c_18",
+      "type": "multiple_choice",
+      "content": "Nền tảng \"User-Generated Content\" (Nội dung do người dùng tạo) hỗ trợ mô hình C2B như thế nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Người dùng tạo nội dung quảng cáo miễn phí."
+        },
+        {
+          "key": "B",
+          "text": "Doanh nghiệp tự viết tất cả nội dung."
+        },
+        {
+          "key": "C",
+          "text": "Cấm người dùng đánh giá sản phẩm."
+        },
+        {
+          "key": "D",
+          "text": "Chỉ cho phép chuyên gia viết bài."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "UGC (như review, video unbox) là tài sản mà người dùng (C) tạo ra và mang lại giá trị marketing/thương hiệu cho doanh nghiệp (B).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_44bfdd_19",
+      "type": "multiple_choice",
+      "content": "Trong bối cảnh Việt Nam, sự khác biệt chính giữa Facebook Marketplace và Shopee là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shopee không có hàng cũ."
+        },
+        {
+          "key": "B",
+          "text": "Facebook Marketplace thiếu hỗ trợ thanh toán/ship."
+        },
+        {
+          "key": "C",
+          "text": "Facebook Marketplace thu phí người bán cao hơn."
+        },
+        {
+          "key": "D",
+          "text": "Shopee chỉ dành cho doanh nghiệp lớn."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Facebook Marketplace tại VN chủ yếu là nơi kết nối (classifieds), người mua bán tự lo thanh toán/vận chuyển, trong khi Shopee (sàn) hỗ trợ toàn diện các khâu này.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

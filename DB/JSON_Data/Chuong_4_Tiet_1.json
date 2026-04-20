@@ -1,0 +1,879 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_4_Tiet_1",
+    "concept_name": "Chuong_4_Tiet_1",
+    "file_source": "Chuong_4_Tiet_1.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_4_Tiet_1_0",
+      "type": "multiple_choice",
+      "content": "Vì sao mạng lưới Internet nguyên thủy lại dễ bị tấn công mạng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Do được thiết kế mở để chia sẻ thông tin"
+        },
+        {
+          "key": "B",
+          "text": "Do các giao thức truyền tải quá phức tạp"
+        },
+        {
+          "key": "C",
+          "text": "Do thiếu kinh phí đầu tư bảo vệ mạng lưới"
+        },
+        {
+          "key": "D",
+          "text": "Do máy tính thời kỳ đầu có tốc độ rất chậm"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Do được thiết kế mở để chia sẻ thông tin. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_1",
+      "type": "multiple_choice",
+      "content": "Đâu là bản chất của Thương mại điện tử khi so sánh với Internet?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yêu cầu chia sẻ dữ liệu tự do và công khai"
+        },
+        {
+          "key": "B",
+          "text": "Ưu tiên tốc độ kết nối hơn an toàn hệ thống"
+        },
+        {
+          "key": "C",
+          "text": "Tránh sử dụng các hệ thống thanh toán trực tuyến"
+        },
+        {
+          "key": "D",
+          "text": "Đòi hỏi bảo vệ tuyệt đối dòng tiền và dữ liệu"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Đòi hỏi bảo vệ tuyệt đối dòng tiền và dữ liệu. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_2",
+      "type": "multiple_choice",
+      "content": "Kẻ thù chính của an ninh Thương mại điện tử hiện đại được mô tả là ai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thanh niên mặc áo hoodie hoạt động đơn lẻ"
+        },
+        {
+          "key": "B",
+          "text": "Sinh viên công nghệ tò mò muốn phá hoại"
+        },
+        {
+          "key": "C",
+          "text": "Các tập đoàn tội phạm xuyên quốc gia"
+        },
+        {
+          "key": "D",
+          "text": "Nhân viên bất mãn trong chính bộ phận IT"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Các tập đoàn tội phạm xuyên quốc gia. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_3",
+      "type": "multiple_choice",
+      "content": "Trong cấu trúc thế giới ngầm, \"Devs\" đảm nhận vai trò gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phân phát dữ liệu ăn cắp cho nhiều người"
+        },
+        {
+          "key": "B",
+          "text": "Môi giới mua bán các dữ liệu bị đánh cắp"
+        },
+        {
+          "key": "C",
+          "text": "Rửa tiền để hợp thức hóa nguồn thu bẩn"
+        },
+        {
+          "key": "D",
+          "text": "Viết ra các loại phần mềm mã độc tinh vi"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Viết ra các loại phần mềm mã độc tinh vi. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_4",
+      "type": "multiple_choice",
+      "content": "\"Brokers\" trong hệ sinh thái thế giới ngầm có nhiệm vụ nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Môi giới rao bán các dữ liệu đi đánh cắp được"
+        },
+        {
+          "key": "B",
+          "text": "Trực tiếp cài đặt virus vào máy chủ mục tiêu"
+        },
+        {
+          "key": "C",
+          "text": "Rút tiền từ thẻ tín dụng của các khách hàng"
+        },
+        {
+          "key": "D",
+          "text": "Tạo ra những phần mềm tống tiền Ransomware"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Môi giới rao bán các dữ liệu đi đánh cắp được. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_5",
+      "type": "multiple_choice",
+      "content": "Cybercrime-as-a-Service được hiểu là hình thức hoạt động nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tội phạm đánh cắp dịch vụ đám mây miễn phí"
+        },
+        {
+          "key": "B",
+          "text": "Cung cấp dịch vụ bảo mật cho những kẻ lừa đảo"
+        },
+        {
+          "key": "C",
+          "text": "Tội phạm bán hoặc cho thuê mã độc như dịch vụ"
+        },
+        {
+          "key": "D",
+          "text": "Bán thẻ tín dụng giả mạo qua dịch vụ email"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Tội phạm bán hoặc cho thuê mã độc như dịch vụ. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_6",
+      "type": "multiple_choice",
+      "content": "Tội phạm mạng coi thông tin khách hàng (họ tên, thẻ tín dụng) của doanh nghiệp TMĐT là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Công cụ để tấn công từ chối dịch vụ"
+        },
+        {
+          "key": "B",
+          "text": "Sản phẩm không có giá trị để bán buôn"
+        },
+        {
+          "key": "C",
+          "text": "Nguyên liệu thô cho chuỗi cung ứng ngầm"
+        },
+        {
+          "key": "D",
+          "text": "Chướng ngại vật cần phải bị loại bỏ"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Nguyên liệu thô cho chuỗi cung ứng ngầm. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_7",
+      "type": "multiple_choice",
+      "content": "\"Ma trận Đe dọa\" phân loại vũ khí tấn công thành 2 nhóm chính nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tấn công phần cứng và Tấn công vào phần mềm"
+        },
+        {
+          "key": "B",
+          "text": "Mối đe dọa kỹ thuật và Mối đe dọa phi kỹ thuật"
+        },
+        {
+          "key": "C",
+          "text": "Mã độc tống tiền và Tấn công từ chối dịch vụ"
+        },
+        {
+          "key": "D",
+          "text": "Đánh cắp thông tin và Tấn công nguồn điện"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Mối đe dọa kỹ thuật và Mối đe dọa phi kỹ thuật. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_8",
+      "type": "multiple_choice",
+      "content": "Đặc điểm cốt lõi của \"\"Mối đe dọa Kỹ thuật\"\" là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tấn công vào lỗ hổng phần mềm hoặc hạ tầng mạng"
+        },
+        {
+          "key": "B",
+          "text": "Khai thác trực tiếp tâm lý và thói quen con người"
+        },
+        {
+          "key": "C",
+          "text": "Khuyến khích người dùng tự cung cấp mật khẩu"
+        },
+        {
+          "key": "D",
+          "text": "Phát tán tin giả mạo để làm giảm uy tín công ty"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Tấn công vào lỗ hổng phần mềm hoặc hạ tầng mạng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_9",
+      "type": "multiple_choice",
+      "content": "Ransomware (Mã độc tống tiền) hoạt động theo cơ chế tàn nhẫn nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mã hóa toàn bộ dữ liệu và đòi tiền chuộc"
+        },
+        {
+          "key": "B",
+          "text": "Đánh sập băng thông mạng trang web TMĐT"
+        },
+        {
+          "key": "C",
+          "text": "Mạo danh email của giám đốc để lừa đảo"
+        },
+        {
+          "key": "D",
+          "text": "Gửi hàng loạt yêu cầu truy cập cùng lúc"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Mã hóa toàn bộ dữ liệu và đòi tiền chuộc. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_10",
+      "type": "multiple_choice",
+      "content": "Tại sao tin tặc sử dụng Ransomware lại thường yêu cầu tiền chuộc bằng Bitcoin?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì Bitcoin dễ đổi sang các đồng ngoại tệ"
+        },
+        {
+          "key": "B",
+          "text": "Vì Bitcoin là tiền ảo ẩn danh và rất khó truy vết"
+        },
+        {
+          "key": "C",
+          "text": "Vì giá trị Bitcoin luôn tăng mạnh theo thời gian"
+        },
+        {
+          "key": "D",
+          "text": "Vì ngân hàng cấm giao dịch tiền bằng đô la Mỹ"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Vì Bitcoin là tiền ảo ẩn danh và rất khó truy vết. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_11",
+      "type": "multiple_choice",
+      "content": "Hậu quả \"\"Downtime\"\" do Mã độc tống tiền gây ra có nghĩa là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hệ thống tê liệt khiến chuỗi cung ứng đứt gãy"
+        },
+        {
+          "key": "B",
+          "text": "Hacker ngắt kết nối mạng Internet của công ty"
+        },
+        {
+          "key": "C",
+          "text": "Dữ liệu thẻ tín dụng bị tuồn lên mạng trực tuyến"
+        },
+        {
+          "key": "D",
+          "text": "Các khách hàng rời bỏ sàn TMĐT vĩnh viễn"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Hệ thống tê liệt khiến chuỗi cung ứng đứt gãy. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_12",
+      "type": "multiple_choice",
+      "content": "Tấn công Từ chối Dịch vụ (DDoS) nhằm mục đích chính là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đánh cắp thông tin thanh toán của người dùng"
+        },
+        {
+          "key": "B",
+          "text": "Khóa dữ liệu công ty để tống tiền giám đốc"
+        },
+        {
+          "key": "C",
+          "text": "Vắt kiệt băng thông làm máy chủ web quá tải"
+        },
+        {
+          "key": "D",
+          "text": "Gửi email độc hại đến toàn bộ các nhân viên"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Vắt kiệt băng thông làm máy chủ web quá tải. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_13",
+      "type": "multiple_choice",
+      "content": "Thước đo quản trị cho thiệt hại của tấn công DDoS thường được xác định là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Số lượng email lừa đảo đã gửi trong 1 phút"
+        },
+        {
+          "key": "B",
+          "text": "Số tài khoản người dùng Facebook bị đánh cắp"
+        },
+        {
+          "key": "C",
+          "text": "Số lượng USD doanh thu tổn thất trên mỗi phút sập"
+        },
+        {
+          "key": "D",
+          "text": "Chi phí mua phần mềm diệt virus mã độc mới"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Số lượng USD doanh thu tổn thất trên mỗi phút sập. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_14",
+      "type": "multiple_choice",
+      "content": "Vũ khí Phi kỹ thuật nhắm thẳng vào điểm yếu nào của hệ thống doanh nghiệp?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sự chậm trễ của các phần mềm quét diệt virus"
+        },
+        {
+          "key": "B",
+          "text": "Các lỗ hổng chưa được vá cẩn thận trên máy chủ"
+        },
+        {
+          "key": "C",
+          "text": "Đường truyền mạng Internet không duy trì ổn định"
+        },
+        {
+          "key": "D",
+          "text": "Tâm lý và sự lơ đễnh chủ quan của chính con người"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Tâm lý và sự lơ đễnh chủ quan của chính con người. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_15",
+      "type": "multiple_choice",
+      "content": "Phishing (Tấn công giả mạo) dựa trên nguyên lý nào để có thể xâm nhập thành công?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lừa người dùng tự nguyện giao nộp mật khẩu"
+        },
+        {
+          "key": "B",
+          "text": "Tự động sao chép mã độc qua hệ thống kết nối"
+        },
+        {
+          "key": "C",
+          "text": "Đánh sập ứng dụng tường lửa của các doanh nghiệp"
+        },
+        {
+          "key": "D",
+          "text": "Mã hóa hàng loạt các tập tin trong bộ nhớ ổ cứng"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Lừa người dùng tự nguyện giao nộp mật khẩu. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_16",
+      "type": "multiple_choice",
+      "content": "Chiến thuật nào KHÔNG phổ biến trong một email bị nghi ngờ là tấn công Phishing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yêu cầu tải bản sao lưu dữ liệu máy chủ dung lượng lớn"
+        },
+        {
+          "key": "B",
+          "text": "Dùng địa chỉ email ngụy tạo cố tình viết sai chính tả"
+        },
+        {
+          "key": "C",
+          "text": "Tạo áp lực dọa khóa tài khoản khẩn cấp nếu không ấn"
+        },
+        {
+          "key": "D",
+          "text": "Kèm đường link đến trang đăng nhập chứa mã độc giả mạo"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Yêu cầu tải bản sao lưu dữ liệu máy chủ dung lượng lớn. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_17",
+      "type": "multiple_choice",
+      "content": "Trong Kỹ nghệ Xã hội (Social Engineering), kẻ gian thường khai thác 3 huyệt đạo tâm lý nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sự tò mò của họ, Lòng dũng cảm và Tình yêu thương"
+        },
+        {
+          "key": "B",
+          "text": "Tính lười biếng vốn có, Sự nóng vội và Lòng trắc ẩn"
+        },
+        {
+          "key": "C",
+          "text": "Lòng tham cá nhân, Sự sợ hãi và Sự tin tưởng đồng nghiệp"
+        },
+        {
+          "key": "D",
+          "text": "Sự ganh tị với đồng nghiệp, Lòng tự trọng và Sự tự tin"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Lòng tham cá nhân, Sự sợ hãi và Sự tin tưởng đồng nghiệp. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_18",
+      "type": "multiple_choice",
+      "content": "Chiến thuật \"Giả danh cấp cao\" trong Kỹ nghệ Xã hội thường dùng công nghệ gì để lừa kế toán chuyển tiền?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉnh sửa thông báo số dư tài khoản giao dịch ngân hàng"
+        },
+        {
+          "key": "B",
+          "text": "Sử dụng Trí tuệ nhân tạo (AI) Deepfake để giả giọng nói sếp"
+        },
+        {
+          "key": "C",
+          "text": "Tận dụng phần mềm tạo virus mã độc tống tiền thông dụng"
+        },
+        {
+          "key": "D",
+          "text": "Tiến hành tấn công DDoS làm tê liệt toàn bộ hệ thống liên lạc"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Sử dụng Trí tuệ nhân tạo (AI) Deepfake để giả giọng nói sếp. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_19",
+      "type": "multiple_choice",
+      "content": "Chiến thuật \"Mồi nhử\" (Baiting) thường được kẻ gian thực hiện qua hành động phổ biến nào dưới đây?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nhắn tin hứa hẹn trúng thưởng tài sản trên một tỷ đồng"
+        },
+        {
+          "key": "B",
+          "text": "Cố tình làm rơi USB có chứa mã độc ngay ở bãi đỗ xe"
+        },
+        {
+          "key": "C",
+          "text": "Gửi email dọa rà soát vấn đề khai báo thuế thu nhập cá nhân"
+        },
+        {
+          "key": "D",
+          "text": "Gọi điện thoại trực tiếp xưng là nhân viên ngân hàng nội bộ"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Cố tình làm rơi USB có chứa mã độc ngay ở bãi đỗ xe. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_20",
+      "type": "multiple_choice",
+      "content": "\"Kịch bản Tấn công Kết hợp\" (Hybrid Attack) thường bắt đầu bằng bước nào trong 4 bước?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bước Tàn phá (Devastation)"
+        },
+        {
+          "key": "B",
+          "text": "Bước Xâm nhập (Infiltration)"
+        },
+        {
+          "key": "C",
+          "text": "Bước Thực thi (Execution)"
+        },
+        {
+          "key": "D",
+          "text": "Bước Thăm dò (Reconnaissance)"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Bước Thăm dò (Reconnaissance). Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_21",
+      "type": "multiple_choice",
+      "content": "Trong kịch bản Hybrid Attack, con người vô tình đóng vai trò gì đối với kẻ tấn công hệ thống?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Điểm xâm nhập để mở cửa hệ thống"
+        },
+        {
+          "key": "B",
+          "text": "Công cụ tàn phá toàn bộ cơ sở dữ liệu"
+        },
+        {
+          "key": "C",
+          "text": "Nạn nhân bị tống tiền mã hóa ngay lập tức"
+        },
+        {
+          "key": "D",
+          "text": "Người giải cứu máy chủ khỏi bị hoạt động quá tải"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Điểm xâm nhập để mở cửa hệ thống. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_22",
+      "type": "multiple_choice",
+      "content": "Mô hình \"Tảng băng chìm Bảo mật\" phản ánh điều gì về hậu quả thực sự của vi phạm dữ liệu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chi phí mua phần mềm quét virus thường rất đắt đỏ"
+        },
+        {
+          "key": "B",
+          "text": "Sự sụp đổ niềm tin khách hàng tốn kém hơn chi phí trực tiếp"
+        },
+        {
+          "key": "C",
+          "text": "Tiền án và tiền phạt từ chính phủ là rủi ro khủng khiếp nhất"
+        },
+        {
+          "key": "D",
+          "text": "Các doanh nghiệp bị thiệt hại chia làm ba phần như máy chủ"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Sự sụp đổ niềm tin khách hàng tốn kém hơn chi phí trực tiếp. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_23",
+      "type": "multiple_choice",
+      "content": "Tổn thất đánh mất niềm tin từ khách hàng (Customer Trust) được xếp vào phần nào của mô hình tảng băng bảo mật?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phần chìm mang tính hủy diệt và tổn thất lâu dài"
+        },
+        {
+          "key": "B",
+          "text": "Không ảnh hưởng quá lớn đến tính bền vững về tài chính"
+        },
+        {
+          "key": "C",
+          "text": "Bề mặt vật lý của hệ thống thiết bị thanh toán điện tử"
+        },
+        {
+          "key": "D",
+          "text": "Phần nổi và có thể đo lường dễ dàng ngay lập tức"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Phần chìm mang tính hủy diệt và tổn thất lâu dài. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_24",
+      "type": "multiple_choice",
+      "content": "Yếu tố nào được coi là \"Bức tường lửa cuối cùng\" (The Human Firewall) trong bảo mật TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Các công cụ giám sát xâm nhập trực tuyến"
+        },
+        {
+          "key": "B",
+          "text": "Con người (Nhân viên vận hành tổ chức)"
+        },
+        {
+          "key": "C",
+          "text": "Lớp tường lửa vật lý chống DDoS bên ngoài"
+        },
+        {
+          "key": "D",
+          "text": "Phần mềm quét thư rác ứng dụng AI thông minh"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Con người (Nhân viên vận hành tổ chức). Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_25",
+      "type": "multiple_choice",
+      "content": "Theo các số liệu thống kê thực tế, khoảng bao nhiêu phần trăm số vụ vi phạm dữ liệu xuất phát từ lỗi chủ quan của con người?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đạt khoảng mức gần 30%"
+        },
+        {
+          "key": "B",
+          "text": "Đạt khoảng mức trên 50%"
+        },
+        {
+          "key": "C",
+          "text": "Đạt khoảng mức trên 70%"
+        },
+        {
+          "key": "D",
+          "text": "Đạt khoảng mức lên tới 90%"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Đạt khoảng mức lên tới 90%. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_26",
+      "type": "multiple_choice",
+      "content": "Việc nhân viên tùy tiện ghi lại mật khẩu ra giấy dán lên màn hình phản ánh điểm yếu nghiêm trọng ở yếu tố nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Công nghệ mã hóa bị lỗi thời và hoạt động kém"
+        },
+        {
+          "key": "B",
+          "text": "Chưa có hệ thống khóa từ hiện đại vào văn phòng"
+        },
+        {
+          "key": "C",
+          "text": "Tường lửa và phần mềm diệt virus không đủ sức mạnh"
+        },
+        {
+          "key": "D",
+          "text": "Nhận thức và văn hóa bảo mật của con người quá thấp"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Nhận thức và văn hóa bảo mật của con người quá thấp. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_27",
+      "type": "multiple_choice",
+      "content": "Tư duy \"Zero Trust\" (Không tin tưởng ai) được áp dụng như thế nào trong môi trường làm việc kỹ thuật số?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hủy kết bạn mạng xã hội với mọi đối tác và đồng nghiệp nội bộ"
+        },
+        {
+          "key": "B",
+          "text": "Khóa hoàn toàn mọi quyền truy cập vào mạng Internet liên tuyến"
+        },
+        {
+          "key": "C",
+          "text": "Không được tự động tin tưởng mà luôn xác minh kể cả cấp quản lý"
+        },
+        {
+          "key": "D",
+          "text": "Luôn luôn nghi ngờ động cơ cá nhân mờ ám của tất cả mọi sinh viên"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Không được tự động tin tưởng mà luôn xác minh kể cả cấp quản lý. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_1_28",
+      "type": "multiple_choice",
+      "content": "Đào tạo bảo mật cho đội ngũ nhân viên TMĐT nên được tổ chức và thực hiện như thế nào để mang lại hiệu quả thực tiễn cao nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thực hiện định kỳ và đào tạo liên tục để luôn cập nhật kiến thức"
+        },
+        {
+          "key": "B",
+          "text": "Yêu cầu xem lại video diễn tập tại nhà và không cần phải kiểm tra"
+        },
+        {
+          "key": "C",
+          "text": "Chỉ cần tổ chức đào tạo một lần duy nhất lúc mới bước vào văn phòng"
+        },
+        {
+          "key": "D",
+          "text": "Chỉ cần đào tạo ngay mỗi khi có bất kỳ nhân viên nào báo bị chiếm tài khoản"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Thực hiện định kỳ và đào tạo liên tục để luôn cập nhật kiến thức. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

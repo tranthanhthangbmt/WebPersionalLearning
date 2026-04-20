@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "concept_id": "Chương1_Tiết 1Intro.csv",
+    "concept_name": "Chương_1_Tiết 1_Intro",
+    "file_source": "Chương_1_Tiết 1_Intro.csv"
+  },
+  "questions": [
+    {
+      "id": "Chương1_Tiết 1Intro.csv_0",
+      "type": "multiple_choice",
+      "content": "Thương mại điện tử là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mua bán qua mạng"
+        },
+        {
+          "key": "B",
+          "text": "Mua bán trực tiếp"
+        },
+        {
+          "key": "C",
+          "text": "Giao tiếp"
+        },
+        {
+          "key": "D",
+          "text": "Giải trí"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "TMĐT là mua bán qua mạng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chương1_Tiết 1Intro.csv_1",
+      "type": "multiple_choice",
+      "content": "Mô hình B2B là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doanh nghiệp với khách hàng"
+        },
+        {
+          "key": "B",
+          "text": "Doanh nghiệp với doanh nghiệp"
+        },
+        {
+          "key": "C",
+          "text": "Khách hàng với khách hàng"
+        },
+        {
+          "key": "D",
+          "text": "Chính phủ với người dân"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "B2B là Business to Business.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chương1_Tiết 1Intro.csv_2",
+      "type": "multiple_choice",
+      "content": "Lợi ích của TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tiết kiệm chi phí"
+        },
+        {
+          "key": "B",
+          "text": "Tăng giá thành"
+        },
+        {
+          "key": "C",
+          "text": "Giảm khách hàng"
+        },
+        {
+          "key": "D",
+          "text": "Khó quản lý"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Giúp tiết kiệm chi phí vận hành.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

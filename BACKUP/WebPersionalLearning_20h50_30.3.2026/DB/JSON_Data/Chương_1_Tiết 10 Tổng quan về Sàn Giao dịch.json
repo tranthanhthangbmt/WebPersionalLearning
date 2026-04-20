@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_1_Tiet_10",
+    "concept_name": "Chương_1_Tiết 10 Tổng quan về Sàn Giao dịch",
+    "file_source": "Chương_1_Tiết 10 Tổng quan về Sàn Giao dịch.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_1_Tiet_10_0",
+      "type": "multiple_choice",
+      "content": "\"E-marketplace\" (Sàn giao dịch điện tử) khác với \"Marketplace\" (Chợ truyền thống) ở điểm cơ bản nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ bán hàng vào giờ hành chính."
+        },
+        {
+          "key": "B",
+          "text": "Là không gian ảo (Marketspace)."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ sử dụng tiền mặt để thanh toán."
+        },
+        {
+          "key": "D",
+          "text": "Yêu cầu người mua và người bán gặp mặt."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "E-marketplace là một không gian thị trường ảo (marketspace) nơi người bán và người mua gặp gỡ và giao dịch điện tử, không bị giới hạn bởi địa điểm vật lý.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_1",
+      "type": "multiple_choice",
+      "content": "Trong cấu trúc của một sàn giao dịch, \"Front-end\" (Giao diện người dùng) bao gồm thành phần nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quản lý kho bãi phía sau."
+        },
+        {
+          "key": "B",
+          "text": "Giỏ hàng và Catalog điện tử."
+        },
+        {
+          "key": "C",
+          "text": "Hệ thống kế toán nội bộ."
+        },
+        {
+          "key": "D",
+          "text": "Quy trình đóng gói và vận chuyển."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Front-end là nơi khách hàng tương tác, bao gồm cổng thông tin người bán, catalog điện tử, giỏ hàng, công cụ tìm kiếm.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_2",
+      "type": "multiple_choice",
+      "content": "Một sàn giao dịch do bên thứ ba trung gian sở hữu và mở cửa cho tất cả mọi người tham gia được gọi là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sàn giao dịch riêng (Private)."
+        },
+        {
+          "key": "B",
+          "text": "Sàn giao dịch công cộng (Public)."
+        },
+        {
+          "key": "C",
+          "text": "Sàn giao dịch nội bộ."
+        },
+        {
+          "key": "D",
+          "text": "Sàn giao dịch một phía (One-side)."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các sàn giao dịch công cộng (Public e-marketplaces) thường được sở hữu bởi bên thứ ba và mở cửa cho công chúng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_3",
+      "type": "multiple_choice",
+      "content": "Yếu tố nào sau đây là một sản phẩm kỹ thuật số (Digital Product) có thể được giao ngay lập tức trên sàn TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Một chiếc ghế văn phòng."
+        },
+        {
+          "key": "B",
+          "text": "Phần mềm diệt virus."
+        },
+        {
+          "key": "C",
+          "text": "Thực phẩm tươi sống."
+        },
+        {
+          "key": "D",
+          "text": "Quần áo thời trang."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các sản phẩm số như phần mềm, nhạc, vé máy bay điện tử có thể được số hóa và giao ngay lập tức qua mạng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_4",
+      "type": "multiple_choice",
+      "content": "Chức năng chính của một \"Sàn giao dịch B2B\" (B2B Exchange) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bán lẻ cho người tiêu dùng."
+        },
+        {
+          "key": "B",
+          "text": "Kết nối nhiều người mua và bán."
+        },
+        {
+          "key": "C",
+          "text": "Giải trí và chơi game."
+        },
+        {
+          "key": "D",
+          "text": "Đào tạo nhân sự nội bộ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các sàn giao dịch (Exchanges) là thị trường điện tử many-to-many, nơi nhiều người mua và nhiều người bán gặp nhau để giao dịch.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_5",
+      "type": "multiple_choice",
+      "content": "\"Sell-side e-marketplace\" (Sàn phía bán) có đặc điểm giao dịch là:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nhiều người bán, một người mua."
+        },
+        {
+          "key": "B",
+          "text": "Một người bán, nhiều người mua."
+        },
+        {
+          "key": "C",
+          "text": "Nhiều người bán, nhiều người mua."
+        },
+        {
+          "key": "D",
+          "text": "Cá nhân bán cho cá nhân."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong thị trường sell-side, một công ty (người bán) bán sản phẩm cho nhiều người mua (One-to-many).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_6",
+      "type": "multiple_choice",
+      "content": "Shopee hay Lazada là ví dụ điển hình của loại hình trung gian nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nhà sản xuất trực tiếp."
+        },
+        {
+          "key": "B",
+          "text": "Tổ chức e-mall (Chợ trực tuyến)."
+        },
+        {
+          "key": "C",
+          "text": "Cơ quan chính phủ."
+        },
+        {
+          "key": "D",
+          "text": "Ngân hàng điện tử."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đây là các công ty tổ chức nhiều cửa hàng trực tuyến tại một nơi (online malls), đóng vai trò là nhà môi giới.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_7",
+      "type": "multiple_choice",
+      "content": "Sự khác biệt giữa \"Sàn dọc\" (Vertical marketplace) và \"Sàn ngang\" (Horizontal marketplace) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sàn dọc phục vụ một ngành cụ thể."
+        },
+        {
+          "key": "B",
+          "text": "Sàn dọc bán tất cả các loại hàng hóa."
+        },
+        {
+          "key": "C",
+          "text": "Sàn ngang chỉ bán dịch vụ tư vấn."
+        },
+        {
+          "key": "D",
+          "text": "Sàn ngang chỉ dành cho chính phủ."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Sàn dọc (Vertical) tập trung vào một ngành công nghiệp cụ thể, trong khi sàn ngang (Horizontal) phục vụ sản phẩm/dịch vụ (như văn phòng phẩm) cho nhiều ngành khác nhau.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_8",
+      "type": "multiple_choice",
+      "content": "\"Dynamic Pricing\" (Định giá động) trên các sàn giao dịch thường xuất hiện dưới hình thức nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá niêm yết cố định trong catalog."
+        },
+        {
+          "key": "B",
+          "text": "Đấu giá hoặc đàm phán trực tuyến."
+        },
+        {
+          "key": "C",
+          "text": "Giá in trên bao bì sản phẩm."
+        },
+        {
+          "key": "D",
+          "text": "Giá do chính phủ quy định."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Định giá động đề cập đến giá không cố định (non-fixed prices), chẳng hạn như giá trong các cuộc đấu giá hoặc thị trường chứng khoán.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_9",
+      "type": "multiple_choice",
+      "content": "Lợi ích chính của việc sử dụng \"Sàn giao dịch riêng phía mua\" (Buy-side e-marketplace) đối với một tập đoàn lớn là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng giá mua đầu vào."
+        },
+        {
+          "key": "B",
+          "text": "Kiểm soát chặt chẽ nguồn cung."
+        },
+        {
+          "key": "C",
+          "text": "Mở rộng bán lẻ cho công chúng."
+        },
+        {
+          "key": "D",
+          "text": "Giảm quyền lực đàm phán."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các công ty lớn (như Walmart) sử dụng sàn phía mua để mời các nhà cung cấp đấu thầu, giúp kiểm soát quy trình mua sắm và giảm chi phí.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_10",
+      "type": "multiple_choice",
+      "content": "Vai trò của \"Infomediaries\" (Trung gian thông tin) trên sàn giao dịch là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vận chuyển hàng hóa vật lý."
+        },
+        {
+          "key": "B",
+          "text": "Cung cấp dữ liệu về thị trường."
+        },
+        {
+          "key": "C",
+          "text": "Sản xuất hàng hóa để bán."
+        },
+        {
+          "key": "D",
+          "text": "Cho vay vốn ngân hàng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Infomediaries cung cấp thông tin và/hoặc cơ sở hạ tầng giúp người mua và người bán hiểu về thị trường, thay vì trực tiếp bán hàng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_11",
+      "type": "multiple_choice",
+      "content": "Khi một doanh nghiệp tham gia sàn TMĐT quốc tế, lợi thế \"Global Reach\" (Tầm với toàn cầu) giúp họ điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ bán hàng tại địa phương."
+        },
+        {
+          "key": "B",
+          "text": "Tiếp cận khách hàng xuyên biên giới."
+        },
+        {
+          "key": "C",
+          "text": "Tăng chi phí vận hành kho bãi."
+        },
+        {
+          "key": "D",
+          "text": "Giảm số lượng sản phẩm bán ra."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sàn TMĐT cho phép người tham gia giao dịch từ các vị trí địa lý khác nhau, vượt qua ranh giới quốc gia.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_12",
+      "type": "multiple_choice",
+      "content": "Mô hình \"Đấu giá ngược\" (Reverse Auction) trên sàn B2B thường nhằm mục đích gì cho người mua?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng giá sản phẩm cao nhất."
+        },
+        {
+          "key": "B",
+          "text": "Tìm nhà cung cấp giá thấp nhất."
+        },
+        {
+          "key": "C",
+          "text": "Bán hàng tồn kho dư thừa."
+        },
+        {
+          "key": "D",
+          "text": "Quảng bá thương hiệu công ty."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong đấu giá ngược, một người mua đưa ra yêu cầu (RFQ) và các nhà cung cấp cạnh tranh nhau giảm giá để giành đơn hàng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_13",
+      "type": "multiple_choice",
+      "content": "Tại sao \"Khối lượng tới hạn\" (Critical Mass) lại quan trọng đối với sự tồn tại của một sàn giao dịch công cộng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Để làm chậm tốc độ website."
+        },
+        {
+          "key": "B",
+          "text": "Để tạo thanh khoản và hiệu ứng mạng."
+        },
+        {
+          "key": "C",
+          "text": "Để giảm số lượng người truy cập."
+        },
+        {
+          "key": "D",
+          "text": "Để tăng chi phí đăng ký thành viên."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Cần có đủ số lượng người mua và người bán (thanh khoản) thì sàn giao dịch mới tạo ra giá trị và thu hút thêm người tham gia.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_14",
+      "type": "multiple_choice",
+      "content": "Hiện tượng \"Disintermediation\" (Phi trung gian hóa) trên các sàn giao dịch tác động thế nào đến chuỗi cung ứng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Làm tăng thêm nhiều lớp trung gian."
+        },
+        {
+          "key": "B",
+          "text": "Loại bỏ các trung gian truyền thống."
+        },
+        {
+          "key": "C",
+          "text": "Làm tăng chi phí sản phẩm cuối cùng."
+        },
+        {
+          "key": "D",
+          "text": "Làm chậm quá trình giao hàng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "TMĐT giúp tự động hóa việc khớp nối cung cầu, dẫn đến việc loại bỏ các trung gian truyền thống (như nhà bán buôn) không tạo thêm giá trị.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_15",
+      "type": "multiple_choice",
+      "content": "Một sàn giao dịch cung cấp cả dịch vụ logistic, thanh toán và bảo hiểm được gọi là sàn có tích hợp:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ có Front-end."
+        },
+        {
+          "key": "B",
+          "text": "Dịch vụ giá trị gia tăng."
+        },
+        {
+          "key": "C",
+          "text": "Mạng xã hội giải trí."
+        },
+        {
+          "key": "D",
+          "text": "Hệ thống sản xuất."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các sàn giao dịch hiện đại không chỉ khớp lệnh mà còn cung cấp các dịch vụ hỗ trợ giao dịch (Value-added services) như thanh toán, logistics, giám định.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_16",
+      "type": "multiple_choice",
+      "content": "Trong bối cảnh B2B, sự khác biệt giữa \"Spot Buying\" (Mua ngay) và \"Strategic Sourcing\" (Tìm nguồn chiến lược) trên sàn là:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mua ngay là cho nhu cầu đột xuất."
+        },
+        {
+          "key": "B",
+          "text": "Mua ngay là hợp đồng dài hạn."
+        },
+        {
+          "key": "C",
+          "text": "Tìm nguồn chiến lược giá luôn cao hơn."
+        },
+        {
+          "key": "D",
+          "text": "Cả hai đều không dùng sàn điện tử."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Spot buying là mua hàng hóa khi cần thiết (đột xuất) với giá thị trường tại thời điểm đó, khác với việc tìm nguồn cung ứng chiến lược dài hạn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_17",
+      "type": "multiple_choice",
+      "content": "Yếu tố nào giúp Alibaba.com thành công rực rỡ với vai trò là một sàn giao dịch B2B công cộng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ tập trung vào thị trường Mỹ."
+        },
+        {
+          "key": "B",
+          "text": "Cung cấp dịch vụ xác thực và thanh toán."
+        },
+        {
+          "key": "C",
+          "text": "Thu phí đăng ký rất cao."
+        },
+        {
+          "key": "D",
+          "text": "Không cho phép người mua liên hệ người bán."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Alibaba cung cấp các dịch vụ hỗ trợ tin cậy như xác thực nhà cung cấp, thanh toán đảm bảo (escrow/Alipay) giúp giải quyết vấn đề lòng tin.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_18",
+      "type": "multiple_choice",
+      "content": "Rủi ro lớn nhất về mặt vận hành đối với một doanh nghiệp khi phụ thuộc hoàn toàn vào một sàn giao dịch thứ ba (như Amazon) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mất quyền sở hữu dữ liệu khách hàng."
+        },
+        {
+          "key": "B",
+          "text": "Chi phí vận hành quá thấp."
+        },
+        {
+          "key": "C",
+          "text": "Không cần lo về marketing."
+        },
+        {
+          "key": "D",
+          "text": "Tiếp cận quá nhiều khách hàng."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Khi bán qua sàn trung gian, doanh nghiệp thường không nắm được dữ liệu trực tiếp và mối quan hệ với khách hàng, bị phụ thuộc vào chính sách của sàn (Sự mất kiểm soát CRM).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_10_19",
+      "type": "multiple_choice",
+      "content": "Sàn giao dịch \"Consortium Trading Exchange\" (Sàn liên hợp) khác với Sàn bên thứ ba (Third-party) ở điểm nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Do một nhóm các công ty lớn trong ngành sở hữu."
+        },
+        {
+          "key": "B",
+          "text": "Do một công ty công nghệ độc lập sở hữu."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ dành cho người tiêu dùng cá nhân."
+        },
+        {
+          "key": "D",
+          "text": "Hoạt động phi lợi nhuận."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Consortium Trading Exchange là sàn giao dịch được sở hữu và vận hành bởi một nhóm các công ty lớn (thường là các đối thủ trong cùng ngành) hợp tác với nhau.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

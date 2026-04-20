@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "concept_id": "CONCEPT_afcb2e",
+    "concept_name": "Chương_1_Tiết 12 Thực hành và Làm việc nhóm",
+    "file_source": "Chương_1_Tiết 12 Thực hành và Làm việc nhóm.csv"
+  },
+  "questions": [
+    {
+      "id": "CONCEPT_df3a2f_0",
+      "type": "multiple_choice",
+      "content": "Khi xây dựng ý tưởng cho dự án TMĐT, yếu tố \"Đề xuất giá trị\" (Value Proposition) nhằm giải quyết vấn đề cốt lõi nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lý do khách chọn bạn thay vì đối thủ."
+        },
+        {
+          "key": "B",
+          "text": "Tổng số vốn cần đầu tư ban đầu."
+        },
+        {
+          "key": "C",
+          "text": "Quy trình tuyển dụng nhân sự kho."
+        },
+        {
+          "key": "D",
+          "text": "Danh sách các loại thuế phải đóng."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đề xuất giá trị (Value Proposition) mô tả các lợi ích mà công ty cung cấp, giải thích tại sao khách hàng nên mua sản phẩm/dịch vụ đó để giải quyết vấn đề của họ thay vì chọn đối thủ cạnh tranh.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_a74022_1",
+      "type": "multiple_choice",
+      "content": "Khi lập kế hoạch cho một gian hàng TMĐT mới, bước đầu tiên thường là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chạy quảng cáo ngay."
+        },
+        {
+          "key": "B",
+          "text": "Xác định khách hàng mục tiêu."
+        },
+        {
+          "key": "C",
+          "text": "Thuê nhân viên giao hàng."
+        },
+        {
+          "key": "D",
+          "text": "Mua phần mềm đắt tiền."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Xác định khách hàng mục tiêu và nhu cầu của họ là bước đầu tiên trong mô hình kinh doanh để tạo ra đề xuất giá trị phù hợp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_89a8f3_2",
+      "type": "multiple_choice",
+      "content": "Mô hình phân tích SWOT thường được sử dụng trong bài tập nhóm để làm gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tính toán thuế thu nhập."
+        },
+        {
+          "key": "B",
+          "text": "Đánh giá điểm mạnh/yếu."
+        },
+        {
+          "key": "C",
+          "text": "Thiết kế logo công ty."
+        },
+        {
+          "key": "D",
+          "text": "Lập trình website."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "SWOT là công cụ phân tích Điểm mạnh (Strengths), Điểm yếu (Weaknesses), Cơ hội (Opportunities) và Thách thức (Threats) để hoạch định chiến lược.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_529307_3",
+      "type": "multiple_choice",
+      "content": "Chương 2 của học phần (nội dung tự học cho tuần sau) tập trung vào chủ đề gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Marketing điện tử."
+        },
+        {
+          "key": "B",
+          "text": "Giao dịch điện tử."
+        },
+        {
+          "key": "C",
+          "text": "An toàn thông tin."
+        },
+        {
+          "key": "D",
+          "text": "Quản trị chuỗi cung ứng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Theo lộ trình, sau Chương 1 Tổng quan là Chương 2 về Giao dịch điện tử (Hợp đồng, Thanh toán).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_932706_4",
+      "type": "multiple_choice",
+      "content": "Yếu tố \"C\" nào trong mô hình 6Cs đề cập đến việc tạo thuận lợi cho giao dịch?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Choice."
+        },
+        {
+          "key": "B",
+          "text": "Convenience."
+        },
+        {
+          "key": "C",
+          "text": "Content."
+        },
+        {
+          "key": "D",
+          "text": "Customization."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Convenience (Sự tiện lợi) đề cập đến việc làm cho quy trình mua sắm trở nên đơn giản, nhanh chóng và dễ dàng cho khách hàng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_90b60d_5",
+      "type": "multiple_choice",
+      "content": "Để một nhóm làm việc hiệu quả trong bài tập A2.3, yếu tố nào là quan trọng nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chọn trưởng nhóm giỏi nhất."
+        },
+        {
+          "key": "B",
+          "text": "Phân chia công việc hợp lý."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ làm việc cá nhân."
+        },
+        {
+          "key": "D",
+          "text": "Không cần họp nhóm."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kỹ năng làm việc nhóm và khả năng lãnh đạo (phân chia công việc) là tiêu chí quan trọng trong rubric đánh giá bài tập nhóm.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_1395aa_6",
+      "type": "multiple_choice",
+      "content": "Một gian hàng trên Shopee hay Lazada là ví dụ của mô hình nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Webstore riêng biệt."
+        },
+        {
+          "key": "B",
+          "text": "Gian hàng trên E-marketplace."
+        },
+        {
+          "key": "C",
+          "text": "Cổng thông tin (Portal)."
+        },
+        {
+          "key": "D",
+          "text": "Mạng riêng ảo (VPN)."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Shopee, Lazada là các Sàn giao dịch (E-marketplace/E-mall), nơi các gian hàng thuê không gian để kinh doanh.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_42654e_7",
+      "type": "multiple_choice",
+      "content": "Khi phân tích một gian hàng thực tế, chỉ số \"Conversion Rate\" (Tỷ lệ chuyển đổi) cho biết điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Số lượng nhân viên bán hàng."
+        },
+        {
+          "key": "B",
+          "text": "Tỷ lệ khách mua hàng trên tổng khách truy cập."
+        },
+        {
+          "key": "C",
+          "text": "Tổng số lượt thích trên Facebook."
+        },
+        {
+          "key": "D",
+          "text": "Chi phí vận chuyển trung bình."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Tỷ lệ chuyển đổi đo lường phần trăm khách truy cập thực hiện hành động mong muốn (như mua hàng), phản ánh hiệu quả kinh doanh.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_532346_8",
+      "type": "multiple_choice",
+      "content": "Trong bài tập nhóm, khi chọn mô hình \"Dropshipping\", lợi ích lớn nhất về vận hành là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Không cần giữ hàng tồn kho."
+        },
+        {
+          "key": "B",
+          "text": "Lợi nhuận biên rất cao."
+        },
+        {
+          "key": "C",
+          "text": "Kiểm soát hoàn toàn chất lượng."
+        },
+        {
+          "key": "D",
+          "text": "Thời gian giao hàng nhanh nhất."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Dropshipping cho phép người bán không cần lưu kho, giảm rủi ro và chi phí vốn ban đầu, phù hợp cho các dự án khởi nghiệp sinh viên.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_86a823_9",
+      "type": "multiple_choice",
+      "content": "\"Đề xuất giá trị trực tuyến\" (OVP) của một dự án TMĐT cần trả lời câu hỏi cốt lõi nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Website dùng màu gì?"
+        },
+        {
+          "key": "B",
+          "text": "Tại sao khách nên mua ở đây?"
+        },
+        {
+          "key": "C",
+          "text": "Máy chủ đặt ở đâu?"
+        },
+        {
+          "key": "D",
+          "text": "Ai là người lập trình web?"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "OVP (Online Value Proposition) xác định lý do tại sao khách hàng nên chọn mua từ bạn thay vì đối thủ, dựa trên lợi ích khác biệt.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_32ff94_10",
+      "type": "multiple_choice",
+      "content": "Để chuẩn bị cho bài \"Giao dịch điện tử\" (Chương 2), sinh viên cần tìm hiểu trước khái niệm nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SEO và SEM."
+        },
+        {
+          "key": "B",
+          "text": "Hợp đồng điện tử."
+        },
+        {
+          "key": "C",
+          "text": "Chuỗi cung ứng lạnh."
+        },
+        {
+          "key": "D",
+          "text": "Livestream bán hàng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Nội dung trọng tâm của Chương 2 bao gồm Hợp đồng điện tử và các quy trình giao kết, thanh toán.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_bca1d0_11",
+      "type": "multiple_choice",
+      "content": "Khi phân tích đối thủ cạnh tranh trên sàn TMĐT, yếu tố nào dễ quan sát và so sánh nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lợi nhuận ròng."
+        },
+        {
+          "key": "B",
+          "text": "Giá bán và đánh giá (Review)."
+        },
+        {
+          "key": "C",
+          "text": "Chi phí nhập hàng."
+        },
+        {
+          "key": "D",
+          "text": "Lương nhân viên."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Giá cả và các đánh giá công khai của khách hàng là dữ liệu dễ tiếp cận nhất để so sánh năng lực cạnh tranh trên sàn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_d73dea_12",
+      "type": "multiple_choice",
+      "content": "Tại sao việc sử dụng các công cụ cộng tác như Google Docs/Trello lại được khuyến khích trong bài tập nhóm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Để tăng độ phức tạp."
+        },
+        {
+          "key": "B",
+          "text": "Để quản lý tiến độ và chia sẻ tài liệu."
+        },
+        {
+          "key": "C",
+          "text": "Để thay thế hoàn toàn gặp mặt."
+        },
+        {
+          "key": "D",
+          "text": "Để giám sát nhân viên."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các công cụ này hỗ trợ cộng tác, theo dõi tiến độ và làm việc đồng thời trên tài liệu, giúp nhóm làm việc hiệu quả hơn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_b52d58_13",
+      "type": "multiple_choice",
+      "content": "Trong tổng kết Chương 1, \"Mô hình 3 chiều\" dùng để phân loại điều gì của doanh nghiệp TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doanh thu, Chi phí, Lợi nhuận."
+        },
+        {
+          "key": "B",
+          "text": "Mức độ số hóa (Sản phẩm, Quy trình, Giao hàng)."
+        },
+        {
+          "key": "C",
+          "text": "Quy mô nhân sự lớn hay nhỏ."
+        },
+        {
+          "key": "D",
+          "text": "Số lượng chi nhánh bán lẻ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Ma trận 3 chiều phân loại mức độ số hóa của Sản phẩm, Quy trình và Đại lý giao hàng để xác định là TMĐT thuần túy hay bán phần.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_20a387_14",
+      "type": "multiple_choice",
+      "content": "Khi lập kế hoạch TMĐT, rủi ro lớn nhất của việc phụ thuộc hoàn toàn vào một nền tảng thứ 3 (như Facebook) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chi phí khởi tạo cao."
+        },
+        {
+          "key": "B",
+          "text": "Mất quyền kiểm soát khi nền tảng thay đổi chính sách."
+        },
+        {
+          "key": "C",
+          "text": "Không tiếp cận được khách hàng trẻ."
+        },
+        {
+          "key": "D",
+          "text": "Phải tự xây dựng hệ thống thanh toán."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Phụ thuộc vào bên thứ 3 (như Facebook/Sàn) tạo ra rủi ro chiến lược khi nền tảng thay đổi thuật toán hoặc chính sách (như eBay/Facebook đã từng làm).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_b77cac_15",
+      "type": "multiple_choice",
+      "content": "Một dự án nhóm đề xuất mô hình \"C2B\" (Khách hàng bán cho Doanh nghiệp). Ví dụ nào phù hợp nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bán quần áo cũ trên Facebook."
+        },
+        {
+          "key": "B",
+          "text": "Influencer bán dịch vụ quảng cáo cho nhãn hàng."
+        },
+        {
+          "key": "C",
+          "text": "Công ty bán phần mềm cho chính phủ."
+        },
+        {
+          "key": "D",
+          "text": "Siêu thị bán thực phẩm cho dân cư."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Influencer (Cá nhân) sử dụng sức ảnh hưởng để cung cấp dịch vụ marketing cho Doanh nghiệp là một dạng C2B hiện đại.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_7cfa80_16",
+      "type": "multiple_choice",
+      "content": "Trong bài tập phân tích gian hàng, nếu tỷ lệ \"Bỏ giỏ hàng\" (Cart Abandonment) cao, nguyên nhân kỹ thuật có thể là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá sản phẩm quá cao."
+        },
+        {
+          "key": "B",
+          "text": "Quy trình thanh toán quá phức tạp (nhiều bước)."
+        },
+        {
+          "key": "C",
+          "text": "Hình ảnh sản phẩm xấu."
+        },
+        {
+          "key": "D",
+          "text": "Không có khuyến mãi."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Quy trình checkout phức tạp, bắt buộc đăng ký tài khoản hoặc lỗi kỹ thuật là nguyên nhân hàng đầu khiến khách hàng bỏ dở việc thanh toán.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_e3116c_17",
+      "type": "multiple_choice",
+      "content": "Yếu tố nào sau đây là \"Tảng băng chìm\" (Phần khó thấy) quyết định sự thành bại của một dự án TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giao diện website đẹp."
+        },
+        {
+          "key": "B",
+          "text": "Khả năng vận hành và Logistics (Fulfillment)."
+        },
+        {
+          "key": "C",
+          "text": "Số lượng người like fanpage."
+        },
+        {
+          "key": "D",
+          "text": "Tên miền dễ nhớ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Giao diện là phần nổi, nhưng hệ thống Fulfillment (xử lý đơn, kho bãi, giao hàng) là phần chìm quyết định trải nghiệm khách hàng và lợi nhuận.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_cb58eb_18",
+      "type": "multiple_choice",
+      "content": "Tại sao mô hình \"Click-and-mortar\" thường bền vững hơn \"Pure-play\" trong giai đoạn hiện nay?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì không tốn chi phí thuê mặt bằng."
+        },
+        {
+          "key": "B",
+          "text": "Tận dụng ưu thế đa kênh (Omnichannel)."
+        },
+        {
+          "key": "C",
+          "text": "Vì chỉ cần ít nhân viên hơn."
+        },
+        {
+          "key": "D",
+          "text": "Vì không cần đầu tư công nghệ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Click-and-mortar kết hợp ưu điểm của cả hai thế giới (trải nghiệm thực tế và tiện lợi số), tạo ra trải nghiệm đa kênh liền mạch mà Pure-play khó bắt chước.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_a42ae7_19",
+      "type": "multiple_choice",
+      "content": "Để chuẩn bị cho chủ đề \"Chữ ký số\" ở tuần sau, sinh viên cần hiểu tính chất pháp lý nào quan trọng nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tính thẩm mỹ của chữ ký."
+        },
+        {
+          "key": "B",
+          "text": "Tính không thể chối bỏ (Non-repudiation)."
+        },
+        {
+          "key": "C",
+          "text": "Tốc độ ký nhanh."
+        },
+        {
+          "key": "D",
+          "text": "Khả năng in ra giấy."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Giá trị cốt lõi của chữ ký số/điện tử là đảm bảo tính toàn vẹn và tính không thể chối bỏ (người ký không thể phủ nhận hành động của mình).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

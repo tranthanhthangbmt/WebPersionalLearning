@@ -1,0 +1,604 @@
+﻿	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC ĐÔNG Á
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+ĐỀ CƯƠNG CHI TIẾT HỌC PHẦN
+< Trí tuệ nhân tạo ứng dụng >
+< Applied Artificial Intelligence>
+Mã số HP/Course Code:< INFO3207 >
+
+1. Thông tin chung về học phần
+1.1. Tên học phần: Trí tuệ nhân tạo ứng dụng1.2. Số tín chỉ: 031.3. Số giờ: 1501.4. Thời lượng và phân bổ nội dunga) Thuyết Số giờ: 30A1. Lý thuyếtSố giờ: 30A2. Chuyên đề (nếu có)Số giờ: 0b) Thực hành ứng dụngSố giờ: 30  B1. Thí nghiệm/Thực hànhSố giờ: 30  B2. Bài tập lớn/đồ, đề ánGiờ: 0  B3. Thực tậpGiờ: 0c) Hoạt động tự học (tự học/trả lời câu hỏi, thí nghiệm/dự án, đọc/nghiên cứu tài liệu)Số giờ: 901.5.  Học phần tiên quyết: không2. Mô tả học phần 
+     Học phần "Trí tuệ nhân tạo ứng dụng" cung cấp cho sinh viên kiến thức nền tảng để trang bị cho sinh viên những kiến thức và kỹ năng số thiết yếu theo Khung năng lực số do Bộ GD&ĐT ban hành tại Thông tư 02/2025/TT-BGDĐT. Nội dung gồm 6 mô-đun: khai thác dữ liệu, giao tiếp và hợp tác số, sáng tạo nội dung số, an toàn thông tin, giải quyết vấn đề và ứng dụng trí tuệ nhân tạo và cung cấp thêm kiến thức ứng dụng AI vào soạn thảo văn bản Word, xử lý phân tích dữ liệu Excel, thiết kế trình chiếu PowerPoint. Đây là bước chuẩn bị cần thiết cho hành trang nghề nghiệp trong thời đại chuyển đổi số. Học phần phù hợp với tất cả sinh viên đang học tại các cơ sở giáo dục đại học.
+3. Mục tiêu học phần
+     Học phần "Trí tuệ nhân tạo ứng dụng" giúp sinh viên nắm vững các kiến thức và kỹ năng số cơ bản theo Khung năng lực số dành cho người học. Sinh viên có khả năng khai thác và xử lý dữ liệu, giao tiếp và hợp tác hiệu quả trong môi trường số. Biết cách tạo ra nội dung số sáng tạo, đảm bảo an toàn thông tin cá nhân và dữ liệu. Ngoài ra học phần giúp sinh viên sử dụng thành thạo các công cụ văn phòng như Word, Excel và PowerPoint, đồng thời tích hợp trí tuệ nhân tạo để nâng cao hiệu quả làm việc. Sinh viên sẽ được rèn luyện kỹ năng ứng dụng AI vào soạn thảo văn bản, xử lý dữ liệu và thiết kế trình chiếu. Tăng cường năng lực tự học trên nền tảng số, đáp ứng yêu cầu học tập, nghiên cứu và làm việc trong thời đại số. Chuẩn bị nền tảng kỹ năng số cần thiết để thích ứng với môi trường lao động hiện đại.
+4. Chuẩn đầu ra của học phần
+		Bảng 4.1. Chuẩn đầu ra (CĐR) của học phần
+Sau khi học xong học phần, SV có khả năng:
+Mã CĐR 
+ học phầnChuẩn đầu ra học phần (CLO)(1)(2)CLO1Vận dụng khai thác, tìm kiếm và xử lý hiệu quả dữ liệu và thông tin trong môi trường số.CLO2Áp dụng giao tiếp và hợp tác hiệu quả qua các công cụ và nền tảng số.CLO3Vận dụng tạo lập và chỉnh sửa nội dung số phục vụ học tập và công việc.CLO4Áp dụng nhận diện rủi ro và áp dụng các biện pháp đảm bảo an toàn thông tin cá nhân và dữ liệu số.CLO5Vận dụng công cụ số để phân tích và giải quyết vấn đề một cách logic và sáng tạo.CLO6Ứng dụng trí tuệ nhân tạo vào các hoạt động học tập, nghiên cứu và công việc thực tiễn.CLO7Sử dụng thành thạo Word và ứng dụng AI để nâng cao hiệu quả soạn thảo văn bản.CLO8Sử dụng thành thạo Excel và ứng dụng AI để nâng cao hiệu quả tính toán và phân tích dự liệu trên Excel.CLO9Sử dụng thành thạo Power Point và ứng dụng AI vào soạn thảo Power Point để tạo slide thuyết trình ấn tượng.5. Mối liên hệ giữa CĐR HP (CLO) với CĐR CTĐT (PLO) 
+Bảng 5.1. Mối liên hệ của CĐR HP (CLO) đến CĐR của CTĐT (PLO)
+
+
+STTCLOPLO1PLO2PLO3PLO4PLO5PLO6APLO7APLO8APLO9API1.1PI1.2PI1.3PI2.1PI2.2PI2.3PI2.4PI2.5PI3.1PI3.2PI4.1PI4.2PI4.3PI5.1PI5.2PI6A.1PI6A.2PI7A.1PI7A.2PI7A.3PI8A.1PI8A.2PI9A.1PI9A.2CLO1Vận dụng khai thác, tìm kiếm và xử lý hiệu quả dữ liệu và thông tin trong môi trường số.CLO2Áp dụng giao tiếp và hợp tác hiệu quả qua các công cụ và nền tảng số.CLO3Vận dụng tạo lập và chỉnh sửa nội dung số phục vụ học tập và công việc.CLO4Áp dụng nhận diện rủi ro và áp dụng các biện pháp đảm bảo an toàn thông tin cá nhân và dữ liệu số.CLO5Vận dụng công cụ số để phân tích và giải quyết vấn đề một cách logic và sáng tạo.CLO6Ứng dụng trí tuệ nhân tạo vào các hoạt động học tập, nghiên cứu và công việc thực tiễn.CLO7Sử dụng thành thạo Word và ứng dụng AI để nâng cao hiệu quả soạn thảo văn bản.CLO8Sử dụng thành thạo Excel và ứng dụng AI để nâng cao hiệu quả tính toán và phân tích dự liệu trên Excel.CLO9Sử dụng thành thạo Power Point và ứng dụng AI vào soạn thảo Power Point để tạo slide thuyết trình ấn tượng.Chung
+       Giải thích:  I= introduced; R= Reinforced/Opportunity to practice; M = Mastery at exit level; A= assessed
+
+6. Đánh giá HP
+6.1. Phương pháp, hình thức kiểm tra - đánh giá kết quả học tập của học phần
+Bảng 6.1. Phương pháp, hình thức kiểm tra - đánh giá kết quả học tập của sinh viên ở học phần
+Các thành phần đánh giáTrọng số
+(%)Phương pháp đánh giáCông cụ đánh giáLiên quan đến CLOTrọng số CLO 
+(%)Đánh giá CLOĐo lường đạt PLO/PI(1)(2)(3)(4)(5)(6)(7)(8)A1. Chuyên cần10%Tham dự100%A2. Kiểm tra thường xuyên25%Tự luậnĐáp ánCLO735%CLO7CLO840%CLO8CLO925%CLO9A3. Đánh giá giữa kỳ15%Tự luậnĐáp ánCLO115%CLO3CLO215%CLO2CLO320%CLO3CLO415%CLO4CLO515%CLO5CLO620%CLO6A4. Đánh giá cuối kỳ50%Tự luậnĐáp ánCLO735%CLO7CLO840%CLO8CLO925%CLO96.2. Chính sách đối với học phần
+     Sinh viên tham dự >=75% số buổi của học phần. Nếu nghỉ >25% số buổi sẽ không được dự thi kết thúc học phần.
+7. Kế hoạch và nội dung giảng dạy học phần
+Bảng 7.1. Kế hoạch và nội dung giảng dạy của học phần theo tuần
+TuầnNội dung bài họcSố giờKết quả của bài học (CLO)Liên quan quan đến CLOPhương pháp giảng dạyHoạt động học tập của học sinhĐánh giá(1)(2)(3)(4)(5)(6)(7)(8)1Giới thiệu học phần
+- Công bố đề cương và hướng dẫn học tập cho sv.
+- Hướng dẫn phân nhóm, chọn đề tài, cách làm việc nhóm và đánh giá kết quả làm việc nhóm.2-Hiểu được nội dung, chuẩn đầu ra học phần; 
+- Hiểu được phương pháp học tập, phương pháp đánh giá-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương giải quyết vấn đề
+- Làm việc nhóm.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A2Mô-đun 1: Khai thác dữ liệu và thông tin 
+1.1. Duyệt, tìm kiểm và lọc dữ liệu, thông tin và nội dung số
+1.1.1. Tổng quan về dữ liệu và thông tin số
+- Phân biệt dữ liệu thô, thông tỉn, trị thức.
+- Các loại dữ liệu: có cấu trúc, phi cấu trúc, bán cấu trúc.
+- Đặc điểm dữ liệu số.
+1.1.2. Kỹ năng duyệt thông tin và dữ liệu
+- Cách đọc lướt, xác định thông tin cần thiết.
+- Chiến lược duyệt trang web, tài liệu số.
+1.1.3. Tìm kiếm dữ liệu và nội dung số
+- Kỹ thuật tìm kiếm nâng cao trên Google, Bing.
+- Công cụ tìm kiếm học thuật, cơ sở dữ liệu số (Google Scholar, PubMed). Sử dụng từ khóa, toán tử logic, bộ lọc nâng cao.
+1.1.4. Lọc và trích xuất dữ liệu
+- Kỹ thuật lọc dữ liệu: theo điều kiện, theo dạng file.
+- Giới thiệu về scraping (thu thập dữ liệu tự động.
+-Các công cụ hỗ trợ: Google Dataset Search, Python pandas.
+2.2. Đánh giá dữ liệu, thông tin và nội dung số
+2.2.1. Các tiêu chí dánh giá độ tin cậy và dộ chính xác của dữ liệu, thông tin
+- Giới thiệu Mô hình CRAAP.
+- Phương pháp SIFT để kiểm tra nhanh mức độ tin cậy của thông tin.
+- Ví dụ minh hoạ cho từng tiêu chí.
+2.2.2. Phân tích dữ liệu và đánh giá tính chính xác của thông tin số
+- Kiểm tra dũữ liệu, xử lý, làm sạch dữ liệu không hợp lặp, dữ liệu bị sai lệch trong các báo cáo thống kê.
+- Phân loại thông tin sai lệch, thông tin giả mạo, thông tin bị thao túng...
+- Sử dụng các mô hình, công cụ đánh giá để phân tích độ chính xác của thông tin.  lệ, dữ liệu thiếu, bị nhiễu, trùng
+2.2.3. Vận dụng AI kết hợp với việc kiểm tra độ tin cậy, chính xác của các nội dung số.
+2.2.4. Thực hành phân tích và đánh giá dữ liệu.
+2.3. Quản lý dữ liệu, thông tin và nội dung số
+2.3.1. Quản lý dữ liệu cá nhân và tổ chức.
+2.3.2. Luu trữ và sao lưu dữ liệu.
+2.3.3. Bảo mật thông tin và quyền riêng tư.
+2.3.4. Chia sẻ và phối hợp làm việc với dữ liệu.1.1. Duyệt, tìm kiểm và lọc dữ liệu, thông tin và nội dung số
+1.1.1. 
+- Phân biệt dược sự khác nhau giữa dữ liệu, thông tin và tri thức. 
+- Nhận biết và mô tả được các loại dữ liệu phổ biến (có cấu trúc, bán cấu trúc, phi cấu trúc). - Giải thích được các đặc điểm cơ bản của dữ liệu số trong môi trường số.
+1.1.2.
+- Áp dụng được các kỹ thuật đọc lướt để xác định thông tin quan trọng và phù hợp. - Xây dựng được chiến lược duyệt trang web, tài liệu số hiệu quả nhằm tiết kiệm thời gian và nâng cao hiệu suất tìm kiếm.
+- Đánh giá được chất lượng và mức độ liên quan của nội dung trong quá trình duyệt dữ liệu.
+1.1.3.
+- Thực hành thành thạo kỹ thuật tim kiếm nâng cao trên các công cụ như Google, Bing. - Biết sử dụng các công cụ tìm kiểm học thuật (như Google Scholar, PubMed) để phục vụ học tập và nghiên cứu. - Vận dụng từ khóa, toán tử logic và bộ lọc nâng cao để tối ưu hóa quá trình tìm kiếm thông tin.
+1.1.4.
+- Áp dụng được các kỹ thuật lọc dữ liệu theo điều kiện hoặc dạng file nhằm phục vụ nhu cầu cụ thể. - Giới thiệu được phương pháp thu |thập dữ liệu tự động (scraping) và hiểu các ứng dụng thực tiễn. - Thực hành cơ bản với một số công cụ hỗ trợ nhur Google Dataset Search và thư viện Python pandas để trích xuất, tổ chức dữ liệu.
+2.2. Đánh giá dữ liệu, thông tin và nội dung số
+2.2.1. Hiểu được các tiêu chí, phương pháp đánh giá độ tin cậy và độ chính xác của các nội dung số.
+2.2.2. Dựa trên các tiêu chí và phương pháp đánh giá, có thể làm sạch, phân tích dữ liệu, từ đó nhận biết, phân biệt được độ tin cậy, chính xác của dữ liệu, thông tin.
+2.2.3. Biết cách vận dụng công cụ AI như Chat GPT, Gemini kết hợp Google Fact Check Tools, Snopes...dễ so sánh và đánh giá độ tin cậy các nội dung số.
+2.2.4. Áp dụng các nội dung đã học vào các ví dụ cụ thể.
+2.3. Quản lý dữ liệu, thông tin và nội dung số
+2.3.1. Biết sử dụng các công cụ quản lý dữ liệu phổ biển. Ấp dụng được các quy tắc vào việc quản lý và tổ chức dữ liệu.
+2.3.2. Biết cách thiết lập quy trình sao luu dữ liệu. Lập kế hoạch lưu trữ và sao lưu dữ liệu.
+2.3.3. Biết cách áp dụng các phương pháp bảo mật dữ liệu hiệu quả.
+2.3.4. Thiết lập quyền truy cập và chia sẻ dữ liệu một cách an toàn. Biết cách quản lý phiên bản khi tổ chức lưu trữ và chia sẻ dữ liệu.CLO1Mô-dun 2. Giao tiếp và hợp tác trong môi trường số
+2.1. Tương tác thông qua công nghệ số: Lựa chọn và sử dụng công cụ giao tiếp số phủ hợp với từng tình huống học tập, làm việc (email, chat, video call...).
+2.2. Chia sẽ thông tin và nội dung
+- Sử dụng nền tảng chia sẻ nội dung số (Google Drive, OneDrive...) hiệu quả và an toàn trong học tập và làm việc nhóm.
+2.3. Sử dụng công nghệ số để thực hiện trách nhiệm công dân
+- Tham gia vào các hoạt động xã hội số như phản ánh, kiến nghị hoặc đóng góp ý kiến qua cống thông tin, diễn đàn công dân.
+2.4. Hợp tác thông qua công nghệ số
+- Sử dụng công cụ cộng tác trực tuyến (Google Docs, Trello...) dề làm việc nhóm và xây dựng nội dung học thuật chung.
+2.5. Thực hiện quy tắc ứng xử trên mạng
+- Giao tiếp đúng mực, tôn trọng và phù hợp văn hóa, thế hệ trong môi trường số.
+2.6. Quản lý danh tính số
+- Phân biệt và kiểm soát danh tính số cá nhân trên các nền tảng khác nhau, bảo vệ dữ liệu cá nhân và danh tính số.22.1. Áp dụng công cụ giao tiếp số phù hợp để tương tác hiệu quả trong học tập và công việc.
+2.2. Áp dụng nền tảng chia sẻ nội dung để phối hợp học tập nhóm hiệu quả.
+2.3. Thực hành sử dụng công nghệ số để thực hiện nghĩa vụ và quyền công dân.
+2.4. Áp dụng công cụ hợp tác trực tuyển để thực hiện nhiệm vụ nhóm hiệu quả.
+2.5. Thể hiện hành vi giao tiếp văn minh và phù hợp trong môi trường số.
+2.6. Áp dụng biện pháp bảo vệ dữ liệu và kiểm soát danh tính số cá nhân.CLO22Mô-dun 3. Sáng tạo nội dung số
+3.1. Phát triển nội dung số
+3.1.1. Phân tích mục tiêu và đối tượng
+- Xây dựng chân dung người học, người tiêu dùng nội dung. Nếu không rõ mục tiêu và đối tượng, nội dung dễ "lạc hướng” và không mang lại hiệu quả
+-Mục tiêu nội dung số để làm gì, ví dụ: bán hàng, giáo dục, giải trí, v.v... 
+-Đối tượng là người sẽ tiếp cận nội dung số, ví dụ: họ là ai (tuổi, giới tính, nghề nghiệp, thói quen số)? Họ đang ở dâu (Facebook,
+3.1.2. Lập kế hoạch nội dung số
+-Lập kế hoạch nội dung (tháng/quý/năm).
+-Xác định loại nội dung phù hợp: bài viết, infographic, video, podcast, carousel, livestream...
+3.1.3. Sản xuất nội dung số. Nội dung phải hướng đến có giá trị thật sự: giúp người xem, giải trí, truyển cảm hứng hoặc thúc đẩy hành động. Một số tiêu chí khi xây dựng nội dung hoặc lựa chọn nhân sự/công cụ làm nội dung:
+-Khả năng viết nội dung hấp dẫn, đúng giọng điệu thương hiệu, phù hợp nền tảng (SEO, social, quảng cáo).
+-Khả năng sáng tạo kịch bản video hấp dẫn (nếu làm video YouTube, TikTok, Reels...).
+-Khả năng thiết kế hình ảnh bắt mắt, dúng kích thước từng nền tảng. Khả năng quay/chỉnh sửa video, âm thanh.
+3.2. Tích hợp và tạo lập lại nội dung số
+3.2.1. Rà soát và đánh giá nội dung đã có.
+-Thu thập tất cả nội dung số liên quan, ví dụ: Bài blog, Video, Infographic, PowerPoint, v.v...
+-Phân loại chúng theo chủ đề, định dạng, độ cập nhật.
+3.2.2. Thiết kế khung nội dung mới
+-Xây dựng khung dàn ý hoặc storyboard cho sản phẩm mới.
+-Xác định vị trí phù hợp để chèn, rút trích, tóm tắt, hoặc làm nổi bật nội dung cũ...
+3.2.3. Biên tập và chuyển đổi nội dung
+- Chuẩn hóa ngôn ngữ, tông giọng, định dạng.
+-Cập nhật dữ liệu, hình ảnh, ví dụ cho phù hợp thời điểm mới.
+- Cắt, ghép, chuyển đổi nội dung theo đúng hình thức mới.
+3.3. Thực thi bản quyền và giấy phép
+3.3.1. Xác định các thành phần có thể có bản quyền
+-Trong một sản phẩm nội dung số (video, bài viết, app, ebook...), các thành phần thường dễ vướng bản quyền.
+3.3.2. Kiểm tra nguồn gốc và giấy phép sử dụng
+- Phân loại tài nguyên bạn dùng theo giấy phép.
+3.3.3. Áp dụng giấy phép bản quyền sử dụng
+- Khi sử dụng nội dung có bản quyền cho phép sử dụng, hãy ghi nguồn rõ ràng.
+- Gửi email xin phép, hoặc tìm nội dung thay thế từ nguồn có bản quyền rõ ràng.
+3.4. Lập trình
+3.4.1. Lựa chọn công nghệ phù hợp
+- Chọn ngôn ngữ và công cụ lập trình phù hợp với định dạng nội dung.
+3.4.2. Áp dụng các khâu thiết kế, cài đặt và kiểm thử khi thực hiện lập trình cho nội dung số
+-Khâu thiết kế thường dựa trên yêu cầu người dùng hoặc mục tiêu của nội dung số.
+-Khâu lập trình tuân thủ bản thiết kế để ra sản phẩm với công nghệ đã lựa chọn.
+-Khâu kiểm thức xác nhận sản phẩm đáp ứng đúng các nội dung đã thiết kế.43.1. Phát triển nội dung số
+3.1.1. Xác định được mục tiêu và đối tượng của nội dung một cách rõ ràng, chính xác; phân tích đặc điểm người dùng theo từng nền tảng (TikTok, YouTube, Blog...)
+3.1.2. Phân biệt dược các loại nội dung số, yêu cầu cập nhật của các loại nội dung này và tính phù hợp với mục tiêu xây dựng nội dung của mình 
+3.1.3. Hiều về các loại nội dung và công cụ xây dựng nội dung tương ứng.
+3.2. Tích hợp và tạo lập lại nội dung số
+3.2.1. Biết cách thu thập, phân loại, đánh giá độ cập nhật và độ phù hợp của nội dung số hiện có
+3.2.2. Lập được dàn ý hoặc storyboard nội dung mới dựa trên nội dung đang có.
+3.2.3. Áp dụng được công cụ biên tập để tạo ra nội dung mới (slide từ bài viết, video từ nội dung blog...) phủ hợp | về định dạng và mục tiêu.
+3.3. Thực thi bản quyền và giấy phép
+3.3.1. Hiều khái niệm bản quyền và xác định được các thành phần dễ vi phạm bản quyền (hình ảnh, nhạc nền, logo, văn bản).
+3.3.2. Biết cách tra cứu, phân loại các dạng giấy phép phổ biến và sử dụng đúng theo loại giấy phép.
+3.3.3. Hiều các ràng buộc của bản quyền và qui tắc áp dụng.
+3.4. Lập trình
+3.4.1. Nhận biết được các công cụ/lập trình/công nghệ có thể dùng để tạo nội dung tương tác.
+3.4.2. Tham gia được vào các khâu thiết kế, lập trình, kiểm thử khi xây dựng nội dung số bằng lập trình.CLO3-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương giải quyết vấn đề
+- Làm việc nhóm.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A23Mô-đun 4: An toàn 
+4.1. Bảo vệ thiết bị
+4.1.1. Thực trạng tấn công mạng ngày nay
+- Thực trạng tấn công mạng trong quá khứ và hiện tại.
+- Các loại đối tượng tấn công mạng.
+- Những khó khăn trong việc ngăn chặn các cuộc tấn công mạng.
+4.1.2. An ninh mạng và tầm quan trọng của an ninh mạng
+- Khái niệm về an ninh mạng. - Tầm quan trọng của an ninh mạng.
+- Các biện pháp bảo vệ cần thiết.
+4.1.3. Chiến lược bảo mật
+- Ngăn chặn tấn công - xây dựng hàng rào bảo mật vũng chắc.
+- Cập nhật phòng thủ - thường xuyên cập nhật các biện pháp bảo mật.
+- Giảm thiểu thiệt hại - sao lưu dữ liệu định kỳ để phòng trường hợp bị tấn công.
+- Các lớp bảo vệ (Layer)- sử dụng nhiều lớp bảo mật để tăng cường an toàn.
+- Luôn trong tư thế phòng thủ-không bao giờ chủ quan với các nguy cơ tấn công.
+4.2. Bảo vệ dữ liệu cá nhân và quyền riêng tư
+4.2.1. Dữ liệu và dữ liệu cá nhân
+-Khái niệm về dữ liệu và dữ liệu cá nhân.
+-Các loại hình dữ liệu cá nhân.
+4.2.2. Các loại hình tấn công dữ liệu cá nhân và các biện pháp bảo vệ
+- Tấn công lấy cắp mật khẩu.
+- Tấn công lừa đảo xã hội. 
+- Đánh cắp dữ liệu.
+- Bảo vệ quyền riêng tư.
+4.3. Bảo vệ sức khỏe và an sinh số
+4.3.1. Sức khoẻ số
+-Khái niệm “Sức khoẻ số".
+-Các vấn đề ảnh hưởng đến “Sức khoẻ số".
+- Kỹ năng và công cụ bảo vệ “Sức khoẻ số".
+4.3.2. An ninh số
+-Khải niệm “An sinh số”.
+-Các vấn đề ảnh hưởng đến "An sinh số".
+-Kỹ năng và công cụ bảo vệ “An sinh số".
+4.3.3. Trách nhiệm và vai trò của sinh viên trong xây dựng môi trường số lành mạnh –
+-Hành xử có văn hóa trên mạng.
+-Ủng hộ, chia sẻ nội dung tích cực.
+-Hỗ trợ bạn bè khi thấy dấu hiệu bị ảnh hưởng tâm lý.
+-Tham gia cộng đồng an toàn số (CLB, diễn dàn, hoạt động truyền thông).
+4.4. Bảo vệ môi trường
+4.1.1. Mối liên hệ giữa công nghệ số và môi trường
+- Nhận diện công nghệ số.
+- Công nghệ số tác dộng tích cựcực đến môi trường.
+- Công nghệ số tác động tiêu cực đến môi trường.
+4.1.2. Giải pháp bảo vệ môi trường khỏi tác động tiêu cực của công nghệ số.
+-Giải pháp với mỗi cá nhân (người dùng công nghệ).
+-Giải pháp cấp quốc gia.44.1. Bảo vệ thiết bị
+4.1.1. Hiều được thực trạng tấn công mạng, các đối tượng tấn công mạng và khó khăn trong việc ngăn chặn |tấn công mạng.
+4.1.2. Hiểu được khái niệm an ninh mạng, |nắm bắt và vận dụng được các biện pháp giữ an ninh mạng căn bản trước các loại hình tấn công.
+4.1.3. Hiều và ra quyết dịnh áp dụng được các chiến lược bảo mật phù hợp với từng tình huống cụ thể.
+4.2. Bảo vệ dữ liệu cá nhân và quyền riêng tư
+4.2.1. Hiểu rõ các khái niệm và xác định được dữ liệu va dữ liệu cá nhân.
+4.2.2. Hiều được các loại hình và cách thức tấn công dữ liệu cá nhân và vận dụng được các biện pháp bảo vệ dữ liệu cá nhân trong từng tình huống cụ thể.
+4.3. Bảo vệ sức khỏe và an sinh số
+4.3.1. Hiểu được khái niệm, các vấn đề ảnh |hưởng đến "Sức khoé số” có kỹ năng và am hiểu việc sử dụng các công cụ để bảo vệ “Sức khoẻ số”.
+4.3.2. Hiểu được khái niệm, các vấn đề ảnh hưởng đến “An sinh số” có kỹ năng và am hiều việc sử dụng các công cụ để bảo vệ “An sinh số”.
+4.3.3. Hiểu và biết cách thực hiện vai trò của sinh viên trong xây dựng môi trường số lành mạnh
+4.4. Bảo vệ môi trường
+4.1.1. Hiểu về công nghệ số mối liên hệ |giữa công nghệ số và có khản năng môi trường và đánh giá được tác động của mỗi công nghệ số tới môi trường
+4.1.2. Hiều và sử dụng thành thạo các giải pháp bảo vệ môi trường khỏi tác động tiêu cực của công nghệ số.CLO4-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương giải quyết vấn đề
+- Làm việc nhóm.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A24Mô-đun 5: Giải quyết vẫn đề
+5.1. Xác định vấn để
+5.1.1. Các loại lỗi phần mềm thường gặp và cách nhận diện dấu hiệu cơ bản
+-Giới thiệu về lỗi phần mềm: Khái niệm, nguyên nhân phổ biến (lỗi lập trình, xung đột phần mềm, vấn đề tương thích).
+-Phân loại các lỗi phần mềm thường gặp: Lỗi logic, lỗi cú pháp, lỗi thời gian chạy, lỗi giao diện người dùng, lỗi hiệu năng... 
+-Dấu hiệu nhận biết lỗi phần mềm: Ứng dụng bị treo, không phản hồi, thông báo lỗi, sai chức năng....
+5.1.2. Nhận biết các lỗi phần cứng phổ biến liên quan đến kết nối mạng
+-Giới thiệu về lỗi phần cứng và ảnh hưởng của chúng đến hoạt động của phần mềm và ứng dụng.
+-Các lỗi phần cứng phổ biến liên quan đến kết nối mạng (Wi-Fi): Triệu chứng và nguyên nhân.
+-Cách kiểm tra và khắc phục: Kiểm tra biểu tượng mạng, khởi động lại thiết bị mạng (modem, router),...
+5.1.3. Kiểm tra cài đặt hoặc tìm thông báo lỗi
+-Tầm quan trọng của việc kiểm tra cài đặt hệ thống và ứng dụng khi gặp sự cố: Nhiều lỗi phát sinh do cấu hình sai hoặc không tương thích.
+-Cách tìm kiếm và đọc hiểu thông báo lỗi từ hệ thống (Event Viewer trên Windows, Console trên macOS) hoặc ứng dụng: Ý nghĩa của mã lỗi, thông điệp lỗi, các file log.
+-Sử dụng thông tin từ thông báo lỗi và cải đặt để khoanh vùng và xác định nguyên nhân sự cố.
+5.2. Học công nghệ mới
+5.2.1. Tìm tài liệu hướng dẫn trực tuyến
+-Giới thiệu các loại nguồn học liệu trực tuyến: Trang Web tài liệu chính thức của nhà phát triển, Blog công nghệ, các nền tảng khóa học trực tuyến (Coursera, Udemy, edX), kho mã nguồn mở (GitHub)....
+-Phương pháp và từ khóa tìm kiếm hiệu quả trên Google, YouTube: Sử dụng từ khóa chính xác, sử dụng bộ lọc thời gian, loại nội dung..
+-Xác định nhu cầu học tập cá nhân (mục tiêu, trình độ hiện tại, thời gian) để lựa chọn tài liệu phù hợp về độ sâu và hình thức (bài viết, video, khóa học).
+5.2.2. Chọn nguồn uy tín (kênh công nghệ, trang chính thức)
+-Tầm quan trọng của việc sử dụng nguồn thông tin uy tín và cập nhật khi học công nghệ mới để tránh thông tin sai lệch, lỗi thời.
+-Các tiêu chí đánh giá độ tin cậy của nguồn tài liệu trực tuyến: Thông tin tác giả/tổ chức, tính cập nhật, nguồn gốc xuất bản, đánh giá từ cộng đồng, tính khách quan, có trích dẫn nguồn rõ ràng.
+-Ưu tiên thông tin từ các kênh công nghệ được công nhận (ví dụ: các tập chí công nghệ uy tín, blog của chuyên gia đầu ngành), trang web chính thức của nhà cung cấp công nghệ, tài liệu học thuật từ các trường đại học/viện nghiên cứu.
+5.2.3. Cách tìm kiếm bài viết, diễn đàn và các tài liệu học thuật trực tuyến
+-Giới thiệu các nền tảng tim kiếm tài liệu học thuật phổ biến: Google Scholar, IEEE Xplore, ACM Digital Library,...
+-Kỹ thuật tìm kiếm hiệu quả trên các diễn đàn công nghệ (Stack Overflow, Reddit, các diễn đàn chuyên ngành): Cách đặt câu hỏi rõ ràng, cung cấp đủ thông tin, tìm kiếm các chủ để đã có trước khi hỏi.
+-Các bước cơ bản đdể tìm và truy cập bài viết khoa học, tài liệu chuyên ngành: Sử dụng từ khóa chuyên ngành, tìm theo tên tác giả/tạp chí, kiểm tra quyền truy cập (Open Access, qua tài khoản thư viện).
+5.3. Sử dụng công cụ số
+5.3.1. Sử dụng Google Sheets để nhập dữ liệu
+-Tổng quan về Google Sheets: Giới thiệu giao diện, các thành phần chính.
+-Các thao tác nhập liệu cơ bản: Nhập văn bản, số, ngày tháng, công thức đơn giản...
+-Sử dụng các tính năng hỗ trợ nhập liệu nhanh và chính xác: Tự động điền (Autofill) theo chuỗi, tạo danh sách thả xuống (Data Validation) để hạn chế lỗi nhập liệu, kiểm tra dữ liệu (Conditional Formatting).
+-Tổ chức và định dạng dữ liệu ban đầu: Tạo tiêu đề cột rõ ràng, định dạng ô (kiểu chữ, cỡ chữ, màu sắc, căn lề, định dạng số), sắp xếp và lọc dữ liệu cơ bản.
+5.3.2. Sử dụng Google Sheets phân tích dữ liệu (hàm SUM, biểu đồ)
+- Giới thiệu các hàm tính toán cơ bản và thông dụng trong Google Sheets. Cú pháp và cách sử dụng các hàm này.
+ạo và tùy chỉnh các loại biểu đồ phủ hợp để trực quan hóa dữ liệu: Biểu đổ cột (so sánh), biểu đồ tròn (tỷ trọng)... Các tùy chọn tùy chỉnh (tiêu đề, nhãn, màu săc..).
+-Đọc hiểu và diễn giải thông tin từ biểu đồ: Nhận diện xu hướng, so sánh các giá trị, phát hiện các điểm bất thường. -Áp dụng phân tích cơ bản để đưa ra nhận xét, kết luận từ dữ liệu đã được xử lý và trực quan hóa.
+5.3.3. Tạo bảng tính đơn giản (ví dụ: theo dõi chi tiêu)
+-Xác định mục đích và yêu cầu của bảng tính cần tạo (ví dụ: quản lý chi tiêu cá nhân, theo dõi tiến độ học tập...).
+-Thiết kế bảng tính: Xác định các cột thông tin cần thiết, kiểu dữ liệu cho mỗi cột, các công thức tính toán tự động (nếu có), cách sắp xếp và trình bày dữ liệu.
+5.4. Cải tiến quy trình
+5.4.1. Đề xuất giải pháp số đơn giản (dùng Sheets thay giấy, tự động hóa nhắc nhở)
+-Phân tích quy trình làm việc hoặc học tập hiện tại: Vẽ sơ đồ các bước, xác định các công cụ và tài nguyên đang sử dụng, thời gian thực hiện mỗi bước.
+-Giới thiệu các giải pháp số đơn giản để cải tiến: Sử dụng Google Sheets/Docs để quản lý danh sách, kế hoạch thay vì dùng giấy; sử dụng công cụ ghi chú số (Evernote, Notion, OneNote) dể lưu trữ và tổ chức thông tin; sử dụng Google Forms để thu thập dữ liệu.
+5.4.2. Giải thích lợi ích (tiết kiệm thời gian, dễ chỉnh sửa) 
+-Phân tích lợi ích cụ thể và định lượng (nếu có thể) khi áp dụng các giải pháp số đã đề xuất: Tiết kiệm thời gian và cộng sức; dễ dàng trong việc chỉnh sửa, cập nhật và chia sẻ thông tin; ... 
+-Cách trình bày và làm rõ những lợi ích này một cách thuyết phục, có thể sử dụng số liệu so sánh trước và sau khi áp dụng (nếu có).45.1. Xác định vấn để
+5.1.1. - Trình bày được khái niệm và các nguyên nhân phổ biến gây ra lỗi phần mềm.
+- Phân loại được một số lỗi phần mềm thường gặp trong quá trình sử dụng (ví dụ: lỗi logic, lỗi giao diện....).
+- Nhận biết và mô tả được các biểu hiện cụ thể của lỗi phần mềm (ví dụ: ứng dụng bị treo, không phản hồi,...).
+5.1.2.
+-Giải thích được ảnh hưởng của lỗi phần cứng đến hoạt động của ứng dụng và hệ thống.
+-Xác định được các triệu chứng của lỗi kết nối mạng (ví dụ: không kết nối được,..) và các lỗi phần cứng phổ biến khác có thể ảnh hưởng đến ứng dụng (ví dụ: lỗi ổ cứng, RAM,...).
+-Thực hiện được các bước kiểm tra kết nối mạng cơ bản để chẩn đoán sự cố (ví dụ: kiểm tra đèn tín hiệu router/modem,...).
+5.1.3.
+-Thực hiện được các thao tác kiểm tra những cài đặt cơ bản của hệ thống (ví dụ: cài đặt mạng, ngày giờ, cập nhật hệ điều hành) và ứng dụng (ví dụ: cài đặt cấu hình, quyền truy cập) có khả năng liên quan đến sự có.
+-Biết cách chủ động tìm kiếm, đọc và diễn giải sơ bộ nội dung các thông báo lỗi do hệ thống hoặc ứng dụng cung cấp (ví dụ: mã lỗi, mô tả lỗi, gợi ý khắc phục).
+- Sử dụng được thông tin từ thông báo lỗi và kết quả kiểm tra cải đặt để có thêm thông tin phục vụ việc xác định nguyên nhân sự cố.
+5.2. Học công nghệ mới
+5.2.1.
+-Liệt kê và mô tả được các loại nguồn tài liệu hướng dẫn trực tuyến phổ biến và đặc điểm của từng loại.
+-Sử dụng thành thạo các từ khóa (tiếng Việt và tiếng Anh) và phương pháp tìm kiếm hiệu quả trên Google và YouTube (sử dụng toán tử tìm kiếm, bộ lọc) để nhanh chóng xác định được các video hướng dẫn, bài viết phân tích, hoặc tài liệu học liệu phù hợp. - Xác định được tài liệu học liệu phù hợp với chủ đề công nghệ mới cần tìm hiểu, trình độ hiện tại và đáp ứng nhu cầu học tập cá nhân.
+5.2.2.
+-Giải thích được tầm quan trọng của việc lựa chọn nguồn thông tin uy tín và cập nhật trong lĩnh vực công nghệ.
+-Áp dụng được các tiêu chí cơ bản như thông tin tác giả tổ chức (chuyên môn, kinh nghiệm), ngày đăng/cập nhật gần nhất, nguồn gốc xuất bản (trang chính thức, tạp chí uy tín), và đánh giá từ cộng đồng để phân biệt và lựa chọn được các nguồn tài liệu trực tuyến có độ tin cậy cao.
+-Ưu tiên lựa chọn thông tin từ các kênh công nghệ được công nhận, trang web chính thức của nhà cung cấp công nghệ, các tổ chức nghiên cứu và tài liệu học thuật đã qua bình duyệt.
+5.2.3.
+-Liệt kê và mô tả được các nguồn tìm kiếm bài viết, diễn đàn công nghệ và cơ sở dữ liệu tài liệu học thuật trực tuyến uy tín.
+-Trình bày và áp dụng được các bước cơ bản để tìm tài liệu học thuật trực tuyến (xác định từ khóa, sử dụng bộ lọc, đánh giá relevance).
+-Áp dụng được kỹ thuật tìm kiếm và đặt câu hỏi hiệu quả để tìm thông tin và giải đáp thắc mắc trên các diễn đàn công nghệ (ví dụ: Stack Overflow, Reddit).
+5.3. Sử dụng công cụ số
+5.3.1.
+- Nắm vũng giao diện và các thành phần chính của Google Sheets dể thao tác hiệu quả.
+-Thành thạo các thao tác nhập liệu cơ bản (văn bản, số, ngày tháng, công thức đơn giản) và chỉnh sửa dữ liệu. 
+- Biết cách tận dụng các tính năng hỗ trợ như tự động điền (Autofill), danh sách thả xuống (Data Validation), và kiểm tra dữ liệu để nhập dữ liệu nhanh chóng, chính xác và nhất quán.
+-Tổ chức, định dạng dữ liệu ban đầu một cách khoa học, hợp lý (đặt tên cột, định dạng kiểu dữ liệu, màu sắc, căn lề), đảm bảo tính chính xác và nhất quán của dữ liệu nguồn ngay từ đầu.
+5.3.2.
+-Thành thạo việc sử dụng hàm tính toán cơ bản để thực hiện các phép tính và phân tích dữ liệu hiệu quả.
+- Biết cách lựa chọn, tạo và tùy chỉnh các loại biểu đồ phù hợp (cột, tròn, đường, thanh) nhằm trực quan hóa dữ liệu một cách rõ ràng và dễ hiểu.
+-Dễ dảng đọc hiểu, diễn giải các thông tin, xu hướng và điểm nổi bật từ biểu đồ đã tạo. - -Áp dụng các kỹ năng phân tích dữ liệu cơ bản để đưa ra các nhận xét, kết luận và quyết định dựa trên dữ liệu đã được xử lý và trực quan hóa.
+5.3.3.
+- Xác định rõ ràng mục đích, đối tượng sử dụng và các yêu cầu cụ thể của một bảng tính cần xây dựng.
+- Thiết kế và xây dựng được một bảng tính hoản chỉnh, có cấu trúc logic, dễ theo dõi và sử dụng trên Google Sheets, bao gồm các cột, hàng, công thức và định dạng phù hợp.
+- Áp dụng dược kiến thức đã học dể tạo ra một bảng tính phục vụ một mục đích cụ thể trong đời sống hoặc học tập (ví dụ: tạo bảng theo dõi chi tiêu cá nhân hàng tháng với các hạng mục rõ ràng, tính toán tự động và có biểu đồ minh họa).
+5.4. Cải tiến quy trình
+5.4.1.
+-Phân tích được một quy trình làm việc hoặc học tập cụ thể, chỉ ra được các bước thực hiện, các điểm kém hiệu quả, tốn thời gian hoặc có thể cải tiến bằng công nghệ số.
+-Đề xuất ít nhất một giải pháp số đơn giản, dễ thực hiện và phù hợp (ví dụ: sử dụng Google Sheets de quản lý danh sách công việc thay vì dùng giấy, thiết lập nhắc nhở tự động trên Google Calendar) để tăng hiệu quả và tối ưu hóa quy trình.
+5.4.2.
+- Trình bày và làm rõ được những lợi ích chính yếu và cụ thể khi áp dụng giải pháp số đã để xuất cho một quy trình cụ thể.
+- Tập trung phân tích và minh họ các yếu tố như khả năng tiết kiệm thời gian, giảm thiểu công sức, dễ dàng trong việc chỉnh sửa và cập nhật thông tin, cũng như tăng cường khả năng truy cập từ nhiều thiết bị.
+- Nhấn mạnh việc tăng cường tính chính xác, giảm thiểu sai sót và nâng cao tính minh bạch của quy trình khi ứng dụng công nghệ số.CLO5-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương giải quyết vấn đề
+- Làm việc nhóm.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A25Mô-đun 6: Ứng dụng trí tuệ nhân tạo
+6.1. Khái niệm cơ bản, ứng dụng phổ biến trong thực tế
+6.1.1. Giới thiệu các khái niệm cơ bản về Trí tuệ nhân tạo (AI)
+-Trí tuệ nhân tạo (AI).
+-Machine Learning, Deep Learning. 1.2 2 2.1 2.2
+-Các nhánh AI: xử lý ngôn ngữ, thị giác máy tính, robot V.V...
+-Lịch sử AI.
+-Hoạt động của hệ thống AI (Dựa vào dữ liệu đầu vào, thuật toán học cách đưa ra dự đoán hoặc quyết định)
+6.1.2. Giới thiệu ứng dụng của AI trong thực tế
+-Kỹ thuật: nhận diện cá nhân, hệ thống giao thông minh, xe tự lái,... 
+-Y tế: chẩn đoán hình ảnh y khoa,...
+-Kinh tế: chatbox, phân tích thị trường, trợ lý ảo.
+6.2. Một số công cụ AI tạo sinh phổ biến
+6.2.1.
+-Ứng dụng GenAI trong xử lý và phân tích văn bản (NoteBookLM,...).
+-Ứng dụng GenAI trong xử lý và sáng tạo hình ảnh (ShakkerAI, Kling AI,..). Ứng dụng GenAI trong xử lý và sáng tạo video (Sora, Google AI,..).
+6.2.2. Thực hành
+-Áp dụng ChatGPT.
+-Phân tích, đánh giá kết quả của ứng dụng.
+6.3. Cơ hội và thử thách
+6.3.1. Cơ hội
+-AI có khả năng thay thế nhiều vị trí việc làm.
+-AI hỗ trợ, không hoàn toàn thay thế con c người.
+-Con người đóng vai trò sáng tạo; ra quyết định.
+6.3.2. Thử thách
+-Quyền riêng tư.
+-Đạo dức.
+-Rúi ro.
+6.3.3. Thực hành
+-Bài tập thực hành với tình huống cụ thể yêu cầu người học dùng công cụ AI giải quyết công việc trong 1 quy trình làm việc hiện có.
+-Phân tích và đánh giá kết quả ứng dụng AI.
+-Đề xuất cải tiến cho hệ thống AI dựa trên kết quả đánh giá.46.1. Khái niệm cơ bản, ứng dụng phổ biến trong thực tế
+6.1.1.
+-Biết các khái niệm cơ bản về AI, lịch sử AI.
+-Hiểu nguyên tắc hoạt động cơ bản của hệ thống AI.
+-Hiểu tầm quan trọng của dữ liệu đầu vào, thuật toán.
+6.1.2. Hiểu nguyên tắc hoạt động cơ bản của một số ứng dụng phổ biến của AI trong thực tế.
+6.2. Một số công cụ AI tạo sinh phổ biến
+6.2.1. Biết các chức năng chính của một số ứng dụng AI phổ biến.
+6.2.2. Biết được các chức năng chính của ChatGPT
+-Áp dụng ứng dụng ChatGPT để thực hiện trả lời tư vấn vấn đề cơ bản, và phức tạp cần sử lý thông tin; và thực hành các chức năng chính khác của ứng dụng.
+-Phân tích, đánh giá các kết quả của ứng dụng.
+6.3. Cơ hội và thử thách
+6.3.1.
+-Biết tầm quan trọng của ứng dụng AI
+-Biết vai trò con người trong việc ứng dụng AI
+6.3.2. Hiều cơ bản về đạo đức và rủi ro khi sử dụng AI
+6.3.3.
+-Áp dụng công cụ AI giải quyếtcông việc trong 1 quy trình làm việc hiện có.
+-Đánh giá kết quả do hệ thống AI đưa ra, chịu trách nhiệm về quyết định sử dụng kết quả đảm bảo tuân thủ quy định pháp luật và chuẫn mực đạo đức.
+-Đề xuất cải tiến cho hệ thống AI dựa trên kết quả đánh giá.CLO6-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương giải quyết vấn đề
+- Làm việc nhóm.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A26Buổi 6. Định dạng (văn bản, bảng biểu, Tabstop, tạo ngắt)
+6.1. Tạo và đặt tên file đúng theo yêu cầu
+6.2. Định dạng khổ giấy, hướng giấy, canh lề
+6.3. Định dạng font chữ, cỡ chữ, giãn dòng, giãn đoạn, thụt đầu dòng/Thiết lập mặc định trong Normal
+6.4. Soạn thảo đầy đủ nội dung văn bản
+6.5. Tạo và định dạng bảng, chuyển bảng thành văn bản
+6.6. Tạo ngắt-Page Breaks
+6.7. Ngắt đoạn-Section Breaks
+6.8. Tạo TabStop, định dạng Bullets và Numbering
+6.9. Chia cột, thả chữ đầu đoạn 
+
+Bài tập:
+SV làm bài tập tại lớp 1.1a, 1.2a, 1.3a
+SV làm bài tập ở nhà: 1.1b, 1.2b, 1.3b4
+6.1. Tạo và đặt tên file đúng theo yêu cầu
+6.2. Định dạng khổ giấy, hướng giấy, canh lề
+6.3. Định dạng font chữ, cỡ chữ, giãn dòng, giãn đoạn, thụt đầu dòng/Thiết lập mặc định trong Normal
+6.4. Soạn thảo đầy đủ nội dung văn bản
+6.5. Tạo và định dạng bảng, chuyển bảng thành văn bản
+6.6. Tạo ngắt-Page Breaks
+6.7. Ngắt đoạn-Section Breaks
+6.8. Tạo TabStop, định dạng Bullets và Numbering
+6.9. Chia cột, thả chữ đầu đoạnCLO7-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương giải quyết vấn đề
+- Làm việc nhóm.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A27Buổi 7. Mục lục (Multilevel List, caption, nội dung, hình ảnh, bảng biểu)
+7.1. Tạo và định dạnh danh sách nhiều cấp Multilevel List
+7.2. Tạo mục lục Multilevel list với Style Heading 1, Heading 2 (nội dung, hình ảnh, bảng biểu)
+7.3. Header & Footer
+7.4. Endnote, Footnote & Comment
+
+Bài tập:
+SV làm bài tập tại lớp 7.1a, 7.2a, 7.3a
+SV làm bài tập ở nhà: 7.1b, 7.2b, 7.3b
+47.1. Tạo và định dạnh danh sách nhiều cấp Multilevel List
+7.2. Tạo mục lục Multilevel list với Style Heading 1, Heading 2 (nội dung, hình ảnh, bảng biểu)
+7.3. Header & Footer
+7.4. Endnote, Footnote & CommentCLO7-Phương pháp thuyết trình.
+- Phương pháp làm thực hành
+-Phương pháp hỏi đáp
+-Phương pháp đặt và giải quyết vấn đề.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A28Buổi 8. Kiểm tra giữa kỳ4Đánh giá giữa học phầnCLO1
+CLO2
+CLO3
+CLO4
+CLO5
+CLO6- Phương pháp thuyết trình
+- Phương pháp làm thực hành
+- Phương pháp hỏi đáp
+- Phương pháp đặt và giải quyết vấn đề.- Đọc trước nội dung bài học trước khi đến lớp
+- Làm thực hành các bài tậpA1
+A29Buổi 9. Ứng dụng công cụ AI trong Word
+9.1. Tích hợp AI Copilot hoặc ChatGPT,.. vào Add-ins trong Word
+9.2. Viết nội dung tự động bằng AI
+9.3. Chỉnh sửa, cải thiện đoạn văn bằng AI  
+9.4. Tóm tắt tài liệu bằng AI
+
+Bài tập:
+SV làm bài tập tại lớp 9.1a, 9.2a, 9.3a
+SV làm bài tập ở nhà: 9.1b, 9.2b, 9.3b49.1. Tích hợp được AI Copilot hoặc ChatGPT,.. vào Add-ins trong Word
+9.2. Tạo được nội dung tự động bằng AI
+9.3. Chỉnh sửa, cải thiện đoạn văn bằng AI  
+9.4. Tóm tắt tài liệu bằng AICLO7-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương pháp đặt và giải quyết vấn đề.- Đọc trước nội dung bài học trước khi đến lớp.A1
+A210Buổi 10. Hàm trong Excel
+10.1. Đặt tên vùng, ràng buộc dữ liệu
+10.2. Hàm if, left, right, mid, value
+10.3. Sumif, countif
+
+Bài tập:
+SV làm bài tập tại lớp 10.1a, 10.2a, 10.3a
+SV làm bài tập ở nhà: 10.1b, 10.2b, 10.3b410.1. Đặt tên cho vùng dữ liệu trong Excel
+10.2. Thiết lập ràng buộc dữ liệu trong Excel
+10.3. Vận dụng các hàm if, left, right, mid, value
+10.4. Vận dụng được hàm Sumif, countifCLO8-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương pháp đặt và giải quyết vấn đề.
+- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A211Buổi 11. Tổ chức dữ liệu trong Excel
+11.1. VLookup, HLookup
+11.2. Sort, Filter
+
+Bài tập:
+SV làm bài tập tại lớp 11.1a, 11.2a, 11.3a
+SV làm bài tập ở nhà: 11.1b, 11.2b, 11.3b411.1. Vận dụng được hàm Vlookup và Hlookup
+11.2. Vận dụng được chức năng sắp xếp và lọc dữ liệuCLO2-Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+-Phương pháp hỏi đáp
+-Phương pháp đặt và giải quyết vấn đề.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A212Buổi 12. Ứng dụng công cụ AI trong Excel
+12.1. Tích hợp AI Copilot hoặc ChatGPT,.. vào Add-ins trong Excel
+12.2. Tạo dữ liệu và bảng tính tự động bằng AI
+12.3. Phân tích dữ liệu bằng AI  
+12.4. Vẽ biểu đồ, xu hướng và dự đoán bằng AI
+
+Bài tập:
+SV làm bài tập tại lớp 12.1a, 12.2a, 12.3a
+SV làm bài tập ở nhà: 12.1b, 12.2b, 12.3b12.1. Tích hợp AI Copilot hoặc ChatGPT,.. vào Add-ins trong Excel
+12.2. Tạo dữ liệu và bảng tính tự động bằng AI
+12.3. Phân tích dữ liệu bằng AI  
+12.4. Vẽ biểu đồ, xu hướng và dự đoán bằng AICLO8- Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+- Phương pháp hỏi đáp
+- Phương pháp đặt và giải quyết vấn đề.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A213Buổi 13. Soạn thảo slide trình chiếu
+13.1. Thiết kế slide, slide Master
+13.2. Liên kết (slide, đối tượng)
+13.3. Tạo hiệu ứng
+13.4. Trình chiếu (chạy từ slide hiện tại, chạy lặp, chạy từ đầu, không có hiệu ứng)
+
+Bài tập:
+SV làm bài tập tại lớp 13.1a, 13.2a, 13.3a
+SV làm bài tập ở nhà: 13.1b, 13.2b, 13.3b
+413.1. Thiết kế được slide
+13.2. Thiết lập được slide Master
+13.3. Thực hiện liên kết được các đối tượng trong slide
+13.4. Tạo và thiết lập hiệu ứng cho file trình chiếu
+13.5. Thiết lập chế độ cho file trình chiếuCLO9- Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+- Phương pháp hỏi đáp
+- Phương pháp đặt và giải quyết vấn đề.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A214Buổi 14. Ứng dụng công cụ AI trong soạn thảo slide trình chiếu
+14.1. Tích hợp AI Copilot hoặc ChatGPT, Gamma,.. vào Add-ins trong Power Point
+14.2. Tạo nội dung slide tự động từ chủ đề bằng AI
+14.3. Tạo slide tự động bằng bằng AI
+
+Bài tập:
+SV làm bài tập tại lớp 14.1a, 14.2a, 14.3a
+SV làm bài tập ở nhà: 14.1b, 14.2b, 14.3b414.1. Tích hợp AI Copilot hoặc ChatGPT,.. vào Add-ins trong Power Point
+14.2. Viết nội dung, chỉnh sửa nội dung slide tự động bằng AI
+14.3. Tạo slide bằng bằng AICLO9- Phương pháp thuyết trình.
+- Phương pháp làm thực hành.
+- Phương pháp vấn đáp (đàm thoại).
+- Phương pháp đặt và giải quyết vấn đề.- Đọc trước nội dung bài học trước khi đến lớp.
+- Làm thực hành các bài tập.A1
+A2
+A315
+Buổi 15. Ôn tập
+15.1. Ôn tập các nội dung
+15.2. Bài tập ôn tập tổng quát415.1. Ôn tập các nội dung
+15.2. Bài tập ôn tập tổng quát
+CLO7
+CLO8
+CLO9- Phương pháp thuyết trình.
+- Phương pháp hỏi đápA48. Học liệu: 
+8.1. Sách, giáo trình chính thống & tham khảo
+Bảng 8.1. Sách, giáo trình, tài liệu tham khảo
+TTTên tác giảNăm XBTên sách, giáo trình,
+tên bài báo, văn bảnNhà xuất bản, tên tạp chí/
+nơi ban hành văn bản(1)(2)(3)(4)(5)Giáo trình chính1Đặng Thế Khoa2019Giáo trình ứng dụng CNTT cơ bảnNXB Đại học Quốc gia TP.HCMSách, giáo trình tham khảo2Nguyễn Hoà Anh2016Microsoft Office Word 2010: phần nền tảngNXB Tổng hợp TP. Hồ Chí Minh3Nguyễn Thành Trung2017Microsoft Office Excel 2010: phần nền tảngNXB Tổng hợp TP. Hồ Chí Minh4Nguyễn Thành Trung2016Microsoft Office PowerPoint 2010: phần nền tảngNXB Tổng hợp TP. Hồ Chí Minh5Liu Wen Yong2025AI Thực Chiến - Cuộc Cách Mạng Toàn Diện Trong Giáo DụcCông Thương8.2. Địa chỉ web hữu ích:
+Bảng 8.2. Danh mục địa chỉ web hữu ích cho học phần
+TTNội dung tham khảoLink trang webNgày cập nhật1Các thao tác cơ bản trên Excel, vận dụng công thức và hàm.http://inpics.net/excel2013.html16/12/20192Vận dụng công thức và hàm.http://www.giaiphapexcel.com16/12/20193Tạo các đối tượng đồ hoạ trong Powerpointhttp://www.presentation-process.com/creative-presentation.html16/12/20194Tin học văn phòng: Microsoft Word, Microsoft Excel, Microsoft Powerpointhttps://sites.google.com/site/nghiadvictuda/tin-hoc-van-phong16/12/20195ChatGPThttps://chatgpt.com/Thường xuyên6Geminihttps://gemini.google.com/Thường xuyên7Copilothttps://copilot.microsoft.com/Thường xuyên8Google Designerhttps://designer.microsoft.comThường xuyên9. Cơ sở vật chất GD: 
+Bảng 9.1. Cơ sở vật chất giảng dạy của học phần
+
+TTTên giảng đường, Phòng thực hành, xưởng, cơ sở thực hànhDanh mục trang thiết bị, phần mềm chính
+phục vụ thí nghiệm, thực hànhPhục vụ cho Bài học/
+Chương Tên thiết bị, dụng cụ, phần mềm,…Số lượng(1)(2)(3)(4)(5)Đại học Đông ÁMáy chiếu Projector1Tất cả các buổi họcBảng, phấn, khăn lau…1Tất cả các buổi học
+Ngày ký duyệt: 6/2025
+Người ký duyệt:
+Phụ trách khoa/Ngành
+
+TS. Đỗ Văn Tuấn
+GV soạn
+
+
+
+
+
+
+ThS. Trương Văn Hiệu
+
+
+
+2
+
+
+2
+
+

@@ -1,0 +1,86 @@
+﻿Slide 1: CHƯƠNG 1 (TIẾT 6) - TẢNG BĂNG CHÌM DƯỚI CÚ CLICK CHUỘT
+Người 1: Chào các bạn sinh viên lớp BA24M. Hôm nay chúng ta đến với mảnh ghép cuối cùng và cũng là quan trọng nhất trong "Tảng băng trôi" của TMĐT. Các em hãy nhìn tiêu đề trên Slide 1: "Logistics - Tảng băng chìm dưới cú Click chuột". Theo em, tại sao thầy lại dùng hình ảnh ẩn dụ này một lần nữa, nhưng lại gắn nó với Logistics?
+Người 2: Dạ thưa thầy, chắc là vì khi mình mua hàng, mình chỉ mất 1 giây để bấm chuột (phần nổi). Nhưng để món hàng đó đến được tay mình thì ở phía sau phải có rất nhiều xe tải, nhà kho và shipper hoạt động vất vả mà mình không nhìn thấy (phần chìm) đúng không ạ?
+Người 1: Rất chính xác! Nhưng dưới góc độ quản trị, "phần chìm" này không chỉ là xe tải chạy ngoài đường. Nó là một hệ thống khổng lồ xử lý hàng triệu đơn hàng mỗi ngày với sai số gần như bằng 0. Nếu "Thanh toán" là dòng máu, thì "Logistics" chính là hệ cơ bắp giúp TMĐT di chuyển. Hôm nay chúng ta sẽ đi thám hiểm xem hệ cơ bắp này hoạt động thế nào nhé.
+
+Slide 2: ĐỊNH NGHĨA E-LOGISTICS (KHÔNG CHỈ LÀ VẬN CHUYỂN)
+Người 1: Chúng ta sang Slide 2. Thầy có một câu nhận định: "Trong TMĐT, Logistics không phải là bán vé tàu xe, mà là kinh doanh niềm tin". Em hãy nhìn vào hình ảnh so sánh giữa một bưu kiện bị móp méo giao trễ 5 ngày và một bưu kiện đẹp đẽ giao trong 2 giờ. Em cảm thấy thế nào?
+Người 2: Dạ, nếu hàng giao trễ mà còn móp méo thì dù sản phẩm bên trong có tốt, em cũng sẽ đánh giá shop 1 sao và không bao giờ quay lại. Còn giao nhanh như TikiNOW thì em rất tin tưởng và sẵn sàng trả thêm tiền ship ạ.
+Người 1: Đó chính là điểm mấu chốt! Trong TMĐT, khách hàng không chạm được vào sản phẩm thật cho đến khi nhận hàng. Vì vậy, Logistics là điểm chạm vật lý duy nhất giữa thương hiệu và khách hàng.
+• Logistics tốt = Giữ đúng lời hứa = Niềm tin (Trust).
+• Logistics tồi = Thất hứa = Mất khách vĩnh viễn. Vậy nên, Logistics ở đây là chiến lược cạnh tranh, chứ không chỉ là công việc tay chân.
+
+Slide 3: SỰ KHÁC BIỆT: LOGISTICS TRUYỀN THỐNG VS. E-LOGISTICS
+Người 1: Nhưng vận chuyển cho TMĐT có gì khác với vận chuyển truyền thống (như chở container gạo đi xuất khẩu)? Mời em nhìn bảng so sánh trên Slide 3. Em thấy đặc điểm nổi bật nhất của đơn hàng TMĐT là gì?
+Người 2: Em nhìn thấy hình minh họa: Bên truyền thống là những pallet hàng to đùng, đồng nhất. Còn bên E-logistics là hàng nghìn gói hàng nhỏ xíu, đủ kích cỡ, hình dáng khác nhau. Có phải sự khác biệt nằm ở sự "nhỏ lẻ" không thầy?
+Người 1: Đúng vậy, và đó là cơn ác mộng của dân làm nghề.
+• Truyền thống (B2B): Chuyển 1000 cái áo từ kho A sang kho B. Chỉ 1 điểm đi, 1 điểm đến, 1 vận đơn. Dễ quản lý.
+• E-logistics (B2C): Chuyển 1000 cái áo đến 1000 địa chỉ nhà khác nhau. 1000 điểm đến, 1000 vận đơn, 1000 rủi ro khách không nghe máy. => Độ phức tạp của E-logistics cao gấp hàng trăm lần, đòi hỏi công nghệ cực mạnh để xử lý.
+
+Slide 4: HÀNH TRÌNH ĐƠN HÀNG (THE JOURNEY OF A PARCEL)
+Người 1: Vậy một đơn hàng đi như thế nào? Slide 4 vẽ ra sơ đồ 3 chặng đường (3 Miles). Em hãy nhìn vào sơ đồ và thử đóng vai một chiếc ốp điện thoại đi từ Shop ở Hà Nội đến tay em ở Sài Gòn xem nào?
+Người 2: Dạ, em thử nhé:
+1. First Mile (Dặm đầu): Chắc là Shipper đến nhà người bán lấy cái ốp lưng đem về bưu cục.
+2. Middle Mile (Dặm giữa): Cái ốp được cho lên xe tải lớn hoặc máy bay để chở từ Hà Nội vào kho ở Sài Gòn.
+3. Last Mile (Dặm cuối): Một anh Shipper khác lấy hàng từ kho Sài Gòn chạy xe máy giao đến tận cửa nhà em.
+Người 1: Hoàn toàn chính xác.
+• First Mile: Thu gom (Picking/Collection).
+• Middle Mile: Luân chuyển đường dài (Line haul).
+• Last Mile: Giao hàng chặng cuối. Trong quản trị, việc chia nhỏ này giúp chúng ta biết tắc nghẽn ở đâu. Nếu hàng kẹt ở kho phân loại, đó là lỗi Middle Mile. Nếu Shipper gọi khách không được, đó là lỗi Last Mile.
+
+Slide 5: TRUNG TÂM HOÀN TẤT ĐƠN HÀNG (FULFILLMENT CENTER)
+Người 1: Bây giờ chúng ta dừng lại ở "trái tim" của hệ thống tại Slide 5: Fulfillment Center (Trung tâm hoàn tất đơn hàng). Em nhìn hình ảnh bên trong kho của Amazon hay Tiki. Nó có giống cái nhà kho bụi bặm sau nhà em không?
+Người 2: Dạ không hề (cười). Em thấy toàn băng chuyền tự động, máy quét mã vạch và các kệ hàng cao ngất ngưởng được sắp xếp rất khoa học. Có cả Robot nữa ạ.
+Người 1: Đây không phải "nhà kho" (Warehouse) để chứa đồ, mà là "nhà máy xử lý đơn hàng". Tại đây diễn ra quy trình: Pick - Pack - Sort (Lấy hàng - Đóng gói - Phân loại).
+• Pick: Khi em đặt 1 thỏi son và 1 quyển sách. Hệ thống chỉ cho nhân viên biết chính xác 2 món đó nằm ở kệ số mấy trong hàng triệu món hàng.
+• Pack: Đóng vào hộp carton, dán tem vận chuyển. Mục tiêu của Fulfillment là tốc độ. Amazon có thể xử lý xong 1 đơn hàng trong vòng 15 phút nhờ hệ thống này.
+
+Slide 6: BÀI TOÁN "LAST MILE" (CHẶNG CUỐI CÙNG)
+Người 1: Cuối cùng, chúng ta đến với phần đau đầu nhất: Slide 6 - The Last Mile Problem (Bài toán dặm cuối). Em nhìn biểu đồ chi phí: Chặng cuối (từ bưu cục đến nhà khách) tuy ngắn nhất nhưng lại chiếm tới 28% - 53% tổng chi phí vận chuyển. Tại sao nghịch lý vậy?
+Người 2: Em nghĩ là do... đi đường phố tắc đường ạ? Với lại mỗi lần shipper chỉ chở được một thùng nhỏ sau xe máy, đi giao từng nhà rất tốn xăng và thời gian. Chứ xe tải dặm giữa nó chở một lần cả tấn hàng thì rẻ hơn.
+Người 1: Phân tích rất sắc sảo!
+• Sự phân tán: Giao 100 đơn cho 100 nhà ở 100 ngõ ngách khác nhau.
+• Rủi ro con người: Khách không ở nhà, khách bom hàng, khách đổi ý, xe hỏng, trời mưa...
+• Hiệu suất thấp: Một shipper chạy cả ngày giỏi lắm được 50-60 đơn. => Đây là "nút thắt cổ chai" lớn nhất của TMĐT. Ai giải được bài toán Last Mile (giao nhanh hơn, rẻ hơn), người đó thắng cuộc chơi này.
+Slide 7: LOGISTICS NGƯỢC (REVERSE LOGISTICS) - NỖI ĐAU THẦM LẶNG
+Người 1: Chúng ta thường chỉ nghĩ về việc hàng đi từ kho đến tay khách (Logistics xuôi). Nhưng hãy nhìn Slide 7, mũi tên đang quay ngược lại. Reverse Logistics (Logistics ngược) là gì và tại sao thầy gọi nó là "Nỗi đau thầm lặng"?
+Người 2: Dạ, đó là quy trình Đổi trả hàng (Return) ạ. Khi khách mua cái áo về mặc không vừa hoặc hàng bị lỗi, họ gửi trả lại cho Shop. Gọi là "nỗi đau" chắc vì… vừa mất tiền ship, vừa không bán được hàng, lại còn phải xử lý hàng cũ đúng không ạ?
+Người 1: Chính xác. Chi phí xử lý một đơn hàng hoàn trả cao gấp 3 lần chi phí giao đi.
+1. Vận chuyển về: Tốn phí ship lần 2.
+2. Kiểm tra & Phân loại: Phải có người mở gói hàng ra xem cái áo đó còn tem mác không, có bị rách không.
+3. Tái chế/Hủy: Nếu hỏng thì vứt (mất vốn), nếu còn tốt thì phải đóng gói lại (tốn bao bì mới). => Bài học quản trị: Chính sách đổi trả dễ dàng (Free Return) giúp tăng doanh số, nhưng nếu không kiểm soát tốt tỷ lệ hoàn hàng (Return Rate), nó sẽ ăn mòn toàn bộ lợi nhuận.
+
+Slide 8: CÔNG NGHỆ: BỘ NÃO CỦA HỆ CƠ BẮP
+Người 1: Làm sao quản lý hàng nghìn đơn hàng chạy ngược xuôi như vậy? Chúng ta cần "Bộ não". Slide 8 giới thiệu các công nghệ cốt lõi. Em nhìn thấy mã vạch (Barcode), RFID và GPS. Chúng giúp ích gì?
+Người 2: Dạ, GPS thì để định vị xem shipper đang ở đâu, bao giờ tới. Còn Barcode/RFID chắc để quản lý kho, quét một cái là biết hàng gì, còn bao nhiêu cái.
+Người 1: Đúng vậy. Trong kho hiện đại, người ta dùng WMS (Warehouse Management System). Ví dụ: Khi em quét mã một đôi giày, hệ thống tự động trừ tồn kho trên Shopee, Lazada cùng lúc. Nếu không có công nghệ này (Real-time syncing), rất dễ xảy ra tình trạng "Bán hớ" – khách đặt rồi mới phát hiện trong kho đã hết hàng.
+
+Slide 9: CHIẾN LƯỢC: IN-HOUSE VS. OUTSOURCING (3PL)
+Người 1: Sang Slide 9 là một câu hỏi chiến lược kinh điển cho các Sếp: Tự xây đội giao hàng (In-house) hay Thuê ngoài (Outsourcing/3PL)? Em nhìn sự so sánh giữa Tiki (Tự làm với TikiNOW) và các Shop nhỏ trên Shopee (Thuê Giao Hàng Tiết Kiệm/J&T). Ưu nhược điểm là gì?
+Người 2: Tự làm (In-house): Chủ động, kiểm soát được chất lượng shipper (thái độ tốt, đồng phục đẹp). Nhưng chắc tốn tiền nuôi quân, mua xe lắm ạ.
+• Thuê ngoài (3PL): Rẻ, tiện, không lo quản lý nhân sự. Nhưng rủi ro là shipper của hãng làm ẩu, ném hàng làm vỡ thì mình bị khách mắng oan.
+Người 1: Phân tích rất chuẩn.
+• In-house: Phù hợp với doanh nghiệp lớn, cần tốc độ và trải nghiệm khách hàng cực cao (như Tiki, Amazon).
+• Outsourcing: Phù hợp với đa số doanh nghiệp vừa và nhỏ (SME), giúp biến định phí (lương nhân viên) thành biến phí (ship đơn nào trả tiền đơn đó).
+
+Slide 10: GIẢI PHÁP TƯƠNG LAI: SMART LOCKER & GREEN LOGISTICS
+Người 1: Slide 10 vẽ ra viễn cảnh tương lai. Khi shipper không thể gặp khách (do khách đi làm vắng nhà), giải pháp là gì? Em nhìn thấy cái tủ màu vàng vàng kia không?
+Người 2: À, đó là Smart Locker (Tủ khóa thông minh) ạ. Em thấy ở chung cư hay có. Shipper đến cất hàng vào tủ, gửi mật mã cho mình. Tối mình đi làm về tự ra lấy. Rất tiện vì không phải canh điện thoại.
+Người 1: Đó chính là xu hướng Giao hàng không tiếp xúc (Contactless Delivery). Ngoài ra còn có Green Logistics (Logistics xanh): Sử dụng xe máy điện, bao bì tự hủy để giảm rác thải. Khách hàng Gen Z ngày nay rất quan tâm đến việc gói hàng của em có "xanh" hay không đấy.
+
+Slide 11: BÀI TẬP TÌNH HUỐNG (CASE STUDY: NGÀY SALE 11.11)
+Người 1: Chúng ta cùng giải quyết một tình huống thực tế ở Slide 11. Tình huống: Shop thời trang của em bình thường bán 100 đơn/ngày. Ngày Sale 11.11 nổ 5.000 đơn. Hậu quả: Kho quá tải, nhân viên đóng gói không kịp, shipper đến lấy hàng phải chờ lâu nên bỏ đi. Giao trễ 7 ngày, khách hủy đơn 30%. Câu hỏi: Em sẽ chuẩn bị gì cho đợt Sale 12.12 sắp tới để không lặp lại thảm họa này?
+Người 2: Dạ, em nghĩ cần:
+1. Thuê thêm nhân sự thời vụ (Part-time) chỉ để đóng gói trong 3 ngày sale.
+2. Đóng gói trước (Pre-pack): Những món bán chạy (Best-seller) thì đóng hộp sẵn, in đơn dán lên là xong.
+3. Làm việc trước với đơn vị vận chuyển: Báo họ biết trước sản lượng dự kiến để họ điều xe tải to đến lấy thay vì xe máy.
+Người 1: Giải pháp rất thực tế! Đó gọi là Capacity Planning (Hoạch định năng lực). Trong Logistics, sự chuẩn bị (Preparation) quan trọng hơn sự nỗ lực (Effort).
+
+Slide 12: TỔNG KẾT & KEY TAKEAWAYS
+Người 1: Chúng ta khép lại chương về Logistics tại Slide 12. Hãy nhìn lại hành trình của một gói hàng. Thầy muốn các em ghi nhớ 3 điều cốt lõi:
+1. Logistics là niềm tin: Giao đúng, giao đủ, giao nhanh quan trọng hơn giao rẻ.
+2. Bài toán Last Mile: Là nơi tốn kém nhất nhưng cũng là nơi quyết định trải nghiệm khách hàng.
+3. Dữ liệu là vua: Phải nắm được tồn kho thực tế (Real-time Inventory) để tránh bán thứ mình không có.
+Người 2: Dạ thưa thầy, vậy là xong phần nền móng (Công nghệ, Pháp lý, Logistics) rồi ạ. Buổi sau mình học gì ạ?
+Người 1: Buổi sau, khi nền móng đã vững, chúng ta sẽ bắt đầu "xây nhà". Chúng ta sẽ học về Mô hình kinh doanh (Business Models) - Cách kiếm tiền thực sự trên hệ thống này. Hẹn gặp lại cả lớp!
+

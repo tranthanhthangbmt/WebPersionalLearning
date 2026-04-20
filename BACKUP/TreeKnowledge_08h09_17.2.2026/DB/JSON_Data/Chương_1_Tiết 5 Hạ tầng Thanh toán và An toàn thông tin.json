@@ -1,0 +1,601 @@
+{
+  "metadata": {
+    "concept_id": "CONCEPT_d70dde",
+    "concept_name": "Chương_1_Tiết 5 Hạ tầng Thanh toán và An toàn thông tin",
+    "file_source": "Chương_1_Tiết 5 Hạ tầng Thanh toán và An toàn thông tin.csv"
+  },
+  "questions": [
+    {
+      "id": "CONCEPT_dd1002_0",
+      "type": "multiple_choice",
+      "content": "Vai trò chính của một \"Cổng thanh toán\" (Payment Gateway) trong thương mại điện tử là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cung cấp dịch vụ vận chuyển hàng hóa."
+        },
+        {
+          "key": "B",
+          "text": "Trung gian xử lý giao dịch điện tử."
+        },
+        {
+          "key": "C",
+          "text": "Phát hành thẻ tín dụng cho người mua."
+        },
+        {
+          "key": "D",
+          "text": "Quản lý kho hàng cho người bán."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Cổng thanh toán (Payment Gateway/PSP) là bên thứ ba cung cấp kết nối điện tử và dịch vụ xử lý giao dịch giữa các bên tham gia thanh toán.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_6361de_1",
+      "type": "multiple_choice",
+      "content": "Giao thức bảo mật nào thường được nhận biết qua biểu tượng \"ổ khóa\" và tiền tố \"https://\" trên trình duyệt?",
+      "options": [
+        {
+          "key": "A",
+          "text": "FTP."
+        },
+        {
+          "key": "B",
+          "text": "SSL/TLS."
+        },
+        {
+          "key": "C",
+          "text": "TCP/IP."
+        },
+        {
+          "key": "D",
+          "text": "SMTP."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "SSL (Secure Sockets Layer) và phiên bản kế nhiệm TLS được sử dụng để mã hóa dữ liệu truyền tải, biểu thị bằng https:// và biểu tượng ổ khóa.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_ea0a92_2",
+      "type": "multiple_choice",
+      "content": "Đặc điểm chính của \"Ví điện tử\" (Digital Wallet) như Apple Pay hay Google Pay là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ dùng được khi có kết nối dây cáp."
+        },
+        {
+          "key": "B",
+          "text": "Lưu trữ thông tin thanh toán kỹ thuật số."
+        },
+        {
+          "key": "C",
+          "text": "In tiền giấy trực tiếp từ điện thoại."
+        },
+        {
+          "key": "D",
+          "text": "Thay thế hoàn toàn tài khoản ngân hàng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Ví điện tử di động lưu trữ thông tin thẻ tín dụng/ghi nợ và cho phép thực hiện thanh toán qua thiết bị di động.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_d4644a_3",
+      "type": "multiple_choice",
+      "content": "Mã độc \"Phishing\" (Tấn công giả mạo) chủ yếu nhằm mục đích gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Làm hỏng phần cứng máy tính."
+        },
+        {
+          "key": "B",
+          "text": "Lừa người dùng tiết lộ thông tin mật."
+        },
+        {
+          "key": "C",
+          "text": "Tăng tốc độ truy cập Internet."
+        },
+        {
+          "key": "D",
+          "text": "Tạo ra các quảng cáo hợp pháp."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Phishing là hành vi giả mạo một thực thể đáng tin cậy để lừa người dùng tiết lộ thông tin nhạy cảm như mật khẩu hoặc số thẻ tín dụng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_3ea351_4",
+      "type": "multiple_choice",
+      "content": "Công nghệ NFC (Near Field Communication) thường được ứng dụng trong loại hình thanh toán nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thanh toán bằng séc giấy."
+        },
+        {
+          "key": "B",
+          "text": "Thanh toán không tiếp xúc."
+        },
+        {
+          "key": "C",
+          "text": "Chuyển khoản qua ngân hàng."
+        },
+        {
+          "key": "D",
+          "text": "Thanh toán khi nhận hàng (COD)."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "NFC cho phép thanh toán không tiếp xúc (proximity payments) bằng cách vẫy thiết bị di động hoặc thẻ gần đầu đọc.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_1181c6_5",
+      "type": "multiple_choice",
+      "content": "Trong bảo mật thông tin, \"Firewall\" (Tường lửa) có chức năng chính là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Diệt virus trên ổ cứng."
+        },
+        {
+          "key": "B",
+          "text": "Ngăn chặn truy cập mạng trái phép."
+        },
+        {
+          "key": "C",
+          "text": "Tăng dung lượng lưu trữ dữ liệu."
+        },
+        {
+          "key": "D",
+          "text": "Khôi phục mật khẩu bị mất."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Tường lửa là rào cản phần cứng hoặc phần mềm được thiết kế để ngăn chặn truy cập trái phép vào hoặc ra khỏi mạng riêng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_15cf04_6",
+      "type": "multiple_choice",
+      "content": "Loại thẻ nào yêu cầu người dùng phải nạp tiền trước vào tài khoản thẻ để sử dụng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thẻ tín dụng (Credit Card)."
+        },
+        {
+          "key": "B",
+          "text": "Thẻ lưu trữ giá trị (Stored-value Card)."
+        },
+        {
+          "key": "C",
+          "text": "Thẻ ghi nợ (Debit Card)."
+        },
+        {
+          "key": "D",
+          "text": "Thẻ hậu mãi (Charge Card)."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Thẻ lưu trữ giá trị (như thẻ quà tặng, thẻ xe buýt) là loại thẻ mà giá trị tiền tệ được nạp trước (prepaid) vào thẻ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_613ad1_7",
+      "type": "multiple_choice",
+      "content": "Trong quy trình xử lý thẻ, bước \"Authorization\" (Ủy quyền) thực hiện nhiệm vụ gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chuyển tiền vào tài khoản người bán."
+        },
+        {
+          "key": "B",
+          "text": "Xác minh thẻ hợp lệ và đủ hạn mức."
+        },
+        {
+          "key": "C",
+          "text": "In hóa đơn giấy cho khách hàng."
+        },
+        {
+          "key": "D",
+          "text": "Gửi hàng hóa cho đơn vị vận chuyển."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Authorization xác định xem thẻ của người mua có hợp lệ không và có đủ tiền/tín dụng để thanh toán hay không.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_61a06d_8",
+      "type": "multiple_choice",
+      "content": "Tại sao \"Micropayments\" (Thanh toán giá trị nhỏ) thường khó thực hiện qua thẻ tín dụng truyền thống?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Do tốc độ mạng Internet quá chậm."
+        },
+        {
+          "key": "B",
+          "text": "Do phí giao dịch cao so với giá trị món hàng."
+        },
+        {
+          "key": "C",
+          "text": "Do thẻ tín dụng không hỗ trợ số lẻ."
+        },
+        {
+          "key": "D",
+          "text": "Do khách hàng không thích dùng thẻ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đối với các nhà cung cấp, thẻ tín dụng quá đắt đỏ để xử lý các khoản thanh toán nhỏ (dưới 10$) do phí giao dịch cố định.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_4d23a0_9",
+      "type": "multiple_choice",
+      "content": "Theo mô hình CIA trong an toàn thông tin, \"Integrity\" (Tính toàn vẹn) đảm bảo điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dữ liệu luôn có sẵn khi cần."
+        },
+        {
+          "key": "B",
+          "text": "Dữ liệu không bị thay đổi trái phép."
+        },
+        {
+          "key": "C",
+          "text": "Dữ liệu được mã hóa hoàn toàn."
+        },
+        {
+          "key": "D",
+          "text": "Dữ liệu thuộc về người sở hữu."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Tính toàn vẹn (Integrity) đảm bảo rằng dữ liệu chính xác và không bị thay đổi, xóa hoặc tạo mới trái phép trong quá trình truyền tải.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_f72189_10",
+      "type": "multiple_choice",
+      "content": "Sự khác biệt chính giữa Thẻ thông minh (Smart Card) và Thẻ từ truyền thống là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thẻ thông minh làm bằng kim loại."
+        },
+        {
+          "key": "B",
+          "text": "Thẻ thông minh có chip vi xử lý nhúng."
+        },
+        {
+          "key": "C",
+          "text": "Thẻ thông minh kích thước lớn hơn."
+        },
+        {
+          "key": "D",
+          "text": "Thẻ thông minh không cần mật khẩu."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Thẻ thông minh chứa dữ liệu trong một vi mạch (microchip) nhúng, có khả năng xử lý và lưu trữ tốt hơn dải từ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_cae0c5_11",
+      "type": "multiple_choice",
+      "content": "PayPal hoạt động theo mô hình nào để bảo vệ thông tin tài chính của người dùng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yêu cầu người dùng gửi tiền mặt."
+        },
+        {
+          "key": "B",
+          "text": "Hoạt động như một trung gian thanh toán."
+        },
+        {
+          "key": "C",
+          "text": "Bắt buộc người dùng dùng thẻ Visa."
+        },
+        {
+          "key": "D",
+          "text": "Công khai số thẻ để đối chiếu."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "PayPal hoạt động như một cổng thanh toán trung gian, người mua trả tiền qua PayPal nên không cần tiết lộ thông tin thẻ trực tiếp cho người bán.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_d2b7f2_12",
+      "type": "multiple_choice",
+      "content": "\"Tokenization\" (Mã hóa token) trong thanh toán giúp tăng cường bảo mật bằng cách nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thay thế số thẻ thật bằng mã định danh ảo."
+        },
+        {
+          "key": "B",
+          "text": "Yêu cầu khách hàng gửi thẻ qua bưu điện."
+        },
+        {
+          "key": "C",
+          "text": "Sử dụng dấu vân tay để mở khóa điện thoại."
+        },
+        {
+          "key": "D",
+          "text": "Chặn tất cả các giao dịch quốc tế."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Tokenization thay thế dữ liệu nhạy cảm (như số thẻ) bằng các ký hiệu định danh (token) để nếu bị đánh cắp thì kẻ gian cũng không dùng được. (Kiến thức bổ trợ từ ngữ cảnh bảo mật thanh toán hiện đại).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_d27c84_13",
+      "type": "multiple_choice",
+      "content": "Loại tấn công mạng nào sử dụng mạng lưới các máy tính bị nhiễm mã độc (Botnet) để làm tê liệt hệ thống mục tiêu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phishing."
+        },
+        {
+          "key": "B",
+          "text": "DDoS (Tấn công từ chối dịch vụ)."
+        },
+        {
+          "key": "C",
+          "text": "SQL Injection."
+        },
+        {
+          "key": "D",
+          "text": "Ransomware."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Tấn công DDoS (Distributed Denial of Service) sử dụng mạng lưới botnet để gửi lượng dữ liệu khổng lồ làm quá tải hệ thống.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_cbbbd0_14",
+      "type": "multiple_choice",
+      "content": "Trong hệ thống mã hóa khóa công khai (Public Key Encryption), nếu A muốn gửi tin nhắn bảo mật chỉ cho B đọc, A sẽ dùng khóa nào để mã hóa?",
+      "options": [
+        {
+          "key": "C",
+          "text": "Khóa riêng của"
+        },
+        {
+          "key": "D",
+          "text": "Khóa công khai của A."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Để đảm bảo tính bảo mật (chỉ B đọc được), A dùng khóa công khai của B để mã hóa. Chỉ khóa riêng của B mới giải mã được.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_6a1d90_15",
+      "type": "multiple_choice",
+      "content": "\"Non-repudiation\" (Tính không thể chối bỏ) trong giao dịch điện tử có vai trò gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ngăn chặn hacker xem trộm dữ liệu."
+        },
+        {
+          "key": "B",
+          "text": "Ngăn các bên phủ nhận hành động đã thực hiện."
+        },
+        {
+          "key": "C",
+          "text": "Đảm bảo hệ thống luôn hoạt động 24/7."
+        },
+        {
+          "key": "D",
+          "text": "Xác thực danh tính người dùng bằng mật khẩu."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Non-repudiation đảm bảo rằng người gửi hoặc người nhận không thể chối bỏ (phủ nhận) việc họ đã thực hiện giao dịch hoặc gửi tin nhắn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_51bbb0_16",
+      "type": "multiple_choice",
+      "content": "Tại sao các ví điện tử dựa trên đám mây (Cloud-based wallets) dễ triển khai hơn ví dựa trên thiết bị (Device-based)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì chúng không cần kết nối Internet."
+        },
+        {
+          "key": "B",
+          "text": "Vì chúng ít phụ thuộc vào phần cứng điện thoại."
+        },
+        {
+          "key": "C",
+          "text": "Vì chúng không cần liên kết ngân hàng."
+        },
+        {
+          "key": "D",
+          "text": "Vì chúng bảo mật kém hơn."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Ví dựa trên đám mây (như dùng mã QR) không yêu cầu phần cứng đặc biệt như chip NFC trên điện thoại hay thiết bị đọc thẻ phức tạp tại điểm bán.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_e75c69_17",
+      "type": "multiple_choice",
+      "content": "Lợi ích lớn nhất của việc sử dụng \"Chữ ký số\" (Digital Signature) so với chữ ký quét (scanned signature) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đẹp hơn về mặt thẩm mỹ."
+        },
+        {
+          "key": "B",
+          "text": "Đảm bảo tính toàn vẹn và xác thực."
+        },
+        {
+          "key": "C",
+          "text": "Dễ dàng sao chép để dùng nhiều lần."
+        },
+        {
+          "key": "D",
+          "text": "Không cần phần mềm để đọc."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Chữ ký số sử dụng mã hóa để xác thực danh tính người gửi và đảm bảo nội dung không bị thay đổi (tính toàn vẹn), điều mà chữ ký quét ảnh không làm được.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_e724f4_18",
+      "type": "multiple_choice",
+      "content": "Trong quy trình thanh toán thẻ, phí \"Interchange Rate\" chủ yếu được trả cho đối tượng nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Người bán hàng (Merchant)."
+        },
+        {
+          "key": "B",
+          "text": "Ngân hàng phát hành thẻ (Issuing Bank)."
+        },
+        {
+          "key": "C",
+          "text": "Cổng thanh toán (Payment Gateway)."
+        },
+        {
+          "key": "D",
+          "text": "Khách hàng (Cardholder)."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Phần lớn phí chiết khấu (discount rate) là phí Interchange, được trả cho ngân hàng phát hành thẻ để xử lý giao dịch và chịu rủi ro tín dụng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_aa2b59_19",
+      "type": "multiple_choice",
+      "content": "Tấn công \"Man-in-the-middle\" (Người đứng giữa) đe dọa yếu tố nào của an toàn thông tin?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tính sẵn sàng của hệ thống."
+        },
+        {
+          "key": "B",
+          "text": "Tính bảo mật và toàn vẹn dữ liệu."
+        },
+        {
+          "key": "C",
+          "text": "Tốc độ xử lý của máy chủ."
+        },
+        {
+          "key": "D",
+          "text": "Khả năng lưu trữ của cơ sở dữ liệu."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Kẻ tấn công đứng giữa lén lút chuyển tiếp và có thể thay đổi giao tiếp giữa hai bên, xâm phạm tính bảo mật (đọc trộm) và tính toàn vẹn (sửa đổi).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

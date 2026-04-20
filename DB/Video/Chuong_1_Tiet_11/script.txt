@@ -1,0 +1,88 @@
+﻿Slide 1: TIẾT 11 - CƠ CHẾ GIAO DỊCH VÀ LỢI ÍCH CỦA SÀN TMĐT
+Người 1: Chào các bạn sinh viên lớp BA24M. Hôm nay chúng ta bước sang Tiết 11, một chủ đề cực kỳ thú vị và sát sườn với dân kinh doanh: “Cơ chế Giao dịch và Lợi ích của Sàn TMĐT”. Mời các em nhìn lên màn hình, thầy có một câu hỏi khởi động: Tại sao giá phòng khách sạn trên Agoda thay đổi từng phút, trong khi giá sách trên Tiki thì không?
+Người 2: Dạ thưa thầy, em đoán là vì số lượng phòng khách sạn có hạn và phụ thuộc nhiều vào mùa du lịch ạ. Lúc vắng khách thì họ giảm giá để hút người, lúc đông thì tăng giá lên. Còn sách trên Tiki thì lúc nào cũng in sẵn trong kho nên giá cứ giữ nguyên vậy thôi ạ.
+Người 1: Một góc nhìn rất thực tế của dân kinh doanh! Câu trả lời của em đã chạm đến cốt lõi của bài học hôm nay. Đó chính là sự khác biệt giữa các cơ chế định giá trên nền tảng số. Trong tiết học này, chúng ta sẽ lần lượt bóc tách các phổ định giá từ tĩnh đến động, các mô hình đấu giá, và cuối cùng là giải mã xem tại sao các doanh nghiệp lại đổ xô lên các sàn TMĐT.
+
+Slide 2: PHỔ ĐỊNH GIÁ: TỪ TĨNH ĐẾN ĐỘNG
+Người 1: Các em chuyển sang Slide 2. Trong thương mại điện tử, chúng ta có một “Phổ Định Giá: Từ Tĩnh đến Động”. Nó được chia thành ba nấc thang chính. Đầu tiên là Định giá tĩnh (Fixed Pricing). Giống như ví dụ cuốn sách trên Tiki vừa nãy, hoặc khi các em vào siêu thị WinMart, giá niêm yết là 100.000 VNĐ. Khách hàng chỉ có quyền chọn “Mua” hoặc “Không”, tuyệt đối không có chuyện mặc cả.
+Người 2: Vậy nếu em mua đồ trên Chợ Tốt thì nó nằm ở đâu trong phổ này ạ? Vì trên đó người bán đưa giá nhưng em vẫn có thể nhắn tin xin bớt được.
+Người 1: Câu hỏi rất hay! Trường hợp mua bán trên Chợ Tốt hay các hội nhóm Facebook chính là nấc thang thứ hai: Thương lượng (Negotiation). Hai bên tự “mặc cả” để chốt giá cuối cùng. Thế nhưng, đỉnh cao của công nghệ TMĐT lại nằm ở nấc thứ ba: Định giá động (Dynamic Pricing). Có bạn nào ở đây từng ngậm ngùi trả tiền Grab gấp đôi bình thường chỉ vì đang mưa to không? Đó chính là Định giá động. Thuật toán của Grab tính toán lượng cung (ít tài xế) và cầu (nhiều người đặt) để nhân hệ số giá lên ngay lập tức. Giá thay đổi theo thời gian thực để tối ưu hóa lợi nhuận.
+
+
+Slide 3: CƠ CHẾ 1 - CATALOG ĐIỆN TỬ (E-CATALOGS)
+Người 1: Giờ chúng ta đi sâu vào Cơ chế đầu tiên: Catalog Điện tử (E-Catalogs). Đặc điểm chính của nó là người bán sẽ liệt kê mọi thứ với một mức giá cố định. Quy trình rất chuẩn mực: Duyệt web, cho vào Giỏ hàng, và Thanh toán. Ví dụ điển hình nhất là chuỗi mỹ phẩm Hasaki, mọi thứ đều niêm yết rõ ràng.
+Người 2: Em thấy cơ chế này đơn giản, nhưng liệu nó có cứng nhắc quá khi áp dụng cho mô hình B2B bán sỉ không ạ? Vì khách mua sỉ thường đòi chiết khấu riêng.
+Người 1: Cực kỳ nhạy bén! Ở mô hình B2B, Catalog Điện tử có một vũ khí bí mật gọi là Customization (Cá nhân hóa). Nghĩa là, hệ thống sẽ nhận diện tài khoản đăng nhập. Nếu em là khách vãng lai, hệ thống báo giá 1 triệu/sản phẩm. Nhưng nếu doanh nghiệp của em là khách hàng VIP, có hợp đồng mua sỉ lâu năm, khi đăng nhập vào, tự động giao diện sẽ báo giá ưu đãi chỉ còn 800.000 VNĐ. Ví dụ thực tế nhất là khi các em thao tác trên hệ thống bán buôn của Alibaba, giá trị giỏ hàng sẽ tự động nhảy số theo cấp bậc thành viên.
+
+Slide 4: CƠ CHẾ 2 - ĐẤU GIÁ XUÔI (FORWARD AUCTIONS)
+Người 1: Tiếp theo, chúng ta sang Cơ chế thứ 2: Đấu giá Xuôi (Forward Auctions). Nhìn vào sơ đồ, ta thấy mô hình này là 1 Người bán đối diện với Nhiều Người mua. Giá sẽ khởi điểm từ mức rất thấp, sau đó tăng dần theo từng bước giá. Người nào kiên trì và chịu chi nhất sẽ thắng. Có bạn nào từng tham gia mô hình này chưa?
+Người 2: Dạ em từng theo dõi các buổi đấu giá biển số xe đẹp hoặc đấu giá mấy đôi sneaker bản giới hạn trên mạng ạ. Càng về cuối mọi người “bid” giá càng máu lửa, nhiều khi giá bị đẩy lên cao chót vót.
+Người 1: Chính xác! Về mặt quản trị kinh doanh, giá trị chiến lược của Đấu giá xuôi là giúp người bán “tối đa hóa doanh thu cho những món hàng khan hiếm, khó định giá”. thầy lấy một ví dụ kinh điển: Một thẻ bài Pokemon hiếm trên eBay khởi điểm chỉ 1 USD, nhưng sau 1 tuần, những nhà sưu tập tranh giành nhau đẩy giá lên tận 100.000 USD. Nếu ngay từ đầu người bán tự định giá tĩnh là 5.000 USD, họ đã mất đi khoản doanh thu khổng lồ 95.000 USD rồi!
+
+Slide 5: CƠ CHẾ 3 - ĐẤU GIÁ NGƯỢC (REVERSE AUCTIONS)
+Người 1: Vừa rồi chúng ta đã thấy người bán “hốt bạc” nhờ Đấu giá Xuôi. Vậy nếu doanh nghiệp của các em là người đi mua hàng thì sao? Mời cả lớp nhìn sang Slide 5: Cơ chế Đấu giá Ngược (Reverse Auctions). Đây là sân chơi lật ngược tình thế: Mô hình 1 Người mua (thường là Doanh nghiệp hoặc Chính phủ) đối diện với Nhiều Người bán.
+Người 2: Đấu giá ngược thì giá sẽ đi lùi đúng không ạ? Em chưa hình dung được làm sao để người bán chịu giảm giá liên tục như vậy.
+Người 1: Rất logic! Trong cơ chế này, giá bắt đầu từ mức trần (mức cao nhất người mua chấp nhận trả), và giảm dần theo thời gian khi các bên cung cấp cạnh tranh với nhau. Cuối cùng, người bán chào giá thấp nhất (Lowest Bidder) sẽ thắng cuộc và giành được hợp đồng. thầy lấy ví dụ thực tế trên thế giới: Tập đoàn General Electric (GE) đã dùng đấu giá ngược để mua sắm văn phòng phẩm; kết quả là các nhà cung cấp phải đua nhau giảm giá để giành được bản hợp đồng giá trị hàng triệu đô la. Ở Việt Nam, các em hãy tưởng tượng tập đoàn Vingroup cần mua 10.000 tấn thép xây dựng. Họ đưa ra yêu cầu lên hệ thống (Tender). Các ông lớn như Hòa Phát, Hoa Sen sẽ phải nhìn ngó nhau và “chào giá thấp xuống” để trúng thầu. Đây là công cụ cực kỳ mạnh mẽ trong B2B Procurement (Thu mua doanh nghiệp) để cắt giảm triệt để chi phí đầu vào.
+
+
+Slide 6: CƠ CHẾ 4 - ĐẤU GIÁ ‘MỘT XU’ (PENNY AUCTIONS) - CẢNH BÁO
+Người 1: Sang Slide 6, thầy muốn đưa ra một lời cảnh báo cho các nhà quản trị kinh doanh tương lai về một “cái bẫy” mang tên Đấu giá ‘Một xu’ (Penny Auctions). Mô hình này hoạt động rất tinh vi: Giá sản phẩm trên màn hình tăng rất chậm, ví dụ chỉ 1 xu cho mỗi lần đặt giá. Nhưng điểm mấu chốt “hái ra tiền” của sàn là: Người chơi phải trả phí (Bid fee) cho MỖI LẦN đặt giá.
+Người 2: Ôi, vậy là kể cả mình không mua được món hàng đó thì mình vẫn bị mất tiền đặt giá ạ? Thế này thì nền tảng ăn trọn tiền phí của hàng ngàn người rồi!
+Người 1: Em nhận ra vấn đề rất nhanh! Bản chất của mô hình này gần giống cờ bạc hoặc xổ số hơn là thương mại điện tử thuần túy. Lấy ví dụ thực tế từ nền tảng QuiBids: Kịch bản vẽ ra là em có thể mua một chiếc iPad với giá chốt cuối cùng chỉ 20 USD. Nhưng thực tế cay đắng là, người chơi có thể đã tốn đến 100 USD tiền mua các lượt “Bid” mà cuối cùng chưa chắc đã thắng. Sàn thu lợi nhuận khổng lồ từ việc bán “lượt click”, nhưng về dài hạn, nó bào mòn niềm tin của người tiêu dùng nghiêm trọng.
+
+
+Slide 7: CƠ CHẾ 5 - TRAO ĐỔI & THƯƠNG LƯỢNG
+Người 1: Bỏ qua những mô hình rủi ro, chúng ta đến với Slide 7: Cơ chế Trao đổi & Thương lượng. Đầu tiên là Bartering (Hàng đổi hàng). Đây là hình thức trao đổi hoàn toàn không dùng tiền mặt, trong đó Sàn TMĐT chỉ đóng vai trò làm trung gian để định giá trị quy đổi. Ví dụ như nền tảng SwapAce, nơi một khách sạn có thể đổi những phòng đang trống (không có khách) để lấy dịch vụ in ấn từ một công ty quảng cáo. Cả hai đều giải quyết được hàng tồn mà không cần dòng tiền.
+Người 2: Thế còn tính năng “Trả giá” (Make an Offer) trên ứng dụng Shopee mà em hay xài thì thuộc nhóm nào ạ?
+Người 1: Đó chính là hình thức thứ hai: Negotiating (Thương lượng). Nó cho phép mặc cả trực tiếp giữa hai bên. Dù là trên Shopee hay nền tảng thời trang Poshmark, tính năng “Make an Offer” này đánh trúng đòn tâm lý cực mạnh. Theo góc nhìn hành vi người tiêu dùng, nó giúp người mua cảm thấy mình là người “chiến thắng” khi chốt được mức giá hời hơn giá niêm yết ban đầu.
+
+
+Slide 8: TỔNG HỢP - SO SÁNH CÁC CƠ CHẾ CHÍNH
+Người 1: Để khép lại phần cơ chế định giá, các em hãy cùng nhìn vào bảng Tổng hợp ở Slide 8. thầy đã tóm tắt lại các tiêu chí cốt lõi:
+• Về Hướng giá: Catalog là Cố định; Đấu giá Xuôi thì Tăng dần (↑); Đấu giá Ngược lại Giảm dần (↓).
+• Về Người khởi xướng & Số lượng: Catalog và Đấu giá Xuôi đều do Người bán khởi xướng, phục vụ mô hình 1 Bán - Nhiều Mua. Trong khi đó, Đấu giá Ngược là do Người mua làm chủ cuộc chơi, tạo ra mô hình 1 Mua - Nhiều Bán.
+• Về Mục tiêu chính: Nếu các em ưu tiên tính Hiệu quả, Tiện lợi thì dùng Catalog. Cần Tối đa hóa giá bán? Chọn Đấu giá Xuôi. Cần Tối thiểu hóa chi phí mua vật tư? Hãy dùng Đấu giá Ngược.
+Nắm vững bảng này, các em sẽ biết cách chọn vũ khí định giá phù hợp cho từng chiến dịch kinh doanh sau này!
+
+Slide 9: GÓC ĐỘ NGƯỜI BÁN (SELLERS): TẠI SAO NÊN LÊN SÀN?
+Người 1: Mời các em nhìn lên Slide 9. Chúng ta thường nghe nói Sàn TMĐT thu phí rất cao, ép giá nhà bán hàng. Vậy tại sao các nhãn hàng lớn vẫn “đổ xô” lên sàn? Đứng ở góc độ người bán, họ đang tìm kiếm 3 lợi ích cốt lõi.
+Người 2: Em nghĩ lý do lớn nhất là vì trên đó có sẵn quá đông khách hàng, tự mình làm website thì khó mà kéo người ta vào xem được ạ.
+Người 1: Cực kỳ chính xác! Đó chính là yếu tố đầu tiên: Traffic (Lưu lượng). Hãy lấy ví dụ Shopee, họ có tới 50 triệu lượt truy cập mỗi tháng. Một thương hiệu tự lập website riêng mòn mỏi cả năm chưa chắc đạt được con số này. Thứ hai là Operations (Vận hành). Doanh nghiệp được “xài ké” hạ tầng thanh toán và giao nhận khổng lồ của sàn, ví dụ như dịch vụ Fulfillment by Amazon hay Tiki. Cuối cùng là Clearance (Thanh lý). Các hãng như Vinamilk hay Cocoon rất hay dùng các đợt Flash Sale trên sàn để xả hàng tồn kho một cách hiệu quả mà không làm ảnh hưởng đến hình ảnh thương hiệu cao cấp ở các kênh phân phối chính thức.
+
+
+Slide 10: GÓC ĐỘ NGƯỜI MUA (BUYERS): TẠI SAO THÍCH SÀN?
+Người 1: Vậy còn người tiêu dùng, tức là chúng ta thì sao? Slide 10 sẽ giải mã tâm lý của Người mua. Có 3 lý do khiến chúng ta “nghiện” chốt đơn trên sàn.
+Người 2: Dạ với em thì vì trên đó có đủ mọi thứ trên đời, tiện thể mua sách em mua luôn đồ ăn vặt cũng được. Hơn nữa là có mã Freeship ạ.
+Người 1: Đúng vậy, em vừa nhắc đến yếu tố One-stop Shopping – Mua cả thế giới tại một nơi và rất dễ dàng so sánh giá cả, tính năng. Yếu tố thứ hai là giảm Search Costs (Chi phí tìm kiếm). Thay vì chạy xe máy khắp thành phố, em chỉ cần dùng bộ lọc trên app là tìm được đúng món đồ rẻ nhất. Nhưng quan trọng nhất trong TMĐT chính là Trust (Niềm tin). Sàn có cơ chế Escrow – cơ chế “Giữ tiền”. Tiền của em sẽ bị sàn giữ lại, chỉ trả cho người bán khi em đã nhận được hàng và bấm xác nhận. Kết hợp với hệ thống đánh giá minh bạch từ những người mua trước, điều này xóa bỏ hoàn toàn rào cản sợ bị lừa đảo.
+
+
+Slide 11: MẶT TRÁI CỦA SÀN TMĐT: RỦI RO TIỀM ẨN
+Người 1: Lợi ích là vậy, nhưng thương trường luôn có mặt trái. Mời lớp tập trung vào Slide 11: Rủi ro tiềm ẩn của Sàn TMĐT. Đứng ở góc độ quản trị, các em phải nhìn thấy rủi ro cho cả hai phía.
+Người 2: Về phía người bán, em thấy bạn em bán ốp lưng hay than thở là vừa đăng bán đã bị các shop khác, thậm chí là shop từ nước ngoài phá giá, bán rẻ như cho không ạ.
+Người 1: Em đang nhắc đến một rủi ro cực kỳ khốc liệt: Price War (Chiến tranh giá). Các sản phẩm bị đặt cạnh nhau, người mua dễ dàng so sánh dẫn đến biên lợi nhuận của shop bị bào mỏng tới mức cực đoan. Rủi ro thứ hai cho người bán là Mất kiểm soát. Các em bán hàng trăm đơn nhưng không sở hữu dữ liệu khách hàng (số điện thoại, email bị sàn ẩn đi), hoàn toàn phụ thuộc vào luật chơi của sàn. Còn về phía người mua, rủi ro lớn nhất là Chất lượng: Rất khó kiểm soát hàng giả, hàng nhái do có quá nhiều người bán. thầy lấy Case Study vụ kiện nổi tiếng giữa thương hiệu trang sức Tiffany vs. eBay. Tiffany đã khởi kiện vì eBay để mặc hàng giả lộng hành, làm tổn hại uy tín thương hiệu gốc.
+
+
+Slide 12: XU HƯỚNG MỚI: MOBILE & SOCIAL
+Người 1: Để không bị đào thải, TMĐT phải liên tục thay đổi. Slide 12 cập nhật cho các em hai xu hướng mới nhất hiện nay. Đầu tiên là Mobile First & L-Commerce (Thương mại dựa trên vị trí). Người dùng đã chuyển dịch hoàn toàn sang dùng App trên điện thoại.
+Người 2: Phần L-Commerce có phải là khi em đi ngang qua một quán cafe, tự nhiên app báo có mã giảm giá của quán đó đúng không ạ?
+Người 1: Rất nhạy bén! Việc sử dụng GPS để gợi ý Deal ngay gần vị trí của khách hàng chính là L-Commerce. Xu hướng thứ hai, đang làm mưa làm gió hiện nay: Shoppertainment (Mua sắm giải trí). Đại diện tiêu biểu nhất là Livestream bán hàng trên TikTok Shop. Khách hàng ban đầu chỉ định xem giải trí, nhưng thông qua sự tương tác thời gian thực với KOL/KOC, họ bị hối thúc và “chốt đơn theo cảm xúc” một cách bùng nổ.
+
+
+Slide 13: CHIẾN LƯỢC KHÔN NGOAN: OMNICHANNEL (ĐA KÊNH)
+Người 1: Giữa ma trận cơ chế và rủi ro, doanh nghiệp phải làm gì? Mời cả lớp xem Slide 13. Chìa khóa ở đây là “Không bỏ trứng vào một giỏ”. Chiến lược khôn ngoan nhất là Omnichannel - Đa kênh.
+Người 2: Tức là mình vừa bán trên Sàn, vừa lập Website, vừa mở Cửa hàng đúng không thầy? Nhưng như vậy chi phí có cao quá không ạ?
+Người 1: Đầu tư ban đầu có thể cao, nhưng đó là con đường phát triển bền vững. Ví dụ như hãng thời trang nam Coolmate. Họ dùng Sàn TMĐT để làm mồi nhử, kiếm Traffic và tạo doanh số nhanh. Nhưng sau đó, họ nỗ lực lôi kéo khách hàng về Website Riêng để xây dựng hình ảnh thương hiệu và thu thập dữ liệu (Data) khách hàng trung thành. Cuối cùng, họ vẫn duy trì hoặc kết hợp Cửa hàng Vật lý để khách hàng có không gian trải nghiệm thực tế sản phẩm. Ba kênh này tạo thành một vòng tròn bổ trợ hoàn hảo.
+
+
+Slide 14: BÀI TẬP TÌNH HUỐNG: BẠN LÀ GIÁM ĐỐC KINH DOANH
+Người 1: Để kiểm tra xem lớp BA24M đã nắm vững kiến thức chưa, chúng ta cùng làm một bài tập tình huống ở Slide 14. Giả sử các em đang là Giám đốc Kinh doanh, các em cần xử lý 3 lô hàng thiết bị điện tử. Các em sẽ chọn cơ chế nào: Catalog, Đấu giá Xuôi, hay Đấu giá Ngược?
+• Lô A: 1.000 tai nghe Bluetooth mẫu mới nhất, vừa ra mắt. 
+• Lô B: 50 laptop cũ của nhân viên, cấu hình và độ trầy xước khác nhau. 
+• Lô C: Cần MUA 500 ghế văn phòng cho trụ sở mới, cần giá tốt nhất.
+Các em có 1 phút suy nghĩ và lập luận chiến lược của mình trước khi thầy lật sang slide đáp án nhé.
+
+Slide 15: GIẢI ĐÁP & PHÂN TÍCH CHIẾN LƯỢC
+Người 1: Đã hết thời gian! Mời các em nhìn lên Slide 15 để xem định hướng chiến lược. Đối với Lô A (1.000 tai nghe mới), ai chọn Catalog (Giá cố định)?
+Người 2: Dạ em chọn Catalog ạ. Vì đây là hàng mới, giống hệt nhau, nhu cầu trên thị trường đang cao. Việc đem đi đấu giá lắt nhắt sẽ làm chậm quy trình bán hàng ạ.
+Người 1: Lập luận xuất sắc! Chọn Catalog (Fixed Price) là chuẩn nhất. Tiếp theo, Lô B (50 laptop cũ). Ở đây ta nên dùng Đấu giá Xuôi (Forward Auction). Lý do là vì đồ cũ có độ trầy xước khác nhau, mang tính “độc bản”, rất khó định giá chung. Hãy để chính người mua tự định giá trị theo tình trạng máy thông qua việc đấu giá. Cuối cùng, Lô C (Mua sắm 500 ghế văn phòng). Vì chúng ta đang ở vị thế đi mua với số lượng lớn, chúng ta có “quyền lực mua”. Chắc chắn phải dùng Đấu giá Ngược (Reverse Auction). Nó sẽ ép các nhà cung cấp phải cạnh tranh, tự hạ giá xuống để giành lấy hợp đồng từ công ty chúng ta.
+Bài học rút ra là: Không có cơ chế nào là hoàn hảo, là Giám đốc kinh doanh, các em phải chọn đúng công cụ cho đúng mục đích! Tiết 11 của chúng ta kết thúc tại đây. Cảm ơn lớp BA24M đã theo dõi và tương tác rất tuyệt vời!

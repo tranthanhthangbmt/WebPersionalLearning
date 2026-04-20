@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_5_Tiet_1",
+    "concept_name": "Chuong_5_Tiet_1",
+    "file_source": "Chuong_5_Tiet_1.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_5_Tiet_1_0",
+      "type": "multiple_choice",
+      "content": "Việc học về hệ thống kỹ thuật TMĐT nhằm trang bị cho nhà quản lý tư duy của ai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trở thành một chuyên gia lập trình phát triển code"
+        },
+        {
+          "key": "B",
+          "text": "Tư duy của cấp bậc một người trưởng kiến trúc sư"
+        },
+        {
+          "key": "C",
+          "text": "Kỹ năng thiết kế đồ họa hình ảnh bằng hệ thống 3D"
+        },
+        {
+          "key": "D",
+          "text": "Cách sửa chữa các lỗi thông dòng thiết bị máy tính"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Tư duy của cấp bậc một người trưởng kiến trúc sư. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_1",
+      "type": "multiple_choice",
+      "content": "Trong hệ thống TMĐT, các \"banner giảm giá và giao diện sự kiện Flash Sale\" đại diện cho điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phần chìm của hệ thống máy chủ mạng cấu trúc tinh xảo"
+        },
+        {
+          "key": "B",
+          "text": "Các vùng cơ sở dữ liệu lưu kho lưu trữ lớn của hạ tầng"
+        },
+        {
+          "key": "C",
+          "text": "Phần nổi hào nhoáng của nền tảng các ứng dụng hiển thị"
+        },
+        {
+          "key": "D",
+          "text": "Chuỗi cung ứng vận hành hệ thống bên trong các quy trình"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Phần nổi hào nhoáng của nền tảng các ứng dụng hiển thị. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_2",
+      "type": "multiple_choice",
+      "content": "Khi hệ lượng truy cập khổng lồ đổ vào cùng một giây làm hệ thống sập và văng thì lỗi xuất phát từ nguyên do phần nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lỗi sinh ra do sức chứa mặt tiền giao diện quá dày"
+        },
+        {
+          "key": "B",
+          "text": "Do chèn quá băng rôn quảng cáo động từ nhiều kênh"
+        },
+        {
+          "key": "C",
+          "text": "Lỗi từ quá tải lượng tiếp nhận tại phần chìm vận hành"
+        },
+        {
+          "key": "D",
+          "text": "Do thiết kế của thuật toán thuộc ứng dụng ngoài cùng"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Lỗi từ quá tải lượng tiếp nhận tại phần chìm vận hành. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_3",
+      "type": "multiple_choice",
+      "content": "Hệ thống Thương mại điện tử không chỉ là website mà là sự kết hợp đồng bộ cấu thành của mấy trụ cột kỹ thuật?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ gồm đúng duy nhất là hai thành phần kết cấu chính"
+        },
+        {
+          "key": "B",
+          "text": "Là sự tích cực hợp nhất liền mạch của bốn thành phần"
+        },
+        {
+          "key": "C",
+          "text": "Cấu tạo từ khoảng sáu mô đun khối phần cứng phức tạp"
+        },
+        {
+          "key": "D",
+          "text": "Quá trình chia tách từ khoảng năm loại hệ lớp băng thông"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Là sự tích cực hợp nhất liền mạch của bốn thành phần. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_4",
+      "type": "multiple_choice",
+      "content": "Chiếc Smartphone của khách hàng và siêu máy điện chủ toán đặt tại kho hàng của doanh nghiệp thuộc vào thành phần nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Các lớp khóa phân nhánh quản hệ thống nội hàm ứng dụng chạy"
+        },
+        {
+          "key": "B",
+          "text": "Hệ thống kiến trúc kết nối truy mạng viễn thông dẫn phát"
+        },
+        {
+          "key": "C",
+          "text": "Khối cấu kết cơ sở phần thiết bị máy của hạ tầng nền tảng"
+        },
+        {
+          "key": "D",
+          "text": "Cơ sở trung tâm quản lý rà chứa khối tổng thu thông dữ liệu"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Khối cấu kết cơ sở phần thiết bị máy của hạ tầng nền tảng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_5",
+      "type": "multiple_choice",
+      "content": "Ứng dụng mua sắm khách hàng sử dụng thao tác và hệ điều hành quản lý giỏ đặt hàng đóng vai trò gì trong hệ thống?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Là loại thiết băng thông dùng truyền dẫn gửi dữ liệu nhanh"
+        },
+        {
+          "key": "B",
+          "text": "Là phần bộ thiết bị gốc của văn phòng trụ bộ doanh nghiệp"
+        },
+        {
+          "key": "C",
+          "text": "Là kho tài cơ sở chứa lưu hệ phần thông dữ liệu khách"
+        },
+        {
+          "key": "D",
+          "text": "Là hệ bộ chạy ứng dạng mềm nhận xử diện các phép logic"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Là hệ bộ chạy ứng dạng mềm nhận xử diện các phép logic. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_6",
+      "type": "multiple_choice",
+      "content": "Khi hệ thống hiện báo \"Chiếc áo màu cam size L còn 2 sản phẩm\", luồng thông tin cấu trúc này được trích trực tiếp ra từ đâu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Từ trạm đầu kết thiết thiết bị mạng dẫn (Mạng trung tâm viễn thông)"
+        },
+        {
+          "key": "B",
+          "text": "Từ nội hàm máy thiết dòng của số điện thoại ứng khách (Phần cứng)"
+        },
+        {
+          "key": "C",
+          "text": "Từ trung tâm nguồn lấy truy cơ kho trích thông (Ngõ cơ sở dữ liệu)"
+        },
+        {
+          "key": "D",
+          "text": "Từ luồng kênh mã dạng thiết mô họa (Phần hệ đồ họa mặt hiển thị)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Từ trung tâm nguồn lấy truy cơ kho trích thông (Ngõ cơ sở dữ liệu). Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_7",
+      "type": "multiple_choice",
+      "content": "Thuật ngữ \"Căn bệnh Silo\" được nhắc đến sử dụng trong quản trị vận hành nhằm mục đích ám chỉ đến tình trạng thực tế nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hiện tượng một lượng người truy cùng mua với một ứng dụng web đa tài"
+        },
+        {
+          "key": "B",
+          "text": "Tình trạng các phân ban đang vận hành cục bộ không kết chia sẻ thông tin"
+        },
+        {
+          "key": "C",
+          "text": "Khả năng tốn nhiều phí đắt đỏ khi phải mua khối lượng lớn phần mềm ngoại"
+        },
+        {
+          "key": "D",
+          "text": "Lỗi rườm rà về việc kết cấp mức tương thích giữa bộ máy chủ cũ của công ty"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Tình trạng các phân ban đang vận hành cục bộ không kết chia sẻ thông tin. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_8",
+      "type": "multiple_choice",
+      "content": "Nếu tồn tại căn bệnh phần mảnh Silo (Phòng Marketing và phòng Kho không liên thông cập nhật), doanh nghiệp sẽ gặp vấn đề rủi ro trầm trọng gì nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Việc khách hàng thanh trúng tiền nhưng thông số thực kho lại báo rỗng khô hàng"
+        },
+        {
+          "key": "B",
+          "text": "Hệ kế toán tồn đọng nhiều dòng dư quỹ thu lấy dùng từ việc cho chạy truyền thông"
+        },
+        {
+          "key": "C",
+          "text": "Mạng điều hành bảo toàn cho quyền số khoản tài người thuộc điều tra quản trị rụng"
+        },
+        {
+          "key": "D",
+          "text": "Không xác định"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Việc khách hàng thanh trúng tiền nhưng thông số thực kho lại báo rỗng khô hàng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_9",
+      "type": "multiple_choice",
+      "content": "Để có thể xử lý giải quyết dứt điểm vấn đề bệnh Silo trong công ty, hệ cấu doanh nghiệp cần phải làm động tác thiết lập nào sau đây?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tích hợp các dòng mã hệ thống hoạt chạy nhanh đồng bộ thông lượng liền thời gian"
+        },
+        {
+          "key": "B",
+          "text": "Xây dựng nên phòng các bức đai tầng để mã thiết lập tính tự trị từng phân mục cho riêng"
+        },
+        {
+          "key": "C",
+          "text": "Ngắt tắt hoàn đi giao chia máy cho chi ngạch nào mà đánh mang doanh lưu thu quá nhỏ"
+        },
+        {
+          "key": "D",
+          "text": "Thêm số định dư thuê làm nhân tuyển dàn chuyên kĩ bộ phủ vào khắp các kênh nhân cấp"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Tích hợp các dòng mã hệ thống hoạt chạy nhanh đồng bộ thông lượng liền thời gian. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_10",
+      "type": "multiple_choice",
+      "content": "Trong hệ giải phẫu kiến trúc website TMĐT, lớp cụm Front-end (Phần mặt Giao dạng điện) là nơi phụ hiển thị giao chức năng nào sau đây?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trung khối khu lưu định chứa những tập thông riêng"
+        },
+        {
+          "key": "B",
+          "text": "Màn ảnh điểm hiển diện hệ giúp bấm tương hỗ đặt mua"
+        },
+        {
+          "key": "C",
+          "text": "Sàn chuỗi hệ làm việc logic phân tính rà an mã ninh"
+        },
+        {
+          "key": "D",
+          "text": "Vùng trung bộ xét xuất điều quy các đơn chuyển món"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Màn ảnh điểm hiển diện hệ giúp bấm tương hỗ đặt mua. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_11",
+      "type": "multiple_choice",
+      "content": "Khối khu hệ trung bộ như thống máy server chủ, chứa kho xuất, cửa giao thanh toán lệnh nạp được quy kết nghĩa là chức danh ứng gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vùng cửa hiển thông giao dạng mặt nổi để mua xem diện"
+        },
+        {
+          "key": "B",
+          "text": "Kết lớp cầu mạng chuyển kết nội nhằm tăng hiển thị trước"
+        },
+        {
+          "key": "C",
+          "text": "Vị thế giao kết nội Back-end phân hàm hoạt định toán xử"
+        },
+        {
+          "key": "D",
+          "text": "Hạng mục thiết chuyên công đồ phụ mảng cấu đẩy quảng"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Vị thế giao kết nội Back-end phân hàm hoạt định toán xử. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_12",
+      "type": "multiple_choice",
+      "content": "Khái niệm ống API trong quá trình tích kiến trúc hợp mạng thống hệ đóng giữ một vai trò như vị thế quan định như là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Là chốt nguồn chặn báo cổng chống cự mọi tin tặc luồn truy vào các mạch cổng mạng"
+        },
+        {
+          "key": "B",
+          "text": "Tạo mã nhận lưu tự mã QR bằng khối chuỗi vạch ảnh ứng mã code để nhận thanh quét"
+        },
+        {
+          "key": "C",
+          "text": "Như các thanh trạm nhận giữ chứa bộ tàng hình tại trung máy khối điện lõi siêu toán máy"
+        },
+        {
+          "key": "D",
+          "text": "Như chức phận phần thông chuyển lời tiếp yêu giúp giao 2 hệ máy với nối qua kênh mảng"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Như chức phận phần thông chuyển lời tiếp yêu giúp giao 2 hệ máy với nối qua kênh mảng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_13",
+      "type": "multiple_choice",
+      "content": "Một trong những bài chiến giao toán lập trọng cấp cực của Ban lập Giám đốc quản là tiến quyết phân tuyến cho quy hệ đầu theo hướng rẽ kết nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đóng bớt ngân giảm nguồn chạy đẩy tiếp kênh quảng và Cấu gác hoạt hoàn toàn bộ phận phòng"
+        },
+        {
+          "key": "B",
+          "text": "Chọn Quyết định Tự làm xây gốc nền từ không (In-house) hoặc Cấp thuê mua bộ dịch cloud"
+        },
+        {
+          "key": "C",
+          "text": "Dốc mạnh lực quỹ thuê nhiều lập phần viết lập web và Hủy không vận truyền thông marketing"
+        },
+        {
+          "key": "D",
+          "text": "Biến cải tạo mẫu trang màu mã đồ phần tương thích hoặc Lược bớt tất các dạng cấu thẻ thưởng"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Chọn Quyết định Tự làm xây gốc nền từ không (In-house) hoặc Cấp thuê mua bộ dịch cloud. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_14",
+      "type": "multiple_choice",
+      "content": "Ưu điểm cạnh ưu ưu phân tranh đáng lưu của mô xây dựng hệ khối TMĐT \"Tự lập Tự Xây (In-house)\" quy tụ về lợi ưu gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gói tự nạp ứng phần làm tải tự thêm mà mình chẳng mất hao tài nuôi khối quân lực mạng kĩ hỗ"
+        },
+        {
+          "key": "B",
+          "text": "Nhịp độ lập tiến thời quy mở làm tốc cực kỳ cấp phát và thu rút bớt mạnh khoảng lực nguồn chi"
+        },
+        {
+          "key": "C",
+          "text": "Ban nghiệp nắm độc sở toàn quyền kho luồng tệp số hóa tùy tinh theo chuyên khối đặc biến sâu"
+        },
+        {
+          "key": "D",
+          "text": "Thực việc chạy chiến trình rất gọn trong lượng vài ba mốc khung ngắn chờ bỏ khâu xét chốt rườm"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Ban nghiệp nắm độc sở toàn quyền kho luồng tệp số hóa tùy tinh theo chuyên khối đặc biến sâu. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_15",
+      "type": "multiple_choice",
+      "content": "Một rủi mạng hiểm trí đe có thể dọa từ nền Tự nhà theo cấu xây (In House / nguồn hở tự do) thì do chịu hậu của khuyết lỗi nào mưu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chịu nhượng để bị quy giam lỏng sự lệ của nền phát công hệ bởi một khối thứ phía đối thủ ba"
+        },
+        {
+          "key": "B",
+          "text": "Lượng chi giá ban chi ra để khởi trần lúc sinh (Giá mức vốn Capex) rất cấu thành phình khổng"
+        },
+        {
+          "key": "C",
+          "text": "Tuyến buộc thu thường trả thêm các khoán mức dùng dịch tiền tính trong chu kì hằng tính tháng"
+        },
+        {
+          "key": "D",
+          "text": "Luôn gánh phải mức rút chia khấu hoa % trên lượng mức đồng thu qua mảng mỗi kỳ trả thu"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Lượng chi giá ban chi ra để khởi trần lúc sinh (Giá mức vốn Capex) rất cấu thành phình khổng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_16",
+      "type": "multiple_choice",
+      "content": "Hình định Tự cấu xây lại cho tổ (mô kiểu In-house) luôn thường đạt khả để phù cho hạng mục đối tương mô tập thực thể như nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Một nhóm Khởi nghiệp nhỏ gọn khi đang rà dò khảo thị phần thử"
+        },
+        {
+          "key": "B",
+          "text": "Hàng cửa phân lẻ mới vừa kinh chuyển bán mô thức giao thu trực"
+        },
+        {
+          "key": "C",
+          "text": "Môi phần Công vừa chuyên và cần cấp triển chạy ứng tốc gọn rất nhanh"
+        },
+        {
+          "key": "D",
+          "text": "Vi mô Tập quy doanh mạnh có nhiều đường chuyên quy thù rất riêng"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Vi mô Tập quy doanh mạnh có nhiều đường chuyên quy thù rất riêng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_17",
+      "type": "multiple_choice",
+      "content": "Ưu độ thế tập điểm tâm điểm ưu trội với những lựa lấy chọn quyết là bộ theo kiểu Thuê ngoài lại hệ (mảng Cloud hoặc SaaS) nằm chỗ nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trao độ có trọn phép nắm mã cấu để phân sửa tinh định tận điểm gốc của rễ khối hệ máy chủ lớn"
+        },
+        {
+          "key": "B",
+          "text": "Luợng vốn đầu giá xuất mốc (Opex) không tốn nhiều đồng đồng thời việc đẩy chiến độ xuất độ nhanh"
+        },
+        {
+          "key": "C",
+          "text": "Sức tiến quy tự vô rộng mở mở với không mã ràng khóa để nới với năng mức vụ giao mọi cấu luồng"
+        },
+        {
+          "key": "D",
+          "text": "Không rơi vào trạng chậm kết bởi nhờ luôn giữ hoàn độc tuyến so chéo kết máy chủ cùng nhóm bên"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Luợng vốn đầu giá xuất mốc (Opex) không tốn nhiều đồng đồng thời việc đẩy chiến độ xuất độ nhanh. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_18",
+      "type": "multiple_choice",
+      "content": "Biểu cụm gọi là \"Vendor lock-in\" thường được chỉ dùng mô để diễn ra tình huống hệ gì có phần rủi từ trạng bất yếu rủi điểm của hình SaaS?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Là trạng thái người tổ công doanh bị bủa vây gò ép lệ theo vào đúng hệ mã từ chủ gốc bên phần thuê"
+        },
+        {
+          "key": "B",
+          "text": "Là tình huống hội nhà tiêu dùng bỏ chạy từ ngừng dứt quy giao thanh luồng bởi không chịu nạp vào"
+        },
+        {
+          "key": "C",
+          "text": "Thuật mô lỗi nhân phần ban kĩ bị tay đánh tạo ra sập mật để giăng cản từ mã gây đóng đường lưới"
+        },
+        {
+          "key": "D",
+          "text": "Chuyển hỏng từ thiết đầu gây bị bít dòng mạng dẫn làm phần tất mạng trạm đơ từ lệnh lỗi mã"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Là trạng thái người tổ công doanh bị bủa vây gò ép lệ theo vào đúng hệ mã từ chủ gốc bên phần thuê. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_19",
+      "type": "multiple_choice",
+      "content": "Phương hình quyết chọn hình vận qua Thuê dịch ngoài với ứng nền như qua Shopify / Haravan luôn sẽ thường thấy tính là phương chọn tối phù gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tập tập tập nhóm doanh toàn cường cầu đa lĩnh ngạch quốc vươn phân vị thế lớn quy mô đa tỷ kim"
+        },
+        {
+          "key": "B",
+          "text": "Đại công ty hãng nhãn thương thuộc về những nơi có độ tổ tính lượng dày phức tạp quy đa lớp"
+        },
+        {
+          "key": "C",
+          "text": "Doanh khối cấu thành tạo bộ hệ mạng lưới các cửa ngạch kinh thành phần đồ hàng buôn bán lẻ"
+        },
+        {
+          "key": "D",
+          "text": "Công cấp công bộ vừa và dạng quy mô các hội dạng muốn mau tốc tiến chạy cho kịp lúc sàn"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Công cấp công bộ vừa và dạng quy mô các hội dạng muốn mau tốc tiến chạy cho kịp lúc sàn. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_20",
+      "type": "multiple_choice",
+      "content": "Dựa căn trên Bảng Ma cấu định đoạn Buy và Build, phần hệ Khả thuộc tùy biến tinh sâu ứng nội biến (tính chất Customization) đối thuộc phía mô hệ In-house có tiêu gì trị?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Luôn chịu rào buộc quy cản những không luồng cho truy chỉnh thay biến sâu ngạch lõi rễ tệp cơ nguồn"
+        },
+        {
+          "key": "B",
+          "text": "Lược cắt tối biên cấu hình các mục thuật thao thủ nhưng lại phải cần chịu tốn nhiều chuyên kỹ tay chi"
+        },
+        {
+          "key": "C",
+          "text": "Dễ đẩy chạy nhịp nhưng kèm trong đó là phải liên trực đối đương nhiều rủi hệ sập phần khóa rất lớn"
+        },
+        {
+          "key": "D",
+          "text": "Mang mức độ có thể điều tinh làm chủ sự tùy thay thay biến mọi hoàn cấu kết cục đến độ tỷ lệ tuyệt toàn"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Mang mức độ có thể điều tinh làm chủ sự tùy thay thay biến mọi hoàn cấu kết cục đến độ tỷ lệ tuyệt toàn. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_21",
+      "type": "multiple_choice",
+      "content": "Tính phân ra ở mục Bảng Ma Chọn định, phương giải khi đi Thuê (thuộc dùng SaaS/Cloud) tạo thuận ưu nào trong lợi khi tiêu chiếu \"sự theo khả nới rộng mở dung mô lượng\" (Scale)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chịu sức tốn ngân tài nặng mới để cập máy do độ nâng vật tư mua"
+        },
+        {
+          "key": "B",
+          "text": "Được hỗ tính tự chủ động hệ ứng tự mở rộng thích quy ứng lưu"
+        },
+        {
+          "key": "C",
+          "text": "Đòi mức rất khắt cao đối phần cùng nhân cấu của nội IT đội cứng"
+        },
+        {
+          "key": "D",
+          "text": "Thắt thời thu eo hụt quá mức cấp việc đổi qua nền khác nhanh gấp"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Được hỗ tính tự chủ động hệ ứng tự mở rộng thích quy ứng lưu. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_22",
+      "type": "multiple_choice",
+      "content": "Bất kế là Giám doanh lựa xây từ In hay thuê từ Cloud Buy hệ thống thì thảy đều đi cần trải qua chung quy thực bài dạng áp thử bài chịu đợt là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ứng trải bài đo thử cực với ranh chèn khả định mang danh tên ép lực vượt tải mức \"Stress-test đo thử\""
+        },
+        {
+          "key": "B",
+          "text": "Bài thử khảo bài phân trích lưu khách khối hệ khách có hay tên hành xóa dạng là bài \"Thu Mining thu\""
+        },
+        {
+          "key": "C",
+          "text": "Phiên trải độ rà chéo độ thi với sự chất độ từ hệ tạo với giả thiết máy danh bài kiểu là \"bộ AI Gen mã\""
+        },
+        {
+          "key": "D",
+          "text": "Phiên lấy đánh tìm kiểm chéo giữa lấy lượng thử giao lẻ gọi thuật đánh thử chia nhịp chia \"phân A B test\""
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Ứng trải bài đo thử cực với ranh chèn khả định mang danh tên ép lực vượt tải mức \"Stress-test đo thử\". Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_23",
+      "type": "multiple_choice",
+      "content": "Bộ đồng đo 3 thước để cấu thành định chất làm tiêu sinh quy thu nghiệm sống tử nhận định kết độ bền sau bài trải Stress Test ứng với TMĐT gồm các yếu nào số?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sắc Hình Ảnh đồ kết hợp Ánh chất Sáng liên đồng Điểm truyền mảng cổng tuyến phần LAN"
+        },
+        {
+          "key": "B",
+          "text": "Tổng Tổng Số đơn hàng đồng Thu Số tiền của tổng Ngân truy lượt web lượng số người"
+        },
+        {
+          "key": "C",
+          "text": "Nhịp đo Tốc độ vòng Tải Hạn Uptime vận hành Thời Cùng khả Tích liền độ nối mạng dữ khối"
+        },
+        {
+          "key": "D",
+          "text": "Chế mức phân cứng mức Máy và Ngạch Nguồn tiền để dự chi mảng kỹ phần bảo dưỡng thuật"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Nhịp đo Tốc độ vòng Tải Hạn Uptime vận hành Thời Cùng khả Tích liền độ nối mạng dữ khối. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_24",
+      "type": "multiple_choice",
+      "content": "Biên độ \"Vùng của Sự Rủi do Ro\" do vì để thời nhịp tải chờ giỏ load bị trôi có được tính mốc bắt nguồn khi thời chờ lên quá mức đạt mốc nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thời giam kéo bị quá tải nhịp lên tới trên ngưỡng khoản ba đo phút chờ"
+        },
+        {
+          "key": "B",
+          "text": "Mất nhiều đoạn thời hụt quá giam liên tục tính trong vòng vượt năm giờ"
+        },
+        {
+          "key": "C",
+          "text": "Khi mốc trạm đo thời lượng chạy kết bị nằm ranh ngạch lớn tới mười giây"
+        },
+        {
+          "key": "D",
+          "text": "Giọt chạy bắt chỉ từ mốc tải đợi chờ load qua chạm vỡ ranh thời 3 giây"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Giọt chạy bắt chỉ từ mốc tải đợi chờ load qua chạm vỡ ranh thời 3 giây. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_25",
+      "type": "multiple_choice",
+      "content": "Truyền đạt câu ghi ẩn insight đánh nghĩa \"Mỗi đợt lượng giây thời tải bị lùi chậm trễ sẽ không chỉ nằm giới hạn ở là lỗi góc phần mềm mà chính còn đang là...\" gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Một hệ tích quy lỗi gây sai hỏng làm trong phần lập lúc đang gõ chạy code web thiết"
+        },
+        {
+          "key": "B",
+          "text": "Khả phát nguyên lý cho mảng phải cấu thành để bảo đền khoản dư thiệt của quy mô"
+        },
+        {
+          "key": "C",
+          "text": "Khả lọt trượt lấy qua luồng khối dữ thu về do lượng đổ tấn công gây gián do mạng"
+        },
+        {
+          "key": "D",
+          "text": "Chi khoản tạo bị đánh chi cơ đánh quy lún mất hụt vào chi bằng số phí tiền mặt tươi"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Chi khoản tạo bị đánh chi cơ đánh quy lún mất hụt vào chi bằng số phí tiền mặt tươi. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_26",
+      "type": "multiple_choice",
+      "content": "Tỉ mốc biểu \"chuẩn mốc tiêu vàng\" mà thường mọi hệ TMĐT dùng để chỉ đặt đo hệ vận giao trơn nhịp (độ Uptime phục vụ trang) là nhắm vào mốc được bao nhiêu đích %",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vươn đỉnh vạch giữ chạm kịch chấn vươn 100% trong số đạt"
+        },
+        {
+          "key": "B",
+          "text": "Giữ hệ vững đo được duy khoảng duy mốc là con số 99.99%"
+        },
+        {
+          "key": "C",
+          "text": "Luôn đong mức độ khoảng nhịp ở tiệm mức với trung là 50%"
+        },
+        {
+          "key": "D",
+          "text": "Xoay trong mức biên ngạch lượng thay đổi biến chuyển 75%"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Giữ hệ vững đo được duy khoảng duy mốc là con số 99.99%. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_27",
+      "type": "multiple_choice",
+      "content": "Sập gãy với màn chăn hỏng đi đôi lỗi cảnh dòng bị chặn báo chèn \"502 mã Bad Gateway\" lúc rơi đúng vào ranh giờ sale chạy Flash Sale tàn thì sẽ thiêu cháy biến mất cái gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gây thiêu cháy ngân hao tổng hỏa ngân phòng tiền thuộc trạm lưu đọng của trạm đội lưu chi toàn"
+        },
+        {
+          "key": "B",
+          "text": "Đốt trọi thiêu rụi toàn tất khoản bộ tiền quỹ chuẩn định mà bộ phận làm cho chi phát ngân marketing"
+        },
+        {
+          "key": "C",
+          "text": "Xóa tiêu tán lụi toàn đổ sập phần hệ thông hồ nhân hồ thông dành bộ tin đội của nhóm thuộc phòng"
+        },
+        {
+          "key": "D",
+          "text": "Phá triệt bay tiêu mọi luồng chuyển đổi thu quỹ thu dùng bù trả lại những đền cho số khoản đền do phạt"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Đốt trọi thiêu rụi toàn tất khoản bộ tiền quỹ chuẩn định mà bộ phận làm cho chi phát ngân marketing. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_28",
+      "type": "multiple_choice",
+      "content": "Sự đứt phân hệ đoạn tách \"Căn chia Silo\" tạo lỗi ngay cả lúc trang tải Front web rất nhanh nhưng do không liền Front với khu Back lưu thì sẽ gây nhịp trượt gì trong ngày Mega Sale đắt tiền?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hệ đẩy phát đặt xong thành nhưng do hệ kho trễ báo kho nên thật rỗng trong kho báo không có còn món nào hàng"
+        },
+        {
+          "key": "B",
+          "text": "Mạng giao do tải chập hiển trễ màn vòng xoáy ứ lên chậm đến hơn ngưỡng mười lăm giây làm hiện giao mất đỏ"
+        },
+        {
+          "key": "C",
+          "text": "Truyền bít chặn tắc luồng thẻ số thông ghi do không nạp do kết thông tin mã chèn luồng băng bằng băng"
+        },
+        {
+          "key": "D",
+          "text": "Giao hình đổi diện làm biến mặt màu xanh đỏ rồi gãy dòng chèn ra số đỏ là Bad Gateway sập hệ mã hỏng do cứng"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Hệ đẩy phát đặt xong thành nhưng do hệ kho trễ báo kho nên thật rỗng trong kho báo không có còn món nào hàng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_5_Tiet_1_29",
+      "type": "multiple_choice",
+      "content": "Thông điệp phân kết khi một điểm giao không kết được với sự lưu thông đúng chu kỳ hệ thời thực (Real-time Integration nhịp đứt), điều này mang đồng nghĩa gì đang xảy phá hệ uy danh với khách tiêu dùng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Truy lọt hệ phơi dữ liệu lấy trộm phẩy riêng nguồn lưu của khách quản riêng tay quản hệ và bị rớt rơi cổ giá"
+        },
+        {
+          "key": "B",
+          "text": "Thiệt lạm trôi hụt mảng truyền điện qua đường đứt dây tải điện vì bị xài do bộ cắm cho đa nhiều đầu chạy máy"
+        },
+        {
+          "key": "C",
+          "text": "Cố đặt trạng cho lỗi ra sai lỗi giả ảo do từ nhóm khách nhằm muốn cho không để chặn mất lượng lấy đặt kho"
+        },
+        {
+          "key": "D",
+          "text": "Vô hành vô tư khiến tổ dối gạt lừa tình giả khách theo tiêu dùng làm gãy sự đứt uy niềm giá trọn chốt danh tính"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Vô hành vô tư khiến tổ dối gạt lừa tình giả khách theo tiêu dùng làm gãy sự đứt uy niềm giá trọn chốt danh tính. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

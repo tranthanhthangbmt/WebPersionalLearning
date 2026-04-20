@@ -1,0 +1,56 @@
+{
+  "trees": [
+    {
+      "id": "5279da17",
+      "title": "Thị giác máy tính",
+      "filename": "DB/public_trees\\5279da17.json",
+      "total_nodes": 46,
+      "description": "Cây tri thức môn Thị giác máy tính với 46 khái niệm. Hệ thống hóa Computer Vision.",
+      "category": "Đại học",
+      "price_xp": 30,
+      "rating": 4.8,
+      "downloads": 1250,
+      "is_trending": true,
+      "premium_only": false
+    },
+    {
+      "id": "b7965aca",
+      "title": "Thương mại điện tử",
+      "filename": "DB/public_trees\\b7965aca.json",
+      "total_nodes": 34,
+      "description": "Cây tri thức môn Thương mại điện tử với 34 khái niệm",
+      "category": "Đại học",
+      "price_xp": 0,
+      "rating": 4.2,
+      "downloads": 430,
+      "is_trending": false,
+      "premium_only": false
+    },
+    {
+      "id": "e69bf65f",
+      "title": "Thương mại điện tử Đồng bộ",
+      "filename": "DB/public_trees\\e69bf65f.json",
+      "total_nodes": 68,
+      "description": "Cây tri thức môn Thương mại điện tử Đồng bộ với 68 khái niệm. Master branch.",
+      "category": "Đại học",
+      "price_xp": 50,
+      "rating": 4.9,
+      "downloads": 890,
+      "is_trending": true,
+      "premium_only": true
+    },
+    {
+      "id": "faa95c0b",
+      "title": "TRÍ TUỆ NHÂN TẠO ỨNG DỤNG (AI ỨNG DỤNG)",
+      "filename": "DB/public_trees/faa95c0b.json",
+      "total_nodes": 64,
+      "description": "Môn AI ứng dụng (3TC)",
+      "category": "Cộng đồng (UGC)",
+      "price_xp": 10,
+      "rating": 5.0,
+      "downloads": 0,
+      "is_trending": false,
+      "premium_only": true
+    }
+  ]
+}

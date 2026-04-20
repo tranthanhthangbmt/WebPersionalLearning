@@ -1,0 +1,63 @@
+﻿Slide 1: CHƯƠNG 1 (TIẾT 7) - CÁC MÔ HÌNH KINH DOANH CỐT LÕI (B2C & B2B)
+Người 1: Chào các bạn lớp BA24M. Chúng ta lại gặp nhau ở tiết 7. Hôm nay chúng ta sẽ đi sâu vào “xương sống” của thương mại điện tử. Mời các em nhìn lên Slide 1: “Các mô hình kinh doanh cốt lõi: B2C và B2B”. Thầy có một lưu ý đặc biệt ngay đầu giờ: Nội dung bài hôm nay là trọng tâm cho bài Quiz A2.1 sắp tới, nên các bạn chú ý kỹ nhé.
+Người 2: Dạ thưa thầy, em thấy B2C và B2B mình nghe nói nhiều rồi. B2C là bán cho khách lẻ, còn B2B là bán cho doanh nghiệp. Bài này mình sẽ học sâu hơn về cái gì ạ?
+Người 1: Đúng là khái niệm cơ bản thì đơn giản. Nhưng mục tiêu hôm nay là chúng ta phải “phẫu thuật” nó ra. Thứ nhất, phân biệt được các biến thể của B2C như E-tailer hay Portal. Thứ hai, hiểu cơ chế vận hành phức tạp của B2B như Sell-side hay Buy-side. Và quan trọng nhất, so sánh được quy trình ra quyết định khác nhau thế nào giữa một cá nhân mua hàng theo cảm xúc và một tổ chức mua hàng bằng lý trí.
+Slide 2: TỔNG QUAN THỊ TRƯỜNG - PHẦN NỔI VÀ PHẦN CHÌM CỦA TẢNG BĂNG
+Người 1: Chúng ta bắt đầu với bức tranh toàn cảnh ở Slide 2. Thầy lại dùng hình ảnh tảng băng trôi. Em nhìn vào số liệu 85% trên màn hình, em có suy nghĩ gì?.
+Người 2: Dạ, em hơi bất ngờ ạ. Bình thường em lướt Shopee, TikTok Shop (B2C) suốt ngày nên cứ tưởng B2C là lớn nhất. Nhưng theo slide này thì B2B chiếm tới 85% tổng khối lượng giao dịch toàn cầu, còn B2C chỉ là phần nổi thôi sao thầy?.
+Người 1: Chính xác, đó là cái bẫy nhận thức. B2C (Business to Consumer) là bán lẻ, đặc trưng là trải nghiệm khách hàng, nên nó ồn ào và dễ thấy. Nhưng B2B (Business to Business) mới là “cá mập” thực sự. Nó liên quan đến Chuỗi cung ứng (Supply Chain) và Mua sắm (Procurement) với khối lượng giao dịch khổng lồ. Tuy nhiên, ranh giới này đang mờ dần. Em hãy nhìn ví dụ về Amazon hay Dell, họ phục vụ cả hai đối tượng trên cùng một nền tảng. Đó gọi là sự hội tụ.
+Slide 3: MÔ HÌNH B2C - PHÂN LOẠI THEO KÊNH PHÂN PHỐI (E-TAILING)
+Người 1: Bây giờ mình mổ xẻ phần nổi trước nhé. Slide 3 nói về B2C E-tailing (Bán lẻ điện tử). Có 3 loại hình chính. Em hãy nhìn vào loại đầu tiên: “Virtual (Pure-play)”. Em hiểu từ “Pure-play” nghĩa là gì qua ví dụ Amazon thời kỳ đầu?.
+Người 2: Dạ “Pure” là thuần túy. Có nghĩa là những doanh nghiệp này chỉ bán online 100%, không hề có cửa hàng vật lý ở ngoài đường đúng không ạ?.
+Người 1: Đúng vậy. Ngược lại với nó là mô hình thứ hai: “Click-and-Mortar” (Cú click và Vữa hồ). Ví dụ như Thế Giới Di Động hay Walmart. Họ kết hợp cả web (Click) và cửa hàng gạch vữa (Mortar). Đây được xem là mô hình bền vững nhất hiện nay vì nó đa kênh. Còn loại thứ 3: Direct Marketing (Bán trực tiếp) như Dell hay Nike. Theo em, tại sao Dell lại muốn bán thẳng cho khách mà không qua đại lý?
+Người 2: Dạ, em nhìn slide thấy ghi là “Disintermediation” (Loại bỏ trung gian). Chắc là để cắt giảm chi phí hoa hồng cho đại lý và có thể “cá nhân hóa” cái máy tính theo ý thích của khách hàng ạ?.
+Người 1: Rất chuẩn. Đó là sức mạnh của việc bỏ qua trung gian.
+Slide 4: MÔ HÌNH B2C - DỊCH VỤ VÀ NỘI DUNG SỐ
+Người 1: Ngoài bán hàng hóa vật lý như cái máy tính, B2C còn bán “cảm xúc” và “thông tin”. Mời em sang Slide 4. Đầu tiên là Content Provider (Nhà cung cấp nội dung). Em có tài khoản Netflix hay Spotify không?.
+Người 2: Dạ có ạ, em dùng Spotify nghe nhạc mỗi ngày.
+Người 1: Vậy em đang trả tiền cho “quyền truy cập” nội dung. Doanh thu của họ đến từ phí thuê bao (Subscription) của em hoặc từ quảng cáo. Tiếp theo là Portal (Cổng thông tin). Đây là điểm truy cập đầu tiên khi em vào web. Có 2 loại: Horizontal (Cổng ngang) và Vertical (Cổng dọc). Em phân biệt được chúng không?
+Người 2: Nhìn ví dụ thì em đoán: “Ngang” (Horizontal) là cái gì cũng có, như Yahoo tổng hợp đủ tin tức, thể thao, email. Còn “Dọc” (Vertical) là chuyên sâu, đi theo chiều dọc của một ngành. Ví dụ như WebMD chỉ chuyên về y tế thôi.
+Người 1: Chính xác. “Ngang” là bao phủ rộng, “Dọc” là đào sâu chuyên môn (Vortal).
+Slide 5: CƠ CHẾ VẬN HÀNH B2B - SELL-SIDE VS. BUY-SIDE
+Người 1: Chúng ta lặn xuống phần chìm của tảng băng nhé. Slide 5 nói về B2B với định hướng thị trường (Marketplace Orientation). Em hãy nhìn vào sơ đồ hướng mũi tên. Sự khác biệt giữa Sell-side và Buy-side là gì?.
+Người 2: Dạ, em nhìn hình: Ở Sell-side (Bên bán chủ đạo), em thấy 1 Người Bán (số 1 to đùng) bắn mũi tên ra nhiều Người Mua. Hướng là “One-to-Many”. Còn Buy-side (Bên mua chủ đạo) thì ngược lại, 1 Người Mua ở trung tâm nhận mũi tên từ nhiều Người Bán. Hướng là “Many-to-One”.
+Người 1: Phân tích hình ảnh rất tốt. Ở Sell-side: Người bán nắm quyền lực. Ví dụ Cisco hay Dell tạo ra catalog điện tử, ai muốn mua thì vào đó chọn theo giá của họ. Ở Buy-side: Người mua nắm quyền lực (thường là các tập đoàn lớn). Họ dùng hệ thống mời thầu để “ép giá”. Nhiều nhà cung cấp phải đấu đá nhau để được bán cho 1 người mua này.
+Slide 6: SÀN GIAO DỊCH B2B (EXCHANGES) VÀ PHÂN LOẠI VẬT LIỆU
+Người 1: Thế còn trường hợp “Nhiều người mua” gặp “Nhiều người bán” thì sao? Đó là Slide 6: Sàn giao dịch (Exchanges) - Mô hình Many-to-Many. Điển hình như Alibaba.com. Trong B2B, họ mua cái gì? Em nhìn vào hai khái niệm: Vật liệu trực tiếp (Direct Materials) và Vật liệu gián tiếp (Indirect Materials). Em thử ví dụ xem?
+Người 2: Dạ, nhìn hình minh họa: Vật liệu trực tiếp là những thứ như thép, hóa chất… chắc là dùng để sản xuất ra sản phẩm chính. Còn Vật liệu gián tiếp là văn phòng phẩm, bóng đèn, bảo trì… những thứ lặt vặt để văn phòng hoạt động.
+Người 1: Đúng rồi. Vật liệu trực tiếp thường được giao dịch qua các Sàn dọc (Vertical Exchanges) chuyên ngành. Còn văn phòng phẩm thì có thể mua ở các Sàn ngang (Horizontal Exchanges) như Alibaba. Hiểu được mình đang mua loại vật liệu nào sẽ quyết định mình nên lên sàn nào để tìm đối tác.
+Slide 7: E-PROCUREMENT VÀ ĐẤU GIÁ NGƯỢC - VŨ KHÍ TỐI ƯU CHI PHÍ
+Người 1: Chúng ta chuyển sang Slide 7. Đây là một ứng dụng cực kỳ thú vị của B2B gọi là E-procurement (Mua sắm điện tử). Em nhìn vào cụm từ “Maverick buying”. Trong tiếng Anh, “Maverick” là con bê chưa đóng dấu, chạy lung tung. Vậy “Mua sắm kiểu Maverick” là gì?
+Người 2: Dạ, chắc là kiểu mua sắm tự do, tùy tiện? Ví dụ nhân viên tự chạy ra ngoài mua bút viết, giấy in mà không theo quy định của công ty, khiến công ty không kiểm soát được chi phí đúng không thầy?
+Người 1: Rất chính xác. E-procurement sinh ra để chặn việc đó lại. Và đặc biệt, hãy nhìn vào mô hình “Reverse Auction” (Đấu giá ngược) bên dưới. Bình thường đấu giá thì giá sẽ tăng lên. Vậy đấu giá ngược thì sao?
+Người 2: Em nhìn sơ đồ: 1 Người Mua ở giữa, xung quanh là các nhà cung cấp đang đưa ra mức giá. Mũi tên giá đi xuống. À, em hiểu rồi. Tức là người mua đưa ra yêu cầu (RFQ), các nhà cung cấp sẽ thi nhau giảm giá để giành được hợp đồng. Giá càng thấp càng tốt ạ?
+Người 1: Đúng vậy. Kết quả là người mua tiết kiệm được chi phí tối đa và quá trình này cực kỳ minh bạch. Không còn chuyện “đi đêm” hay hoa hồng mờ ám nữa.
+Slide 8: SO SÁNH B2C VÀ B2B - CẢM XÚC VS. LÝ TRÍ
+Người 1: Vậy tóm lại, B2C và B2B khác nhau cốt lõi ở đâu? Mời em nhìn bảng so sánh ở Slide 8. Thầy dùng hai từ khóa: “Cảm xúc” cho B2C và “Lý trí” cho B2B. Tại sao mua cho công ty lại phải “Lý trí” hơn?
+Người 2: Dạ, tại vì B2C là em mua cho em, thích là nhích, buồn buồn mua cái áo về không mặc cũng được. Còn B2B là mua cho tổ chức, giá trị đơn hàng rất lớn. Em thấy mục “Người quyết định” của B2B ghi là “DMU - Decision Making Unit”. Nghĩa là sao ạ?
+Người 1: Nghĩa là “Đơn vị ra quyết định”. Không phải một người quyết, mà là cả một hội đồng: Từ ông kỹ thuật, ông tài chính, đến ông giám đốc ký duyệt. Vì thế, quy trình của B2B rất dài và phức tạp, có khi mất cả năm trời để chốt một hợp đồng, chứ không phải “vài phút” như em mua hàng trên Shopee.
+Slide 9: CHIẾN LƯỢC TIẾP CẬN - TỪ TRÁI TIM ĐẾN HỆ THỐNG
+Người 1: Từ sự khác biệt đó, chiến lược tiếp cận cũng phải khác nhau. Slide 9: Một bên là hình Trái tim (B2C), một bên là Bánh răng (B2B). Nếu em làm Marketing cho B2C, em sẽ đánh vào đâu?
+Người 2: Em sẽ đánh vào “tâm lý” ạ. Như slide ghi: Giảm giá sốc, tạo sự khan hiếm (chỉ còn 2 cái), hình ảnh đẹp lung linh để khách “chốt đơn” ngay lập tức.
+Người 1: Chuẩn. Còn B2B? Em không thể dọa giám đốc mua hàng là “Sếp ơi mua nhanh kẻo hết phần mềm ERP” được. Họ cần sự tin tưởng dài hạn. Nên chiến lược B2B là: Tích hợp hệ thống (ERP/EDI) và chứng minh năng lực bằng các tài liệu chuyên sâu (Whitepapers, Case studies). B2C là “tình yêu sét đánh”, còn B2B là “hôn nhân sắp đặt” cần tìm hiểu kỹ càng.
+Slide 10: TỔNG KẾT TỪ KHÓA - TRAFFIC VS. TRUST
+Người 1: Chúng ta tổng kết lại ở Slide 10. Nếu phải nhớ 2 từ khóa quan trọng nhất cho mỗi mô hình, đó là gì?
+Người 2: Dạ, B2C là “TRAFFIC & CONVERSION” (Lưu lượng truy cập & Tỷ lệ chuyển đổi). Càng đông người vào xem càng tốt. Còn B2B là “TRUST & INTEGRATION” (Niềm tin & Sự tích hợp).
+Người 1: Chính xác. Và hãy nhớ dòng lưu ý cuối slide: Thực tế ranh giới này không cứng nhắc. Chúng ta có B2B2C - Doanh nghiệp bán cho Doanh nghiệp để phục vụ Người tiêu dùng.
+Slide 11: HOẠT ĐỘNG PHÂN TÍCH CASE STUDY - “MỘT SẢN PHẨM, HAI SỐ PHẬN”
+Người 1: Để khắc sâu kiến thức, chúng ta làm bài tập tình huống ở Slide 11. Cùng là chiếc Laptop Dell XPS. Trường hợp A: Em mua để học. Trường hợp B: Đại học Đông Á mua 50 chiếc cho phòng Lab. Câu hỏi là: Quy trình mua và yếu tố chốt đơn (Key Buying Factor) khác nhau thế nào?
+Người 2: Nghe thú vị quá. Cùng một cái máy mà số phận nó khác hẳn nhau. Để em thử phân tích xem.
+Slide 12: GIẢI MÃ KỊCH BẢN A - KHÁCH HÀNG CÁ NHÂN (B2C)
+Người 1: Chúng ta đi vào Kịch bản A ở Slide 12 trước. Em sẽ làm gì để mua máy?
+Người 2: Đầu tiên em lên Google hoặc xem review trên YouTube xem máy nào tốt (Tìm kiếm). Sau đó em vào web của Dell hoặc Tiki so sánh giá. Thấy bên nào rẻ, có khuyến mãi, giao hàng nhanh thì em quẹt thẻ mua luôn. Mô hình này là B2C E-tailer đúng không thầy?
+Người 1: Đúng rồi. Yếu tố quyết định của em là: Giá rẻ và Tiện lợi. Em tương tác chủ yếu với cái giao diện web (Front-end).
+Slide 13: GIẢI MÃ KỊCH BẢN B - KHÁCH HÀNG TỔ CHỨC (B2B)
+Người 1: Nhưng sang Slide 13, Kịch bản B của trường Đại học thì sao? Có đơn giản là lên Tiki đặt 50 cái không?
+Người 2: Dạ chắc chắn không. Nhìn quy trình trên slide thấy “choáng” luôn ạ:
+1. Xác định nhu cầu.
+2. Lập hồ sơ mời thầu (RFQ).
+3. Các nhà cung cấp chào giá (Bidding).
+4. Đàm phán chán chê rồi mới Ký hợp đồng.
+5. Giao hàng, cài đặt xong mới Thanh toán công nợ (trả sau).
+Người 1: Rất chi tiết. Và yếu tố quyết định ở đây không chỉ là “Giá máy”. Em nhìn chữ “TCO” - Tổng chi phí sở hữu. Nghĩa là nhà trường còn tính cả tiền điện, tiền bảo trì, độ bền của máy trong 5 năm. Và quan trọng nhất là dịch vụ hỗ trợ kỹ thuật 24/7. Hỏng là phải có người đến sửa ngay để sinh viên còn học. Đó là lý do tại sao Dell có trang riêng là “Dell Premier” dành cho khách hàng doanh nghiệp.
+Người 1: Bài học hôm nay dừng ở đây. Các em về nhà ôn kỹ sự khác biệt giữa quy trình “Cảm xúc” và “Lý trí” này nhé. Đó là chìa khóa để làm Marketing sau này. Chào cả lớp!

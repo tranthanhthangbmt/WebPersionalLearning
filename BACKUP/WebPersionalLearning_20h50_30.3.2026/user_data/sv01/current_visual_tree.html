@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Tree 3D Visualizer</title>
+    <!-- Thư viện 3D Force Graph WebGL -->
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <!-- Font chữ hiện đại -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --glass-bg: rgba(22, 27, 34, 0.65);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --text-primary: #f0f6fc;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+        }
+        body {
+            margin: 0; padding: 0; overflow: hidden;
+            background-color: var(--bg-color);
+            font-family: 'Inter', -apple-system, sans-serif;
+            color: var(--text-primary);
+        }
+        #3d-graph {
+            position: absolute; top: 0; left: 0;
+            width: 100vw; height: 100vh; z-index: 1;
+        }
+        #ui-overlay {
+            position: absolute; top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none; z-index: 10;
+            display: flex; flex-direction: column;
+        }
+        .glass-panel {
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px; padding: 24px; pointer-events: auto;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }
+        header {
+            position: absolute; top: 30px; left: 40px; pointer-events: auto;
+        }
+        header h1 {
+            margin: 0; font-size: 32px; font-weight: 800;
+            background: linear-gradient(135deg, #00ffcc, #58a6ff);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+        header .subtitle {
+            margin-top: 5px; color: var(--text-muted); font-size: 14px; font-weight: 500;
+        }
+        .search-box {
+            position: absolute; top: 40px; right: 40px;
+            display: flex; align-items: center;
+            background: var(--glass-bg); backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border); border-radius: 50px;
+            padding: 8px 20px; pointer-events: auto; transition: all 0.3s ease;
+        }
+        .search-box:focus-within {
+            border-color: var(--accent); box-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
+        }
+        .search-box input {
+            background: transparent; border: none; color: white;
+            font-family: 'Inter', sans-serif; font-size: 15px; width: 250px; outline: none;
+        }
+        .search-box input::placeholder { color: #666; }
+        .search-box button {
+            background: transparent; border: none; color: var(--text-muted);
+            cursor: pointer; display: flex; align-items: center; justify-content: center;
+        }
+        .search-box button:hover { color: var(--text-primary); }
+        
+        #info-panel {
+            position: absolute; bottom: 40px; right: 40px; width: 320px;
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+        }
+        #info-panel.hidden { transform: translateY(20px) scale(0.95); opacity: 0; pointer-events: none; }
+        #info-panel h2 { margin: 0 0 10px 0; font-size: 22px; font-weight: 600; }
+        .badge {
+            display: inline-block; padding: 4px 10px; border-radius: 6px;
+            font-size: 12px; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.5px; margin-bottom: 15px;
+        }
+        .type-macro { background: rgba(0, 255, 204, 0.15); color: #00ffcc; border: 1px solid rgba(0, 255, 204, 0.3); }
+        .type-micro { background: rgba(255, 170, 0, 0.15); color: #ffaa00; border: 1px solid rgba(255, 170, 0, 0.3); }
+        .type-assess { background: rgba(255, 51, 102, 0.15); color: #ff3366; border: 1px solid rgba(255, 51, 102, 0.3); }
+        #info-meta { font-size: 14px; color: var(--text-muted); margin-bottom: 12px; }
+        #info-desc {
+            font-size: 14px; line-height: 1.6; color: #c9d1d9;
+            max-height: 150px; overflow-y: auto; margin-bottom: 20px;
+        }
+        .legend {
+            position: absolute; bottom: 40px; left: 40px;
+            display: flex; flex-direction: column; gap: 12px; pointer-events: auto;
+        }
+        .legend-item { display: flex; align-items: center; font-size: 13px; font-weight: 500; color: var(--text-muted); }
+        .legend-item .dot { width: 12px; height: 12px; border-radius: 50%; margin-right: 12px; box-shadow: 0 0 8px currentColor; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: rgba(0,0,0,0.1); }
+        ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.4); }
+        .assess-btn {
+            background: linear-gradient(135deg, #FF3366, #FF6633);
+            border: none; color: white; padding: 10px 15px; border-radius: 8px;
+            font-weight: 600; cursor: pointer; width: 100%; transition: all 0.2s;
+            margin-top: 10px; display: none;
+        }
+        .assess-btn.visible { display: block; }
+        .assess-btn:hover { background: linear-gradient(135deg, #FF6633, #FF3366); box-shadow: 0 0 10px rgba(255, 51, 102, 0.5); transform: translateY(-1px); }
+        
+        .adaptive-btn {
+            position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+            background: linear-gradient(90deg, #58a6ff, #00ffcc);
+            border: none; border-radius: 30px; padding: 15px 40px;
+            color: #0d1117; font-weight: 800; font-size: 16px; cursor: pointer;
+            box-shadow: 0 0 20px rgba(0, 255, 204, 0.4); transition: all 0.3s ease;
+            pointer-events: auto; z-index: 100;
+        }
+        .adaptive-btn:hover { transform: translateX(-50%) scale(1.05); box-shadow: 0 0 30px rgba(0, 255, 204, 0.6); }
+
+        #dashboard-panel {
+            position: absolute; top: 110px; left: 40px; width: 280px;
+            display: flex; flex-direction: column; gap: 15px; pointer-events: auto;
+        }
+        .stat-card {
+            background: rgba(0, 0, 0, 0.3); border-radius: 12px; padding: 12px 18px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .stat-value { font-size: 26px; font-weight: 800; font-family: monospace; letter-spacing: -1px; }
+        .text-green { color: #33ff33; text-shadow: 0 0 10px rgba(51, 255, 51, 0.5); }
+        .text-orange { color: #ffaa00; text-shadow: 0 0 10px rgba(255, 170, 0, 0.5); }
+        .text-red { color: #ff3333; text-shadow: 0 0 10px rgba(255, 51, 51, 0.5); }
+        .pulse-warning { animation: pulseWarning 2s infinite; }
+        @keyframes pulseWarning { 0% { box-shadow: 0 0 0 0 rgba(255, 170, 0, 0.4); } 70% { box-shadow: 0 0 0 15px rgba(255, 170, 0, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 170, 0, 0); } }
+    </style>
+</head>
+<body>
+    <div id="ui-overlay">
+        <header>
+            <h1>Knowledge Galaxy</h1>
+            <p class="subtitle">Thương mại điện tử &bull; Đồ thị Không Gian Tri Thức</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm bài học, chương...">
+            <button id="searchBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Dashboard UI -->
+        <div id="dashboard-panel" class="glass-panel">
+            <h3 style="margin: 0 0 10px 0; font-size: 16px; color: #58a6ff; display: flex; align-items: center; gap: 8px;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"></path></svg>
+                HỒ SƠ NĂNG LỰC
+            </h3>
+            <div class="stat-card" style="border-left: 4px solid #33ff33;">
+                <div>
+                    <div style="font-size: 11px; color: #8b949e; text-transform: uppercase; font-weight: bold;">Đã Thông Thạo</div>
+                    <div style="font-size: 10px; color: #666;">(Mastery > 80%)</div>
+                </div>
+                <div id="stat-mastered" class="stat-value text-green">0</div>
+            </div>
+            <div class="stat-card pulse-warning" style="border-left: 4px solid #ffaa00;">
+                <div>
+                    <div style="font-size: 11px; color: #8b949e; text-transform: uppercase; font-weight: bold;">Đang Nhạt Dần</div>
+                    <div style="font-size: 10px; color: #666;">(Cần ôn tập gấp)</div>
+                </div>
+                <div id="stat-decaying" class="stat-value text-orange">0</div>
+            </div>
+            <div class="stat-card" style="border-left: 4px solid #ff3333;">
+                <div>
+                    <div style="font-size: 11px; color: #8b949e; text-transform: uppercase; font-weight: bold;">Hổng Kiến Thức</div>
+                    <div style="font-size: 10px; color: #666;">(Mastery < 50%)</div>
+                </div>
+                <div id="stat-weak" class="stat-value text-red">0</div>
+            </div>
+        </div>
+
+        <div id="info-panel" class="hidden">
+            <h2 id="info-title">Tiêu đề Node</h2>
+            <div class="badge" id="info-type">Loại</div>
+            <div class="meta" id="info-meta"></div>
+            <p id="info-desc">Nội dung chi tiết sẽ xuất hiện ở đây...</p>
+            <button id="btn-assess" class="assess-btn" onclick="startAssessment()">Tạo bài Kiểm tra Năng lực AI</button>
+        </div>
+        
+        <div class="legend glass-panel">
+            <div class="legend-item"><span class="dot" style="background:#00ffcc"></span> Chương (Macro)</div>
+            <div class="legend-item"><span class="dot" style="background:#ffaa00"></span> Bài học (Micro)</div>
+            <div class="legend-item"><span class="dot" style="background:#ff3366"></span> Bài tập (Assess)</div>
+        </div>
+        
+        <button class="adaptive-btn" onclick="findWeakestNode()">
+            🎯 Tôi Cần Học & Ôn Gì Hôm Nay?
+        </button>
+    </div>
+
+    <div id="3d-graph"></div>
+
+    <script>
+        const GRAPH_DATA = {"nodes": [{"id": "m1", "type": "macro", "label": "Tổng quan về thị giác máy tính", "color": "#00ffcc", "val": 25}, {"id": "m2", "type": "macro", "label": "Nâng cấp và khôi phục ảnh", "color": "#00ffcc", "val": 25}, {"id": "m3", "type": "macro", "label": "Phân đoạn ảnh", "color": "#00ffcc", "val": 25}, {"id": "m4", "type": "macro", "label": "Phát hiện và mô tả đặc trưng ảnh", "color": "#00ffcc", "val": 25}, {"id": "m5", "type": "macro", "label": "Phân lớp ảnh", "color": "#00ffcc", "val": 25}, {"id": "m6", "type": "macro", "label": "Mạng CNN", "color": "#00ffcc", "val": 25}, {"id": "m7", "type": "macro", "label": "Một số mô hình DeepLearning cho Thị giác máy tính", "color": "#00ffcc", "val": 25}, {"id": "m8", "type": "macro", "label": "Dự đoán chuyển động (motion estimation)", "color": "#00ffcc", "val": 25}, {"id": "c1.1", "type": "micro", "label": "Giới thiệu", "content": "Tổng quan về lĩnh vực Thị giác máy tính, lịch sử phát triển và vai trò quan trọng trong cuộc sống hiện đại. Giải thích sự khác biệt giữa xử lý ảnh và thị giác máy tính, đặt nền móng cho các kiến thức chuyên sâu.", "alpha_base": 10, "color": "#ffaa00", "val": 10}, {"id": "c1.2", "type": "micro", "label": "Ứng dụng", "content": "Trình bày các ứng dụng đa dạng của Thị giác máy tính như nhận diện khuôn mặt, xe tự lái, y tế, robot công nghiệp. Minh họa tiềm năng và tầm quan trọng của lĩnh vực này trong nhiều ngành nghề khác nhau.", "alpha_base": 12, "color": "#ffaa00", "val": 12}, {"id": "c1.3", "type": "micro", "label": "Thách thức", "content": "Thảo luận các vấn đề và giới hạn hiện tại của Thị giác máy tính như điều kiện ánh sáng, góc nhìn, vật cản và dữ liệu huấn luyện. Phân tích những khó khăn cần vượt qua để phát triển hơn nữa công nghệ này.", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "c1.4", "type": "micro", "label": "Ánh sáng và màu sắc", "content": "Giới thiệu các mô hình ánh sáng và không gian màu (RGB, HSV, Grayscale) trong xử lý ảnh. Giải thích cách ánh sáng và màu sắc ảnh hưởng đến việc thu nhận và biểu diễn hình ảnh trong hệ thống thị giác máy tính.", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "c1.5", "type": "micro", "label": "Mô hình camera", "content": "Khám phá các mô hình camera như mô hình lỗ kim (pinhole camera model) và các thông số nội/ngoại của camera. Hiểu cách camera chuyển đổi thế giới 3D thành hình ảnh 2D, một kiến thức nền tảng quan trọng.", "alpha_base": 20, "color": "#ffaa00", "val": 20}, {"id": "c1.6", "type": "micro", "label": "Ảnh số", "content": "Định nghĩa ảnh số, pixel, độ phân giải và các định dạng ảnh phổ biến. Trình bày cách biểu diễn và lưu trữ dữ liệu ảnh trong máy tính, tạo cơ sở cho việc xử lý ảnh số.", "alpha_base": 10, "color": "#ffaa00", "val": 10}, {"id": "c1.7", "type": "micro", "label": "Công cụ và thư viện", "content": "Giới thiệu các công cụ và thư viện phổ biến cho Thị giác máy tính như OpenCV, NumPy, Matplotlib. Hướng dẫn cách sử dụng cơ bản để đọc, hiển thị và thực hiện các thao tác xử lý ảnh ban đầu.", "alpha_base": 18, "color": "#ffaa00", "val": 18}, {"id": "c2.1", "type": "micro", "label": "Các phép toán điểm ảnh", "content": "Giải thích các phép toán cơ bản trên từng điểm ảnh như cộng, trừ, nhân, chia, logarit, lũy thừa. Ứng dụng các phép toán này để điều chỉnh độ sáng, độ tương phản của ảnh một cách hiệu quả.", "alpha_base": 20, "color": "#ffaa00", "val": 20}, {"id": "c2.2", "type": "micro", "label": "Cân bằng Histogram", "content": "Trình bày khái niệm histogram ảnh và kỹ thuật cân bằng histogram để tăng cường độ tương phản của ảnh. Phân tích ưu và nhược điểm của phương pháp này trong các tình huống thực tế.", "alpha_base": 22, "color": "#ffaa00", "val": 22}, {"id": "c2.3", "type": "micro", "label": "Phương pháp lọc ảnh", "content": "Giới thiệu các loại mặt nạ lọc (kernel) và cách áp dụng phép chập (convolution) để lọc ảnh. Phân biệt các loại lọc như lọc làm mờ (smoothing), lọc làm sắc nét (sharpening) và ứng dụng của chúng.", "alpha_base": 25, "color": "#ffaa00", "val": 25}, {"id": "c2.4", "type": "micro", "label": "Nâng cấp ảnh: lọc Gaussian, lọc đạo hàm (Sobel, Laplace)", "content": "Tập trung vào các bộ lọc nâng cao như Gaussian để làm mịn ảnh và các bộ lọc đạo hàm như Sobel, Laplace để phát hiện biên. Phân tích vai trò của từng loại lọc trong việc trích xuất thông tin quan trọng từ ảnh.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c2.5", "type": "micro", "label": "Khôi phục ảnh: lọc max, lọc min, lọc trung bình, lọc trung vị", "content": "Nghiên cứu các bộ lọc dùng để khôi phục ảnh bị nhiễu như lọc max, min, trung bình và trung vị. So sánh hiệu quả của từng loại lọc với các dạng nhiễu khác nhau, tối ưu hóa chất lượng hình ảnh.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c3.1", "type": "micro", "label": "Cắt ngưỡng", "content": "Giới thiệu phương pháp phân đoạn ảnh dựa trên ngưỡng cường độ pixel. Khám phá các kỹ thuật cắt ngưỡng toàn cục và cục bộ, bao gồm phương pháp Otsu, để tách biệt các đối tượng trong ảnh.", "alpha_base": 22, "color": "#ffaa00", "val": 22}, {"id": "c3.2", "type": "micro", "label": "K-Mean, Mean Shift", "content": "Trình bày thuật toán phân cụm K-Means và Mean Shift để phân đoạn ảnh dựa trên đặc trưng màu sắc hoặc không gian. So sánh ưu nhược điểm và ứng dụng của mỗi phương pháp trong các bài toán thực tế.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c3.3", "type": "micro", "label": "Graphcut", "content": "Giải thích nguyên lý hoạt động của thuật toán Graph Cut trong phân đoạn ảnh, dựa trên lý thuyết đồ thị và cắt tối thiểu. Phân tích cách nó tối ưu hóa việc phân tách vùng tiền cảnh và nền một cách chính xác.", "alpha_base": 30, "color": "#ffaa00", "val": 30}, {"id": "c4.1", "type": "micro", "label": "Phát hiện điểm, đường, biên", "content": "Nghiên cứu các phương pháp phát hiện các đặc trưng cơ bản như điểm (corners), đường thẳng (Hough Transform) và biên (Canny, Sobel). Giải thích vai trò của chúng trong việc hiểu cấu trúc và hình dạng của ảnh.", "alpha_base": 25, "color": "#ffaa00", "val": 25}, {"id": "c4.2", "type": "micro", "label": "Phát hiện đặc trưng: Phát hiện đặc trưng góc, Phát hiện đặc trưng đa tỉ lệ", "content": "Đi sâu vào các thuật toán phát hiện đặc trưng phức tạp hơn như Harris Corner Detector, SIFT Keypoints. Phân tích khái niệm đặc trưng góc và đặc trưng đa tỉ lệ, giúp nhận diện đối tượng hiệu quả hơn.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c4.3", "type": "micro", "label": "Mô tả đặc trưng ảnh: SURF, SIFT, HOG, LBP", "content": "Giới thiệu chi tiết các bộ mô tả đặc trưng ảnh như SURF, SIFT, HOG (Histogram of Oriented Gradients) và LBP (Local Binary Patterns). Giải thích cách các bộ mô tả này mã hóa thông tin cục bộ của ảnh để nhận dạng.", "alpha_base": 30, "color": "#ffaa00", "val": 30}, {"id": "c4.4", "type": "micro", "label": "So khớp đặc trưng", "content": "Trình bày các kỹ thuật so khớp đặc trưng giữa hai ảnh bằng cách sử dụng các bộ mô tả như SIFT/SURF và thuật toán như Brute-Force Matcher, FLANN Matcher. Ứng dụng trong các bài toán nhận dạng và ghép ảnh.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c5.1", "type": "micro", "label": "K Nearest Neighbors", "content": "Giới thiệu thuật toán K-Nearest Neighbors (KNN) để phân loại ảnh dựa trên khoảng cách đặc trưng. Phân tích cách hoạt động, ưu nhược điểm và các yếu tố ảnh hưởng đến hiệu suất của thuật toán này.", "alpha_base": 25, "color": "#ffaa00", "val": 25}, {"id": "c5.2", "type": "micro", "label": "Bag-of-features", "content": "Giải thích mô hình Bag-of-Features (BoF) để biểu diễn ảnh dưới dạng vector đặc trưng. Phân tích các bước xây dựng BoF từ trích xuất đặc trưng đến tạo từ điển thị giác và biểu diễn ảnh, phục vụ cho phân lớp.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c5.3", "type": "micro", "label": "Support Vector Machine", "content": "Trình bày thuật toán Support Vector Machine (SVM) để phân loại ảnh hiệu quả. Khám phá các khái niệm như siêu phẳng, biên độ và các hàm kernel trong SVM, hiểu cách chúng tối ưu hóa việc phân tách dữ liệu.", "alpha_base": 30, "color": "#ffaa00", "val": 30}, {"id": "c6.1", "type": "micro", "label": "Kiến trúc CNN", "content": "Giới thiệu cấu trúc cơ bản của Mạng tích chập (CNN) bao gồm các lớp tích chập, lớp pooling, lớp kích hoạt và lớp kết nối đầy đủ. Giải thích vai trò của từng lớp trong việc học các đặc trưng từ ảnh một cách hiệu quả.", "alpha_base": 25, "color": "#ffaa00", "val": 25}, {"id": "c6.2", "type": "micro", "label": "Các kỹ thuật cơ bản", "content": "Khám phá các kỹ thuật quan trọng trong CNN như padding, stride, data augmentation và dropout. Phân tích cách chúng giúp cải thiện hiệu suất và ngăn chặn hiện tượng overfitting trong quá trình huấn luyện mô hình.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c6.3", "type": "micro", "label": "Pretrained Models for Transfer Learning", "content": "Giải thích khái niệm mô hình tiền huấn luyện (pretrained models) và kỹ thuật học chuyển giao (transfer learning). Hướng dẫn cách sử dụng các mô hình này để giải quyết các bài toán thị giác máy tính với lượng dữ liệu hạn chế.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c6.4", "type": "micro", "label": "Ứng dụng CNN: Nhận diện đối tượng, Phát hiện đối tượng", "content": "Trình bày các ứng dụng thực tế của CNN trong nhận diện đối tượng (image classification) và phát hiện đối tượng (object detection) trong ảnh và video. Giới thiệu các kiến trúc phổ biến như R-CNN, YOLO.", "alpha_base": 30, "color": "#ffaa00", "val": 30}, {"id": "c7.1", "type": "micro", "label": "VGG16", "content": "Khám phá kiến trúc của mạng VGG16, nổi bật với việc sử dụng các lớp tích chập nhỏ và sâu. Phân tích cách VGG16 đạt được hiệu suất cao trong các tác vụ phân loại ảnh bằng cách tăng độ sâu mạng.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c7.2", "type": "micro", "label": "MobiNet", "content": "Giới thiệu kiến trúc MobiNet, được thiết kế cho các thiết bị di động và tài nguyên hạn chế. Phân tích các kỹ thuật như Depthwise Separable Convolution giúp giảm đáng kể số lượng tham số và tính toán.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c7.3", "type": "micro", "label": "ResNet", "content": "Trình bày kiến trúc ResNet (Residual Network) với khái niệm khối dư (residual block) giúp giải quyết vấn đề gradient vanishing trong mạng sâu. Phân tích cách các kết nối tắt (skip connections) cải thiện hiệu quả huấn luyện.", "alpha_base": 30, "color": "#ffaa00", "val": 30}, {"id": "c7.4", "type": "micro", "label": "Alexnet, Inception V3", "content": "Giới thiệu các kiến trúc tiêu biểu như AlexNet, một trong những mô hình tiên phong của CNN, và Inception V3 với các module Inception phức tạp. So sánh sự tiến hóa của các kiến trúc này trong Deep Learning.", "alpha_base": 30, "color": "#ffaa00", "val": 30}, {"id": "c8.1", "type": "micro", "label": "Phép liên kết chuyển đổi", "content": "Giới thiệu các phép biến đổi hình học cơ bản như tịnh tiến, xoay, tỉ lệ và biến đổi Affine. Giải thích cách chúng được sử dụng để mô tả và ước tính chuyển động giữa các khung hình trong video.", "alpha_base": 25, "color": "#ffaa00", "val": 25}, {"id": "c8.2", "type": "micro", "label": "Chuyển động tham số", "content": "Trình bày các mô hình chuyển động tham số như mô hình Affine và mô hình Perspective. Phân tích cách ước lượng các tham số chuyển động từ các cặp điểm tương ứng để tái tạo hoặc dự đoán chuyển động.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "c8.3", "type": "micro", "label": "Chuyển động dạng Spline, Luồng quang", "content": "Khám phá các phương pháp phức tạp hơn như chuyển động dạng Spline để mô tả chuyển động phi tuyến tính và khái niệm Luồng quang (Optical Flow) để ước tính trường vector chuyển động của từng pixel.", "alpha_base": 30, "color": "#ffaa00", "val": 30}, {"id": "c8.4", "type": "micro", "label": "Chuyển động phân lớp", "content": "Giới thiệu các kỹ thuật phân lớp chuyển động để nhóm các điểm ảnh có cùng chuyển động hoặc thuộc về cùng một đối tượng di chuyển. Ứng dụng trong phân tích video và nhận dạng hành vi tự động.", "alpha_base": 28, "color": "#ffaa00", "val": 28}, {"id": "a2.1", "type": "assess", "label": "Đánh giá c2.4", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a4.1", "type": "assess", "label": "Đánh giá c4.3", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a6.1", "type": "assess", "label": "Đánh giá c6.1", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a7.1", "type": "assess", "label": "Đánh giá c7.3", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}], "links": [{"source": "m1", "target": "c1.1", "relation": "contains"}, {"source": "m1", "target": "c1.2", "relation": "contains"}, {"source": "m1", "target": "c1.3", "relation": "contains"}, {"source": "m1", "target": "c1.4", "relation": "contains"}, {"source": "m1", "target": "c1.5", "relation": "contains"}, {"source": "m1", "target": "c1.6", "relation": "contains"}, {"source": "m1", "target": "c1.7", "relation": "contains"}, {"source": "m2", "target": "c2.1", "relation": "contains"}, {"source": "m2", "target": "c2.2", "relation": "contains"}, {"source": "m2", "target": "c2.3", "relation": "contains"}, {"source": "m2", "target": "c2.4", "relation": "contains"}, {"source": "m2", "target": "c2.5", "relation": "contains"}, {"source": "m3", "target": "c3.1", "relation": "contains"}, {"source": "m3", "target": "c3.2", "relation": "contains"}, {"source": "m3", "target": "c3.3", "relation": "contains"}, {"source": "m4", "target": "c4.1", "relation": "contains"}, {"source": "m4", "target": "c4.2", "relation": "contains"}, {"source": "m4", "target": "c4.3", "relation": "contains"}, {"source": "m4", "target": "c4.4", "relation": "contains"}, {"source": "m5", "target": "c5.1", "relation": "contains"}, {"source": "m5", "target": "c5.2", "relation": "contains"}, {"source": "m5", "target": "c5.3", "relation": "contains"}, {"source": "m6", "target": "c6.1", "relation": "contains"}, {"source": "m6", "target": "c6.2", "relation": "contains"}, {"source": "m6", "target": "c6.3", "relation": "contains"}, {"source": "m6", "target": "c6.4", "relation": "contains"}, {"source": "m7", "target": "c7.1", "relation": "contains"}, {"source": "m7", "target": "c7.2", "relation": "contains"}, {"source": "m7", "target": "c7.3", "relation": "contains"}, {"source": "m7", "target": "c7.4", "relation": "contains"}, {"source": "m8", "target": "c8.1", "relation": "contains"}, {"source": "m8", "target": "c8.2", "relation": "contains"}, {"source": "m8", "target": "c8.3", "relation": "contains"}, {"source": "m8", "target": "c8.4", "relation": "contains"}, {"source": "c2.4", "target": "a2.1", "relation": "assessed_by"}, {"source": "c4.3", "target": "a4.1", "relation": "assessed_by"}, {"source": "c6.1", "target": "a6.1", "relation": "assessed_by"}, {"source": "c7.3", "target": "a7.1", "relation": "assessed_by"}, {"source": "c1.1", "target": "c1.2", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c1.3", "relation": "prerequisite_for"}, {"source": "c1.4", "target": "c1.6", "relation": "prerequisite_for"}, {"source": "c1.5", "target": "c1.6", "relation": "prerequisite_for"}, {"source": "c1.6", "target": "c1.7", "relation": "prerequisite_for"}, {"source": "c1.6", "target": "c2.1", "relation": "prerequisite_for"}, {"source": "c1.6", "target": "c6.1", "relation": "prerequisite_for"}, {"source": "c1.6", "target": "c8.1", "relation": "prerequisite_for"}, {"source": "c2.1", "target": "c2.2", "relation": "prerequisite_for"}, {"source": "c2.1", "target": "c2.3", "relation": "prerequisite_for"}, {"source": "c2.1", "target": "c3.1", "relation": "prerequisite_for"}, {"source": "c2.3", "target": "c2.4", "relation": "prerequisite_for"}, {"source": "c2.3", "target": "c2.5", "relation": "prerequisite_for"}, {"source": "c2.4", "target": "c4.1", "relation": "prerequisite_for"}, {"source": "c2.4", "target": "c8.3", "relation": "prerequisite_for"}, {"source": "c3.1", "target": "c3.2", "relation": "prerequisite_for"}, {"source": "c3.2", "target": "c3.3", "relation": "prerequisite_for"}, {"source": "c4.1", "target": "c4.2", "relation": "prerequisite_for"}, {"source": "c4.2", "target": "c4.3", "relation": "prerequisite_for"}, {"source": "c4.3", "target": "c4.4", "relation": "prerequisite_for"}, {"source": "c4.3", "target": "c5.1", "relation": "prerequisite_for"}, {"source": "c4.3", "target": "c5.2", "relation": "prerequisite_for"}, {"source": "c4.3", "target": "c5.3", "relation": "prerequisite_for"}, {"source": "c6.1", "target": "c6.2", "relation": "prerequisite_for"}, {"source": "c6.1", "target": "c7.1", "relation": "prerequisite_for"}, {"source": "c6.1", "target": "c7.2", "relation": "prerequisite_for"}, {"source": "c6.1", "target": "c7.3", "relation": "prerequisite_for"}, {"source": "c6.1", "target": "c7.4", "relation": "prerequisite_for"}, {"source": "c6.2", "target": "c6.3", "relation": "prerequisite_for"}, {"source": "c6.2", "target": "c6.4", "relation": "prerequisite_for"}, {"source": "c8.1", "target": "c8.2", "relation": "prerequisite_for"}, {"source": "c8.2", "target": "c8.4", "relation": "prerequisite_for"}, {"source": "c8.3", "target": "c8.4", "relation": "prerequisite_for"}]};
+        const USER_STATE = {"subject_id": "5279da17", "mastery": {"c1.6": {"level": 0.6034227662372198, "attempts": 3, "last_score": 10, "last_updated": 1774719643.3916447, "pure_level": 0.9200000000000002, "_decayed": true}}, "current_focus": "c1.6"};
+        window.currentNodeId = null;
+        window.currentNodeContent = null;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const graphElem = document.getElementById('3d-graph');
+            
+            function getNodeColor(node) {
+                if (node.type === 'macro') return '#00ffcc'; // Chương (Cyan gốc)
+                const masteryData = USER_STATE.mastery[node.id];
+                if (!masteryData || masteryData.attempts === 0) return 'rgba(136, 136, 136, 0.4)'; // Chưa học (Xám)
+                
+                const level = masteryData.level;
+                if (masteryData._decayed && level < 0.9) return '#ffaa00'; // Đang nhạt dần -> Vàng Cam Ebbinghaus
+                if (level < 0.5) return '#ff3333'; // Đỏ (Hổng kiến thức)
+                if (level < 0.8) return '#ffdd33'; // Vàng nhạt (Mới biết)
+                return '#33ff33'; // Xanh lục (Master)
+            }
+
+            // Dashboard Analytics Engine
+            function updateDashboard() {
+                let mastered = 0, decaying = 0, weak = 0, untouched = 0;
+                GRAPH_DATA.nodes.forEach(n => {
+                    if(n.type === 'micro' || n.type === 'assess') {
+                        const m = USER_STATE.mastery[n.id];
+                        if(m && m.attempts > 0) {
+                            if (m._decayed && m.level < 0.9) decaying++;
+                            else if (m.level >= 0.8) mastered++;
+                            else if (m.level < 0.5) weak++;
+                        } else {
+                            untouched++;
+                        }
+                    }
+                });
+                document.getElementById('stat-mastered').innerText = mastered;
+                document.getElementById('stat-decaying').innerText = decaying;
+                document.getElementById('stat-weak').innerText = weak;
+            }
+            updateDashboard();
+
+            const Graph = ForceGraph3D()(graphElem)
+                .backgroundColor('#0d1117')
+                .nodeLabel('label')
+                .nodeColor(node => getNodeColor(node))
+                .nodeVal(node => {
+                    if(node.type === 'macro') return 25;
+                    const masteryData = USER_STATE.mastery[node.id];
+                    if (!masteryData) return 10;
+                    return 10 + (masteryData.level * 15);
+                })
+                .linkDirectionalArrowLength(3.5)
+                .linkDirectionalArrowRelPos(1)
+                .linkColor(() => 'rgba(255,255,255,0.2)')
+                .linkWidth(0.5)
+                .graphData(GRAPH_DATA)
+                .onNodeClick(node => handleNodeClick(node))
+                .onNodeHover(node => {
+                    graphElem.style.cursor = node ? 'pointer' : null;
+                });
+
+            const panel = document.getElementById('info-panel');
+            const pTitle = document.getElementById('info-title');
+            const pType = document.getElementById('info-type');
+            const pMeta = document.getElementById('info-meta');
+            const pDesc = document.getElementById('info-desc');
+
+            function handleNodeClick(node) {
+                const distance = 80;
+                const distRatio = 1 + distance/Math.hypot(node.x || Math.random(), node.y || Math.random(), node.z || Math.random());
+                
+                Graph.cameraPosition(
+                    { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, 
+                    node, 1500
+                );
+                
+                panel.classList.add('glass-panel');
+                pTitle.innerText = node.label || 'Không có tiêu đề';
+                
+                pType.className = 'badge'; 
+                if(node.type === 'macro') {
+                    pType.classList.add('type-macro'); pType.innerText = "CHƯƠNG KIẾN THỨC";
+                    pMeta.innerText = "Mã Node: " + node.id;
+                    pDesc.innerText = "Đây là một chương (mục) lớn của môn học.";
+                } else if(node.type === 'micro') {
+                    pType.classList.add('type-micro'); pType.innerText = "BÀI HỌC QUAN TRỌNG";
+                    const mastery = USER_STATE.mastery[node.id] ? USER_STATE.mastery[node.id].level : 0;
+                    pMeta.innerText = "Điểm Thông thạo (Mastery): " + Math.round(mastery*100) + "/100 🏆";
+                    pDesc.innerText = node.content || "Chưa có nội dung chi tiết cho bài học này.";
+                } else if(node.type === 'assess') {
+                    pType.classList.add('type-assess'); pType.innerText = "BÀI KIỂM TRA ĐÁNH GIÁ";
+                    pMeta.innerText = "Ngưỡng đạt (Theta): " + (node.theta_pass || '--');
+                    pDesc.innerText = "Bài kiểm tra này dùng để đánh giá năng lực của bạn trong node " + (node.id).replace('a', 'c') + ".";
+                }
+
+                // Xử lý nút Assess
+                const assessBtn = document.getElementById('btn-assess');
+                if((node.type === 'micro' || node.type === 'assess') && node.content) {
+                    window.currentNodeId = node.id;
+                    window.currentNodeContent = node.content;
+                    assessBtn.classList.add('visible');
+                } else {
+                    assessBtn.classList.remove('visible');
+                }
+
+                panel.classList.remove('hidden');
+            }
+            window.startAssessment = function() {
+                if(!window.currentNodeId) return;
+                // Popup mở tính năng AI Quiz
+                window.open(`/quiz_node/${USER_STATE.subject_id}/${window.currentNodeId}`, '_blank', 'width=800,height=750,top=100,left=300');
+            };
+
+            window.findWeakestNode = function() {
+                let target = null;
+                
+                // Thuật toán Adaptive Pathfinding Lõi AI:
+                // 1. Ưu tiên cao nhất: Module đang bị nhạt do quên lãng Ebbinghaus (Tức là đã học mà rụng)
+                let decayingNodes = GRAPH_DATA.nodes.filter(n => {
+                    const m = USER_STATE.mastery[n.id];
+                    return m && m._decayed && m.level < 0.9 && (n.type === 'micro' || n.type === 'assess');
+                });
+                
+                if (decayingNodes.length > 0) {
+                    // Ưu tiên node rụng sâu nhất
+                    decayingNodes.sort((a,b) => USER_STATE.mastery[a.id].level - USER_STATE.mastery[b.id].level);
+                    target = decayingNodes[0];
+                    alert('🚨 [CẢNH BÁO EBBINGHAUS]: Có kiến thức bạn đang dần quên lãng. Đề xuất ưu tiên ôn tập nhanh Node: ' + (target.label || target.id));
+                } else {
+                    // 2. Không có node nhạt, đi tìm node chưa học mà có tiên quyết (Hoặc gốc cây)
+                    let untouchedNodes = GRAPH_DATA.nodes.filter(n => (n.type === 'micro' || n.type === 'assess') && (!USER_STATE.mastery[n.id] || USER_STATE.mastery[n.id].attempts === 0));
+                    
+                    if (untouchedNodes.length > 0) {
+                        target = untouchedNodes[0];
+                        alert('🌱 Đề xuất bài học tiếp theo theo lộ trình gốc: ' + (target.label || target.id));
+                    } else {
+                        // 3. Nếu học hết rồi thì tìm cái điểm cùi bắp nhất để cải thiện
+                        let lowestScore = 999;
+                        for (let i = 0; i < GRAPH_DATA.nodes.length; i++) {
+                            const n = GRAPH_DATA.nodes[i];
+                            if (n.type === 'micro' || n.type === 'assess') {
+                                const mastery = USER_STATE.mastery[n.id];
+                                if (mastery && mastery.level < lowestScore) {
+                                    lowestScore = mastery.level;
+                                    target = n;
+                                }
+                            }
+                        }
+                        if (target && lowestScore < 0.8) {
+                            alert('🎯 Điểm của bạn đang hổng ở mức ' + Math.round(lowestScore*100) + '/100. Hãy thử sức để cải thiện Node: ' + (target.label || target.id));
+                        } else {
+                            target = null;
+                        }
+                    }
+                }
+                
+                if (target) {
+                    handleNodeClick(target); // Lệnh Camera bay tới nút đó
+                } else {
+                    alert('🏆 CHÚC MỪNG! Bạn đã đạt mốc Master toàn bộ cây kiến thức này xuất sắc!');
+                }
+            };
+
+            // Khởi tạo Interval Timer cập nhật realtime nhẹ
+            setInterval(() => {
+                // Fetch file trạng thái thực tế từ local web server (Phải thêm cache buster để tránh Browser Cache đè)
+                fetch(`/user_data/sv01/states/5279da17_state.json?t=${Date.now()}`)
+                    .then(r => r.json())
+                    .then(data => {
+                        let changed = false;
+                        if(data && data.mastery) {
+                            // So sánh và merge
+                            Object.keys(data.mastery).forEach(key => {
+                                if (!USER_STATE.mastery[key] || USER_STATE.mastery[key].level !== data.mastery[key].level || USER_STATE.mastery[key].attempts !== data.mastery[key].attempts) {
+                                    USER_STATE.mastery[key] = data.mastery[key];
+                                    changed = true;
+                                }
+                            });
+                        }
+                        if (changed) {
+                            // Cập nhật lại màu sắc Node trên 3D Graph
+                            Graph.nodeColor(Graph.nodeColor());
+                            Graph.nodeVal(Graph.nodeVal());
+                            // Cập nhật lại Dashboard góc trên
+                            updateDashboard();
+                            
+                            // Nếu node đang xem nằm trong Info Panel thì cập nhật text
+                            if (window.currentNodeId) {
+                                const currentMastery = USER_STATE.mastery[window.currentNodeId] ? USER_STATE.mastery[window.currentNodeId].level : 0;
+                                document.getElementById('info-meta').innerText = "Điểm Thông thạo (Mastery): " + Math.round(currentMastery*100) + "/100 🏆";
+                            }
+                        }
+                    })
+                    .catch(e => console.log('Silently ignoring fetch sync error', e));
+            }, 3000);
+
+            const searchInput = document.getElementById('searchInput');
+            const searchBtn = document.getElementById('searchBtn');
+
+            function doSearch() {
+                const query = searchInput.value.toLowerCase().trim();
+                if(!query) return;
+
+                const target = GRAPH_DATA.nodes.find(n => (n.label || '').toLowerCase().includes(query));
+                if(target) {
+                    handleNodeClick(target);
+                } else {
+                    alert("Không tìm thấy kết quả nào trùng khớp với từ khóa của bạn!");
+                }
+            }
+
+            searchBtn.addEventListener('click', doSearch);
+            searchInput.addEventListener('keydown', (e) => {
+                if(e.key === 'Enter') doSearch();
+            });
+        });
+    </script>
+</body>
+</html>

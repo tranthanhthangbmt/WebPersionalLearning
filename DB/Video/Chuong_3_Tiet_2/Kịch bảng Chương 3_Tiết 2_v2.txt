@@ -1,0 +1,63 @@
+﻿Slide 1: TRANG BÌA & GIỚI THIỆU
+Người 1: Chào các em sinh viên lớp BA24M. Ở tiết trước, chúng ta đã làm quen với ZMOT và sự dịch chuyển từ Push sang Pull. Hôm nay, chúng ta sẽ bước vào Tiết 2 để giải mã chính các em - những người tiêu dùng trực tuyến. Thầy có một thông điệp thế này: "Trên Internet, đối thủ của bạn chỉ cách khách hàng đúng một cú nhấp chuột". Nếu không hiểu vì sao khách hàng click chữ 'Mua', doanh nghiệp sẽ nắm chắc phần thua.
+Người 2: Dạ chào thầy ạ. Câu nói của thầy chuẩn quá. Em thấy bản thân em khi mua hàng, nhiều khi đang ở web của hãng này, nhưng thấy web kia có mã giảm giá là em đóng tab, sang ngay web đối thủ mua luôn chỉ trong chưa tới 3 giây.
+Người 1: Đúng vậy! Sự trung thành trên không gian mạng rất mong manh. Bài học hôm nay sẽ cung cấp cho các em một "bản đồ tâm lý" để giữ chân khách hàng trước khi họ kịp nhấn nút "X" để đóng tab.
+Slide 2: MỤC TIÊU TIẾT HỌC
+Người 1: Để giải mã được tâm lý đó, chúng ta cần hoàn thành 4 mục tiêu trên bảng. Chúng ta sẽ cùng nhau mổ xẻ xem điều gì thực sự diễn ra trong đầu khách hàng từ lúc họ nhìn thấy món hàng cho đến lúc họ rút ví. Đặc biệt, ở phần cuối, chúng ta sẽ làm quen với một thế hệ khách hàng mới: "Khách hàng xã hội" – những người không chỉ mua hàng mà còn thích review, thích "bóc phốt" hoặc "khen ngợi" trên mạng.
+Người 2: Chắc là thầy đang nói đến thế hệ Gen Z tụi em rồi, mua ly trà sữa xong cũng phải chụp ảnh check-in rồi lên Google Maps chấm điểm (cười).
+Slide 3: KHỞI ĐỘNG - MINI KHẢO SÁT
+Người 1: Trước khi vào lý thuyết, thầy muốn làm một khảo sát nhỏ. Giả sử em đang tìm mua một chiếc áo thun. Em thấy 2 shop A và B bán cùng một mẫu áo đó. Shop A giá rẻ hơn 20k nhưng không có review. Shop B đắt hơn 20k nhưng có rất nhiều review 5 sao kèm hình ảnh thật và được Freeship. Em chọn bên nào?
+Người 2: Em chắc chắn chọn Shop B thưa thầy! Mua quần áo trên mạng sợ nhất là "hàng trên mạng và hàng thực tế". Thà đắt hơn một chút nhưng thấy hình người thật việc thật mặc đẹp, lại còn được Freeship thì em mới dám chốt đơn.
+Người 1: Tuyệt vời. Lựa chọn của em chính là câu trả lời cho câu hỏi: Quyết định mua hàng không chỉ phụ thuộc vào bản thân sản phẩm. Chiếc áo là giống nhau, nhưng em chốt đơn vì các yếu tố xoay quanh nó như: Môi trường (Review từ người khác), Người bán (Độ uy tín), và Hệ thống (Chính sách Freeship). Đó chính là nền tảng của mô hình chúng ta sắp học.
+Slide 4: MÔ HÌNH HÀNH VI NGƯỜI TIÊU DÙNG TRỰC TUYẾN
+Người 1: Dựa trên khảo sát vừa rồi, các chuyên gia đã đúc kết lại thành "Mô hình Hành vi Người tiêu dùng trực tuyến". Hãy tưởng tượng bộ não của khách hàng là một cái phễu. Để có được "hành vi mua" ở đáy phễu, khách hàng chịu sự tác động nhào nặn của 5 nhóm yếu tố này.
+Người 2: Thầy có thể lấy một ví dụ tổng hợp cả 5 yếu tố này khi mua một món đồ đắt tiền không ạ?
+Người 1: Ví dụ em muốn mua một chiếc Laptop Dell XPS.
+1. Yếu tố Sản phẩm: Cấu hình mạnh, thiết kế đẹp.
+2. Đặc điểm Người tiêu dùng: Em là sinh viên, ngân sách có hạn (khoảng 25 triệu).
+3. Yếu tố Môi trường: Bạn bè trong lớp em ai cũng khen dòng máy này bền.
+4. Yếu tố Người bán: Em chọn mua ở Thế Giới Di Động vì tin tưởng thương hiệu bảo hành tốt.
+5. Yếu tố Hệ thống: Website của họ cho phép duyệt hồ sơ trả góp 0% online chỉ trong 5 phút. Tổng hòa 5 yếu tố này ăn khớp với nhau, và bùm, em nhấn nút đặt hàng!
+Slide 5: NHÓM 1 - ĐẶC ĐIỂM NGƯỜI TIÊU DÙNG
+Người 1: Chúng ta sẽ đi sâu vào khối đầu tiên: Đặc điểm của chính người mua. Nhân khẩu học hay tâm lý thì dễ hiểu rồi. Người trẻ mua hàng trên TikTok Shop, người lớn tuổi có thể thích mua trên Web chính hãng. Nhưng thầy muốn nhấn mạnh vào chữ "Kinh nghiệm". Trải nghiệm quá khứ định hình hành vi tương lai rất mạnh trong TMĐT.
+Người 2: Có phải ý thầy là "Một lần bất tín, vạn lần bất tin" không ạ? Lần trước em mua cái tai nghe trên mạng bị lừa giao cục gạch, từ đó em sợ, mua đồ điện tử là em toàn đòi kiểm tra hàng trước khi thanh toán.
+Người 1: Rất chính xác! Nỗi sợ rủi ro do kinh nghiệm tồi tệ trong quá khứ là rào cản tâm lý rất lớn. Ngược lại, nếu em đã từng mua sách trên Tiki, thấy giao nhanh, bọc cẩn thận, thì lần sau có nhu cầu, não em sẽ tự động "nảy số" tìm đến Tiki đầu tiên mà không thèm phân vân. Đó là sức mạnh của việc thấu hiểu đặc điểm người tiêu dùng để tạo ra trải nghiệm tốt.
+ 
+Slide 6: Nhóm 2 & 3 - Yếu tố Môi trường và Sản phẩm
+Người 1: Tiếp tục với mô hình, chúng ta chuyển sang hai nhóm yếu tố tiếp theo: Môi trường và Sản phẩm. Môi trường ở đây không phải là thời tiết, mà là sự chi phối từ gia đình, bạn bè, hoặc các hội nhóm trên mạng. Còn Sản phẩm thì rõ ràng rồi: giá cả, chất lượng, thương hiệu.
+Người 2: Việc bị tác động bởi môi trường xung quanh thì em thấy rất đúng với bản thân. Nhiều khi em không định mua đồ, nhưng lướt TikTok hay các group Facebook thấy bạn bè review, khen ngợi rầm rộ là em cũng tò mò chốt đơn theo.
+Người 1: Chính xác, đó là sức mạnh của cộng đồng mạng chi phối tâm lý mua sắm của chúng ta.
+Slide 7: Nhóm 4 - Yếu tố Người bán và Trung gian (Merchant Factors)
+Người 1: Nhóm thứ tư là Yếu tố từ chính người bán. Yếu tố này doanh nghiệp không thể kiểm soát 100% tâm lý khách hàng, nhưng độ uy tín là vô cùng quan trọng. Khách hàng sẽ cảm thấy an tâm hơn rất nhiều khi mua từ một thương hiệu nổi tiếng hoặc gian hàng chính hãng.
+Người 2: Dạ đúng ạ. Giữa một shop bán hàng bình thường và một Shopee Mall bán cùng một mức giá, chắc chắn em sẽ chọn Shopee Mall vì lỡ có vấn đề gì thì việc khiếu nại, đổi trả cũng dễ dàng và tin tưởng hơn.
+Người 1: Tuyệt vời. Đó chính là lý do các sàn luôn khuyến khích người bán tối ưu dịch vụ để nâng cấp lên các danh hiệu uy tín nhằm tạo lòng tin.
+Slide 8: Nhóm 5 - Yếu tố Hệ thống TMĐT (EC Systems)
+Người 1: Yếu tố cuối cùng và cũng là nền tảng doanh nghiệp kiểm soát 100% chính là Hệ thống TMĐT. Ở đây có 2 nhóm nhỏ. Nhóm 'Động viên' là các công cụ giúp khách mua nhanh như tìm kiếm thông minh, thanh toán đa dạng. Nhóm 'Duy trì' là các yếu tố bảo vệ khách như bảo mật thông tin, web không bị lỗi kỹ thuật.
+Người 2: Em từng rất bực mình vì vào một web mua quần áo mà mãi không tải được hình ảnh, hoặc đến bước thanh toán thì cứ báo lỗi xoay vòng vòng. Cảm giác lúc đó chỉ muốn thoát ra tìm web của đối thủ mua luôn cho xong.
+Người 1: Sự bực mình của em cho thấy yếu tố 'Duy trì' trên trang web đó quá kém. Khách hàng online rất thiếu kiên nhẫn, chỉ cần một lỗi nhỏ ở hệ thống là doanh nghiệp đã đánh mất doanh thu.
+Slide 9: Quá trình Ra quyết định (The Attitude-Behavior Process)
+Người 1: Sau khi não bộ khách hàng xử lý xong 5 nhóm yếu tố trên, họ sẽ đi qua các bước ra quyết định. Đầu tiên là Nhận thức được nhu cầu, tiếp theo là có Thái độ tích cực với sản phẩm, sau đó sinh ra Ý định mua, và cuối cùng mới là Hành vi mua thực sự.
+Người 2: Nghe có vẻ giống một cái phễu lọc thầy nhỉ? Từ lúc biết đến sản phẩm cho tới lúc thực sự rút ví ra trả tiền là một quá trình khách hàng rơi rụng dần.
+Người 1: Em so sánh rất hay! Nhiệm vụ của người làm marketing là phải kiểm soát các điểm chạm này, chuyển đổi dần trên môi trường trực tuyến để giữ cho cái 'phễu' đó ít bị rơi rụng nhất có thể.
+Slide 10: Xây dựng Lòng trung thành của Khách hàng trực tuyến
+Người 1: Và bước cuối cùng nhưng giá trị nhất của phễu chính là Lòng trung thành. Khách hàng cũ thường bỏ qua các bước đánh giá rườm rà vì họ đã có sẵn niềm tin. Để giữ chân họ, doanh nghiệp cần ghi nhận tầm quan trọng của khách, dịch vụ chăm sóc tốt, tiện lợi và có các ưu đãi kinh tế độc quyền.
+Người 2: Như em là fan cứng của Tiki, vì em có thẻ TikiNOW giao hàng nhanh 2h, lại thường xuyên được tặng mã Freeship. Nên cứ cần mua sách là em vào Tiki đầu tiên chứ chẳng buồn sang chỗ khác để so giá nữa.
+Người 1: Đó chính là minh chứng rõ nét nhất cho việc lòng trung thành được xây dựng thành công từ sự tiện lợi và các đòn bẩy ưu đãi!
+Slide 11: Sự trỗi dậy của "Khách hàng Xã hội" (The Social Customer)
+Người 1: Bây giờ, chúng ta sẽ làm quen với một thế hệ khách hàng mới trong kỷ nguyên số: "Khách hàng xã hội". Họ không chỉ mua sắm trong im lặng mà còn có thói quen chia sẻ, viết đánh giá, và hoạt động cực kỳ mạnh trên các mạng xã hội.
+Người 2: Chắc chắn là thầy đang nói đến thế hệ Gen Z của tụi em rồi. Đi ăn quán nào hay mua món đồ gì xong, tốt hay xấu tụi em cũng lên các hội nhóm Facebook hoặc Google Maps để review ngay lập tức.
+Slide 12: Đặc điểm hành vi của Khách hàng Xã hội
+Người 1: Đúng thế. Đặc điểm lớn nhất của tệp khách hàng này là họ tin vào đánh giá (rating) của những người mua trước hơn là tin vào quảng cáo từ thương hiệu. Họ vừa là người tiêu dùng, vừa là người tạo ra sức ảnh hưởng đối với những người khác.
+Người 2: Dạ vâng, doanh nghiệp bây giờ mà làm ăn chộp giật thì khách hàng bóc phốt một bài là có nguy cơ bị tẩy chay luôn. Sức mạnh của cộng đồng mạng thật sự rất lớn.
+Người 1: Chính vì thế, doanh nghiệp ngày nay buộc phải chuyển từ việc "độc thoại" – chỉ biết quảng cáo một chiều, sang "đối thoại", minh bạch và tương tác với khách hàng thông qua quản trị quan hệ khách hàng xã hội (Social CRM).
+Slide 13: Tóm tắt nội dung Tiết 2 (Key Takeaways)
+Người 1: Trước khi qua phần bài tập, thầy tóm tắt lại 3 ý chính của tiết học này. Một là, hành vi mua sắm trực tuyến bị chi phối bởi 5 nhóm yếu tố từ môi trường đến nền tảng công nghệ. Hai là, hệ thống TMĐT mượt mà, bảo mật đóng vai trò sống còn để chốt đơn. Và ba là, sự xuất hiện của Khách hàng Xã hội buộc doanh nghiệp phải lấy sự minh bạch và tương tác hai chiều làm trọng tâm.
+Người 2: Dạ, lý thuyết phần này rất rõ ràng và dễ dàng liên hệ với các trải nghiệm mua sắm thực tế của chúng em ạ.
+Slide 14: BÀI TẬP THỰC HÀNH TẠI LỚP (Đánh giá nhóm A2.3)
+Người 1: Bây giờ là lúc vận dụng kiến thức. Thầy có một tình huống thực tế: Doanh nghiệp thời trang "Z-Style" đổ rất nhiều tiền chạy quảng cáo. Khách vào web xem và bỏ hàng vào giỏ rất đông. Nhưng tỷ lệ hoàn tất thanh toán chỉ có 1.5%. Khách hàng cứ đến bước thanh toán là "quay xe" bỏ đi. Các nhóm hãy thảo luận 10 phút, tìm ra 3 nguyên nhân về mặt "hệ thống TMĐT" khiến khách bỏ rơi giỏ hàng và đề xuất cách khắc phục.
+Người 2: Tình huống này giống hệt công ty cũ em từng thực tập. Tụi em sẽ chia nhóm để "khám bệnh" cho website của Z-Style ngay ạ!
+Slide 15: LỜI GIẢI GỢI Ý & PHÂN TÍCH
+Người 1: Hết giờ! Thầy thấy các nhóm phân tích rất đúng trọng tâm. Có 3 nguyên nhân chính thường gặp. Một là quy trình thanh toán quá rườm rà, bắt tạo tài khoản mới được mua. Cách sửa là phải có nút "Mua hàng không cần đăng nhập". Hai là thiếu phương thức thanh toán quen thuộc. Và ba là website không có chứng chỉ bảo mật, giao diện thiếu chuyên nghiệp làm khách sợ bị đánh cắp thông tin thẻ.
+Người 2: Nhóm em cũng vừa đưa ra ý kiến về việc thiếu tùy chọn thanh toán Ship COD (Nhận hàng trả tiền) ạ. Khách hàng ở Việt Nam nhiều khi không thích quẹt thẻ trước, nếu không có tùy chọn COD thì họ rất ngại mua.
+Người 1: Rất thực tế! Các em đã áp dụng đúng yếu tố 'Duy trì' và 'Động viên' của hệ thống TMĐT vào giải quyết bài toán của doanh nghiệp. Bài học của chúng ta hôm nay kết thúc ở đây. Cảm ơn các em đã thảo luận rất nhiệt tình!
+Top of Form

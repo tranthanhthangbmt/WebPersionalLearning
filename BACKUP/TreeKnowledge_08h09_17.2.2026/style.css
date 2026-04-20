@@ -1,0 +1,82 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1; 
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8; 
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Quiz Option Styles */
+.quiz-option {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: 2px solid #e5e7eb; /* gray-200 */
+}
+
+.quiz-option:hover:not(.disabled) {
+    background-color: #f3f4f6; /* gray-50 */
+    border-color: #d1d5db; /* gray-300 */
+}
+
+.quiz-option.selected {
+    border-color: #4F46E5; /* primary */
+    background-color: #EEF2FF; /* indigo-50 */
+}
+
+.quiz-option.correct {
+    border-color: #10B981; /* green-500 */
+    background-color: #D1FAE5; /* green-100 */
+    color: #065F46; /* green-800 */
+}
+
+.quiz-option.wrong {
+    border-color: #EF4444; /* red-500 */
+    background-color: #FEE2E2; /* red-100 */
+    color: #991B1B; /* red-800 */
+    animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+  10%, 90% { transform: translate3d(-1px, 0, 0); }
+  20%, 80% { transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
+  40%, 60% { transform: translate3d(4px, 0, 0); }
+}
+
+/* Question Palette Item */
+.palette-item {
+    transition: all 0.2s;
+}
+.palette-item:hover {
+    transform: scale(1.1);
+}
+.palette-item.active {
+    ring: 2px solid #4F46E5;
+    ring-offset: 2px;
+}
+
+/* Disable interaction after correct answer */
+.disabled {
+    pointer-events: none;
+    opacity: 0.8;
+}

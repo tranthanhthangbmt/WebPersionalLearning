@@ -1,0 +1,15 @@
+streamlit>=1.30.0
+requests
+python-dotenv
+PyMuPDF
+markdown
+python-docx
+beautifulsoup4
+streamlit-javascript
+streamlit
+reportlab
+gTTS
+firebase-admin
+edge-tts
+pandas
+

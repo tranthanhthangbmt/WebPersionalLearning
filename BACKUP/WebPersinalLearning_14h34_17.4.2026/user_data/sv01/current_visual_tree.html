@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Tree 3D Visualizer</title>
+    <!-- Thư viện 3D Force Graph WebGL -->
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <!-- Font chữ hiện đại -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --glass-bg: rgba(15, 23, 42, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent-glow: rgba(56, 189, 248, 0.3);
+        }
+        body {
+            margin: 0; padding: 0; overflow: hidden;
+            background-color: var(--bg-color);
+            font-family: 'Inter', -apple-system, sans-serif;
+            color: var(--text-primary);
+        }
+        #3d-graph {
+            position: absolute; top: 0; left: 0;
+            width: 100vw; height: 100vh; z-index: 1;
+        }
+        #ui-overlay {
+            position: absolute; top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none; z-index: 10;
+        }
+        .glass-panel {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px; padding: 24px; pointer-events: auto;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+        header {
+            position: absolute; top: 32px; left: 32px; pointer-events: auto;
+        }
+        header h1 {
+            margin: 0; font-size: 28px; font-weight: 800;
+            background: linear-gradient(135deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            letter-spacing: -0.02em;
+        }
+        header .subtitle {
+            margin-top: 4px; color: var(--text-muted); font-size: 13px; font-weight: 500;
+            letter-spacing: 0.01em;
+        }
+        .search-box {
+            position: absolute; top: 32px; right: 32px;
+            display: flex; align-items: center;
+            background: var(--glass-bg); backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border); border-radius: 12px;
+            padding: 10px 16px; pointer-events: auto; transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .search-box:focus-within {
+            border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-glow);
+            width: 320px;
+        }
+        .search-box input {
+            background: transparent; border: none; color: white;
+            font-family: 'Inter', sans-serif; font-size: 14px; width: 220px; outline: none;
+        }
+        .search-box input::placeholder { color: #475569; }
+        
+        #info-panel {
+            position: absolute; top: 24px; right: 24px; bottom: 24px;
+            width: 380px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            transform: translateX(calc(100% + 40px));
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex; flex-direction: column;
+            padding: 40px 32px;
+            box-shadow: -20px 0 50px rgba(0, 0, 0, 0.2);
+            pointer-events: auto; z-index: 1000;
+        }
+        #info-panel.visible { transform: translateX(0); }
+        #info-panel h2 { margin: 16px 0 8px 0; font-size: 24px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.2; }
+        .badge {
+            display: inline-block; padding: 4px 10px; border-radius: 6px;
+            font-size: 11px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.05em; margin-bottom: 12px;
+        }
+        .type-macro { background: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.2); }
+        .type-micro { background: rgba(251, 191, 36, 0.1); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.2); }
+        .type-assess { background: rgba(244, 63, 94, 0.1); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.2); }
+        #info-meta { font-size: 13px; color: var(--text-muted); margin-bottom: 20px; font-weight: 500; }
+        #info-desc {
+            font-size: 14px; line-height: 1.6; color: #cbd5e1;
+            overflow-y: auto; margin-bottom: 32px; padding-right: 8px;
+        }
+        .close-panel-btn {
+            position: absolute; top: 24px; left: 24px;
+            background: rgba(255, 255, 255, 0.03); border: 1px solid var(--glass-border);
+            color: #94a3b8; width: 36px; height: 36px; border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer; transition: all 0.2s;
+        }
+        .close-panel-btn:hover { background: #f43f5e; color: white; border-color: transparent; }
+        
+        .legend {
+            position: absolute; bottom: 32px; left: 32px;
+            display: flex; flex-direction: column; gap: 10px; pointer-events: auto;
+            padding: 16px 20px; border-radius: 16px;
+        }
+        .legend-item { display: flex; align-items: center; font-size: 12px; font-weight: 600; color: #94a3b8; }
+        .legend-item .dot { width: 8px; height: 8px; border-radius: 50%; margin-right: 12px; }
+        
+        .action-btns { display: flex; flex-direction: column; gap: 12px; margin-top: auto; }
+        .btn-action {
+            background: #38bdf8; color: #0f172a; border: none; height: 48px;
+            border-radius: 12px; font-weight: 700; font-size: 14px; cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-action:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(56, 189, 248, 0.4); }
+        
+        .adaptive-btn {
+            position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
+            background: linear-gradient(135deg, #38bdf8, #818cf8);
+            border: none; border-radius: 14px; padding: 14px 28px;
+            color: #0f172a; font-weight: 700; font-size: 14px; cursor: pointer;
+            box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3); transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            pointer-events: auto; z-index: 100;
+        }
+        .adaptive-btn:hover { transform: translateX(-50%) translateY(-4px); box-shadow: 0 15px 35px rgba(56, 189, 248, 0.4); }
+
+        #dashboard-panel {
+            position: absolute; top: 100px; left: 32px; width: 260px;
+        }
+        .stat-card {
+            background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 12px 16px;
+            display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;
+        }
+        .stat-value { font-size: 22px; font-weight: 700; font-family: monospace; }
+        .text-green { color: #4ade80; }
+        .text-orange { color: #fbbf24; }
+        .text-red { color: #f87171; }
+    </style>
+0, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 170, 0, 0); } }
+    </style>
+</head>
+<body>
+    <div id="ui-overlay">
+        <header>
+            <h1>Knowledge Galaxy</h1>
+            <p class="subtitle">Thương mại điện tử &bull; Đồ thị Không Gian Tri Thức</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm bài học, chương...">
+            <button id="searchBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Dashboard UI -->
+        <div id="dashboard-panel" class="glass-panel">
+            <h3 style="margin: 0 0 10px 0; font-size: 16px; color: #58a6ff; display: flex; align-items: center; gap: 8px;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"></path></svg>
+                HỒ SƠ NĂNG LỰC
+            </h3>
+            <div class="stat-card" style="border-left: 4px solid #33ff33;">
+                <div>
+                    <div style="font-size: 11px; color: #8b949e; text-transform: uppercase; font-weight: bold;">Đã Thông Thạo</div>
+                    <div style="font-size: 10px; color: #666;">(Mastery > 80%)</div>
+                </div>
+                <div id="stat-mastered" class="stat-value text-green">0</div>
+            </div>
+            <div class="stat-card pulse-warning" style="border-left: 4px solid #ffaa00;">
+                <div>
+                    <div style="font-size: 11px; color: #8b949e; text-transform: uppercase; font-weight: bold;">Đang Nhạt Dần</div>
+                    <div style="font-size: 10px; color: #666;">(Cần ôn tập gấp)</div>
+                </div>
+                <div id="stat-decaying" class="stat-value text-orange">0</div>
+            </div>
+            <div class="stat-card" style="border-left: 4px solid #ff3333;">
+                <div>
+                    <div style="font-size: 11px; color: #8b949e; text-transform: uppercase; font-weight: bold;">Hổng Kiến Thức</div>
+                    <div style="font-size: 10px; color: #666;">(Mastery < 50%)</div>
+                </div>
+                <div id="stat-weak" class="stat-value text-red">0</div>
+            </div>
+        </div>
+
+        <div id="info-panel">
+            <button class="close-panel-btn" onclick="document.getElementById('info-panel').classList.remove('visible')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <h2 id="info-title">Nexus Node</h2>
+            <div class="badge" id="info-type">Classification</div>
+            <div id="info-meta">Initialising insights...</div>
+            <p id="info-desc">Select a node to explore the depth of human knowledge within this subject.</p>
+            
+            <div class="action-btns" id="action-buttons" style="display: none;">
+                <button class="btn-action" style="background: linear-gradient(135deg, #38bdf8, #818cf8);" onclick="startAction('video')">▶ WATCH SESSION</button>
+                <button class="btn-action" style="background: rgba(255, 255, 255, 0.05); color: white; border: 1px solid var(--glass-border);" onclick="startAction('quiz')">📝 ATTEMPT EVALUATION</button>
+                <button class="btn-action" style="background: rgba(139, 92, 246, 0.2); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.3);" onclick="startAction('tutor')">🤖 AI SYNTHESIS</button>
+            </div>
+        </div>
+        
+        <div class="legend glass-panel">
+            <div class="legend-item"><span class="dot" style="background:#38bdf8; box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);"></span> Chương (Macro)</div>
+            <div class="legend-item"><span class="dot" style="background:#fbbf24; box-shadow: 0 0 10px rgba(251, 191, 36, 0.5);"></span> Bài học (Micro)</div>
+            <div class="legend-item"><span class="dot" style="background:#f43f5e; box-shadow: 0 0 10px rgba(244, 63, 94, 0.5);"></span> Đánh giá (Assess)</div>
+        </div>
+        
+        <button class="adaptive-btn" onclick="findWeakestNode()">
+            🎯 Tôi Cần Học & Ôn Gì Hôm Nay?
+        </button>
+    </div>
+
+    <div id="3d-graph"></div>
+
+    <script>
+        const GRAPH_DATA = {"nodes": [{"id": "m1", "type": "macro", "label": "Chương 1", "color": "#00ffcc", "val": 25}, {"id": "m2", "type": "macro", "label": "Chương 2", "color": "#00ffcc", "val": 25}, {"id": "m3", "type": "macro", "label": "Chương 3", "color": "#00ffcc", "val": 25}, {"id": "m4", "type": "macro", "label": "Chương 4", "color": "#00ffcc", "val": 25}, {"id": "m5", "type": "macro", "label": "Chương 5", "color": "#00ffcc", "val": 25}, {"id": "m999", "type": "macro", "label": "Chương 999 (Mở rộng)", "color": "#00ffcc", "val": 25}, {"id": "Chuong_1_Tiet_1", "type": "micro", "label": "Tiết 1: Khái niệm và Tiếp cận", "content": "Tài liệu tương ứng với: Chương_1_Tiết 1_Khái niệm và Tiếp cận.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_2", "type": "micro", "label": "Tiết 2: Phân loại, Lợi ích và Hạn chế", "content": "Tài liệu tương ứng với: Chương_1_Tiết 2 Phân loại, Lợi ích và Hạn chế.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_3", "type": "micro", "label": "Tiết 3: Sự phát triển và Đánh giá", "content": "Tài liệu tương ứng với: Chương_1_Tiết 3 Sự phát triển và Đánh giá.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_4", "type": "micro", "label": "Tiết 4: Hạ tầng Pháp lý và Công nghệ", "content": "Tài liệu tương ứng với: Chương_1_Tiết 4 Hạ tầng Pháp lý và Công nghệ.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_5", "type": "micro", "label": "Tiết 5: Hạ tầng Thanh toán và An toàn thông tin", "content": "Tài liệu tương ứng với: Chương_1_Tiết 5 Hạ tầng Thanh toán và An toàn thông tin.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_6", "type": "micro", "label": "Tiết 6: Hạ tầng Nhân lực, Phân phối & Bài tập", "content": "Tài liệu tương ứng với: Chương_1_Tiết 6 Hạ tầng Nhân lực, Phân phối & Bài tập.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_7", "type": "micro", "label": "Tiết 7: Mô hình B2C và B2B", "content": "Tài liệu tương ứng với: Chương_1_Tiết 7 Mô hình B2C và B2B.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_8", "type": "micro", "label": "Tiết 8: Mô hình C2C và C2B", "content": "Tài liệu tương ứng với: Chương_1_Tiết 8 Mô hình C2C và C2B.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_9", "type": "micro", "label": "Tiết 9: Phân tích Mô hình & Đánh giá", "content": "Tài liệu tương ứng với: Chương_1_Tiết 9 Phân tích Mô hình & Đánh giá.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_10", "type": "micro", "label": "Tiết 10: Tổng quan về Sàn Giao dịch", "content": "Tài liệu tương ứng với: Chương_1_Tiết 10 Tổng quan về Sàn Giao dịch.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_11", "type": "micro", "label": "Tiết 11: Lợi ích và Phương thức giao dịch", "content": "Tài liệu tương ứng với: Chương_1_Tiết 11 Lợi ích và Phương thức giao dịch.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_1_Tiet_12", "type": "micro", "label": "Tiết 12: Thực hành và Làm việc nhóm", "content": "Tài liệu tương ứng với: Chương_1_Tiết 12 Thực hành và Làm việc nhóm.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_2_Tiet_2", "type": "micro", "label": "Tiết 2: ", "content": "Tài liệu tương ứng với: Chương_2_Tiết_2.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_2_Tiet_3", "type": "micro", "label": "Tiết 3: ", "content": "Tài liệu tương ứng với: Chương_2_Tiết_3.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_2_Tiet_4", "type": "micro", "label": "Tiết 4: ", "content": "Tài liệu tương ứng với: Chương_2_Tiết_4.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_2_Tiet_5", "type": "micro", "label": "Tiết 5: ", "content": "Tài liệu tương ứng với: Chương_2_Tiết_5.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_2_Tiet_6", "type": "micro", "label": "Tiết 6: ", "content": "Tài liệu tương ứng với: Chương_2_Tiết_6.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_3_Tiet_1", "type": "micro", "label": "Tiết 1: ", "content": "Tài liệu tương ứng với: Chương_3_Tiết_1.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_3_Tiet_2", "type": "micro", "label": "Tiết 2: ", "content": "Tài liệu tương ứng với: Chương_3_Tiết_2.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_3_Tiet_3", "type": "micro", "label": "Tiết 3: ", "content": "Tài liệu tương ứng với: Chương_3_Tiết_3.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_3_Tiet_4", "type": "micro", "label": "Tiết 4: ", "content": "Tài liệu tương ứng với: Chương_3_Tiết_4.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_3_Tiet_5", "type": "micro", "label": "Tiết 5: ", "content": "Tài liệu tương ứng với: Chương_3_Tiết_5.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_3_Tiet_6", "type": "micro", "label": "Tiết 6: ", "content": "Tài liệu tương ứng với: Chương_3_Tiết_6.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_4_Tiet_1", "type": "micro", "label": "Tiết 1: ", "content": "Tài liệu tương ứng với: Chuong_4_Tiet_1.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_4_Tiet_2", "type": "micro", "label": "Tiết 2: ", "content": "Tài liệu tương ứng với: Chuong_4_Tiet_2.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_4_Tiet_3", "type": "micro", "label": "Tiết 3: ", "content": "Tài liệu tương ứng với: Chuong_4_Tiet_3.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_5_Tiet_1", "type": "micro", "label": "Tiết 1: ", "content": "Tài liệu tương ứng với: Chuong_5_Tiet_1.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_5_Tiet_2", "type": "micro", "label": "Tiết 2: ", "content": "Tài liệu tương ứng với: Chuong_5_Tiet_2.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "Chuong_5_Tiet_3", "type": "micro", "label": "Tiết 3: ", "content": "Tài liệu tương ứng với: Chuong_5_Tiet_3.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "CONCEPT_17e4c5", "type": "micro", "label": "Tong_hop_toan_bo", "content": "Tài liệu tương ứng với: Tong_hop_toan_bo.json", "alpha_base": 15, "color": "#ffaa00", "val": 15}, {"id": "a_Chuong_1_Tiet_1", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_1", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_2", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_2", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_3", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_3", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_4", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_4", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_5", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_5", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_6", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_6", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_7", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_7", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_8", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_8", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_9", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_9", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_10", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_10", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_11", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_11", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_1_Tiet_12", "type": "assess", "label": "Đánh giá Chuong_1_Tiet_12", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_2_Tiet_2", "type": "assess", "label": "Đánh giá Chuong_2_Tiet_2", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_2_Tiet_3", "type": "assess", "label": "Đánh giá Chuong_2_Tiet_3", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_2_Tiet_4", "type": "assess", "label": "Đánh giá Chuong_2_Tiet_4", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_2_Tiet_5", "type": "assess", "label": "Đánh giá Chuong_2_Tiet_5", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_2_Tiet_6", "type": "assess", "label": "Đánh giá Chuong_2_Tiet_6", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_3_Tiet_1", "type": "assess", "label": "Đánh giá Chuong_3_Tiet_1", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_3_Tiet_2", "type": "assess", "label": "Đánh giá Chuong_3_Tiet_2", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_3_Tiet_3", "type": "assess", "label": "Đánh giá Chuong_3_Tiet_3", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_3_Tiet_4", "type": "assess", "label": "Đánh giá Chuong_3_Tiet_4", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_3_Tiet_5", "type": "assess", "label": "Đánh giá Chuong_3_Tiet_5", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_3_Tiet_6", "type": "assess", "label": "Đánh giá Chuong_3_Tiet_6", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_4_Tiet_1", "type": "assess", "label": "Đánh giá Chuong_4_Tiet_1", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_4_Tiet_2", "type": "assess", "label": "Đánh giá Chuong_4_Tiet_2", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_4_Tiet_3", "type": "assess", "label": "Đánh giá Chuong_4_Tiet_3", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_5_Tiet_1", "type": "assess", "label": "Đánh giá Chuong_5_Tiet_1", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_5_Tiet_2", "type": "assess", "label": "Đánh giá Chuong_5_Tiet_2", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_Chuong_5_Tiet_3", "type": "assess", "label": "Đánh giá Chuong_5_Tiet_3", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}, {"id": "a_CONCEPT_17e4c5", "type": "assess", "label": "Đánh giá CONCEPT_17e4c5", "theta_pass": 0.6, "question_count": 2, "color": "#ff3366", "val": 10}], "links": [{"source": "m1", "target": "Chuong_1_Tiet_1", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_1", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_2", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_3", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_4", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_5", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_6", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_7", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_8", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_9", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_10", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_11", "relation": "contains"}, {"source": "m1", "target": "Chuong_1_Tiet_12", "relation": "contains"}, {"source": "m2", "target": "Chuong_2_Tiet_2", "relation": "contains"}, {"source": "m2", "target": "Chuong_2_Tiet_3", "relation": "contains"}, {"source": "m2", "target": "Chuong_2_Tiet_4", "relation": "contains"}, {"source": "m2", "target": "Chuong_2_Tiet_5", "relation": "contains"}, {"source": "m2", "target": "Chuong_2_Tiet_6", "relation": "contains"}, {"source": "m3", "target": "Chuong_3_Tiet_1", "relation": "contains"}, {"source": "m3", "target": "Chuong_3_Tiet_2", "relation": "contains"}, {"source": "m3", "target": "Chuong_3_Tiet_3", "relation": "contains"}, {"source": "m3", "target": "Chuong_3_Tiet_4", "relation": "contains"}, {"source": "m3", "target": "Chuong_3_Tiet_5", "relation": "contains"}, {"source": "m3", "target": "Chuong_3_Tiet_6", "relation": "contains"}, {"source": "m4", "target": "Chuong_4_Tiet_1", "relation": "contains"}, {"source": "m4", "target": "Chuong_4_Tiet_2", "relation": "contains"}, {"source": "m4", "target": "Chuong_4_Tiet_3", "relation": "contains"}, {"source": "m5", "target": "Chuong_5_Tiet_1", "relation": "contains"}, {"source": "m5", "target": "Chuong_5_Tiet_2", "relation": "contains"}, {"source": "m5", "target": "Chuong_5_Tiet_3", "relation": "contains"}, {"source": "m999", "target": "CONCEPT_17e4c5", "relation": "contains"}, {"source": "Chuong_1_Tiet_1", "target": "a_Chuong_1_Tiet_1", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_1", "target": "a_Chuong_1_Tiet_1", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_2", "target": "a_Chuong_1_Tiet_2", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_3", "target": "a_Chuong_1_Tiet_3", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_4", "target": "a_Chuong_1_Tiet_4", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_5", "target": "a_Chuong_1_Tiet_5", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_6", "target": "a_Chuong_1_Tiet_6", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_7", "target": "a_Chuong_1_Tiet_7", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_8", "target": "a_Chuong_1_Tiet_8", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_9", "target": "a_Chuong_1_Tiet_9", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_10", "target": "a_Chuong_1_Tiet_10", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_11", "target": "a_Chuong_1_Tiet_11", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_12", "target": "a_Chuong_1_Tiet_12", "relation": "assessed_by"}, {"source": "Chuong_2_Tiet_2", "target": "a_Chuong_2_Tiet_2", "relation": "assessed_by"}, {"source": "Chuong_2_Tiet_3", "target": "a_Chuong_2_Tiet_3", "relation": "assessed_by"}, {"source": "Chuong_2_Tiet_4", "target": "a_Chuong_2_Tiet_4", "relation": "assessed_by"}, {"source": "Chuong_2_Tiet_5", "target": "a_Chuong_2_Tiet_5", "relation": "assessed_by"}, {"source": "Chuong_2_Tiet_6", "target": "a_Chuong_2_Tiet_6", "relation": "assessed_by"}, {"source": "Chuong_3_Tiet_1", "target": "a_Chuong_3_Tiet_1", "relation": "assessed_by"}, {"source": "Chuong_3_Tiet_2", "target": "a_Chuong_3_Tiet_2", "relation": "assessed_by"}, {"source": "Chuong_3_Tiet_3", "target": "a_Chuong_3_Tiet_3", "relation": "assessed_by"}, {"source": "Chuong_3_Tiet_4", "target": "a_Chuong_3_Tiet_4", "relation": "assessed_by"}, {"source": "Chuong_3_Tiet_5", "target": "a_Chuong_3_Tiet_5", "relation": "assessed_by"}, {"source": "Chuong_3_Tiet_6", "target": "a_Chuong_3_Tiet_6", "relation": "assessed_by"}, {"source": "Chuong_4_Tiet_1", "target": "a_Chuong_4_Tiet_1", "relation": "assessed_by"}, {"source": "Chuong_4_Tiet_2", "target": "a_Chuong_4_Tiet_2", "relation": "assessed_by"}, {"source": "Chuong_4_Tiet_3", "target": "a_Chuong_4_Tiet_3", "relation": "assessed_by"}, {"source": "Chuong_5_Tiet_1", "target": "a_Chuong_5_Tiet_1", "relation": "assessed_by"}, {"source": "Chuong_5_Tiet_2", "target": "a_Chuong_5_Tiet_2", "relation": "assessed_by"}, {"source": "Chuong_5_Tiet_3", "target": "a_Chuong_5_Tiet_3", "relation": "assessed_by"}, {"source": "CONCEPT_17e4c5", "target": "a_CONCEPT_17e4c5", "relation": "assessed_by"}, {"source": "Chuong_1_Tiet_1", "target": "Chuong_1_Tiet_1", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_1", "target": "Chuong_1_Tiet_2", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_2", "target": "Chuong_1_Tiet_3", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_3", "target": "Chuong_1_Tiet_4", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_4", "target": "Chuong_1_Tiet_5", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_5", "target": "Chuong_1_Tiet_6", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_6", "target": "Chuong_1_Tiet_7", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_7", "target": "Chuong_1_Tiet_8", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_8", "target": "Chuong_1_Tiet_9", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_9", "target": "Chuong_1_Tiet_10", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_10", "target": "Chuong_1_Tiet_11", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_11", "target": "Chuong_1_Tiet_12", "relation": "prerequisite_for"}, {"source": "m1", "target": "m2", "relation": "prerequisite_for"}, {"source": "Chuong_1_Tiet_12", "target": "Chuong_2_Tiet_2", "relation": "prerequisite_for"}, {"source": "Chuong_2_Tiet_2", "target": "Chuong_2_Tiet_3", "relation": "prerequisite_for"}, {"source": "Chuong_2_Tiet_3", "target": "Chuong_2_Tiet_4", "relation": "prerequisite_for"}, {"source": "Chuong_2_Tiet_4", "target": "Chuong_2_Tiet_5", "relation": "prerequisite_for"}, {"source": "Chuong_2_Tiet_5", "target": "Chuong_2_Tiet_6", "relation": "prerequisite_for"}, {"source": "m2", "target": "m3", "relation": "prerequisite_for"}, {"source": "Chuong_2_Tiet_6", "target": "Chuong_3_Tiet_1", "relation": "prerequisite_for"}, {"source": "Chuong_3_Tiet_1", "target": "Chuong_3_Tiet_2", "relation": "prerequisite_for"}, {"source": "Chuong_3_Tiet_2", "target": "Chuong_3_Tiet_3", "relation": "prerequisite_for"}, {"source": "Chuong_3_Tiet_3", "target": "Chuong_3_Tiet_4", "relation": "prerequisite_for"}, {"source": "Chuong_3_Tiet_4", "target": "Chuong_3_Tiet_5", "relation": "prerequisite_for"}, {"source": "Chuong_3_Tiet_5", "target": "Chuong_3_Tiet_6", "relation": "prerequisite_for"}, {"source": "m3", "target": "m4", "relation": "prerequisite_for"}, {"source": "Chuong_3_Tiet_6", "target": "Chuong_4_Tiet_1", "relation": "prerequisite_for"}, {"source": "Chuong_4_Tiet_1", "target": "Chuong_4_Tiet_2", "relation": "prerequisite_for"}, {"source": "Chuong_4_Tiet_2", "target": "Chuong_4_Tiet_3", "relation": "prerequisite_for"}, {"source": "m4", "target": "m5", "relation": "prerequisite_for"}, {"source": "Chuong_4_Tiet_3", "target": "Chuong_5_Tiet_1", "relation": "prerequisite_for"}, {"source": "Chuong_5_Tiet_1", "target": "Chuong_5_Tiet_2", "relation": "prerequisite_for"}, {"source": "Chuong_5_Tiet_2", "target": "Chuong_5_Tiet_3", "relation": "prerequisite_for"}, {"source": "m5", "target": "m999", "relation": "prerequisite_for"}, {"source": "Chuong_5_Tiet_3", "target": "CONCEPT_17e4c5", "relation": "prerequisite_for"}]};
+        const USER_STATE = {"subject_id": "e69bf65f", "mastery": {"c3.1": {"level": 0.2, "attempts": 1, "last_score": 0, "last_updated": 1774715763.4312084, "pure_level": 0.0, "_decayed": true}, "c1.1": {"level": 0.2, "attempts": 6, "last_score": 10, "last_updated": 1774884154.7638493, "pure_level": 1.0, "_decayed": true}, "c1.5": {"level": 0.2, "attempts": 3, "last_score": 0, "last_updated": 1774884286.5054138, "pure_level": 0.5549999999999999, "_decayed": true}, "Chuong_4_Tiet_1": {"level": 0.2, "attempts": 5, "last_score": 10, "last_updated": 1774972415.7786758, "pure_level": 1.0, "_decayed": true}, "Chuong_1_Tiet_11": {"level": 0.2, "attempts": 1, "last_score": 10, "last_updated": 1774971132.0421703, "pure_level": 0.35, "_decayed": true}, "Chuong_4_Tiet_2": {"level": 0.2, "attempts": 1, "last_score": 10, "last_updated": 1774973903.1854918, "pure_level": 0.38, "_decayed": true}}, "current_focus": "Chuong_4_Tiet_2"};
+        window.currentNodeId = null;
+        window.currentNodeContent = null;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const graphElem = document.getElementById('3d-graph');
+            
+            function getNodeColor(node) {
+                if (node.type === 'macro') return '#00ffcc'; // Chương (Cyan gốc)
+                const masteryData = USER_STATE.mastery[node.id];
+                if (!masteryData || masteryData.attempts === 0) return 'rgba(136, 136, 136, 0.4)'; // Chưa học (Xám)
+                
+                const level = masteryData.level;
+                if (masteryData._decayed && level < 0.9) return '#ffaa00'; // Đang nhạt dần -> Vàng Cam Ebbinghaus
+                if (level < 0.5) return '#ff3333'; // Đỏ (Hổng kiến thức)
+                if (level < 0.8) return '#ffdd33'; // Vàng nhạt (Mới biết)
+                return '#33ff33'; // Xanh lục (Master)
+            }
+
+            // Dashboard Analytics Engine
+            function updateDashboard() {
+                let mastered = 0, decaying = 0, weak = 0, untouched = 0;
+                GRAPH_DATA.nodes.forEach(n => {
+                    if(n.type === 'micro' || n.type === 'assess') {
+                        const m = USER_STATE.mastery[n.id];
+                        if(m && m.attempts > 0) {
+                            if (m._decayed && m.level < 0.9) decaying++;
+                            else if (m.level >= 0.8) mastered++;
+                            else if (m.level < 0.5) weak++;
+                        } else {
+                            untouched++;
+                        }
+                    }
+                });
+                document.getElementById('stat-mastered').innerText = mastered;
+                document.getElementById('stat-decaying').innerText = decaying;
+                document.getElementById('stat-weak').innerText = weak;
+            }
+            updateDashboard();
+
+            const Graph = ForceGraph3D()(graphElem)
+                .backgroundColor('#0f172a')
+                .nodeLabel('label')
+                .nodeColor(node => getNodeColor(node))
+                .nodeVal(node => {
+                    if(node.type === 'macro') return 25;
+                    const masteryData = USER_STATE.mastery[node.id];
+                    if (!masteryData) return 10;
+                    return 10 + (masteryData.level * 15);
+                })
+                .linkDirectionalArrowLength(3.5)
+                .linkDirectionalArrowRelPos(1)
+                .linkColor(() => 'rgba(255,255,255,0.2)')
+                .linkWidth(0.5)
+                .graphData(GRAPH_DATA)
+                .onNodeClick(node => handleNodeClick(node))
+                .onNodeHover(node => {
+                    graphElem.style.cursor = node ? 'pointer' : null;
+                });
+
+            const panel = document.getElementById('info-panel');
+            const pTitle = document.getElementById('info-title');
+            const pType = document.getElementById('info-type');
+            const pMeta = document.getElementById('info-meta');
+            const pDesc = document.getElementById('info-desc');
+
+            function handleNodeClick(node) {
+                const distance = 80;
+                const distRatio = 1 + distance/Math.hypot(node.x || Math.random(), node.y || Math.random(), node.z || Math.random());
+                
+                Graph.cameraPosition(
+                    { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, 
+                    node, 1500
+                );
+                
+                
+                // Show the info panel using the new 'visible' class
+                pTitle.innerText = node.label || 'Không có tiêu đề';
+                
+                pType.className = 'badge'; 
+                if(node.type === 'macro') {
+                    pType.classList.add('type-macro'); pType.innerText = "CHƯƠNG KIẾN THỨC";
+                    pMeta.innerText = "Mã Node: " + node.id;
+                    pDesc.innerText = "Đây là một chương (mục) lớn của môn học.";
+                } else if(node.type === 'micro') {
+                    pType.classList.add('type-micro'); pType.innerText = "BÀI HỌC QUAN TRỌNG";
+                    const mastery = USER_STATE.mastery[node.id] ? USER_STATE.mastery[node.id].level : 0;
+                    pMeta.innerText = "Điểm Thông thạo (Mastery): " + Math.round(mastery*100) + "/100 🏆";
+                    pDesc.innerText = node.content || "Chưa có nội dung chi tiết cho bài học này.";
+                } else if(node.type === 'assess') {
+                    pType.classList.add('type-assess'); pType.innerText = "BÀI KIỂM TRA ĐÁNH GIÁ";
+                    pMeta.innerText = "Ngưỡng đạt (Theta): " + (node.theta_pass || '--');
+                    pDesc.innerText = "Bài kiểm tra này dùng để đánh giá năng lực của bạn trong node " + (node.id).replace('a', 'c') + ".";
+                }
+
+                // Xử lý nút Assess
+                const actionBtns = document.getElementById('action-buttons');
+                if((node.type === 'micro' || node.type === 'assess') && node.content) {
+                    window.currentNodeId = node.id;
+                    window.currentNodeContent = node.content;
+                    actionBtns.style.display = 'flex';
+                } else {
+                    actionBtns.style.display = 'none';
+                }
+
+                panel.classList.add('visible');
+            }
+            window.startAction = function(actionType) {
+                if(!window.currentNodeId) return;
+                
+                const payload = {
+                    id: window.currentNodeId,
+                    action: actionType
+                };
+                
+                console.log('[3D Bridge] startAction called:', JSON.stringify(payload));
+                
+                // --- METHOD 1: Set __bridge_payload on parent window ---
+                try {
+                    if (window.parent && window.parent !== window) {
+                        window.parent.__bridge_payload = payload;
+                        console.log('[3D Bridge] Set parent.__bridge_payload successfully');
+                    }
+                } catch(e) {
+                    console.warn('[3D Bridge] Cannot set parent.__bridge_payload:', e);
+                }
+                
+                // --- METHOD 2: Prototype Bypass for input bridge ---
+                try {
+                    if (window.parent && window.parent.document) {
+                        const bridgeIDs = ['studio-bridge', 'nexus-bridge'];
+                        let inputEl = null;
+                        for (const id of bridgeIDs) {
+                            const wrapper = window.parent.document.getElementById(id);
+                            if (wrapper) {
+                                inputEl = wrapper.tagName.toLowerCase() === 'input' ? wrapper : wrapper.querySelector('input');
+                                if (inputEl) break;
+                            }
+                        }
+                        if (inputEl) {
+                            const payloadStr = JSON.stringify(payload);
+                            let nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+                            nativeInputValueSetter.call(inputEl, payloadStr);
+                            inputEl.dispatchEvent(new Event('input', { bubbles: true }));
+                            console.log('[3D Bridge] Prototype bypass successful:', payloadStr);
+                        }
+                    }
+                } catch(e) {
+                    console.warn('[3D Bridge] Prototype bypass error:', e);
+                }
+                
+                // --- METHOD 3: postMessage (most reliable cross-frame method) ---
+                try {
+                    if (window.parent && window.parent !== window) {
+                        window.parent.postMessage({ type: 'graph3d_action', payload: payload }, '*');
+                        console.log('[3D Bridge] postMessage sent successfully');
+                    }
+                } catch(e) {
+                    console.warn('[3D Bridge] postMessage error:', e);
+                }
+            };
+
+            window.findWeakestNode = function() {
+                let target = null;
+                
+                // Thuật toán Adaptive Pathfinding Lõi AI:
+                // 1. Ưu tiên cao nhất: Module đang bị nhạt do quên lãng Ebbinghaus (Tức là đã học mà rụng)
+                let decayingNodes = GRAPH_DATA.nodes.filter(n => {
+                    const m = USER_STATE.mastery[n.id];
+                    return m && m._decayed && m.level < 0.9 && (n.type === 'micro' || n.type === 'assess');
+                });
+                
+                if (decayingNodes.length > 0) {
+                    // Ưu tiên node rụng sâu nhất
+                    decayingNodes.sort((a,b) => USER_STATE.mastery[a.id].level - USER_STATE.mastery[b.id].level);
+                    target = decayingNodes[0];
+                    alert('🚨 [CẢNH BÁO EBBINGHAUS]: Có kiến thức bạn đang dần quên lãng. Đề xuất ưu tiên ôn tập nhanh Node: ' + (target.label || target.id));
+                } else {
+                    // 2. Không có node nhạt, đi tìm node chưa học mà có tiên quyết (Hoặc gốc cây)
+                    let untouchedNodes = GRAPH_DATA.nodes.filter(n => (n.type === 'micro' || n.type === 'assess') && (!USER_STATE.mastery[n.id] || USER_STATE.mastery[n.id].attempts === 0));
+                    
+                    if (untouchedNodes.length > 0) {
+                        target = untouchedNodes[0];
+                        alert('🌱 Đề xuất bài học tiếp theo theo lộ trình gốc: ' + (target.label || target.id));
+                    } else {
+                        // 3. Nếu học hết rồi thì tìm cái điểm cùi bắp nhất để cải thiện
+                        let lowestScore = 999;
+                        for (let i = 0; i < GRAPH_DATA.nodes.length; i++) {
+                            const n = GRAPH_DATA.nodes[i];
+                            if (n.type === 'micro' || n.type === 'assess') {
+                                const mastery = USER_STATE.mastery[n.id];
+                                if (mastery && mastery.level < lowestScore) {
+                                    lowestScore = mastery.level;
+                                    target = n;
+                                }
+                            }
+                        }
+                        if (target && lowestScore < 0.8) {
+                            alert('🎯 Điểm của bạn đang hổng ở mức ' + Math.round(lowestScore*100) + '/100. Hãy thử sức để cải thiện Node: ' + (target.label || target.id));
+                        } else {
+                            target = null;
+                        }
+                    }
+                }
+                
+                if (target) {
+                    handleNodeClick(target); // Lệnh Camera bay tới nút đó
+                } else {
+                    alert('🏆 CHÚC MỪNG! Bạn đã đạt mốc Master toàn bộ cây kiến thức này xuất sắc!');
+                }
+            };
+
+            // Khởi tạo Interval Timer cập nhật realtime nhẹ
+            setInterval(() => {
+                // Fetch file trạng thái thực tế từ local web server (Phải thêm cache buster để tránh Browser Cache đè)
+                fetch(`/user_data/sv01/states/e69bf65f_state.json?t=${Date.now()}`)
+                    .then(r => r.json())
+                    .then(data => {
+                        let changed = false;
+                        if(data && data.mastery) {
+                            // So sánh và merge
+                            Object.keys(data.mastery).forEach(key => {
+                                if (!USER_STATE.mastery[key] || USER_STATE.mastery[key].level !== data.mastery[key].level || USER_STATE.mastery[key].attempts !== data.mastery[key].attempts) {
+                                    USER_STATE.mastery[key] = data.mastery[key];
+                                    changed = true;
+                                }
+                            });
+                        }
+                        if (changed) {
+                            // Cập nhật lại màu sắc Node trên 3D Graph
+                            Graph.nodeColor(Graph.nodeColor());
+                            Graph.nodeVal(Graph.nodeVal());
+                            // Cập nhật lại Dashboard góc trên
+                            updateDashboard();
+                            
+                            // Nếu node đang xem nằm trong Info Panel thì cập nhật text
+                            if (window.currentNodeId) {
+                                const currentMastery = USER_STATE.mastery[window.currentNodeId] ? USER_STATE.mastery[window.currentNodeId].level : 0;
+                                document.getElementById('info-meta').innerText = "Điểm Thông thạo (Mastery): " + Math.round(currentMastery*100) + "/100 🏆";
+                            }
+                        }
+                    })
+                    .catch(e => console.log('Silently ignoring fetch sync error', e));
+            }, 3000);
+
+            const searchInput = document.getElementById('searchInput');
+            const searchBtn = document.getElementById('searchBtn');
+
+            function doSearch() {
+                const query = searchInput.value.toLowerCase().trim();
+                if(!query) return;
+
+                const target = GRAPH_DATA.nodes.find(n => (n.label || '').toLowerCase().includes(query));
+                if(target) {
+                    handleNodeClick(target);
+                } else {
+                    alert("Không tìm thấy kết quả nào trùng khớp với từ khóa của bạn!");
+                }
+            }
+
+            searchBtn.addEventListener('click', doSearch);
+            searchInput.addEventListener('keydown', (e) => {
+                if(e.key === 'Enter') doSearch();
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+                         async def tutor_start_exercise():
+                             prob = tutor_problem.value
+                             if not prob or not prob.strip():
+                                 ui.notify('Vui lòng nhập đề bài trước khi bắt đầu!', type='warning')
+                                 return
+                             
+                             if left_splitter.value > 8:
+                                 toggle_problem_panel()
+                             
+                             with tutor_chat_container:
+                                 spinner = ui.row().classes('items-center gap-2')
+                                 with spinner:
+                                     ui.spinner('dots', size='md', color='blue-500')
+                                     ui.label('Đang phân tích đề bài...').classes('text-gray-400 text-xs italic')
+                             
+                             prompt = f"""Bạn là gia sư AI. Người học vừa nhập một đề bài mới để bắt đầu làm.
+Đề bài: {prob}
+
+Nhiệm vụ:
+1. Gửi một lời chào thân thiện.
+2. Xác nhận đã nhận đề bài và tóm tắt ngắn gọn yêu cầu (1-2 câu).
+3. Khuyến khích người học bắt đầu suy nghĩ và viết lời giải vào "Không gian làm bài", sau đó nhấn "Gửi" ở khung chat để bạn hướng dẫn bước đầu tiên.
+4. Trình bày bằng Markdown. KHÔNG giải bài toán lúc này.
+5. BẮT BUỘC sử dụng cú pháp LaTeX: dùng `$$...$$` cho công thức tách dòng, và `\\(...\\)` cho công thức trong dòng. TUYỆT ĐỐI KHÔNG DÙNG dấu `$` đơn vì dễ bị lỗi Markdown.
+6. Khi viết phép nhân trong công thức, dùng `\\cdot` hoặc viết liền (vd `2x^2`). TUYỆT ĐỐI KHÔNG dùng dấu `*` (asterisk) vì Markdown sẽ hiểu nhầm là in nghiêng. Nếu copy đề bài của học sinh, hãy tự động thay dấu `*` thành viết liền hoặc `\\cdot`.
+7. Đảm bảo Xuống Dòng trước và sau mỗi gạch đầu dòng (`-` hoặc `*`) để danh sách hiển thị rõ ràng, không bị dính chùm.
+"""
+                             try:
+                                 response = await run.io_bound(model.generate_content, prompt)
+                                 tutor_chat_container.remove(spinner)
+                                 with tutor_chat_container:
+                                     with ui.row().classes('w-full no-wrap items-start gap-3'):
+                                         ui.icon('auto_awesome', color='blue-600').classes('text-xl mt-1')
+                                         with ui.column().classes('bg-blue-50/60 p-3 rounded-2xl rounded-tl-sm shadow-sm w-full overflow-hidden'):
+                                             ui.markdown(response.text)
+                                 ui.run_javascript('setTimeout(() => { if (window.MathJax) MathJax.typesetPromise(); }, 300);')
+                             except Exception as e:
+                                 tutor_chat_container.remove(spinner)
+                                 with tutor_chat_container:
+                                     with ui.row().classes('w-full no-wrap items-start gap-3'):
+                                         ui.icon('error', color='red-500').classes('text-xl mt-1')
+                                         with ui.column().classes('bg-red-50 p-3 rounded-2xl rounded-tl-sm shadow-sm w-full'):
+                                             ui.markdown(f"**Lỗi:** {str(e)}").classes('text-red-600')
+                         
+                         async def tutor_send_message():
+                             msg = tutor_input.value
+                             if not msg: return
+                             
+                             with tutor_chat_container:
+                                 with ui.row().classes('w-full no-wrap justify-end'):
+                                     with ui.column().classes('bg-gray-100 p-3 rounded-2xl rounded-tr-sm max-w-[85%] shadow-sm'):
+                                         ui.markdown(msg).classes('text-gray-800 font-medium')
+                             tutor_input.value = ''
+                             
+                             with tutor_chat_container:
+                                 spinner = ui.row().classes('items-center gap-2')
+                                 with spinner:
+                                     ui.spinner('dots', size='md', color='blue-500')
+                                     ui.label('Đang suy nghĩ...').classes('text-gray-400 text-xs italic')
+                             
+                             try:
+                                 problem_text = tutor_problem.value or "Chưa có đề bài"
+                                 workspace_text = tutor_workspace.value or "Chưa có bài làm"
+                                 
+                                 prompt = f"""Bạn là gia sư AI. Người học đang hỏi bạn: "{msg}".
+Đề bài của người học:
+{problem_text}
+
+Bài làm hiện tại của người học:
+{workspace_text}
+
+Nhiệm vụ:
+1. Trả lời câu hỏi và hướng dẫn người học từng bước.
+2. Tuyệt đối không đưa ra đáp án trực tiếp.
+3. Chỉ hướng dẫn tiếp theo từ bài làm hiện tại.
+4. Trình bày dưới dạng Markdown dễ đọc.
+5. BẮT BUỘC sử dụng cú pháp LaTeX: dùng `$$...$$` cho công thức tách dòng, và `\\(...\\)` cho công thức trong dòng. TUYỆT ĐỐI KHÔNG DÙNG dấu `$` đơn vì dễ bị lỗi Markdown.
+6. Khi viết phép nhân trong công thức, dùng `\\cdot` hoặc viết liền (vd `2x^2`). TUYỆT ĐỐI KHÔNG dùng dấu `*` (asterisk) vì Markdown sẽ hiểu nhầm là in nghiêng. Nếu copy đề bài của học sinh, hãy tự động thay dấu `*` thành viết liền hoặc `\\cdot`.
+7. Đảm bảo Xuống Dòng trước và sau mỗi gạch đầu dòng (`-` hoặc `*`) để danh sách hiển thị rõ ràng, không bị dính chùm.
+"""
+                                 response = await run.io_bound(model.generate_content, prompt)
+                                 tutor_chat_container.remove(spinner)
+                                 with tutor_chat_container:
+                                     with ui.row().classes('w-full no-wrap items-start gap-3'):
+                                         ui.icon('auto_awesome', color='blue-600').classes('text-xl mt-1')
+                                         with ui.column().classes('bg-blue-50/60 p-3 rounded-2xl rounded-tl-sm shadow-sm w-full overflow-hidden'):
+                                             ui.markdown(response.text)
+                                 ui.run_javascript('setTimeout(() => { if (window.MathJax) MathJax.typesetPromise(); }, 300);')
+                             except Exception as e:
+                                 tutor_chat_container.remove(spinner)
+                                 with tutor_chat_container:
+                                     with ui.row().classes('w-full no-wrap items-start gap-3'):
+                                         ui.icon('error', color='red-500').classes('text-xl mt-1')
+                                         with ui.column().classes('bg-red-50 p-3 rounded-2xl rounded-tl-sm shadow-sm w-full'):
+                                             ui.markdown(f"**Lỗi:** {str(e)}").classes('text-red-600')
+                         
+                         with ui.column().classes('w-full p-4 border-t border-gray-100 bg-white gap-2 z-10 no-wrap'):
+                             with ui.row().classes('w-full items-center gap-2 relative'):
+                                 tutor_input = ui.input(placeholder='Hỏi gia sư...').props('rounded outlined dense borderless').classes('w-full bg-gray-100 pr-10').on('keydown.enter', tutor_send_message)
+                                 ui.button(icon='send', on_click=tutor_send_message).props('flat round dense color=blue').classes('absolute right-1 top-1/2 transform -translate-y-1/2')
+
+ui.run(storage_secret='pkt_secret_key', title='PKT Bio-Tutor', port=8081)

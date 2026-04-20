@@ -1,0 +1,86 @@
+﻿Slide 1: TRANG TIÊU ĐỀ (MODULE 4: KỸ NĂNG BẢO ĐẢM AN TOÀN TRÊN KHÔNG GIAN MẠNG - Tiết 2)
+Người 1: Chào các bạn! Chào mừng các bạn quay trở lại với Học phần Kỹ năng số. Hôm nay, chúng ta sẽ bước vào Tiết 2 của Module 4 với chủ đề: "Kỹ năng bảo đảm an toàn trên không gian mạng". Trọng tâm của bài học hôm nay sẽ xoay quanh ba từ khóa cực kỳ quan trọng: Dữ liệu cá nhân, An sinh số và Trách nhiệm của sinh viên chúng ta.
+Người 2: Chào thầy ạ. Nhắc đến "an toàn trên không gian mạng", em hay nghĩ đến việc máy tính bị nhiễm vi-rút hay bị hack nick Phây-sờ-búc (Facebook). Không biết hôm nay mình có học cách làm hacker không thầy nhỉ?
+Người 1: (Cười) Chúng ta không học làm hacker, nhưng chúng ta sẽ học cách tư duy như họ để biết cách phòng chống. Và trước khi học cách bảo vệ thứ gì đó, ta phải hiểu rõ thứ mình đang nắm giữ có giá trị như thế nào đã. Cùng bước sang slide tiếp theo nhé.
+
+Slide 2: BẢN CHẤT CỦA DỮ LIỆU TRONG KỶ NGUYÊN SỐ
+Người 1: Đầu tiên, chúng ta cùng nói về "Bản chất của dữ liệu". Trong kỷ nguyên số, dữ liệu chính là thông tin được thu thập, lưu trữ và xử lý để phục vụ cho việc phân tích, ra quyết định và vận hành hệ thống. Chúng tồn tại dưới dạng một mạng lưới đa phương tiện: từ những con số khô khan, văn bản, cho đến hình ảnh, âm thanh, video hay các mã nhị phân không và một.
+Người 2: Nghe có vẻ vĩ mô quá thầy ạ. Nó có liên quan gì đến những sinh viên bình thường như bọn em không?
+Người 1: Có chứ, liên quan mật thiết là đằng khác! Em hãy nhớ điều này: Mọi tương tác của em trên mạng đều tạo ra dữ liệu. Em tìm kiếm một quán cà phê trên Gu-gồ (Google), em thả tim một video trên Tích-tốc (TikTok), hay em thanh toán một ly trà sữa bằng mã Quy-rờ (QR)... tất cả đều là dữ liệu. Và khi những dữ liệu này được thu thập và phân tích, chúng mang lại một giá trị kinh tế khổng lồ cho các tập đoàn công nghệ.
+
+Slide 3: DỮ LIỆU CÁ NHÂN: DẤU VÂN TAY SỐ CỦA BẠN
+Người 1: Khi dữ liệu gắn liền với một con người cụ thể, nó trở thành "Dữ liệu cá nhân". Các em có thể hình dung nó giống như một "dấu vân tay số" của riêng mình. Nó bao gồm ba vòng tròn thông tin cốt lõi. Vòng ngoài cùng là Định danh và Liên lạc, ví dụ như họ tên, ngày sinh, email hay số điện thoại của em.
+Người 2: Thế còn những thông tin bảo mật hơn như khuôn mặt để mở khóa điện thoại thì sao ạ?
+Người 1: Chính xác! Đó là vòng tròn thứ hai: Sinh trắc học và Định vị. Nó bao gồm dấu vân tay, khuôn mặt, võng mạc mắt, hoặc vị trí Gờ-pê-ét (GPS) và địa chỉ Ai-pi (IP) mạng của em. Cuối cùng, vòng tròn trong cùng là Dữ liệu nhạy cảm, bao gồm hồ sơ tài chính, lịch sử khám chữa bệnh, hay các lịch sử hành vi thầm kín. Ranh giới để xác định rất đơn giản: Bất cứ dữ liệu nào liên quan trực tiếp hoặc gián tiếp đến việc định danh một con người thật, thì đó là dữ liệu cá nhân.
+
+Slide 4: VÌ SAO DỮ LIỆU CÁ NHÂN LUÔN BỊ NHẮM TỚI?
+Người 2: Em hiểu rồi. Nhưng em thắc mắc là, em chỉ là một sinh viên, tài khoản ngân hàng cũng chẳng có nhiều tiền. Tại sao tin tặc hay tội phạm mạng lại tốn công nhắm tới dữ liệu cá nhân của em làm gì ạ?
+Người 1: Rất nhiều người chủ quan giống em đấy! Có ba lý do khiến dữ liệu của em luôn là "miếng mồi ngon". Thứ nhất, nó là Tài sản vô hình. Các công ty cần dữ liệu của em làm nguyên liệu để xây dựng hồ sơ hành vi, từ đó quảng cáo trúng đích. Thứ hai, nó Khó thay thế. Nếu em lộ mật khẩu, em có thể đổi mật khẩu mới. Nhưng nếu em để lộ số Căn cước công dân hay dấu vân tay, em không thể nào đổi Căn cước hay đổi vân tay được, em sẽ mất kiểm soát vĩnh viễn.
+Người 2: Ôi, thế lý do thứ ba là gì ạ?
+Người 1: Đó là Mục tiêu của tội phạm. Dữ liệu của em có thể bị bán trên chợ đen để kẻ xấu đánh cắp danh tính. Hãy tưởng tượng một ngày đẹp trời, em bị gọi điện đòi nợ vì có kẻ đã dùng thông tin Căn cước công dân của em để vay nóng trên mạng. Hoặc chúng dùng hình ảnh của em để lừa đảo bạn bè, tống tiền và bôi nhọ uy tín.
+
+Slide 5: CÁC LOẠI HÌNH TẤN CÔNG DỮ LIỆU (PHẦN 1)
+Người 1: Vậy những kẻ tấn công lấy cắp dữ liệu của chúng ta bằng cách nào? Ở phần một này, ta sẽ tìm hiểu hai rủi ro mất dữ liệu chính. Đầu tiên là Tấn công mật khẩu. Yếu điểm lớn nhất lại đến từ chính thói quen của người dùng: đặt mật khẩu quá ngắn, dễ đoán như một-hai-ba-bốn-năm-sáu (123456) và dùng chung một mật khẩu cho mọi tài khoản.
+Người 2: Em thú thật là em cũng hay dùng chung một mật khẩu cho dễ nhớ. Nhưng nếu mật khẩu của em là một từ tiếng Anh có nghĩa thì sao ạ? Bọn chúng làm sao đoán được?
+Người 1: Tội phạm mạng không ngồi đoán bằng tay đâu em. Chúng dùng máy tính siêu mạnh để thực hiện "Bẻ khóa ngoại tuyến", tức là bẻ khóa hàng triệu mật khẩu mỗi giây. Hoặc chúng dùng "Tấn công từ điển", tức là cho máy tính quét qua toàn bộ các từ có trong từ điển để dò ra mật khẩu của em.
+Ngoài ra, rủi ro thứ hai là Đánh cắp dữ liệu trực tiếp. Con đường lây nhiễm thường qua phần mềm gián điệp, các chiêu trò lừa đảo, hoặc do chính sự bất cẩn của nhân viên nội bộ trong công ty. Hậu quả là dữ liệu của em bị đem bán kiếm lời, hoặc tồi tệ hơn là bị dính mã độc tống tiền Ran-sôm-we (Ransomware), khóa chặt toàn bộ dữ liệu máy tính cho đến khi em chịu trả tiền chuộc.
+
+Slide 6: KỸ THUẬT THAO TÚNG TÂM LÝ (SOCIAL ENGINEERING)
+Người 1: Chào mừng các em quay lại. Ở phần trước chúng ta đã nói về việc tội phạm dùng máy tính để dò mật khẩu. Nhưng các em biết không, thay vì cất công bẻ khóa một hệ thống công nghệ chằng chịt tường lửa, tội phạm mạng ngày nay thích "bẻ khóa" con người hơn. Đó chính là "Kỹ thuật thao túng tâm lý", hay tiếng Anh gọi là Sô-sồ En-gi-nia-rinh (Social Engineering). Kẻ xấu sẽ đánh vào tâm lý sợ hãi, lòng tham, hoặc sự cả tin để chính các em tự nguyện dâng mật khẩu cho chúng.
+Người 2: Nghe nguy hiểm quá thưa thầy. Tụi nó thao túng mình bằng cách nào ạ?
+Người 1: Phổ biến nhất là Phi-sinh (Phishing), tức là lừa đảo trực tuyến. Chúng sẽ thả những "lưỡi câu" như giả danh ngân hàng gửi email báo tài khoản của em bị khóa. Tinh vi hơn có Xờ-pia Phi-sinh (Spear Phishing) - nhắm thẳng vào một cá nhân cụ thể với thông tin cá nhân chính xác, hoặc Uây-linh (Whaling) - chuyên đi săn "cá mập", tức là lừa đảo các sếp lớn, lãnh đạo cấp cao. Thậm chí có cả Vi-sinh (Vishing) - gọi điện thoại trực tiếp giả danh công an để dọa nạt.
+Người 2: Ôi, mấy vụ gọi điện lừa đảo giả danh công an thì em nghe thời sự nói suốt. Còn chiêu trò nào khác không thầy?
+Người 1: Còn chứ. Ví dụ như Tai-pô-sờ-quát-tinh (Typosquatting) - chúng lập một trang web có tên miền gõ sai chính tả một chút so với trang thật, ví dụ chữ "facebook" bị thiếu chữ "o" để lừa em đăng nhập. Hoặc Pờ-ri-tếch-tinh (Pretexting) - tạo ra một kịch bản giả mạo cực kỳ hoàn hảo để thao túng em. Đơn giản nhất và đời thường nhất là Sâu-đờ Sơ-phinh (Shoulder surfing) - đứng ngay sau lưng em ở quán cà phê và nhìn trộm em gõ mật khẩu qua vai.
+
+Slide 7: THIẾT LẬP RÀO CHẮN BẢO MẬT CỐT LÕI
+Người 2: Chết thật, thế này thì hở ra một chút là mất tài khoản rồi. Mình phải làm sao để phòng thủ đây thưa thầy?
+Người 1: Đừng quá lo lắng. Em hãy thiết lập rào chắn bảo mật cốt lõi gồm hai lớp bảo vệ. Lớp thứ nhất là dùng "Trình quản lý mật khẩu". Thay vì phải nhớ hàng chục mật khẩu lằng nhằng, em chỉ cần nhớ một mật khẩu chủ duy nhất. Các công cụ như Bít-uơ-đần (Bitwarden), Lát-pát (LastPass), hay Một-pát-uốt (1Password) sẽ tự động tạo, lưu trữ và điền những mật khẩu độc nhất cực kỳ phức tạp cho từng tài khoản của em.
+Người 2: Thế nhỡ ai đó biết được cái mật khẩu chủ của em thì họ lấy được hết ạ?
+Người 1: Chính vì thế chúng ta mới cần Lớp bảo vệ thứ hai: Xác thực đa yếu tố, hay gọi tắt là Hai-ép-a (2FA). Dù kẻ trộm có mật khẩu của em, chúng vẫn bị chặn lại ở bước này vì hệ thống đòi hỏi một yếu tố xác minh độc lập thứ hai. Mức độ bảo mật cũng tăng dần: yếu nhất là nhận mã qua tin nhắn ét-em-ét (SMS) hoặc Email, an toàn hơn là dùng Ứng dụng Ô-then-ti-cây-tờ (Authenticator) sinh mã liên tục trên điện thoại, và đỉnh cao nhất là dùng Khóa cứng Du-bi-ki (YubiKey) cắm vào máy tính, hoặc xác thực bằng Sinh trắc học như vân tay, khuôn mặt.
+
+Slide 8: MÃ HÓA, MẠNG ẢO VÀ KIỂM TOÁN CÁ NHÂN
+Người 1: Chưa dừng lại ở đó, đối với những dữ liệu cực kỳ nhạy cảm, em cần đến phương pháp Mã hóa (Cryptography). Quá trình này biến các tập tin dễ đọc của em thành một đoạn văn bản vô nghĩa - gọi là sai-phơ-tếch (ciphertext). Dù kẻ trộm có lấy được máy tính hay USB của em thì cũng chỉ nhìn thấy một đống ký tự lộn xộn, trừ khi chúng có chìa khóa giải mã. Các công cụ phổ biến có thể kể đến như Bít-lốc-cơ (BitLocker) hay mã hóa đám mây.
+Người 2: Thầy ơi, em hay ra quán cà phê ngồi học và dùng mạng oai-phai (Wi-Fi) miễn phí ở đó. Như vậy có nguy hiểm không ạ?
+Người 1: Rất nguy hiểm! Dữ liệu của em có thể bị những kẻ dùng chung mạng oai-phai (Wi-Fi) đó "đánh chặn". Giải pháp ở đây là sử dụng Mạng riêng ảo - Vê-pê-nờ (VPN) để mã hóa toàn bộ đường truyền. Cuối cùng, hãy thường xuyên làm một việc gọi là "Kiểm toán quyền riêng tư". Em hãy mở phần cài đặt trên điện thoại lên, kiểm tra xem có ứng dụng lạ nào đang lén truy cập vào micro, máy ảnh hay vị trí của em không, nếu không cần thiết thì phải thu hồi quyền ngay lập tức.
+
+Slide 9: TÁC ĐỘNG CỦA MÀN HÌNH ĐẾN SỨC KHỎE SỐ
+Người 2: Phù, vậy là em đã biết cách khóa chặt cánh cửa kỹ thuật số của mình rồi. Cảm giác an tâm hơn hẳn ạ!
+Người 1: Tốt lắm! Bảo vệ được thiết bị và dữ liệu rồi, giờ chúng ta phải bảo vệ chính con người em. Chúng ta cùng sang phần Sức khỏe số. Em hãy hiểu, sức khỏe số là trạng thái an toàn, khỏe mạnh cả về thể chất lẫn tinh thần khi ta sống chung với thiết bị công nghệ. Đầu tiên, hãy nói về tác động thể chất. Nếu em cắm mặt vào điện thoại cả ngày, em sẽ bị hội chứng thị giác máy tính gây mỏi mắt, đau nhức cổ và lưng do ngồi sai tư thế, đặc biệt là rối loạn nhịp sinh học, mất ngủ triền miên do ánh sáng xanh từ màn hình phát ra.
+Người 2: Cái này em công nhận ạ. Nhiều đêm em lướt Tích-tốc (TikTok) xong là thao thức đến sáng luôn. Chắc tâm lý cũng bị ảnh hưởng thầy nhỉ?
+Người 1: Đúng vậy. Về mặt tâm lý, lượng thông tin khổng lồ trên mạng sẽ gây ra "căng thẳng kỹ thuật số" (Digital stress). Nguy hiểm hơn là hội chứng Phô-mô (FOMO) - tức là hội chứng sợ bị bỏ lỡ. Khi thấy bạn bè đi chơi, mua đồ mới đăng lên mạng, em sẽ sinh ra cảm giác lo âu, tự ti, so sánh bản thân, lâu dần sẽ dẫn đến trầm cảm và nghiện Internet.
+
+Slide 10: XÂY DỰNG ĐỀ KHÁNG SỐ (DIGITAL DETOX)
+Người 2: Nghe sợ quá thầy ơi! Đúng là dạo này em hay bị mất tập trung và hay cáu gắt thật. Mình có "đơn thuốc" nào để chữa căn bệnh thời đại này không ạ?
+Người 1: Đơn thuốc nằm ở chính sự tự kỷ luật của em. Slide 10 sẽ hướng dẫn em 3 phương pháp Xây dựng đề kháng số. Thứ nhất, hãy Quản lý Sờ-cờ-rin-tham (Screen Time). Em hãy dùng ngay công cụ có sẵn trên điện thoại để đặt một ranh giới thời gian cứng cho các app giải trí. Ví dụ, thiết lập một ngày chỉ được lướt mạng xã hội tối đa sáu mươi phút. Thứ hai, để bảo vệ mắt, hãy áp dụng "Quy tắc hai mươi - hai mươi - hai mươi" (20-20-20). Nghĩa là, cứ nhìn màn hình hai mươi phút, thì phải đưa mắt nhìn ra xa hai mươi feet - tương đương khoảng sáu mét - trong khoảng thời gian ít nhất là hai mươi giây.
+Người 2: Còn tâm lý hay bị xao nhãng thì sao ạ? Nhiều lúc em định mở máy lên học mà thấy thông báo tin nhắn lại bấm vào xem mất cả tiếng đồng hồ.
+Người 1: Khi đó em cần thực hành "Cai nghiện số", hay Đi-gi-tờ Đi-tốc (Digital Detox). Cách làm cực kỳ hiệu quả là: hãy thẳng tay xóa các app gây xao nhãng khỏi màn hình chính, tắt toàn bộ các thông báo đẩy (Push Notifications) không quan trọng. Và một mẹo nhỏ rất hay nữa là: hãy chuyển màn hình điện thoại sang chế độ xám (Grayscale). Khi không còn màu sắc sặc sỡ lấp lánh để kích thích não bộ, tự nhiên em sẽ bớt cảm giác thèm muốn cầm vào chiếc điện thoại.
+
+Slide 11: TẦM NHÌN VĨ MÔ: AN SINH SỐ (DIGITAL WELLBEING)
+Người 1: Chào các em, ở các slide trước chúng ta đã học cách "phòng thủ" và "cai nghiện" công nghệ. Nhưng đó mới chỉ là bề nổi. Mục tiêu cao nhất mà chúng ta hướng tới ở Slide 11 này là "An sinh số" - hay Đi-gi-tờ Queo-bi-inh (Digital Wellbeing). An sinh số không bắt em phải vứt bỏ điện thoại, mà là sử dụng công nghệ một cách an toàn, tự tin và có chủ đích để nâng tầm chất lượng sống. Để làm được, ta cần thăng bằng hai yếu tố.
+Người 2: Hai yếu tố đó là gì vậy thưa thầy?
+Người 1: Thứ nhất là Khẩu phần thông tin (Information Diet). Giống như ăn uống, nếu em nạp toàn "rác" thì cơ thể sẽ sinh bệnh. Hãy áp dụng phương pháp Ét-ai-ép-ti (SIFT - Stop, Investigate, Find better coverage, Trace) để rèn luyện tư duy phản biện, lọc bỏ tin giả và chỉ tiêu thụ những nguồn tin uy tín, bổ dưỡng. Thứ hai là Thăng bằng thực tại. Đừng để một bình luận tiêu cực trên mạng làm em bực bội cãi nhau với người thân trong bữa cơm tối. Hãy kiểm soát cảm xúc online và chủ động vun đắp các mối quan hệ bằng xương bằng thịt ở đời thực.
+
+Slide 12: NETIQUETTE: NGUYÊN TẮC HÀNH XỬ CÔNG DÂN SỐ
+Người 2: Dạ em hiểu rồi. Vậy khi mình tương tác trên mạng, có bộ quy tắc nào để biết mình đang hành xử đúng mực không ạ?
+Người 1: Có chứ! Đó gọi là Nét-ti-két (Netiquette) - phép lịch sự trên không gian mạng. Có 4 nguyên tắc vàng mà em phải nằm lòng. Đầu tiên là "Remember the Human" - hãy nhớ phía sau cái a-va-ta (avatar) vô tri kia là một con người thật biết tổn thương. Nguyên tắc thứ hai: Tôn trọng khác biệt. Khi tranh luận, em chỉ được phản biện vào lập luận, tuyệt đối không công kích cá nhân - lỗi này tiếng La-tinh gọi là Át-hô-mi-nem (Ad hominem).
+Người 2: Em thấy trên mạng người ta hay chửi bới ngoại hình hay gia cảnh của nhau khi cãi thua. Đó chính là công kích cá nhân đúng không thầy?
+Người 1: Chính xác! Hành vi đó rất độc hại. Vì vậy mới có nguyên tắc thứ ba: Think Before You Post (Suy nghĩ trước khi đăng). Hãy tự hỏi thông tin này có đúng không? Có làm tổn thương ai không? Và cuối cùng là Danh tiếng số. Thay vì lên mạng đi chửi dạo, em hãy chia sẻ các bài viết học thuật, các dự án cộng đồng để xây dựng một dấu chân số tích cực. Nhà tuyển dụng sau này nhìn vào sẽ rất ấn tượng đấy!
+
+Slide 13: TRỞ THÀNH MỘT "ĐỒNG MINH SỐ" (DIGITAL ALLY)
+Người 1: Khi em đã hành xử chuẩn mực rồi, thầy khuyến khích em tiến thêm một bước nữa: Trở thành một "Đồng minh số" - Đi-gi-tờ A-lai (Digital Ally). Đừng chỉ là người đứng xem vô cảm. Hãy tạo ra một vòng lặp phản hồi tích cực.
+Người 2: Một sinh viên nhỏ bé như em thì làm được gì để chống lại cả một cộng đồng mạng tiêu cực hả thầy?
+Người 1: Em làm được rất nhiều! Đầu tiên là Can thiệp an toàn: Thấy bạn bè bị bắt nạt, hãy hành động, cùng nhau ký kiến nghị yêu cầu nền tảng phải xử lý. Thứ hai là Lan tỏa tích cực: Thay vì chia sẻ tin sốc gân, em hãy chủ động tương tác, chia sẻ kiến thức hữu ích để "áp đảo" tin giả. Cuối cùng, hãy thực hành đồng minh số: Dùng tiếng nói của mình để bênh vực, bảo vệ những nhóm người yếu thế. Một cánh én nhỏ nhưng nhiều cánh én sẽ làm nên mùa xuân trên không gian mạng!
+
+Slide 14: SƠ CỨU TÂM LÝ SỐ: NHẬN DIỆN & HỖ TRỢ
+Người 2: Thầy ơi, nếu em vô tình thấy một người bạn đăng trạng thái rất bế tắc, trầm cảm trên Phây-sờ-búc (Facebook) thì em phải làm sao ạ? Em rất sợ mình nói sai sẽ làm bạn ấy buồn thêm.
+Người 1: Đó là lúc em cần áp dụng quy trình 4 bước "Sơ cứu tâm lý số". Bước 1: Nhận diện. Em phát hiện bạn hay đăng status tuyệt vọng, ám ảnh hoặc đột ngột khóa tài khoản biến mất. Bước 2: Tiếp cận. Ngay lập tức nhắn tin riêng tư - in-bóc (inbox) hỏi thăm. Tuyệt đối không bình luận tò mò hay thả biểu tượng cảm xúc trêu đùa công khai trên bài đăng đó.
+Người 2: Lúc nhắn tin riêng thì mình khuyên bạn ấy thế nào ạ? Kiểu "cố lên, lạc quan lên" được không thầy?
+Người 1: Đừng bao giờ khuyên những câu sáo rỗng như vậy! Sang Bước 3: Lắng nghe. Em chỉ cần nghe, không phán xét, và xác nhận cảm xúc của bạn, ví dụ: "Mình hiểu cậu đang rất áp lực". Và Bước 4: Kết nối. Hãy khéo léo kết nối nạn nhân với chuyên gia hoặc Phòng tư vấn tâm lý của trường. Nhớ nhé, em là bạn, không phải bác sĩ tâm lý, đừng tự ý chẩn đoán bệnh cho bạn mình.
+
+Slide 15: BÀI TẬP TÌNH HUỐNG & PHÂN TÍCH GIẢI PHÁP
+Người 1: Để chốt lại toàn bộ kỹ năng của Tiết 2, chúng ta cùng giải quyết một bài tập tình huống ở slide 15. Một bạn cùng lớp đăng dòng trạng thái bế tắc. Bên dưới, một nhóm tài khoản lạ ùa vào buông lời miệt thị, chế giễu ngoại hình. Em sẽ NÊN LÀM và KHÔNG NÊN LÀM gì?
+Người 2: Dựa vào những gì thầy vừa dạy, em sẽ KHÔNG NÊN bình luận cãi nhau tay đôi với kẻ bắt nạt vì như thế sự việc sẽ rùm beng lên. Em cũng KHÔNG chia sẻ bài viết đó ra ngoài, và KHÔNG tự đưa ra lời khuyên sáo rỗng.
+Người 1: Rất xuất sắc! Vậy em NÊN LÀM gì?
+Người 2: Dạ, em sẽ in-bóc (inbox) nhắn tin riêng ngay lập tức để lắng nghe bạn ấy. Sau đó, em sẽ âm thầm ấn Rì-pọt (Report) báo cáo các bình luận chửi rủa kia cho nền tảng xóa đi. Cuối cùng, em sẽ khuyên bạn tạm thời khóa mạng xã hội để Đi-tốc (Detox) và giúp bạn liên hệ với chuyên gia tâm lý của trường ạ.
+Người 1: Tuyệt vời! Lời giải của em hoàn toàn chính xác. Hành động đó chứng tỏ em đã nắm vững kỹ năng bảo vệ an sinh số và thực sự trở thành một "Đồng minh số" đáng tin cậy. Cảm ơn các em đã theo dõi, chúng ta sẽ kết thúc Tiết 2 của Module 4 tại đây!
+

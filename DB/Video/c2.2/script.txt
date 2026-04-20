@@ -1,0 +1,73 @@
+﻿Slide 1: TRANG TIÊU ĐỀ
+Người 1: Chào các anh chị và các bạn. Chào mừng mọi người đến với Module hai có tựa đề: Giao tiếp và Hợp tác trên Môi trường số. Chủ đề chính của bài học ngày hôm nay của chúng ta là "Hành trình trở thành công dân số: Làm chủ tương tác, hợp tác và danh tính của bạn". Xin lưu ý, đây là tài liệu đào tạo chính thức từ Bộ Giáo dục và Đào tạo.
+Người 2: Dạ thưa thầy, khi nói đến cụm từ "công dân số", có phải mình chỉ cần biết cách lên mạng đọc tin tức hay nhắn tin bằng điện thoại thông minh là đủ không ạ?
+
+Slide 2: LỘ TRÌNH CỦA MÔI TRƯỜNG SỐ
+Người 1: Một câu hỏi mở đầu rất hay! Thực ra, môi trường số là một hành trình dài, chứ không phải chỉ là một điểm đến. Mục tiêu của chúng ta là chuyển từ một người tham gia thụ động thành một công dân số chủ động. Hành trình này đi qua ba giai đoạn cốt lõi: Giai đoạn một là Hiểu rõ Bản thể số, giai đoạn hai là Điều hướng Thế giới số, và giai đoạn cuối cùng là Làm chủ Sự hiện diện số.
+Người 2: Vậy "bản thể số" ở giai đoạn một có liên quan gì đến những thông tin hay bài đăng mình để lại trên mạng không thầy?
+
+Slide 3: TÌM HIỂU VỀ DẤU CHÂN SỐ (DIGITAL FOOTPRINT)
+Người 1: Sự liên tưởng của em rất chính xác! Giai đoạn một bắt đầu từ việc nhận thức rằng mọi hành động của em đều để lại dấu vết, và chúng ta gọi đó là Dấu chân số. Dấu chân số là những dấu vết dữ liệu mà bạn tạo ra khi sử dụng Internet, bao gồm mọi thứ từ trang web bạn truy cập, email bạn gửi, đến các lượt thích và bình luận. Nó được chia làm hai loại: Dấu chân số Chủ động là dữ liệu bạn cố ý chia sẻ như đăng bài lên mạng xã hội hay chấp nhận cookie trên trình duyệt.
+Người 2: Thế còn Dấu chân số Bị động thì sao ạ? Có phải là lúc mình không làm gì mà máy tính vẫn tự thu thập thông tin của mình không thầy?
+Người 1: Rất chuẩn xác! Dấu chân số Bị động là dữ liệu được thu thập mà bạn không hề hay biết hoặc không trực tiếp thực hiện. Ví dụ như các trang web thu thập địa chỉ ai-pi, ứng dụng theo dõi vị trí của bạn, hay các nhà quảng cáo tự xây dựng hồ sơ sở thích của bạn dựa trên các hoạt động trực tuyến.
+
+Slide 4: TỪ DẤU CHÂN SỐ ĐẾN DANH TÍNH SỐ (DIGITAL IDENTITY)
+Người 1: Bây giờ, từ những dấu chân rời rạc đó, hệ thống sẽ tập hợp lại thành một Danh tính số hoàn chỉnh của em. Các em phải hiểu, danh tính số không chỉ là cái tên hay tấm ảnh đại diện. Nó là một hồ sơ khổng lồ bao gồm bốn nhóm: thông tin nhận dạng cơ bản, hành vi và sở thích, dữ liệu nhạy cảm về tài chính hay sức khỏe, và đáng sợ nhất là các đặc điểm suy luận.
+Người 2: Đặc điểm suy luận nghĩa là máy tính có thể tự đoán ra tính cách hay quan điểm của mình luôn hả thầy?
+Người 1: Đúng thế. Từ việc em hay xem video gì, mua sắm món đồ nào, hệ thống có thể tự động suy luận ra tính cách, niềm tin, hệ giá trị và thậm chí là xu hướng chính trị của chính em.
+
+Slide 5: DANH TÍNH SỐ - MỘT CON DAO HAI LƯỠI
+Người 1: Chính vì danh tính số chứa đựng toàn bộ bức tranh chi tiết về một con người như vậy, nên nó được xem là một con dao hai lưỡi. Một mặt, nó mang lại rất nhiều lợi ích và cơ hội, giúp chúng ta xây dựng thương hiệu cá nhân, nhận được các trải nghiệm cá nhân hóa, cũng như dễ dàng kết nối và mở rộng mạng lưới.
+Người 2: Nhưng mặt trái của con dao này là những rủi ro về bảo mật đúng không thầy? Giống như việc mình bị hack tài khoản hay bị người khác lấy cắp thông tin ạ.
+Người 1: Rất đúng! Về mặt rủi ro và nguy cơ, danh tính số nếu không được quản lý tốt có thể gây ảnh hưởng xấu đến danh tiếng của em. Em có thể bị xâm phạm quyền riêng tư, đối mặt với nạn mạo danh, lừa đảo, hoặc thậm chí trở thành nạn nhân của các vụ bắt nạt và quấy rối trực tuyến. Do đó, hiểu và làm chủ danh tính số chính là bài học sinh tồn đầu tiên trong thế giới mạng.
+
+Slide 6: HỢP TÁC SỐ LÀ GÌ?
+Người 1: Ở giai đoạn hai của lộ trình, chúng ta sẽ học cách "Điều hướng Thế giới số", và trọng tâm ở đây chính là sức mạnh của sự hợp tác. Vậy hợp tác số là gì? Đó chính là nơi mà năng lực xã hội và năng lực công nghệ giao thoa với nhau.
+Người 2: Có phải hợp tác số đơn giản chỉ là mình biết dùng Zalo, gửi email hay xài Google Docs để làm việc cùng nhau không thưa thầy?
+Người 1: Dùng công cụ chỉ là một nửa câu chuyện thôi em. Hợp tác số là sự tích hợp giữa "Năng lực Hợp tác Xã hội" như giao tiếp hiệu quả, lắng nghe chủ động, giải quyết xung đột, xây dựng lòng tin, và "Năng lực Công nghệ số" như sử dụng thành thạo phần mềm, quản lý quy trình và đảm bảo an toàn thông tin. Đây không chỉ là việc sử dụng phần mềm, mà là một sự chuyển đổi hoàn toàn trong tư duy và văn hóa làm việc.
+
+Slide 7: LỘ TRÌNH PHÁT TRIỂN CỦA MỌI ĐỘI NHÓM
+Người 1: Khi làm việc nhóm trên môi trường số, mọi đội nhóm đều sẽ trải qua năm giai đoạn phát triển theo mô hình Tắc-men (Tuckman), nhưng sẽ đi kèm với những thách thức trực tuyến rất đặc thù.
+Người 2: Dạ, thầy có thể phân tích rõ hơn những thách thức trực tuyến ở từng giai đoạn được không ạ?
+Người 1: Chắc chắn rồi. Giai đoạn một là Hình thành, thách thức online ở đây là rất khó xây dựng lòng tin ban đầu qua màn hình. Giai đoạn hai là Sóng gió, đây là lúc xung đột nảy sinh. Trên mạng, những hiểu lầm cực kỳ dễ leo thang qua văn bản vì chúng ta không nghe được ngữ điệu của nhau. Giai đoạn ba là Ổn định, lúc này các quy tắc làm việc phải được "viết ra" một cách tường minh chứ không thể ngầm hiểu được nữa. Giai đoạn bốn là Hoạt động hiệu quả, nhóm cần tìm cách duy trì động lực và sự gắn kết trong dài hạn. Và cuối cùng là Kết thúc, nhóm cần tổ chức một buổi tổng kết trọn vẹn qua mạng để ghi nhận thành quả của dự án.
+
+Slide 8: NHỮNG KỲ QUAN CỦA TRÍ TUỆ TẬP THỂ
+Người 1: Để thấy được sức mạnh của việc vượt qua những thách thức đó, chúng ta hãy nhìn vào những kỳ quan của Trí tuệ Tập thể, tiêu biểu là Bách khoa toàn thư Wikipedia và Mạng xã hội lập trình viên GitHub. Hàng triệu người xa lạ đã cùng nhau xây dựng nên những kho tri thức khổng lồ.
+Người 2: Làm sao họ có thể làm việc cùng nhau mà không bị hỗn loạn vậy thầy? Phải chăng mọi người đều rất tự giác ạ?
+Người 1: Thành công của họ không chỉ đến từ sự tự giác đơn thuần, mà từ việc kết hợp giữa quy tắc ứng xử và công nghệ định hình sự hợp tác. Ở Wikipedia, họ dùng trang "Thảo luận" buộc các thành viên phải đối thoại để đạt được sự đồng thuận. Còn ở GitHub, họ dùng quy trình "Pun Rì-quét" (Pull Request) như một "lời mời thảo luận", đảm bảo chất lượng kỹ thuật và sự đồng thuận trước khi hợp nhất bất kỳ thay đổi nào.
+
+Slide 9: NETIQUETTE - QUY TẮC VÀNG CHO GIAO TIẾP MẠNG
+Người 1: Để có được sự đồng thuận như Wikipedia hay GitHub, chúng ta phải tuân thủ "Nét-ti-két" (Netiquette) – hay còn gọi là văn hóa mạng. Nguyên tắc nền tảng nhất em cần khắc cốt ghi tâm là: "Hãy nhớ rằng phía sau mỗi màn hình là một con người thật".
+Người 2: Vậy mình có những quy tắc cụ thể nào để thể hiện sự tôn trọng con người thật đó ạ?
+Người 1: Chúng ta có bốn quy tắc vàng. Thứ nhất là Tôn trọng: tôn trọng quyền riêng tư và không công kích cá nhân. Thứ hai là Trách nhiệm: chịu trách nhiệm về phát ngôn, tuyệt đối không lan truyền tin giả. Thứ ba là Rõ ràng: giao tiếp súc tích, kiểm tra lại trước khi gửi. Đặc biệt, em phải tránh viết in hoa toàn bộ câu, vì trên mạng điều đó được xem như là em đang "la hét" vào mặt người khác. Cuối cùng là An toàn: bảo mật tài khoản và cẩn trọng với các liên kết lạ.
+
+Slide 10: HẬU QUẢ KHI QUY TẮC BỊ PHÁ VỠ
+Người 1: Nếu chúng ta xem nhẹ các quy tắc Nét-ti-két này, hậu quả xảy ra trong thế giới thực là vô cùng tàn khốc.
+Người 2: Thầy có thể lấy một vài ví dụ thực tế đã xảy ra để bọn em rút kinh nghiệm không ạ?
+Người 1: Có ba ví dụ điển hình. Đầu tiên là bạo lực học đường lan truyền, như vụ một nữ sinh lớp tám tại An Nhơn bị đánh hội đồng, quay clip đăng lên mạng. Việc này xúc phạm nghiêm trọng danh dự, nhân phẩm và cổ xúy bạo lực. Thứ hai là tin giả gây hoang mang, ví dụ như các cá nhân bị phạt bảy phẩy năm triệu đồng vì đăng tin bịa đặt "Hà Nam thất thủ" trong đợt mưa lũ, gây tâm lý lo sợ và ảnh hưởng công tác cứu hộ. Cuối cùng là ngôn từ gây thù ghét, như trường hợp nữ diễn viên Lét-li Giôn (Leslie Jones) bị công kích phân biệt chủng tộc và miệt thị ngoại hình, khiến cô bị tổn thương tâm lý nặng nề và buộc phải rời bỏ mạng xã hội.
+
+Slide 11: TUÂN THỦ PHÁP LUẬT TRÊN KHÔNG GIAN MẠNG
+Người 1: Tiếp theo, các em cần nhớ rằng ngoài những quy tắc ứng xử xã hội, chúng ta còn phải tuyệt đối tuân thủ pháp luật trên không gian mạng. Việt Nam có hệ thống pháp lý rất rõ ràng để bảo vệ người dùng và xử lý các vi phạm, minh chứng là chúng ta đang xếp hạng thứ hai mươi lăm trên một trăm chín mươi tư quốc gia về Chỉ số An ninh mạng Toàn cầu.
+Người 2: Dạ, vậy những hành vi nào là bị pháp luật nghiêm cấm thưa thầy?
+Người 1: Dựa trên Luật An ninh mạng năm hai không mười tám và Bộ Quy tắc ứng xử trên mạng xã hội năm hai không hai mươi mốt, các hành vi bị nghiêm cấm bao gồm: tuyên truyền chống phá Nhà nước, kích động bạo loạn, phát tán thông tin sai sự thật gây hoang mang, xâm phạm bí mật nhà nước và thông tin cá nhân. Thầy đặc biệt nhấn mạnh hành vi làm nhục, vu khống, xúc phạm nghiêm trọng danh dự, nhân phẩm của người khác hoặc đăng tin bịa đặt. Nếu vi phạm các quy định này, các em có thể bị xử lý kỷ luật, xử phạt hành chính hoặc thậm chí truy cứu trách nhiệm hình sự.
+
+Slide 12: LỰA CHỌN CÔNG CỤ SỐ
+Người 1: Chuyển sang giai đoạn Làm chủ Sự hiện diện số, bài toán đầu tiên của chúng ta là phải biết lựa chọn bộ công cụ số của mình một cách khôn ngoan.
+Người 2: Làm sao để mình biết công cụ nào là phù hợp nhất ạ? Có tiêu chí nào để đánh giá không thầy?
+Người 1: Chắc chắn rồi, chúng ta có một khung tiêu chí lựa chọn bao gồm: Tính năng có đáp ứng đủ nhu cầu dự án không, Chi phí ra sao, Tính dễ sử dụng, Khả năng tích hợp với các ứng dụng khác và cuối cùng là tính Bảo mật để bảo vệ dữ liệu. Thầy lấy ví dụ, với bộ công cụ toàn diện, em có thể so sánh giữa Gu-gồ Uốc-xơ-pây (Google Workspace) linh hoạt và Mai-crô-xốp ba trăm sáu mươi lăm (Microsoft 365) tích hợp sâu. Để quản lý công việc, ta có Tờ-re-lô (Trello) trực quan, A-xa-na (Asana) linh hoạt hoặc Cờ-lích-ắp (ClickUp). Giao tiếp nhóm thì dùng Xì-lách (Slack) chuyên nghiệp hay Da-lô (Zalo) nhanh gọn. Còn nghiên cứu khoa học thì nên dùng Dô-tê-rô (Zotero) hoặc Men-đê-lây (Mendeley) để quản lý trích dẫn.
+
+Slide 13: CHIẾN LƯỢC BẢO VỆ DANH TÍNH SỐ
+Người 1: Sau khi có công cụ, chúng ta phải thiết lập phòng thủ chủ động bằng các chiến lược thiết yếu để bảo vệ danh tính số của mình.
+Người 2: Thầy có thể hướng dẫn cụ thể các chiến lược đó là gì không ạ?
+Người 1: Chúng ta có sáu chiến lược phòng thủ. Thứ nhất, luôn sử dụng Xác thực Đa yếu tố, gọi tắt là em-ép-ây (MFA), đây là biện pháp bảo vệ tài khoản hiệu quả nhất. Thứ hai, phải đọc kỹ Điều khoản Dịch vụ để biết họ đang thu thập dữ liệu gì. Thứ ba, hiểu và thường xuyên xóa Cúc-ki (Cookies) định kỳ để hạn chế bị theo dõi. Thứ tư, chủ động quản lý Cài đặt Quyền riêng tư trên mạng xã hội. Thứ năm, tách bạch các vai trò bằng cách dùng email riêng cho công việc và cá nhân để hạn chế rủi ro chéo. Cuối cùng, phải cẩn trọng với phần mềm lạ, đặc biệt chú ý các tệp có đuôi chấm e-ích-e (exe), chấm pê-ca-gờ (pkg) hay chấm đê-mờ-gờ (dmg).
+
+Slide 14: TIÊU DÙNG THÔNG TIN THÔNG THÁI
+Người 1: Kỹ năng tiếp theo là trở thành người tiêu dùng thông tin thông thái. Nguyên tắc cốt lõi là: đừng vội tin, hãy kiểm chứng. Trước khi chia sẻ bất cứ thông tin nào, em phải rèn luyện tư duy phản biện qua phễu lọc bốn tiêu chí.
+Người 2: Bốn tiêu chí của phễu lọc đó là gì vậy thầy?
+Người 1: Em hãy tự đặt câu hỏi. Một là tính Xác thực: xem thông tin là bản gốc hay bản sao, nguồn có uy tín không. Hai là tính Thời điểm: xem thông tin được đăng tải khi nào, có bị dùng sai bối cảnh hiện tại không. Ba là tính Khách quan: xem nguồn tin có thiên vị hay đại diện cho quyền lợi của ai không. Bốn là tính Độc lập: xem thông tin có thể được xác minh từ một nguồn độc lập khác không. Đặc biệt, khi phát hiện nội dung không phù hợp hoặc tin giả, hãy sử dụng tính năng Báo cáo, hay Rì-pọt (Report), của nền tảng đó.
+
+Slide 15: CHÂN DUNG CÔNG DÂN SỐ TOÀN DIỆN
+Người 1: Tổng kết lại, bài học hôm nay hướng tới việc xây dựng Chân dung Công dân số Toàn diện. Trở thành một công dân số là một quá trình liên tục rèn luyện năm kỹ năng chính.
+Người 2: Dạ, thầy có thể nhắc lại năm kỹ năng đó để chúng em khắc sâu hơn không ạ?
+Người 1: Chắc chắn rồi! Một là "Biết mình là ai", chủ động quản lý dấu chân số. Hai là "Hợp tác hiệu quả" bằng cách sử dụng đúng công cụ. Ba là "Giao tiếp văn minh", tuân thủ Nét-ti-két (Netiquette) và pháp luật. Bốn là "Tư duy phản biện", luôn kiểm chứng thông tin trước khi lan truyền. Và năm là "Bảo vệ bản thân và cộng đồng" bằng các biện pháp an ninh mạng. Hành trình của các em bắt đầu ngay hôm nay, hãy là một người kiến tạo giá trị trong thế giới số!
+

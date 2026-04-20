@@ -1,0 +1,67 @@
+{
+    "user": "thanhthangbmt7",
+    "nodes_mastery": {
+        "Chuong_4_Tiet_1": 0.5624368631454192,
+        "Chuong_4_Tiet_2": 0.51,
+        "Chuong_3_Tiet_6": 0.4917573002781275
+    },
+    "inferred_blooms": {
+        "Chuong_4_Tiet_1": 1.6659932068844712,
+        "Chuong_4_Tiet_2": 1.3066666666666666,
+        "Chuong_3_Tiet_6": 0.9120778696333597
+    },
+    "history": {
+        "Chuong_4_Tiet_1": {
+            "0": {
+                "correct": 2,
+                "wrong": 0
+            },
+            "1": {
+                "correct": 2,
+                "wrong": 2
+            },
+            "2": {
+                "correct": 2,
+                "wrong": 2
+            },
+            "3": {
+                "correct": 1,
+                "wrong": 0
+            },
+            "4": {
+                "correct": 1,
+                "wrong": 0
+            },
+            "5": {
+                "correct": 1,
+                "wrong": 0
+            },
+            "6": {
+                "correct": 1,
+                "wrong": 0
+            },
+            "7": {
+                "correct": 1,
+                "wrong": 0
+            }
+        },
+        "Chuong_4_Tiet_2": {
+            "0": {
+                "correct": 1,
+                "wrong": 0
+            }
+        },
+        "Chuong_3_Tiet_6": {
+            "0": {
+                "correct": 1,
+                "wrong": 1
+            },
+            "1": {
+                "correct": 1,
+                "wrong": 2
+            }
+        }
+    },
+    "last_fatigue_update": "2026-04-19",
+    "current_fatigue": 0.7000000000000001
+}

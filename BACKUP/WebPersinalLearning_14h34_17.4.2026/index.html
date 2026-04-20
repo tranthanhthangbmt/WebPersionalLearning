@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKT Bio-Tutor | Gia Sư AI Toàn Năng</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#8B5CF6',
+                        accent: '#F59E0B',
+                        dark: '#0F172A',
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-dark text-white font-sans antialiased overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-2">
+                    <span class="text-3xl"><i class="fa-solid fa-tree text-primary"></i></span>
+                    <span class="font-black text-2xl tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">PKT Bio-Tutor</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#vande" class="text-gray-300 hover:text-white font-medium transition">Thực Trạng</a>
+                    <a href="#giaiphap" class="text-gray-300 hover:text-white font-medium transition">Công Nghệ Lõi</a>
+                    <a href="#loiich" class="text-gray-300 hover:text-white font-medium transition">Lợi Ích</a>
+                    <a href="#banggia" class="text-gray-300 hover:text-white font-medium transition">Bảng Giá</a>
+                </div>
+                <div>
+                    <a href="http://127.0.0.1:8081/login" class="bg-white/10 hover:bg-white/20 border border-white/20 text-white px-6 py-2 rounded-full font-bold transition backdrop-blur-sm">Đăng Nhập</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: HERO -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-30"></div>
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/30 rounded-full mix-blend-screen filter blur-[100px] animate-pulse-slow"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-secondary/20 rounded-full mix-blend-screen filter blur-[120px] animate-pulse-slow" style="animation-delay: 2s;"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 text-center">
+            <div class="inline-block mb-4 px-4 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 backdrop-blur-md">
+                <span class="text-blue-400 font-semibold text-sm">🔥 Sản phẩm đột phá EdTech 2026</span>
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight tracking-tight">
+                GIA SƯ AI TOÀN NĂNG <br>
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-500">TÌM ĐÚNG BỆNH, TRỊ ĐÚNG GỐC</span>
+            </h1>
+            
+            <p class="mt-6 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed mb-10">
+                Lập bản đồ X-Quang kiến thức 3D. Cá nhân hóa lộ trình học bằng công nghệ <strong class="text-white">BioBattery</strong> và <strong class="text-white">Kiến tạo Socratic</strong> độc quyền.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="http://127.0.0.1:8081/login" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white text-lg font-bold py-4 px-10 rounded-full shadow-[0_0_40px_rgba(59,130,246,0.5)] transform hover:scale-105 transition-all">
+                    Trải nghiệm Rà quét Lỗ hổng Miễn phí <i class="fa-solid fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto border-t border-white/10 pt-10">
+                <div class="text-center">
+                    <h3 class="text-4xl font-black text-white mb-1 counter" data-target="15000">0</h3>
+                    <p class="text-sm text-gray-400 uppercase tracking-widest">Câu hỏi AI sinh</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-4xl font-black text-white mb-1 counter" data-target="95">0</h3><span class="text-4xl font-black text-white">%</span>
+                    <p class="text-sm text-gray-400 uppercase tracking-widest">Cải thiện điểm</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-4xl font-black text-white mb-1">Gemini 1.5</h3>
+                    <p class="text-sm text-gray-400 uppercase tracking-widest">Lõi AI Google</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-4xl font-black text-white mb-1">SM-2</h3>
+                    <p class="text-sm text-gray-400 uppercase tracking-widest">Thuật toán nhớ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: PAIN POINT -->
+    <section id="vande" class="py-24 bg-[#0B1120] relative">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-4xl md:text-5xl font-black text-white">Thực Trạng Đau Lòng Của Giáo Dục Truyền Thống</h2>
+                <div class="w-24 h-1 bg-accent mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <!-- Iceberg Visual -->
+                <div class="relative fade-in-up delay-100">
+                    <div class="w-full aspect-square relative flex justify-center">
+                        <div class="absolute inset-0 bg-blue-900/20 rounded-full blur-3xl"></div>
+                        <!-- Water line -->
+                        <div class="absolute top-1/3 w-full h-[2px] bg-blue-500/50 dashed"></div>
+                        <span class="absolute top-[28%] right-[10%] text-blue-400 text-sm font-bold">Điểm số trên trường (Điểm ảo)</span>
+                        
+                        <!-- Iceberg SVG -->
+                        <svg viewBox="0 0 200 200" class="w-full h-full drop-shadow-2xl z-10" fill="none">
+                            <!-- Top tip -->
+                            <path d="M100 20 L130 66 L70 66 Z" fill="rgba(255,255,255,0.9)"/>
+                            <!-- Bottom huge -->
+                            <path d="M70 66 L130 66 L160 160 L100 190 L40 160 Z" fill="rgba(59,130,246,0.5)"/>
+                        </svg>
+
+                        <span class="absolute bottom-12 left-[10%] text-red-400 text-sm font-bold">Lỗ hổng kiến thức<br>quá khứ (Chìm sâu)</span>
+                    </div>
+                </div>
+
+                <div class="space-y-8 fade-in-up delay-200">
+                    <div class="bg-white/5 p-6 rounded-2xl border border-white/10 hover:border-red-500/50 transition duration-300">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-red-500/20 p-3 rounded-lg"><i class="fa-solid fa-graduation-cap text-red-500 text-xl"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Học Vẹt - Điểm Ảo</h4>
+                                <p class="text-gray-400">Học sinh đạt điểm 8, 9 trên lớp nhưng khi thi Đại học hoặc vào thực tế lại gãy rụng do mất gốc kiến thức từ các cấp học trước.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white/5 p-6 rounded-2xl border border-white/10 hover:border-orange-500/50 transition duration-300">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-orange-500/20 p-3 rounded-lg"><i class="fa-solid fa-money-bill-wave text-orange-500 text-xl"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Tốn Kém Vô Ích</h4>
+                                <p class="text-gray-400">Phụ huynh chi hàng chục triệu cho Gia sư nhưng không có số liệu cụ thể con đang hổng ở đâu, dẫn đến việc dạy tràn lan thiếu trọng tâm.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white/5 p-6 rounded-2xl border border-white/10 hover:border-yellow-500/50 transition duration-300">
+                        <div class="flex items-start gap-4">
+                            <div class="bg-yellow-500/20 p-3 rounded-lg"><i class="fa-solid fa-brain text-yellow-500 text-xl"></i></div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Burnout Nhận Thức</h4>
+                                <p class="text-gray-400">Các ứng dụng luyện thi hiện tại (như Quizlet) ép học sinh làm bài không điểm dừng, gây quá tải não bộ và giảm sút động lực.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: TECH CORES -->
+    <section id="giaiphap" class="py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-[#0B1120] to-[#1e1b4b] -z-10"></div>
+        
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-20 fade-in-up">
+                <span class="text-secondary font-bold tracking-widest uppercase text-sm">Deep Tech Innovation</span>
+                <h2 class="text-4xl md:text-5xl font-black text-white mt-2">3 Vũ Khí Độc Quyền Của PKT</h2>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Tech 1 -->
+                <div class="bg-[#111827]/80 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:transform hover:-translate-y-2 transition duration-500 fade-in-up group">
+                    <div class="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-network-wired text-3xl text-blue-400"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Cây Tri Thức 3D</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Chụp X-Quang kiến thức người học qua quá trình tương tác. Phát hiện lỗ hổng chính xác tới từng Unit nhỏ nhất (Node). Màu Xanh/Đỏ biểu đồ hóa trực quan độ thuần thục.</p>
+                </div>
+
+                <!-- Tech 2 -->
+                <div class="bg-[#111827]/80 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:transform hover:-translate-y-2 transition duration-500 fade-in-up delay-100 group">
+                    <div class="w-16 h-16 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition">
+                        <i class="fa-brands fa-searchengin text-3xl text-purple-400"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Socratic AI Tutor</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Thay vì nhổ mớm đáp án, gia sư AI dùng phương pháp vấn đáp Socratic để mớm gợi ý, kích thích học sinh tự suy luận ra vấn đề. Deep RAG đảm bảo không halucination.</p>
+                </div>
+
+                <!-- Tech 3 -->
+                <div class="bg-[#111827]/80 backdrop-blur-xl border border-white/10 rounded-3xl p-8 hover:transform hover:-translate-y-2 transition duration-500 fade-in-up delay-200 group">
+                    <div class="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition">
+                        <i class="fa-solid fa-battery-half text-3xl text-green-400"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">BioBattery++ & SM-2</h3>
+                    <p class="text-gray-400 leading-relaxed mb-6">Theo dõi sự mệt mỏi nhận thức qua hành vi vi mô (tốc độ, độ dừng). Soft-lock tạm ngưng khi cạn Pin để nhắc nhở sức khỏe. Lên lịch ôn đúng điểm rơi của đường cong lãng quên.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: BENEFITS -->
+    <section id="loiich" class="py-24 bg-dark">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-black text-center mb-16 fade-in-up">Công Cụ Tương Lai Cho <span class="bg-clip-text text-transparent bg-gradient-to-r from-accent to-pink-500">Mọi Cấp Độ</span></h2>
+
+            <div class="space-y-6 max-w-4xl mx-auto">
+                <!-- Dropdown Card 1 -->
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-6 fade-in-up">
+                    <div class="flex items-center gap-6">
+                        <div class="hidden sm:block w-32 relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-blue-500 to-cyan-500 p-1">
+                            <div class="w-full h-full bg-dark rounded-lg flex items-center justify-center">
+                                <i class="fa-solid fa-child-reaching text-4xl text-cyan-400"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Học Sinh / Sinh Viên</h3>
+                            <ul class="text-gray-400 space-y-2 list-disc list-inside">
+                                <li>Học đâu chắc đấy, hệ thống biến bài giảng thành trò chơi.</li>
+                                <li>Phòng tránh kiệt sức với tính năng BioBattery bảo vệ não bộ.</li>
+                                <li>Flashy UI, Confetti xả stress mỗi khi qua mốc khó.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dropdown Card 2 -->
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-6 fade-in-up delay-100">
+                    <div class="flex items-center gap-6">
+                        <div class="hidden sm:block w-32 relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-purple-500 to-pink-500 p-1">
+                            <div class="w-full h-full bg-dark rounded-lg flex items-center justify-center">
+                                <i class="fa-solid fa-user-tie text-4xl text-pink-400"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Phụ Huynh</h3>
+                            <ul class="text-gray-400 space-y-2 list-disc list-inside">
+                                <li>Nắm rõ lỗ hổng kiến thức thực sự của con qua Bảng X-Quang trực quan.</li>
+                                <li>Cắt giảm 80% chi phí học gia sư không hiệu quả.</li>
+                                <li>Nhận báo cáo tuần bằng AI summary chính xác, minh bạch.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dropdown Card 3 -->
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-6 fade-in-up delay-200">
+                    <div class="flex items-center gap-6">
+                        <div class="hidden sm:block w-32 relative aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-orange-500 to-yellow-500 p-1">
+                            <div class="w-full h-full bg-dark rounded-lg flex items-center justify-center">
+                                <i class="fa-solid fa-chalkboard-user text-4xl text-yellow-400"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold mb-2">Nhà Trường / Giáo Viên</h3>
+                            <ul class="text-gray-400 space-y-2 list-disc list-inside">
+                                <li>Bản đồ nhiệt tập thể: Biết ngay cả lớp đang mất gốc ở phần nào nhất.</li>
+                                <li>Tự động hóa hoàn toàn bài kiểm tra, chấm chéo.</li>
+                                <li>Xuất dữ liệu xAPI chuẩn Bộ GD phục vụ kiểm định chất lượng.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: PRICING & CTA -->
+    <section id="banggia" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 relative z-10">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-4xl font-black text-white mb-4">Sẵn Sàng Thay Đổi Cách Bạn Học?</h2>
+                <p class="text-gray-400 text-lg">Bắt đầu dùng miễn phí mãi mãi, nâng cấp khi cần thiết.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-20 fade-in-up">
+                <!-- Basic Plan -->
+                <div class="bg-white/5 border border-white/10 rounded-3xl p-8 hover:border-gray-500 transition">
+                    <h3 class="text-2xl font-bold text-gray-300">Cơ Bản</h3>
+                    <div class="mt-4 mb-6">
+                        <span class="text-5xl font-black text-white">0đ</span>
+                        <span class="text-gray-500">/tháng</span>
+                    </div>
+                    <ul class="space-y-4 text-gray-400 mb-8">
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Tạo 1 Cây tri thức</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Làm trắc nghiệm cơ bản</li>
+                        <li><i class="fa-solid fa-check text-green-500 mr-2"></i> 5 lần trợ giúp Socratic/ngày</li>
+                    </ul>
+                    <a href="http://127.0.0.1:8081/login" class="block w-full py-3 px-6 text-center border border-gray-500 rounded-full text-white font-bold hover:bg-gray-800 transition">Bắt Đầu Miễn Phí</a>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="bg-gradient-to-b from-blue-900/40 to-purple-900/40 border-2 border-blue-500 rounded-3xl p-8 relative transform md:-translate-y-4 shadow-[0_0_50px_rgba(59,130,246,0.3)]">
+                    <div class="absolute top-0 right-8 transform -translate-y-1/2 bg-gradient-to-r from-blue-500 to-purple-500 text-white text-xs font-bold px-3 py-1 rounded-full">Khuyên Dùng</div>
+                    <h3 class="text-2xl font-bold text-white">Chuyên Sâu (Premium)</h3>
+                    <div class="mt-4 mb-6">
+                        <span class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">99k</span>
+                        <span class="text-gray-400">/tháng</span>
+                    </div>
+                    <ul class="space-y-4 text-gray-300 mb-8">
+                        <li><i class="fa-solid fa-check text-blue-400 mr-2"></i> Nắm full quyền Hệ thống 3D</li>
+                        <li><i class="fa-solid fa-check text-blue-400 mr-2"></i> Socratic Chat vô cực</li>
+                        <li><i class="fa-solid fa-check text-blue-400 mr-2"></i> Thuật toán BioBattery & SM-2</li>
+                        <li><i class="fa-solid fa-check text-blue-400 mr-2"></i> Dashboard Phụ huynh đính kèm</li>
+                    </ul>
+                    <a href="http://127.0.0.1:8081/login" class="block w-full py-3 px-6 text-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-full text-white font-bold hover:scale-105 transition-transform shadow-lg">Nâng Cấp Ngay</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-white/10 py-10 text-center">
+        <div class="flex items-center justify-center gap-2 mb-4">
+            <span class="text-2xl"><i class="fa-solid fa-tree text-primary"></i></span>
+            <span class="font-black text-xl tracking-tighter text-gray-500">PKT Bio-Tutor</span>
+        </div>
+        <p class="text-gray-600 text-sm">© 2026 Developed by Antigravity Deep Tech Div. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

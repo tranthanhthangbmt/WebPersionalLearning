@@ -1,0 +1,81 @@
+﻿Slide 1: TRANG TIÊU ĐỀ (MODULE 4: AN TOÀN TRONG MÔI TRƯỜNG SỐ)
+Người 1: Chào các em. Chào mừng các em đến với Module 4 của khóa học, mang tên "An toàn trong môi trường số". Hôm nay, chúng ta sẽ bắt đầu tiết học đầu tiên với việc tìm hiểu về Khung 4 Trụ Cột Cốt Lõi Của An Toàn Số. Bốn trụ cột này chính là nền tảng để các em tự bảo vệ mình trên không gian mạng, bao gồm: Bảo vệ thiết bị, Bảo vệ dữ liệu cá nhân, Bảo vệ sức khỏe và An sinh số, và cuối cùng là Bảo vệ môi trường.
+Người 2: Thưa thầy, em thấy có phần bảo vệ thiết bị và dữ liệu thì quen thuộc, nhưng bảo vệ sức khỏe và bảo vệ môi trường thì liên quan gì đến an toàn số ạ?
+Người 1: Câu hỏi rất hay! An toàn số không chỉ là chuyện chúng ta cài phần mềm chống lại hacker hay virus đâu em. Ngồi lướt điện thoại quá lâu trong bóng tối gây suy giảm thị lực, hay việc thay điện thoại liên tục tạo ra hàng đống rác thải điện tử cũng là những rủi ro do công nghệ mang lại. Khung 4 trụ cột này sẽ giúp chúng ta nhìn nhận vấn đề an toàn một cách toàn diện và bền vững nhất.
+
+Slide 2: MỤC TIÊU CỦA MODULE 4
+Người 1: Và để làm chủ được 4 trụ cột đó, mục tiêu của bài học sẽ bám sát vào Khung năng lực Ca-ét-a (K-S-A), tức là Kiến thức, Kỹ năng và Thái độ. Về Kiến thức, các em sẽ nhận diện được rõ ràng các mối đe dọa như tấn công mạng, mã độc, nắm vững nguyên tắc bảo mật và hiểu được tác động của công nghệ tới sức khỏe, môi trường.
+Người 2: Thế còn Kỹ năng và Thái độ thì sao ạ? Mình sẽ được thực hành những gì thưa thầy?
+Người 1: Về Kỹ năng, các em sẽ biết cách tự tạo và quản lý mật khẩu mạnh, bật Xác thực đa yếu tố hay viết tắt là hai-ép-a (2FA), sử dụng thành thạo phần mềm bảo mật, cũng như quản lý thời gian dùng thiết bị hợp lý. Còn Về Thái độ, thầy mong các em sẽ hình thành thói quen chủ động phòng ngừa rủi ro, tôn trọng quyền riêng tư của bản thân và cộng đồng, có ý thức dùng công nghệ xanh. Giống như ra đường phải đội mũ bảo hiểm vậy, lên mạng là phải có ý thức tự trang bị "áo giáp" cho mình trước!
+
+Slide 3: BÀI 1: BẢO VỆ THIẾT BỊ (TIẾT 1/3)
+Người 1: Bây giờ, chúng ta sẽ đi sâu vào Bài 1, cũng là Trụ cột đầu tiên: Bảo vệ thiết bị. Trong tiết học này, nội dung trọng tâm của chúng ta được chia làm 3 phần. Thứ nhất là đi tìm hiểu Bối cảnh và Thực trạng tấn công mạng hiện nay. Thứ hai là phân tích những Rào cản cốt lõi khiến việc ngăn chặn tấn công mạng gặp nhiều khó khăn. Và thứ ba là thiết lập một Tư duy Phòng thủ vững chắc cho thiết bị.
+Người 2: Máy tính của em dạo này khởi động rất chậm và thỉnh thoảng lại nhảy ra mấy cái cửa sổ quảng cáo lạ. Có phải em đang trở thành "thực trạng" của việc bị tấn công không thầy?
+Người 1: Rất có thể đấy! Đó là một trong những dấu hiệu rất điển hình. Nào, hãy cùng xem những mối đe dọa hiện nay đã "tiến hóa" đáng sợ như thế nào ở slide tiếp theo nhé.
+
+Slide 4: BỐI CẢNH & THỰC TRẠNG TẤN CÔNG MẠNG
+Người 1: Nhìn vào slide 4, các em sẽ thấy sự tiến hóa của các mối đe dọa trong kỷ nguyên số. Về bối cảnh, trong quá khứ, hacker thường chỉ tấn công đơn lẻ, tự phát để "khoe khoang" thành tích. Nhưng hiện tại, tội phạm mạng hoạt động có tổ chức, vô cùng tinh vi và mang tính hệ thống cao. Chúng ta đang chứng kiến sự gia tăng đột biến của mã độc, hay còn gọi là man-oe (malware) và phần mềm gián điệp xì-pai-oe (spyware), nhắm thẳng vào thiết bị cá nhân.
+Người 2: Tội phạm mạng hoạt động có tổ chức cơ ạ? Nhưng em chỉ là một sinh viên bình thường, đâu có nhiều tiền hay dữ liệu mật gì của quốc gia để họ nhắm tới đâu thầy?
+Người 1: Đó là một sự chủ quan vô cùng nguy hiểm đấy em! Hiện nay, đối tượng mục tiêu của chúng đã đa dạng hóa. Chúng không chỉ nhắm vào hệ thống lớn của ngân hàng hay doanh nghiệp, mà tấn công trực tiếp người dùng cá nhân. Chúng có thể chiếm đoạt tài khoản mạng xã hội của em để lừa vay tiền người thân, hoặc lén lút mã hóa toàn bộ hình ảnh, tài liệu khóa luận tốt nghiệp của em để tống tiền. Không ai là quá "bé nhỏ" đối với tội phạm mạng cả!
+
+Slide 5: TẠI SAO KHÔNG THỂ NGĂN CHẶN TRIỆT ĐỂ?
+Người 1: Biết rõ nguy hiểm là vậy, nhưng tại sao chúng ta lại không thể ngăn chặn triệt để các cuộc tấn công? Slide số 5 với mô hình kim tự tháp này sẽ phân tích 3 rào cản cốt lõi. Ở phần đỉnh, đó là Tính phức tạp cốt lõi: Các em phải hiểu rằng không có một giải pháp phòng thủ duy nhất nào là tuyệt đối an toàn. Ở phần giữa, an ninh thông tin đòi hỏi sự tương tác đồng bộ của Đa lớp bảo mật, bao gồm: Lớp Sản phẩm (phần cứng, phần mềm), Lớp Chính sách (quy trình vận hành), và Lớp Con người.
+Người 2: Vậy phần đáy, cái nền tảng màu đậm nhất của kim tự tháp là gì ạ?
+Người 1: Phần đáy, cũng là rào cản lớn nhất, chính là Yếu tố Con người. Và đây cũng được xem là "mắt xích yếu nhất" trong an ninh không gian mạng. Quá trình bảo mật phụ thuộc hoàn toàn vào việc con người hiểu và sử dụng các công cụ bảo vệ như thế nào. Các em có trang bị phần mềm diệt virus đắt tiền đến đâu, hệ thống tường lửa kiên cố thế nào, nhưng nếu em nhẹ dạ tự tay click vào một đường link trúng thưởng giả mạo, hay tự đọc mã xác thực Ô-tê-pê (OTP) cho kẻ gian qua điện thoại, thì mọi hệ thống kỹ thuật đều vô dụng. Lỗi từ con người có thể phá vỡ mọi hệ thống phòng thủ tinh vi nhất!
+
+Slide 6: NỀN TẢNG AN NINH: TAM GIÁC CIA
+Người 1: Tiếp nối bài học, chúng ta chuyển sang slide số 6 để tìm hiểu về "Tiêu chuẩn vàng" trong bảo mật thông tin, đó chính là Tam giác Xi-ai-ây (CIA).
+Người 2: Xi-ai-ây ạ? Tên này nghe giống hệt như tổ chức tình báo của Mỹ hả thầy?
+Người 1: Trùng tên thôi em! Ở đây, Xi-ai-ây là viết tắt của 3 chữ cái tiếng Anh tạo nên trạng thái an toàn. Chữ C (Confidentiality) là Tính Bí mật, đảm bảo dữ liệu chỉ người có quyền hợp lệ mới truy cập được, giống như việc em dùng mật khẩu hay mã hóa để khóa nhật ký của mình lại vậy. Chữ I (Integrity) là Tính Toàn vẹn, đảm bảo thông tin không bị sửa đổi, xóa bỏ trái phép. Ví dụ, em chuyển khoản cho bạn 10 ngàn, nhưng tin tặc can thiệp sửa số tiền thành 10 triệu thì sao? Tính toàn vẹn sẽ ngăn chặn điều đó xảy ra. Cuối cùng, chữ A (Availability) là Tính Sẵn sàng, tức là dữ liệu và hệ thống luôn sẵn sàng phục vụ người dùng hợp pháp khi cần.
+Người 2: À, em hiểu rồi! Giống như đợt đăng ký tín chỉ trường mình, hệ thống không vào được, thế là vi phạm tính sẵn sàng (Availability) thầy nhỉ!
+Người 1: Hoàn toàn chính xác! Nếu thiếu một trong ba yếu tố này, hệ thống của em sẽ không còn an toàn nữa.
+
+Slide 7: MÔ HÌNH BẢO VỆ ĐA LỚP (LAYERED SECURITY)
+Người 1: Ở slide 7, chúng ta đi vào Mô hình Bảo vệ Đa lớp. An ninh thông tin không phải là một công cụ đơn lẻ mà là sự tương tác 3 chiều của 3 lớp: Lớp Sản phẩm, Lớp Quy trình và Lớp Con người.
+Người 2: Ba lớp này tương tác và bù trừ cho nhau như thế nào ạ?
+Người 1: Em cứ tưởng tượng việc bảo vệ một ngôi nhà. Lớp Sản phẩm là các công cụ kỹ thuật phần cứng, phần mềm như Tường lửa, phần mềm diệt virus, hay ứng dụng mã hóa; giống như ngôi nhà được trang bị ổ khóa xịn và hệ thống báo động. Lớp Quy trình là các chính sách, quy tắc vận hành, chẳng hạn như quy tắc sao lưu dữ liệu, chính sách cấp quyền; giống như quy định "đúng 10 giờ đêm phải khóa cửa". Thế nhưng, nhà có khóa xịn, có quy định rõ ràng mà em - tức là Lớp Con người - lại bất cẩn quên khóa cửa hoặc để chìa khóa dưới thảm cho trộm lấy, thì hai lớp kia hoàn toàn vô dụng. Vì vậy, ý thức, thói quen và kỹ năng nhận diện lừa đảo của con người chính là lớp tương tác quan trọng nhất.
+
+Slide 8: CHIẾN LƯỢC CỐT LÕI: TUYẾN PHÒNG THỦ ĐẦU TIÊN
+Người 1: Vậy chúng ta phải hành động như thế nào để bảo vệ thiết bị? Slide 8 giới thiệu Tuyến phòng thủ đầu tiên với hai biện pháp chính: Ngăn chặn chủ động và Cập nhật phòng thủ.
+Người 2: Ngăn chặn chủ động có phải là mình chặn đứng mọi rủi ro ngay từ ngoài cửa không ạ?
+Người 1: Đúng vậy! Mục tiêu là xây dựng hàng rào bảo mật vững chắc ngay từ đầu. Hành động cụ thể là em phải áp dụng nguyên tắc đặc quyền tối thiểu, thiết lập mật khẩu mạnh và bắt buộc phải bật Xác thực đa yếu tố, đọc là Hai-ép-a (2FA) hoặc Em-ép-ây (MFA) cho mọi tài khoản quan trọng.
+Người 2: Còn phần Cập nhật phòng thủ thì sao thầy? Thú thật là em toàn bấm "bỏ qua" hoặc "nhắc tôi sau" mỗi khi điện thoại hay máy tính báo có bản cập nhật mới vì đợi rất lâu.
+Người 1: Đó là một thói quen rủi ro rất phổ biến! Mục tiêu của việc cập nhật là đóng lại các lỗ hổng bảo mật mà hacker có thể lợi dụng. Em phải thường xuyên, thậm chí cài đặt tự động cập nhật Hệ điều hành và Trình duyệt. Ngay khi nhà phát hành cung cấp các bản vá lỗi, hay còn gọi là xi-kiu-ri-ti pát-chịt (security patches), em phải cập nhật ngay, đồng thời xóa bỏ các phần mềm lỗi thời không còn được hỗ trợ. Giống như áo đi mưa bị rách một lỗ nhỏ, em phải vá ngay trước khi trời đổ mưa lớn!
+
+Slide 9: CHIẾN LƯỢC CỐT LÕI: GIẢM THIỂU THIỆT HẠI
+Người 1: Dù chúng ta có phòng thủ kỹ đến đâu, các em hãy luôn nhớ nguyên lý cốt lõi ở slide 9: Không có hệ thống nào an toàn tuyệt đối. Do đó, chiến lược cốt lõi tiếp theo là Giảm thiểu thiệt hại, tức là em phải có kế hoạch ứng phó khi tuyến phòng thủ thất bại.
+Người 2: Giả sử em lỡ tay click vào một đường link lạ, tải nhầm file và máy tính có dấu hiệu nhiễm mã độc thì em phải làm gì ngay lập tức thưa thầy?
+Người 1: Hành động tức thời của em là phải ngắt kết nối mạng ngay lập tức!. Em hãy rút dây mạng hoặc tắt Wi-Fi. Việc này giúp khoanh vùng rủi ro, không cho mã độc đánh cắp dữ liệu gửi về máy chủ của tin tặc, đồng thời tránh lây lan sang các thiết bị khác đang dùng chung mạng với em. Về dài hạn để bảo vệ dữ liệu, em phải phân lập tài sản số, tuyệt đối không lưu trữ toàn bộ dữ liệu quan trọng duy nhất trên một thiết bị đang dùng hàng ngày, và phải tiến hành sao lưu định kỳ ra Bách-cúp Cờ-lao (Backup Cloud) hoặc Ọp-phơ-lai Sờ-to-rết (Offline Storage).
+
+Slide 10: TIÊU CHUẨN VÀNG: QUY TẮC SAO LƯU 3-2-1
+Người 1: Và để việc sao lưu đạt hiệu quả cao nhất, slide 10 giới thiệu Tiêu chuẩn vàng: Quy tắc sao lưu ba - hai - một (3-2-1). Quy tắc này chính là chiếc phao cứu sinh để đảm bảo tính Sẵn sàng và Toàn vẹn cho dữ liệu của em.
+Người 2: Ba - hai - một là sao ạ? Thầy giải thích cụ thể từng con số cho em với.
+Người 1: Số ba (3) có nghĩa là Bản sao dữ liệu: Luôn duy trì ít nhất 3 bản sao của những dữ liệu quan trọng. Nó bao gồm 1 bản chính em đang làm việc, cộng thêm 2 bản sao lưu độc lập. Số hai (2) là Định dạng lưu trữ: Em phải lưu trữ các bản sao này trên ít nhất 2 loại thiết bị hoặc phương tiện khác nhau. Ví dụ: một bản lưu ở ổ cứng ét-ét-đê (SSD) bên trong máy tính, bản kia lưu ra ổ cứng di động rời hát-đê-đê (HDD) hoặc u-ét-bê (USB). Và số một (1) là Bản sao Ọp-xai (Off-site): Tức là giữ ít nhất 1 bản sao ở bên ngoài vị trí vật lý của em, ví dụ như Lưu trữ đám mây (Cloud Storage).
+Người 2: Sao lại phải đưa lên tận đám mây ở bên ngoài ạ? Em để ổ cứng rời ngay trong balo cùng với máy tính luôn cho tiện không được sao?
+Người 1: Nếu lỡ trộm vào lấy luôn cả balo chứa máy tính và ổ cứng rời của em, hoặc phòng em bị hỏa hoạn thì sao? Khả năng mất trắng là 100%!. Khi đó, bản sao số một nằm ở bên ngoài vị trí vật lý đó sẽ phát huy tác dụng, giúp em phòng ngừa rủi ro mất cắp hay thiên tai và cứu sống toàn bộ dữ liệu quan trọng của mình.
+
+Slide 11: NHẬN DIỆN KẺ THÙ: MÃ ĐỘC & PHẦN MỀM GIÁN ĐIỆP
+Người 1: Bây giờ, mời các em nhìn vào slide 11. Để phòng thủ tốt, chúng ta phải biết kẻ thù của mình là ai. Slide này phân loại hai mối đe dọa lớn nhất nhắm vào thiết bị cá nhân: Mã độc - tiếng Anh là Man-oe (Malware), và Phần mềm gián điệp - Xì-pai-oe (Spyware).
+Người 2: Hai loại này khác nhau như thế nào hả thầy? Em cứ tưởng cứ gọi chung là virus máy tính thôi chứ?
+Người 1: Khác nhau rất nhiều ở mục đích và biểu hiện đấy em! Với Mã độc, mục đích của chúng là phá hoại, vô hiệu hóa thiết bị. Đáng sợ nhất hiện nay là Ran-xom-oe (Ransomware) - mã độc tống tiền. Biểu hiện của nó rất rõ ràng: một ngày đẹp trời, em mở máy tính lên và thấy toàn bộ tài liệu, bao gồm cả khóa luận tốt nghiệp của em, bị đổi đuôi sang một định dạng lạ hoắc. Sau đó, một cửa sổ hiện lên yêu cầu em phải nộp 500 đô-la tiền ảo thì mới cấp khóa giải mã. Ngược lại, Phần mềm gián điệp lại vô cùng im ắng. Mục đích của nó là ẩn danh để theo dõi em. Chẳng hạn như Ki-lốc-gờ (Keylogger) - nó sẽ âm thầm ghi lại mọi thao tác gõ bàn phím của em. Em gõ mật khẩu ngân hàng, nó ghi lại và gửi về cho hacker. Biểu hiện của nó là... gần như không có biểu hiện gì cả, rất khó phát hiện!
+
+Slide 12: YẾU TỐ CON NGƯỜI: MẮT XÍCH YẾU NHẤT
+Người 1: Và điều đáng buồn là, đa số các thiết bị nhiễm mã độc không phải do hacker quá giỏi, mà do chính chúng ta tự mở cửa mời chúng vào. Slide 12 đề cập đến các cuộc tấn công thao túng tâm lý, hay còn gọi là Sô-sồ En-gi-nia-rinh (Social Engineering). Kẻ thù lớn nhất không nằm ở cỗ máy, mà nằm ở 3 điểm yếu của con người.
+Người 2: Đó là những điểm yếu nào thưa thầy?
+Người 1: Thứ nhất là Sự thiếu nhận thức: Thấy một cái email báo "Bạn đã trúng thưởng iPhone 15", em liền nhắm mắt click vào đường link lạ để nhận thưởng, thế là thiết bị nhiễm mã độc. Thứ hai là Tâm lý chủ quan: Em dùng ngày tháng năm sinh làm mật khẩu, hoặc lười đến mức dùng đúng một mật khẩu "123456" cho cả Facebook, Gmail và tài khoản ngân hàng. Và thứ ba là Sự cả tin, hay bị lừa đảo Phít-sinh (Phishing). Ví dụ, có người gọi điện tự xưng là công an hoặc nhân viên ngân hàng, dọa dẫm rằng tài khoản của em đang liên quan đến tội phạm rửa tiền, yêu cầu em đọc mã xác thực Ô-tê-pê (OTP) để kiểm tra. Vì quá hoảng sợ và cả tin, em đọc mã cho họ, thế là mất sạch tiền.
+
+Slide 13: NGUYÊN TẮC: LUÔN GIỮ TƯ THẾ PHÒNG THỦ
+Người 1: Để khắc phục những điểm yếu đó, slide 13 đưa ra một nguyên tắc sống còn: Luôn giữ Tư thế Phòng thủ. An toàn không gian mạng là một trạng thái liên tục, chứ không phải là một đích đến. Chúng ta có 4 nguyên tắc hành động. Đầu tiên là Nghi ngờ hợp lý, hay còn gọi là Di-rô Tờ-rớt (Zero Trust) - tuyệt đối không tin tưởng mù quáng bất kỳ ai trên mạng yêu cầu em cung cấp thông tin nhạy cảm.
+Người 2: Em đồng ý ạ! Gần đây em toàn thấy tin nhắn mượn tiền từ nick Facebook của bạn bè, gọi điện xác minh lại mới biết bạn ấy bị hack nick.
+Người 1: Rất chuẩn! Đó chính là áp dụng nguyên tắc Di-rô Tờ-rớt đấy. Kế tiếp là Cảnh giác cao độ: Hãy rèn thói quen nhìn kỹ địa chỉ web, hay còn gọi là U-Rờ-Lờ (URL) trước khi bấm vào. Chữ Facebook với hai chữ "o" rất dễ bị làm giả thành Faceb00k với hai số "0", nếu lướt qua nhanh em sẽ không nhận ra. Nguyên tắc thứ ba là Giám sát liên tục lịch sử đăng nhập. Và cuối cùng: Không bao giờ chủ quan, luôn chuẩn bị sẵn kịch bản rút dây mạng, cách ly thiết bị ngay khi thấy có dấu hiệu lạ.
+
+Slide 14: TÓM LƯỢC NỘI DUNG BÀI 1 (TIẾT 1)
+Người 1: Trước khi kết thúc tiết học, slide 14 sẽ giúp chúng ta tóm lược lại khung kiến thức cốt lõi về Bảo vệ Thiết bị. Về thực trạng, chúng ta đang đối mặt với các cuộc tấn công tinh vi, phức tạp và không thể ngăn chặn tuyệt đối. Về nền tảng, mọi biện pháp bảo vệ đều xoay quanh Tam giác vàng Xi-ai-ây (CIA): Tính Bí mật, Toàn vẹn và Sẵn sàng.
+Người 2: Và để bảo vệ Tam giác vàng đó thì mình phải áp dụng mô hình Đa lớp gồm: Sản phẩm, Quy trình và Con người đúng không thầy?
+Người 1: Rất nhớ bài! Đồng thời, các em đừng quên áp dụng các chiến lược cốt lõi: Ngăn chặn chủ động bằng mật khẩu mạnh và xác thực hai lớp (2FA); liên tục cập nhật hệ điều hành; giảm thiểu thiệt hại bằng quy tắc sao lưu ba - hai - một (3-2-1); và luôn giữ tư thế phòng thủ mọi lúc mọi nơi.
+
+Slide 15: THẢO LUẬN & LIÊN HỆ THỰC TIỄN
+Người 1: Để khép lại tiết học hôm nay, ở slide 15, thầy có một câu hỏi thảo luận dành cho tất cả các em: "Bạn đã từng là nạn nhân của một cuộc tấn công mạng, lừa đảo trực tuyến hay từng khóc ròng vì mất mát dữ liệu quan trọng chưa?".
+Người 2: Ui, nhắc lại em vẫn thấy tiếc thầy ạ. Hồi năm nhất em từng bị hỏng ổ cứng mất sạch toàn bộ tài liệu bài tập lớn mà không có bản sao lưu nào cả.
+Người 1: Một trải nghiệm đau thương nhưng rất thực tế! Từ kinh nghiệm của bạn, các em hãy cùng thảo luận theo 3 gợi ý sau: Nguyên nhân cốt lõi của sự cố đó nằm ở lớp nào (Sản phẩm, Quy trình hay Con người)? Các em rút ra bài học gì? Và quan trọng nhất: ngay sau ngày hôm nay, em sẽ thay đổi thói quen số nào đầu tiên để tự bảo vệ mình? Hãy suy nghĩ và chúng ta sẽ cùng trao đổi vào đầu tiết học sau nhé. Cảm ơn các em đã lắng nghe!
+

@@ -1,0 +1,28 @@
+{
+  "subjects": [
+    {
+      "id": "e69bf65f",
+      "title": "Thương mại điện tử Đồng bộ",
+      "filename": "user_data/thanhthangbmt7/trees/e69bf65f.json",
+      "total_nodes": 68
+    },
+    {
+      "id": "b7965aca",
+      "title": "Thương mại điện tử",
+      "filename": "user_data/thanhthangbmt7/trees/b7965aca.json",
+      "total_nodes": 34
+    },
+    {
+      "id": "66cb66e0",
+      "title": "Trí tuệ nhân tạo ứng dụng",
+      "filename": "user_data/thanhthangbmt7/trees/66cb66e0.json",
+      "total_nodes": 29
+    },
+    {
+      "id": "faa95c0b",
+      "title": "TRÍ TUỆ NHÂN TẠO ỨNG DỤNG (AI ỨNG DỤNG)",
+      "filename": "user_data/thanhthangbmt7/trees/faa95c0b.json",
+      "total_nodes": 64
+    }
+  ]
+}

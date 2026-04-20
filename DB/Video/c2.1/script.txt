@@ -1,0 +1,74 @@
+﻿Slide 1: HÀNH TRÌNH TRỞ THÀNH CÔNG DÂN SỐ: TỪ TƯƠNG TÁC ĐẾN KIẾN TẠO
+Người 1: Chào các em. Hôm nay chúng ta sẽ bước vào Module tập huấn vô cùng quan trọng mang tên Giao tiếp và Hợp tác trên Môi trường số. Bài học đầu tiên của chúng ta là Hành trình trở thành Công dân số. Các em biết không, trong kỷ nguyên số, mỗi chúng ta không chỉ đơn thuần là người dùng công nghệ, mà còn đóng vai trò là những kiến trúc sư xây dựng nên xã hội số.
+Người 2: Thưa thầy, "kiến trúc sư" ở đây có nghĩa là mình phải biết lập trình hay tạo ra phần mềm ạ?
+Người 1: Không hẳn như vậy đâu em! Khóa học này là hành trình trang bị những kỹ năng và tư duy cần thiết để các em tự tin làm chủ không gian số, biết cách chia sẻ thông tin một cách có trách nhiệm, và thực hiện tốt quyền cũng như nghĩa vụ của một công dân trong thế giới kết nối. Sự "kiến tạo" bắt đầu từ chính những hành vi giao tiếp hàng ngày của chúng ta.
+
+Slide 2: HAI THẾ GIỚI, MỘT THỰC TẠI: GIAO TIẾP NGOẠI TUYẾN VÀ TRỰC TUYẾN
+Người 1: Để giao tiếp tốt, trước hết ta cần hiểu rõ hai thế giới mà mình đang sống. Thế giới thứ nhất là Giao tiếp ngoại tuyến, đây là hình thức trao đổi không sử dụng Internet, đòi hỏi sự tương tác trực tiếp của con người. Thế giới thứ hai là Giao tiếp trực tuyến, tức là cách con người sử dụng máy tính, điện thoại có kết nối Internet để giao tiếp với nhau.
+Người 2: Vậy mạng lưới trực tuyến ở Việt Nam mình hiện nay lớn cỡ nào thưa thầy?
+Người 1: Rất khổng lồ em ạ! Với tổng dân số là một trăm lẻ một triệu người, chúng ta có tới bảy mươi chín phẩy tám triệu người dùng Internet, chiếm bảy mươi tám phẩy tám phần trăm dân số. Số người dùng mạng xã hội cũng lên tới bảy mươi sáu phẩy hai triệu người. Trong một môi trường rộng lớn như vậy, để một cuộc giao tiếp trực tuyến diễn ra thành công, ta luôn cần đủ ba yếu tố: người gửi, phương tiện truyền tải và người nhận.
+
+Slide 3: BỘ CÔNG CỤ CỦA CÔNG DÂN SỐ: LỰA CHỌN PHƯƠNG TIỆN GIAO TIẾP PHÙ HỢP
+Người 2: Thưa thầy, yếu tố "phương tiện truyền tải" có phải là các ứng dụng mình hay dùng như Zalo hay Facebook không ạ?
+Người 1: Đúng vậy! Đó chính là Bộ công cụ của công dân số. Chúng ta có bốn nhóm phương tiện chính cần lựa chọn sao cho phù hợp bối cảnh. Thứ nhất là Thư điện tử, hay email, dùng cho công việc chính thức và trang trọng. Thứ hai là Mạng xã hội, dùng để lan tỏa thông điệp đến cộng đồng rộng lớn. Thứ ba là Trò chuyện và Nhắn tin nhanh, phù hợp trao đổi cá nhân, tức thời. Và cuối cùng là Gọi video, giúp mang lại trải nghiệm sống động như gặp mặt trực tiếp.
+Người 2: Em hiểu rồi ạ. Tức là mình không thể dùng tin nhắn chat nhanh để gửi một văn bản trang trọng cho đối tác được.
+
+Slide 4: QUYỀN LỰC TRONG TAY BẠN: MỖI CÚ NHẤP "CHIA SẺ" LÀ MỘT QUYẾT ĐỊNH BIÊN TẬP
+Người 1: Sự lựa chọn tinh tế đó chính là biểu hiện của quyền lực. Các em hãy nhìn vào sơ đồ này, Internet và mạng xã hội đã phá vỡ cấu trúc truyền thông một chiều truyền thống. Quyền lực giờ đây không còn tập trung ở một vài cơ quan báo chí mà đã được phân tán cho mỗi người dùng.
+Người 2: Nghĩa là bây giờ tiếng nói của một cá nhân trên mạng xã hội cũng có sức mạnh giống như một đài phát thanh thu nhỏ đúng không thầy?
+Người 1: Một sự so sánh rất chính xác! Hiện nay, chính em là một "người gác cổng" thông tin mới,. Mỗi khi em nhấn nút chia sẻ, em đang khuếch đại thông tin đó và dùng chính uy tín cá nhân của mình để bảo chứng cho nội dung được lan truyền. Nhưng hãy nhớ kỹ, sức mạnh này đi kèm với trách nhiệm cực kỳ to lớn. Gánh nặng đạo đức và pháp lý từng đặt trên vai các biên tập viên, giờ đây được san sẻ cho mỗi cá nhân chúng ta,.
+
+Slide 5: NHẬN DIỆN “NHIỄU” TRONG KỶ NGUYÊN SỐ: THÔNG TIN SAI LỆCH VÀ TIN GIẢ
+Người 2: Dạ thưa thầy, vì ai cũng có quyền "gác cổng" và chia sẻ, nên trên mạng bây giờ có quá nhiều tin rác và tin lừa đảo. Làm sao để mình nhận diện được chúng ạ?
+Người 1: Đó là một kỹ năng sinh tồn thiết yếu! Bước đầu tiên là em phải phân biệt được hai loại hình nhiễu loạn thông tin: Thông tin sai lệch và Tin giả. Thông tin sai lệch, hay tiếng Anh gọi là Misinformation, là khi người ta vô tình lan truyền tin không chính xác nhưng hoàn toàn không có chủ đích gây hại. Họ chia sẻ vì nhầm lẫn hoặc thật sự nghĩ nó hữu ích.
+Người 2: Thế còn Tin giả thì khác ở chỗ nào ạ?
+Người 1: Tin giả, hay Disinformation, nguy hiểm hơn rất nhiều. Đó là hành vi cố ý tạo ra và lan truyền thông tin sai sự thật nhằm mục đích lừa dối và thao túng. Kẻ xấu tạo ra tin giả có chủ đích để trục lợi tài chính, bôi nhọ danh tiếng hoặc cố tình gây bất ổn xã hội. Ở tiết học sau, thầy trò ta sẽ cùng tìm hiểu cách dùng "La bàn kiểm chứng năm bước" để đối phó với những loại tin giả này nhé.
+
+Slide 6: LA BÀN KIỂM CHỨNG NĂM BƯỚC: CÔNG CỤ SINH TỒN TRONG THẾ GIỚI SỐ
+Người 1: Như đã hứa ở phần trước, bây giờ chúng ta sẽ tìm hiểu "La bàn kiểm chứng năm bước". Đây là công cụ sinh tồn thiết yếu trên không gian mạng. Thông điệp cốt lõi ở đây là: Nếu nghi ngờ, đừng chia sẻ. Bước thứ nhất là Đánh giá Nguồn tin, hãy tự hỏi tác giả là ai và trang web có uy tín không. Bước thứ hai là Phân tích Nội dung, hãy cảnh giác với những bài viết sai lỗi chính tả, tiêu đề giật gân hoặc cố tình kích động cảm xúc tức giận.
+Người 2: Thế còn ba bước còn lại để xác thực thì mình làm thế nào thưa thầy?
+Người 1: Rất đơn giản em ạ. Bước thứ ba là Kiểm tra Chéo xem các cơ quan báo chí chính thống có đưa tin đó không. Bước thứ tư là Xác thực Hình ảnh và Thời gian bằng cách dùng công cụ tìm kiếm hình ảnh ngược của Gu-gồ, xem ảnh có bị cắt ghép từ một sự kiện cũ hay không. Và bước cuối cùng là Tham vấn công cụ Chuyên dụng từ các tổ chức kiểm chứng độc lập.
+
+Slide 7: TÔN TRỌNG SÁNG TẠO SỐ: TỪ BẢN QUYỀN ĐẾN GIẤY PHÉP MỞ
+Người 2: Dạ thưa thầy, ngoài việc tránh tin giả, khi em lưu một bức ảnh hay bài viết hay trên mạng về dùng thì có sợ bị vi phạm bản quyền không ạ?
+Người 1: Đó là một vấn đề rất quan trọng! Theo Luật Sở hữu trí tuệ Việt Nam, quyền tác giả phát sinh tự động ngay khi tác phẩm được tạo ra. Nghĩa là mặc định mọi thứ em gặp trên mạng đều đã có bản quyền, trừ khi có tuyên bố khác.
+Người 2: Vậy làm sao để em biết tài liệu nào mình được phép dùng miễn phí ạ?
+Người 1: Để giải quyết việc này, người ta tạo ra giải pháp Giấy phép mở, phổ biến nhất là Cơ-ri-ê-típ Com-mừn, hay gọi tắt là xi-xi. Khi em thấy logo xi-xi đính kèm tác phẩm, em được phép sử dụng nó miễn phí, miễn là em tuân thủ đúng các điều kiện mà tác giả yêu cầu.
+
+Slide 8: GIẢI MÃ NGÔN NGỮ CREATIVE COMMONS: BẠN ĐƯỢC PHÉP LÀM GÌ?
+Người 1: Để hiểu rõ cái "điều kiện yêu cầu" đó, ta cần giải mã bốn yếu tố cơ bản của giấy phép xi-xi. Yếu tố thứ nhất là bi-y, tức là Ghi công, đây là điều kiện bắt buộc em luôn phải ghi tên tác giả. Thứ hai là en-xê, nghĩa là Phi thương mại, không được dùng để kiếm tiền. Thứ ba là en-đê, Không phái sinh, cấm chỉnh sửa tác phẩm gốc. Và thứ tư là ét-a, Chia sẻ tương tự.
+Người 2: Nghe có vẻ hơi nhiều ký hiệu, thầy lấy ví dụ cho em dễ hiểu được không ạ?
+Người 1: Giả sử em thấy một bức ảnh có logo xi-xi, đi kèm chữ bi-y và en-xê. Điều này có nghĩa là em được phép sử dụng, chia sẻ và chỉnh sửa bức ảnh đó, nhưng chỉ cho mục đích phi thương mại, và bắt buộc phải ghi công tác giả. Nếu có thêm chữ en-đê thì em tuyệt đối không được chỉnh sửa gì cả, chỉ được dùng bản gốc thôi.
+
+Slide 9: GIAI ĐOẠN CUỐI CỦA HÀNH TRÌNH: TỪ NGƯỜI CHIA SẺ CÓ TRÁCH NHIỆM ĐẾN CÔNG DÂN KIẾN TẠO
+Người 1: Khi các em đã biết cách kiểm chứng thông tin và tôn trọng bản quyền, chúng ta sẽ bước vào giai đoạn tiếp theo của khóa học. Hành trình của chúng ta không chỉ dừng lại ở việc tiêu thụ và chia sẻ thông tin an toàn. Giai đoạn cuối là chủ động sử dụng công nghệ số để thực hiện trách nhiệm công dân.
+Người 2: Có phải điều này liên quan đến định hướng chuyển đổi số của nhà nước không thầy?
+Người 1: Hoàn toàn chính xác! Chuyển đổi số quốc gia đặt mục tiêu xây dựng chính phủ số, kinh tế số và xã hội số, trong đó người dân luôn là chủ thể trung tâm. Năng lực công dân số không chỉ là kỹ năng máy tính cá nhân, mà là yêu cầu tất yếu để các em tham gia vào đời sống xã hội, giám sát chính quyền và cùng nhau xây dựng không gian mạng văn minh.
+
+Slide 10: CÁC KÊNH HÀNH ĐỘNG: THỰC HIỆN QUYỀN VÀ NGHĨA VỤ CÔNG DÂN TRÊN MÔI TRƯỜNG SỐ
+Người 2: Vậy để thể hiện mình là một công dân số có trách nhiệm, em có thể hành động qua những kênh nào ạ?
+Người 1: Chúng ta có ba kênh hành động chính. Thứ nhất, em có thể Sử dụng Dịch vụ công trực tuyến để thực hiện các thủ tục hành chính từ xa một cách minh bạch. Thứ hai, em có thể Phản ánh hiện trạng xã hội, báo cáo các vấn đề về trật tự đô thị, môi trường tới chính quyền qua các cổng thông tin mười hai hai hai hoặc ứng dụng địa phương.
+Người 2: Thế còn kênh thứ ba thì sao ạ?
+Người 1: Kênh thứ ba là Góp ý Xây dựng Chính sách. Các em hoàn toàn có quyền tham gia đóng góp ý kiến cho các dự thảo luật thông qua cổng thông tin trực tuyến của Quốc hội. Tất nhiên, nguyên tắc chung cho mọi hành động là phải khách quan, mang tính xây dựng và luôn luôn có bằng chứng rõ ràng.
+
+Slide 11: QUY TẮC ỨNG XỬ TRÊN MẠNG: NHỮNG ĐIỀU NÊN VÀ KHÔNG NÊN LÀM
+Người 1: Tiếp nối bài học, chúng ta sẽ đi vào phần thực hành ứng xử. Trên không gian mạng, có những hành vi chúng ta nên làm như: luôn kiểm chứng nguồn tin trước khi chia sẻ; phản ánh sự thật một cách văn minh, có bằng chứng; sử dụng ngôn từ tôn trọng, xây dựng và biết lắng nghe ý kiến khác biệt. Các em cũng cần bảo mật thông tin cá nhân bằng cách kích hoạt xác thực hai lớp, tạo mật khẩu mạnh và ưu tiên lan tỏa những thông tin tích cực, có giá trị cho cộng đồng.
+Người 2: Dạ thưa thầy, thế những hành vi nào là tuyệt đối không nên làm ạ?
+Người 1: Tuyệt đối không phát tán thông tin sai lệch chưa kiểm chứng gây hoang mang, không dùng từ ngữ xúc phạm, hạ nhục hay công kích cá nhân người khác. Các em cũng không được vu khống, bôi nhọ danh dự của tổ chức, cá nhân, không chia sẻ thông tin cá nhân nhạy cảm như căn cước công dân, mã ô-tê-pê, địa chỉ của mình hay người khác. Và nhớ là đừng bao giờ truy cập các liên kết không rõ nguồn gốc để tránh nguy cơ mất an toàn thông tin nhé.
+
+Slide 12: KHI 'CLICK' SAI: TRÁCH NHIỆM PHÁP LÝ TRÊN KHÔNG GIAN MẠNG
+Người 1: Nếu vi phạm những điều cấm kỵ đó, các em sẽ phải đối mặt với rắc rối lớn. Bạo lực mạng, hay tiếng Anh gọi là cyberbullying, chính là việc dùng công nghệ số để quấy rối, bắt nạt, bôi nhọ danh dự, hoặc xâm phạm quyền riêng tư của người khác.
+Người 2: Em tưởng trên mạng là thế giới ảo thì mọi người chỉ trêu đùa nhau thôi chứ, hậu quả lại nghiêm trọng đến mức bị phạt ạ?
+Người 1: Hành vi trên mạng không phải là ảo, hậu quả là thật em ạ! Về xử phạt hành chính theo Nghị định mười lăm năm hai không hai mươi của Chính phủ, hành vi cung cấp, chia sẻ thông tin giả mạo, sai sự thật, vu khống, xúc phạm uy tín, danh dự sẽ bị phạt từ mười đến hai mươi triệu đồng. Còn hành vi tiết lộ thông tin thuộc bí mật đời tư cá nhân sẽ bị phạt từ hai mươi đến ba mươi triệu đồng. Nặng hơn nữa là truy cứu trách nhiệm hình sự theo Bộ luật Hình sự năm hai không mười lăm: tội làm nhục người khác ở Điều một trăm năm mươi lăm và tội vu khống ở Điều một trăm năm mươi sáu có thể bị phạt tù lên đến năm năm nếu gây hậu quả nghiêm trọng. Nếu xâm phạm bí mật thư tín, điện thoại theo Điều một trăm năm mươi chín, mức phạt tù có thể từ một đến ba năm nếu làm nạn nhân tự sát hoặc ảnh hưởng xấu đến danh dự.
+
+Slide 13: BỐN QUY TẮC VÀNG: KIM CHỈ NAM CHO CÔNG DÂN SỐ
+Người 2: Nghe những mức phạt đó thật sự đáng sợ. Vậy có cách nào để em luôn đi đúng hướng và trở thành một công dân số chuẩn mực không thưa thầy?
+Người 1: Có chứ! Dựa trên Bộ Quy tắc ứng xử trên không gian mạng của Bộ Thông tin và Truyền thông, chúng ta có bốn quy tắc vàng. Thứ nhất là Quy tắc Tôn trọng, yêu cầu tuân thủ pháp luật Việt Nam, tôn trọng quyền và lợi ích hợp pháp của các tổ chức, cá nhân. Thứ hai là Quy tắc Lành mạnh, đòi hỏi hành vi, ứng xử phải phù hợp với giá trị đạo đức, văn hóa, truyền thống tốt đẹp của dân tộc.
+Người 2: Còn hai quy tắc còn lại là gì ạ?
+Người 1: Thứ ba là Quy tắc An toàn, chúng ta phải tuân thủ các quy định và hướng dẫn về việc bảo vệ an toàn và bảo mật thông tin. Và cuối cùng là Quy tắc Trách nhiệm, mỗi người phải tự chịu trách nhiệm về các hành vi, ứng xử của mình trên không gian mạng, đồng thời sẵn sàng phối hợp với cơ quan chức năng khi cần thiết.
+
+Slide 14: CÔNG NGHỆ LÀ CÔNG CỤ. TRÁCH NHIỆM LÀ LỰA CHỌN CỦA BẠN.
+Người 1: Chúng ta đã đi đến phần cuối của khóa tập huấn. Thầy muốn gửi gắm đến các em một thông điệp quan trọng: Công nghệ là công cụ, còn trách nhiệm là lựa chọn của bạn.
+Người 2: Thầy có thể giải thích rõ hơn về "sự lựa chọn" này được không ạ?
+Người 1: Sự lựa chọn nằm ở mỗi cú click chuột, mỗi dòng bình luận, mỗi lượt chia sẻ của em, vì chúng không chỉ dừng lại trên màn hình mà còn lan tỏa giá trị, định hình nhận thức và góp phần xây dựng một xã hội văn minh hơn. Vì vậy, các em hãy chia sẻ điều tích cực, hãy chọn lọc và xác thực thông tin, và hãy mạnh dạn góp tiếng nói xây dựng. Cùng nhau, chúng ta không chỉ sống trong thời đại số, mà còn làm chủ nó!
+

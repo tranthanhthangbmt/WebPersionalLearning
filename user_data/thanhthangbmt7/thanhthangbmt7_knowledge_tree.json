@@ -1,0 +1,1045 @@
+{
+    "course_name": "TRÍ TUỆ NHÂN TẠO ỨNG DỤNG (AI ỨNG DỤNG)",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Khai thác dữ liệu và thông tin"
+        },
+        {
+            "id": "m2",
+            "title": "Giao tiếp và hợp tác trong môi trường số"
+        },
+        {
+            "id": "m3",
+            "title": "Sáng tạo nội dung số"
+        },
+        {
+            "id": "m4",
+            "title": "An toàn Không gian số"
+        },
+        {
+            "id": "m5",
+            "title": "Giải quyết vấn đề bằng công nghệ"
+        },
+        {
+            "id": "m6",
+            "title": "Nhập môn Trí tuệ Nhân tạo (AI)"
+        },
+        {
+            "id": "m7",
+            "title": "Thực hành Word & Tích hợp AI (Buổi 6-9)"
+        },
+        {
+            "id": "m8",
+            "title": "Thực hành Excel & Tích hợp AI (Buổi 10-12)"
+        },
+        {
+            "id": "m9",
+            "title": "Thực hành PowerPoint & Tích hợp AI (Buổi 13-14)"
+        },
+        {
+            "id": "m10",
+            "title": "Tổng ôn & Chinh phục AI (Buổi 15)"
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Tổng quan dữ liệu",
+            "content": "Bài học này giới thiệu về các khái niệm cơ bản của dữ liệu, phân biệt dữ liệu thô với thông tin số và tri thức. Học viên sẽ tìm hiểu về các loại dữ liệu phổ biến như cấu trúc và phi cấu trúc, cùng với những đặc điểm cốt lõi của dữ liệu số trong thời đại hiện nay.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Kỹ năng duyệt Web",
+            "content": "Nội dung này tập trung vào việc phát triển kỹ năng duyệt web hiệu quả, bao gồm các chiến lược tìm kiếm thông tin. Học viên sẽ được hướng dẫn cách sử dụng Google Scholar và PubMed để tìm kiếm học thuật nâng cao, cũng như áp dụng các toán tử logic để tinh chỉnh kết quả tìm kiếm.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Lọc và Quản lý dữ liệu",
+            "content": "Bài học này trang bị các kỹ thuật quan trọng trong việc lọc và quản lý dữ liệu, bao gồm phương pháp scraping để thu thập dữ liệu tự động. Đồng thời, học viên sẽ tìm hiểu về cách quản lý, lưu trữ, sao lưu, chia sẻ thông tin hiệu quả và các nguyên tắc bảo mật thông tin cá nhân trên không gian số.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Giao tiếp công nghệ số",
+            "content": "Học phần này tập trung vào các công cụ và kỹ năng giao tiếp trong môi trường số, từ việc lựa chọn email, chat đến video call phù hợp. Nội dung cũng đề cập đến cách sử dụng công nghệ để thực hiện quyền công dân số và tuân thủ các quy tắc ứng xử chuẩn mực trên không gian mạng.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Làm việc nhóm",
+            "content": "Bài học này hướng dẫn các phương pháp làm việc nhóm hiệu quả trong môi trường số, bao gồm chia sẻ thông tin an toàn qua các nền tảng như Google Drive và OneDrive. Học viên sẽ tìm hiểu cách hợp tác trên Trello và Google Docs, đồng thời áp dụng các biện pháp để bảo vệ danh tính số cá nhân trong quá trình làm việc.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Xây dựng chuyên án nội dung",
+            "content": "Bài học này tập trung vào quy trình xây dựng một chuyên án nội dung số chuyên nghiệp, bắt đầu từ việc phân tích chân dung người xem mục tiêu. Học viên sẽ được hướng dẫn cách lập kế hoạch nội dung đa nền tảng hiệu quả, bao gồm các định dạng như video, văn bản và infographic, để thu hút và giữ chân khán giả.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "Biên tập và Bản quyền số",
+            "content": "Nội dung này cung cấp các kỹ năng cần thiết để biên tập nội dung số, bao gồm tái tạo, cắt ghép và chuyển đổi định dạng tài liệu. Đồng thời, học viên sẽ tìm hiểu về các vấn đề bản quyền số, cách tra cứu giấy phép và phương pháp áp dụng nội dung một cách hợp pháp thông qua việc ghi nguồn chính xác.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Lập trình cơ bản",
+            "content": "Bài học giới thiệu các kiến thức nền tảng về lập trình, tập trung vào việc lựa chọn công nghệ phù hợp để phát triển ứng dụng nội dung số. Học viên sẽ được làm quen với các giai đoạn thiết kế, cài đặt và kiểm thử ứng dụng, giúp họ có cái nhìn tổng quan về quy trình phát triển phần mềm cơ bản.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c4.1",
+            "parent_macro": "m4",
+            "title": "Các cuộc tấn công mạng",
+            "content": "Bài học này phơi bày thực trạng và các dạng thức phổ biến của tấn công mạng, giúp học viên nhận diện rủi ro từ mã độc, đánh cắp mật khẩu và lừa đảo xã hội (social engineering). Nội dung cung cấp kiến thức để người dùng có thể cảnh giác và phòng tránh các mối đe dọa trực tuyến.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c4.2",
+            "parent_macro": "m4",
+            "title": "Chiến lược bảo mật đa lớp",
+            "content": "Nội dung này đi sâu vào các chiến lược bảo mật đa lớp để bảo vệ thông tin cá nhân và dữ liệu. Học viên sẽ được hướng dẫn về tầm quan trọng của việc sao lưu dữ liệu, cách tạo và quản lý mật khẩu an toàn, cùng các kỹ năng tự phòng thủ nhằm bảo vệ quyền riêng tư khi tham gia Internet.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c4.3",
+            "parent_macro": "m4",
+            "title": "An sinh và Môi trường",
+            "content": "Bài học mở rộng về khía cạnh an sinh trong kỷ nguyên số, tập trung vào việc bảo vệ 'sức khỏe số' và duy trì lối sống cân bằng. Đồng thời, nội dung cũng đánh giá tác động của công nghệ số đến môi trường và giới thiệu các giải pháp xanh bền vững nhằm giảm thiểu ảnh hưởng tiêu cực.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c5.1",
+            "parent_macro": "m5",
+            "title": "Xử lý lỗi hệ thống máy tính",
+            "content": "Bài học này cung cấp các kỹ năng cơ bản để xử lý lỗi hệ thống máy tính, bao gồm cách kiểm tra và khắc phục sự cố phần cứng mạng như Wi-Fi. Học viên cũng sẽ được hướng dẫn cách nhận diện rủi ro lỗi phần mềm và đọc hiểu System Log cơ bản để chẩn đoán vấn đề.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c5.2",
+            "parent_macro": "m5",
+            "title": "Tự học công nghệ mới",
+            "content": "Nội dung này khuyến khích và hướng dẫn phương pháp tự học công nghệ mới thông qua việc khai thác các nguồn tài nguyên trực tuyến uy tín. Học viên sẽ tìm hiểu cách sử dụng hiệu quả Coursera, Udemy, Wikipedia, Reddit và Stack Overflow để tìm kiếm giải pháp và trả lời các câu hỏi học thuật kỹ thuật phức tạp.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c5.3",
+            "parent_macro": "m5",
+            "title": "Thực hành Google Sheets",
+            "content": "Bài học này cung cấp kiến thức thực hành về Google Sheets, hướng dẫn các thao tác cơ bản như nhập liệu và áp dụng Conditional Formatting. Học viên sẽ học cách sử dụng hàm SUM, cũng như kỹ năng vẽ biểu đồ để dự đoán chi tiêu tài chính ở mức độ cơ bản, giúp quản lý dữ liệu hiệu quả.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c6.1",
+            "parent_macro": "m6",
+            "title": "Khái niệm cốt lõi của AI",
+            "content": "Bài học giới thiệu các khái niệm cốt lõi của Trí tuệ Nhân tạo, bao gồm lịch sử phát triển, sự khác biệt giữa Machine Learning và Deep Learning. Học viên sẽ nắm vững nguyên tắc hoạt động của các thuật toán học máy, từ cách chúng xử lý dữ liệu đầu vào để đưa ra dự đoán hoặc quyết định.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c6.2",
+            "parent_macro": "m6",
+            "title": "Các mô hình GenAI tạo sinh",
+            "content": "Nội dung này khám phá các mô hình AI tạo sinh (GenAI) tiên tiến như ChatGPT, Gemini, NoteBookLM, ShakkerAI và Sora, hướng dẫn cách sử dụng chúng để tạo ra văn bản, hình ảnh và video. Bài học cũng đề cập đến các vấn đề đạo đức và quyền riêng tư liên quan đến việc ứng dụng công nghệ AI tạo sinh.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c7.1",
+            "parent_macro": "m7",
+            "title": "Định dạng văn bản trong Word",
+            "content": "Bài học tập trung vào các kỹ năng định dạng văn bản cơ bản và nâng cao trong Microsoft Word. Học viên sẽ thực hành thiết lập khổ giấy, lựa chọn font chữ, sử dụng Page Breaks, Section Breaks, TabStop và Bullets để tạo ra các tài liệu có cấu trúc rõ ràng và chuyên nghiệp.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c7.2",
+            "parent_macro": "m7",
+            "title": "Trình bày văn bản chuyên nghiệp trong Word",
+            "content": "Bài học này hướng dẫn các kỹ thuật trình bày văn bản chuyên nghiệp trong Word, bao gồm cách tạo mục lục tự động với Multilevel list, quản lý Header và Footer. Học viên cũng sẽ học cách chèn Caption cho hình ảnh/bảng biểu và sử dụng Comment để cộng tác hiệu quả trong tài liệu.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c7.3",
+            "parent_macro": "m7",
+            "title": "Kiểm tra giữa kỳ thực hành Word",
+            "content": "Tiết học này là buổi kiểm tra giữa kỳ, tập trung vào việc rà soát các lỗi ứng dụng và đánh giá kỹ năng tổng hợp văn bản. Học viên sẽ được thực hành áp dụng các quy tắc định dạng theo chuẩn Harvard, củng cố toàn bộ kiến thức và kỹ năng đã học về Word.",
+            "alpha_base": 30
+        },
+        {
+            "id": "c7.4",
+            "parent_macro": "m7",
+            "title": "Tích hợp AI trong Word",
+            "content": "Bài học này khám phá cách tích hợp các công cụ AI thông minh như Copilot hoặc ChatGPT vào Microsoft Word thông qua Add-ins. Học viên sẽ thực hành yêu cầu AI viết tự động, tóm tắt, và viết lại văn bản để đảm bảo chuẩn ngữ pháp, tối ưu hóa quá trình tạo và chỉnh sửa tài liệu.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c8.1",
+            "parent_macro": "m8",
+            "title": "Nền tảng hàm Excel",
+            "content": "Bài học này xây dựng nền tảng vững chắc về hàm Excel, bao gồm kỹ thuật đặt tên vùng và sử dụng Data Validation. Học viên sẽ được hướng dẫn áp dụng các hàm quan trọng như IF, LEFT, RIGHT, VLOOKUP, HLOOKUP để xử lý và định hình dữ liệu thô một cách hiệu quả.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c8.2",
+            "parent_macro": "m8",
+            "title": "Quản trị mảng dữ liệu trong Excel",
+            "content": "Nội dung này tập trung vào các công cụ quản trị mảng dữ liệu trong Excel, bao gồm Sort, Filter và PivotTable để sắp xếp và tóm tắt dữ liệu. Học viên sẽ thực hành sử dụng các hàm lọc và đếm có điều kiện như SUMIF và COUNTIF để phân tích thông tin một cách linh hoạt và chính xác.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c8.3",
+            "parent_macro": "m8",
+            "title": "Tích hợp AI phân tích dữ liệu trong Excel",
+            "content": "Bài học này giới thiệu cách tích hợp AI, cụ thể là Copilot, vào Excel để phân tích dữ liệu một cách thông minh. Học viên sẽ tìm hiểu cách yêu cầu AI tạo bộ dữ liệu mẫu, tự động phân tích logic xu hướng và sinh ra các công thức hàm phức tạp, giúp đơn giản hóa quá trình phân tích và báo cáo.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c9.1",
+            "parent_macro": "m9",
+            "title": "Xây dựng trình chiếu chuyên nghiệp với PowerPoint",
+            "content": "Bài học này hướng dẫn các kỹ thuật xây dựng trình chiếu chuyên nghiệp trong PowerPoint, từ việc thiết kế Slide Master để đảm bảo tính nhất quán. Học viên sẽ được thực hành tạo hiệu ứng Trigger liên kết, sử dụng Animation và thiết lập chế độ Auto-loop để bài thuyết trình trở nên sinh động và hiệu quả hơn.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c9.2",
+            "parent_macro": "m9",
+            "title": "Chế tác Slide siêu tốc với AI",
+            "content": "Nội dung này tập trung vào việc ứng dụng AI để chế tác slide thuyết trình một cách siêu tốc. Học viên sẽ tìm hiểu cách sử dụng các công cụ như Gamma AI hoặc Copilot để tự động sinh toàn bộ cấu trúc bài thuyết trình và chèn các hình ảnh minh họa được tạo bởi GenAI, giúp tiết kiệm thời gian và nâng cao chất lượng.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c10.1",
+            "parent_macro": "m10",
+            "title": "Ôn tập quy trình trọn gói",
+            "content": "Bài học này tổng hợp và ôn tập toàn bộ kiến thức đã học từ 6 modules lý thuyết, đồng thời tích hợp các bài thực hành Office kết hợp AI. Đây là cơ hội để học viên củng cố lại các kỹ năng và chuẩn bị sẵn sàng cho các bài kiểm tra thực hành cuối khóa, đảm bảo nắm vững quy trình làm việc toàn diện.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c10.2",
+            "parent_macro": "m10",
+            "title": "Giải đề minh hoạ và xử lý tình huống",
+            "content": "Nội dung này tập trung vào việc giải các đề thi minh họa, giúp học viên làm quen với cấu trúc và yêu cầu của bài thi thực hành lớn. Bài học cũng chia sẻ quy trình làm bài hiệu quả và cách xử lý các tình huống phát sinh thường gặp, trang bị kinh nghiệm thực chiến cho kỳ thi cuối khóa.",
+            "alpha_base": 30
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "a1.1",
+            "target_micro": "c1.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "What is the main difference between \"raw data\" and \"information\"?",
+                    "options": [
+                        "A: Raw data is unprocessed facts, while information is processed data with context.",
+                        "B: Raw data is always numerical, information is always textual.",
+                        "C: Information is generated by machines, raw data by humans.",
+                        "D: They are interchangeable terms with no significant difference."
+                    ],
+                    "answer": "A"
+                },
+                {
+                    "question": "Which of the following is an example of \"unstructured data\"?",
+                    "options": [
+                        "A: A table in an Excel spreadsheet.",
+                        "B: A customer database with defined fields.",
+                        "C: A collection of emails and social media posts.",
+                        "D: A financial ledger."
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a1.2",
+            "target_micro": "c1.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "To find academic articles that contain \"artificial intelligence\" AND \"ethics\" but NOT \"robotics\" on Google Scholar, which search query would be most effective?",
+                    "options": [
+                        "A: \"artificial intelligence ethics robotics\"",
+                        "B: \"artificial intelligence\" AND \"ethics\" OR \"robotics\"",
+                        "C: \"artificial intelligence\" AND \"ethics\" NOT \"robotics\"",
+                        "D: \"artificial intelligence\" \"ethics\" -robotics"
+                    ],
+                    "answer": "D"
+                },
+                {
+                    "question": "Which platform is primarily used for searching biomedical literature and life science journals?",
+                    "options": [
+                        "A: Google Search",
+                        "B: PubMed",
+                        "C: Wikipedia",
+                        "D: Stack Overflow"
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a1.3",
+            "target_micro": "c1.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "What is the primary purpose of \"data scraping\"?",
+                    "options": [
+                        "A: To permanently delete old data from databases.",
+                        "B: To manually input data from physical documents.",
+                        "C: To automatically extract data from websites.",
+                        "D: To encrypt sensitive information before storage."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Which of the following is considered a best practice for personal information security?",
+                    "options": [
+                        "A: Using the same password for all online accounts.",
+                        "B: Sharing personal documents via public cloud links without password protection.",
+                        "C: Regularly backing up important data to an external drive or cloud service.",
+                        "D: Disabling antivirus software to improve computer performance."
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a2.1",
+            "target_micro": "c2.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "When communicating sensitive work-related information that requires formal documentation, which digital tool is generally most appropriate?",
+                    "options": [
+                        "A: Instant messaging app (e.g., Zalo, Messenger)",
+                        "B: Personal email",
+                        "C: Professional email",
+                        "D: Video call"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "What is an important aspect of digital citizenship regarding online behavior?",
+                    "options": [
+                        "A: Spreading unverified information to quickly inform others.",
+                        "B: Respecting privacy and avoiding cyberbullying.",
+                        "C: Using anonymous profiles for all online interactions.",
+                        "D: Always agreeing with popular opinions to avoid conflict."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a2.2",
+            "target_micro": "c2.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Which of these platforms is best suited for project management and task tracking in a team environment?",
+                    "options": [
+                        "A: Google Drive",
+                        "B: Trello",
+                        "C: Microsoft Word",
+                        "D: PubMed"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "To protect your digital identity when collaborating online, what action should you take?",
+                    "options": [
+                        "A: Share your login credentials with trusted team members.",
+                        "B: Use strong, unique passwords and enable two-factor authentication.",
+                        "C: Publicly post your personal contact information on collaborative platforms.",
+                        "D: Avoid using any cloud-based collaboration tools."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a3.1",
+            "target_micro": "c3.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Before creating content for a new project, what is the first crucial step in \"analyzing the audience persona\"?",
+                    "options": [
+                        "A: Immediately start designing the content visuals.",
+                        "B: Identify the target audience's demographics, interests, and needs.",
+                        "C: Choose the content platform (e.g., video, text) without prior research.",
+                        "D: Write the full script or text content."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Which of the following is an example of planning content for \"multi-platform\" delivery?",
+                    "options": [
+                        "A: Creating a single text document for an entire campaign.",
+                        "B: Developing a video for YouTube, a summary infographic for Instagram, and a detailed article for a blog, all on the same topic.",
+                        "C: Only publishing content on one social media channel.",
+                        "D: Recycling old content without any modifications for new platforms."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a3.2",
+            "target_micro": "c3.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "When \"transforming formats\" for digital content, what is a common example?",
+                    "options": [
+                        "A: Changing the color of an image.",
+                        "B: Converting a video file from MP4 to GIF.",
+                        "C: Adding a filter to a photo.",
+                        "D: Increasing the volume of an audio track."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "To legally use copyrighted material in your digital content, what is a standard practice?",
+                    "options": [
+                        "A: Assuming all content on the internet is free to use.",
+                        "B: Using the content without any citation, as long as it's modified slightly.",
+                        "C: Checking the content's license and providing proper attribution or obtaining permission.",
+                        "D: Only using content that explicitly states \"no copyright.\""
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a3.3",
+            "target_micro": "c3.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "In the basic software development cycle for a digital content application, what typically comes immediately after the \"design\" phase?",
+                    "options": [
+                        "A: Testing the application.",
+                        "B: Choosing the technology stack.",
+                        "C: Marketing the application.",
+                        "D: Installing the application."
+                    ],
+                    "answer": "D"
+                },
+                {
+                    "question": "When \"selecting technology\" for a basic digital content application, what is a key consideration?",
+                    "options": [
+                        "A: Choosing the most expensive technology available.",
+                        "B: Selecting a technology that is trendy but not well-documented.",
+                        "C: Matching the technology to the project's requirements, scalability needs, and available resources.",
+                        "D: Using only technologies you are already an expert in, regardless of project needs."
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a4.1",
+            "target_micro": "c4.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "What is \"social engineering\" in the context of cyberattacks?",
+                    "options": [
+                        "A: A type of malware that encrypts files.",
+                        "B: Hacking into social media accounts.",
+                        "C: Manipulating people into revealing confidential information.",
+                        "D: A distributed denial-of-service attack."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Which of the following is a common risk associated with \"malware\"?",
+                    "options": [
+                        "A: Improving system performance.",
+                        "B: Unauthorized access, data corruption, or system disruption.",
+                        "C: Automatically generating secure backups.",
+                        "D: Enhancing user interface aesthetics."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a4.2",
+            "target_micro": "c4.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "A \"multi-layered security strategy\" typically involves which of the following?",
+                    "options": [
+                        "A: Relying solely on a single strong firewall.",
+                        "B: Combining various security measures like strong passwords, firewalls, antivirus, and data backups.",
+                        "C: Avoiding all online activities to ensure complete safety.",
+                        "D: Only updating software once a year."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "What is a critical practice for creating \"secure passwords\"?",
+                    "options": [
+                        "A: Using common dictionary words for easy recall.",
+                        "B: Making them short and simple, such as \"123456\".",
+                        "C: Combining uppercase and lowercase letters, numbers, and special characters, and making them unique for each account.",
+                        "D: Writing them down on a sticky note attached to your monitor."
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a4.3",
+            "target_micro": "c4.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "What does the concept of \"digital well-being\" primarily refer to?",
+                    "options": [
+                        "A: Having the fastest internet connection.",
+                        "B: Balancing online and offline activities to maintain mental and physical health.",
+                        "C: Owning the latest digital gadgets.",
+                        "D: Maximizing screen time for productivity."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "How can technology contribute to \"sustainable green solutions\"?",
+                    "options": [
+                        "A: By encouraging constant upgrading of electronic devices.",
+                        "B: By increasing energy consumption for data centers.",
+                        "C: By enabling smart grids, remote work, and optimized resource management.",
+                        "D: By producing more digital waste."
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a5.1",
+            "target_micro": "c5.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "If your Wi-Fi is not connecting, what is an initial troubleshooting step for \"network hardware errors\"?",
+                    "options": [
+                        "A: Reinstalling your operating system.",
+                        "B: Replacing your entire computer.",
+                        "C: Restarting your Wi-Fi router and modem.",
+                        "D: Changing your Wi-Fi password without checking the connection."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "What is the primary purpose of reviewing \"System Logs\" when troubleshooting a computer issue?",
+                    "options": [
+                        "A: To find entertainment while waiting for the computer to fix itself.",
+                        "B: To identify specific error messages, warnings, or events that indicate the root cause of a problem.",
+                        "C: To delete unnecessary files and free up disk space.",
+                        "D: To automatically fix all software bugs."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a5.2",
+            "target_micro": "c5.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Which platform is best suited for finding solutions to specific programming problems or technical questions from a community of developers?",
+                    "options": [
+                        "A: Wikipedia",
+                        "B: Coursera",
+                        "C: Stack Overflow",
+                        "D: Reddit"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "To learn a new programming language through structured courses and video lectures, which platform would be most appropriate?",
+                    "options": [
+                        "A: Reddit",
+                        "B: Stack Overflow",
+                        "C: Coursera or Udemy",
+                        "D: Google Search"
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a5.3",
+            "target_micro": "c5.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "In Google Sheets, what is the main function of \"Conditional Formatting\"?",
+                    "options": [
+                        "A: To automatically calculate the sum of a range of cells.",
+                        "B: To change the format of cells based on specific rules or conditions.",
+                        "C: To lock cells to prevent editing.",
+                        "D: To insert images into a spreadsheet."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "To quickly calculate the total expenditure from a list of numbers in Google Sheets, which function would you use?",
+                    "options": [
+                        "A: AVERAGE",
+                        "B: MAX",
+                        "C: SUM",
+                        "D: COUNT"
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a6.1",
+            "target_micro": "c6.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "What is the primary distinction between \"Machine Learning\" and \"Deep Learning\"?",
+                    "options": [
+                        "A: Machine Learning uses neural networks, while Deep Learning uses traditional algorithms.",
+                        "B: Deep Learning is a subfield of Machine Learning that uses multi-layered neural networks.",
+                        "C: Machine Learning is always supervised, Deep Learning is always unsupervised.",
+                        "D: They are different names for the exact same technology."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "What is the fundamental principle of \"machine learning algorithms\" regarding input data?",
+                    "options": [
+                        "A: They can learn and improve performance on a task from data without being explicitly programmed.",
+                        "B: They require human intervention for every decision.",
+                        "C: They only work with perfectly clean and labeled datasets.",
+                        "D: They only process numerical data."
+                    ],
+                    "answer": "A"
+                }
+            ]
+        },
+        {
+            "id": "a6.2",
+            "target_micro": "c6.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Which of the following is a common application of \"Generative AI (GenAI) models\"?",
+                    "options": [
+                        "A: Performing complex mathematical calculations.",
+                        "B: Creating realistic images, text, or videos from simple prompts.",
+                        "C: Storing large databases of customer information.",
+                        "D: Running diagnostic tests on computer hardware."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "When using GenAI tools like ChatGPT, what is a key ethical consideration?",
+                    "options": [
+                        "A: Sharing all generated content as your own original work.",
+                        "B: Ensuring the generated content is free from biases and respects privacy.",
+                        "C: Always using the tool to generate misleading information.",
+                        "D: Ignoring the source of the data used for training the AI."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a7.1",
+            "target_micro": "c7.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "In Microsoft Word, what is the primary purpose of a \"Section Break\"?",
+                    "options": [
+                        "A: To start a new page.",
+                        "B: To apply different page formatting (e.g., page numbers, orientation) within the same document.",
+                        "C: To change the font size of the entire document.",
+                        "D: To insert a table."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Which feature in Word allows you to align text precisely at specific points across a line?",
+                    "options": [
+                        "A: Page Breaks",
+                        "B: Section Breaks",
+                        "C: TabStop",
+                        "D: Bullets"
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a7.2",
+            "target_micro": "c7.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "To automatically generate a table of contents that updates with page numbers and headings, which Word feature is essential?",
+                    "options": [
+                        "A: Manual typing of headings and page numbers.",
+                        "B: Using the \"Multilevel List\" feature for headings.",
+                        "C: Copy-pasting text from various parts of the document.",
+                        "D: Only using plain text formatting."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "What is the main benefit of using \"Header and Footer\" in a professional document?",
+                    "options": [
+                        "A: To add decorative images to every page.",
+                        "B: To include consistent information like page numbers, document titles, or author names across multiple pages.",
+                        "C: To increase the file size of the document.",
+                        "D: To hide confidential information."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a7.3",
+            "target_micro": "c7.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "When reviewing a Word document for errors, which common mistake related to \"Harvard referencing style\" would you look for?",
+                    "options": [
+                        "A: Incorrect font size throughout the document.",
+                        "B: Inconsistent in-text citations or bibliography entries.",
+                        "C: Absence of bold text in the main body.",
+                        "D: Misaligned images."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "What is a key skill emphasized in \"synthesizing text\" for a professional report in Word?",
+                    "options": [
+                        "A: Copy-pasting large blocks of text from different sources without modification.",
+                        "B: Combining information from various sources into a coherent and original narrative, while maintaining proper citation.",
+                        "C: Only using single-sentence paragraphs.",
+                        "D: Avoiding any external research."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a7.4",
+            "target_micro": "c7.4",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "How can you integrate AI tools like Copilot or ChatGPT into Microsoft Word?",
+                    "options": [
+                        "A: By manually typing AI commands into the document.",
+                        "B: By installing dedicated Add-ins or extensions.",
+                        "C: By using a separate web browser to access the AI.",
+                        "D: Word has built-in AI that requires no integration."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "What is a typical task you might ask an integrated AI (like Copilot) to perform in Word for \"grammar correction and rewriting\"?",
+                    "options": [
+                        "A: Automatically change the document's theme.",
+                        "B: Generate complex mathematical formulas.",
+                        "C: Rephrase sentences for clarity, conciseness, or a specific tone, and correct grammatical errors.",
+                        "D: Create a new blank document."
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a8.1",
+            "target_micro": "c8.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Which Excel function is primarily used to look up a value in the first column of a table array and return a value in the same row from a column you specify?",
+                    "options": [
+                        "A: IF",
+                        "B: HLOOKUP",
+                        "C: VLOOKUP",
+                        "D: RIGHT"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "What is the benefit of \"naming a range\" of cells in Excel?",
+                    "options": [
+                        "A: It makes the spreadsheet look prettier.",
+                        "B: It allows you to protect those cells from being edited.",
+                        "C: It makes formulas more readable and easier to manage, referring to a meaningful name instead of cell references.",
+                        "D: It automatically converts numbers to text."
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a8.2",
+            "target_micro": "c8.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "To summarize and analyze large datasets by categorizing data and performing calculations (like sum, count, average) across different fields, which Excel tool is most suitable?",
+                    "options": [
+                        "A: Sort",
+                        "B: Filter",
+                        "C: PivotTable",
+                        "D: SUMIF"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "To count the number of cells within a range that meet a specific criterion (e.g., count all sales above $100), which Excel function would you use?",
+                    "options": [
+                        "A: SUM",
+                        "B: AVERAGEIF",
+                        "C: COUNTIF",
+                        "D: VLOOKUP"
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a8.3",
+            "target_micro": "c8.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "If you want Copilot in Excel to help you quickly identify trends or patterns in your data without manually creating charts, what kind of task would you ask it to perform?",
+                    "options": [
+                        "A: Create a new blank worksheet.",
+                        "B: Automatically \"analyze trend logic.\"",
+                        "C: Delete selected rows.",
+                        "D: Change the cell background color."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "How can AI integration, such as Copilot, assist with \"generating complex formulas\" in Excel?",
+                    "options": [
+                        "A: By eliminating the need for any formulas.",
+                        "B: By allowing users to describe their desired calculation in natural language, and the AI suggests or creates the formula.",
+                        "C: By only working with simple SUM functions.",
+                        "D: By converting all existing formulas into text."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a9.1",
+            "target_micro": "c9.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "What is the primary advantage of using \"Slide Master\" in PowerPoint?",
+                    "options": [
+                        "A: To automatically generate content for all slides.",
+                        "B: To ensure consistent branding, fonts, colors, and layouts across all slides in a presentation.",
+                        "C: To hide certain slides from the audience.",
+                        "D: To insert video clips into a presentation."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "In PowerPoint, what is a \"Trigger\" used for in conjunction with animations?",
+                    "options": [
+                        "A: To start all animations automatically when the slide appears.",
+                        "B: To initiate an animation effect when a specific object (e.g., a button, an image) is clicked.",
+                        "C: To automatically repeat an animation indefinitely.",
+                        "D: To synchronize animations with an external audio file."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a9.2",
+            "target_micro": "c9.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "How can AI tools like Gamma AI or Copilot help in \"rapid slide creation\"?",
+                    "options": [
+                        "A: By manually designing each slide from scratch.",
+                        "B: By generating entire presentation structures and content drafts from a prompt.",
+                        "C: By only correcting spelling errors.",
+                        "D: By recording a voiceover for the presentation."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "What is the benefit of \"inserting GenAI-generated images\" into a PowerPoint presentation?",
+                    "options": [
+                        "A: They always perfectly match the brand's existing imagery.",
+                        "B: They provide unique, customized visual aids that align with specific content, without needing to search stock photo libraries.",
+                        "C: They reduce the file size of the presentation.",
+                        "D: They are inherently more professional than traditional images."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a10.1",
+            "target_micro": "c10.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "What is the main goal of \"wrapping up\" all theoretical modules and practical Office + AI exercises?",
+                    "options": [
+                        "A: To introduce completely new, advanced topics.",
+                        "B: To identify all individual weaknesses in specific software.",
+                        "C: To consolidate knowledge and skills, ensuring a comprehensive understanding of the entire course material.",
+                        "D: To prepare for unrelated future courses."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Which aspect is crucial for a successful \"combined Office and AI practical exam\"?",
+                    "options": [
+                        "A: Relying solely on memorizing theoretical concepts.",
+                        "B: Demonstrating proficiency in both Office applications and their AI integration capabilities.",
+                        "C: Completing the exam as quickly as possible without checking for errors.",
+                        "D: Only focusing on the AI parts and ignoring Office skills."
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a10.2",
+            "target_micro": "c10.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "The process of \"solving mock exam questions\" primarily helps students to:",
+                    "options": [
+                        "A: Memorize exact answers for the real exam.",
+                        "B: Understand the exam structure, time management, and common problem types.",
+                        "C: Skip studying theoretical content.",
+                        "D: Only practice simple tasks."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "What is the best approach when \"handling unforeseen situations\" or errors during a large practical exam?",
+                    "options": [
+                        "A: Panic and immediately give up on the task.",
+                        "B: Skip the problematic section and move on without attempting a solution.",
+                        "C: Stay calm, analyze the error message, and apply known troubleshooting techniques or try alternative approaches.",
+                        "D: Ask a classmate for the solution."
+                    ],
+                    "answer": "C"
+                }
+            ]
+        }
+    ],
+    "user_id": "thanhthangbmt7",
+    "edges": [
+        {
+            "source": "c1.1",
+            "target": "c1.3",
+            "reason": "Tổng quan dữ liệu cung cấp nền tảng để hiểu và thực hiện Lọc và Quản lý dữ liệu."
+        },
+        {
+            "source": "c1.3",
+            "target": "c5.3",
+            "reason": "Lọc và Quản lý dữ liệu là kiến thức cần thiết để thực hành trên một công cụ quản lý dữ liệu như Google Sheets."
+        },
+        {
+            "source": "c3.1",
+            "target": "c3.2",
+            "reason": "Xây dựng chuyên án nội dung là bước đầu tiên để có thể Biên tập và Quản lý bản quyền số cho nội dung đó."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.2",
+            "reason": "Hiểu về Các cuộc tấn công mạng là điều kiện tiên quyết để xây dựng Chiến lược bảo mật đa lớp hiệu quả."
+        },
+        {
+            "source": "c6.1",
+            "target": "c6.2",
+            "reason": "Khái niệm cốt lõi của AI là nền tảng để tìm hiểu sâu hơn về Các mô hình GenAI tạo sinh."
+        },
+        {
+            "source": "c6.1",
+            "target": "c7.4",
+            "reason": "Hiểu các Khái niệm cốt lõi của AI là cần thiết để Tích hợp AI trong Word một cách hiệu quả."
+        },
+        {
+            "source": "c6.1",
+            "target": "c8.3",
+            "reason": "Hiểu các Khái niệm cốt lõi của AI là cần thiết để Tích hợp AI phân tích dữ liệu trong Excel một cách hiệu quả."
+        },
+        {
+            "source": "c6.1",
+            "target": "c9.2",
+            "reason": "Hiểu các Khái niệm cốt lõi của AI là cần thiết để Chế tác Slide siêu tốc với AI."
+        },
+        {
+            "source": "c7.1",
+            "target": "c7.2",
+            "reason": "Định dạng văn bản trong Word là kiến thức cơ bản để Trình bày văn bản chuyên nghiệp hơn."
+        },
+        {
+            "source": "c7.2",
+            "target": "c7.3",
+            "reason": "Trình bày văn bản chuyên nghiệp trong Word là kỹ năng được kiểm tra trong bài Kiểm tra giữa kỳ thực hành Word."
+        },
+        {
+            "source": "c7.2",
+            "target": "c7.4",
+            "reason": "Nắm vững Trình bày văn bản chuyên nghiệp trong Word là nền tảng để tích hợp AI một cách có ý nghĩa."
+        },
+        {
+            "source": "c8.1",
+            "target": "c8.2",
+            "reason": "Nền tảng hàm Excel là kiến thức cơ bản để Quản trị mảng dữ liệu trong Excel hiệu quả."
+        },
+        {
+            "source": "c8.2",
+            "target": "c8.3",
+            "reason": "Nắm vững Quản trị mảng dữ liệu trong Excel là nền tảng để Tích hợp AI phân tích dữ liệu trong Excel một cách có ý nghĩa."
+        },
+        {
+            "source": "c9.1",
+            "target": "c9.2",
+            "reason": "Xây dựng trình chiếu chuyên nghiệp với PowerPoint là kỹ năng nền tảng để Chế tác Slide siêu tốc với AI."
+        },
+        {
+            "source": "c10.1",
+            "target": "c10.2",
+            "reason": "Ôn tập quy trình trọn gói là bước chuẩn bị trực tiếp cho việc Giải đề minh hoạ và xử lý tình huống."
+        }
+    ]
+}

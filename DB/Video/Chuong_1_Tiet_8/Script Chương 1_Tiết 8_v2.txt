@@ -1,0 +1,97 @@
+﻿Slide 1: CHƯƠNG 1 (TIẾT 8) - SỨC MẠNH CÁ NHÂN: C2C VÀ C2B
+Người 1: Chào các bạn lớp BA24M. Ở các tiết trước, chúng ta đã bàn về những “gã khổng lồ” như Amazon hay Alibaba (B2C, B2B). Hôm nay, chúng ta sẽ đổi gió. Mời các em nhìn lên Slide 1: “Sức mạnh cá nhân: C2C và C2B”. Theo em, tại sao thầy lại gọi đây là “sức mạnh cá nhân”?
+Người 2: Dạ, em đoán vì trong mô hình này, những cá nhân nhỏ bé như em hay thầy cũng có thể trở thành người bán hàng, chứ không cần phải thành lập công ty hoành tráng đúng không ạ?
+Người 1: Rất đúng. Thương mại điện tử đã trao quyền lực vào tay từng cá nhân. Hôm nay chúng ta sẽ tìm hiểu cách những người bình thường kiếm tiền và tạo ra giá trị trong nền kinh tế số thông qua hai mô hình C2C và C2B.
+
+Slide 2: LỘ TRÌNH BÀI HỌC - KHI QUYỀN LỰC ĐẢO CHIỀU
+Người 1: Để nắm bắt được bài học hôm nay, chúng ta sẽ đi qua 3 trạm dừng chân chính.
+• Thứ nhất, hiểu cơ chế C2C - cách các cá nhân buôn bán với nhau.
+• Thứ hai, phân tích C2B - khi người dùng tạo ra giá trị ngược lại cho doanh nghiệp.
+• Và cuối cùng là xu hướng Kinh tế chia sẻ và Influencer Marketing.
+Người 2: Thầy ơi, em thấy có câu trích dẫn: “Trong kỷ nguyên số, bất kỳ ai cũng có thể là một ‘doanh nghiệp’ nhỏ”. Câu này có phải ám chỉ những người bán hàng online hay các TikToker bây giờ không ạ?
+Người 1: Chính xác. Trước đây quyền lực nằm trong tay các tập đoàn lớn. Nhưng giờ đây, với một chiếc smartphone, em có thể tiếp cận cả thế giới. Quyền lực đang đảo chiều, và chúng ta sẽ xem nó vận hành thế nào ngay sau đây.
+
+Slide 3: C2C - THỊ TRƯỜNG CỦA NHỮNG CÁ NHÂN
+Người 1: Chúng ta bắt đầu với C2C - Consumer to Consumer. Nhìn vào sơ đồ, các em thấy giao dịch diễn ra trực tiếp giữa Cá nhân Mua và Cá nhân Bán. Tuy nhiên, họ cần một “ông mai bà mối” đứng giữa. Đó là ai?
+Người 2: Dạ là Nền tảng (Platform) ạ. Nhưng thầy ơi, Shopee hay Lazada cũng là nền tảng, vậy nó khác gì B2C?
+Người 1: Câu hỏi rất hay. Điểm mấu chốt ở đây là: Nền tảng KHÔNG sở hữu hàng hóa. Shopee không nhập quần áo cũ của em về kho rồi bán lại. Họ chỉ cung cấp cái “chợ” để em tự bày hàng thôi. Đặc điểm của hàng hóa C2C thường là hàng đã qua sử dụng (second-hand), hàng sưu tầm hoặc đồ handmade. Có bạn nào trong lớp mình từng mua bán kiểu này chưa?
+Người 2: Dạ em hay mua sách cũ trong các hội nhóm Facebook hoặc săn quần áo “pass” lại trên Instagram ạ. Giá rẻ hơn nhiều so với mua mới.
+Người 1: Đó chính là ví dụ điển hình. Cạnh tranh về giá rất cao và chi phí giao dịch thấp là động lực chính của C2C.
+
+Slide 4: ĐA DẠNG HÓA PHƯƠNG THỨC GIAO DỊCH C2C
+Người 1: C2C không chỉ là bán đồ cũ. Nó chia làm 3 nhánh chính.
+1. Đấu giá (Auctions):. Thế giới có eBay. Còn ở Việt Nam, các em thấy đấu giá ở đâu?
+Người 2: Em thấy trên Facebook người ta hay Livestream đấu giá sim số đẹp, đấu giá kiện hàng boom hoặc đá quý. Người mua cứ comment trả giá, ai cao nhất thì thắng.
+Người 1: Chuẩn. Đó là Định giá động (Dynamic Pricing). 2. Thứ hai là Rao vặt (Classified Ads). Ví dụ như Chợ Tốt hay Craigslist. Cái này khác đấu giá ở chỗ thường phải gặp mặt trực tiếp (Offline) để xem hàng, check xe máy, check điện thoại rồi mới trả tiền. 3. Cuối cùng là Dịch vụ cá nhân. Ví dụ em giỏi tiếng Anh, em lên mạng tìm người cần gia sư. Em bán công sức và kỹ năng của mình.
+
+Slide 5: KHI MẠNG XÃ HỘI TRỞ THÀNH “CHỢ” (SOCIAL COMMERCE)
+Người 1: Một xu hướng không thể bỏ qua là Social Commerce, tiêu biểu là Facebook Marketplace. Tại sao chúng ta lại thích mua hàng của một nick cá nhân trên Facebook hơn là một web lạ hoắc?
+Người 2: Em nghĩ là do mình xem được Profile của họ. Thấy họ có ảnh thật, có bạn chung với mình thì cảm giác tin tưởng hơn. Với lại chat qua Messenger tiện nữa, hỏi giá cái trả lời luôn.
+Người 1: Đúng vậy, đó là việc tận dụng “Biểu đồ xã hội” (Social Graph). Tuy nhiên, rủi ro là gì? Nếu em chuyển khoản xong họ block em thì sao?
+Người 2: Dạ thì… mất tiền ạ. Vì Facebook đâu có bảo hiểm cho mình như mấy sàn thương mại điện tử đâu. Quy trình xử lý tranh chấp cũng lỏng lẻo nữa.
+Người 1: Rất chính xác. Đó là điểm yếu chí mạng: Thiếu sự bảo vệ. Vậy làm sao để giải quyết? Chúng ta sang slide tiếp theo.
+
+Slide 6: GIẢI BÀI TOÁN “NIỀM TIN” TRONG THẾ GIỚI ẨN DANH
+Người 1: Trong thế giới ẩn danh, “Niềm tin” là thứ đắt giá nhất. Các nền tảng C2C dùng 3 cái khiên (Trust Shield) để bảo vệ người dùng. Thứ nhất, Hệ thống đánh giá (Reputation Systems).
+Người 2: Cái này giống như chấm 5 sao trên Shopee hay Airbnb đúng không thầy? Nếu shop nào 1 sao hay bị phốt là em “né” ngay.
+Người 1: Đúng, đó là cơ chế “Peer-policing” (cộng đồng tự giám sát lẫn nhau). Thứ hai, quan trọng nhất: Thanh toán đảm bảo (Escrow).
+Người 2: Escrow hoạt động sao ạ?
+Người 1: Hãy tưởng tượng em mua hàng trên Shopee. Khi em thanh toán, tiền CHƯA chuyển ngay cho người bán. Shopee (bên thứ 3) sẽ giữ số tiền đó. Chỉ khi em nhận hàng, quay video khui hàng thấy ổn và bấm “Đã nhận hàng”, tiền mới về túi người bán. Đây là cách chống lừa đảo hiệu quả nhất. Cuối cùng là Xác thực danh tính: Yêu cầu liên kết số điện thoại, căn cước hoặc thẻ ngân hàng để tăng trách nhiệm.
+
+Slide 7: C2B - KHI QUYỀN LỰC ĐẢO CHIỀU [Hình ảnh minh họa so sánh dòng chảy B2C từ trên xuống và C2B từ dưới lên]
+Người 1: Chúng ta chuyển sang một mô hình thú vị hơn: C2B (Consumer to Business). Nếu B2C là doanh nghiệp “săn” khách hàng, thì C2B là khách hàng “bán” giá trị cho doanh nghiệp. Nghe hơi ngược đời nhỉ? Có bạn nào lấy được ví dụ không?
+Người 2: Dạ, có phải giống như mình đi bán ve chai cho nhà máy tái chế không ạ?
+Người 1:  Về bản chất thì đúng là em bán nguyên liệu cho họ! Nhưng trong TMĐT, nó tinh vi hơn. Ví dụ kinh điển là Priceline với mô hình “Name-Your-Own-Price”. Khách hàng bảo: “Tôi chỉ có 100 đô cho vé máy bay này, hãng nào bán thì tôi mua”. Doanh nghiệp phải cân nhắc để khớp lệnh. Còn gần gũi hơn với các em: Google AdSense. Một bạn sinh viên viết Blog hay, Google (Doanh nghiệp) trả tiền để được đặt quảng cáo trên Blog đó. Lúc này, bạn sinh viên đang bán “sự chú ý” của độc giả cho Google.
+Người 2: À, vậy chương trình “Thu cũ đổi mới” (Trade-in) của Apple hay Samsung cũng là C2B đúng không thầy? Mình bán máy cũ cho hãng để họ tái chế hoặc tân trang.
+Người 1: Chính xác! Khách hàng trở thành nhà cung cấp đầu vào cho doanh nghiệp.
+
+Slide 8: CROWDSOURCING - TRÍ TUỆ CỦA ĐÁM ĐÔNG [Hình ảnh biểu tượng bóng đèn được ghép từ nhiều mảnh ghép nhỏ của đám đông]
+Người 1: Từ C2B, chúng ta mở rộng ra khái niệm Crowdsourcing (Hợp tác đám đông). Thay vì thuê nhân viên, doanh nghiệp “nhờ” cộng đồng mạng giải quyết vấn đề. Ví dụ: My Starbucks Idea. Khách hàng góp ý tưởng món nước mới, Starbucks làm theo.
+Người 2: Ở Việt Nam mình có cái nào như vậy không thầy?
+Người 1: Rất nhiều. Các em để ý các cuộc thi thiết kế Logo hay Slogan của các ngân hàng hay VinFast không? Thay vì thuê một công ty thiết kế đắt đỏ, họ tổ chức thi. Hàng ngàn người tham gia, họ chọn được ý tưởng xuất sắc nhất với chi phí giải thưởng hợp lý. Đó là tận dụng “bộ não” của đám đông. Hay như Google Maps, dữ liệu tắc đường là do chính điện thoại của chúng ta (đám đông) gửi về, chứ Google làm sao cử nhân viên đi đo hết các con đường được.
+
+Slide 9: INFLUENCER MARKETING - BÁN “SỨC ẢNH HƯỞNG” [Hình ảnh so sánh TikToker đang livestream và các số liệu tương tác]
+Người 1: Đây chắc là phần các em quan tâm nhất. Influencer Marketing. Bản chất của nó là gì?
+Người 2: Là các KOL, KOC bán “sức ảnh hưởng” và “quyền tiếp cận fan” của mình cho nhãn hàng ạ.
+Người 1: Đúng vậy. Tại sao nhãn hàng L’Oréal lại trả tiền tỷ cho “Chiến thần” Hà Linh livestream bán dầu gội thay vì chạy quảng cáo TV?
+Người 2: Vì eWOM (Electronic Word of Mouth) ạ. Em tin chị Hà Linh review “thật” hơn là tin quảng cáo của hãng nói hay về mình.
+Người 1: Chuẩn xác. Và cơ hội nghề nghiệp cho các em ở đây là trở thành Content Creator. Các em có thể bắt đầu làm KOC, review sách, gắn link Affiliate Shopee/TikTok Shop. Khi đó, các em (Cá nhân) đang tạo ra doanh thu cho Doanh nghiệp và nhận hoa hồng. Một hình thức C2B điển hình.
+
+Slide 10: KINH TẾ CHIA SẺ - QUYỀN TRUY CẬP > SỞ HỮU [Biểu tượng các mô hình Airbnb, Grab, Uber]
+Người 1: Chúng ta đến với xu hướng làm thay đổi thế giới: Sharing Economy. Từ khóa là: “Access over Ownership” (Truy cập hơn Sở hữu). Cơ chế cốt lõi là biến tài sản “chết” (phòng trống, xe máy để không) thành tiền.
+Người 2: Ví dụ rõ nhất là Grab và Airbnb rồi ạ. Nhưng ở Việt Nam còn gì khác không thầy?
+Người 1: Có chứ. Ví dụ Zoomcar hay các app thuê xe tự lái. Em có xe ô tô nhưng ít đi, em cho người khác thuê. Hoặc mô hình Co-working space (chia sẻ văn phòng). Tuy nhiên, mô hình này gặp thách thức lớn về pháp lý. Grab là xe ôm công nghệ hay hãng taxi? Tài xế là đối tác hay nhân viên? Đây vẫn là tranh cãi lớn về thuế và bảo hiểm.
+
+Slide 11: BỨC TRANH TOÀN CẢNH C2C VS C2B [Bảng so sánh tóm tắt]
+Người 1: Để tổng kết, mời các em nhìn vào bảng so sánh Slide 11.
+• C2C: Là Ngang hàng (Peer-to-Peer). Tôi bán cho bạn. Nền tảng chỉ kết nối. (Ví dụ: Chợ Tốt).
+• C2B: Là Ngược chiều (Upstream). Tôi tạo giá trị (ảnh, video, ý tưởng) bán cho Doanh nghiệp. (Ví dụ: YouTuber, Freelancer).
+Người 2: Vậy là C2C thiên về “thanh lý, trao đổi”, còn C2B thiên về “sáng tạo, cung cấp dịch vụ” đúng không thầy?
+Người 1: Một cách hiểu rất gọn gàng và chính xác!
+
+Slide 12: HOẠT ĐỘNG NHÓM - THỢ SĂN MÔ HÌNH VIỆT
+Người 1: Để thay đổi không khí, chúng ta sẽ đến với phần thú vị nhất của buổi hôm nay: Hoạt động “Thợ săn mô hình Việt”. Lý thuyết thì nhiều rồi, giờ là lúc nhìn vào thực tế. Thầy chia lớp thành 4 nhóm. Các em có 5 phút thảo luận.
+Người 2: Nhiệm vụ cụ thể là gì hả thầy? Chúng em chỉ cần tìm tên công ty thôi hay sao ạ?
+Người 1: Không đơn giản vậy đâu. Nhiệm vụ của các em là tìm một ví dụ thực tế ĐANG HOẠT ĐỘNG TẠI VIỆT NAM tương ứng với chủ đề nhóm mình. Quan trọng nhất, hãy giải thích cho thầy: Họ kiếm tiền bằng cách nào? (Revenue Model). Đừng nói chung chung là “bán hàng”, phải chỉ rõ tiền chảy từ túi ai sang túi ai.
+Người 2: Dạ, em xin phép đọc phân chia chủ đề cho các nhóm:
+• Nhóm 1: Tìm mô hình C2C thuần túy (kiểu Rao vặt hoặc Đấu giá).
+• Nhóm 2: Tìm mô hình Kinh tế chia sẻ (Sharing Economy).
+• Nhóm 3: Tìm mô hình C2B Lao động (Freelance - làm việc tự do).
+• Nhóm 4: Tìm mô hình C2B Influencer Marketing (Người ảnh hưởng).
+Người 1: Đúng rồi. 5 phút bắt đầu! Hãy nghĩ đến những app các em dùng hàng ngày, những người các em follow trên TikTok. Đội nào giải thích mô hình kiếm tiền sắc sảo nhất sẽ có điểm cộng.
+
+Slide 13: GÓC NHÌN THỰC TẾ TẠI VIỆT NAM (GỢI Ý LỜI GIẢI)
+Người 1: Thời gian đã hết. Hãy cùng xem các “thợ săn” của lớp mình tìm được gì. Mời đại diện Nhóm 1. Các em chọn ví dụ nào cho C2C Rao vặt?
+Người 2: Dạ nhóm một của tụi em là chọn Chợ Tốt (Chotot.com) ạ. Đây là trang rao vặt lớn nhất Việt Nam hiện nay.
+Người 1: Rất chuẩn xác. Vậy Chợ Tốt cho người dùng đăng tin miễn phí, họ lấy tiền ở đâu để nuôi hệ thống?
+Người 2: Dạ, họ thu phí từ các dịch vụ cộng thêm ạ. Thứ nhất là phí “Đẩy tin”: Ai muốn tin mình luôn hiện lên đầu trang để bán nhanh thì phải trả tiền. Thứ hai là phí “Tin VIP”: Để tin có nhãn nổi bật, chữ đậm. Và gần đây họ có thêm phí “Thanh toán đảm bảo” để giữ tiền hộ người mua nữa ạ.
+Người 1: Phân tích rất tốt. Đây gọi là mô hình Freemium (Miễn phí cơ bản, thu phí nâng cao). Tiếp theo, Nhóm 2 với Kinh tế chia sẻ?
+Người 2: Tụi em nhóm 2, Dạ không ai khác ngoài Grab ạ. Cách họ kiếm tiền là thu phí hoa hồng (Commission). Mỗi cuốc xe tài xế chạy, Grab sẽ “cắt phế” khoảng 20-30%. Phần còn lại là của tài xế.
+Người 1: Chính xác. Grab không sở hữu xe, họ bán kết nối. Mời Nhóm 3 với mô hình C2B Freelance. Cái này hơi khó tìm hơn chút này.
+Người 2: Dạ nhóm 3 của tụi em tìm được trang Vlance.vn. Trên này các bạn thiết kế, lập trình viên (Freelancer) lên tìm việc. Vlance kiếm tiền bằng phí kết nối và phí nâng cấp tài khoản cho Freelancer. Tức là muốn chào giá dự án ngon thì phải nạp tiền vào tài khoản ạ.
+Người 1: Rất am hiểu thị trường! Cuối cùng, Nhóm 4 với Influencer Marketing. Ví dụ của các em là gì?
+Người 2: Dạ nhóm 4 của tụi em lấy ví dụ là “Chiến thần” Võ Hà Linh hoặc Phạm Thoại ạ. Họ kiếm tiền từ 2 nguồn chính:
+1. Booking: Nhãn hàng trả một cục tiền cố định để họ lên livestream hoặc quay video review.
+2. Affiliate (Tiếp thị liên kết): Họ gắn link sản phẩm, fan bấm vào mua thì họ được chia hoa hồng trên doanh số.
+Người 1: Tuyệt vời! Slide này đã tổng kết lại toàn bộ bài học hôm nay. Từ những mô hình “cổ điển” như rao vặt đến những xu hướng “bùng nổ” như Livestream bán hàng, tất cả đều xoay quanh sức mạnh của cá nhân. Các em thấy đấy, cơ hội kiếm tiền trong TMĐT không chỉ dành cho doanh nghiệp lớn, mà dành cho chính các em ngay từ bây giờ.
+Cảm ơn các nhóm đã hoạt động rất sôi nổi!

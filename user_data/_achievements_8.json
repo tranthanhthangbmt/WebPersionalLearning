@@ -1,0 +1,17 @@
+{
+  "unlocked": {
+    "first_quiz": {
+      "unlocked_at": "2026-04-17T23:07:22.867851",
+      "name": "Khởi đầu",
+      "icon": "🏅"
+    },
+    "night_owl": {
+      "unlocked_at": "2026-04-17T23:07:22.867851",
+      "name": "Cú đêm",
+      "icon": "🦉"
+    }
+  },
+  "counters": {
+    "night_study": 3
+  }
+}

@@ -1,0 +1,75 @@
+﻿Slide 1: TRANG TIÊU ĐỀ (MODULE 3: SÁNG TẠO NỘI DUNG SỐ)
+Người 1: Chào các em. Chào mừng các em đến với Module 3 của khóa học, mang tên Sáng tạo nội dung số. Hôm nay, trong tiết học đầu tiên này, chúng ta sẽ tập trung vào chủ đề "Phát triển nội dung số". Xuyên suốt bài học, thầy trò ta sẽ đi qua ba nội dung chính: Phân tích mục tiêu và đối tượng, Lập kế hoạch nội dung số, và cuối cùng là Sản xuất nội dung số.
+Người 2: Thưa thầy, ở các module trước mình đã học về nhiều kỹ năng trên môi trường số rồi. Vậy phần "phát triển nội dung số" này có phải là bước để mình bắt tay vào tự làm ra những sản phẩm thực tế như video hay bài viết không ạ?
+ 
+Slide 2: MỤC TIÊU BÀI HỌC
+Người 1: Chính xác là như vậy! Và để làm được điều đó một cách chuyên nghiệp, chúng ta cần hoàn thành bốn mục tiêu trong bài học hôm nay. Thứ nhất, các em phải hiểu được quy trình phát triển nội dung số, từ lúc phân tích, lập kế hoạch cho đến khi sản xuất. Thứ hai, các em sẽ biết cách xác định mục tiêu và vẽ ra chân dung đối tượng khán giả một cách thật rõ ràng, chính xác. Thứ ba, các em phải lập được kế hoạch và phân biệt các định dạng nội dung số phù hợp với từng nền tảng. Và cuối cùng, hiểu được các tiêu chí để tạo ra một nội dung có giá trị cùng các công cụ xây dựng tương ứng.
+Người 2: Nghe có vẻ khá nhiều việc phải làm thầy nhỉ. Em cứ nghĩ làm nội dung số chỉ đơn giản là lấy điện thoại ra quay rồi đăng lên mạng thôi chứ.
+ 
+Slide 3: PHÂN TÍCH MỤC TIÊU VÀ ĐỐI TƯỢNG (PHẦN 1: XÁC ĐỊNH MỤC TIÊU)
+Người 1: Rất nhiều người lầm tưởng như em đấy! Nhưng làm như vậy nội dung sẽ không đi đến đâu cả. Bước đầu tiên và quan trọng nhất, mục ba chấm một chấm một, chính là Phân tích mục tiêu và đối tượng. Ở phần một, chúng ta phải trả lời được câu hỏi cốt lõi: "Làm nội dung số để làm gì?". Có ba mục tiêu tiêu biểu nhất: Một là Bán hàng, nhằm tăng doanh số, thuyết phục khách hàng và quảng bá sản phẩm. Hai là Giáo dục, dùng để chia sẻ kiến thức, đào tạo kỹ năng hữu ích. Và ba là Giải trí, giúp tạo tiếng cười, giải tỏa căng thẳng và thu hút sự chú ý.
+Người 2: À, em hiểu rồi. Vậy là mình phải biết rõ mình muốn gì trước. Nhưng làm sao để biết mục tiêu của mình đã chuẩn chưa thầy?
+Người 1: Câu hỏi rất hay! Các em cần lưu ý, việc đặt mục tiêu phải luôn tuân thủ tiêu chí Sờ-mát (S-M-A-R-T), tức là mục tiêu phải Cụ thể, Đo lường được, Khả thi, Thực tế và Có thời hạn rõ ràng.
+ 
+Slide 4: PHÂN TÍCH MỤC TIÊU VÀ ĐỐI TƯỢNG (PHẦN 2: XÁC ĐỊNH ĐỐI TƯỢNG)
+Người 1: Sau khi biết rõ "làm để làm gì", ta sang phần hai: Xác định đối tượng. Câu hỏi cốt lõi ở đây là: "Đối tượng tiếp cận nội dung của bạn là ai?". Chúng ta sẽ phải xây dựng một Chân dung người dùng, tiếng Anh gọi là Dú-sờ Pơ-xô-na (User Persona), thông qua ba yếu tố chính.
+Người 2: Chân dung người dùng ạ? Mình sẽ vẽ họ ra như thế nào hả thầy?
+Người 1: Ta "vẽ" bằng dữ liệu em ạ. Thứ nhất là Nhân khẩu học: bao gồm độ tuổi, giới tính, nghề nghiệp, sở thích. Thứ hai là Thói quen số, hay Đi-gi-tờ Ha-bít (Digital Habits): họ hay dùng Facebook, Tích Tốc (TikTok), YouTube hay đọc Blog?. Và thứ ba là Tâm lý học hay Nhu cầu: họ đang quan tâm vấn đề gì và mong muốn giải quyết điều gì.
+ 
+Slide 5: TẠI SAO PHẢI PHÂN TÍCH RÕ MỤC TIÊU VÀ ĐỐI TƯỢNG?
+Người 2: Thưa thầy, phân tích kỹ như vậy có tốn thời gian quá không ạ? Mình có thể nhảy thẳng vào quay video luôn cho nhanh được không?
+Người 1: Chắc chắn là không nên rồi! Slide số 5 này sẽ giải thích cho em tại sao. Việc phân tích này chính là "kim chỉ nam" và là bước "đặt nền móng" cho mọi hoạt động sáng tạo chiến lược nội dung.
+Người 2: Vậy hậu quả nếu mình bỏ qua bước này là gì ạ?
+Người 1: Nếu không rõ mục tiêu và đối tượng, nội dung của em rất dễ bị "lạc hướng". Mà khi nội dung đã lạc hướng thì sẽ không tiếp cận đúng người cần xem, gây lãng phí nguồn lực và hoàn toàn không mang lại hiệu quả như em mong muốn.
+
+Slide 6: LẬP KẾ HOẠCH NỘI DUNG SỐ - KHUNG THỜI GIAN
+Người 1: Chúng ta cùng bước sang phần ba chấm một chấm hai: Lập kế hoạch nội dung số. Việc lập kế hoạch này giống như em đang vẽ ra một "bản đồ" để duy trì sự nhất quán cho mọi hoạt động sáng tạo của mình. Kế hoạch sẽ được chia làm ba khung thời gian: Dài hạn theo năm để xác định chủ đề lớn; Trung hạn theo quý hoặc tháng để chia nhỏ thành các chuỗi nội dung; và Ngắn hạn theo tuần hoặc ngày để lên lịch đăng bài chi tiết.
+Người 2: Quản lý nhiều lịch trình từ năm xuống ngày như vậy thì mình có công cụ nào hỗ trợ không thưa thầy?
+Người 1: Chắc chắn là có. Các em có thể sử dụng Lịch Gu-gồ (Google Calendar), Ếch-xeo (Excel), Gu-gồ Sít (Google Sheets), Nô-sần (Notion) hoặc Tờ-re-lô (Trello) để tiện theo dõi và phân công nhiệm vụ cụ thể.
+ 
+Slide 7: LẬP KẾ HOẠCH - CHỌN ĐỊNH DẠNG NỘI DUNG
+Người 1: Sau khi có khung thời gian, ta phải chọn định dạng nội dung. Slide số 7 liệt kê các định dạng phổ biến như: Bài viết hay Bờ-lốc (Blog) rất chi tiết và tốt cho ét-xi-âu (SEO); In-phô-gờ-ráp-phích (Infographic) thì trực quan, dễ chia sẻ; Vi-đi-ô (Video) trên Diu-túp (YouTube), Tích-tốc (TikTok) hay Riu (Reels) có tương tác rất cao dù tốn công sản xuất. Ngoài ra còn có Pót-cát (Podcast) dạng âm thanh rất tiện lợi, hoặc Lai-xờ-trym (Livestream) và Ca-râu-seo (Carousel) giúp truyền tải ngắn gọn.
+Người 2: Nhiều định dạng quá thầy ạ. Làm sao để mình biết nên chọn định dạng nào cho chiến dịch của mình?
+Người 1: Chúng ta không chọn bừa đâu em. Tiêu chí lựa chọn bắt buộc phải dựa trên bốn yếu tố: Mục tiêu nội dung, Đặc điểm của đối tượng, Nền tảng phân phối và Nguồn lực mà em đang có sẵn.
+ 
+Slide 8: SẢN XUẤT NỘI DUNG SỐ - GIÁ TRỊ CỐT LÕI
+Người 1: Kế hoạch có hoàn hảo đến mấy thì cũng phải bắt tay vào làm. Đó là phần ba chấm một chấm ba: Sản xuất nội dung số. Nguyên tắc ở đây là sản phẩm tạo ra phải đáp ứng được nhu cầu của đối tượng thông qua bốn tiêu chí cốt lõi tạo nên giá trị. Một là Giúp đỡ, cung cấp giải pháp hữu ích. Hai là Giải trí, mang lại tiếng cười và thư giãn. Ba là Truyền cảm hứng, tạo động lực. Và bốn là Thúc đẩy hành động.
+Người 2: Thưa thầy, "thúc đẩy hành động" cụ thể là mình muốn khán giả làm gì ạ?
+Người 1: Đó là khi em kêu gọi người xem mua hàng, đăng ký dịch vụ, hoặc đơn giản là chia sẻ và tương tác với bài viết của mình.
+ 
+Slide 9: KỸ NĂNG VÀ CÔNG CỤ SẢN XUẤT (VIẾT & KỊCH BẢN)
+Người 1: Để sản xuất tốt, các em cần trang bị kỹ năng và công cụ thực chiến. Slide 9 nói về mảng Viết và Kịch bản. Em phải có khả năng viết nội dung hấp dẫn, đúng giọng điệu, chuẩn ét-xi-âu (SEO) cho bờ-lốc (Blog), biết dùng Hát-tác (Hashtag) cho mạng xã hội và có lời kêu gọi hành động. Về kịch bản vi-đi-ô, em phải tạo được cấu trúc rõ ràng gồm phần mở đầu, phát triển và kết thúc cho cả vi-đi-ô ngắn lẫn dài.
+Người 2: Mảng viết lách và lên dàn ý này thì mình có phần mềm nào hỗ trợ không thầy?
+Người 1: Rất nhiều là đằng khác! Các em hãy làm quen với Gu-gồ Đốc (Google Docs), Gờ-ram-ma-ly (Grammarly) hay He-minh-uây Ê-đi-tờ (Hemingway Editor) để viết nội dung, và dùng phần mềm Nô-sần (Notion) để sáng tạo kịch bản nhé.
+ 
+Slide 10: KỸ NĂNG VÀ CÔNG CỤ SẢN XUẤT (THIẾT KẾ & ĐA PHƯƠNG TIỆN)
+Người 1: Cuối cùng trong dải kỹ năng hôm nay là mảng Thiết kế và Đa phương tiện ở slide 10. Đối với hình ảnh, em phải thiết kế bắt mắt, đảm bảo đúng kích thước từng nền tảng, hài hòa về màu sắc và phông chữ. Còn với vi-đi-ô và âm thanh, các em cần hiểu về ánh sáng, góc quay, biết cách cắt ghép, thêm hiệu ứng, nhạc nền và chỉnh màu.
+Người 2: Phần này nghe có vẻ đòi hỏi nhiều kỹ thuật chuyên môn cao thầy nhỉ? Chắc em phải đi học một khóa đồ họa mất.
+Người 1: Không cần lo lắng thế đâu em. Nếu mới bắt đầu, em có thể dùng các công cụ thiết kế rất dễ sử dụng như Can-va (Canva) hay A-đốp Ếch-pờ-rét (Adobe Express). Về vi-đi-ô, phần mềm Cáp-cất (CapCut) hay Ki-nê-mát-tờ (KineMaster) cực kỳ trực quan. Khi nào tiến lên chuyên nghiệp, ta mới cần đến Phô-tô-sóp (Photoshop), Pờ-ri-mia Pờ-rồ (Premiere Pro) hay phần mềm chỉnh âm thanh như Au-đa-xi-ti (Audacity) và A-đốp Au-đi-sần (Adobe Audition).
+
+Slide 11: VÍ DỤ MINH HOẠ: QUY TRÌNH PHÁT TRIỂN NỘI DUNG SỐ
+Người 1: Để các em dễ hình dung hơn cách ráp nối ba bước vừa học, chúng ta cùng xem slide 11 với một ví dụ thực tế. Tình huống đặt ra là em cần phát triển nội dung để bán sản phẩm "Balo laptop" cho mùa tựu trường. Bước một, phân tích: mục tiêu ở đây là bán hàng, nhằm tăng doanh số dịp đầu năm học. Đối tượng là sinh viên từ 18 đến 22 tuổi, cần balo bền, đẹp và thường xuyên xem Tích-tốc (TikTok) cũng như Phây-sờ-búc Riu (Facebook Reels).
+Người 2: Đối tượng và nền tảng rõ ràng rồi, vậy bước lập kế hoạch và sản xuất sẽ tiếp nối thế nào ạ?
+Người 1: Rất logic! Bước hai, lập kế hoạch: ta sẽ lên lịch đăng ba vi-đi-ô ngắn mỗi tuần, xen kẽ với hai bài viết dạng Ca-râu-seo (Carousel) nhiều hình ảnh. Bước ba, sản xuất: ta làm vi-đi-ô re-view (review) độ bền của balo, ví dụ như thử độ chống nước, chứa nhiều đồ. Cuối cùng, kết hợp với nhạc nền bắt tren (trend) để kích thích, thúc đẩy hành động mua hàng.
+ 
+Slide 12: TÓM TẮT: PHÁT TRIỂN NỘI DUNG SỐ
+Người 1: Slide 12 sẽ tóm tắt lại toàn bộ quy trình phát triển nội dung số mà chúng ta vừa đi qua. Các em chỉ cần nhớ ba trụ cột chính. Một là Phân tích - đây là bước đặt nền móng, phải trả lời được câu hỏi "Làm để làm gì?" và "Cho ai?". Nếu thiếu nó, nội dung chắc chắn sẽ bị lạc hướng.
+Người 2: Hai trụ cột còn lại là bộ khung và khâu thực hiện phải không thầy?
+Người 1: Đúng vậy em. Trụ cột thứ hai là Lập kế hoạch - đóng vai trò là bộ khung định hướng lộ trình. Ở đây ta chọn định dạng phù hợp dựa trên mục tiêu và nền tảng. Trụ cột thứ ba là Sản xuất - khâu thực thi biến ý tưởng thành sản phẩm. Ở khâu này, phải luôn ghi nhớ 4 giá trị cốt lõi: Giúp đỡ, Giải trí, Truyền cảm hứng và Thúc đẩy hành động.
+ 
+Slide 13: HƯỚNG DẪN BÀI TẬP THỰC HÀNH
+Người 1: Bây giờ là lúc "học đi đôi với hành". Chúng ta chuyển sang phần Bài tập thực hành ở slide 13. Mục đích là để các em áp dụng trực tiếp quy trình ba bước: Phân tích, Lập kế hoạch và Sản xuất vào một chiến dịch thực tế.
+Người 2: Mình sẽ làm bài này cá nhân hay làm theo nhóm thưa thầy?
+Người 1: Các em có thể làm việc cá nhân, hoặc nếu muốn, có thể thảo luận theo nhóm nhỏ từ 3 đến 4 sinh viên. Yêu cầu là hãy đóng vai một người làm truyền thông số, đọc kỹ tình huống ở trang sau và vận dụng tư duy lô-gíc (logic) để xây dựng một kế hoạch hoàn chỉnh nhé.
+ 
+Slide 14: BÀI TẬP THỰC HÀNH (TIẾT 1) - TÌNH HUỐNG
+Người 1: Tình huống bài tập ở slide 14 như sau: Câu lạc bộ Tình nguyện của trường Đại học chuẩn bị tổ chức chiến dịch mang tên "Tiếp sức mùa thi - Hỗ trợ tân sinh viên nhập học". Các em được giao nhiệm vụ phát triển nội dung số cho chiến dịch này trên mạng xã hội.
+Người 2: Dạ em hiểu bối cảnh rồi ạ. Vậy yêu cầu cụ thể mình cần nộp lại cho thầy là những nội dung gì ạ?
+Người 1: Các em cần thực hiện ba yêu cầu sau. Một là xác định rõ Mục tiêu và vẽ chân dung Đối tượng tiếp cận nội dung. Hai là đề xuất 2 loại định dạng nội dung số phù hợp nhất để triển khai và giải thích ngắn gọn lý do. Ba là đưa ra 1 ý tưởng sản xuất đáp ứng tiêu chí "Giúp đỡ người xem" hoặc "Truyền cảm hứng".
+ 
+Slide 15: GỢI Ý LỜI GIẢI (BÀI TẬP TIẾT 1)
+Người 1: Để các em không bị bỡ ngỡ, slide 15 cung cấp một vài gợi ý lời giải tham khảo. Về bước phân tích, mục tiêu của chiến dịch này mang tính "Giáo dục", tức là cung cấp thông tin nhập học, và "Thúc đẩy hành động" để kêu gọi tân sinh viên đăng ký nhận hỗ trợ. Đối tượng hướng đến chính là tân sinh viên 18 tuổi và phụ huynh, vì thế nền tảng tập trung nên là Phây-sờ-búc Fan-pây (Facebook Fanpage) của trường và Tích-tốc (TikTok).
+Người 2: Thế còn định dạng và ý tưởng sản xuất thì mình có thể làm gì cho hấp dẫn ạ?
+Người 1: Về định dạng, em có thể chọn In-phô-gờ-ráp-phích (Infographic) tóm tắt trực quan quy trình làm hồ sơ nhập học, vì nó rất dễ đọc và dễ lưu về điện thoại để chia sẻ. Định dạng thứ hai là Vi-đi-ô ngắn trên Riu (Reels) hoặc Tích-tốc (TikTok) quay hướng dẫn tìm phòng trọ quanh trường để tạo sự gần gũi, tương tác cao.
+Về ý tưởng sản xuất, nếu chọn tiêu chí "Giúp đỡ", em có thể làm bài viết hoặc video giải đáp "1001 câu hỏi thường gặp khi lên thành phố học". Còn nếu chọn tiêu chí "Truyền cảm hứng", một video phỏng vấn các anh chị khóa trước chia sẻ trải nghiệm vượt qua bỡ ngỡ ngày đầu nhập học sẽ vô cùng tuyệt vời.
+

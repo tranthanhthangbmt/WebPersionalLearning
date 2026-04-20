@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "concept_id": "CONCEPT_a85836",
+    "concept_name": "Chương_1_Tiết 7 Mô hình B2C và B2B",
+    "file_source": "Chương_1_Tiết 7 Mô hình B2C và B2B.csv"
+  },
+  "questions": [
+    {
+      "id": "CONCEPT_c82637_0",
+      "type": "multiple_choice",
+      "content": "Thuật ngữ \"E-tailer\" trong mô hình B2C chủ yếu đề cập đến đối tượng nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Người cung cấp nội dung số."
+        },
+        {
+          "key": "B",
+          "text": "Nhà bán lẻ trực tuyến."
+        },
+        {
+          "key": "C",
+          "text": "Cổng thông tin điện tử."
+        },
+        {
+          "key": "D",
+          "text": "Nhà cung cấp dịch vụ mạng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "E-tailing (bán lẻ điện tử) là việc bán lẻ được thực hiện qua Internet, và những người bán này được gọi là e-tailers.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_2ffc2f_1",
+      "type": "multiple_choice",
+      "content": "Wall Street Journal Online (wsj.com) hay Netflix là ví dụ điển hình của mô hình B2C nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Portal (Cổng thông tin)."
+        },
+        {
+          "key": "B",
+          "text": "Content Provider (Nhà cung cấp nội dung)."
+        },
+        {
+          "key": "C",
+          "text": "Transaction Broker (Môi giới giao dịch)."
+        },
+        {
+          "key": "D",
+          "text": "Market Creator (Nhà tạo thị trường)."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Content Provider phân phối nội dung thông tin, giải trí (tin tức, video) qua mạng, thường thu phí đăng ký hoặc quảng cáo.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_76d72e_2",
+      "type": "multiple_choice",
+      "content": "Trong mô hình B2B, giao dịch \"Sell-side\" (Bên bán) có đặc điểm gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Một người mua, nhiều người bán."
+        },
+        {
+          "key": "B",
+          "text": "Một người bán, nhiều người mua."
+        },
+        {
+          "key": "C",
+          "text": "Nhiều người mua, nhiều người bán."
+        },
+        {
+          "key": "D",
+          "text": "Cá nhân bán cho doanh nghiệp."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong thị trường sell-side, một doanh nghiệp (người bán) bán sản phẩm/dịch vụ cho nhiều tổ chức mua hàng khác.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_1be3ef_3",
+      "type": "multiple_choice",
+      "content": "Mô hình doanh thu chính của hầu hết các \"Portal\" (Cổng thông tin) như Yahoo hay MSN là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phí giao dịch."
+        },
+        {
+          "key": "B",
+          "text": "Phí quảng cáo."
+        },
+        {
+          "key": "C",
+          "text": "Phí bán hàng trực tiếp."
+        },
+        {
+          "key": "D",
+          "text": "Phí đăng ký thành viên VIP."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các cổng thông tin (Portals) thu hút lượng truy cập lớn và kiếm tiền chủ yếu thông qua phí quảng cáo và phí giao dịch từ các liên kết.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_f4932b_4",
+      "type": "multiple_choice",
+      "content": "Expedia và các trang đặt vé máy bay/khách sạn trực tuyến thuộc mô hình B2C nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Content Provider."
+        },
+        {
+          "key": "B",
+          "text": "Transaction Broker (Môi giới giao dịch)."
+        },
+        {
+          "key": "C",
+          "text": "Community Provider."
+        },
+        {
+          "key": "D",
+          "text": "Portal."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Transaction Broker (như Expedia) xử lý các giao dịch cho người tiêu dùng (thường là dịch vụ tài chính, du lịch) để nhận phí hoa hồng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_a675f5_5",
+      "type": "multiple_choice",
+      "content": "\"E-procurement\" (Mua sắm điện tử) là hoạt động chủ đạo của loại hình thị trường B2B nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sell-side marketplace."
+        },
+        {
+          "key": "B",
+          "text": "Buy-side marketplace."
+        },
+        {
+          "key": "C",
+          "text": "Exchange."
+        },
+        {
+          "key": "D",
+          "text": "Collaborative commerce."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "E-procurement là phương pháp mua sắm tại các thị trường buy-side (bên mua), nơi một người mua tìm kiếm hàng hóa từ nhiều nhà cung cấp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_341eda_6",
+      "type": "multiple_choice",
+      "content": "Khác biệt cơ bản về \"đối tượng khách hàng\" giữa B2C và B2B là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "B2C bán cho tổ chức, B2B bán cho cá nhân."
+        },
+        {
+          "key": "B",
+          "text": "B2C bán cho cá nhân, B2B bán cho tổ chức."
+        },
+        {
+          "key": "C",
+          "text": "Cả hai đều bán cho chính phủ."
+        },
+        {
+          "key": "D",
+          "text": "Cả hai đều bán cho người tiêu dùng cuối cùng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "B2C là giao dịch giữa doanh nghiệp và người tiêu dùng cá nhân, trong khi B2B là giao dịch giữa các tổ chức/doanh nghiệp với nhau.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_f6d7df_7",
+      "type": "multiple_choice",
+      "content": "Sự khác biệt giữa \"Vertical Marketplace\" và \"Horizontal Marketplace\" trong B2B là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vertical phục vụ một ngành cụ thể; Horizontal phục vụ nhiều ngành."
+        },
+        {
+          "key": "B",
+          "text": "Vertical phục vụ nhiều ngành; Horizontal phục vụ một ngành."
+        },
+        {
+          "key": "C",
+          "text": "Vertical chỉ bán dịch vụ; Horizontal chỉ bán hàng hóa."
+        },
+        {
+          "key": "D",
+          "text": "Vertical dành cho B2C; Horizontal dành cho B2B."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Vertical marketplaces chuyên về một ngành (dọc) cụ thể (ví dụ: hóa chất, thép), trong khi Horizontal marketplaces cung cấp dịch vụ/sản phẩm (ngang) cho nhiều ngành khác nhau (ví dụ: văn phòng phẩm).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_6815a1_8",
+      "type": "multiple_choice",
+      "content": "Tại sao quy trình ra quyết định mua hàng trong B2B phức tạp hơn B2C?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì giá sản phẩm rẻ hơn."
+        },
+        {
+          "key": "B",
+          "text": "Vì liên quan đến nhiều người duyệt (DMU) và quy trình lý trí."
+        },
+        {
+          "key": "C",
+          "text": "Vì B2B không sử dụng Internet."
+        },
+        {
+          "key": "D",
+          "text": "Vì người mua B2B mua theo cảm xúc."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong B2B, quyết định mua hàng liên quan đến nhiều người (đơn vị ra quyết định), dựa trên lý trí và giá trị hợp đồng lớn, khác với B2C thường là cá nhân và có thể dựa trên cảm xúc.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_fa48ae_9",
+      "type": "multiple_choice",
+      "content": "Sàn giao dịch (Exchange) trong mô hình B2B có đặc điểm kết nối như thế nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Một người bán - Nhiều người mua."
+        },
+        {
+          "key": "B",
+          "text": "Nhiều người bán - Nhiều người mua."
+        },
+        {
+          "key": "C",
+          "text": "Một người mua - Nhiều người bán."
+        },
+        {
+          "key": "D",
+          "text": "Doanh nghiệp - Chính phủ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Exchanges là các thị trường điện tử công cộng many-to-many, nơi nhiều người mua và nhiều người bán gặp nhau để giao dịch.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_38268c_10",
+      "type": "multiple_choice",
+      "content": "Trong mô hình \"Đấu giá ngược\" (Reverse Auction) thường dùng ở B2B Buy-side, giá cả biến động như thế nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá tăng lên khi người mua cạnh tranh."
+        },
+        {
+          "key": "B",
+          "text": "Giá giảm xuống khi người bán cạnh tranh."
+        },
+        {
+          "key": "C",
+          "text": "Giá được cố định bởi chính phủ."
+        },
+        {
+          "key": "D",
+          "text": "Giá không thay đổi."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong đấu giá ngược, người mua đăng nhu cầu (RFQ) và các nhà cung cấp (người bán) đấu thầu để giành đơn hàng, khiến giá có xu hướng giảm xuống.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_5133fa_11",
+      "type": "multiple_choice",
+      "content": "Doanh nghiệp \"Click-and-mortar\" (như Walmart) có lợi thế gì so với \"Pure-play\" (như Amazon thời đầu) trong quy trình mua hàng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chi phí vận hành thấp hơn."
+        },
+        {
+          "key": "B",
+          "text": "Khách có thể nhận/trả hàng tại cửa hàng vật lý."
+        },
+        {
+          "key": "C",
+          "text": "Không cần quản lý nhân viên."
+        },
+        {
+          "key": "D",
+          "text": "Danh mục sản phẩm ít hơn."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Mô hình Click-and-mortar cho phép khách hàng mua online và nhận hàng hoặc đổi trả tại cửa hàng vật lý (omnichannel), tạo sự thuận tiện.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_482f6f_12",
+      "type": "multiple_choice",
+      "content": "Mô hình kinh doanh \"Drop-shipping\" trong B2C giúp người bán (E-tailer) giảm rủi ro gì lớn nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rủi ro thanh toán thẻ."
+        },
+        {
+          "key": "B",
+          "text": "Rủi ro tồn kho và chi phí lưu kho."
+        },
+        {
+          "key": "C",
+          "text": "Rủi ro về marketing."
+        },
+        {
+          "key": "D",
+          "text": "Rủi ro mất dữ liệu khách hàng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong drop-shipping, người bán không giữ hàng trong kho mà chuyển đơn cho nhà cung cấp để giao trực tiếp, do đó loại bỏ rủi ro tồn kho.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_f04e65_13",
+      "type": "multiple_choice",
+      "content": "Spot buying (Mua ngay) trong B2B khác với Strategic sourcing (Tìm nguồn chiến lược) ở điểm nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Spot buying là mua theo hợp đồng dài hạn."
+        },
+        {
+          "key": "B",
+          "text": "Spot buying là mua đột xuất theo nhu cầu tức thời."
+        },
+        {
+          "key": "C",
+          "text": "Spot buying chỉ dành cho nguyên liệu trực tiếp."
+        },
+        {
+          "key": "D",
+          "text": "Spot buying có giá ổn định hơn."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Spot buying đề cập đến việc mua hàng hóa và dịch vụ khi cần thiết (đột xuất) với giá thị trường tại thời điểm đó, khác với việc tìm nguồn cung ứng chiến lược dài hạn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_2201d6_14",
+      "type": "multiple_choice",
+      "content": "Tại sao các \"Cổng thông tin chuyên biệt\" (Vortal/Vertical Portal) lại thu hút quảng cáo B2B hiệu quả hơn cổng thông tin đại chúng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì chúng có lượng truy cập lớn hơn Google."
+        },
+        {
+          "key": "B",
+          "text": "Vì chúng nhắm đúng đối tượng mục tiêu chuyên ngành."
+        },
+        {
+          "key": "C",
+          "text": "Vì chi phí quảng cáo rẻ hơn nhiều."
+        },
+        {
+          "key": "D",
+          "text": "Vì chúng không yêu cầu đăng ký."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các cổng thông tin dọc (Vertical portals) tập trung vào một ngành hoặc cộng đồng sở thích cụ thể, giúp nhà quảng cáo tiếp cận chính xác đối tượng mục tiêu (Target audience) hiệu quả hơn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_d083b6_15",
+      "type": "multiple_choice",
+      "content": "Rủi ro lớn nhất đối với một Sàn giao dịch B2B công cộng (Public Exchange) dẫn đến sự sụp đổ là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quá nhiều người mua tham gia."
+        },
+        {
+          "key": "B",
+          "text": "Thiếu tính thanh khoản (ít người mua/bán)."
+        },
+        {
+          "key": "C",
+          "text": "Chi phí phần mềm quá thấp."
+        },
+        {
+          "key": "D",
+          "text": "Giao diện web quá đơn giản."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sự thiếu hụt người tham gia (cả người mua và người bán) dẫn đến thiếu tính thanh khoản (liquidity) và khối lượng giao dịch tới hạn là nguyên nhân chính khiến các sàn giao dịch thất bại.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_ac888a_16",
+      "type": "multiple_choice",
+      "content": "Trong mô hình \"Content Provider\", thách thức lớn nhất về bản quyền (Intellectual Property) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khó thu phí từ người dùng."
+        },
+        {
+          "key": "B",
+          "text": "Nội dung số dễ bị sao chép và phân phối trái phép."
+        },
+        {
+          "key": "C",
+          "text": "Chi phí sản xuất nội dung quá thấp."
+        },
+        {
+          "key": "D",
+          "text": "Không thể quảng cáo trên trang web."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Do sản phẩm là kỹ thuật số (tin tức, nhạc, video), việc bảo vệ bản quyền chống lại sự sao chép và phân phối lậu (piracy) là thách thức lớn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_135587_17",
+      "type": "multiple_choice",
+      "content": "Sự khác biệt giữa \"Nguyên liệu trực tiếp\" (Direct materials) và \"Nguyên liệu gián tiếp\" (MRO) ảnh hưởng thế nào đến mô hình mua sắm B2B?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nguyên liệu trực tiếp thường mua qua Spot buying."
+        },
+        {
+          "key": "B",
+          "text": "Nguyên liệu trực tiếp thường mua qua Hợp đồng chiến lược dài hạn."
+        },
+        {
+          "key": "C",
+          "text": "MRO không bao giờ mua online."
+        },
+        {
+          "key": "D",
+          "text": "Cả hai đều mua qua đấu giá ngược."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Nguyên liệu trực tiếp (để sản xuất) thường được mua qua quan hệ chiến lược dài hạn, trong khi MRO (bảo trì, sửa chữa) thường mua ngẫu nhiên hoặc qua catalog điện tử.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_ad20ac_18",
+      "type": "multiple_choice",
+      "content": "\"Channel Conflict\" (Xung đột kênh) xảy ra khi một nhà sản xuất áp dụng mô hình B2C nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bán hàng qua trung gian phân phối."
+        },
+        {
+          "key": "B",
+          "text": "Bán trực tiếp (Direct Sales) bỏ qua đại lý."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ bán hàng tại cửa hàng vật lý."
+        },
+        {
+          "key": "D",
+          "text": "Không sử dụng Internet."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Khi nhà sản xuất bán trực tiếp cho người tiêu dùng (Direct marketing/sales) qua mạng, họ có thể gây mâu thuẫn với các đối tác phân phối truyền thống (nhà bán buôn, bán lẻ) của chính họ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_acba1d_19",
+      "type": "multiple_choice",
+      "content": "Yếu tố nào sau đây KHÔNG phải là đặc điểm của mô hình \"Private Industrial Network\" (Mạng công nghiệp tư nhân) trong B2B?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thuộc sở hữu của một doanh nghiệp lớn (như Walmart)."
+        },
+        {
+          "key": "B",
+          "text": "Là thị trường mở cho tất cả công chúng tham gia tự do."
+        },
+        {
+          "key": "C",
+          "text": "Tập trung vào việc điều phối chuỗi cung ứng với các đối tác chọn lọc."
+        },
+        {
+          "key": "D",
+          "text": "Thường là mô hình One-to-Many."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Private Industrial Networks (như của Walmart hay Dell) là các mạng riêng tư, giới hạn quyền truy cập cho các đối tác chiến lược được chọn lọc, không mở công khai cho công chúng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Galaxy 3D — PKT Bio-Tutor</title>
+    <script src="https://unpkg.com/three@0.141.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph@1.70.16/dist/3d-force-graph.min.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/shaders/CopyShader.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #060714;
+            --glass-bg: rgba(10, 14, 40, 0.75);
+            --glass-border: rgba(255, 255, 255, 0.06);
+            --text-primary: #f0f4ff;
+            --text-muted: #7b8ab8;
+            --accent: #38bdf8;
+            --green: #4ade80;
+            --yellow: #fbbf24;
+            --red: #f87171;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { overflow: hidden; font-family: 'Inter', sans-serif; color: var(--text-primary); background: var(--bg-color); }
+        #3d-graph { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; }
+        .glass-panel { background: var(--glass-bg); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 16px; padding: 20px; pointer-events: auto; }
+        header { position: absolute; top: 24px; left: 24px; pointer-events: none; }
+        header h1 { font-size: 24px; font-weight: 800; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        #dashboard-panel { position: absolute; top: 90px; left: 24px; width: 230px; }
+        .stat-card { background: rgba(255, 255, 255, 0.03); border-radius: 10px; padding: 12px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; border-left: 3px solid transparent; }
+        .stat-label { font-size: 10px; color: var(--text-muted); font-weight: 700; text-transform: uppercase; }
+        .stat-value { font-size: 18px; font-weight: 800; }
+        .legend { position: absolute; bottom: 30px; left: 24px; display: flex; flex-direction: column; gap: 8px; }
+        .legend-item { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 600; color: var(--text-muted); }
+        .legend-item .dot { width: 10px; height: 10px; border-radius: 50%; }
+        #info-panel { position: absolute; top: 24px; right: 24px; width: 320px; max-height: calc(100vh - 48px); overflow-y: auto; transform: translateX(350px); transition: transform 0.5s ease; }
+        #info-panel.visible { transform: translateX(0); }
+        .badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 10px; font-weight: 800; margin-bottom: 12px; }
+        .type-macro { background: rgba(56, 189, 248, 0.15); color: var(--accent); }
+        .resource-list { display: flex; flex-direction: column; gap: 8px; margin-top: 15px; margin-bottom: 15px; max-height: 150px; overflow-y: auto; }
+        .resource-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); transition: 0.2s; font-size: 12px; text-decoration: none; color: var(--text-primary); cursor: pointer; }
+        .resource-item:hover { background: rgba(255,255,255,0.1); border-color: var(--accent); }
+        .play-btn { color: var(--green); opacity: 0.6; transition: 0.2s; display: flex; align-items: center; }
+        .play-btn:hover { opacity: 1; transform: scale(1.2); }
+        .action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+        .action-btn { background: rgba(255,255,255,0.08); border-radius: 12px; padding: 12px; text-align: center; cursor: pointer; transition: 0.2s; border: 1px solid transparent; }
+        .action-btn:hover { background: rgba(255,255,255,0.12); border-color: var(--accent); }
+        #loading-screen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-color); z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: opacity 0.8s; }
+        .loader-ring { width: 60px; height: 60px; border: 4px solid rgba(56, 189, 248, 0.2); border-top-color: var(--accent); border-radius: 50%; animation: spin 1s infinite linear; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        #toast-container { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 9999; }
+        .toast { background: var(--glass-bg); border: 1px solid var(--accent); padding: 10px 20px; border-radius: 10px; font-size: 13px; font-weight: 600; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body>
+    <div id="loading-screen"><div class="loader-ring"></div><div style="margin-top: 20px; color: var(--accent);">GALAXY BOOTING...</div></div>
+    <div id="3d-graph"></div>
+    <div id="ui-overlay">
+        <header><h1>Knowledge Galaxy</h1></header>
+        <div id="dashboard-panel" class="glass-panel">
+            <div class="stat-card" style="border-left-color: var(--green)"><span class="stat-label">MASTERED</span><span class="stat-value" id="stat-mastered">0</span></div>
+            <div class="stat-card" style="border-left-color: var(--yellow)"><span class="stat-label">LEARNING</span><span class="stat-value" id="stat-learning">0</span></div>
+            <div class="stat-card" style="border-left-color: var(--red)"><span class="stat-label">WEAK</span><span class="stat-value" id="stat-weak">0</span></div>
+        </div>
+        <div class="legend glass-panel">
+            <div class="legend-item"><span class="dot" style="background:var(--accent)"></span> Chương / Topic</div>
+            <div class="legend-item"><span class="dot" style="background:var(--green)"></span> Mastered (&gt;80%)</div>
+            <div class="legend-item"><span class="dot" style="background:var(--yellow)"></span> Developing</div>
+            <div class="legend-item"><span class="dot" style="background:var(--red)"></span> Weak Point</div>
+        </div>
+        <div id="info-panel" class="glass-panel">
+            <div id="info-type" class="badge type-macro">SELECT A NODE</div>
+            <h2 id="info-title">Star Map</h2>
+            <p id="info-desc">Select a node to view details and start learning journey.</p>
+            <div id="node-resources" class="resource-list" style="display: none;"></div>
+            <div id="action-buttons" style="display: none;">
+                <div class="action-grid">
+                    <div class="action-btn" onclick="startAction('video')">📺 VIDEO</div>
+                    <div class="action-btn" onclick="startAction('quiz')">📝 QUIZ</div>
+                    <div class="action-btn" onclick="startAction('ai_tutor')">🤖 AI TUTOR</div>
+                    <div class="action-btn" onclick="startAction('flashcard')">📇 FLASHCARDS</div>
+                </div>
+            </div>
+        </div>
+        <div id="toast-container"></div>
+    </div>
+    <script>
+        const GRAPH_DATA = {"nodes": [{"id": "m1", "next_best": false, "type": "macro", "label": "TỔNG QUAN VỀ THƯƠNG MẠI ĐIỆN TỬ", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m2", "next_best": false, "type": "macro", "label": "GIAO DỊCH ĐIỆN TỬ", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m3", "next_best": false, "type": "macro", "label": "MARKETING ĐIỆN TỬ", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m4", "next_best": false, "type": "macro", "label": "AN TOÀN THÔNG TIN TRONG THƯƠNG MẠI ĐIỆN TỬ", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m5", "next_best": false, "type": "macro", "label": "ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ TRONG DOANH NGHIỆP", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m1_Meso_1", "next_best": true, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c1.1", "title": "Khái niệm chung, đặc điểm và phân loại TMĐT", "content": "Giới thiệu định nghĩa cơ bản về Thương mại điện tử (TMĐT), phân tích các đặc điểm nổi bật và các cách phân loại TMĐT khác nhau. Nêu bật lợi ích và hạn chế của TMĐT, cùng với sự phát triển và ảnh hưởng của nó đến các lĩnh vực kinh tế - xã hội.", "resources": []}, {"id": "c1.2", "title": "Cơ sở hạ tầng cho Thương mại điện tử", "content": "Trình bày các thành phần cốt lõi tạo nên cơ sở hạ tầng của TMĐT, bao gồm hạ tầng pháp lý, công nghệ thông tin, thanh toán điện tử, an toàn thông tin, nhân lực và dịch vụ phân phối. Giải thích vai trò của từng yếu tố trong việc hỗ trợ hoạt động TMĐT.", "resources": []}, {"id": "c1.3", "title": "Các mô hình kinh doanh TMĐT", "content": "Khám phá các mô hình kinh doanh phổ biến trong TMĐT như B2C (Doanh nghiệp – Người tiêu dùng), B2B (Doanh nghiệp – Doanh nghiệp), C2C (Cá nhân – Cá nhân) và C2B (Cá nhân – Doanh nghiệp). Phân tích đặc điểm và ví dụ của từng mô hình.", "resources": []}], "resources": [], "val": 15, "prerequisites": []}, {"id": "m1_Meso_2", "next_best": false, "type": "meso", "label": "Phần 2", "micro_children": [{"id": "c1.4", "title": "Sàn giao dịch TMĐT", "content": "Cung cấp khái quát về giao dịch điện tử và đi sâu vào sàn giao dịch TMĐT, bao gồm khái niệm, đặc trưng, các loại sàn, lợi ích và các phương thức giao dịch. Hướng dẫn các thủ tục cơ bản để đăng ký và tham gia sàn.", "resources": []}], "resources": [], "val": 15, "prerequisites": ["m1_Meso_1"]}, {"id": "m2_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c2.1", "title": "Hợp đồng điện tử", "content": "Tìm hiểu về khái niệm, đặc điểm và quy trình giao kết hợp đồng điện tử. Nêu rõ những điểm cần lưu ý khi sử dụng hợp đồng điện tử để đảm bảo tính pháp lý và hiệu lực trong giao dịch.", "resources": []}, {"id": "c2.2", "title": "Thanh toán điện tử, chữ ký số và chứng thực", "content": "Giới thiệu khái niệm thanh toán điện tử, các yêu cầu của hệ thống thanh toán và phân biệt giữa thanh toán điện tử với thanh toán trong TMĐT. Trình bày các phương thức thanh toán điện tử phổ biến cùng với khái niệm, ưu điểm và quy trình sử dụng chữ ký số.", "resources": []}], "resources": [], "val": 15, "prerequisites": ["m1_Meso_1"]}, {"id": "m3_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c3.1", "title": "Khái niệm và nghiên cứu thị trường điện tử", "content": "Giải thích các khái niệm cơ bản về marketing điện tử. Phân tích hành vi của người tiêu dùng trong môi trường số và các bước triển khai nghiên cứu thị trường điện tử để hiểu rõ khách hàng mục tiêu.", "resources": []}, {"id": "c3.2", "title": "Các công cụ và đo lường marketing điện tử", "content": "Trình bày các công cụ marketing điện tử đa dạng như marketing qua công cụ tìm kiếm, truyền thông xã hội, email, thiết bị di động, liên kết và nội dung. Hướng dẫn cách vận dụng các công cụ này vào dự án kinh doanh và các vấn đề đo lường hiệu quả.", "resources": []}], "resources": [], "val": 15, "prerequisites": ["m1_Meso_1"]}, {"id": "m4_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c4.1", "title": "Vấn đề an ninh, rủi ro và giải pháp trong TMĐT", "content": "Nhận diện các vấn đề an ninh và rủi ro tiềm tàng trong TMĐT, phân tích ảnh hưởng của chúng đến hoạt động kinh doanh. Đề xuất một số giải pháp an toàn trên mạng để bảo vệ thông tin và giao dịch.", "resources": []}], "resources": [], "val": 15, "prerequisites": ["m1_Meso_1"]}, {"id": "m5_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c5.1", "title": "Phát triển hệ thống và lập kế hoạch kinh doanh điện tử", "content": "Tóm tắt các vấn đề liên quan đến phát triển hệ thống TMĐT cho doanh nghiệp. Hướng dẫn lập kế hoạch kinh doanh điện tử, bao gồm khái niệm, phân tích môi trường TMĐT và xây dựng chiến lược kinh doanh trên nền tảng số.", "resources": []}], "resources": [], "val": 15, "prerequisites": ["m1_Meso_1", "m3_Meso_1"]}], "links": [{"source": "m1", "target": "m1_Meso_1", "relation": "contains"}, {"source": "m1", "target": "m1_Meso_2", "relation": "contains"}, {"source": "m2", "target": "m2_Meso_1", "relation": "contains"}, {"source": "m3", "target": "m3_Meso_1", "relation": "contains"}, {"source": "m4", "target": "m4_Meso_1", "relation": "contains"}, {"source": "m5", "target": "m5_Meso_1", "relation": "contains"}, {"source": "m1_Meso_1", "target": "m1_Meso_2", "relation": "prerequisite_for"}, {"source": "m1_Meso_1", "target": "m2_Meso_1", "relation": "prerequisite_for"}, {"source": "m1_Meso_1", "target": "m3_Meso_1", "relation": "prerequisite_for"}, {"source": "m1_Meso_1", "target": "m4_Meso_1", "relation": "prerequisite_for"}, {"source": "m1_Meso_1", "target": "m5_Meso_1", "relation": "prerequisite_for"}, {"source": "m3_Meso_1", "target": "m5_Meso_1", "relation": "prerequisite_for"}]};
+        const USER_STATE = {
+            "mastery": {},
+            "inferred_blooms": {}
+        };
+        let Graph = null;
+
+        function getMasteryLevel(id) { 
+            const node = GRAPH_DATA.nodes.find(n => n.id === id);
+            if (node && node.type === 'meso') {
+                let total = 0, count = 0;
+                (node.micro_children || []).forEach(c => {
+                    total += (USER_STATE.mastery[c.id] || 0);
+                    count++;
+                });
+                return count > 0 ? total / count : 0;
+            }
+            return USER_STATE.mastery[id] || 0; 
+        }
+        
+        function getBloomLevel(id) {
+            const node = GRAPH_DATA.nodes.find(n => n.id === id);
+            if (node && node.type === 'meso') {
+                let total = 0, count = 0;
+                (node.micro_children || []).forEach(c => {
+                    total += (USER_STATE.inferred_blooms[c.id] || 0);
+                    count++;
+                });
+                return count > 0 ? total / count : 0;
+            }
+            return USER_STATE.inferred_blooms[id] || 0; 
+        }
+
+        function getNodeStatus(n) {
+            if (n.type === 'macro') return 'macro';
+            const m = getMasteryLevel(n.id);
+            if (m >= 0.8) return 'mastered';
+            if (m >= 0.4) return 'learning';
+            return 'weak';
+        }
+        
+        function getNodeColor(n) {
+            if (n.type === 'macro') return 'hsl(210, 80%, 60%)'; // Solid Blue
+            
+            const bloom = getBloomLevel(n.id);
+            if (bloom === 0) return 'hsl(210, 20%, 30%)'; // Uncharted (Gray)
+            if (bloom < 1.0) return 'hsl(210, 20%, 40%)'; 
+            
+            let h = 200, s = 80, l = 50;
+            if (bloom < 2.0) { // L1 - Remember
+                h = 200; s = 80; l = 50;
+            } else if (bloom < 3.0) { // L2 - Understand
+                h = 140; s = 70; l = 45;
+            } else if (bloom < 4.0) { // L3 - Apply
+                h = 45; s = 90; l = 50;
+            } else if (bloom < 5.0) { // L4 - Analyze
+                h = 20; s = 85; l = 55;
+            } else { // L5/L6 - Mastery
+                h = 280; s = 80; l = 60;
+            }
+            return `hsl(${h}, ${s}%, ${l}%)`;
+        }
+        
+        function isLocked(n) {
+            if (n.type === 'macro') return false;
+            return (n.prerequisites || []).some(p => getMasteryLevel(p) < 0.6);
+        }
+        function updateStats() {
+            let m=0, l=0, w=0;
+            GRAPH_DATA.nodes.forEach(n => {
+                if (n.type !== 'macro') {
+                    const s = getNodeStatus(n);
+                    if (s === 'mastered') m++; else if (s === 'learning') l++; else w++;
+                }
+            });
+            document.getElementById('stat-mastered').innerText = m;
+            document.getElementById('stat-learning').innerText = l;
+            document.getElementById('stat-weak').innerText = w;
+        }
+        function startAction(type) {
+            if (!window.currentNodeId) return;
+            const payload = { 
+                id: window.currentNodeId, 
+                action: type,
+                label: document.getElementById('info-title').innerText
+            };
+            if (window.parent) window.parent.postMessage({ type: 'graph3d_action', payload }, '*');
+            const t = document.createElement('div'); t.className='toast'; t.innerText='🚀 Starting '+type.toUpperCase();
+            document.getElementById('toast-container').appendChild(t);
+            setTimeout(() => t.remove(), 2500);
+        }
+        function init() {
+            updateStats();
+            Graph = ForceGraph3D()(document.getElementById('3d-graph'))
+                .graphData(GRAPH_DATA)
+                .backgroundColor('#060714')
+                .showNavInfo(false)
+                .nodeColor(getNodeColor)
+                .nodeLabel(n => (isLocked(n) ? '🔒 ' : '') + (n.label || n.id))
+                .linkColor(() => 'rgba(255,255,255,0.08)')
+                .nodeThreeObject(n => {
+                    const size = n.type === 'macro' ? 10 : 5;
+                    const mat = new THREE.MeshPhongMaterial({ color: getNodeColor(n), transparent: true, opacity: isLocked(n)?0.3:0.9 });
+                    return new THREE.Mesh(new THREE.SphereGeometry(size, 16, 16), mat);
+                })
+                .onNodeClick(n => {
+                    if (isLocked(n)) return;
+                    Graph.cameraPosition({ x: n.x*1.5, y: n.y*1.5, z: n.z*1.5 }, n, 1000);
+                    const p = document.getElementById('info-panel'); p.classList.add('visible');
+                    document.getElementById('info-title').innerText = n.label || n.id;
+                    document.getElementById('info-desc').innerText = n.content || 'Chọn một hành động bên dưới để bắt đầu học.';
+                    
+                    const pType = document.getElementById('info-type');
+                    pType.className = 'badge';
+                    if (n.type === 'macro') {
+                        pType.classList.add('type-macro');
+                        pType.innerText = 'CHƯƠNG KIẾN THỨC';
+                    } else if (n.type === 'micro') {
+                        pType.classList.add('type-micro');
+                        pType.innerText = 'BÀI HỌC MICRO';
+                        pType.style.background = getNodeColor(n);
+                        pType.style.color = '#000';
+                    } else if (n.type === 'assess') {
+                        pType.classList.add('type-assess');
+                        pType.innerText = 'BÀI ĐÁNH GIÁ';
+                    }
+
+                    const resContainer = document.getElementById('node-resources');
+                    resContainer.innerHTML = '';
+                    const resources = n.resources || [];
+                    if (resources.length > 0) {
+                        resContainer.style.display = 'flex';
+                        resources.forEach(res => {
+                            if (!res || !res.url) return;
+                            const resTitle = res.title || 'Tài nguyên chưa đặt tên';
+                            const resIcon = res.icon || '📎';
+                            const resType = (res.type || '').toLowerCase();
+
+                            const a = document.createElement('a');
+                            a.className = 'resource-item';
+                            if (resType === 'youtube' || resTitle.toLowerCase().includes('video')) {
+                                a.href = '#';
+                                a.onclick = (e) => { e.preventDefault(); startAction('video'); };
+                            } else {
+                                a.href = res.url;
+                                a.target = '_blank';
+                            }
+                            a.innerHTML = `
+                                <div style="display: flex; align-items: center; gap: 8px; flex: 1; overflow: hidden;">
+                                    <span>${resIcon}</span>
+                                    <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 180px;" title="${resTitle}">${resTitle}</span>
+                                </div>
+                                <div class="play-btn" title="Học ngay với Player" onclick="event.stopPropagation(); event.preventDefault(); startAction('video');">
+                                    <i class="material-icons" style="font-size: 20px;">play_circle_outline</i>
+                                </div>
+                            `;
+                            resContainer.appendChild(a);
+                        });
+                    } else {
+                        resContainer.style.display = 'none';
+                    }
+                    
+                    document.getElementById('action-buttons').style.display = (n.type === 'macro' ? 'none' : 'block');
+                    window.currentNodeId = n.id;
+                });
+            const bloom = new THREE.UnrealBloomPass(); bloom.strength = 1.0; Graph.postProcessingComposer().addPass(bloom);
+            document.getElementById('loading-screen').style.opacity = '0';
+            setTimeout(() => document.getElementById('loading-screen').remove(), 1000);
+        }
+        window.addEventListener('DOMContentLoaded', init);
+        setInterval(() => {
+            fetch(`/user_data/sv01/states/student_state.json?t=${Date.now()}`)
+                .then(r => r.json())
+                .then(data => { 
+                    if(data) { 
+                        if(data.nodes_mastery) USER_STATE.mastery = data.nodes_mastery; 
+                        if(data.inferred_blooms) USER_STATE.inferred_blooms = data.inferred_blooms;
+                        updateStats(); 
+                        if(Graph) Graph.nodeColor(getNodeColor);
+                    } 
+                })
+                .catch(e => console.log(e));
+        }, 5000);
+    </script>
+</body>
+</html>

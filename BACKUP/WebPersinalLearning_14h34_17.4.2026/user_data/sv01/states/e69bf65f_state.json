@@ -1,0 +1,61 @@
+{
+  "subject_id": "e69bf65f",
+  "mastery": {
+    "c3.1": {
+      "level": 0.2,
+      "attempts": 1,
+      "last_score": 0,
+      "last_updated": 1774715763.4312084,
+      "pure_level": 0.0,
+      "_decayed": true
+    },
+    "c1.1": {
+      "level": 0.2,
+      "attempts": 6,
+      "last_score": 10,
+      "last_updated": 1774884154.7638493,
+      "pure_level": 1.0,
+      "_decayed": true
+    },
+    "c1.5": {
+      "level": 0.2,
+      "attempts": 3,
+      "last_score": 0,
+      "last_updated": 1774884286.5054138,
+      "pure_level": 0.5549999999999999,
+      "_decayed": true
+    },
+    "Chuong_4_Tiet_1": {
+      "level": 0.2,
+      "attempts": 5,
+      "last_score": 10,
+      "last_updated": 1774972415.7786758,
+      "pure_level": 1.0,
+      "_decayed": true
+    },
+    "Chuong_1_Tiet_11": {
+      "level": 0.2,
+      "attempts": 1,
+      "last_score": 10,
+      "last_updated": 1774971132.0421703,
+      "pure_level": 0.35,
+      "_decayed": true
+    },
+    "Chuong_4_Tiet_2": {
+      "level": 0.2,
+      "attempts": 1,
+      "last_score": 10,
+      "last_updated": 1774973903.1854918,
+      "pure_level": 0.38,
+      "_decayed": true
+    },
+    "Chuong_3_Tiet_1": {
+      "level": 0.35,
+      "attempts": 1,
+      "last_score": 10,
+      "last_updated": 1776004212.7043376,
+      "pure_level": 0.35
+    }
+  },
+  "current_focus": "Chuong_3_Tiet_1"
+}

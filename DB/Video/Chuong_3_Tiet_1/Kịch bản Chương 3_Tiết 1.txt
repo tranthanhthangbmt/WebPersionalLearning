@@ -1,0 +1,76 @@
+﻿Slide 1: TRANG BÌA & GIỚI THIỆU
+Người 1: Chào các em sinh viên lớp Quản trị kinh doanh BA24M. Hôm nay, chúng ta sẽ bước sang Chương III của môn học: Marketing Điện Tử (E-Marketing). Trong Tiết 1 này, thầy trò chúng ta sẽ cùng mổ xẻ "Bản chất của Marketing Điện tử & Tư duy Marketing Số". Thông điệp mở đầu thầy muốn gửi đến các em hôm nay là: "Internet không chỉ là một kênh bán hàng, nó là một môi trường thay đổi hoàn toàn cách chúng ta thấu hiểu và giao tiếp với khách hàng".
+Người 2: Dạ chào thầy ạ. Thưa thầy, câu nói mở đầu nghe rất vĩ mô. Việc "thay đổi cách giao tiếp" ở đây cụ thể là như thế nào ạ? Trước đây người ta vẫn gọi điện thoại chăm sóc khách hàng mà thầy?
+Người 1: Một câu hỏi rất hay. Thầy lấy ví dụ thế này: Ngày xưa, cách giao tiếp của doanh nghiệp giống như việc dùng loa phát thanh phường, doanh nghiệp cứ nói, ai nghe được thì nghe. Còn bây giờ, nhờ Internet, em đang lướt TikTok xem video về cắm trại, lập tức có một nhãn hàng "gõ cửa" màn hình của em mời mua lều cắm trại. Đó chính là sự thấu hiểu và thay đổi cách giao tiếp. Chúng ta sẽ làm rõ điều này ngay sau đây.
+ 
+Slide 2: MỤC TIÊU BÀI HỌC
+Người 1: Để đi sâu vào bản chất, tiết học hôm nay có 4 mục tiêu chính. Thứ nhất, hiểu các khái niệm cơ bản về Marketing điện tử. Thứ hai, nhận diện sự dịch chuyển từ chiến lược "Đẩy" (Push) sang "Kéo" (Pull). Thứ ba, nắm bắt một khái niệm cực kỳ hay là ZMOT và sự Cá nhân hóa. Cuối cùng là thực hành giải quyết tình huống.
+Người 2: Dạ thưa thầy, khái niệm ZMOT nghe lạ quá ạ. Chữ "Z" này có phải là đại diện cho thế hệ Gen Z tụi em không thầy?
+Người 1: Rất nhiều người nhầm lẫn như em! ZMOT không liên quan đến Gen Z, nó là viết tắt của "Zero Moment of Truth" - Khoảnh khắc sự thật bằng không. Ví dụ: Trước khi em bước ra cửa hàng mua ly trà sữa (đó là khoảnh khắc chạm trán đầu tiên), em đã lên mạng đọc review xem quán đó có ngon không. Hành động "đọc review trên mạng" đó chính là ZMOT. Lát nữa chúng ta sẽ phân tích kỹ hơn nhé.
+ 
+Slide 3: KHỞI ĐỘNG - TRÒ CHƠI "HÀNH TRÌNH CHẠM ĐẾN GIỎ HÀNG"
+Người 1: Bây giờ thầy có một câu hỏi khảo sát nhanh cho cả lớp. Lần gần nhất các em mua một món đồ trên 500.000 VNĐ, ví dụ như một đôi giày Sneaker hay một chiếc điện thoại, các em đã làm những gì TRƯỚC KHI bấm nút "Đặt hàng"? Thầy có 2 lựa chọn: (A) Đang xem TV thấy quảng cáo hay quá nên đi mua luôn; (B) Lên Google search, xem review trên TikTok/Youtube, nhắn tin hỏi bạn bè rồi mới chốt mua.
+Người 2: Dạ chắc chắn là B rồi thầy ơi. Hôm bữa em định mua đôi giày Nike, em phải lên TikTok xem mấy anh reviewer "unbox" xem lên chân có đẹp không. Xong em lại lên Shopee đọc comment xem form giày có bị chật không, rồi mới dám thêm vào giỏ hàng và thanh toán ạ. Chứ quảng cáo trên TV em toàn bấm qua thôi.
+Người 1: Cảm ơn em, câu trả lời của em chính là minh chứng sống động nhất cho Marketing hiện đại. Khách hàng ngày nay không còn thụ động ngồi sofa chờ quảng cáo TV đập vào mắt nữa. Họ chủ động tìm kiếm thông tin và tự kiểm chứng mọi thứ. Nếu doanh nghiệp không xuất hiện trên TikTok, không có review tốt trên Shopee, thì quảng cáo TV có hay đến mấy cũng vô ích!
+ 
+Slide 4: ĐỊNH NGHĨA MARKETING ĐIỆN TỬ (DIGITAL/E-MARKETING)
+Người 1: Từ thói quen mua giày của em, chúng ta đi đến định nghĩa cốt lõi: Marketing điện tử là quá trình áp dụng các công nghệ và phương tiện kỹ thuật số (như Web, Mobile, Database) để đạt được các mục tiêu marketing. Bản chất của nó không chỉ là treo cái banner quảng cáo lên mạng, mà là việc thu hút, duy trì và phát triển mối quan hệ với khách hàng (e-CRM) thông qua việc thấu hiểu dữ liệu hành vi của họ.
+Người 2: Vậy nó khác gì so với việc phát tờ rơi ngoài ngã tư không ạ? Phát tờ rơi cũng là để thu hút khách hàng mà thầy?
+Người 1: Khác biệt hoàn toàn em nhé! Khi em phát tờ rơi, em đưa bừa cho 100 người đi xe máy, em không biết ai thực sự cần mua giày, và em cũng không biết họ cầm tờ rơi xong có vứt đi không. Nhưng với Marketing điện tử, khi em vừa tìm kiếm từ khóa "giày Nike" trên Google, ngay tối hôm đó Shopee gửi một thông báo (Push Notification) đích danh vào điện thoại em: "Nam ơi, đôi Nike bạn vừa xem đang giảm 20% nè". Đó chính là dùng công nghệ dữ liệu để cá nhân hóa và duy trì mối quan hệ!
+ 
+Slide 5: SỰ KHÁC BIỆT CỐT LÕI - TƯƠNG TÁC (INTERACTIVITY)
+Người 1: Khác biệt lớn nhất làm nên sức mạnh của Marketing Số gói gọn trong hai chữ: TƯƠNG TÁC. Marketing truyền thống là sự "Độc thoại" (Monologue) - Doanh nghiệp nói, khách hàng đành phải nghe. Nhưng Marketing Số là sự "Đối thoại" (Dialogue) - Giao tiếp hai chiều. Khách hàng có quyền khen, chê, bình luận, và chia sẻ.
+Người 2: Ý thầy là, nếu mình xem quảng cáo trên TV mà thấy ghét thì mình cũng không cãi lại cái TV được. Còn trên Fanpage Facebook thì mình vào thả phẫn nộ và comment chê được đúng không ạ?
+Người 1: Khá khen cho ví dụ rất thực tế của em! Đúng vậy. Khách hàng hiện nay có quyền lực rất lớn. Thầy lấy ví dụ thực tiễn về ứng dụng Baemin hay hãng bao cao su Durex. Khi khách hàng comment trêu đùa trên Fanpage của họ, các admin (người trực page) lập tức reply lại bằng những câu thơ, câu đùa vô cùng hài hước và duyên dáng. Sự "đối thoại" trực tiếp và hóm hỉnh này khiến khách hàng cực kỳ yêu thích thương hiệu, họ tự động chụp màn hình và chia sẻ miễn phí cho hàng ngàn người khác xem. Đó là sức mạnh của tính Tương tác!
+ 
+Slide 6: DỊCH CHUYỂN CHIẾN LƯỢC 1: TỪ PUSH SANG PULL
+Người 1: Từ tính "Tương tác" ở phần trước, Marketing Số đòi hỏi một sự dịch chuyển chiến lược đầu tiên: Từ "Đẩy" (Push) sang "Kéo" (Pull). Push Media là cách làm cũ: doanh nghiệp sản xuất một TVC quảng cáo rồi "đẩy" nó lên truyền hình, ép khán giả phải xem. Còn Pull Media, hay Inbound Marketing, là làm cho khách hàng tự "kéo" thông tin về phía họ khi họ phát sinh nhu cầu.
+Người 2: Dạ, vậy có phải "Kéo" nghĩa là mình xây dựng một trang web hoặc Fanpage thật xịn rồi ngồi đợi khách hàng tự tìm đến không thầy?
+Người 1: Chưa đủ em nhé! Em xây nhà đẹp nhưng phải nằm ở "mặt tiền". Trong Marketing số, "mặt tiền" chính là Google và Mạng xã hội. Khi em bị mụn và lên Google gõ "Cách trị mụn tuổi dậy thì", thương hiệu mỹ phẩm nào có bài viết hướng dẫn hữu ích nằm ở Top 1 Google, thương hiệu đó đang "Kéo" em về phía họ. Bài học ở đây là: Marketer phải đảm bảo thương hiệu luôn hiện diện (Visibility) đúng lúc khách hàng tìm kiếm!
+ 
+Slide 7: GIẢI MÃ ZMOT - KHOẢNH KHẮC SỰ THẬT BẰNG KHÔNG
+Người 1: Sự chủ động tìm kiếm của khách hàng dẫn chúng ta đến một khái niệm định hình lại toàn bộ ngành Marketing do Google đề xuất: ZMOT (Zero Moment of Truth). Hành vi tiêu dùng truyền thống gồm 3 bước: Kích thích (Thấy quảng cáo) FMOT (Ra siêu thị nhìn thấy món hàng trên kệ) SMOT (Mua về xài thử). Nhưng hiện nay, có một bước chèn vào giữa Kích thích và FMOT, đó chính là ZMOT.
+Người 2: À em hiểu rồi! Áp dụng vào thực tế của em: Em lướt Facebook thấy quảng cáo iPhone 15 (Kích thích) Em lập tức lên Youtube xem kênh Schannel review (Đây là ZMOT đúng không thầy?) Em ra Thế Giới Di Động cầm máy bấm thử rồi mua (FMOT) Về nhà xài thấy pin tụt nhanh quá nên bực mình (SMOT).
+Người 1: Một ví dụ không thể chuẩn xác hơn! Và em thấy đó, ZMOT chính là "chiến trường" khốc liệt nhất. Nếu ở bước ZMOT, em xem Review trên Youtube thấy chê iPhone 15 lỗi nhiệt độ, em sẽ DỪNG LẠI và không bao giờ bước ra cửa hàng (FMOT) nữa. Doanh nghiệp mất khách hàng ngay từ khi họ còn ngồi trên ghế sofa ở nhà!
+ 
+Slide 8: DỊCH CHUYỂN CHIẾN LƯỢC 2: TỪ ĐẠI TRÀ ĐẾN CÁ NHÂN HÓA
+Người 1: Sự dịch chuyển thứ hai là từ Marketing Đại trà (One-to-Many) sang Cá nhân hóa (One-to-One). Quảng cáo truyền hình là đại trà: Một thông điệp bỉm sữa phát cho cả nước xem, dù người xem là một ông lão 60 tuổi hay một cậu sinh viên 20 tuổi chưa có gia đình. Rất lãng phí! Nhưng Marketing số thì khác, nó cá nhân hóa dựa trên dữ liệu hành vi.
+Người 2: Có phải đây là lý do mà hôm qua em vừa tìm kiếm từ khóa "thức ăn cho mèo" trên Shopee, thì hôm nay lướt Facebook em chỉ toàn thấy quảng cáo hạt cho mèo, pate cho mèo không ạ? Cảm giác như họ đọc được suy nghĩ của em vậy.
+Người 1: Chính xác! Họ không đọc suy nghĩ, họ đọc "dấu chân kỹ thuật số" (cookies và lịch sử duyệt web) của em. Amazon là bậc thầy về điều này với thuật toán: "Những khách hàng mua sản phẩm này cũng mua...". Việc đưa đúng thông điệp, đến đúng người, vào đúng thời điểm giúp tỷ lệ chốt đơn tăng lên gấp nhiều lần so với quảng cáo mù quáng.
+ 
+Slide 9: DỊCH CHUYỂN CHIẾN LƯỢC 3: PERMISSION VS. INTERRUPTION
+Người 1: Điểm khác biệt thứ ba cực kỳ thú vị: Tiếp thị gián đoạn (Interruption) và Tiếp thị cho phép (Permission). Hãy tưởng tượng em đang nghe nhạc trên Youtube rất phiêu thì tự nhiên bị cắt ngang bởi câu: "Nhà tôi 3 đời nhận chữa xương khớp...". Cảm giác của em thế nào?
+Người 2: Dạ em sẽ bực mình và canh me đúng 5 giây để bấm "Bỏ qua quảng cáo" ngay lập tức ạ! Không ai thích bị làm phiền cả.
+Người 1: Đúng vậy, đó là sự gián đoạn. Chuyên gia Seth Godin đã đề xuất hướng đi mới: Tiếp thị cho phép (Permission Marketing). Thay vì làm phiền, hãy dụ dỗ khách hàng tự nguyện nhận tin. Ví dụ, một Pop-up hiện lên trên website: "Nhập email của bạn để nhận ngay mã giảm giá 50k cho đơn hàng đầu tiên". Khách hàng vui vẻ nhập email (Opt-in). Từ lúc đó, doanh nghiệp danh chính ngôn thuận gửi thông tin cho họ mà không bị coi là Spam.
+ 
+Slide 10: CHÂN DUNG "KHÁCH HÀNG XÃ HỘI" (SOCIAL CUSTOMER)
+Người 1: Để tổng kết phần này, chúng ta cần phác họa chân dung những người mà chúng ta đang bán hàng cho họ: Khách hàng Xã hội (Social Customer). Họ không còn tin vào những lời tự ca ngợi của thương hiệu trên TV nữa. Họ tin vào eWOM (Truyền miệng điện tử). Họ tự tạo ra nội dung (UGC - User Generated Content) như quay video đập hộp, viết bài review bóc phốt.
+Người 2: Nhắc đến đây em mới thấy, giờ em mua mỹ phẩm hay quần áo, em toàn lên TikTok xem mấy bạn KOC (Key Opinion Consumer) review thôi. Thấy các bạn ấy dùng thật, chê khen rõ ràng em mới dám mua.
+Người 1: Hoàn toàn chính xác. Khách hàng giờ đây nắm trong tay quyền lực rất lớn. Một bài "bóc phốt" của họ trong group 1 triệu thành viên có thể làm một nhà hàng lao đao chỉ sau 1 đêm. Vì vậy, bài học cho các nhà Quản trị Kinh doanh là: Hãy làm ăn chân thật, sản phẩm phải tốt, và hãy biến chính những "Khách hàng Xã hội" này thành những người đại sứ quảng bá miễn phí cho thương hiệu của mình!
+ 
+Slide 11: NỘI DUNG LÀ VUA (CONTENT MARKETING)
+Người 1: Để thực hiện được chiến lược "Kéo" (Inbound) và "Cho phép" (Permission) mà chúng ta vừa học, doanh nghiệp cần một "thỏi nam châm". Thỏi nam châm đó chính là Nội dung (Content). Ngành Marketing có câu kinh điển: "Content is King" - Nội dung là Vua. Đó là việc tạo ra các nội dung giải trí, giáo dục hoặc truyền cảm hứng để thu hút và giữ chân khách hàng, thay vì chỉ chăm chăm đăng bài kêu gọi mua hàng.
+Người 2: Thưa thầy, ví dụ như em lướt TikTok thấy mấy kênh của phòng khám nha khoa không đăng bảng giá nhổ răng, mà toàn diễn tiểu phẩm hài về việc đi khám răng, xem rất cuốn. Đó có phải là Content Marketing không ạ?
+Người 1: Chính xác! Đó là Content mang tính giải trí. Khách hàng xem tiểu phẩm thấy vui, họ sẽ nhớ tên nha khoa, có thiện cảm, và khi bị đau răng, nơi đầu tiên họ nghĩ đến là nha khoa đó. Việc cung cấp giá trị cho khán giả trước khi bán hàng chính là nghệ thuật của Content Marketing.
+ 
+Slide 12: ĐO LƯỜNG VÀ DỮ LIỆU - "VŨ KHÍ" CỦA MARKETING SỐ
+Người 1: Một "vũ khí" hạng nặng khác của Marketing điện tử chính là Khả năng đo lường. Mọi tương tác trên không gian mạng đều để lại "dấu chân số" (Digital footprint). Marketer có thể biết chính xác có bao nhiêu người xem quảng cáo, bao nhiêu người click vào (gọi là CTR), và bao nhiêu người thực sự chốt đơn (Conversion Rate).
+Người 2: Vậy nó tiện hơn quảng cáo tivi rất nhiều đúng không thầy? Quảng cáo trên tivi chiếu lên thì mình không biết ai đang xem, hay lúc đó họ đang đi lấy nước uống.
+Người 1: Rất đúng! Nhờ đo lường được chi tiết, chúng ta áp dụng được nguyên tắc "Cảm nhận và Phản hồi" (Sense and respond). Nghĩa là em theo dõi hành vi và điều chỉnh thông điệp ngay lập tức. Nếu em chạy một mẫu quảng cáo trên Facebook vào buổi sáng, đến trưa thấy không ai click vào, em có thể tắt ngay lập tức để khỏi tốn tiền và đổi hình ảnh khác. Điều này là không thể làm được với việc in một tấm biển quảng cáo ngoài trời!
+ 
+Slide 13: TÓM TẮT NỘI DUNG TIẾT 1 (KEY TAKEAWAYS)
+Người 1: Trước khi bước vào phần thực hành, thầy tóm tắt lại 3 thông điệp cốt lõi của Tiết 1 hôm nay. Thứ nhất, Marketing điện tử là việc dùng công nghệ để thấu hiểu và thỏa mãn nhu cầu khách hàng. Thứ hai, xu hướng chuyển dịch tất yếu là: Từ Push sang Pull, từ Interruption sang Permission, từ Đại trà sang Cá nhân hóa.
+Người 2: Và thứ ba là chú trọng vào bước ZMOT đúng không thầy?
+Người 1: Rất chuẩn! ZMOT chính là "chiến trường" quan trọng nhất để giành lấy tâm trí khách hàng trước khi họ quyết định rút ví. Ai chiếm lĩnh được mặt trận tìm kiếm và review online, người đó chiến thắng.
+ 
+Slide 14: BÀI TẬP THỰC HÀNH TẠI LỚP (TÌNH HUỐNG: STARTUP "GREEN BEAUTY")
+Người 1: Bây giờ, chúng ta sẽ áp dụng những tư duy vừa học vào một bài tập thực tế. Các nhóm hãy nhìn lên màn hình. Bối cảnh: "Green Beauty" là một startup mỹ phẩm thuần chay mới ra mắt. Ngân sách marketing rất hạn hẹp, chỉ 20 triệu VNĐ/tháng, không đủ tiền để chạy quảng cáo TV hay thuê KOL lớn.
+Người 1: Thử thách cho các nhóm thảo luận trong 10 phút:
+1. Làm thế nào để áp dụng chiến lược Pull (Kéo) thay vì Push để thu hút khách hàng?
+2. Thương hiệu nên can thiệp vào giai đoạn ZMOT của khách hàng bằng cách nào?
+ 
+Slide 15: LỜI GIẢI GỢI Ý & PHÂN TÍCH
+Người 2: Thưa thầy, nhóm em xin trả lời ạ. Về ý thứ nhất, thay vì tốn tiền chạy quảng cáo Push kêu gọi "Mua đi mua đi", nhóm em sẽ làm Content Marketing. Ví dụ như quay video TikTok hoặc viết Blog hướng dẫn "Cách phân biệt da nhạy cảm" hoặc "Thực đơn ăn uống giảm mụn". Khi khách hàng chủ động tìm kiếm những tips này (Pull), họ sẽ bị thu hút và tìm thấy sản phẩm của hãng.
+Người 1: Một chiến lược cực kỳ thông minh, hữu ích và tiết kiệm chi phí! Vậy còn ZMOT thì sao?
+Người 2: Ở bước ZMOT, vì khách hàng mua mỹ phẩm luôn tìm hiểu cực kỳ kỹ, nhóm em sẽ dùng ngân sách nhỏ để gửi tặng sản phẩm cho các Micro-Influencers (KOC) để họ review chân thực trên TikTok hay Facebook Group nhằm tạo truyền miệng (eWOM). Đồng thời, khuyến khích khách hàng cũ để lại đánh giá 5 sao trên Shopee/Website đổi lấy mã giảm giá. Đảm bảo khi khách hàng mới search Google tên sản phẩm, họ sẽ thấy toàn bài đánh giá tốt!
+Người 1: Tuyệt vời! Câu trả lời của nhóm em chính là đáp án chuẩn xác nhất cho bài tập này. Các em đã biết cách dùng Content để "Kéo" khách hàng và dùng Review để thắng tại "Khoảnh khắc sự thật bằng không". Bài học hôm nay của chúng ta kết thúc tại đây, các em nhớ lưu lại các kiến thức này nhé!

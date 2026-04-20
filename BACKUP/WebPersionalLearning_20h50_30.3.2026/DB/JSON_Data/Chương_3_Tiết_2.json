@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_3_Tiet_2",
+    "concept_name": "Chương_3_Tiết_2",
+    "file_source": "Chương_3_Tiết_2.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_3_Tiet_2_0",
+      "type": "multiple_choice",
+      "content": "Thông điệp cốt lõi được nhấn mạnh về sự trung thành của khách hàng trên Internet trong Tiết học là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khách mua online có xu hướng trung thành với một nhãn"
+        },
+        {
+          "key": "B",
+          "text": "Sự trung thành trên hệ thống mạng rất khó để đứt gãy"
+        },
+        {
+          "key": "C",
+          "text": "Đối thủ chỉ cách một cú click lòng trung thành rất mỏng"
+        },
+        {
+          "key": "D",
+          "text": "Khách chỉ nán lại nếu bạn gọi điện tư vấn thêm kỹ"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. Trên không gian trực tuyến, rào cản chuyển đổi thương hiệu cực kỳ thấp; khách hàng dễ dàng rời bỏ một website để sang thẳng web đối thủ chốt đơn chỉ bằng một cú nhấp chuột ngắn ngủi.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_1",
+      "type": "multiple_choice",
+      "content": "Quyết định mua hàng của khách trực tuyến KHÔNG CHỈ phụ thuộc vào bản thân sản phẩm mà còn vào:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phương thức thanh toán truyền thống và giá bán"
+        },
+        {
+          "key": "B",
+          "text": "Đặc điểm môi trường người bán và hệ thống mạng"
+        },
+        {
+          "key": "C",
+          "text": "Khoảng cách địa lý từ kho hàng đến nơi giao tận"
+        },
+        {
+          "key": "D",
+          "text": "Thái độ tích cực khi xem hàng ở cửa hàng thật"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Mô hình Hành vi Người tiêu dùng trực tuyến chỉ ra sự chồng chéo của 5 nhóm yếu tố: Sản phẩm, Đặc điểm khách hàng, Môi trường xã hội, Độ uy tín Của người bán, và Sự mượt mà của Hệ thống TMĐT.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_2",
+      "type": "multiple_choice",
+      "content": "Phương án nào thể hiện đúng yếu tố Môi trường trong Mô hình Hành vi Người tiêu dùng trực tuyến?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tính năng vượt trội và hình dáng bền đẹp của thiết bị"
+        },
+        {
+          "key": "B",
+          "text": "Sự bàn tán sôi nổi trong hội nhóm về chất lượng của nó"
+        },
+        {
+          "key": "C",
+          "text": "Tốc độ truy cập nhanh của giao diện trang web mua hàng"
+        },
+        {
+          "key": "D",
+          "text": "Cơ chế bảo vệ mã khóa an toàn cho thẻ tín dụng quốc tế"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Yếu tố Môi trường (Environmental Factors) liên quan đến các tác động ngoại cảnh từ cộng đồng mạng, review của bạn bè hoặc những dòng trạng thái thảo luận sôi nổi trên MXH khiến người mua bị lung lay.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_3",
+      "type": "multiple_choice",
+      "content": "Trong 5 nhóm yếu tố tác động đến hành vi mua hàng Kinh nghiệm trong quá khứ thuộc yếu tố:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đặc điểm của sản phẩm"
+        },
+        {
+          "key": "B",
+          "text": "Hệ thống thanh toán mạng"
+        },
+        {
+          "key": "C",
+          "text": "Đặc điểm của người dùng"
+        },
+        {
+          "key": "D",
+          "text": "Nền tảng chăm sóc khách"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. Những trải nghiệm tốt (như hoàn tiền nhanh) hoặc tồi tệ (như bị lừa đảo) đã in sâu trong não bộ người dùng cấu thành nên \"kinh nghiệm\" — một trụ cột thuộc nhóm Đặc điểm người tiêu dùng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_4",
+      "type": "multiple_choice",
+      "content": "Việc khách hàng từng bị lừa khi mua hàng online bộc lộ sức mạnh của yếu tố nào trong hành vi?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ảnh hưởng lan tỏa từ mạng xã hội lên cảm xúc"
+        },
+        {
+          "key": "B",
+          "text": "Rào cản tâm lý cực lớn do trải nghiệm tồi tệ"
+        },
+        {
+          "key": "C",
+          "text": "Cơ chế xây dựng uy tín của các shop ảo lớn"
+        },
+        {
+          "key": "D",
+          "text": "Sự thiếu sót bảo mật thông tin trên đám mây"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Trải nghiệm tiêu cực bị lừa đồ giả trong quá khứ tạo ra một vòng lặp tâm lý e dè, khiến khách hàng cảnh giác hơn, ưu tiên lựa chọn kiểm hàng kỹ và ngần ngại thanh toán trước trong tương lai.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_5",
+      "type": "multiple_choice",
+      "content": "Khi khách hàng chọn mua một shop trên Shopee Mall dù giá cao hơn minh họa cho yếu tố gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá trị nội tại đặc trưng của sản phẩm"
+        },
+        {
+          "key": "B",
+          "text": "Thu nhập bình quân đầu người tiêu dùng"
+        },
+        {
+          "key": "C",
+          "text": "Đánh giá tiêu cực chung của môi trường"
+        },
+        {
+          "key": "D",
+          "text": "Độ uy tín lớn của người bán và sàn giao"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là D. Shopee Mall bảo chứng cho chất lượng và quy trình đổi trả minh bạch; khách hàng mua sự \"an tâm\" (Yếu tố Người bán) chứ không còn đơn thuần mua sản phẩm hay bị chi phối bởi giá cả nữa.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_6",
+      "type": "multiple_choice",
+      "content": "Nhóm yếu tố nào doanh nghiệp có thể kiểm soát 100% trong mô hình hành vi người tiêu dùng TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quá khứ mua sắm đầy rủi ro của khách"
+        },
+        {
+          "key": "B",
+          "text": "Lời hứa bảo lãnh của tệp bạn bè khách"
+        },
+        {
+          "key": "C",
+          "text": "Hệ thống Thương mại điện tử của doanh nghiệp"
+        },
+        {
+          "key": "D",
+          "text": "Biến động đột ngột của nguồn cung thị trường"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. Doanh nghiệp không thể kiểm soát review của mạng xã hội hay tính cách người mua, nhưng họ làm chủ hoàn toàn giao diện Website, tốc độ app và hệ thống thanh toán (Yếu tố năng lực EC Systems).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_7",
+      "type": "multiple_choice",
+      "content": "Nhóm Động viên (tìm kiếm) và Duy trì (bảo mật) thuộc yếu tố hành vi nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nhóm truyền thông quảng cáo"
+        },
+        {
+          "key": "B",
+          "text": "Nhóm dịch vụ khách hàng"
+        },
+        {
+          "key": "C",
+          "text": "Nhóm thiết kế sản phẩm"
+        },
+        {
+          "key": "D",
+          "text": "Nhóm hệ thống TMĐT"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là D. Trong cột EC Systems, \"nhóm động viên\" (thanh toán 1 chạm, tìm kiếm thông minh) thúc đẩy khách sớm chốt đơn; \"nhóm duy trì\" (mã hóa SSL, chống sập web) bảo vệ khách cảm thấy an toàn tuyệt đối.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_8",
+      "type": "multiple_choice",
+      "content": "Quá trình Ra quyết định (The Attitude-Behavior Process) diễn ra theo trình tự nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đánh giá -> Thái độ -> Quyết định -> So sánh"
+        },
+        {
+          "key": "B",
+          "text": "Nhận thức -> Thái độ -> Ý định -> Mua hàng"
+        },
+        {
+          "key": "C",
+          "text": "Ý định -> Khảo sát -> Quyết định -> Thanh toán"
+        },
+        {
+          "key": "D",
+          "text": "So sánh -> Xem xét -> Mua hàng -> Phân vân"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Bộ não khách hàng lọc dần thông tin như chiếc phễu: đầu tiên là chú ý có nhu cầu (Nhận thức), tạo ấn tượng thiện cảm (Thái độ), suy tính trong đầu (Ý định) và cuối cùng bấm mã chốt đơn (Mua).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_9",
+      "type": "multiple_choice",
+      "content": "Bước cuối cùng nhưng giá trị nhất của phễu mua hàng trực tuyến là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khảo sát dịch vụ sau mua"
+        },
+        {
+          "key": "B",
+          "text": "Tạo lập mức độ nhận diện"
+        },
+        {
+          "key": "C",
+          "text": "Lòng trung thành bền chặt"
+        },
+        {
+          "key": "D",
+          "text": "Tham khảo thêm đánh giá"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. Sau khi hành vi mua diễn ra, lòng trung thành (Loyalty) được đảm bảo bằng dịch vụ sau bán tốt sẽ giúp doanh nghiệp biến người mua thành dòng tiền lặp đi lặp lại không mất phí quảng cáo.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_10",
+      "type": "multiple_choice",
+      "content": "Thế hệ Khách hàng Xã hội (The Social Customer) có đặc điểm nổi bật nhất là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giữ kín thông tin mua sắm chờ mã giảm giá riêng"
+        },
+        {
+          "key": "B",
+          "text": "Rất tin vào mọi đoạn quảng cáo chạy trên báo đài"
+        },
+        {
+          "key": "C",
+          "text": "Thích bình luận review chia sẻ mạnh trên mạng xã hội"
+        },
+        {
+          "key": "D",
+          "text": "Ít khi lên mạng dò giá mà mua theo truyền thống cũ"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. \"Khách hàng xã hội\" không còn thu mình im lặng; họ đòi hỏi quyền lập ngôn, sẵn sàng tung hê món đồ trên Facebook hoặc bóc phốt không ngần ngại trên các phiên chợ review đông người.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_11",
+      "type": "multiple_choice",
+      "content": "Khách hàng Xã hội thường tin tưởng vào nguồn thông tin nào nhất?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nhận xét khách quan từ khách từng mua"
+        },
+        {
+          "key": "B",
+          "text": "Video quảng cáo trên đài truyền hình"
+        },
+        {
+          "key": "C",
+          "text": "Tờ rơi giới thiệu siêu thị và hội chợ"
+        },
+        {
+          "key": "D",
+          "text": "Bài báo viết theo kịch bản có trả tiền"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là A. Tâm lý kháng cự nội dung hãng tự pr khiến Khách hàng Xã hội nghiêng niềm tin chốt đơn 100% vào phần Rating/Comment từ \"người thật việc thật\" từng hứng chịu trải nghiệm dịch vụ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_12",
+      "type": "multiple_choice",
+      "content": "Sự xuất hiện của Khách hàng Xã hội đòi hỏi doanh nghiệp quản trị giao tiếp theo hình thức nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tránh né những bình luận khiếu nại"
+        },
+        {
+          "key": "B",
+          "text": "Tắt tính năng bình luận toàn hệ thống"
+        },
+        {
+          "key": "C",
+          "text": "Tương tác hai chiều phản hồi linh hoạt"
+        },
+        {
+          "key": "D",
+          "text": "Dùng nick ảo bóp méo thông tin diễn đàn"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. Kỷ nguyên của độc thoại TVC đã hết; doanh nghiệp buộc phải triển khai mô hình Social CRM, đối mặt thẳng thắn, phản hồi khôn khéo và tạo màn \"đối thoại\" win-win làm công cụ gỡ rối truyền thông.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_13",
+      "type": "multiple_choice",
+      "content": "Trong hệ thống TMĐT nguyên nhân phổ biến khiến khách thoát giỏ hàng là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá giao hàng bằng không nhưng chậm"
+        },
+        {
+          "key": "B",
+          "text": "Cảm giác chán nản do thiết kế xấu"
+        },
+        {
+          "key": "C",
+          "text": "Quá trình đăng ký thanh toán rườm rà"
+        },
+        {
+          "key": "D",
+          "text": "Số lượng ảnh áo quần quá ít ỏi"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là C. Một trong những lỗi tử huyệt của trải nghiệm UX/UI là bắt khách đang nôn nao mua sắm phải dừng lại tạo nick, xác minh mail hàng chục bước, khiến họ lập tức \"bỏ giỏ\" đi tìm web bán linh hoạt hơn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_3_Tiet_2_14",
+      "type": "multiple_choice",
+      "content": "Để khắc phục rơi rớt giỏ hàng do khâu thanh toán doanh nghiệp nên làm gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yêu cầu mở mã xác nhận bằng thẻ căn cước"
+        },
+        {
+          "key": "B",
+          "text": "Sắp xếp nút Mua ngay không cần dùng nick"
+        },
+        {
+          "key": "C",
+          "text": "Cho phép truy thu thông tin bù vào ban đêm"
+        },
+        {
+          "key": "D",
+          "text": "Phạt vi phạm đối với giỏ hàng treo quá lâu"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là B. Bổ sung tính năng \"Guest Checkout\" (Mua không cần đăng nhập) gỡ bỏ rào cản thao tác, đẩy tốc độ ra đơn xuống tính bằng giây cho những ai không muốn trao quá nhiều dữ liệu cá nhân cho hệ thống.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

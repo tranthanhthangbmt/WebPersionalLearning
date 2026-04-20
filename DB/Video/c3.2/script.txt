@@ -1,0 +1,65 @@
+﻿Slide 1: TRANG TIÊU ĐỀ
+Người 1: Chào các em. Ở tiết trước, chúng ta đã tìm hiểu về cách phát triển nội dung số. Hôm nay, chúng ta sẽ bước sang tiết thứ hai của Mô-đun 3, tập trung vào một kỹ năng cực kỳ quan trọng giúp tiết kiệm thời gian và nguồn lực: đó là Tích hợp và tạo lập lại nội dung số. Quy trình này gồm ba bước chính: Bước một, rà soát và đánh giá nội dung đã có. Bước hai, thiết kế khung nội dung mới. Và bước ba, biên tập và chuyển đổi nội dung.
+Người 2: Thưa thầy, tạo lập lại nội dung số có phải là mình lấy những bài viết, hình ảnh cũ đem đi xào nấu lại thành một bài mới để đăng lên các nền tảng khác nhau không ạ?
+
+Slide 2: MỤC TIÊU BÀI HỌC
+Người 1: Em dùng từ "xào nấu" khá thú vị và cũng rất thực tế đấy! Tuy nhiên, để làm được việc "xào nấu" đó một cách chuyên nghiệp và mang lại hiệu quả cao, bài học hôm nay đặt ra ba mục tiêu chính. Thứ nhất, các em phải biết cách thu thập, phân loại và đánh giá độ cập nhật cũng như độ phù hợp của nội dung số hiện có. Thứ hai, các em phải xây dựng được dàn ý hoặc sờ-to-ri-bót dựa trên nội dung cũ, xác định đúng vị trí chèn hoặc tóm tắt để tạo sản phẩm mới. Và thứ ba, chúng ta sẽ áp dụng các công cụ biên tập để chuẩn hóa, cắt ghép và chuyển đổi sang định dạng mới phù hợp với mục tiêu.
+Người 2: Dạ vâng. Nghe qua thì có vẻ như bước đầu tiên chính là đi gom nhặt lại tất cả những "nguyên liệu" mình đang có sẵn đúng không thầy?
+
+Slide 3: BƯỚC BA CHẤM HAI CHẤM MỘT. RÀ SOÁT VÀ ĐÁNH GIÁ. PHẦN MỘT: THU THẬP VÀ PHÂN LOẠI
+Người 1: Chính xác! Đó chính là nội dung của bước đầu tiên: Thu thập và Phân loại. Ở thao tác thu thập, các em phải tìm kiếm và tập hợp tất cả các nội dung từ website, mạng xã hội, kho đám mây, email cho đến các tài liệu nội bộ. Chúng ta gom tất cả các định dạng lại, từ bờ-lốc, vi-đi-ô, in-phô-gờ-ráp-phích cho đến tài liệu trình chiếu thao-ơ-poi. Sau khi gom lại, ta phải tiến hành phân loại chúng. Thường thì ta sẽ phân loại theo chủ đề để nhóm các nội dung cùng lĩnh vực, giúp dễ tạo thành một chuỗi bài. Hoặc ta phân loại theo định dạng như chữ viết, hình ảnh, vi-đi-ô để đánh giá tiềm năng chuyển đổi, hay thuật ngữ chuyên ngành gọi là ri-pơ-pớt.
+Người 2: Việc phân loại theo định dạng em thấy rất hay. Ví dụ mình có một bài viết bờ-lốc rất dài, mình có thể phân loại ra và chuyển nó thành một chuỗi vi-đi-ô ngắn hoặc một ảnh in-phô-gờ-ráp-phích cho sinh động hơn. Vậy thu thập và phân loại xong rồi mình làm gì tiếp theo ạ?
+
+Slide 4: BƯỚC BA CHẤM HAI CHẤM MỘT. ĐÁNH GIÁ NỘI DUNG. PHẦN HAI: ĐÁNH GIÁ MỨC ĐỘ SỬ DỤNG
+Người 1: Sau khi phân loại, ta bước sang thao tác đánh giá mức độ sử dụng của nội dung. Ở đây có hai thang đo cốt lõi. Một là Độ cập nhật, hay còn gọi là ph-rét-nít - chúng ta cần xem xét thông tin, số liệu có còn mới và chính xác với hiện tại không. Hai là Độ phù hợp, hay còn gọi là ri-lê-vân - xem nội dung có ăn khớp với mục tiêu và đối tượng mục tiêu mới hay không. Tổng hợp hai yếu tố này lại, ta sẽ đưa ra được Quyết định chiến lược, đó là: Giữ nguyên, Sửa chữa, hay Bỏ đi.
+Người 2: Em hiểu rồi ạ. Tức là không phải tài nguyên cũ nào mình cũng đem ra xài lại được. Nhưng thầy ơi, làm sao để mình đo lường và phân loại được cái "độ cập nhật" một cách rõ ràng nhất ạ?
+
+Slide 5: PHÂN LOẠI THEO ĐỘ CẬP NHẬT
+Người 1: Một câu hỏi rất sắc sảo! Độ cập nhật chính là tiêu chí quan trọng nhất. Dựa vào đó, ta chia nội dung thành ba nhóm chính. Nhóm đầu tiên là "Nội dung xanh" hay ét-vờ-gờ-rin con-ten. Đây là những nội dung có giá trị bền vững, không bị lỗi thời theo thời gian, ví dụ như các kiến thức cơ bản hoặc nguyên lý cốt lõi. Nhóm thứ hai là "Nội dung cần cập nhật", tức là nó chứa thông tin, số liệu hoặc xu hướng đã thay đổi, bắt buộc chúng ta phải bổ sung hoặc chỉnh sửa lại. Và nhóm cuối cùng là "Nội dung lỗi thời hoặc Không phù hợp", chứa các thông tin sai lệch, không còn giá trị sử dụng. Với nhóm này, quyết định dứt khoát là phải loại bỏ hoặc thay thế hoàn toàn.
+Người 2: Tuyệt vời quá thầy! Nhờ bộ lọc ba nhóm này, mình sẽ biết ngay tài liệu nào có thể dùng luôn, tài liệu nào phải sửa và cái nào nên đưa vào thùng rác để không làm mất thời gian của cả đội.
+
+Slide 6: BƯỚC BA CHẤM HAI CHẤM HAI. THIẾT KẾ KHUNG NỘI DUNG MỚI
+Người 1: Chuyển sang bước hai, sau khi đã có nguyên liệu, ta phải "Thiết kế khung nội dung mới" với mục tiêu xây dựng bản thiết kế rõ ràng để tối ưu hóa tái sử dụng nội dung cũ. Tùy vào định dạng mà ta chọn dùng Dàn ý, hay còn gọi là ao-lai cho văn bản, hoặc Sờ-to-ri-bót cho nội dung đa phương tiện như hình ảnh, phim ngắn, quảng cáo.
+Người 2: Dạ, cấu trúc lô-gích cơ bản của khung này thì mình xây dựng như thế nào cho chuẩn ạ?
+Người 1: Cấu trúc lô-gích cơ bản luôn đi theo một luồng là: Mở đầu, dẫn đến Nội dung chính, và cuối cùng là Kết luận hoặc lời kêu gọi hành động, tiếng Anh gọi là Côn-tu-ách-sần, viết tắt là CTA đó em.
+
+Slide 7: BƯỚC BA CHẤM HAI CHẤM HAI. KỸ THUẬT TÍCH HỢP NỘI DUNG CŨ
+Người 2: Khi có khung rồi thì mình đưa những "nguyên liệu" cũ vào bằng kỹ thuật nào thầy nhỉ?
+Người 1: Ta sẽ dùng bốn kỹ thuật tích hợp nội dung cũ. Đầu tiên là "Chèn" - đặt nguyên văn những đoạn, thông tin có giá trị cao vào khung mới. Thứ hai là "Rút trích" - chỉ lấy ra các thông tin cốt lõi, dữ liệu quan trọng nhất. Thứ ba là "Tóm tắt" - rút gọn các nội dung dài, ví dụ biến một bài báo dài thành một in-phô-gờ-ráp-phích ngắn gọn. Và cuối cùng là "Làm nổi bật" - nhấn mạnh các ý chính, câu trích dẫn hay, hoặc số liệu đắt giá để tăng sức hút.
+
+Slide 8: BƯỚC BA CHẤM HAI CHẤM BA. BIÊN TẬP VÀ CHUYỂN ĐỔI NỘI DUNG (CHUẨN HÓA VÀ CẬP NHẬT)
+Người 1: Bước cuối cùng là bước ba chấm hai chấm ba: Biên tập và chuyển đổi nội dung. Ở đây ta có hai thao tác đầu tiên là Chuẩn hóa và Cập nhật. Về chuẩn hóa, ta cần điều chỉnh ngôn ngữ và tông giọng cho rõ ràng, dễ hiểu, đồng bộ và phù hợp với đối tượng mới; đồng thời phải chuẩn hóa định dạng bằng cách đồng bộ phông chữ, màu sắc, bố cục, quy tắc căn lề cho nền tảng mới.
+Người 2: Còn Cập nhật chắc chắn là mình phải thay thế số liệu cũ bằng các thống kê mới nhất đúng không ạ?
+Người 1: Chính xác! Ngoài số liệu, em còn phải bổ sung thêm các ví dụ mới, cập nhật xu hướng hiện tại và thay đổi cả hình ảnh cho hợp bối cảnh nữa.
+
+Slide 9: BƯỚC BA CHẤM HAI CHẤM BA. BIÊN TẬP VÀ CHUYỂN ĐỔI NỘI DUNG (CẮT, GHÉP, CHUYỂN ĐỔI)
+Người 2: Thế lỡ nội dung cũ nó lê thê quá, hoặc mình muốn gộp nhiều bài lại thì sao thầy?
+Người 1: Đó là lúc ta dùng đến ba thao tác: Cắt, Ghép và Chuyển đổi. Thao tác "Cắt", tiếng Anh là tờ-rim hoặc cắt, giúp loại bỏ những phần thông tin không còn cần thiết, lặp lại hoặc đã lỗi thời. Thao tác "Ghép", hay cờm-bai hoặc mớt-giờ, dùng để kết hợp các phần nội dung khác nhau tạo ra một sản phẩm thống nhất. Cuối cùng là "Chuyển đổi", hay t-ran-xờ-form - tức là biến đổi hoàn toàn từ định dạng này sang định dạng khác nhưng giữ nguyên ý chính. Ví dụ như chuyển từ bờ-lốc thành chuỗi vi-đi-ô sờ-lai, hay từ sờ-lai thành một bài pót-cát.
+
+Slide 10: CÁC CÔNG CỤ HỖ TRỢ BIÊN TẬP
+Người 2: Wow, nghe như mình đang "điêu khắc" lại nội dung để đạt được mục tiêu ấy nhỉ! Vậy mình dùng công cụ gì để "điêu khắc" hiệu quả hả thầy?
+Người 1: Rất nhiều công cụ mạnh mẽ đang chờ các em. Với văn bản, ta có Gù-gờ Đốc, Mai-cờ-rô-xốp Uốt để hỗ trợ kiểm tra ngữ pháp, chính tả. Hình ảnh và in-phô-gờ-ráp-phích thì dùng Can-va, Phích-ma, A-đô-bi Ếch-pờ-rét hoặc Phô-tô-xốp. Làm vi-đi-ô trên điện thoại di động thì có Cáp-cắt, Kai-mát-tơ, còn trên máy tính thì dùng Pờ-ri-mia Pờ-rồ hay Đa-vin-xi Ri-dôn. Xử lý âm thanh thì dùng Au-đa-xi-ti hoặc A-đô-bi Au-đi-sần. Còn đối với tài liệu trình chiếu thì cứ Pao-ơ-poi và Gù-gờ Sờ-lai mà dùng nhé.
+
+Slide 11: VÍ DỤ MINH HOẠ: CHUYỂN ĐỔI ĐỊNH DẠNG (REPURPOSE)
+Người 1: Để các em dễ hình dung hơn, ta cùng xem xét một ví dụ minh họa về chuyển đổi định dạng, hay ri-pơ-pớt. Giả sử ta có một báo cáo dài hai mươi trang với chủ đề "Xu hướng sử dụng mạng xã hội của giới trẻ" chứa rất nhiều chữ viết và số liệu. Theo em, ta có thể biến đổi nó thành những định dạng nào?
+Người 2: Dạ thưa thầy, báo cáo hai mươi trang thì dài quá. Em sẽ trích xuất ra năm số liệu quan trọng nhất để thiết kế thành một ảnh in-phô-gờ-ráp-phích thật trực quan đăng lên Phây-sờ-búc hoặc Lin-đin. Hoặc em sẽ tóm tắt nội dung thành sờ-to-ri-bót để quay một chuỗi vi-đi-ô ngắn khoảng ba mươi giây đăng lên Riu và Tích-tốc, mỗi vi-đi-ô tập trung nói về một xu hướng thôi ạ.
+Người 1: Rất sáng tạo! Ngoài ra, nếu ta giữ nguyên phần cốt lõi thông tin nhưng chuẩn hóa lại văn phong sang dạng trò chuyện thảo luận, ta hoàn toàn có thể thu âm thành một bài pót-cát vô cùng hấp dẫn.
+
+Slide 12: TÓM TẮT: TÍCH HỢP VÀ TẠO LẬP LẠI NỘI DUNG SỐ
+Người 1: Như vậy, thầy xin tóm tắt lại toàn bộ quy trình ba bước tích hợp và tạo lập lại nội dung số mà chúng ta vừa học. Bước đầu tiên là Rà soát và Đánh giá, nhằm phân loại tài nguyên, đo lường "độ cập nhật" và "độ phù hợp" để đưa ra quyết định: Giữ, Sửa, hay Bỏ. Bước thứ hai là Thiết kế khung, nơi ta lên dàn ý cho văn bản hoặc sờ-to-ri-bót cho nội dung đa phương tiện, bằng cách sử dụng các kỹ thuật chèn, rút trích, tóm tắt và làm nổi bật.
+Người 2: Và bước cuối cùng là Biên tập và Chuyển đổi đúng không thầy? Giống như việc mình "khoác áo mới" cho nội dung bằng cách chuẩn hóa ngôn ngữ, định dạng, cập nhật số liệu và tiến hành cắt, ghép hoặc chuyển đổi để tối ưu hóa nguồn lực.
+
+Slide 13: HƯỚNG DẪN BÀI TẬP THỰC HÀNH
+Người 1: Hoàn toàn chính xác! Bây giờ, để ghi nhớ sâu hơn, chúng ta sẽ chuyển sang Bài tập thực hành. Mục đích là để các em vận dụng kỹ năng rà soát, đánh giá và đề xuất phương án chuyển đổi, hay ri-pơ-pớt, cho một nội dung số đã cũ. Các em sẽ làm việc cá nhân hoặc thảo luận theo nhóm nhỏ từ ba đến bốn sinh viên.
+Người 2: Yêu cầu cụ thể của bài tập là gì vậy thầy?
+Người 1: Các em hãy đọc kỹ tình huống ở sờ-lai tiếp theo, sau đó đóng vai trò là một con-ten cờ-ri-ây-tờ để làm mới tài nguyên, giúp tiết kiệm thời gian mà vẫn đạt được hiệu quả tiếp cận cao nhất.
+
+Slide 14: BÀI TẬP THỰC HÀNH (TIẾT 2)
+Người 2: Dạ, tình huống đưa ra là một bài đăng trên Fanpage Đoàn Trường từ năm hai không hai mươi mốt. Định dạng là văn bản siêu dài, lên tới khoảng hai ngàn chữ với tiêu đề: "Cảnh báo: Các hình thức lừa đảo trực tuyến khi sinh viên đi thuê trọ". Dù thông tin cốt lõi rất giá trị nhưng ph-o-mát đã cũ, hoàn toàn không thu hút được các bạn Gien Zét hiện nay.
+Người 1: Đúng vậy! Và yêu cầu đặt ra cho các em gồm ba phần: Thứ nhất, đánh giá xem nội dung này thuộc nhóm nội dung xanh, cần cập nhật hay đã lỗi thời, và cần cập nhật thêm thông tin gì cho năm hiện tại. Thứ hai, đề xuất thiết kế một định dạng nội dung mới phù hợp với thói quen của Gien Zét. Và thứ ba, chỉ rõ kỹ thuật biên tập nào như rút trích, tóm tắt, cắt hay ghép sẽ được sử dụng để chuyển đổi nội dung gốc.
+
+Slide 15: GỢI Ý LỜI GIẢI (BÀI TẬP TIẾT 2)
+Người 2: Bài này thực tế quá thầy ơi! Ở phần đánh giá, em thấy bài này thuộc nhóm "Nội dung cần cập nhật" vì cốt lõi thông tin là bền vững, chỉ có hình thức là thay đổi. Em sẽ bổ sung thêm các chiêu trò mới hiện nay như giả danh công an, quét mã Quy-rờ lừa đảo, hoặc dùng Ê-ai Đíp-phếch ạ.
+Người 1: Rất tuyệt vời, ý tưởng của em hoàn toàn trùng khớp với gợi ý lời giải! Vậy về phần đề xuất thiết kế khung và kỹ thuật biên tập thì sao?
+Người 2: Về định dạng đề xuất, em sẽ chọn làm chuỗi vi-đi-ô ngắn trên Tích-tốc hoặc Riu, đóng vai diễn các tình huống đờ-ra-ma tái hiện lại cảnh bị lừa đảo. Hoặc thiết kế một bài đăng dạng in-phô-gờ-ráp-phích, hay chuỗi ảnh ca-rô-seo với chủ đề ngắn gọn: "Ba dấu hiệu nhận biết chủ trọ lừa đảo" kết hợp màu sắc cảnh báo.
+Người 1: Rất sát với xu hướng! Ở bước kỹ thuật biên tập, ta sẽ dùng thao tác tóm tắt và rút trích, chỉ lấy ba đến năm gạch đầu dòng quan trọng nhất về cách kiểm tra hợp đồng, cắt bỏ hoàn toàn phần diễn giải lê thê. Đồng thời, trong phần chuẩn hóa, ta cũng phải đổi văn phong từ báo cáo trang trọng sang ngôn ngữ thân thiện, cảnh báo gần gũi với sinh viên. Các em làm rất tốt, tiết học của chúng ta hôm nay kết thúc ở đây!

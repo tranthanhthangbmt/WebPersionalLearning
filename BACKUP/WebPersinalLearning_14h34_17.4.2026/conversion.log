@@ -1,0 +1,141 @@
+📂 INPUT_FOLDER: I:\MY_CODE\WebPersionalLearning\DB\TMDT_Chuong1
+📂 OUTPUT_FOLDER: I:\MY_CODE\WebPersionalLearning\DB\JSON_Data
+🔍 Found 31 CSV files.
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 26: Expected 12 fields in line 26, saw 18
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+📄 Processing: Chuong_4_Tiet_1.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chuong_4_Tiet_1.csv
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 3: Expected 12 fields in line 3, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 5: Expected 12 fields in line 5, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 6: Expected 12 fields in line 6, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 10: Expected 12 fields in line 10, saw 18
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 11: Expected 12 fields in line 11, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 14: Expected 12 fields in line 14, saw 26
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 17: Expected 12 fields in line 17, saw 15
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+📄 Processing: Chuong_4_Tiet_2.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chuong_4_Tiet_2.csv
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 11: Expected 12 fields in line 11, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 14: Expected 12 fields in line 14, saw 19
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 21: Expected 12 fields in line 21, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 25: Expected 12 fields in line 25, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 26: Expected 12 fields in line 26, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 27: Expected 12 fields in line 27, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+I:\MY_CODE\WebPersionalLearning\convert_csv_to_json.py:51: ParserWarning: Skipping line 30: Expected 12 fields in line 30, saw 13
+
+  df = pd.read_csv(file_path, encoding='utf-8', engine='python', on_bad_lines='warn')
+📄 Processing: Chuong_4_Tiet_3.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chuong_4_Tiet_3.csv
+📄 Processing: Chuong_5_Tiet_1.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chuong_5_Tiet_1.csv
+📄 Processing: Chuong_5_Tiet_2.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chuong_5_Tiet_2.csv
+📄 Processing: Chuong_5_Tiet_3.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chuong_5_Tiet_3.csv
+📄 Processing: Chương_1_Tiết 10 Tổng quan về Sàn Giao dịch.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 10 Tổng quan về Sàn Giao dịch.csv
+📄 Processing: Chương_1_Tiết 11 Lợi ích và Phương thức giao dịch.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 11 Lợi ích và Phương thức giao dịch.csv
+📄 Processing: Chương_1_Tiết 12 Thực hành và Làm việc nhóm.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 12 Thực hành và Làm việc nhóm.csv
+📄 Processing: Chương_1_Tiết 1_Intro.csv
+📊 Columns found: ['question', 'a', 'b', 'c', 'd', 'answer', 'explain']
+✅ Converted: Chương_1_Tiết 1_Intro.csv
+📄 Processing: Chương_1_Tiết 1_Khái niệm và Tiếp cận.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 1_Khái niệm và Tiếp cận.csv
+📄 Processing: Chương_1_Tiết 2 Phân loại, Lợi ích và Hạn chế.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 2 Phân loại, Lợi ích và Hạn chế.csv
+📄 Processing: Chương_1_Tiết 3 Sự phát triển và Đánh giá.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 3 Sự phát triển và Đánh giá.csv
+📄 Processing: Chương_1_Tiết 4 Hạ tầng Pháp lý và Công nghệ.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 4 Hạ tầng Pháp lý và Công nghệ.csv
+📄 Processing: Chương_1_Tiết 5 Hạ tầng Thanh toán và An toàn thông tin.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 5 Hạ tầng Thanh toán và An toàn thông tin.csv
+📄 Processing: Chương_1_Tiết 6 Hạ tầng Nhân lực, Phân phối & Bài tập.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 6 Hạ tầng Nhân lực, Phân phối & Bài tập.csv
+📄 Processing: Chương_1_Tiết 7 Mô hình B2C và B2B.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 7 Mô hình B2C và B2B.csv
+📄 Processing: Chương_1_Tiết 8 Mô hình C2C và C2B.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 8 Mô hình C2C và C2B.csv
+📄 Processing: Chương_1_Tiết 9 Phân tích Mô hình & Đánh giá.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_1_Tiết 9 Phân tích Mô hình & Đánh giá.csv
+📄 Processing: Chương_2_Tiết_2.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_2_Tiết_2.csv
+📄 Processing: Chương_2_Tiết_3.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_2_Tiết_3.csv
+📄 Processing: Chương_2_Tiết_4.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_2_Tiết_4.csv
+📄 Processing: Chương_2_Tiết_5.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_2_Tiết_5.csv
+📄 Processing: Chương_2_Tiết_6.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_2_Tiết_6.csv
+📄 Processing: Chương_3_Tiết_1.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_3_Tiết_1.csv
+📄 Processing: Chương_3_Tiết_2.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_3_Tiết_2.csv
+📄 Processing: Chương_3_Tiết_3.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_3_Tiết_3.csv
+📄 Processing: Chương_3_Tiết_4.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_3_Tiết_4.csv
+📄 Processing: Chương_3_Tiết_5.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_3_Tiết_5.csv
+📄 Processing: Chương_3_Tiết_6.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aansver', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Chương_3_Tiết_6.csv
+📄 Processing: Tong_hop_toan_bo.csv
+📊 Columns found: ['id', 'coursecontentid', 'idcontent', 'questiontype', 'questioncontent', 'aanswer', 'banswer', 'canswer', 'danswer', 'answer', 'resultanswer', 'explanation']
+✅ Converted: Tong_hop_toan_bo.csv

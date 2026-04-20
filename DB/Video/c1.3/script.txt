@@ -1,0 +1,91 @@
+﻿Slide 1: TRANG TIÊU ĐỀ - HÀNH TRÌNH CỦA NGƯỜI ĐIỀU HƯỚNG SỐ
+Người 1: Chào các em. Chào mừng các em đến với Module Làm chủ dữ liệu số. Trong bài học hôm nay, thầy trò ta sẽ cùng nhau bước vào một chuyến đi mang tên: Hành trình của Người Điều hướng Số. Trọng tâm của bài học là trang bị những kỹ năng thiết yếu nhất để các em có thể đánh giá dữ liệu, thông tin và nội dung trong kỷ nguyên số này.
+Người 2: Thưa thầy, "người điều hướng" nghe giống như thuyền trưởng lái tàu trên biển vậy. Phải chăng thông tin trên mạng bây giờ cũng giống như một đại dương ạ?
+Người 1: Một sự so sánh rất chính xác! Trong đại dương thông tin mênh mông hiện nay, khả năng phân biệt được đâu là sự thật, đâu là giả dối không chỉ đơn thuần là một kỹ năng nữa, mà nó đã thực sự trở thành một "năng lực sinh tồn". Và giáo trình này chính là chiếc la bàn để giúp các em đi đúng hướng.
+
+Slide 2: HIỂU RÕ BỐI CẢNH: ĐẠI DƯƠNG THÔNG TIN HỖN LOẠN
+Người 1: Trước khi nhổ neo, ta cần hiểu rõ bối cảnh thực tại. Chúng ta đang đứng trước sự bùng nổ của thông tin số. Sự phát triển của Internet, trí tuệ nhân tạo AI và các mạng xã hội đã khuếch đại thông tin sai lệch, khiến chúng lan truyền với tốc độ chóng mặt như một trận cháy rừng kỹ thuật số vậy.
+Người 2: Việc lan truyền tin giả trên mạng ngoài việc gây cãi vã thì có để lại hậu quả gì quá nghiêm trọng không thầy?
+Người 1: Vô cùng nghiêm trọng là đằng khác! Thông tin sai lệch đe dọa trực tiếp đến sức khỏe cộng đồng, cản trở nỗ lực chống biến đổi khí hậu và làm bất ổn nền dân chủ. Thậm chí, công nghệ làm giả video, hay còn gọi là Deepfake, đang làm suy yếu trầm trọng niềm tin của con người vào truyền thông. Do đó, khả năng đánh giá, kiểm tra thông tin số đã trở thành yêu cầu bắt buộc đối với mọi công dân.
+
+Slide 3: NHẬN DIỆN CÁC DÒNG CHẢY NGUY HIỂM
+Người 1: Để lái tàu an toàn, các em phải nhận diện được 4 "dòng chảy nguy hiểm" phổ biến. Thứ nhất là Thông tin sai lệch. Đây là những thông tin không chính xác nhưng bị chia sẻ một cách vô ý, không có mục đích xấu. Ví dụ như việc ai đó chia sẻ bài thuốc "nước dừa diệt tế bào ung thư" chỉ vì tin lầm chứ chưa hề kiểm chứng khoa học.
+Người 2: Thế còn những người cố tình tung tin đồn thất thiệt để câu view hay lừa đảo thì sao ạ?
+Người 1: Đó chính là loại thứ hai: Thông tin xuyên tạc. Chúng được lan truyền một cách cố ý để lừa dối, gây hại, ví dụ như giả mạo văn bản của Bộ Giáo dục để phao tin bỏ thi tốt nghiệp. Dòng chảy thứ ba là Tin giả, hay Fake News, chuyên dùng tiêu đề giật gân, trò lừa bịp giả dạng tin chính thống. Và cuối cùng là Thông tin thiên vị, trình bày thiếu khách quan, chỉ chọn lọc những dữ kiện có lợi để định hướng cảm xúc người đọc.
+
+Slide 4: CẠM BẪY TÂM LÝ: KHI CHÍNH BẠN LÀ NGƯỜI LÁI TÀU CHỆCH HƯỚNG
+Người 2: Thầy ơi, nhiều khi em thấy trên mạng có những tin tức rõ ràng là vô lý, nhưng vẫn có rất nhiều người tin sái cổ và bảo vệ nó đến cùng. Vì sao lại có hiện tượng kỳ lạ như vậy ạ?
+Người 1: Câu hỏi rất hay! Đó là do họ đã sập "Cạm bẫy tâm lý", cụ thể là Thiên vị xác nhận. Đây là xu hướng con người chỉ tìm kiếm, tin tưởng và ghi nhớ những thông tin phù hợp với định kiến mà họ đã có sẵn. Nó tạo ra một vòng lặp nguy hiểm gồm 4 bước: Đầu tiên là có niềm tin sẵn có; thứ hai là đi tìm kiếm sự xác nhận; thứ ba là bỏ qua mọi thông tin trái chiều; và cuối cùng là tự nhốt mình trong "bong bóng thông tin" để củng cố định kiến đó.
+Người 2: Vậy để thoát khỏi vòng lặp này, mình phải luôn tự nhắc nhở bản thân và dùng tư duy phản biện đúng không thầy?
+Người 1: Chính xác! Nhận thức được điểm yếu tâm lý của chính mình là bước đầu tiên để không trở thành người lái tàu chệch hướng.
+
+Slide 5: LA BÀN ĐIỀU HƯỚNG: MÔ HÌNH ĐÁNH GIÁ CRAAP
+Người 1: Và để hỗ trợ tư duy phản biện đó, thầy sẽ trang bị cho các em một chiếc la bàn. Đó là mô hình đánh giá cờ-ráp, viết tắt là C, R, A, A, P. Mô hình này đưa ra 5 tiêu chí để đánh giá một nguồn tin. Đầu tiên là C, tính thời điểm: thông tin có còn được cập nhật hay đã cũ? Thứ hai là R, sự liên quan: thông tin có đúng với nhu cầu tìm kiếm của em không?
+Người 2: Dạ, vậy hai chữ A và chữ P còn lại tượng trưng cho điều gì ạ?
+Người 1: Chữ A thứ nhất là Thẩm quyền của nguồn tin: tác giả là ai, có chuyên môn về lĩnh vực đó không. Chữ A thứ hai là Độ chính xác: thông tin đưa ra có bằng chứng rõ ràng và kiểm chứng được không. Cuối cùng, P là Mục đích: thông tin này được viết ra để thông báo, để bán hàng, hay để dụ dỗ người đọc?
+Người 2: À, em hiểu rồi! Áp dụng mô hình này, ta sẽ thấy ngay bài viết về bệnh tim mạch từ một bệnh viện lớn sẽ uy tín hơn hẳn một trang web bán thuốc giảm cân chuyên đi phóng đại rủi ro để bán hàng!
+Người 1: Rất thông minh! Thầy tin là các em đã bắt đầu biết cách dùng chiếc la bàn này rồi. Ở tiết học sau, chúng ta sẽ tìm hiểu thêm các bộ hải đồ chuyên dụng khác và những công cụ mạnh mẽ hơn nữa để làm chủ dữ liệu nhé.
+
+Slide 6: CÁC BỘ HẢI ĐỒ CHUYÊN DỤNG KHÁC
+Người 1: Chào mừng các em quay trở lại. Ở tiết trước, chúng ta đã làm quen với la bàn CRAAP. Tuy nhiên, tuỳ vào từng vùng biển và đối tượng mà ta cần sử dụng các bộ hải đồ chuyên dụng khác nhau để đạt hiệu quả cao nhất.
+Người 2: Dạ, vậy có những mô hình nào khác được tối ưu cho từng bối cảnh cụ thể thưa thầy?
+Người 1: Đầu tiên là mô hình RADCAB, được tối ưu cho học sinh trung học để đánh giá các trang web, mô hình này bổ sung thêm yếu tố về sự phù hợp độ tuổi và độ chi tiết. Thứ hai là mô hình IMVAIN, dành riêng cho báo chí và truyền thông đại chúng, nhấn mạnh vào việc xác minh nguồn tin phải độc lập, đa nguồn, có thể xác thực và tác giả phải có danh tính rõ ràng.
+Người 2: Thế đối với các nội dung trên mạng xã hội như TikTok hay YouTube thì sao ạ?
+Người 1: Chúng ta có mô hình DRAMA. Đây là phiên bản đơn giản hóa của CRAAP, trong đó yếu tố Mục đích được thay bằng Động cơ. Tóm lại, việc lựa chọn mô hình đánh giá sẽ phụ thuộc hoàn toàn vào loại thông tin và mục đích sử dụng của các em.
+
+Slide 7: KỸ THUẬT SIFT: BỐN BƯỚC KIỂM TRA NHANH GIỮA DÒNG CHẢY
+Người 1: Giữa dòng chảy thông tin cuồn cuộn, đôi khi ta cần kiểm tra thật nhanh xem một tin tức có đáng tin hay không. Đó là lúc ta dùng đến kỹ thuật SIFT. Đây là chiến lược giúp xác định độ tin cậy bằng cách "đọc ngang", tức là tìm hiểu từ các nguồn bên ngoài thay vì chỉ cắm cúi đọc nội dung trên trang gốc.
+Người 2: Bốn bước đó tương ứng với 4 chữ cái S, I, F, T phải không thầy?
+Người 1: Chính xác! S là Stop - Dừng lại, hãy nhận thức cảm xúc của mình và đừng vội chia sẻ. I là Investigate - Điều tra nguồn tin, xem tác giả hoặc tổ chức cung cấp thông tin là ai. F là Find - Tìm kiếm thông tin tốt hơn từ các trang tin đáng tin cậy khác. Và T là Trace - Truy vết về ngữ cảnh gốc của hình ảnh hay tuyên bố đó.
+Người 2: Em hiểu rồi. Ví dụ em thấy một video TikTok bảo "Không cần học Toán, AI sẽ làm hết mọi thứ", em sẽ phải dừng lại, điều tra kênh đăng tải, tìm xem các nguồn uy tín có nói vậy không, và truy vết xem tuyên bố đó bắt nguồn từ đâu để không bị lừa.
+
+Slide 8: NỀN TẢNG VỮNG CHẮC: PHÂN TÍCH DỮ LIỆU ĐỂ ĐÁNH GIÁ THÔNG TIN
+Người 1: Rất tốt! Ngoài việc kiểm chứng tin tức, một người điều hướng giỏi còn phải biết phân tích dữ liệu. Phân tích dữ liệu là quá trình kiểm tra, làm sạch và mô hình hóa dữ liệu để tìm ra thông tin hữu ích, hỗ trợ ra quyết định. Trong kỷ nguyên số, đây là công cụ chiến lược không thể thiếu.
+Người 2: Việc phân tích này được chia thành các cấp độ như thế nào ạ?
+Người 1: Nó được hình dung như những bậc thang gồm 4 cấp độ. Đầu tiên là Phân tích mô tả, giúp ta tóm tắt dữ liệu lịch sử để biết điều gì ĐÃ xảy ra. Bước lên bậc thứ hai là Phân tích chẩn đoán, đi tìm nguyên nhân để hiểu TẠI SAO điều đó lại xảy ra.
+Người 2: Vậy những bậc thang cao hơn chắc chắn là dự báo tương lai đúng không thầy?
+Người 1: Chuẩn! Cấp độ ba là Phân tích dự đoán, giúp ta dự báo xem điều gì CÓ THỂ xảy ra. Và bậc cao nhất là Phân tích đề xuất, đưa ra những khuyến nghị chiến lược xem ta cần LÀM GÌ để đạt được mục tiêu.
+
+Slide 9: "LÀM SẠCH" HẢI ĐỒ: CÁC BƯỚC THIẾT YẾU ĐỂ ĐẢM BẢO CHẤT LƯỢNG DỮ LIỆU
+Người 2: Nhưng thưa thầy, lỡ như dữ liệu thô ban đầu của mình bị sai hoặc bị thiếu thì kết quả phân tích có còn đáng tin không ạ?
+Người 1: Một câu hỏi vô cùng sắc sảo! Chất lượng dữ liệu có mối liên hệ trực tiếp với độ chính xác của phân tích, dữ liệu thô chứa lỗi chắc chắn sẽ dẫn đến kết quả sai lệch. Vì vậy, ta bắt buộc phải thực hiện 6 bước thiết yếu để "làm sạch" dữ liệu.
+Người 2: Thầy có thể liệt kê 6 bước làm sạch đó không ạ?
+Người 1: Bước 1 là xử lý dữ liệu bị thiếu bằng cách loại bỏ hoặc điền giá trị trung bình, trung vị. Bước 2 là loại bỏ dữ liệu trùng lặp để giảm sự dư thừa. Bước 3 là chuẩn hóa định dạng, ví dụ như đưa định dạng ngày tháng về một chuẩn chung duy nhất. Bước 4 là xác định và loại bỏ các giá trị ngoại lai, tức là các dữ liệu bất thường làm méo mó kết quả. Bước 5 là mã hóa lại dữ liệu cho phù hợp với thuật toán máy tính. Và cuối cùng là kiểm tra logic và sự nhất quán để đảm bảo dữ liệu tuân theo đúng quy tắc.
+
+Slide 10: XƯỞNG CÔNG CỤ CỦA NGƯỜI ĐIỀU HƯỚNG HIỆN ĐẠI
+Người 1: Để làm được tất cả những điều phức tạp trên, ta không thể làm thủ công bằng tay được. Slide 10 sẽ mở ra "Xưởng công cụ" của người điều hướng hiện đại.
+Người 2: Chắc hẳn là có rất nhiều phần mềm số chuyên dụng phải không thầy?
+Người 1: Chắc chắn rồi. Để làm sạch dữ liệu, ta có các công cụ phổ biến như Microsoft Excel, thư viện Pandas của Python, hoặc các công cụ chuyên dụng như OpenRefine và Talend. Để đánh giá độ thiên vị của nguồn tin, ta dùng NewsGuard hoặc Media Bias/Fact Check. Còn muốn phân tích mức độ lan truyền thông tin và nhận diện tài khoản ảo, ta sử dụng Hoaxy và Botometer.
+Người 2: Thế còn những công cụ để lật tẩy tin giả và xác minh hình ảnh thì sao ạ?
+Người 1: Chúng ta có các trang xác minh tin tức quốc tế như Snopes, PolitiFact hay bộ công cụ Google Fact Check Explorer. Đối với hình ảnh và video, ta sẽ dùng chức năng Google Reverse Image Search, TinEye hay công cụ InVID. Cuối cùng, để tìm kiếm thông tin chuyên sâu, đừng quên tận dụng các toán tử tìm kiếm nâng cao của Google như gõ "site hai chấm" hay "filetype hai chấm" nhé.
+
+Slide 11: TRÍ TUỆ NHÂN TẠO (AI): CON DAO HAI LƯỠI
+Người 1: Chúng ta đã đi qua các công cụ kiểm chứng truyền thống, giờ là lúc nhắc đến một thế lực mới: Trí tuệ nhân tạo, hay còn gọi là AI. Ở slide mười một này, thầy muốn nhấn mạnh AI chính là một "con dao hai lưỡi" trong thế giới thông tin số.
+Người 2: Có phải lưỡi dao nguy hiểm là việc người ta dùng AI tạo sinh để làm ra hình ảnh giả mạo hay giọng nói giả để lừa đảo không thầy? Em nghe nói đó gọi là công nghệ đíp-phếch (Deepfake).
+Người 1: Rất chính xác! AI có thể làm ra những video, hình ảnh và văn bản giả mạo tinh vi đến mức mắt thường khó mà phân biệt được. Nhưng ở chiều ngược lại, AI cũng chính là "khắc tinh" của tin giả. Nhờ tốc độ xử lý khủng khiếp, AI giúp chúng ta tự động hóa quy trình phát hiện thông tin sai lệch trên quy mô lớn.
+Người 2: Vậy AI dùng những công nghệ nền tảng nào để bắt được tin giả ạ?
+Người 1: Có ba công nghệ cốt lõi. Thứ nhất là Xử lý ngôn ngữ tự nhiên, giúp máy tính đọc hiểu văn bản và phân loại tin thật hay giả. Thứ hai là Thị giác máy tính, dùng để soi từng điểm ảnh, từng khung hình video nhằm tìm ra dấu vết cắt ghép. Và cuối cùng là Học máy, giúp AI tự động nhận diện các quy luật phức tạp của tin giả mà con người dễ bỏ sót.
+
+Slide 12: VẬN DỤNG AI: CÂN BẰNG GIỮA HIỆU QUẢ VÀ RỦI RO
+Người 1: Dù AI rất mạnh, nhưng khi sử dụng ta phải biết cân bằng giữa hiệu quả và rủi ro. Ưu điểm lớn nhất của AI là tốc độ và quy mô. Nó có thể phân tích hàng triệu nguồn tin chỉ trong vài giây, nhận diện được các mẫu hành vi ẩn tinh vi và giúp ta ra quyết định dựa trên dữ liệu.
+Người 2: Tốc độ xử lý nhanh như vậy thì AI có bao giờ bị sai, hay bị thiên vị không thầy?
+Người 1: Em hỏi rất đúng trọng tâm! Nhược điểm của AI chính là đòi hỏi dữ liệu huấn luyện phải có chất lượng rất cao, nếu không nó sẽ tiềm ẩn rủi ro bị thiên vị. Hơn nữa, AI đôi khi gặp phải hiện tượng "ảo giác", tức là nó tự bịa ra thông tin sai nhưng lại trình bày với giọng điệu nghe vô cùng hợp lý.
+Người 2: À, em hiểu rồi. Chưa kể máy móc chắc cũng không thể nào hiểu được những câu nói châm biếm hay mỉa mai của con người trên mạng đâu nhỉ.
+Người 1: Chắc chắn rồi! AI rất kém trong việc hiểu các sắc thái ngữ cảnh sâu sắc. Vì thế, kết luận ở đây là: AI chỉ là công cụ để mở rộng năng lực của chúng ta, chứ không thể thay thế con người. Sự kết hợp giữa khả năng xử lý của AI và tư duy phản biện của chính các em mới là chìa khóa thành công.
+
+Slide 13: THỰC HÀNH ĐIỀU HƯỚNG: VẬN DỤNG CÔNG CỤ ĐỂ KIỂM CHỨNG
+Người 1: Bây giờ, thầy trò ta sẽ cùng thực hành kiểm chứng với hai tình huống cụ thể. Tình huống thứ nhất: Có một tin đồn lan truyền rằng "giáo viên từ năm hai không hai lăm sẽ bị buộc thôi việc nếu không biết sử dụng chát-gờ-pê-tê". Em sẽ xử lý thế nào?
+Người 2: Đầu tiên em sẽ hỏi các AI như chát-gờ-pê-tê hoặc giê-mi-ni xem sao. Sau đó em dùng lệnh tìm kiếm giới hạn trên Google, ví dụ gõ cú pháp "site hai chấm moet chấm gov chấm vn" hoặc "site hai chấm vnexpress chấm net" để xem Bộ Giáo dục và báo uy tín có văn bản nào không.
+Người 1: Quá xuất sắc! Bằng việc đối chiếu đó em sẽ kết luận ngay được đây là tin đồn sai lệch. Tình huống thứ hai: Một video trên Tích Tốc chỉ mẹo "uống nước chanh pha ba-king sô-đa mỗi sáng sẽ giúp ngừa cô-vít mười chín".
+Người 2: Với lời khuyên y tế thế này, em sẽ dùng các công cụ kiểm chứng như Snopes, rồi tra cứu trên các trang y tế uy tín như Tổ chức Y tế Thế giới (WHO) hoặc CDC. Chắc chắn em cũng phải đánh giá thẩm quyền xem người làm video đó có chuyên môn y tế không nữa. Cuối cùng sẽ lộ ra đây là thông tin không có bằng chứng khoa học!
+
+Slide 14: BẠN CHÍNH LÀ NGƯỜI ĐIỀU HƯỚNG SỐ
+Người 1: Qua hai ví dụ vừa rồi, thầy tin là các em đã hoàn thành xuất sắc chuyến hành trình. Từ việc chỉ nhận biết được những mối nguy hiểm trong đại dương thông tin, giờ đây các em đã làm chủ được các công cụ điều hướng như cờ-ráp, kỹ thuật SIFT, và biết cách dùng cả AI để soi tỏ sự thật.
+Người 2: Dạ vâng, bài học lớn nhất em rút ra là luôn phải Dừng lại trước khi tin và chia sẻ một điều gì đó, đồng thời biến việc Điều tra và Truy vết thông tin trở thành một thói quen hàng ngày.
+Người 1: Thầy rất vui khi nghe em nói vậy. Lời kêu gọi hành động thầy dành cho các em là: Hãy luôn sử dụng tư duy phản biện như ngọn hải đăng của mình. Kỷ nguyên số thay đổi từng ngày, việc làm chủ thông tin là một quá trình học hỏi và cập nhật liên tục để chúng ta không bao giờ lái tàu chệch hướng.
+
+Slide 15: TÀI LIỆU THAM KHẢO
+Người 1: Ở slide cuối cùng này, thầy liệt kê danh sách các nguồn tài liệu, sách báo và thư viện uy tín đã được sử dụng làm cơ sở để xây dựng bài giảng cho chúng ta.
+Người 2: Em thấy có rất nhiều nguồn chất lượng như Thư viện Đại học Bớc-ming-ham, thư viện Đại học Si-ca-gô về phương pháp SIFT, và cả tài liệu từ UNESCO nữa.
+Người 1: Đúng vậy. Ngoài ra còn có Thư viện Đại học Mi-chi-gân và các trang chuyên về phát hiện tin giả, Deepfake. Các em có thể tìm đọc thêm để đào sâu kiến thức. Bài học của chúng ta đến đây là kết thúc. Hẹn gặp lại các em ở những module tiếp theo!
+

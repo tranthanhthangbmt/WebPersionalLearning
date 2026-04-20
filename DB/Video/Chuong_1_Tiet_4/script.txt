@@ -1,0 +1,148 @@
+﻿Slide 1: TRANG BÌA (HẠ TẦNG CÔNG NGHỆ VÀ PHÁP LÝ TRONG TMĐT) (Hình ảnh: Mạch điện tử kết hợp với cán cân công lý, tiêu đề bài học “Chương 1 - Tiết 4: Sân chơi và Luật chơi của Kinh tế số”. Có trích dẫn so sánh TMĐT với xe đua. Góc dưới có logo NotebookLM)
+Người 1: Chào các em. Hôm nay chúng ta sẽ đi vào một chủ đề cực kỳ quan trọng, được ví như xương sống của Thương mại điện tử (TMĐT). Đó là “Hạ tầng Công nghệ và Pháp lý”. Trên slide mở đầu, thầy có một câu so sánh thế này: “Nếu TMĐT là một chiếc xe đua, Công nghệ là động cơ, còn Pháp lý là luật giao thông”. Em hiểu câu nói này như thế nào?
+Người 2: Dạ thưa thầy, em nghĩ hình ảnh này rất thú vị ạ. “Động cơ” công nghệ giúp chiếc xe doanh nghiệp chạy nhanh, bứt tốc doanh số. Nhưng nếu không có “Luật giao thông” pháp lý thì xe chạy càng nhanh càng dễ gây tai nạn, hoặc bị cảnh sát tuýt còi dừng lại đúng không ạ?
+Người 1: Rất chính xác. Thực tế đã chứng minh nhiều Startup công nghệ tăng trưởng rất nóng nhưng lại “ngã ngựa” vì vướng pháp lý, ví dụ như vụ Uber/Grab thời kỳ đầu vào Việt Nam gặp rất nhiều rào cản vì chưa có khung pháp lý định danh rõ ràng. Bài học hôm nay sẽ giúp các em hiểu rõ cả “động cơ” lẫn “luật lệ” để lái chiếc xe doanh nghiệp đi xa và an toàn nhất.
+
+Slide 2: MÔ HÌNH TẢNG BĂNG TRÔI (Hình ảnh: Một tảng băng trôi trên biển. Phần nổi là “Website bán hàng/Giao diện”. Phần chìm lớn hơn bao gồm “Chuỗi cung ứng”, “Hạ tầng Công nghệ” và “Hành lang Pháp lý”. Góc dưới có logo NotebookLM)
+Người 1: Nhìn vào mô hình tảng băng trôi này, các em thấy khách hàng thường chỉ nhìn thấy gì?
+Người 2: Dạ, họ chỉ thấy cái Website hoặc App bán hàng giao diện đẹp hay xấu thôi ạ.
+Người 1: Đúng rồi. Nhưng điều gì mới thực sự quyết định sự sống còn của doanh nghiệp bên dưới giao diện hào nhoáng đó?. Đó chính là phần chìm khổng lồ mà chúng ta học hôm nay: Hạ tầng Công nghệ và Hành lang Pháp lý. Thầy lấy ví dụ thực tế: Vào ngày Black Friday, một trang web rất đẹp nhưng nếu hạ tầng công nghệ (Server) yếu, web sẽ sập ngay khi lượng truy cập tăng vọt. Lúc đó giao diện đẹp cũng vô nghĩa vì khách không mua được hàng. Hoặc nếu web chạy tốt nhưng lại để lộ thông tin khách hàng (vi phạm pháp lý), doanh nghiệp đó sẽ mất uy tín vĩnh viễn.
+Người 2: À em hiểu rồi. Vậy là nếu thiếu phần nền móng chìm này, doanh nghiệp số sẽ sụp đổ trước khi kịp tiếp cận khách hàng đúng không thầy?.
+Người 1: Chính xác. Đó là bài học sống còn: Đừng chỉ lo sơn phết mặt tiền (Giao diện) mà quên gia cố nền móng (Công nghệ & Pháp lý).
+
+Slide 3: MÔ HÌNH NGÔI ĐỀN (KHUNG CẤU TRÚC TỔNG THỂ) (Hình ảnh: Một ngôi đền Hy Lạp với mái là Ứng dụng TMĐT, các cột trụ là Con người, Luật, Marketing… và nền móng là Hạ tầng phần cứng/mềm. Góc dưới có logo NotebookLM)
+Người 1: Để cụ thể hóa hơn các thành phần của hạ tầng, chúng ta hãy nhìn vào “Mô hình Ngôi đền” này. Mái đền là các ứng dụng TMĐT B2C hay B2B mà chúng ta thấy hàng ngày như Shopee, Lazada. Nhưng để mái đền này đứng vững, nó cần các trụ cột nào?
+Người 2: Dạ, em thấy có trụ cột Con người , Marketing , và đặc biệt là trụ cột Chính sách công (Luật) mà chúng ta vừa nhắc tới. Tất cả đều đặt trên một cái nền móng là “Hạ tầng nền tảng: Phần cứng, Phần mềm, Mạng lưới”.
+Người 1: Đúng vậy. Em hãy tưởng tượng, ví dụ như TikTok Shop. “Mái đền” là tính năng mua sắm trên app. “Trụ cột Marketing” là các video review triệu view. Nhưng nếu “Nền móng” mạng lưới bị đứt cáp quang (Internet chậm), thì không ai xem được livestream để mua hàng. Hoặc nếu “Trụ cột Luật” bị lung lay (ví dụ bị cấm ở một số quốc gia như Mỹ hay Indonesia trước đây), thì toàn bộ hoạt động kinh doanh sụp đổ ngay lập tức. Các ứng dụng bán lẻ bắt buộc phải đứng vững trên các trụ cột này.
+
+Slide 4: SÂN CHƠI VÀ LUẬT CHƠI (TỔNG QUAN HẠ TẦNG) (Hình ảnh: Chia làm 2 phần. Bên trái là sơ đồ Client-Server (Máy khách - Máy chủ). Bên phải là cán cân công lý và cái búa thẩm phán. Góc dưới có logo NotebookLM)
+Người 1: Đi sâu vào chi tiết, chúng ta có hai mảng lớn: Sân chơi (Công nghệ) và Luật chơi (Pháp lý). Về Công nghệ, cơ chế vận hành cốt lõi của TMĐT dựa trên mô hình Client-Server (Máy khách - Máy chủ) và giao thức TCP/IP. Em có hình dung được mô hình này hoạt động thế nào không?
+Người 2: Em đoán là giống như mình đi nhà hàng phải không ạ? Em là khách (Client) gọi món (Request), và nhà bếp (Server) sẽ nấu và mang món ăn ra (Response).
+Người 1: Một so sánh rất hay! TCP/IP chính là ngôn ngữ chung để khách và nhà bếp hiểu nhau. Còn về Pháp lý, mục tiêu tối thượng không chỉ là cấm đoán, mà là để “Tạo niềm tin và giải quyết tranh chấp”. Một sân chơi TMĐT mà đầy rẫy hàng giả hay lừa đảo (Scam) thì không ai dám chơi cả. Luật pháp chính là công cụ để bảo vệ thương hiệu, định danh số và tài sản trí tuệ của doanh nghiệp.
+
+Slide 5: CÂU HỎI TƯ DUY VỀ INTERNET (Hình ảnh: Hình minh họa quả địa cầu với các đường kết nối, bên cạnh là biểu tượng cây cối và ngôi nhà. Câu hỏi 1 và 2 về đường truyền Internet và Wifi. Góc dưới có logo NotebookLM)
+Người 1: Trước khi đi vào chi tiết kỹ thuật, thầy muốn test kiến thức thực tế của các em một chút về cái “Sân chơi” Internet này. Câu hỏi 1: Theo các em, dữ liệu Internet của chúng ta (như tin nhắn, video) chủ yếu được truyền tải qua đường nào: Vệ tinh bay trên trời hay Cáp quang đi dưới biển?
+Người 2: Dạ, em hay nghe nói đến “Điện toán đám mây” (Cloud), nên em nghĩ chắc là dữ liệu bay trên trời qua vệ tinh là chính ạ.
+Người 1: Đó là một hiểu lầm rất phổ biến! Thực tế, hơn 99% dữ liệu Internet thế giới đi qua các tuyến cáp quang ngầm dưới đáy biển. Vệ tinh chỉ đóng góp một phần rất nhỏ ở những nơi hẻo lánh thôi. Vì vậy, mỗi khi nghe tin “cá mập cắn cáp”, mạng nhà các em lại lag là vì thế. Câu hỏi 2: Wifi và Internet có phải là một không?. Khi điện thoại em kết nối Wifi, tin nhắn có “bay” thẳng sang máy bạn em không?
+Người 2: Em nghĩ Wifi là Internet chứ ạ? Mất Wifi là mất mạng mà thầy.
+Người 1: Không hẳn nhé. Wifi chỉ là sóng vô tuyến tầm ngắn kết nối thiết bị của em với cục Modem thôi. Từ Modem đó, dữ liệu vẫn phải chạy qua dây cáp vật lý để đi ra thế giới. Hiểu sai bản chất này sẽ khiến các nhà quản trị không biết cách xử lý khi hệ thống mạng gặp sự cố đấy. Chúng ta sẽ giải thích kỹ hơn ở các slide sau.
+
+Slide 6: PHÂN LOẠI MẠNG LƯỚI KẾT NỐI (INTERNET, INTRANET, EXTRANET) (Hình ảnh: 3 biểu tượng minh họa: Quả địa cầu (Internet), Ngôi nhà khóa kín (Intranet) và Cái bắt tay (Extranet). Góc dưới có logo NotebookLM)
+Người 1: Chúng ta vừa thống nhất rằng Wifi không phải là tất cả. Bây giờ, hãy đi sâu vào các loại “đường đi” trong thế giới mạng. Trên slide là 3 khái niệm: Internet, Intranet và Extranet. Nghe khá giống nhau, nhưng bản chất lại khác hoàn toàn. Thầy dùng hình ảnh ẩn dụ thế này: Internet là “Công viên công cộng”, Intranet là “Nhà riêng”, còn Extranet là “Câu lạc bộ Hội viên”. Em hiểu sự khác biệt này thế nào?
+Người 2: Dạ thưa thầy, theo hình ảnh thì:
+• Internet (Công viên): Là nơi ai cũng vào được, miễn phí hoặc trả ít tiền vé, nhưng rất xô bồ. Đây là môi trường B2C nơi doanh nghiệp bán hàng cho khách đại trà.
+• Intranet (Nhà riêng): Là mạng nội bộ, người lạ không vào được, chỉ người nhà (nhân viên) mới có chìa khóa. Cái này dành cho B2E.
+• Extranet (CLB): Là sự kết hợp, vẫn bảo mật nhưng cho phép một số người ngoài (đối tác) vào nếu có thẻ thành viên. Cái này dùng cho B2B.
+Người 1: Rất chính xác. Ví dụ thực tế nhé: Khi em lên Shopee mua hàng, em đang dùng Internet. Nhưng nhân viên Shopee muốn truy cập vào hệ thống tính lương của họ, họ phải dùng Intranet (ngồi quán cafe cũng không vào được nếu không có VPN nội bộ). Còn khi Samsung muốn kiểm tra kho hàng của Thế Giới Di Động để xem cần nhập thêm bao nhiêu điện thoại, họ sẽ kết nối qua Extranet – một đường truyền riêng giữa hai đối tác chiến lược để bảo mật dữ liệu kinh doanh.
+
+Slide 7: CƠ CHẾ VẬN HÀNH (CLIENT-SERVER & TCP/IP) (Hình ảnh: Sơ đồ máy tính xách tay (Client) gửi mũi tên Request đến Tủ máy chủ (Server) và nhận lại mũi tên Response. Góc dưới có logo NotebookLM)
+Người 1: Tiếp theo, chúng ta tìm hiểu “luật giao thông” cơ bản nhất của dữ liệu: Mô hình Client-Server và giao thức TCP/IP. Hãy tưởng tượng em đang săn vé xem concert “Anh Trai Say Hi”. Em (Client) bấm nút “Đặt vé” liên tục. Hành động đó gọi là gì?
+Người 2: Dạ là em đang gửi Request (Yêu cầu) đến hệ thống bán vé ạ.
+Người 1: Đúng rồi. Và hệ thống bán vé (Server) sẽ kiểm tra xem còn vé không để trả về Response (Kết quả): “Đặt thành công” hoặc “Hết vé”. Tất cả việc này diễn ra nhờ một ngôn ngữ chung là TCP/IP. Tại sao người làm kinh doanh (Manager) phải hiểu cái này? Vì khi Server bị quá tải do hàng triệu Request cùng lúc (như lúc săn vé), trang web sẽ bị sập. Hiểu mô hình này giúp người quản trị biết cần đầu tư nâng cấp Server vào những dịp Sale lớn để không mất khách.
+
+Slide 8: ĐỊNH DANH SỐ (TỪ ĐỊA CHỈ KỸ THUẬT ĐẾN THƯƠNG HIỆU) (Hình ảnh: Một bên là dãy số IP 172.217… khó nhớ, mũi tên chuyển sang bên kia là chữ “Google.com” dễ nhớ. Biểu tượng bánh răng DNS ở giữa. Góc dưới có logo NotebookLM)
+Người 1: Máy tính nói chuyện với nhau bằng con số (IP Address), ví dụ máy chủ Google có địa chỉ là 172.217.168.46. Nhưng khách hàng có thể nhớ dãy số này để vào mua hàng không?
+Người 2: Chắc chắn là không ạ. Giống như không ai nhớ số điện thoại, chỉ nhớ tên trong danh bạ thôi.
+Người 1: Chính xác. Vì thế chúng ta cần Tên miền (Domain Name) như Shopee.vn hay Amazon.com. Hệ thống DNS chính là “cuốn danh bạ” tự động dịch tên miền sang địa chỉ IP để máy tính hiểu. Bài học quản trị ở đây là gì? Tên miền chính là Thương hiệu số. Nếu em không đăng ký sớm tên miền trùng với tên thương hiệu, đối thủ có thể mua mất. Lúc đó khách hàng gõ tên em nhưng lại ra web của đối thủ. Đó là một mất mát tài sản vô hình cực lớn.
+
+Slide 9: HẠ TẦNG PHÁP LÝ (HÌNH ẢNH CHIẾC KHIÊN BẢO VỆ) (Hình ảnh: Một chiếc khiên màu xanh dương lớn, tượng trưng cho sự bảo vệ. Các đầu mục: IP, Hợp đồng, Quyền riêng tư. Góc dưới có logo NotebookLM)
+Người 1: Chúng ta đã xong phần “Động cơ” (Công nghệ), giờ sang phần “Luật giao thông” (Pháp lý). Tại sao chúng ta cần pháp lý trong TMĐT? Có phải chỉ để phạt không?
+Người 2: Dạ theo slide thì mục tiêu là để Tạo niềm tin cho khách hàng và Bảo vệ tài sản cho doanh nghiệp ạ.
+Người 1: Đúng vậy. Môi trường mạng rất dễ ẩn danh để lừa đảo. Nếu không có Hợp đồng điện tử, Chữ ký số hay luật Sở hữu trí tuệ (IP), không ai dám chuyển tiền mua một món hàng giá trị cao cả. Pháp lý chính là chiếc khiên bảo vệ những người làm ăn chân chính khỏi hàng giả, gian lận và tội phạm mạng.
+
+Slide 10: BẢO VỆ TÀI SẢN TRÍ TUỆ (IP) (BẢN QUYỀN, THƯƠNG HIỆU, BẰNG SÁNG CHẾ) (Hình ảnh: 3 biểu tượng tròn: Chữ C (Copyright), Chữ TM (Trademark) và Bóng đèn (Patent). Góc dưới có logo NotebookLM)
+Người 1: Đây là slide quan trọng nhất về tài sản vô hình. Các em hay nhầm lẫn giữa Bản quyền, Thương hiệu và Bằng sáng chế. Hãy phân biệt chúng dựa trên ví dụ thực tế: Hãy nhìn vào chiếc iPhone.
+Người 2: Dạ để em thử phân tích ạ:
+• Bản quyền (Copyright - ©): Bảo vệ những gì mang tính sáng tạo nghệ thuật như: Hình ảnh quảng cáo, đoạn code phần mềm iOS, hay nhạc chuông. Cái này tự động có hiệu lực khi tạo ra.
+• Thương hiệu (Trademark - ™): Là cái Logo quả táo cắn dở và cái tên “iPhone”. Mục đích là để khách hàng nhìn vào không bị nhầm với điện thoại Samsung hay Xiaomi.
+• Bằng sáng chế (Patent): Là công nghệ bên trong, ví dụ công nghệ “Màn hình cảm ứng đa điểm” hay tính năng “Trượt để mở khóa”. Cái này bắt buộc phải đi đăng ký mới được bảo hộ.
+Người 1: Phân tích rất xuất sắc! Một ví dụ kinh điển trong slide nhắc tới là Amazon 1-Click. Amazon đã đăng ký bằng sáng chế cho quy trình “Mua hàng bằng 1 cú nhấp chuột”. Trong nhiều năm, các đối thủ khác muốn dùng tính năng tiện lợi này đều phải trả tiền bản quyền cho Amazon. Đó chính là sức mạnh của tài sản trí tuệ - biến luật pháp thành lợi thế cạnh tranh độc quyền.
+
+Slide 11: CASE STUDY - QUYỀN RIÊNG TƯ & DỮ LIỆU (TÀI SẢN HAY RỦI RO?) (Hình ảnh: Một cơ sở dữ liệu (Database) được bảo vệ, bên cạnh là biểu tượng người dùng có khóa. Góc dưới có logo NotebookLM)
+Người 1: Chúng ta chuyển sang một chủ đề rất nhạy cảm: Dữ liệu (Data). Các em thường nghe câu “Dữ liệu là dầu mỏ mới”. Vậy theo em, trong TMĐT, dữ liệu là Tài sản hay là Rủi ro?
+Người 2: Em nghĩ nó là cả hai ạ. Là Tài sản vì nhờ lịch sử mua hàng, Shopee mới gợi ý đúng món em thích. Nhưng là Rủi ro nếu họ làm lộ số điện thoại của em cho bên bán bảo hiểm gọi làm phiền.
+Người 1: Rất chính xác. Ranh giới giữa “chăm sóc khách hàng” và “xâm phạm đời tư” rất mong manh. Slide này nhắc đến vụ bê bối Facebook Beacon. Ngày xưa, khi em mua một cái vé xem phim trên web khác, Facebook tự động đăng lên tường nhà em: “A vừa mua vé phim X” mà không hỏi ý kiến em. Kết quả là Facebook bị kiện tập thể và phải bồi thường hàng triệu đô. Bài học xương máu ở đây là Nguyên tắc vàng: Opt-in / Opt-out. Tức là phải xin phép. Khách hàng gật đầu (Opt-in) mới được thu thập, và phải cho họ quyền từ chối (Opt-out) bất cứ lúc nào.
+
+Slide 12: BÀI HỌC THỰC TẾ - VỤ KIỆN TIFFANY VS. EBAY (Hình ảnh: Hộp quà màu xanh đặc trưng của Tiffany, cái búa toà án và logo eBay. Cán cân nghiêng về phía eBay. Góc dưới có logo NotebookLM)
+Người 1: Nhưng liệu các sàn TMĐT có phải chịu trách nhiệm cho mọi thứ người bán đăng lên không? Hãy xem vụ kiện thế kỷ: Hãng trang sức cao cấp Tiffany kiện eBay vì để hàng giả Tiffany bán tràn lan trên sàn. Theo em, ai thắng?
+Người 2: Em nghĩ Tiffany thắng chứ ạ? Sàn để bán hàng giả thì sàn phải đền chứ.
+Người 1: Bất ngờ thay, toà phán eBay thắng kiện. Lý do là eBay đã chứng minh họ chỉ là đơn vị trung gian hạ tầng, họ không thể kiểm soát từng món hàng trước khi đăng (Tiền kiểm). Tuy nhiên, họ có cơ chế “Notice and Takedown” (Thông báo & Gỡ bỏ). Tức là khi Tiffany báo “Link này bán hàng giả”, eBay gỡ ngay lập tức. Cơ chế này tạo ra thuật ngữ “Safe Harbor” (Bến đỗ an toàn) - tấm lá chắn pháp lý giúp các nền tảng như Shopee, YouTube tồn tại được đến ngày nay. Nếu không có lá chắn này, họ sẽ sập tiệm vì không đủ tiền đền bù các vụ kiện.
+
+Slide 13: TỔNG QUAN KHUNG PHÁP LÝ MỚI (2024-2026) (Hình ảnh: 3 biểu tượng đại diện cho 3 trụ cột: Luật pháp, Mạng xã hội, và Thuế. Tiêu đề nhấn mạnh “Làn sóng pháp lý mới”. Góc dưới có logo NotebookLM)
+Người 1: Tuy nhiên, “Bến đỗ an toàn” đó sắp bị thu hẹp lại tại Việt Nam. Chúng ta đang đứng trước một làn sóng pháp lý mới cực kỳ khắt khe giai đoạn 2024-2026 với 3 trụ cột chính mà mọi chủ doanh nghiệp phải biết. Em nhìn slide và cho thầy biết 3 trụ cột đó là gì?
+Người 2: Dạ thưa thầy, đó là:
+1. Luật TMĐT 2025: Sẽ thay đổi toàn bộ cuộc chơi cũ.
+2. Nghị định 147 (2024): Quản lý tài khoản mạng xã hội.
+3. Nghị định 117 (2025): Siết chặt vấn đề Thuế. Em thấy có từ khóa “Real Identity” (Định danh thực). Có phải sắp tới không được dùng nick ảo nữa không ạ?
+Người 1: Chính xác. Thông điệp xuyên suốt của Chính phủ là chuyển từ “Tiền kiểm” (khó làm xuể) sang “Hậu kiểm” nhưng phạt thật nặng và yêu cầu Định danh thực. Ai làm gì trên mạng cũng phải xác định được danh tính, để “có tóc mà nắm”.
+
+Slide 14: LUẬT THƯƠNG MẠI ĐIỆN TỬ 2025 (ĐIỂM NHẤN) (Hình ảnh: Các icon minh họa: Người dùng được xác thực, Cán cân công lý siết chặt đồng hồ 24h, Hộp hàng có kính lúp soi nguồn gốc. Góc dưới có logo NotebookLM)
+Người 1: Đi sâu vào Luật TMĐT 2025, có 2 điểm thay đổi chí mạng. Thứ nhất, luật mở rộng phạm vi ra cả các nền tảng xuyên biên giới. Những cái tên như Temu, Shein dù không có văn phòng ở VN nhưng có người dùng VN thì vẫn phải tuân thủ luật này. Thứ hai, “Bến đỗ an toàn” bị siết chặt. Trước đây sàn có thể thong thả gỡ bài, nhưng sắp tới quy định là phải gỡ trong vòng 24h khi có yêu cầu. Nếu vi phạm nghiêm trọng, cơ quan chức năng có quyền Chặn truy cập (Block) hoặc yêu cầu Apple/Google gỡ App khỏi kho ứng dụng.
+Người 2: Wow, quyền lực mạnh thật. Còn vấn đề “Minh bạch nguồn gốc” thì sao ạ?
+Người 1: Rất quan trọng. Trên web sẽ phải hiển thị rõ người bán là Cá nhân hay Doanh nghiệp. Vì trách nhiệm bảo hành và thuế của hai đối tượng này khác hẳn nhau. Khách hàng cần biết mình đang mua của ai để tự bảo vệ mình.
+
+Slide 15: NGHỊ ĐỊNH 147/2024 - ĐỊNH DANH ĐỂ LIVESTREAM (Hình ảnh: Icon mạng xã hội Facebook, TikTok, YouTube. Biểu tượng xác thực tick xanh và biểu tượng cấm Livestream nếu vi phạm. Góc dưới có logo NotebookLM)
+Người 1: Cuối cùng là Nghị định 147, vừa có hiệu lực cuối năm 2024. Đây là đòn giáng mạnh vào nạn tin giả và lừa đảo online. Quy định cốt lõi là: No Verify, No Livestream. Tức là tất cả tài khoản Facebook, TikTok tại VN phải xác thực bằng Số điện thoại hoặc Số định danh cá nhân (CCCD).
+Người 2: Vậy là mấy cái “Nick ảo” chuyên đi seeding khen hàng, hay đặt đơn ảo (buff đơn) sẽ hết đất diễn đúng không thầy?
+Người 1: Chuẩn luôn. Nếu không xác thực trong vòng 90 ngày, tài khoản đó sẽ bị khóa tính năng đăng bài, comment và đặc biệt là Livestream. Các bạn làm KOL/KOC hay bán hàng qua Livestream phải cực kỳ lưu ý điều này. “Chính chủ” giờ là yêu cầu bắt buộc để kinh doanh, chứ không còn là lựa chọn nữa.
+
+Slide 16: NGHỊ ĐỊNH 117/2025 - THUẾ TMĐT (CÁCH MẠNG VỀ THUẾ) (Hình ảnh: Biểu tượng máy tính tiền, túi tiền được bảo vệ và cơ quan thuế. Mũi tên chỉ từ Cửa hàng -> Cơ quan thuế. Góc dưới có logo NotebookLM)
+Người 1: Chúng ta đến với vấn đề “đau đầu” nhất nhưng không thể tránh khỏi: Thuế. Trước đây, việc nộp thuế trên sàn TMĐT diễn ra như thế nào, em có biết không?
+Người 2: Dạ, theo quy định cũ thì người bán tự giác đi kê khai và nộp thuế. Nhưng em thấy nhiều shop online “quên” luôn việc này, nên Nhà nước thất thu nhiều lắm ạ.
+Người 1: Đúng vậy. Vì thế, Nghị định 117 (có hiệu lực từ 01/07/2025) sẽ tạo ra một cuộc “Cách mạng về Thuế”. Quy định mới là: Sàn nộp thay Người bán. Tức là Sàn TMĐT (như Shopee, TikTok Shop) sẽ trở thành đầu mối BẮT BUỘC phải khấu trừ thuế trực tiếp trên doanh thu trước khi chuyển tiền về cho người bán.
+Người 2: Vậy mức khấu trừ là bao nhiêu ạ? Và điều này ảnh hưởng gì đến dòng tiền của shop?
+Người 1: Mức dự kiến là 1.5% trên doanh thu (gồm 1% VAT và 0.5% Thuế thu nhập cá nhân). Tác động cực lớn là: Dòng tiền về túi người bán sẽ là dòng tiền “Net” (đã trừ thuế). Người bán không thể “trốn doanh thu” được nữa. Vì vậy, bài toán định giá sản phẩm phải tính cả chi phí này vào ngay từ đầu.
+
+Slide 17: DỮ LIỆU CÁ NHÂN (NGHỊ ĐỊNH 13/2023) (Hình ảnh: Hồ sơ tài liệu có dấu tích xanh, biểu tượng ID card và sự đồng ý. Góc dưới có logo NotebookLM)
+Người 1: Rời câu chuyện tiền nong, ta quay lại câu chuyện pháp lý về Dữ liệu. Dù ban hành từ 2023, nhưng Nghị định 13 vẫn là văn bản “nóng nhất” về rủi ro pháp lý hiện nay. Em hãy nhìn vào từ khóa quan trọng nhất trên slide: Consent (Đồng ý).
+Người 2: Nguyên tắc này hoạt động thế nào ạ? Có phải giống như khi em cài App, nó hay hỏi “Cho phép truy cập danh bạ” không ạ?
+Người 1: Đúng nhưng chưa đủ. Nguyên tắc vàng ở đây là sự đồng ý phải rõ ràng, tự nguyện. Đặc biệt, luật cấm việc mặc định chọn sẵn (Pre-ticked box). Ví dụ: Khi khách đăng ký thành viên, ô “Tôi đồng ý nhận email quảng cáo” không được tích sẵn dấu V. Khách phải tự tay tích vào đó thì mới hợp lệ (Opt-in).
+Người 2: Ra là vậy. Ngoài ra em thấy người dùng còn có “Quyền được lãng quên” (Right to be forgotten) nữa. Tức là khách ghét shop thì có quyền bắt shop xóa sạch dữ liệu về họ đúng không thầy?
+Người 1: Chính xác. Đây là quyền lực rất lớn của người dùng mà doanh nghiệp phải tôn trọng nếu không muốn bị phạt nặng.
+
+Slide 18: TỔNG KẾT DÀNH CHO DOANH NGHIỆP (CHIẾN LƯỢC THÍCH ỨNG) (Hình ảnh: 4 biểu tượng đại diện cho 4 hành động: Giấy tờ xác thực, Tính toán giá, Bảo mật dữ liệu, Kho hàng. Góc dưới có logo NotebookLM)
+Người 1: Vậy đứng trước “ma trận” thay đổi từ Thuế đến Luật Dữ liệu, doanh nghiệp cần làm gì ngay lúc này? Thầy tóm tắt lại 4 chiến lược thích ứng cốt lõi trên slide. Em hãy đọc và phân tích ý “Cơ cấu lại Giá bán” xem?
+Người 2: Dạ, mục số 2 là Cơ cấu lại Giá bán. Vì sắp tới bị sàn trừ thẳng 1.5% thuế, nên shop phải tính toán lại giá bán để đảm bảo lợi nhuận, không thể bán rẻ như cho để lấy số lượng như xưa được nữa.
+Người 1: Rất chuẩn. Bên cạnh đó, mục 1 là Chuẩn hóa hồ sơ: Phải có Giấy phép kinh doanh và CCCD chính chủ để xác thực ngay (tránh bị khóa Shop/Live theo Nghị định 147). Mục 3 là Quản trị dữ liệu: Rà soát lại các ô check-box trên web/app cho đúng luật. Và mục 4 là Nguồn hàng: Ưu tiên hàng có hóa đơn chứng từ, vì Luật 2025 sẽ truy xuất nguồn gốc rất gắt gao. Không còn cửa cho hàng lậu, hàng xách tay không rõ nguồn gốc nữa.
+
+Slide 19: BÀI TẬP TÌNH HUỐNG: STARTUP ‘SO SÁNH GIÁ’ (Hình ảnh: Giao diện điện thoại hiển thị so sánh giá một hộp hàng: Shop A bán 100K, Shop B bán 120K. Góc dưới có logo NotebookLM)
+Người 1: Để tổng hợp lại kiến thức, chúng ta cùng làm một bài tập tình huống thực tế. Giả sử thầy có một ý tưởng Startup: Thầy làm một cái App “So sánh giá”. App này dùng một con Robot (Bot) tự động chạy sang Tiki, Shopee để quét giá. Sau đó hiển thị lại trên App của thầy: Chỗ nào bán 100k, chỗ nào bán 120k để khách chọn. Đồng thời, thầy thu thập email người dùng để gửi quảng cáo kiếm tiền. Ý tưởng nghe rất hay đúng không? Nhưng hãy mổ xẻ nó dưới 2 góc độ: Công nghệ và Pháp lý.
+Người 2: Dạ, về mặt ý tưởng kinh doanh thì rất tiện cho người mua. Nhưng em cảm giác việc tự ý sang nhà người khác (Tiki/Shopee) lấy dữ liệu về nhà mình có vấn đề gì đó sai sai ạ.
+Người 1: Cảm giác của em rất nhạy bén đấy. Chúng ta hãy xem xét sâu hơn ở slide tiếp theo.
+
+Slide 20: PHÂN TÍCH & LỜI GIẢI: STARTUP SO SÁNH GIÁ (Hình ảnh: Sơ đồ máy chủ kết nối với máy tính (Tech) và Biểu tượng cảnh báo rủi ro (Legal) bên cạnh hình ảnh cái váy bị đánh dấu bản quyền. Góc dưới có logo NotebookLM)
+Người 1: Đây là đáp án. Về Công nghệ, App này hoạt động dựa trên mô hình Client-Server. Server của Startup sẽ gửi Request liên tục sang Server của Shopee/Tiki để lấy dữ liệu. Yêu cầu là hạ tầng mạng phải rất ổn định. Nhưng rủi ro Pháp lý mới là thứ giết chết Startup này. Em nhìn thấy những rủi ro nào?
+Người 2: Dạ, em thấy có 3 rủi ro lớn:
+1. Bản quyền: Nếu mình copy y nguyên hình ảnh cái váy hay mô tả sản phẩm của Shop A về, là vi phạm bản quyền.
+2. Cạnh tranh: Nếu con Bot của mình quét liên tục làm quá tải hệ thống của đối thủ, mình có thể bị kiện vì cạnh tranh không lành mạnh.
+3. Quyền riêng tư: Việc thu thập email người dùng để spam quảng cáo mà không có sự đồng ý (Opt-in) là vi phạm luật.
+Người 1: Phân tích rất tốt. Ranh giới giữa “lấy dữ liệu công khai” và “ăn cắp tài sản trí tuệ” rất mong manh. Ở bài sau, chúng ta sẽ phân tích kỹ hơn vụ kiện kinh điển về “Cào dữ liệu” để biết được phép lấy cái gì và không được lấy cái gì nhé.
+
+Slide 21: TRANH TỤNG - CÀO DỮ LIỆU (SCRAPING) (FACTS VS. CREATIVE) (Hình ảnh: Cán cân công lý cân giữa “Facts” và “Creative”. Bên cạnh là ví dụ logo LinkedIn. Góc dưới có logo NotebookLM)
+Người 1: Trở lại với Startup “So sánh giá” của chúng ta. Câu hỏi triệu đô là: Vậy rốt cuộc tôi được phép cào (scrape) cái gì và không được cào cái gì? Để trả lời, chúng ta hãy nhìn vào vụ án kinh điển thế giới: LinkedIn kiện HiQ Labs. HiQ là công ty dùng Bot cào dữ liệu công khai trên hồ sơ LinkedIn để phân tích xem nhân viên nào sắp nghỉ việc. LinkedIn kiện họ xâm phạm dữ liệu. Theo em, tòa án Mỹ phán ai thắng?
+Người 2: Em nghĩ LinkedIn thắng chứ ạ? Dữ liệu trên nhà họ thì là của họ mà.
+Người 1: Không hề. Tòa phán HiQ thắng. Lý do là: Những dữ liệu như Tên, Chức vụ, Nơi làm việc mà người dùng để chế độ “Public” (Công khai) được coi là Sự thật (Facts). Không ai có quyền độc quyền sở hữu sự thật công khai cả. Áp dụng vào bài: Nếu Startup của em chỉ lấy “Giá: 100k” - đó là một Fact, thì rất khó bị kiện.
+
+Slide 22: VÍ DỤ 2: LẤY ẢNH CỦA SHOP (VIỆT NAM) (BẢN QUYỀN HÌNH ẢNH) (Hình ảnh: Shop A chụp ảnh váy, Startup App copy ảnh về và bị đánh dấu X đỏ, biểu tượng búa tòa án “Thua kiện”. Góc dưới có logo NotebookLM)
+Người 1: Nhưng! Nếu Startup không chỉ lấy giá, mà “tiện tay” copy luôn tấm ảnh cái váy mà Shop A đã thuê người mẫu chụp về đăng lên App của mình cho đẹp, thì sao?
+Người 2: Trường hợp này em đoán chắc chắn là sai rồi. Vì tấm ảnh đó là công sức sáng tạo của Shop A.
+Người 1: Chính xác. Tấm ảnh đó được coi là “Tác phẩm nhiếp ảnh” và được bảo hộ quyền tác giả (Copyright). Nó không phải là “Sự thật ngẫu nhiên” (Fact) mà là sản phẩm của sáng tạo (Creative). Vì vậy, lấy giá thì được, nhưng lấy ảnh/video/mô tả do người khác viết thì chắc chắn Thua kiện. Đây là lằn ranh đỏ mà dân làm công nghệ (Tech) hay vô tình bước qua vì thiếu hiểu biết pháp lý.
+
+Slide 23: RỦI RO PHÁP LÝ - DỮ LIỆU CÁ NHÂN (CHECK-BOX THẦN THÁNH) (Hình ảnh: Hai giao diện đăng ký. Một bên là Bad Practice (Tích sẵn). Một bên là Good Practice (Tự tích). Mũi tên chỉ vào dòng “Nghị định 13”. Góc dưới có logo NotebookLM)
+Người 1: Tiếp theo, về vấn đề thu thập Email người dùng. Làm sao để không bị coi là Spam và vi phạm quyền riêng tư? Hãy nhìn vào cái “Check-box thần thánh” này. Hình trên (Bad Practice): Ô “Tôi đồng ý nhận email quảng cáo” đã được tích sẵn (Pre-ticked). Người dùng lười đọc bấm Next luôn. Cách này có hợp lệ không?
+Người 2: Dạ ngày xưa thì em thấy nhiều web làm thế, nhưng theo Nghị định 13 mới thì hình như là Sai ạ.
+Người 1: Rất chuẩn. Nghị định 13 quy định: Sự im lặng hoặc không phản đối của người dùng KHÔNG được coi là sự đồng ý. Doanh nghiệp bắt buộc phải dùng cách dưới (Good Practice): Để ô trống và bắt người dùng phải tự tay tích vào (Hành động khẳng định sự đồng ý - Explicit Consent). Chỉ một cái click chuột nhỏ này thôi nhưng nó quyết định ranh giới giữa tuân thủ pháp luật và vi phạm đấy.
+
+Slide 24: VÍ DỤ 2: MUA BÁN “DATA BẤT ĐỘNG SẢN” (SAI MỤC ĐÍCH) (Hình ảnh: Một sinh viên đeo ba lô cầm điện thoại, màn hình hiện tin nhắn “Mời mua đất nền”. Bên cạnh là văn bản Nghị định 13. Góc dưới có logo NotebookLM)
+Người 1: Cuối cùng là một tình huống mà thầy tin là ai trong lớp mình cũng từng gặp. Sinh viên vừa ra ngân hàng làm thẻ ATM xong, sáng hôm sau đã nhận được tin nhắn: “Mời em mua đất nền giá rẻ”. Cảm giác của em thế nào?
+Người 2: Dạ rất bực mình ạ. Em đưa số điện thoại để làm thẻ ngân hàng chứ có phải để mua đất đâu.
+Người 1: Đó chính là lỗi Sử dụng sai mục đích. Dữ liệu thu thập cho mục đích A (Ngân hàng) thì không được phép chuyển sang cho mục đích B (Bất động sản) nếu khách hàng chưa gật đầu. Hành vi tuồn dữ liệu này vi phạm nghiêm trọng Nghị định 13. Mức phạt không chỉ là vài triệu đồng nữa, mà có thể lên tới 5% tổng doanh thu của doanh nghiệp vi phạm. Một con số khổng lồ đủ để làm sập tiệm bất kỳ công ty nào coi thường dữ liệu khách hàng.
+
+Slide 25: TỔNG KẾT (HÀNH TRANG CHO NHÀ QUẢN TRỊ) (Hình ảnh: 4 gạch đầu dòng tổng kết kiến thức. Câu quote nổi bật ở cuối. Góc dưới có logo NotebookLM)
+Người 1: Vậy là chúng ta đã khám phá xong phần chìm của tảng băng trôi. Để làm một nhà quản trị TMĐT giỏi, các em không cần biết viết code hay thuộc lòng bộ luật, nhưng cần nắm vững 4 tư duy cốt lõi này:
+1. Hiểu cơ chế Client-Server để quản trị vận hành.
+2. Phân biệt rõ Internet (Bán cho khách) và Intranet/Extranet (Nội bộ/Đối tác).
+3. Biết bảo vệ Tên miền & Tài sản trí tuệ như mạng sống của thương hiệu.
+4. Tuyệt đối tôn trọng Quyền riêng tư (Opt-in) của khách hàng.
+Người 2: Em tâm đắc nhất câu nói cuối cùng của thầy trên slide ạ.
+Người 1: Đúng vậy. Hãy ghi nhớ: “Công nghệ giúp bạn đi nhanh, nhưng Pháp lý giúp bạn đi xa và an toàn”. Bài học hôm nay dừng ở đây. Tiết sau, chúng ta sẽ lặn xuống sâu hơn nữa để tìm hiểu về Chuỗi cung ứng & Logistics - hệ thống mạch máu giúp hàng hóa di chuyển thực tế. Cảm ơn các em!

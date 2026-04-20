@@ -1,0 +1,87 @@
+﻿Slide 1: CHƯƠNG 1 (TIẾT 5) - DÒNG MÁU CỦA THƯƠNG MẠI ĐIỆN TỬ
+Người 1: Chào các em. Nếu ở bài trước chúng ta ví Hạ tầng công nghệ là "động cơ" của chiếc xe TMĐT, thì hôm nay chúng ta sẽ nói về "xăng" để chiếc xe đó chạy được. Đó chính là Tiền. Mời các em nhìn Slide 1: Thanh toán điện tử và An toàn bảo mật. Em thấy hình ảnh minh họa là một dòng chảy kỹ thuật số nối giữa ví tiền và đám mây. Thông điệp ở đây là gì?
+Người 2: Dạ, em nghĩ hình ảnh này muốn nói tiền bây giờ không còn là tiền giấy nằm trong két sắt nữa, mà nó là những dòng dữ liệu chạy trên mạng Internet (đám mây) để kết nối người mua và người bán ạ.
+Người 1: Rất đúng. Trong TMĐT, "Thanh toán" chính là bước chốt hạ cuối cùng. Em có thể có website đẹp, hàng hóa tốt, Logistics nhanh, nhưng nếu khâu thanh toán bị lỗi hoặc khách hàng cảm thấy không an toàn khi rút ví, thì mọi nỗ lực trước đó đều bằng 0. Bài hôm nay sẽ giúp các em hiểu cách dòng tiền di chuyển và làm sao để bảo vệ nó.
+
+Slide 2: HỆ SINH THÁI THANH TOÁN (MÔ HÌNH 4 BÊN)
+Người 1: Chúng ta thường nghĩ quẹt thẻ là chuyện giữa mình và chủ quán. Nhưng hãy nhìn Slide 2, Mô hình 4 bên (The 4-Corner Model). Em hãy đếm xem thực sự có bao nhiêu bên tham gia vào một giao dịch "quẹt thẻ"?
+Người 2: Em nhìn sơ đồ thì thấy có: 1 là Khách hàng (Cardholder), 2 là Người bán (Merchant). Nhưng phía sau còn có 3 là Ngân hàng phát hành (Issuer) và 4 là Ngân hàng thanh toán (Acquirer).
+Người 1: Chính xác. Đây là kiến thức quan trọng cho dân quản trị.
+• Issuer là ngân hàng cấp thẻ cho em (ví dụ: em làm thẻ ở TPBank).
+• Acquirer là ngân hàng cung cấp máy POS cho cửa hàng (ví dụ: cửa hàng dùng máy của Vietinbank). Khi em quẹt thẻ, thực chất là TPBank đang nói chuyện với Vietinbank để chuyển tiền. Hiểu điều này để làm gì? Để khi giao dịch bị lỗi, em biết phải gọi cho ai xử lý chứ không chỉ đứng cãi nhau với chủ shop.
+
+Slide 3: CỔNG THANH TOÁN (PAYMENT GATEWAY) LÀ GÌ?
+Người 1: Nhưng trên môi trường Online, chúng ta không có máy POS vật lý để quẹt. Vậy cái gì thay thế nó? Hãy nhìn Slide 3: Payment Gateway (Cổng thanh toán). Em hiểu vai trò của những cái tên như VNPay, OnePay hay PayPal ở đây là gì không?
+Người 2: Em hay thấy logo của VNPay khi thanh toán. Có phải nó giống như cái "cửa soát vé" không ạ? Mình đi qua đó, nó kiểm tra thẻ rồi mới cho tiền đi qua?
+Người 1: So sánh rất hay. Cổng thanh toán chính là "người phiên dịch" và "người bảo vệ".
+• Thứ nhất, nó mã hóa thông tin thẻ của em để tin tặc không đọc được (Bảo vệ).
+• Thứ hai, nó chuyển đổi dữ liệu từ website bán hàng sang ngôn ngữ mà ngân hàng hiểu được (Phiên dịch). Nếu không có Cổng thanh toán, mỗi website bán hàng sẽ phải tự nối dây cáp đến từng ngân hàng, điều đó là bất khả thi.
+
+Slide 4: CÁC HÌNH THỨC THANH TOÁN PHỔ BIẾN
+Người 1: Sang Slide 4, chúng ta có bản đồ các phương thức thanh toán. Ngoài Thẻ tín dụng/Ghi nợ (Credit/Debit Card) truyền thống, em thấy nhóm nào đang phát triển mạnh nhất tại Việt Nam?
+Người 2: Dạ chắc chắn là Ví điện tử (như MoMo, ZaloPay) và QR Code ạ. Em đi ăn quán vỉa hè giờ cũng quét QR được. Nhưng em thấy còn có cái BNPL là gì ạ?
+Người 1: BNPL (Buy Now Pay Later) - Mua trước trả sau. Đây là xu hướng "hot" nhất hiện nay, ví dụ như SPayLater trên Shopee hay Kredivo. Về bản chất quản trị, nó là cách doanh nghiệp "kích cầu", giúp khách hàng mạnh dạn mua những món đồ đắt tiền ngay cả khi chưa đủ tiền trong túi. Nó giúp tăng giá trị giỏ hàng (AOV) lên đáng kể đấy.
+
+Slide 5: COD (CASH ON DELIVERY) - ĐẶC SẢN VÀ NỖI ĐAU
+Người 1: Tuy nhiên, hãy nhìn vào con số thống kê trên Slide 5. Tại Việt Nam, COD (Thanh toán khi nhận hàng) vẫn chiếm tỷ trọng cực lớn. Theo em, tại sao trong thời đại số mà người Việt vẫn thích trả tiền mặt?
+Người 2: Dạ vì... sợ bị lừa ạ. Nhỡ chuyển khoản xong shop không gửi hàng, hoặc gửi hàng đểu thì sao? Cầm hàng tận tay, kiểm tra rồi trả tiền vẫn yên tâm nhất ạ.
+Người 1: Đó là tâm lý người mua. Nhưng dưới góc độ người bán (người quản trị), COD là một "Nỗi đau". Vì sao?
+1. Dòng tiền chậm: Tiền nằm ở chỗ shipper cả tuần mới về túi mình.
+2. Rủi ro "bùng hàng" (Return): Khách đặt cho vui, shipper gọi không nghe máy. Lúc đó shop mất 2 lần phí ship (đi và về) mà không bán được hàng. => Bài toán quản trị ở đây là: Làm sao dùng khuyến mãi (Voucher) để dụ khách chuyển sang thanh toán trước.
+
+Slide 6: QUY TRÌNH XỬ LÝ GIAO DỊCH (TRANSACTION FLOW)
+Người 1: Để hiểu sâu hơn về kỹ thuật, mời các em xem Slide 6. Khi em bấm "Thanh toán", màn hình hiện "Đang xử lý..." trong 3 giây. Thực tế 3 giây đó diễn ra 2 bước chính: Authorization (Xác thực) và Settlement (Quyết toán). Em nghĩ 2 bước này khác nhau thế nào?
+Người 2: Xác thực chắc là kiểm tra xem thẻ có tiền không. Còn Quyết toán là chuyển tiền thật ạ?
+Người 1: Chuẩn xác!
+• Authorization: Xảy ra ngay lập tức (Real-time). Hệ thống hỏi ngân hàng: "Thẻ này là thật hay giả? Còn đủ 500k không?". Ngân hàng trả lời: "OK". Lúc này tiền trên tài khoản em bị "đóng băng" (Hold) chứ chưa đi.
+• Settlement: Thường diễn ra vào cuối ngày (T+1). Lúc này tiền mới thực sự chuyển từ ngân hàng của em sang ngân hàng của chủ shop.
+
+Slide 7: GIỚI THIỆU VỀ AN TOÀN BẢO MẬT (CIA TRIAD)
+Người 1: Chúng ta vừa nói về Tiền, giờ nói về An toàn. Slide 7 giới thiệu mô hình kinh điển trong bảo mật thông tin: CIA Triad. Không phải điệp viên CIA đâu nhé. Nó là viết tắt của 3 chữ gì trên bảng?
+Người 2: Dạ là Confidentiality (Tính Bảo mật), Integrity (Tính Toàn vẹn) và Availability (Tính Sẵn sàng). Thầy giải thích rõ hơn được không ạ?
+Người 1: Hãy hình dung thế này:
+1. Confidentiality: Chỉ em và ngân hàng biết mã PIN. Nếu người thứ 3 biết => Mất tính Bảo mật.
+2. Integrity: Em chuyển 1 triệu, đến nơi vẫn là 1 triệu. Nếu hacker sửa thành 10 triệu => Mất tính Toàn vẹn.
+3. Availability: Ngày Black Friday, em vào thanh toán mà hệ thống báo "Bảo trì" => Mất tính Sẵn sàng. Một hệ thống thanh toán tốt phải đảm bảo cả 3 chân kiềng này.
+Slide 8: CÁC MỐI ĐE DỌA PHỔ BIẾN (CYBER THREATS)
+Người 1: Tiền ở đâu thì trộm cướp ở đó. Trên Slide 8 là 3 loại tội phạm mạng phổ biến nhất nhắm vào TMĐT. Em nhìn hình ảnh "Lưỡi câu" (Phishing), "Mặt nạ" (Identity Theft) và "Cậu bé nói dối" (Friendly Fraud), em đoán xem chúng hoạt động thế nào?
+Người 2: Dạ, "Lưỡi câu" chắc là Phishing - gửi link giả để lừa lấy mật khẩu. "Mặt nạ" là trộm danh tính, lấy thẻ của người khác để tiêu. Còn "Friendly Fraud" - Gian lận thân thiện là sao ạ? Nghe tên mâu thuẫn thế ạ?
+Người 1: "Gian lận thân thiện" là cơn ác mộng của các chủ shop. Đó là khi khách hàng mua hàng thật, nhận hàng thật, nhưng lại gọi lên ngân hàng báo là "Tôi không mua, thẻ tôi bị hack" để đòi hoàn tiền (Chargeback). Gọi là "thân thiện" vì kẻ gian lận chính là khách hàng thật của mình. Đây là bài toán quản trị rủi ro rất đau đầu: Cứng quá thì mất khách, mềm quá thì mất tiền.
+
+Slide 9: MÃ HÓA DỮ LIỆU (SSL/TLS & HTTPS)
+Người 1: Để chống lại kẻ trộm nghe lén trên đường truyền, chúng ta cần Slide 9: Giao thức SSL/TLS. Em hãy nhìn vào thanh địa chỉ trình duyệt, chữ HTTPS và cái Ổ khóa màu xanh. Sự khác biệt giữa HTTP (không có S) và HTTPS (có S) là gì?
+Người 2: Em chỉ biết có "S" là Secure (An toàn). Nhưng cụ thể nó bảo vệ thế nào ạ?
+Người 1: Hãy tưởng tượng:
+• HTTP: Giống như em gửi một tấm bưu thiếp (postcard). Bác đưa thư, hàng xóm, ai cầm vào cũng đọc được nội dung em viết gì.
+• HTTPS: Giống như em bỏ thư vào một chiếc két sắt, khóa lại rồi mới gửi đi. Chỉ người có chìa khóa (Server đích) mới mở được. Dù hacker có chặn được đường truyền, họ cũng chỉ thấy một cái két sắt đóng kín chứ không thấy số thẻ tín dụng của em.
+
+Slide 10: CÔNG NGHỆ TOKENIZATION (MÃ HÓA THẺ)
+Người 1: Nhưng nếu hacker tấn công thẳng vào kho dữ liệu của Tiki hay Shopee thì sao? Lúc đó HTTPS vô dụng. Đó là lý do chúng ta cần Slide 10: Tokenization (Token hóa). Em nhìn xem, số thẻ 4454... đã biến thành chuỗi ký tự vô nghĩa TK99.... Tại sao làm vậy?
+Người 2: À, em hiểu rồi. Giống như đi Casino đổi tiền thật lấy "Phỉnh" (Chip) nhựa đúng không ạ? Nếu trộm cướp được đống nhựa đó mang ra ngoài Casino thì cũng không tiêu được?
+Người 1: So sánh xuất sắc! Token chính là những đồng "phỉnh" đó. Các sàn TMĐT không hề lưu số thẻ thật của em (để tránh rủi ro lộ lọt). Họ chỉ lưu các Token vô nghĩa. Nếu hacker có hack được cơ sở dữ liệu của Shopee, hắn chỉ nhận được một đống Token phế liệu, không thể dùng để rút tiền ngân hàng được.
+
+Slide 11: XÁC THỰC ĐA YẾU TỐ (2FA & 3D SECURE)
+Người 1: Đến chốt chặn cuối cùng ở Slide 11. Khi em thanh toán, ngân hàng gửi mã OTP về điện thoại. Đây gọi là 3D Secure hay Xác thực 2 yếu tố (2FA). Tại sao nhập đúng mật khẩu rồi vẫn bắt nhập OTP cho phiền phức?
+Người 2: Chắc để đảm bảo chính chủ ạ. Vì mật khẩu thì có thể bị lộ, nhưng điện thoại thì đang cầm trên tay mình.
+Người 1: Đúng vậy. Bảo mật dựa trên 3 yếu tố:
+1. Cái em biết: Mật khẩu (Password).
+2. Cái em có: Điện thoại/Thẻ sim (OTP).
+3. Cái là chính em: Vân tay/FaceID (Sinh trắc học). Một giao dịch an toàn phải kết hợp ít nhất 2 trong 3 yếu tố này. Dù hacker biết mật khẩu (yếu tố 1) nhưng không có điện thoại của em (yếu tố 2) thì vẫn chịu thua.
+
+Slide 12: CHỨNG CHỈ PCI DSS (TIÊU CHUẨN VÀNG)
+Người 1: Slide 12 giới thiệu một thuật ngữ em sẽ thấy ở chân trang mọi web bán hàng lớn: PCI DSS. Đây không phải công nghệ, mà là một Tiêu chuẩn.
+Người 2: Nó giống như chứng chỉ ISO hay giấy phép vệ sinh an toàn thực phẩm đúng không thầy?
+Người 1: Rất chính xác. PCI DSS (Payment Card Industry Data Security Standard) là "giấy phép hành nghề" cho các doanh nghiệp muốn chấp nhận thanh toán thẻ. Nó gồm 12 yêu cầu khắt khe: Tường lửa thế nào, diệt virus ra sao, ai được truy cập dữ liệu... Nếu doanh nghiệp không đạt chuẩn này mà để lộ thông tin thẻ, họ sẽ bị phạt cực nặng và cấm thanh toán vĩnh viễn.
+
+Slide 13: BÀI TẬP TÌNH HUỐNG (CASE STUDY)
+Người 1: Chúng ta cùng giải quyết một tình huống thực tế ở Slide 13. Tình huống: Bạn A nhận được email từ "Dịch vụ hỗ trợ Shopee" thông báo: "Tài khoản của bạn có dấu hiệu lạ, vui lòng click vào link này để xác thực lại mật khẩu và số thẻ". Giao diện web trong link giống hệt Shopee thật. Câu hỏi: Đây là loại tấn công gì? Dấu hiệu nhận biết là gì?
+Người 2: Dạ, đây chắc chắn là Phishing (Lừa đảo). Dấu hiệu là email yêu cầu cung cấp thông tin nhạy cảm (mật khẩu/thẻ). Em nghĩ mình cần nhìn kỹ cái đường link (URL) xem có đúng là shopee.vn không hay là shopeee.vn hay xac-thuc-shopee.com.
+Người 1: Rất tỉnh táo! Ngoài check URL, hãy nhớ nguyên tắc quản trị: Không bao giờ ngân hàng hay sàn TMĐT chủ động yêu cầu khách hàng cung cấp mật khẩu/OTP qua email hay tin nhắn. Đó luôn là lừa đảo.
+
+Slide 14: TỔNG KẾT & KEY TAKEAWAYS
+Người 1: Chúng ta khép lại chương này với Slide 14. Thông điệp cuối cùng thầy muốn gửi gắm: "Bảo mật và Tiện lợi là hai thái cực đối lập".
+• Bảo mật quá cao (hỏi password 3 lần, OTP 2 lần) => Khách hàng nản, bỏ đi (Tỷ lệ chuyển đổi thấp).
+• Tiện lợi quá mức (không cần mật khẩu) => Rủi ro mất tiền cao.
+Người 2: Vậy làm sao cân bằng ạ?
+Người 1: Đó là nghệ thuật của người quản trị TMĐT. Chúng ta dùng công nghệ (Tokenization, AI phát hiện gian lận ngầm) để bảo vệ khách hàng một cách "vô hình", chỉ kích hoạt rào cản (OTP) khi thực sự thấy nghi ngờ. Bài tập về nhà: Hãy kiểm tra xem ví điện tử của các em đã bật xác thực vân tay/FaceID chưa nhé. Cảm ơn cả lớp!
+

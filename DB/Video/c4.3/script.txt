@@ -1,0 +1,82 @@
+﻿Slide 1: BỨC TRANH TOÀN CẢNH: CÔNG NGHỆ SỐ VÀ MÔI TRƯỜNG | TIẾT 3/3
+Người 1: Chào các em. Chào mừng các em đến với Tiết 3 của Module 4. Hôm nay, chúng ta sẽ bàn về một chủ đề rất nóng hổi: "Công Nghệ Số và Môi Trường". Các em thử nhìn quanh mình xem, từ chiếc điện thoại thông minh, laptop, đến việc gọi đồ ăn trực tuyến, công nghệ số đã hiện diện trong mọi ngóc ngách của đời sống.
+Người 2: Thưa thầy, công nghệ mang lại nhiều lợi ích như vậy, nhưng em nghe nói nó cũng gây ô nhiễm lắm đúng không ạ?
+Người 1: Đúng vậy em. Mối quan hệ này giống như một chiếc cán cân hai mặt: một bên là việc chúng ta đang đánh đổi sức khỏe của môi trường, bên kia công nghệ lại là công cụ đột phá để bảo vệ hành tinh. Vấn đề cốt lõi là để đánh giá "dấu chân môi trường", ta không thể chỉ nhìn vào chiếc điện thoại, mà phải nhận diện toàn diện hệ sinh thái số bao gồm: Phần cứng, Phần mềm, Mạng lưới và Dữ liệu.
+
+Slide 2: “CHẤT LIỆU” CỦA HỆ SINH THÁI SỐ VÀ DẤU CHÂN MÔI TRƯỜNG
+Người 2: Em cứ nghĩ phần mềm hay dữ liệu chỉ là những đoạn mã vô hình trên mạng thôi, sao chúng lại ảnh hưởng đến môi trường được ạ?
+Người 1: Đó là một lầm tưởng rất phổ biến! Ở slide 2 này, ta sẽ xem xét "chất liệu" của thế giới số. Thứ nhất là Phần cứng, tức là các thiết bị vật lý như máy tính, điện thoại. Tác động của chúng rất rõ ràng: đòi hỏi khai thác tài nguyên, tiêu thụ điện để sản xuất và cuối cùng trở thành rác thải.
+Người 1: Thứ hai là Phần mềm. Dù vô hình và dùng để kiểm soát phần cứng, nhưng để chạy được các dòng lệnh, phần mềm yêu cầu tài nguyên tính toán và gián tiếp tiêu tốn năng lượng vận hành. Cuối cùng là Mạng và Dữ liệu. Các dịch vụ đám mây thực chất không nằm trên trời, chúng nằm ở các máy chủ khổng lồ dưới mặt đất, yêu cầu hạ tầng truyền tải liên tục và tiêu tốn năng lượng lưu trữ khổng lồ.
+
+Slide 3: TÁC ĐỘNG TIÊU CỰC (1) - TIÊU THỤ NĂNG LƯỢNG VÀ KHÍ THẢI SỐ
+Người 2: Ra là vậy. Vậy những trung tâm dữ liệu đó tiêu thụ điện nhiều đến mức nào thưa thầy?
+Người 1: Chuyển sang slide 3, chúng ta sẽ thấy con số giật mình. Các Trung tâm dữ liệu được xem là "trái tim" của thế giới số, chúng đang tiêu thụ từ một đến ba phần trăm tổng điện năng toàn cầu. Để hệ thống hoạt động và làm mát hai mươi tư trên bảy, chúng phát thải ra một lượng khí xê ô hai khổng lồ từ năng lượng hóa thạch.
+Người 2: Thế còn mạng lưới Internet nhà mình thì sao ạ? Cục phát wifi nhà em cắm điện suốt ngày đêm.
+Người 1: Chính xác! Hệ thống cáp quang, trạm phát sóng và hàng tỷ thiết bị luôn kết nối tạo ra mức tiêu thụ điện thường xuyên và liên tục. Đặc biệt, nếu em từng nghe đến việc khai thác tiền điện tử, quá trình "đào" này yêu cầu sức mạnh tính toán cực lớn, tiêu thụ lượng điện tương đương với cả một quốc gia nhỏ và để lại dấu chân các bon ở mức báo động.
+
+Slide 4: TÁC ĐỘNG TIÊU CỰC (2) - KHỦNG HOẢNG RÁC THẢI ĐIỆN TỬ (E-WASTE)
+Người 2: Nghe thật đáng sợ. Thêm nữa, em thấy bây giờ điện thoại mới ra liên tục, mọi người đổi máy tính, đổi điện thoại rất nhanh. Máy cũ bỏ đi thì sẽ thành rác phải không thầy?
+Người 1: Đúng vậy, đó là tác động tiêu cực thứ hai ở slide 4: Khủng hoảng rác thải điện tử. Chỉ tính riêng năm hai không mười chín, do chu kỳ nâng cấp thiết bị quá ngắn, toàn cầu đã tạo ra năm mươi ba phẩy sáu triệu tấn rác thải điện tử. Tồi tệ hơn, tỷ lệ được thu gom và tái chế đúng cách chỉ đạt mười bảy phẩy bốn phần trăm, phần lớn còn lại bị chôn lấp hoặc xuất khẩu.
+Người 2: Rác điện tử có độc hại như rác thải nhựa không ạ?
+Người 1: Độc hại hơn rất nhiều em ạ. Mối nguy độc hại đến từ việc chúng chứa các kim loại nặng như chì, thủy ngân và cát mi-um. Hậu quả của việc tháo dỡ, đốt hay chôn lấp sai quy cách là gây ô nhiễm đất, nước, không khí và đe dọa trực tiếp đến sức khỏe con người.
+
+Slide 5: TÁC ĐỘNG TIÊU CỰC (3) - KHAI THÁC TÀI NGUYÊN VÀ HIỆU ỨNG REBOUND
+Người 1: Chưa dừng lại ở đó, slide 5 đề cập đến tác động thứ ba: Vắt kiệt tài nguyên. Về mặt sinh thái, việc khai thác kim loại quý và đất hiếm để làm linh kiện gây phá rừng, xói mòn và ô nhiễm nước. Về mặt xã hội, nó gây ra vấn nạn "kim loại xung đột" từ các vùng giao tranh và nguy cơ sử dụng lao động trẻ em. Nhưng điều đáng nói nhất là Hiệu ứng Vòng lặp, hay còn gọi là hiệu ứng Rì-bao (Rebound Effect).
+Người 2: Hiệu ứng Vòng lặp là sao ạ? Em thấy công nghệ ngày càng cải tiến thì phải tiết kiệm điện hơn chứ?
+Người 1: Lý thuyết là vậy, nhưng thực tế lại khác. Việc cải thiện hiệu quả công nghệ giúp giảm chi phí sử dụng, nhưng vì rẻ và tiện nên nó lại khuyến khích chúng ta sử dụng nhiều hơn. Thầy lấy ví dụ: Việc họp trực tuyến giúp giảm lượng khí thải từ máy bay và xe cộ. Nhưng vì nó quá tiện lợi, số lượng các cuộc họp lại gia tăng chóng mặt. Kết quả là làm tăng vọt điện năng tiêu thụ tại các trung tâm dữ liệu. Đó là một vòng lặp rất khó giải quyết!
+
+Slide 6: TÁC ĐỘNG TÍCH CỰC (1) – GIÁM SÁT VÀ QUẢN LÝ MÔI TRƯỜNG
+Người 2: Nghe những tác động tiêu cực xong em thấy bi quan quá thầy ạ. Chẳng lẽ công nghệ chỉ mang lại toàn rủi ro cho môi trường thôi sao?
+Người 1: Không hẳn đâu em. Giống như chiếc cán cân thầy nói lúc đầu, ở mặt bên kia, công nghệ lại là 'hiệp sĩ' bảo vệ môi trường. Slide sáu sẽ mở đầu cho loạt tác động tích cực này. Đầu tiên là khả năng giám sát và quản lý môi trường. Việc thu thập dữ liệu theo thời gian thực mang lại cái nhìn sâu sắc và kịp thời về hành tinh.
+Người 2: Giám sát bằng cách nào ạ? Em thấy không khí hay nước đều rất khó đo lường liên tục.
+Người 1: Đó là lúc hệ thống vạn vật kết nối, hay còn gọi là Ai Ô Ti (IoT), và cảm biến thông minh phát huy tác dụng. Chúng được đặt tại các đô thị hay sông hồ để liên tục đo nồng độ bụi mịn Pê Mờ hai phẩy năm, khí xê ô hai hay các hóa chất độc hại nhằm mục đích cảnh báo. Ở tầm vĩ mô, chúng ta có vệ tinh ngoài không gian theo dõi toàn cảnh biến đổi khí hậu như băng tan hay nước biển dâng. Ở tầm vi mô, những thiết bị bay không người lái, hay Đờ-rôn (Drone), có thể quét các khu vực xa xôi để phát hiện nạn phá rừng hoặc sự cố tràn dầu.
+
+Slide 7: TÁC ĐỘNG TÍCH CỰC (2) - BẢO TỒN SINH HỌC VÀ DỰ BÁO THIÊN TAI
+Người 2: Vậy còn việc bảo vệ các loài động vật hoang dã thì sao ạ? Em hay đọc tin tức về nạn săn trộm.
+Người 1: Công nghệ cũng giải quyết được vấn đề này em ạ, đó là nội dung của Slide bảy. Các nhà bảo tồn sử dụng công nghệ Gờ Y Ét (GIS) và viễn thám để lập bản đồ, phát hiện cháy rừng. Đặc biệt, người ta còn gắn vòng cổ định vị Gờ Pê Ét (GPS) và dùng Trí tuệ nhân tạo để phân tích âm thanh trong rừng. Chỉ cần có tiếng cưa máy hay tiếng súng vang lên, hệ thống sẽ lập tức cảnh báo để chống lại lâm tặc và những kẻ săn trộm.
+Người 1: Chưa hết đâu, công nghệ còn giúp dự báo thiên tai rất hiệu quả. Bằng cách dùng siêu máy tính, Dữ liệu lớn và Trí tuệ nhân tạo để xử lý dữ liệu khí tượng, chúng ta có thể dự báo chính xác bão, lũ lụt hay sóng thần. Hơn thế nữa, mạng di động và hệ thống Ai Ô Ti (IoT) sẽ tự động gửi cảnh báo khẩn cấp trực tiếp đến điện thoại của từng người dân, giúp tối ưu hóa việc sơ tán và giảm thiểu tối đa thiệt hại.
+
+Slide 8: TÁC ĐỘNG TÍCH CỰC (3) - TỐI ƯU HÓA TÀI NGUYÊN
+Người 2: Hay quá thầy. Em còn nghe nói công nghệ giúp tiết kiệm điện ở các tòa nhà lớn nữa, có đúng không ạ?
+Người 1: Hoàn toàn chính xác! Slide tám sẽ nói về việc Tối ưu hóa tài nguyên thông qua Năng lượng và Đô thị thông minh. Các hệ thống lưới điện thông minh giúp cân bằng cung cầu, tích hợp hiệu quả điện mặt trời và điện gió. Các tòa nhà thông minh có thể tự động điều chỉnh ánh sáng và nhiệt độ theo nhu cầu của người dùng, giúp giảm đến bảy mươi phần trăm lượng điện năng tiêu thụ.
+Người 2: Vậy trong nông nghiệp thì sao ạ? Nông nghiệp thì cũng có nông nghiệp thông minh đúng không thầy?
+Người 1: Chắc chắn rồi. Nông nghiệp thông minh đang là xu hướng rất phát triển. Cảm biến Ai Ô Ti (IoT) được sử dụng để tự động hóa việc tưới tiêu và bón phân cực kỳ chính xác. Người ta còn dùng thiết bị bay không người lái (Drone) và Trí tuệ nhân tạo (AI) để bay quét qua cánh đồng, phát hiện sớm sâu bệnh và chỉ xịt thuốc đúng cục bộ chỗ đó thôi. Việc này vừa giúp giảm lượng hóa chất độc hại thải ra môi trường, lại vừa tăng năng suất cây trồng.
+
+Slide 9: TÁC ĐỘNG TÍCH CỰC (4) - GIAO THÔNG VÀ NÂNG CAO NHẬN THỨC
+Người 1: Sang Slide chín, ta bàn về Giao thông thông minh và Nâng cao nhận thức. Trong giao thông, camera, cảm biến và Trí tuệ nhân tạo được dùng để điều khiển đèn tín hiệu giao thông một cách thông minh. Việc tối ưu luồng xe này giúp giảm hẳn ùn tắc và khí thải các bon. Bên cạnh đó, việc phát triển phương tiện xanh như xe điện, xe tự lái và các ứng dụng chia sẻ xe như Gờ-ráp (Grab), U-bơ (Uber) cũng góp phần làm sạch không khí và tiết kiệm nhiên liệu.
+Người 2: Phương tiện xanh thì em thấy nhiều rồi. Còn mảng giáo dục và truyền thông thì đóng góp thế nào ạ?
+Người 1: Rất lớn đó em. Các nền tảng học trực tuyến, hay E-learning như Coursera, edX, và đặc biệt là mạng xã hội, giúp lan tỏa thông điệp bảo vệ môi trường cực kỳ nhanh chóng. Em có nhớ phong trào dọn rác với hashtag Tờ-rát-tác (#Trashtag) không? Đặc biệt, công nghệ Thực tế ảo (VR) hay Thực tế tăng cường (AR) mang lại những trải nghiệm thực tế về sự tàn phá hệ sinh thái, giúp nâng cao nhận thức một cách trực quan nhất.
+
+Slide 10: TÁC ĐỘNG TÍCH CỰC (5) - KINH TẾ TUẦN HOÀN VÀ KHOA HỌC CÔNG DÂN
+Người 2: Càng nghe càng thấy công nghệ số mang lại nhiều giải pháp tuyệt vời thầy ạ.
+Người 1: Và Slide mười sẽ khép lại phần tác động tích cực này với Kinh tế tuần hoàn và Khoa học công dân. Nền tảng số đang giúp kết nối trực tiếp người thu gom tái chế với người dùng vật liệu. Người ta còn dùng công nghệ Bờ-lốc-chên (Blockchain) để truy xuất nguồn gốc, đảm bảo chuỗi cung ứng được minh bạch và bền vững.
+Người 2: Vậy một công dân bình thường có thể dùng công nghệ để đóng góp gì cho môi trường không ạ?
+Người 1: Đó chính là lĩnh vực Khoa học công dân. Chỉ với các ứng dụng di động như Ai-Nát-tu-ra-lít (iNaturalist), em đã biến thành một nhà quan sát thực thụ. Bất cứ ai cũng có thể báo cáo ô nhiễm, hay đóng góp dữ liệu về đa dạng sinh học thông qua điện thoại. Cuối cùng, công nghệ còn hỗ trợ gây quỹ cộng đồng, giúp dễ dàng huy động tài chính từ công chúng để tài trợ cho các dự án thiết thực như trồng rừng hay lọc rác đại dương.
+
+Slide 11: GIẢI PHÁP BẢO VỆ MÔI TRƯỜNG: CẤP ĐỘ CÁ NHÂN (PHẦN 1)
+Người 2: Nghe thầy phân tích em thấy mình cũng có một phần trách nhiệm trong đó. Vậy ở cấp độ một cá nhân như em, em có thể làm gì để bảo vệ môi trường số ngay từ bây giờ ạ?
+Người 1: Em hỏi rất đúng trọng tâm! Slide mười một sẽ chỉ ra những việc em nên làm và cần tránh đối với các thiết bị phần cứng. Đầu tiên, em hãy ưu tiên sử dụng thiết bị lâu dài. Thay vì cứ mỗi năm lại chạy theo xu hướng đổi điện thoại mới một lần, hãy đem đi sửa chữa khi chúng hỏng hóc.
+Người 2: Thế nếu máy đã quá cũ, không thể sửa được nữa thì sao thầy? Mình vứt đi đâu ạ?
+Người 1: Đây là điểm cực kỳ quan trọng! Em tuyệt đối không được vứt thiết bị điện tử, pin hay cục sạc vào thùng rác sinh hoạt chung với rác nilon hay thức ăn thừa. Thay vào đó, hãy mang chúng đến các điểm thu gom rác thải điện tử chuyên dụng, các trung tâm tái chế, hoặc tham gia các chương trình thu hồi của chính nhà sản xuất.
+
+Slide 12: GIẢI PHÁP BẢO VỆ MÔI TRƯỜNG: CẤP ĐỘ CÁ NHÂN (PHẦN 2)
+Người 1: Sang slide mười hai, chúng ta bàn về cách sử dụng năng lượng và dữ liệu hàng ngày. Về năng lượng, hãy tập thói quen rút sạc khi pin đã đầy, tắt cục phát wai-fai (Wi-Fi) vào ban đêm và bật chế độ Ngủ (Sleep) cho máy tính khi không dùng. Khi mua đồ mới, hãy ưu tiên các thiết bị có chứng nhận tiết kiệm điện, ví dụ như nhãn Ngôi Sao Năng Lượng (Energy Star).
+Người 2: Em hiểu rồi. Còn phần tiêu dùng 'Đám Mây' là sao ạ?
+Người 1: Tiêu dùng đám mây nghĩa là em quản lý dữ liệu ảo của mình đó. Thỉnh thoảng, em hãy dọn dẹp các tệp tin, hình ảnh bị trùng lặp hoặc email cũ trên Gù-gồ Đờ-rai (Google Drive) hay Đờ-róp-bóc (Dropbox). Hơn nữa, khi xem phim trực tuyến trên Diu-túp (YouTube) hay Nét-phờ-lích (Netflix), nếu chỉ xem trên màn hình nhỏ, em hãy chủ động giảm độ phân giải video xuống mức tiêu chuẩn thay vì để mức 4K (Bốn Ca). Một thao tác nhỏ vậy thôi nhưng giúp giảm tải cực lớn cho các trung tâm dữ liệu đấy!
+Người 2: Hay quá, em sẽ về dọn dẹp lại cái hòm thư của em ngay. Và chắc chắn em sẽ lan tỏa nhận thức này đến gia đình mình.
+
+Slide 13: GIẢI PHÁP VĨ MÔ: CẤP ĐỘ QUỐC GIA VÀ TỔ CHỨC
+Người 2: Nhưng thưa thầy, nỗ lực cá nhân thì tốt, nhưng em nghĩ nó giống như 'muối bỏ bể' nếu các tập đoàn công nghệ lớn không thay đổi.
+Người 1: Em nói rất đúng. Đó là lý do slide mười ba đề cập đến các giải pháp vĩ mô ở cấp độ quốc gia và tổ chức. Hãy nhìn vào mô hình kim tự tháp này. Ở tầng chóp là Giáo dục, chúng ta cần đưa khái niệm 'Công dân số xanh' vào chương trình giảng dạy quốc gia, giống như chúng ta đang học hôm nay vậy.
+Người 1: Ở tầng giữa là Năng lượng và Chuỗi cung ứng. Nhà nước có thể áp dụng ưu đãi thuế cho các 'Trung tâm dữ liệu xanh' dùng năng lượng mặt trời. Đồng thời, bắt buộc các hãng công nghệ phải công bố 'Chỉ số khả năng sửa chữa' trên từng sản phẩm và kiểm soát gắt gao nguồn gốc khoáng sản. Cuối cùng, tầng nền tảng là Khuôn khổ pháp lý. Cần ban hành luật 'Trách nhiệm mở rộng của nhà sản xuất', gọi tắt là E Pê Rờ (EPR), buộc họ phải thu hồi và tái chế sản phẩm cũ, đồng thời nghiêm cấm việc xuất khẩu rác thải điện tử sang các nước nghèo.
+
+Slide 14: TỔNG KẾT MODULE 4: 4 TRỤ CỘT AN TOÀN SỐ
+Người 1: Và bây giờ, ở slide mười bốn, chúng ta sẽ tổng kết lại toàn bộ Module số bốn. Xuyên suốt các tiết học, chúng ta đã hướng tới một mục tiêu chung: Xây dựng một 'Môi Trường Số An Toàn và Bền Vững'. Môi trường này được nâng đỡ bởi bốn trụ cột cốt lõi.
+Người 2: Bốn trụ cột đó là gì thầy nhỉ, để em ghi chú lại cho dễ nhớ ạ.
+Người 1: Trụ cột một: Bảo vệ thiết bị. Các em phải dùng đa lớp bảo mật như diệt vi-rút, tường lửa và bảo mật hai lớp. Trụ cột hai: Bảo vệ dữ liệu cá nhân, biết cách tôn trọng quyền riêng tư và phòng chống lừa đảo trên mạng. Trụ cột ba: Sức khỏe và an sinh số. Hãy nhớ áp dụng quy tắc hai mươi, hai mươi, hai mươi để bảo vệ mắt, giữ tâm lý cân bằng và hành xử có văn hóa. Cuối cùng, trụ cột bốn chính là bài hôm nay: Bảo vệ môi trường số thông qua tiêu dùng xanh và công nghệ bền vững.
+
+Slide 15: ÔN TẬP VÀ CHUẨN BỊ KIỂM TRA GIỮA KỲ 1
+Người 1: Khép lại tiết học hôm nay, slide mười lăm là lộ trình ôn tập để các em chuẩn bị cho bài Kiểm tra giữa kỳ một sắp tới.
+Người 2: Ôi, sắp thi rồi ạ? Trọng tâm ôn tập là những phần nào thưa thầy?
+Người 1: Các em cần hệ thống hóa lại kiến thức từ Module một đến Module bốn. Bao gồm kỹ năng khai thác, giao tiếp và hợp tác số. Chú ý ôn kỹ cách nhận diện rủi ro, bảo vệ an toàn thông tin cá nhân. Đừng quên nguyên tắc sáng tạo nội dung và thực thi bản quyền số nhé. Hãy chuẩn bị thật tốt theo kế hoạch học phần. Thầy muốn gửi gắm đến các em một thông điệp: "Hãy vận dụng những kiến thức đã học để trở thành những công dân số thông thái, an toàn và trách nhiệm!". Chúc các em ôn thi hiệu quả!
+

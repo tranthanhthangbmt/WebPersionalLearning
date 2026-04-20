@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-width=1.0">
+    <title>Knowledge Tree 3D Visualizer</title>
+    <!-- Thư viện 3D Force Graph WebGL -->
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <!-- Font chữ hiện đại -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui-overlay">
+        <header>
+            <h1>Knowledge Galaxy</h1>
+            <p class="subtitle">Thương mại điện tử &bull; Đồ thị Không Gian Tri Thức</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Tìm kiếm bài học, chương...">
+            <button id="searchBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+            <div id="searchSuggestions" class="suggestions-dropdown hidden"></div>
+        </div>
+
+        <div id="info-panel" class="hidden">
+            <h2 id="info-title">Tiêu đề Node</h2>
+            <div class="badge" id="info-type">Loại</div>
+            <div class="meta" id="info-meta"></div>
+            <p id="info-desc">Nội dung chi tiết sẽ xuất hiện ở đây...</p>
+            <button class="action-btn">Vào Học Ngay</button>
+        </div>
+        
+        <div class="legend">
+            <div class="legend-item"><span class="dot" style="background:#00ffcc"></span> Chương lớn (Macro)</div>
+            <div class="legend-item"><span class="dot" style="background:#ffaa00"></span> Bài học (Micro)</div>
+            <div class="legend-item"><span class="dot" style="background:#ff3366"></span> Đánh giá (Assess)</div>
+        </div>
+    </div>
+
+    <div id="3d-graph"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

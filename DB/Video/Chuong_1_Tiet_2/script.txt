@@ -1,0 +1,93 @@
+﻿Slide 1: BẢN ĐỒ DẪN ĐƯỜNG - TIẾT 2 (Nội dung Slide: Lộ trình 3 phần: Phân tích la bàn chiến lược, Hiểu dòng chảy vận hành, Khám phá vùng đất mới)
+Người 1: Chào mừng các bạn đến với Tiết 2 của Chương 1. Slide này vẽ ra lộ trình chúng ta sẽ đi qua. Chúng ta sẽ tập trung vào 3 trạm dừng chân chính. Đặc biệt, thầy muốn các bạn chú ý đến trạm giữa: “Hiểu dòng chảy vận hành”. Ở đây có hai từ khóa cực kỳ quan trọng trong Chuỗi cung ứng: Push (Đẩy) và Pull (Kéo). Theo em hiểu nôm na, sự khác biệt giữa việc “Đẩy hàng ra thị trường” và “Kéo khách hàng về” là gì?
+Người 2: Dạ, theo em hiểu: “Đẩy” (Push) là kiểu ngày xưa, nhà máy cứ sản xuất đại trà rồi đem ra chợ mời chào, ai mua thì mua. Còn “Kéo” (Pull) là kiểu TMĐT bây giờ, có đơn hàng rồi mới làm, hoặc sản xuất dựa trên nhu cầu thực tế của khách đúng không thầy?
+Người 1: Rất có tư duy hệ thống! Mô hình truyền thống là “Make-to-Stock” (Làm để tồn kho - Đẩy). Mô hình TMĐT hiện đại chuyển dịch sang “Make-to-Order” (Làm theo đơn hàng - Kéo) hoặc định hướng nhu cầu. Điều này giúp giảm rủi ro tồn kho chết - cơn ác mộng của mọi doanh nghiệp. Chúng ta sẽ “mổ xẻ” kỹ hơn ở các slide sau.
+
+Slide 2: CÚ SỐC ĐẦU TIÊN – SHOWROOMING (Nội dung Slide: Một người đàn ông đang xem giày tại cửa hàng nhưng cầm điện thoại để mua online giá $21)
+Người 1: Nhưng trước khi nói về thành công, hãy nói về “nỗi đau” của các doanh nghiệp truyền thống. Slide 2 mô tả một hiện tượng gọi là Showrooming. Hãy nhìn hành động của người đàn ông trong hình. Anh ta đang làm gì?
+Người 2: Dạ, anh ta đang ở trong cửa hàng giày xịn, đèn đóm sáng trưng. Anh ta cầm đôi giày lên ngắm nghía, thử size cho vừa chân. Nhưng thay vì ra quầy tính tiền, anh ta lại rút điện thoại ra đặt mua đôi giày y hệt trên mạng với giá 21 đô rẻ hơn. Rồi anh ta đi về tay không.
+Người 1: Đúng vậy. Cửa hàng vật lý đã vô tình trở thành “phòng thử đồ miễn phí” cho các đối thủ Online. Tại sao đây lại là “thách thức quản trị” sống còn? Vì cửa hàng vật lý phải trả tiền thuê mặt bằng, tiền điện, tiền lương nhân viên để phục vụ anh ta thử giày. Còn đối thủ Online không tốn những chi phí đó nên bán rẻ hơn. Doanh nghiệp truyền thống mất cả chì lẫn chài. Theo em, nếu em là chủ cửa hàng đó, em sẽ làm gì để chặn đứng hành vi này? Cấm khách dùng điện thoại ư?
+Người 2: Dạ cấm thì khách ghét, họ bỏ đi luôn. Chắc là mình phải khớp giá (price matching) hoặc tặng thêm dịch vụ gì đó ngay tại chỗ để họ mua luôn, đỡ phải chờ ship ạ. Hoặc là làm như Amazon Go thầy nói hôm trước, kết hợp cả hai.
+Người 1: Rất thông minh. Đó chính là lý do phải chuyển đổi số để sinh tồn.
+
+Slide 3: QUY LUẬT #1 - SỰ PHỔ QUÁT (UBIQUITY) (Nội dung Slide: So sánh Cửa hàng truyền thống bị giới hạn thời gian/địa điểm với TMĐT hoạt động 24/7)
+Người 1: Để chiến thắng trong cuộc chiến này, chúng ta phải thấu hiểu vũ khí của TMĐT. Vũ khí đầu tiên trên Slide 3: Tính Phổ quát (Ubiquity). Hãy so sánh hai cột trên slide. Sự khác biệt lớn nhất về “trạng thái hoạt động” là gì?
+Người 2: Dạ, cột bên trái (Truyền thống) thì bị “xích” chân tại một địa điểm và chỉ mở cửa theo giờ hành chính. Cột bên phải (TMĐT) thì hoạt động 24/7 và có mặt ở mọi nơi.
+Người 1: Đúng vậy. Giá trị quản trị ở đây là gì? Đó là việc giảm chi phí tìm kiếm (search costs) cho khách hàng. Thử tưởng tượng: 2 giờ sáng, em thèm ăn một món vặt. Nếu là ngày xưa, em phải chịu đói hoặc chạy xe lòng vòng tìm quán mở đêm (chi phí tìm kiếm cao). Nay em chỉ cần mở GrabFood lên (chi phí tìm kiếm gần bằng 0). Với doanh nghiệp, điều này có nghĩa là “cửa hàng” của em đang nằm trong túi quần của khách hàng, mọi lúc mọi nơi.
+
+Slide 4: QUY LUẬT #2 - TOÀN CẦU & CÁ NHÂN HÓA (Nội dung Slide: Bản đồ thế giới kết nối và Logo Amazon, đề cập đến Global Reach và Personalization)
+Người 1: Vũ khí thứ hai còn lợi hại hơn. Slide 4 trình bày một nghịch lý thú vị: Vừa rộng nhất (Toàn cầu) lại vừa sâu nhất (Cá nhân hóa). Đầu tiên, về Tầm với toàn cầu (Global Reach). Slide nói gì về cơ hội cho các doanh nghiệp nhỏ (SME)?
+Người 2: Dạ, nó nói là nhờ TMĐT, các doanh nghiệp nhỏ có thể tiếp cận khách hàng xuyên biên giới với chi phí thấp. Không cần vốn liếng mở văn phòng ở Mỹ, em vẫn có thể bán hàng sang Mỹ được.
+Người 1: Chính xác. Nhưng cái hay nằm ở vế sau: Cá nhân hóa (Personalization). Em hãy đọc ví dụ về Amazon trên slide. Họ làm gì với dữ liệu khách hàng?
+Người 2: Dạ, họ dựa vào lịch sử mua hàng để gợi ý sản phẩm “đo ni đóng giày” cho từng người. Ví dụ em vừa xem sách kinh tế, họ sẽ gợi ý ngay các cuốn sách quản trị khác.
+Người 1: Ở đây có một nghịch lý được nhắc đến ở cuối slide: Tính ẩn danh (Anonymity). Trên mạng, người bán không biết mặt mũi em ra sao (ẩn danh), nhưng họ lại hiểu rõ sở thích, thói quen và nhu cầu của em hơn cả người bán hàng tạp hóa quen mặt đầu ngõ. Đó là sức mạnh của Dữ liệu lớn (Big Data). Như vậy, TMĐT cho phép chúng ta làm hai việc trái ngược cùng lúc: Bán cho cả thế giới (Mass market), nhưng lại phục vụ riêng biệt từng người (Customization).
+
+Slide 5: CHIẾN LƯỢC CHUỖI CUNG ỨNG - TỪ “ĐẨY” SANG “KÉO”
+Người 1: Chúng ta tiếp tục với sự thay đổi cốt lõi trong vận hành. Các bạn nhìn vào Slide 5, có hai sơ đồ dòng chảy hàng hóa. Một cái là mũi tên đi thẳng từ trái sang phải, một cái là vòng tròn khép kín.
+Theo em, sự khác biệt lớn nhất về tư duy giữa hai hình này là gì?
+Người 2: Dạ, hình ở trên (Mô hình Đẩy) giống như kiểu truyền thống: Nhà máy cứ sản xuất xong đẩy ra kho, rồi đẩy ra cửa hàng, rồi ngồi chờ khách đến mua.
+Còn hình dưới (Mô hình Kéo) thì mũi tên bắt đầu từ Khách hàng ngược về Nhà máy. Có phải là có khách hỏi mua rồi mới làm không ạ?
+Người 1: Rất chính xác! Đó là sự chuyển dịch từ “Guessing” (Đoán nhu cầu) sang “Responding” (Đáp ứng yêu cầu).
+Mô hình Đẩy (Push) dựa trên dự báo. Mà dự báo thì luôn sai số. Nếu em đoán sai, em sẽ bị tồn kho chết, tiền nằm im trong kho.
+Ngược lại, TMĐT cho phép thực hiện Mô hình Kéo (Pull) hay Build-to-order.
+Lợi ích chiến lược ở đây là gì?
+Người 2: Dạ là giảm rủi ro ế hàng và không tốn tiền thuê kho bãi để chứa đống hàng thừa đó ạ.
+Người 1: Đúng vậy. Dell là ví dụ kinh điển cho mô hình này. Họ không lắp sẵn máy tính. Khi em đặt hàng cấu hình cụ thể trên Web, họ mới bắt đầu lắp ráp. Đó là sự linh hoạt tuyệt đối với nhu cầu thị trường.
+
+Slide 6: CÁC GIAI ĐOẠN TIẾN HÓA - NHẬN DIỆN “DNA” SỐ
+Người 1: Từ mô hình vận hành, chúng ta xem xét các hình thái tổ chức của doanh nghiệp trên Slide 6.
+Chúng ta có 3 thuật ngữ tiếng Anh rất hình tượng: Brick-and-mortar, Click-and-mortar và Virtual. Em hãy nhìn biểu tượng và giải thích giúp thầy?
+Người 2: Dạ thưa thầy:
+1. Brick-and-mortar (Gạch và vữa): Biểu tượng ngân hàng truyền thống. Chắc là chỉ những nơi chỉ có cửa hàng vật lý, muốn mua phải đến tận nơi.
+2. Virtual / Pure-play (Thuần trực tuyến): Biểu tượng đám mây. Là những công ty chỉ sống trên mạng, không có cửa hàng ngoài phố, ví dụ như eBay hay Amazon hồi xưa.
+3. Click-and-mortar (Gạch và Click): Biểu tượng ngôi nhà có con chuột máy tính. Là kết hợp cả hai ạ.
+Người 1: Chính xác. Click-and-mortar chính là mô hình lai ghép, sử dụng kênh Online để hỗ trợ cho cửa hàng vật lý.
+Điển hình như Walmart hay ở Việt Nam là Thế Giới Di Động.
+Các bạn lưu ý, xu hướng hiện nay không phải là bỏ “Gạch” để lên “Mây” hoàn toàn, mà là sự kết hợp. Tại sao lại thế? Chúng ta sang slide tiếp theo.
+
+Slide 7: ĐÍCH ĐẾN TỐI THƯỢNG - OMNICHANNEL (ĐA KÊNH HỢP NHẤT)
+Người 1: Slide 7 giới thiệu khái niệm quan trọng nhất của bán lẻ hiện đại: Omnichannel.
+Nhìn vào sơ đồ, em thấy vị trí của Khách hàng ở đâu và các mũi tên đi như thế nào?
+Người 2: Dạ, khách hàng nằm chính giữa. Các mũi tên từ Web, App, Cửa hàng (Physical Store), Mạng xã hội (Social Media) đều nối với nhau và xoay quanh khách hàng.
+Người 1: Đúng. Khác với “Đa kênh” (Multi-channel) là các kênh hoạt động rời rạc, Omnichannel xóa nhòa ranh giới Online và Offline.
+Đặc điểm cốt lõi là trải nghiệm nhất quán và liền mạch.
+Em hãy đọc ví dụ về Zara trên slide và cho thầy biết sự “liền mạch” thể hiện ở đâu?
+Người 2: Dạ ví dụ là: Khách đặt mua trên Web/App nhưng có thể chọn nhận hàng hoặc đổi trả tại bất kỳ cửa hàng nào.
+Nghĩa là bắt đầu ở kênh này (Online) nhưng kết thúc ở kênh kia (Offline) mà không bị gián đoạn.
+Người 1: Chính xác. Điều này giúp khách tiết kiệm phí vận chuyển và thời gian chờ đợi. Đối với nhà quản trị, nó đòi hỏi hệ thống dữ liệu phải đồng bộ theo thời gian thực (Real-time) giữa kho online và kho cửa hàng.
+
+Slide 8: CUỘC ĐỐI ĐẦU CỦA NHỮNG GÃ KHỔNG LỒ
+Người 1: Để minh chứng cho xu hướng Omnichannel, hãy nhìn vào cuộc chuyển mình của hai gã khổng lồ trên Slide 8: Walmart và Amazon.
+Đây là một cuộc đua thú vị. Một kẻ từ “Đất” muốn lên “Mây”, một kẻ từ “Mây” muốn đáp “Đất”.
+Người 2: Dạ em thấy trên slide:
+• Walmart: Xuất phát là “Brick-and-mortar”. Họ chuyển sang “Click-and-mortar” bằng cách tận dụng hệ thống siêu thị khổng lồ làm điểm giao nhận cho đơn hàng Online.
+• Amazon: Xuất phát là “Virtual”. Nhưng giờ họ lại mở cửa hàng vật lý như Amazon Go.
+Người 1: Tại sao Amazon, vua bán hàng online, lại phải tốn tiền mở cửa hàng vật lý làm gì?
+Người 2: Dạ chắc là để đáp ứng nhu cầu trải nghiệm thực tế, “sờ tận tay” của khách hàng mà online không làm được ạ?
+Người 1: Rất đúng. Bài học quản trị ở đây là: Không có mô hình nào là vĩnh viễn.
+Thành công nằm ở khả năng thích ứng linh hoạt. Walmart cần Online để tiện lợi, Amazon cần Offline để tin cậy và trải nghiệm. Cuối cùng, họ gặp nhau ở Omnichannel.
+
+Slide 9: THỬ THÁCH NHANH - PHÂN LOẠI HÀNH TRÌNH MUA SẮM
+Người 1: Để chốt lại phần này, chúng ta cùng làm bài tập nhanh trên Slide 9.
+Thầy sẽ đọc hành vi, các bạn hãy gọi tên mô hình nhé. Trường hợp 1: Chạy ra đầu ngõ mua ổ bánh mì tại tiệm tạp hóa?
+Người 2: Dạ cái này dễ: Brick-and-mortar (Truyền thống) ạ.
+Người 1: Trường hợp 2: Đăng ký thuê bao xem phim trên Netflix?
+Người 2: Sản phẩm số, giao dịch số, giao hàng số. Là Virtual / Pure-play (TMĐT thuần túy) ạ.
+Người 1: Trường hợp 3: Đặt vé máy bay qua App nhưng ra đại lý thanh toán tiền mặt?
+Người 2: Có kết hợp Online và điểm giao dịch vật lý -> Click-and-mortar.
+Người 1: Trường hợp 4: Mua máy tính Dell online và đợi giao tận nhà? (Lưu ý: Hàng hóa vật lý).
+Người 2: Dạ là TMĐT bán phần (Partial E-commerce) ạ.
+Người 1: Cuối cùng: Tải nhạc trên iTunes?
+Người 2: TMĐT thuần túy (Pure E-commerce) ạ.
+Người 1: Rất tốt! Các bạn đã nắm vững cách phân loại để định vị doanh nghiệp rồi. Chúng ta sẽ áp dụng tư duy này vào dự án nhóm nhé.
+
+Slide 10: ĐÚC KẾT HÀNH TRÌNH - TÁI CẤU TRÚC ĐỂ DẪN ĐẦU
+Người 1: Trước khi khép lại phần các mô hình vận hành, thầy muốn các bạn nhìn vào Slide này để ghi nhớ 3 hình ảnh ẩn dụ cốt lõi. Đây là chìa khóa để các bạn phân biệt rõ ràng sự tiến hóa của thương mại.
+Thầy mời một bạn tóm tắt lại 3 cấp độ này dựa trên hình ảnh trên slide?
+Người 2: Dạ thưa thầy, em xin tóm tắt ạ:
+• Thương mại truyền thống: Giống như việc đi bộ ra tiệm tạp hóa. Nó bị giới hạn bởi sức người (mệt) và địa lý (chỉ mua được ở gần nhà).
+• TMĐT bán phần: Giống như chờ shipper gõ cửa. Mình ngồi nhà đặt qua App (thế giới số) nhưng vẫn phải đợi người giao hàng (thế giới vật lý).
+• TMĐT thuần túy: Slide gọi là “Phép thuật”. Vì chỉ cần nhấp chuột là phim, nhạc hay phần mềm hiện ra ngay lập tức, không có độ trễ.
+Người 1: Rất chính xác. Và để đạt được “phép thuật” đó, doanh nghiệp buộc phải tái cấu trúc quy trình từ “Đẩy” (sản xuất rồi bán) sang “Kéo” (bán rồi mới sản xuất/cung cấp).
+Chỉ có mô hình “Kéo” mới giúp chúng ta đạt được tốc độ và sự cá nhân hóa tối đa.
+

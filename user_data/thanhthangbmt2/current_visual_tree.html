@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Galaxy 3D — PKT Bio-Tutor</title>
+    <script src="https://unpkg.com/three@0.141.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph@1.70.16/dist/3d-force-graph.min.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/ShaderPass.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/shaders/CopyShader.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #060714;
+            --glass-bg: rgba(10, 14, 40, 0.75);
+            --glass-border: rgba(255, 255, 255, 0.06);
+            --text-primary: #f0f4ff;
+            --text-muted: #7b8ab8;
+            --accent: #38bdf8;
+            --green: #4ade80;
+            --yellow: #fbbf24;
+            --red: #f87171;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { overflow: hidden; font-family: 'Inter', sans-serif; color: var(--text-primary); background: var(--bg-color); }
+        #3d-graph { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; }
+        .glass-panel { background: var(--glass-bg); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 16px; padding: 20px; pointer-events: auto; }
+        header { position: absolute; top: 24px; left: 24px; pointer-events: none; }
+        header h1 { font-size: 24px; font-weight: 800; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        #dashboard-panel { position: absolute; top: 90px; left: 24px; width: 230px; }
+        .stat-card { background: rgba(255, 255, 255, 0.03); border-radius: 10px; padding: 12px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; border-left: 3px solid transparent; }
+        .stat-label { font-size: 10px; color: var(--text-muted); font-weight: 700; text-transform: uppercase; }
+        .stat-value { font-size: 18px; font-weight: 800; }
+        .legend { position: absolute; bottom: 30px; left: 24px; display: flex; flex-direction: column; gap: 8px; }
+        .legend-item { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 600; color: var(--text-muted); }
+        .legend-item .dot { width: 10px; height: 10px; border-radius: 50%; }
+        #info-panel { position: absolute; top: 24px; right: 24px; width: 320px; max-height: calc(100vh - 48px); overflow-y: auto; transform: translateX(350px); transition: transform 0.5s ease; }
+        #info-panel.visible { transform: translateX(0); }
+        .badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 10px; font-weight: 800; margin-bottom: 12px; }
+        .type-macro { background: rgba(56, 189, 248, 0.15); color: var(--accent); }
+        .resource-list { display: flex; flex-direction: column; gap: 8px; margin-top: 15px; margin-bottom: 15px; max-height: 150px; overflow-y: auto; }
+        .resource-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); transition: 0.2s; font-size: 12px; text-decoration: none; color: var(--text-primary); cursor: pointer; }
+        .resource-item:hover { background: rgba(255,255,255,0.1); border-color: var(--accent); }
+        .play-btn { color: var(--green); opacity: 0.6; transition: 0.2s; display: flex; align-items: center; }
+        .play-btn:hover { opacity: 1; transform: scale(1.2); }
+        .action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
+        .action-btn { background: rgba(255,255,255,0.08); border-radius: 12px; padding: 12px; text-align: center; cursor: pointer; transition: 0.2s; border: 1px solid transparent; }
+        .action-btn:hover { background: rgba(255,255,255,0.12); border-color: var(--accent); }
+        #loading-screen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-color); z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: opacity 0.8s; }
+        .loader-ring { width: 60px; height: 60px; border: 4px solid rgba(56, 189, 248, 0.2); border-top-color: var(--accent); border-radius: 50%; animation: spin 1s infinite linear; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        #toast-container { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 9999; }
+        .toast { background: var(--glass-bg); border: 1px solid var(--accent); padding: 10px 20px; border-radius: 10px; font-size: 13px; font-weight: 600; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body>
+    <div id="loading-screen"><div class="loader-ring"></div><div style="margin-top: 20px; color: var(--accent);">GALAXY BOOTING...</div></div>
+    <div id="3d-graph"></div>
+    <div id="ui-overlay">
+        <header><h1>Knowledge Galaxy</h1></header>
+        <div id="dashboard-panel" class="glass-panel">
+            <div class="stat-card" style="border-left-color: var(--green)"><span class="stat-label">MASTERED</span><span class="stat-value" id="stat-mastered">0</span></div>
+            <div class="stat-card" style="border-left-color: var(--yellow)"><span class="stat-label">LEARNING</span><span class="stat-value" id="stat-learning">0</span></div>
+            <div class="stat-card" style="border-left-color: var(--red)"><span class="stat-label">WEAK</span><span class="stat-value" id="stat-weak">0</span></div>
+        </div>
+        <div class="legend glass-panel">
+            <div class="legend-item"><span class="dot" style="background:var(--accent)"></span> Chương / Topic</div>
+            <div class="legend-item"><span class="dot" style="background:var(--green)"></span> Mastered (&gt;80%)</div>
+            <div class="legend-item"><span class="dot" style="background:var(--yellow)"></span> Developing</div>
+            <div class="legend-item"><span class="dot" style="background:var(--red)"></span> Weak Point</div>
+        </div>
+        <div id="info-panel" class="glass-panel">
+            <div id="info-type" class="badge type-macro">SELECT A NODE</div>
+            <h2 id="info-title">Star Map</h2>
+            <p id="info-desc">Select a node to view details and start learning journey.</p>
+            <div id="node-resources" class="resource-list" style="display: none;"></div>
+            <div id="action-buttons" style="display: none;">
+                <div class="action-grid">
+                    <div class="action-btn" onclick="startAction('video')">📺 VIDEO</div>
+                    <div class="action-btn" onclick="startAction('quiz')">📝 QUIZ</div>
+                    <div class="action-btn" onclick="startAction('ai_tutor')">🤖 AI TUTOR</div>
+                    <div class="action-btn" onclick="startAction('flashcard')">📇 FLASHCARDS</div>
+                </div>
+            </div>
+        </div>
+        <div id="toast-container"></div>
+    </div>
+    <script>
+        const GRAPH_DATA = {"nodes": [{"id": "m1", "next_best": false, "type": "macro", "label": "Tổng quan về Thương mại điện tử", "val": 25, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "m2", "next_best": false, "type": "macro", "label": "Giao dịch điện tử", "val": 25, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "m3", "next_best": false, "type": "macro", "label": "Marketing điện tử", "val": 25, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "m4", "next_best": false, "type": "macro", "label": "An toàn thông tin trong Thương mại điện tử", "val": 25, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "m5", "next_best": false, "type": "macro", "label": "Ứng dụng Thương mại điện tử trong doanh nghiệp", "val": 25, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "c1.1", "next_best": true, "type": "micro", "label": "Khái niệm chung về Thương mại điện tử", "content": "Thương mại điện tử (TMĐT) là hình thức mua bán hàng hóa và dịch vụ thông qua mạng internet. Nó bao gồm các giao dịch điện tử giữa doanh nghiệp với doanh nghiệp (B2B), doanh nghiệp với người tiêu dùng (B2C), và người tiêu dùng với người tiêu dùng (C2C). TMĐT mang lại sự tiện lợi, đa dạng sản phẩm và khả năng tiếp cận thị trường toàn cầu cho cả người bán và người mua.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c1.2", "next_best": false, "type": "micro", "label": "Đặc điểm và phân loại Thương mại điện tử", "content": "TMĐT có đặc điểm nổi bật là không giới hạn không gian, thời gian, tính tương tác cao và khả năng cá nhân hóa. Nó có thể được phân loại dựa trên đối tượng giao dịch (B2B, B2C, C2C, C2B, G2C, G2B) hoặc mức độ số hóa của sản phẩm/quy trình. Việc hiểu rõ các đặc điểm và phân loại giúp doanh nghiệp lựa chọn mô hình phù hợp.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c1.3", "next_best": false, "type": "micro", "label": "Lợi ích và hạn chế của Thương mại điện tử", "content": "Lợi ích của TMĐT bao gồm giảm chi phí, tăng doanh số, mở rộng thị trường và cải thiện dịch vụ khách hàng. Tuy nhiên, TMĐT cũng đối mặt với nhiều hạn chế như vấn đề bảo mật, rủi ro lừa đảo, chi phí đầu tư ban đầu cao và yêu cầu về hạ tầng công nghệ. Cân bằng giữa lợi ích và hạn chế là yếu tố quan trọng để phát triển TMĐT bền vững.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c1.4", "next_best": false, "type": "micro", "label": "Sự phát triển và ảnh hưởng của Thương mại điện tử", "content": "TMĐT đã trải qua quá trình phát triển mạnh mẽ nhờ sự tiến bộ của công nghệ thông tin và internet. Nó đã tạo ra những thay đổi sâu rộng trong các lĩnh vực kinh tế, xã hội, văn hóa và giáo dục. Từ việc thay đổi thói quen mua sắm đến hình thành các mô hình kinh doanh mới, TMĐT liên tục định hình lại cách chúng ta tương tác và giao dịch.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c1.5", "next_best": false, "type": "micro", "label": "Cơ sở hạ tầng cho Thương mại điện tử", "content": "Cơ sở hạ tầng cho TMĐT bao gồm nhiều yếu tố như hạ tầng pháp lý, công nghệ thông tin, thanh toán điện tử, an toàn thông tin, nhân lực và dịch vụ phân phối. Một hệ thống hạ tầng vững chắc là nền tảng thiết yếu để các hoạt động TMĐT diễn ra suôn sẻ và hiệu quả. Thiếu bất kỳ yếu tố nào cũng có thể gây cản trở sự phát triển của TMĐT.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c1.6", "next_best": false, "type": "micro", "label": "Các mô hình kinh doanh Thương mại điện tử", "content": "Có nhiều mô hình kinh doanh TMĐT phổ biến như B2C (doanh nghiệp đến người tiêu dùng), B2B (doanh nghiệp đến doanh nghiệp), C2C (người tiêu dùng đến người tiêu dùng), và C2B (người tiêu dùng đến doanh nghiệp). Mỗi mô hình có đặc điểm, ưu nhược điểm và yêu cầu riêng biệt về chiến lược marketing và vận hành. Việc lựa chọn mô hình phù hợp giúp doanh nghiệp tối ưu hóa hiệu quả kinh doanh.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c1.7", "next_best": false, "type": "micro", "label": "Sàn giao dịch Thương mại điện tử", "content": "Sàn giao dịch TMĐT là một nền tảng trực tuyến nơi người bán và người mua có thể gặp gỡ, trao đổi và thực hiện các giao dịch hàng hóa/dịch vụ. Các sàn này cung cấp cơ chế hỗ trợ thanh toán, vận chuyển và giải quyết tranh chấp. Lợi ích của sàn TMĐT bao gồm tiếp cận lượng khách hàng lớn, giảm chi phí marketing và tăng cường sự tin cậy.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c2.1", "next_best": false, "type": "micro", "label": "Hợp đồng điện tử", "content": "Hợp đồng điện tử là thỏa thuận được xác lập dưới dạng thông điệp dữ liệu, có giá trị pháp lý tương đương hợp đồng truyền thống. Nó bao gồm khái niệm, đặc điểm, quy trình giao kết và thực hiện. Khi sử dụng hợp đồng điện tử, các bên cần lưu ý về chữ ký số, chứng thực và các quy định pháp lý để đảm bảo tính hợp lệ và an toàn của giao dịch.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c2.2", "next_best": false, "type": "micro", "label": "Thanh toán điện tử", "content": "Thanh toán điện tử là quá trình chuyển tiền hoặc giá trị thông qua mạng điện tử, thay vì tiền mặt hay séc truyền thống. Các yêu cầu của hệ thống thanh toán điện tử bao gồm bảo mật, tốc độ và tính tiện lợi. Các phương thức phổ biến bao gồm thẻ tín dụng/ghi nợ, ví điện tử, chuyển khoản ngân hàng và cổng thanh toán trực tuyến.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c2.3", "next_best": false, "type": "micro", "label": "Chữ ký số và chứng thực chữ ký số", "content": "Chữ ký số là một dạng chữ ký điện tử được tạo ra bằng kỹ thuật mã hóa khóa công khai, dùng để xác thực danh tính người ký và đảm bảo tính toàn vẹn của dữ liệu. Chứng thực chữ ký số là quá trình xác nhận tính hợp lệ của chữ ký số bởi một tổ chức đáng tin cậy. Chữ ký số đóng vai trò quan trọng trong việc bảo đảm an toàn và pháp lý cho các giao dịch điện tử.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c3.1", "next_best": false, "type": "micro", "label": "Khái niệm cơ bản về Marketing điện tử", "content": "Marketing điện tử (e-marketing) là việc ứng dụng công nghệ thông tin và internet vào các hoạt động marketing để đạt được mục tiêu kinh doanh. Nó bao gồm các chiến lược thu hút, tương tác và duy trì khách hàng trên môi trường số. E-marketing tận dụng các kênh trực tuyến để truyền tải thông điệp và xây dựng thương hiệu.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c3.2", "next_best": false, "type": "micro", "label": "Người tiêu dùng trong môi trường điện tử", "content": "Người tiêu dùng trong môi trường điện tử có hành vi và kỳ vọng khác biệt so với kênh truyền thống, đòi hỏi doanh nghiệp phải hiểu rõ để tiếp cận hiệu quả. Họ thường tìm kiếm thông tin, so sánh sản phẩm và chia sẻ trải nghiệm trực tuyến. Việc phân tích hành vi khách hàng số giúp tối ưu hóa chiến lược e-marketing và cá nhân hóa trải nghiệm mua sắm.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c3.3", "next_best": false, "type": "micro", "label": "Nghiên cứu thị trường điện tử", "content": "Nghiên cứu thị trường điện tử là quá trình thu thập, phân tích dữ liệu về khách hàng, đối thủ cạnh tranh và xu hướng thị trường trên nền tảng số. Các phương pháp bao gồm khảo sát trực tuyến, phân tích dữ liệu website, mạng xã hội và công cụ tìm kiếm. Kết quả nghiên cứu giúp doanh nghiệp đưa ra quyết định chiến lược marketing hiệu quả và kịp thời.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c3.4", "next_best": false, "type": "micro", "label": "Các công cụ Marketing điện tử", "content": "Các công cụ marketing điện tử đa dạng bao gồm marketing qua công cụ tìm kiếm (SEO/SEM), marketing qua mạng xã hội, email marketing, marketing di động, marketing liên kết và marketing nội dung. Mỗi công cụ có ưu điểm riêng và cần được tích hợp linh hoạt để tạo ra chiến dịch tổng thể. Việc vận dụng thành thạo các công cụ này giúp doanh nghiệp tiếp cận khách hàng mục tiêu hiệu quả.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c3.5", "next_best": false, "type": "micro", "label": "Đo lường trong Marketing điện tử", "content": "Đo lường trong marketing điện tử là quá trình theo dõi và đánh giá hiệu quả của các chiến dịch marketing thông qua các chỉ số cụ thể. Các chỉ số quan trọng bao gồm lưu lượng truy cập, tỷ lệ chuyển đổi, chi phí trên mỗi lượt nhấp (CPC) và lợi tức đầu tư (ROI). Việc đo lường giúp tối ưu hóa chiến lược, phân bổ ngân sách hợp lý và cải thiện hiệu suất tổng thể của hoạt động e-marketing.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c4.1", "next_best": false, "type": "micro", "label": "Vấn đề an ninh và rủi ro trong TMĐT", "content": "An ninh trong TMĐT đối mặt với nhiều thách thức như tấn công mạng, lừa đảo, mất cắp dữ liệu cá nhân và thông tin thanh toán. Các rủi ro này có thể gây thiệt hại lớn về tài chính và uy tín cho doanh nghiệp và người tiêu dùng. Nhận biết và hiểu rõ các nguy cơ là bước đầu tiên để xây dựng một môi trường TMĐT an toàn.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c4.2", "next_best": false, "type": "micro", "label": "Giải pháp an toàn thông tin trong TMĐT", "content": "Để bảo vệ an toàn thông tin trong TMĐT, cần áp dụng các giải pháp như mã hóa dữ liệu (SSL/TLS), sử dụng tường lửa, hệ thống phát hiện xâm nhập, xác thực đa yếu tố và chính sách bảo mật chặt chẽ. Ngoài ra, việc nâng cao nhận thức người dùng và tuân thủ các quy định pháp lý về bảo mật cũng rất quan trọng. Các giải pháp này giúp giảm thiểu rủi ro và tăng cường sự tin cậy trong giao dịch trực tuyến.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c5.1", "next_best": false, "type": "micro", "label": "Phát triển hệ thống Thương mại điện tử doanh nghiệp", "content": "Phát triển hệ thống TMĐT cho doanh nghiệp bao gồm việc lựa chọn nền tảng, thiết kế giao diện, tích hợp các chức năng (quản lý sản phẩm, đơn hàng, thanh toán) và triển khai chiến lược marketing. Quá trình này đòi hỏi sự phân tích kỹ lưỡng môi trường kinh doanh và khả năng tùy chỉnh để phù hợp với mục tiêu cụ thể của doanh nghiệp. Mục tiêu là xây dựng một hệ thống hoạt động hiệu quả và bền vững.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "c5.2", "next_best": false, "type": "micro", "label": "Lập kế hoạch kinh doanh điện tử", "content": "Lập kế hoạch kinh doanh điện tử là quá trình phác thảo các mục tiêu, chiến lược và hoạt động cần thiết để thành công trong môi trường TMĐT. Kế hoạch này bao gồm phân tích thị trường, xác định đối tượng khách hàng, mô hình doanh thu, chiến lược marketing và dự báo tài chính. Một kế hoạch kinh doanh điện tử chi tiết giúp doanh nghiệp định hướng và tối ưu hóa nguồn lực.", "val": 15, "resources": [], "progress": {"mastery": 0.0, "is_completed": false, "last_interaction": null, "ebbinghaus_memory_decay": 1.0}}, {"id": "a2.1_1", "next_best": false, "type": "assess", "label": "Đánh giá c1.1", "val": 10, "questions": [{"question": "Hình thức mua bán hàng hóa và dịch vụ thông qua mạng internet được gọi là gì?", "options": ["A. Thương mại truyền thống", "B. Thương mại điện tử", "C. Marketing truyền thống", "D. Giao dịch trực tiếp"], "answer": "B"}, {"question": "Đâu KHÔNG phải là một trong các hình thức giao dịch chính trong Thương mại điện tử?", "options": ["A. B2B (Business-to-Business)", "B. B2C (Business-to-Consumer)", "C. C2C (Consumer-to-Consumer)", "D. P2P (Person-to-Person)"], "answer": "D"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a2.1_2", "next_best": false, "type": "assess", "label": "Đánh giá c1.6", "val": 10, "questions": [{"question": "Mô hình Thương mại điện tử nào mô tả giao dịch giữa một doanh nghiệp và một người tiêu dùng cá nhân?", "options": ["A. B2B", "B. C2C", "C. B2C", "D. C2B"], "answer": "C"}, {"question": "Việc một người tiêu dùng bán sản phẩm đã qua sử dụng cho một người tiêu dùng khác trên một nền tảng trực tuyến thuộc mô hình nào?", "options": ["A. B2B", "B. C2C", "C. B2C", "D. G2C"], "answer": "B"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a2.2_1", "next_best": false, "type": "assess", "label": "Đánh giá c1.5", "val": 10, "questions": [{"question": "Thành phần nào sau đây KHÔNG thuộc cơ sở hạ tầng thiết yếu cho Thương mại điện tử?", "options": ["A. Hạ tầng pháp lý", "B. Hạ tầng công nghệ thông tin và truyền thông", "C. Hạ tầng giao thông đường sắt", "D. Hạ tầng thanh toán điện tử"], "answer": "C"}, {"question": "Yếu tố nào đóng vai trò quan trọng trong việc đảm bảo tính hợp lệ và an toàn của các giao dịch trên môi trường Thương mại điện tử?", "options": ["A. Hạ tầng nhân lực", "B. Hạ tầng pháp lý", "C. Hạ tầng dịch vụ phân phối", "D. Hạ tầng công nghệ thông tin"], "answer": "B"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a2.2_2", "next_best": false, "type": "assess", "label": "Đánh giá c1.7", "val": 10, "questions": [{"question": "Nền tảng trực tuyến nơi người bán và người mua có thể gặp gỡ, trao đổi và thực hiện các giao dịch được gọi là gì?", "options": ["A. Cửa hàng truyền thống", "B. Sàn giao dịch Thương mại điện tử", "C. Trung tâm thương mại", "D. Chợ đầu mối"], "answer": "B"}, {"question": "Lợi ích nào sau đây KHÔNG phải là lợi ích chính của sàn giao dịch Thương mại điện tử đối với người bán?", "options": ["A. Tiếp cận lượng khách hàng lớn", "B. Giảm chi phí marketing", "C. Tăng cường sự tin cậy cho giao dịch", "D. Kiểm soát hoàn toàn thương hiệu và dữ liệu khách hàng"], "answer": "D"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a2.3_1", "next_best": false, "type": "assess", "label": "Đánh giá c2.1", "val": 10, "questions": [{"question": "Hợp đồng điện tử được xác lập dưới dạng nào?", "options": ["A. Văn bản giấy có chữ ký tay", "B. Tin nhắn SMS", "C. Thông điệp dữ liệu", "D. Thỏa thuận miệng"], "answer": "C"}, {"question": "Đâu là một đặc điểm quan trọng của hợp đồng điện tử so với hợp đồng truyền thống?", "options": ["A. Chỉ có hiệu lực khi được công chứng", "B. Có giá trị pháp lý tương đương", "C. Không cần chữ ký xác nhận", "D. Luôn yêu cầu sự hiện diện của các bên"], "answer": "B"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a2.3_2", "next_best": false, "type": "assess", "label": "Đánh giá c3.4", "val": 10, "questions": [{"question": "Công cụ marketing điện tử nào tập trung vào việc tối ưu hóa nội dung để cải thiện thứ hạng trên các công cụ tìm kiếm?", "options": ["A. Email Marketing", "B. Social Media Marketing", "C. Search Engine Optimization (SEO)", "D. Mobile Marketing"], "answer": "C"}, {"question": "Marketing qua việc gửi các thông điệp quảng cáo hoặc thông tin sản phẩm đến hộp thư của khách hàng tiềm năng được gọi là gì?", "options": ["A. Marketing nội dung", "B. Email Marketing", "C. Marketing liên kết", "D. Marketing di động"], "answer": "B"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a3.1", "next_best": false, "type": "assess", "label": "Đánh giá c2.2", "val": 10, "questions": [{"question": "Phương thức thanh toán nào sau đây KHÔNG phải là phương thức thanh toán điện tử phổ biến?", "options": ["A. Thẻ tín dụng/ghi nợ", "B. Ví điện tử", "C. Tiền mặt trực tiếp", "D. Chuyển khoản ngân hàng"], "answer": "C"}, {"question": "Yêu cầu cơ bản nào là quan trọng nhất đối với một hệ thống thanh toán điện tử hiệu quả?", "options": ["A. Giá thành rẻ", "B. Bảo mật cao", "C. Phải có nhiều màu sắc", "D. Chỉ chấp nhận một loại tiền tệ"], "answer": "B"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a3.2", "next_best": false, "type": "assess", "label": "Đánh giá c2.3", "val": 10, "questions": [{"question": "Chữ ký số chủ yếu dùng để làm gì trong các giao dịch điện tử?", "options": ["A. Trang trí tài liệu", "B. Xác thực danh tính người ký và đảm bảo tính toàn vẹn dữ liệu", "C. Giảm dung lượng tệp tin", "D. Tăng tốc độ truyền tải thông tin"], "answer": "B"}, {"question": "Quá trình xác nhận tính hợp lệ của chữ ký số bởi một tổ chức đáng tin cậy được gọi là gì?", "options": ["A. Tạo chữ ký số", "B. Mã hóa dữ liệu", "C. Chứng thực chữ ký số", "D. Phân tích chữ ký số"], "answer": "C"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a4.1", "next_best": false, "type": "assess", "label": "Đánh giá c4.2", "val": 10, "questions": [{"question": "Để bảo vệ an toàn thông tin trong Thương mại điện tử, giải pháp nào sau đây giúp mã hóa dữ liệu truyền tải trên mạng?", "options": ["A. Sử dụng tường lửa", "B. Chứng thực đa yếu tố", "C. Mã hóa SSL/TLS", "D. Hệ thống phát hiện xâm nhập"], "answer": "C"}, {"question": "Ngoài các biện pháp kỹ thuật, yếu tố nào cũng rất quan trọng để đảm bảo an toàn thông tin trong TMĐT?", "options": ["A. Tăng giá sản phẩm", "B. Giảm tốc độ website", "C. Nâng cao nhận thức người dùng về bảo mật", "D. Hạn chế số lượng sản phẩm"], "answer": "C"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}, {"id": "a4.2", "next_best": false, "type": "assess", "label": "Đánh giá c5.2", "val": 10, "questions": [{"question": "Mục tiêu chính của việc lập kế hoạch kinh doanh điện tử là gì?", "options": ["A. Liệt kê tất cả các sản phẩm có thể bán", "B. Phác thảo mục tiêu, chiến lược và hoạt động để thành công trong môi trường TMĐT", "C. Chỉ tập trung vào việc thiết kế giao diện website", "D. Sao chép kế hoạch kinh doanh của đối thủ cạnh tranh"], "answer": "B"}, {"question": "Thành phần nào KHÔNG phải là nội dung cốt lõi của một kế hoạch kinh doanh điện tử?", "options": ["A. Phân tích thị trường", "B. Mô hình doanh thu", "C. Chiến lược marketing", "D. Danh sách khách hàng cá nhân của chủ doanh nghiệp"], "answer": "D"}], "theta_pass": 0.6, "resources": [], "progress": {"mastery": 0.0, "is_completed": false}}], "links": [{"source": "c1.1", "target": "c1.2", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c1.3", "relation": "prerequisite_for"}, {"source": "c1.2", "target": "c1.3", "relation": "prerequisite_for"}, {"source": "c1.3", "target": "c1.4", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c1.5", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c1.6", "relation": "prerequisite_for"}, {"source": "c1.6", "target": "c1.7", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c2.1", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c2.2", "relation": "prerequisite_for"}, {"source": "c2.3", "target": "c2.1", "relation": "prerequisite_for"}, {"source": "c2.3", "target": "c2.2", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c3.1", "relation": "prerequisite_for"}, {"source": "c3.1", "target": "c3.2", "relation": "prerequisite_for"}, {"source": "c3.1", "target": "c3.3", "relation": "prerequisite_for"}, {"source": "c3.3", "target": "c3.4", "relation": "prerequisite_for"}, {"source": "c3.4", "target": "c3.5", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c4.1", "relation": "prerequisite_for"}, {"source": "c4.1", "target": "c4.2", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c5.2", "relation": "prerequisite_for"}, {"source": "c1.6", "target": "c5.2", "relation": "prerequisite_for"}, {"source": "c3.1", "target": "c5.2", "relation": "prerequisite_for"}, {"source": "c4.1", "target": "c5.2", "relation": "prerequisite_for"}, {"source": "c5.2", "target": "c5.1", "relation": "prerequisite_for"}, {"source": "c1.5", "target": "c5.1", "relation": "prerequisite_for"}]};
+        const USER_STATE = {"mastery": {"m1": 0.5, "m2": 0.5, "m3": 0.5, "m4": 0.5, "m5": 0.5, "c1.1": 0.5, "c1.2": 0.5, "c1.3": 0.5, "c1.4": 0.5, "c1.5": 0.5, "c1.6": 0.5, "c1.7": 0.5, "c2.1": 0.5, "c2.2": 0.5, "c2.3": 0.5, "c3.1": 0.5, "c3.2": 0.5, "c3.3": 0.5, "c3.4": 0.5, "c3.5": 0.5, "c4.1": 0.5, "c4.2": 0.5, "c5.1": 0.5, "c5.2": 0.5, "a2.1_1": 0.5, "a2.1_2": 0.5, "a2.2_1": 0.5, "a2.2_2": 0.5, "a2.3_1": 0.5, "a2.3_2": 0.5, "a3.1": 0.5, "a3.2": 0.5, "a4.1": 0.5, "a4.2": 0.5}};
+        let Graph = null;
+
+        function getMasteryLevel(id) { return USER_STATE.mastery[id] || 0; }
+        function getNodeStatus(n) {
+            if (n.type === 'macro') return 'macro';
+            const m = getMasteryLevel(n.id);
+            if (m >= 0.8) return 'mastered';
+            if (m >= 0.4) return 'learning';
+            return 'weak';
+        }
+        function getNodeColor(n) {
+            const s = getNodeStatus(n);
+            if (s === 'macro') return '#38bdf8';
+            if (s === 'mastered') return '#4ade80';
+            if (s === 'learning') return '#fbbf24';
+            return '#f87171';
+        }
+        function isLocked(n) {
+            if (n.type === 'macro') return false;
+            return (n.prerequisites || []).some(p => getMasteryLevel(p) < 0.6);
+        }
+        function updateStats() {
+            let m=0, l=0, w=0;
+            GRAPH_DATA.nodes.forEach(n => {
+                if (n.type !== 'macro') {
+                    const s = getNodeStatus(n);
+                    if (s === 'mastered') m++; else if (s === 'learning') l++; else w++;
+                }
+            });
+            document.getElementById('stat-mastered').innerText = m;
+            document.getElementById('stat-learning').innerText = l;
+            document.getElementById('stat-weak').innerText = w;
+        }
+        function startAction(type) {
+            if (!window.currentNodeId) return;
+            const payload = { 
+                id: window.currentNodeId, 
+                action: type,
+                label: document.getElementById('info-title').innerText
+            };
+            if (window.parent) window.parent.postMessage({ type: 'graph3d_action', payload }, '*');
+            const t = document.createElement('div'); t.className='toast'; t.innerText='🚀 Starting '+type.toUpperCase();
+            document.getElementById('toast-container').appendChild(t);
+            setTimeout(() => t.remove(), 2500);
+        }
+        function init() {
+            updateStats();
+            Graph = ForceGraph3D()(document.getElementById('3d-graph'))
+                .graphData(GRAPH_DATA)
+                .backgroundColor('#060714')
+                .showNavInfo(false)
+                .nodeColor(getNodeColor)
+                .nodeLabel(n => (isLocked(n) ? '🔒 ' : '') + (n.label || n.id))
+                .linkColor(() => 'rgba(255,255,255,0.08)')
+                .nodeThreeObject(n => {
+                    const size = n.type === 'macro' ? 10 : 5;
+                    const mat = new THREE.MeshPhongMaterial({ color: getNodeColor(n), transparent: true, opacity: isLocked(n)?0.3:0.9 });
+                    return new THREE.Mesh(new THREE.SphereGeometry(size, 16, 16), mat);
+                })
+                .onNodeClick(n => {
+                    if (isLocked(n)) return;
+                    Graph.cameraPosition({ x: n.x*1.5, y: n.y*1.5, z: n.z*1.5 }, n, 1000);
+                    const p = document.getElementById('info-panel'); p.classList.add('visible');
+                    document.getElementById('info-title').innerText = n.label || n.id;
+                    document.getElementById('info-desc').innerText = n.content || 'Chọn một hành động bên dưới để bắt đầu học.';
+                    
+                    const pType = document.getElementById('info-type');
+                    pType.className = 'badge';
+                    if (n.type === 'macro') {
+                        pType.classList.add('type-macro');
+                        pType.innerText = 'CHƯƠNG KIẾN THỨC';
+                    } else if (n.type === 'micro') {
+                        pType.classList.add('type-micro');
+                        pType.innerText = 'BÀI HỌC MICRO';
+                        pType.style.background = getNodeColor(n);
+                        pType.style.color = '#000';
+                    } else if (n.type === 'assess') {
+                        pType.classList.add('type-assess');
+                        pType.innerText = 'BÀI ĐÁNH GIÁ';
+                    }
+
+                    const resContainer = document.getElementById('node-resources');
+                    resContainer.innerHTML = '';
+                    const resources = n.resources || [];
+                    if (resources.length > 0) {
+                        resContainer.style.display = 'flex';
+                        resources.forEach(res => {
+                            if (!res || !res.url) return;
+                            const resTitle = res.title || 'Tài nguyên chưa đặt tên';
+                            const resIcon = res.icon || '📎';
+                            const resType = (res.type || '').toLowerCase();
+
+                            const a = document.createElement('a');
+                            a.className = 'resource-item';
+                            if (resType === 'youtube' || resTitle.toLowerCase().includes('video')) {
+                                a.href = '#';
+                                a.onclick = (e) => { e.preventDefault(); startAction('video'); };
+                            } else {
+                                a.href = res.url;
+                                a.target = '_blank';
+                            }
+                            a.innerHTML = `
+                                <div style="display: flex; align-items: center; gap: 8px; flex: 1; overflow: hidden;">
+                                    <span>${resIcon}</span>
+                                    <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 180px;" title="${resTitle}">${resTitle}</span>
+                                </div>
+                                <div class="play-btn" title="Học ngay với Player" onclick="event.stopPropagation(); event.preventDefault(); startAction('video');">
+                                    <i class="material-icons" style="font-size: 20px;">play_circle_outline</i>
+                                </div>
+                            `;
+                            resContainer.appendChild(a);
+                        });
+                    } else {
+                        resContainer.style.display = 'none';
+                    }
+                    
+                    document.getElementById('action-buttons').style.display = (n.type === 'macro' ? 'none' : 'block');
+                    window.currentNodeId = n.id;
+                });
+            const bloom = new THREE.UnrealBloomPass(); bloom.strength = 1.0; Graph.postProcessingComposer().addPass(bloom);
+            document.getElementById('loading-screen').style.opacity = '0';
+            setTimeout(() => document.getElementById('loading-screen').remove(), 1000);
+        }
+        window.addEventListener('DOMContentLoaded', init);
+        setInterval(() => {
+            fetch(`/user_data/thanhthangbmt2/states/b7965aca_state.json?t=${Date.now()}`)
+                .then(r => r.json()).then(data => { if(data && data.mastery) { USER_STATE.mastery = data.mastery; updateStats(); if(Graph) Graph.refresh(); } });
+        }, 5000);
+    </script>
+</body>
+</html>

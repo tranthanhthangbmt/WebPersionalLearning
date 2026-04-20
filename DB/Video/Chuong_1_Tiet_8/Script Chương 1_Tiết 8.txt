@@ -1,0 +1,50 @@
+﻿Slide 1: CHƯƠNG 1 (TIẾT 8) - SỨC MẠNH CÁ NHÂN: C2C VÀ C2B
+Người 1: Chào các bạn lớp BA24M. Ở các tiết trước, chúng ta đã bàn về những “gã khổng lồ” như Amazon hay Alibaba (B2C, B2B). Hôm nay, chúng ta sẽ đổi gió. Mời các em nhìn lên Slide 1: “Sức mạnh cá nhân: C2C và C2B”. Theo em, tại sao thầy lại gọi đây là “sức mạnh cá nhân”?
+Người 2: Dạ, em đoán vì trong mô hình này, những cá nhân nhỏ bé như em hay thầy cũng có thể trở thành người bán hàng, chứ không cần phải thành lập công ty hoành tráng đúng không ạ?
+Người 1: Rất đúng. Thương mại điện tử đã trao quyền lực vào tay từng cá nhân. Hôm nay chúng ta sẽ tìm hiểu cách những người bình thường kiếm tiền và tạo ra giá trị trong nền kinh tế số thông qua hai mô hình C2C và C2B.
+Slide 2: C2C - NGƯỜI TIÊU DÙNG BÁN CHO NGƯỜI TIÊU DÙNG
+Người 1: Chúng ta bắt đầu với C2C ở Slide 2. Định nghĩa rất đơn giản: Người tiêu dùng bán hàng hóa/dịch vụ trực tiếp cho người tiêu dùng khác. Nhưng em hãy nhìn vào sơ đồ. Có một thành phần thứ 3 đứng giữa 2 người này. Đó là ai?
+Người 2: Dạ, đó là “Nhà quản trị chợ ảo” (Market Creator) ạ. Ví dụ như eBay hay Shopee. Họ không bán hàng của họ, mà họ chỉ tạo ra cái sân chơi để người mua và người bán gặp nhau thôi.
+Người 1: Chính xác. Và đặc điểm quan trọng nhất ở đây là: Sàn C2C không sở hữu hàng hóa (No Inventory). Họ chỉ cung cấp nền tảng (Platform) và thu phí. Em có hay tham gia C2C không?
+Người 2: Dạ có chứ thầy. Em hay lên các hội nhóm Facebook để “pass” lại quần áo cũ, hoặc lên Chotot để tìm mua xe máy cũ. Đó chính là C2C thầy nhỉ?
+Slide 3: ĐẶC TRƯNG VÀ THÁCH THỨC CỦA C2C
+Người 1: Đúng rồi, việc em “pass đồ” chính là C2C. Nhưng hãy nhìn sang Slide 3, mô hình này có một “tử huyệt” hay còn gọi là thách thức lớn nhất. Em nhìn hình ảnh minh họa xem đó là gì?
+Người 2: Em thấy hình cái kính lúp soi vào chất lượng. Có phải là vấn đề “Kiểm soát chất lượng” (Quality Control) không ạ? Vì người bán là cá nhân lung tung, nên rất dễ gặp hàng lừa đảo, “treo đầu dê bán thịt chó”.
+Người 1: Chuẩn xác. Đó là vấn đề niềm tin (Trust). Khác với B2C có thương hiệu công ty bảo chứng, C2C rất rủi ro. Vậy các sàn làm gì để bảo vệ người dùng? Họ dùng hệ thống đánh giá (Rating/Review) và trung gian thanh toán (giữ tiền cho đến khi khách nhận được hàng).
+Slide 4: PHÂN LOẠI C2C - MÔ HÌNH ĐẤU GIÁ (AUCTIONS)
+Người 1: C2C có nhiều biến thể. Chúng ta đến với biến thể kinh điển nhất ở Slide 4: Đấu giá (Auctions). Cái tên nổi bật nhất ở đây chắc chắn là eBay. Cơ chế của nó khác gì với việc em đi chợ mua rau?
+Người 2: Dạ, đi chợ là “thuận mua vừa bán”, chốt giá ngay. Còn đấu giá thì kịch tính hơn. Người bán đưa ra giá sàn (ví dụ 10 đồng), người mua sẽ thi nhau trả giá cao lên. Ai trả cao nhất vào phút chót thì thắng. Em thấy cái này hay ở chỗ nhiều khi món đồ rất độc lạ, không định giá được.
+Người 1: Đúng vậy. Đấu giá giúp tìm ra “giá thị trường thực tế” cho những món hàng hiếm (đồ cổ, sưu tầm). Tuy nhiên, nó đòi hỏi thời gian theo dõi (Real-time monitoring). Em phải canh từng giây để không bị phỗng tay trên.
+Slide 5: PHÂN LOẠI C2C - MÔ HÌNH RAO VẶT (CLASSIFIEDS)
+Người 1: Biến thể thứ hai ở Slide 5 là Rao vặt (Classifieds). Ví dụ: Craigslist (Mỹ) hay Chotot, Facebook Marketplace (Việt Nam). Em so sánh xem nó khác gì với Đấu giá eBay?
+Người 2: Em thấy Rao vặt đơn giản hơn. Người bán chỉ đăng tin “Tôi có cái tủ lạnh cũ, giá 2 triệu, ai mua gọi số này”. Người mua sẽ tự liên hệ, tự đến xem hàng và tự trả tiền mặt. Tức là Sàn chỉ đóng vai trò đăng tin, không tham gia vào khâu thanh toán hay vận chuyển (No Transaction processing).
+Người 1: Phân tích rất tốt.
+• Đấu giá (eBay): Sàn thu phí hoa hồng trên giao dịch thành công.
+• Rao vặt (Craigslist): Thường miễn phí đăng tin, hoặc thu phí hiển thị ưu tiên. Họ kiếm tiền chủ yếu từ Quảng cáo. Mô hình này mạnh ở tính địa phương (Local) - mua bán quanh khu vực mình sống.
+Slide 6: C2B - KHI CÁ NHÂN “PHẢN CÔNG”
+Người 1: Bây giờ, chúng ta lật ngược thế cờ tại Slide 6: C2B (Consumer to Business). Bình thường Doanh nghiệp bán cho Cá nhân. Giờ Cá nhân bán gì cho Doanh nghiệp?
+Người 2: Dạ, em nhìn hình minh họa thấy các biểu tượng: Viết lách, Thiết kế, Chụp ảnh. Có phải là các Freelancer (người làm tự do) bán kỹ năng của mình cho các công ty không ạ? Ví dụ em thiết kế logo rồi bán lại cho một doanh nghiệp khởi nghiệp.
+Người 1: Chính xác. Đó là hình thức phổ biến nhất. Trong mô hình C2B, cá nhân là người Tạo ra giá trị (Value Creator), còn doanh nghiệp là người Tiêu thụ (Consumer). Ngoài bán sức lao động, cá nhân còn bán “Dữ liệu” hoặc “Sự ảnh hưởng”. Ví dụ: Các TikToker, Reviewer được nhãn hàng trả tiền để đánh giá sản phẩm. Đó chính là C2B hiện đại.
+Slide 7: CROWDSOURCING - KHI ĐÁM ĐÔNG LÀM CHỦ (C2B)
+Người 1: Chúng ta chuyển sang Slide 7. Đây là hình thức cao cấp nhất của C2B: Crowdsourcing (Thuê ngoài đám đông). Bình thường, khi công ty bí ý tưởng, họ thuê chuyên gia. Nhưng trong kỷ nguyên số, họ thuê “cả thế giới”. Em hãy nhìn hình ảnh chiếc áo thun Threadless trên slide. Em có biết ai thiết kế nó không?
+Người 2: Dạ, chắc là nhân viên thiết kế của hãng Threadless ạ?
+Người 1: Không hề. Đó là một bạn sinh viên, hoặc một bà nội trợ nào đó. Threadless không thuê nhân viên thiết kế. Họ để cộng đồng tự vẽ, tự bình chọn (Vote). Mẫu nào được Vote cao nhất thì họ in bán. Tác giả được chia tiền. Đó chính là C2B: Doanh nghiệp dùng trí tuệ của người dùng để kiếm tiền.
+Slide 8: CASE STUDY - LEGO IDEAS & SỨC MẠNH CỘNG ĐỒNG
+Người 1: Để các em thấy sức mạnh khủng khiếp của mô hình này, chúng ta hãy xem trường hợp của LEGO. Lego đã từng suýt phá sản vì tự mình thiết kế những bộ đồ chơi nhàm chán. Nhưng họ đã hồi sinh nhờ nền tảng Lego Ideas. Mời cả lớp xem video phân tích sau đây về cách Lego trao quyền cho người hâm mộ (Fans).
+Người 2: (Sau khi xem) Hay quá thầy ơi. Vậy là C2B giúp doanh nghiệp “mượn đầu óc” của thiên hạ để làm giàu, còn người dùng thì được hiện thực hóa ước mơ của mình.
+Slide 9: FREELANCING PLATFORMS - BÁN KỸ NĂNG (GIG ECONOMY)
+Người 1: Đúng vậy. Ngoài bán ý tưởng, cá nhân còn bán “kỹ năng” qua các nền tảng Freelance như Upwork hay Fiverr ở Slide 9. Thay vì đi làm 8 tiếng/ngày (Full-time), người ta làm theo dự án (Gig). Đây gọi là Gig Economy (Nền kinh tế Gig). Em có nghĩ sau này ra trường em sẽ làm Freelancer không?
+Người 2: Dạ có thể ạ. Em thấy làm vậy tự do hơn, thích nhận Job nào thì nhận, không bị sếp soi. Nhưng chắc là thu nhập không ổn định bằng đi làm công ty thầy nhỉ?
+Người 1: Đó chính là sự đánh đổi. Tự do (Freedom) đổi lấy sự bất ổn (Instability).
+Slide 10: KINH TẾ CHIA SẺ (SHARING ECONOMY) - TỪ SỞ HỮU ĐẾN TRUY CẬP
+Người 1: Bây giờ chúng ta sang một khái niệm trùm cuối của chương này: Sharing Economy (Kinh tế chia sẻ) ở Slide 10. Các em hãy nhớ câu thần chú này: “Access is better than Ownership” (Quyền truy cập tốt hơn quyền sở hữu). Tại sao thầy lại nói vậy?
+Người 2: Dạ, ví dụ như Grab/Uber. Em không cần mua xe ô tô (Sở hữu) tốn kém, em chỉ cần đặt xe (Truy cập) khi cần đi thôi. Vừa rẻ vừa tiện.
+Slide 11: CƠ CHẾ VẬN HÀNH & NIỀM TIN
+Người 1: Chuẩn xác. Nhưng làm sao em dám leo lên xe của một người lạ? Hoặc dám vào ngủ ở nhà một người không quen trên Airbnb? Mời các em xem video hoạt hình vui nhộn sau đây giải thích về cơ chế vận hành và “niềm tin” trong nền kinh tế chia sẻ.
+Slide 12: THÁCH THỨC PHÁP LÝ & TƯƠNG LAI
+Người 1: Tuy nhiên, Slide 12 chỉ ra mặt trái. Grab, Uber, Airbnb đang gặp rắc rối lớn với chính phủ các nước. Theo em là vì sao?
+Người 2: Em nghĩ là do cạnh tranh không công bằng. Taxi truyền thống phải đóng thuế, mua bảo hiểm đủ thứ. Còn xe công nghệ thì lách luật, mang tiếng là “xe gia đình” nên trốn được nhiều chi phí.
+Người 1: Rất sắc sảo. Đó là cuộc chiến pháp lý chưa hồi kết. Ngoài ra, vấn đề an toàn cho người dùng cũng là một dấu hỏi lớn khi không có ai quản lý trực tiếp các tài xế hay chủ nhà này.
+Slide 13: TỔNG KẾT CHƯƠNG - QUYỀN LỰC MỚI
+Người 1: Chúng ta kết thúc bài học ở Slide 13. Thầy muốn các em ghi nhớ: Thương mại điện tử ngày nay không chỉ là các ông lớn bán hàng (B2C). Nó là sân chơi mà Cá nhân (C2C, C2B) đang dần chiếm lĩnh. Các em ngồi đây, chỉ với một chiếc Laptop, hoàn toàn có thể bán chất xám cho một công ty ở Mỹ (Upwork) hoặc bán hàng cho cả thế giới (eBay) ngay ngày mai.
+Người 1: Bài học kết thúc. Các em về nhà suy nghĩ xem mình có tài sản nhàn rỗi hay kỹ năng nào để tham gia vào nền kinh tế này không nhé. Cảm ơn cả lớp!

@@ -1,0 +1,1030 @@
+TRƯỜNG ĐẠI HỌC ĐÔNG Á
+
+KHOA CÔNG NGHỆ THÔNG TIN
+
+CHƯƠNG TRÌNH GIÁO DỤC ĐẠI HỌC
+NGÀNH CÔNG NGHỆ THÔNG TIN
+
+Trình độ đào tạo: Đại học
+
+ĐỀ CƯƠNG CHI TIẾT HỌC PHẦN
+
+<Thị giác máy tính>
+
+< INFO3111>
+
+Năm 2024
+
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+TRƯỜNG ĐẠI HỌC ĐÔNG Á
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+Độc lập - Tự do - Hạnh phúc
+
+ĐỀ CƯƠNG CHI TIẾT HỌC PHẦN
+
+< Thị giác máy tính >
+
+< Computer Vision >
+
+Mã số HP/Course Code:< INFO3111>
+
+1.  Thông tin chung về học phần
+
+1.1. Tên học phần: < Thị giác máy tính >
+
+< Computer Vision >
+
+1.1.  Số tín chỉ: 03                                        1.2.  Số giờ: 150
+
+1.3. Thời lượng và phân bổ nội dung
+
+a) Thuyết                                             Số giờ: 30
+
+A1. Lý thuyết                                          Số giờ: 30
+
+A2. Chuyên đề (nếu có)                                    Số giờ: 0
+
+b) Thực hành ứng dụng                                      Số giờ: 30
+
+B1. Thí nghiệm/Thực hành                                  Số giờ: 30
+
+B2. Bài tập lớn/đồ, đề án                                    Giờ: 0
+
+B3. Thực tập                                          Giờ: 0
+
+c) Hoạt động tự học (tự học/trả lời câu hỏi, thí nghiệm/dự án, đọc/nghiên cứu tài liệu)     Số giờ: 
+90
+
+1.4.  Học phần tiên quyết: không
+
+2. Mục tiêu học phần: Môn học cung cấp các kiến thức cơ bản về xử lý ảnh và thị giác máy tính. Hiểu 
+và
+vận                                                         dụng được các thư viện, công cụ xử lý 
+ảnh và thị giác như OpenCV, TensorFlow…Từ đó có thể thực
+hiện các bài toán như nâng cấp, khôi phục, phân đoạn, trích chọn đặc trưng, so khớp và nhận dạng 
+ảnh.
+
+3. Chuẩn đầu ra của học phần
+
+Bảng 3.1. Chuẩn đầu ra (CĐR) của học phần
+
+Sau khi học xong học phần, SV có khả năng:
+
+
+Mã CĐR học
+phần
+
+(1)
+
+CLO1
+CLO2
+
+CLO3
+CLO4
+
+Chuẩn đầu ra học phần (CLO)
+
+(2)
+
+Sử dụng thành thạo các công cụ, thư viện hỗ trợ xử lý ảnh
+
+Thành thạo kỹ năng xử lý ảnh, phát hiện, mô tả đặc trưng và so khớp ảnh
+
+Lập trình được một ứng dụng xử lý ảnh hoàn chỉnh với thuật toán áp dụng cụ thể
+và các chức năng đầy đủ
+
+Có kỹ năng làm việc cá nhân và làm việc theo nhóm
+
+1
+
+
+2
+
+
+4. Mối liên hệ giữa CĐR HP (CLO) với CĐR CTĐT (PLO)
+
+Bảng 4.1. Mối liên hệ của CĐR HP (CLO) đến CĐR của CTĐT (PLO)
+
+PLO1           PLO2          PLO3     PLO4     PLO5    PLO6     PLO7     PLO8    PLO9
+
+STT       CLO
+
+
+CLO1
+
+CLO2
+
+CLO3
+
+Sử dụng thành thạo các
+
+công cụ, thư viện hỗ trợ                                                            R
+
+xử lý ảnh
+
+Thành thạo kỹ năng xử lý
+
+ảnh, phát hiện, mô tả đặc                                                            R
+
+trưng và so khớp ảnh
+
+Lập trình được một ứng
+dụng xử lý ảnh hoàn
+
+chỉnh với thuật toán áp                                                            R
+
+dụng cụ thể và các chức
+năng            đầy đủ
+
+
+CLO4
+
+Có kỹ năng làm việc cá
+
+nhân và làm việc theo                                                            R
+
+nhóm
+
+Chung                                                                      R
+
+Giải thích: I= introduced; R= Reinforced/Opportunity to practice; M = Mastery at exit level
+
+2
+
+
+5. Đánh giá học phần
+
+5.1 Phương pháp, hình thức kiểm tra - đánh giá kết quả học tập của học phần
+
+Bảng 5.1. Phương pháp, hình thức kiểm tra - đánh giá kết quả học tập của sinh viên ở học phần
+
+
+Các thành
+
+phần đánh giá
+
+(1)
+
+A1. Chuyên
+
+cần
+
+A2. Kiểm tra
+thường xuyên
+A3. Đánh giá
+
+giữa kỳ
+
+A4. Đánh giá
+cuối kỳ
+
+Trọng
+số
+(%)
+
+(2)
+
+10%
+
+25%
+
+15%
+
+50%
+
+Phương pháp
+đánh giá
+
+(3)
+
+Tham dự
+Tự luận
+Tự luận
+
+Báo cáo
+
+Công cụ
+đánh giá
+
+(4)
+
+Đáp án
+Đáp án
+
+Rubrics
+
+Liên
+quan đến
+CLO
+
+(5)
+
+CLO1
+CLO2
+
+CLO3
+CLO1
+CLO2
+
+CLO3
+
+CLO4
+
+Trọng số
+CLO
+(%)
+
+(6)
+
+100%
+
+50%
+
+50%
+
+100%
+
+100%
+
+Đánh giá
+
+CLO
+
+(7)
+
+CLO1
+CLO2
+CLO3
+CLO4
+
+Đo lường
+đạt PLO/PI
+
+(8)
+
+5.2 Chính sách đối với học phần
+
+Sinh viên tham dự >=75% số buổi của học phần. Nếu nghỉ >25% số buổi sẽ không được dự thi kết
+thúc học phần.
+
+6. Kế hoạch và nội dung giảng dạy học phần
+
+Bảng 6.1. Kế hoạch và nội dung giảng dạy của học phần theo tuần
+
+
+Tuầ
+n
+
+(1)
+
+1
+
+2
+
+3
+
+Nội dung bài học
+
+(2)
+
+Giới thiệu học phần
+Chương 1. Tổng quan về thị
+giác máy tính
+
+1.1. Giới thiệu
+
+1.2.Ứng dụng
+
+1.3.Thách thức
+
+1.4.Ánh sáng và màu sắc
+
+1.5. Mô hình camera
+
+1.6. Ảnh số
+
+1.7.Công cụ và thư viện
+Chương 2. Nâng cấp và khôi
+phục        ảnh
+
+2.1 Các phép toán điểm ảnh
+
+2.2.Cân  bằng  Histogram
+
+2.3.Phương pháp lọc ảnh
+
+Chương 2: Nâng cấp và
+khôi phục ảnh (tt)
+
+2.4.  Nâng  cấp  ảnh:  lọc
+Gaussian,   lọc  đạo  hàm
+(Sobel, Laplace)
+
+Số
+giờ
+
+(3)
+
+4
+
+4
+
+4
+
+Liên
+quan
+quan đến
+CLO
+
+(5)
+
+CLO1,
+CLO4
+
+CLO1
+CLO4
+
+CLO1
+CLO4
+
+3
+
+Phương pháp giảng
+dạy
+
+(6)
+
+-Phương pháp thuyết
+
+trình.
+
+- Phương pháp làm
+thực hành.
+
+-Phương pháp vấn đáp
+(đàm thoại).
+
+-Phương pháp đặt và
+giải quyết vấn đề
+
+-Phương pháp thuyết
+
+trình.
+
+- Phương pháp làm
+thực hành
+
+-Phương pháp vấn đáp
+(đàm thoại).
+
+-Phương pháp đặt và
+giải quyết vấn đề.
+
+-Phương pháp thuyết
+
+trình.
+
+- Phương pháp làm
+thực hành.
+
+-Phương pháp vấn đáp
+(đàm thoại).
+
+Hoạt động
+học của
+sinh viên
+
+(7)
+
+- Đọc trước
+nội dung bài
+học  trước
+khi đến lớp.
+
+- Đọc trước
+nội dung bài
+học  trước
+khi đến lớp.
+
+- Làm thực
+hành các bài
+tập.
+
+- Đọc trước
+nội dung bài
+học  trước
+khi đến lớp.
+
+Đánh
+
+giá
+
+(8)
+
+A1
+
+
+2.5.Khôi phục ảnh: lọc max,
+lọc              min, lọc trung bình, lọc
+trung vị
+
+-Phương pháp đặt và
+giải quyết vấn đề.
+
+
+Chương 3. Phân đoạn ảnh
+
+3.1. Cắt ngưỡng
+
+3.2. K-Mean, Mean Shift
+
+3.3. Graphcut
+
+4                     4
+
+Chương 4. Phát hiện và mô
+tả  đặc  trưng    ảnh
+
+4.1 Phát hiện điểm, đường,
+
+biên
+
+5  4.2.Phát hiện đặc trưng:     4
+
+Phát hiện đặc trưng góc
+
+Phát hiện đặc trưng đa tỉ lệ
+
+Chương 4. Phát hiện và mô
+tả đặc trưng ảnh (tt)
+
+4.3. Mô tả đặc trưng ảnh:
+
+6     SURF             4
+
+SIFT
+
+Chương 4. Phát hiện và mô
+tả đặc trưng ảnh (tt)
+
+4.3. Mô tả đặc trưng ảnh:
+
+HOG
+
+7     LBP              4
+
+4.4. So khớp đặc trưng
+
+8   Kiểm tra giữa kỳ          4
+
+Chương 5. Phân lớp ảnh
+
+5.1. K Nearest Neighbors
+
+5.2. Bag-of-features
+
+9                     4
+
+CLO1
+CLO4
+
+CLO1
+CLO4
+
+CLO1
+CLO4
+
+CLO3
+CLO4
+
+CLO1
+CLO3
+CLO4
+
+-Phương pháp thuyết
+
+trình.
+
+- Phương pháp làm
+thực hành.
+
+-Phương pháp vấn đáp
+(đàm thoại).
+
+-Phương pháp đặt và
+giải quyết vấn đề.
+
+-Phương pháp thuyết
+trình.
+
+- Phương pháp làm
+
+thực hành..
+
+-Phương pháp vấn đáp
+(đàm thoại).
+
+-Phương pháp đặt và
+giải quyết vấn đề.
+
+- Phương pháp thuyết
+
+trình.
+
+- Phương pháp làm
+thực hành.
+
+- Phương pháp vấn đáp
+(đàm thoại).
+
+- Phương pháp đặt và
+giải quyết vấn đề.
+
+- Phương pháp thuyết
+
+trình.
+
+- Phương pháp làm
+thực hành.
+
+- Phương pháp vấn đáp
+(đàm thoại).
+
+- Phương pháp đặt và
+giải quyết vấn đề.
+
+- Phương pháp thuyết
+
+trình.
+
+- Phương pháp làm
+thực hành.
+
+- Phương pháp vấn đáp
+(đàm thoại).
+
+- Phương pháp đặt và
+giải quyết vấn đề.
+
+- Đọc trước
+nội dung bài
+học  trước
+khi đến lớp.
+
+- Làm thực
+hành các bài
+tập.
+
+- Đọc trước
+nội dung bài
+học  trước
+
+khi đến lớp.   A2
+
+- Làm thực
+hành các bài
+tập.
+
+- Đọc trước
+nội dung bài
+học  trước
+khi đến lớp.
+
+- Làm thực
+hành các bài
+tập.
+
+- Đọc trước
+nội dung bài
+học  trước
+khi đến lớp.
+
+- Làm thực
+hành các bài
+tập.
+
+- Đọc trước
+nội dung bài
+học  trước
+
+khi đến lớp.  A3
+
+- Làm các
+bài tập vận
+dụng
+
+4
+
+
+Chương 5. Phân lớp ảnh (tt)
+
+5.3.Support Vector Machine
+
+4
+
+10
+
+CLO1
+CLO3
+CLO4
+
+- Phương pháp thuyết
+
+trình.
+
+- Phương pháp làm
+thực hành.
+
+- Phương pháp vấn đáp
+(đàm thoại).
+
+- Phương pháp đặt và
+giải quyết vấn đề.
+
+- Đọc trước A3
+nội dung bài
+
+học  trước
+khi đến lớp.
+
+- Thực hành
+theo hướng
+dẫn   của
+giảng viên.
+
+- Làm các
+bài tập vận
+dụng.
+
+Chương 6. Mạng CNN
+
+6.1. Kiến trúc CNN
+
+6.2.Các kỹ thuật cơ bản     4
+
+6.3.Pretrained Models for
+
+Transfer Learning
+
+
+Chương 6. Mạng CNN (tt)
+
+6.4.Ứng dụng CNN:
+Nhận         diện đối tượng
+Phát hiện đối tượng
+
+11                    4
+
+Chương 7. Một số mô hình
+DeepLearning cho Thị giác
+máy tính
+
+7.1. VGG16
+
+12  7.2. MobiNet           4
+
+7.3. ResNet
+
+Chương 7. Một số mô hình
+DeepLearning cho Thị giác
+máy tính
+
+7 4. Alexnet, Inception V3
+
+Chương 8. Dự đoán chuyển
+động            (motion estimation)
+
+8.1. Phép liên kết chuyển đổi
+
+13  8.2. Chuyển động tham số    4
+
+8.3.  Chuyển  động  dạng
+
+Spline
+
+CLO1
+CLO3
+CLO4
+
+CLO1
+CLO2
+CLO3
+CLO4
+
+CLO1
+CLO2
+CLO3
+CLO4
+
+5
+
+- Phương pháp thuyết
+trình.
+
+- Phương pháp làm
+
+thực hành.
+
+- Phương pháp vấn đáp
+(đàm thoại).
+
+- Phương pháp đặt và
+giải quyết vấn đề.
+
+- Phương pháp thuyết
+trình.
+
+- Phương pháp làm
+
+thực hành.
+
+- Phương pháp vấn đáp
+(đàm thoại).
+
+- Phương pháp đặt và
+giải quyết vấn đề.
+
+- Phương pháp thuyết
+trình.
+
+- Phương pháp làm
+
+thực hành.
+
+- Phương pháp vấn đáp
+(đàm thoại).
+
+- Đọc trước
+nội dung bài
+học  trước
+khi đến lớp.
+
+- Thực hành
+theo hướng
+dẫn   của
+giảng viên.
+
+- Làm các
+bài tập vận
+dụng.
+
+SV   trình
+bày dự án
+mình đã làm
+theo  nhóm
+(Nhóm
+được   lập
+ngay từ đầu
+học  phần
+bắt đầu).
+
+SV  trình
+bày dự án
+mình đã làm
+theo  nhóm
+(Nhóm
+được   lập
+ngay từ đầu
+
+
+Chương 8. Dự đoán chuyển
+động         (motion
+
+estimation)(tt)
+
+8.3. Luồng quang
+
+14  8.4. Chuyển động phân lớp    4
+
+Ôn tập
+
+15                    4
+
+CLO1
+CLO2
+CLO3
+CLO4
+
+CLO1
+CLO2
+CLO3
+CLO4
+
+- Phương pháp đặt và
+giải quyết vấn đề.
+
+- Phương pháp thuyết
+trình.
+
+- Phương pháp làm
+
+thực hành.
+
+- Phương pháp vấn đáp
+(đàm thoại).
+
+- Phương pháp đặt và
+giải quyết vấn đề.
+
+- Phương pháp thuyết
+trình.
+
+- Phương pháp vấn
+đáp.
+
+học  phần
+bắt đầu).
+
+SV   trình
+bày dự án
+mình đã làm
+theo  nhóm
+(Nhóm
+được   lập
+ngay từ đầu
+học  phần
+bắt đầu).
+
+7.Học liệu:
+
+7.1. Sách, giáo trình chính thống & tham khảo
+
+Bảng 7.1. Sách, giáo trình, tài liệu tham khảo
+
+
+TT
+
+(1)
+
+1
+
+2
+
+Tên tác giả
+
+(2)
+
+Giáo trình chính
+Mark    Nixon,
+Alberto Aguado
+
+E.  R.  Davies,
+Matthew Turk
+
+Năm
+
+XB
+
+(3)
+
+2019
+
+2021
+
+Tên sách, giáo trình,
+
+tên bài báo, văn bản
+
+(4)
+
+Feature Extraction and Image Processing
+for Computer Vision
+
+Advanced Methods and Deep Learning in
+Computer Vision
+
+Nhà xuất bản, tên tạp
+
+chí/
+
+nơi ban hành văn bản
+
+(5)
+
+Academic Pres
+Academic Press
+
+
+Sách, giáo trình tham khảo
+
+3   Adrian Rosebrock   2017   Deep Learning for Computer Vision with
+Python
+
+PyImageSearch
+
+
+4  Rafael C. Gonzalez
+& Richard E.Woods
+
+5  Richard Szeliski
+
+6   Valliappa
+Lakshmanan,
+Martin      Görner,
+Ryan Gillard
+
+2018
+
+2022
+
+2021
+
+Digital    Image    Processing,
+4ᵗʰ Edition
+
+Computer  Vision:  Algorithms  and
+Applications, 2ⁿᵈ Edition
+
+Practical Machine Learning for Computer
+Vision
+
+Pearson Education
+Springer
+
+O'Reilly    Media,
+Incorporated
+
+
+7.2. Địa chỉ web hữu ích:
+
+TT  Nội dung tham
+
+khảo
+
+Bảng 7.2. Danh mục địa chỉ web hữu ích cho học phần
+
+Link trang web               Ngày cập
+
+nhật
+
+1              https://www.baslerweb.com/
+
+
+8.Cơ sở vật chất GD:
+
+Tên giảng đường,
+Phòng thực hành,
+
+Bảng 8.1. Cơ sở vật chất giảng dạy của học phần
+Danh mục trang thiết bị, phần mềm chính
+
+phục vụ thí nghiệm, thực hành
+
+Phục vụ cho Bài học/
+
+Chương
+
+
+TT
+
+(1)
+
+xưởng, cơ sở thực
+hành
+
+(2)
+
+Đại học Đông Á
+
+Tên thiết bị, dụng cụ, phần
+mềm,…
+
+(3)
+
+Máy chiếu Projector
+Bảng,        phấn, khăn lau…
+
+6
+
+Số lượng
+
+(4)
+
+1
+
+1
+
+(5)
+
+Tất cả các buổi học
+Tất cả các buổi học
+
+
+Ngày ký duyệt: 6/2024
+
+Người ký duyệt
+
+Phụ trách khoa/Ngành
+
+TS. Đỗ Văn Tuấn
+
+GGVVsosoạạnn
+
+TS. Nguyễn Sĩ Thìn
+
+7
+

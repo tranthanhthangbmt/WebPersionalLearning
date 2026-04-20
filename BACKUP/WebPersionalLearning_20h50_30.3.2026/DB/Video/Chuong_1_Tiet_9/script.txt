@@ -1,0 +1,115 @@
+﻿Slide 1: TỔNG QUAN - CHƯƠNG 1 (TIẾT 3): PHÂN TÍCH CHUYỂN DỊCH
+Người 1: Chào các bạn lớp BA24M. Chào mừng các bạn đến với buổi thứ 3 của môn Thương mại điện tử. Hôm nay, chúng ta sẽ tạm gác lại các định nghĩa khô khan. Tiêu đề bài học hôm nay là “Phân tích Chuyển dịch: Mô hình & Đánh giá”. Thầy muốn khởi động bằng một câu hỏi: Cuối tuần vừa rồi, có bạn nào ra cửa hàng Thế Giới Di Động hay Hasaki để xem đồ, thử son, cầm nắm điện thoại chán chê… nhưng sau đó lại về nhà mở Shopee hay TikTok Shop ra đặt mua vì thấy rẻ hơn 50-100k không?
+Người 2: Dạ…  thú thật là có ạ. Em hay ra store thử giày cho vừa chân hoặc ra ngửi mùi nước hoa, xong về canh “Live stream” săn deal mua cho hời ạ.
+Người 1: Cảm ơn em đã trung thực. Hành vi đó của em rất thông minh về mặt tài chính cá nhân, nhưng về mặt quản trị, em đang “giết chết” các cửa hàng đó đấy. Hôm nay chúng ta sẽ xem các doanh nghiệp làm thế nào để sống sót trước hành vi này.
+
+Slide 2: MỤC TIÊU BÀI HỌC - TỪ KHÁI NIỆM ĐẾN TƯ DUY
+Người 1: Các em nhìn lên Slide 2. Hôm nay chúng ta chuyển trọng tâm từ việc “học thuộc khái niệm” sang “giải quyết vấn đề thực tế”. Chúng ta có 3 nhiệm vụ quản trị cần giải quyết:
+1. Phân tích Case Study: Mổ xẻ xem những gã khổng lồ như Best Buy và Nike đã chuyển dịch mô hình thế nào để không bị Amazon “nuốt chửng”.
+2. Giải mã Giá trị (Value Proposition): Chúng ta sẽ học công thức 6Cs. Tại sao khách hàng chọn mua online? Không chỉ vì rẻ đâu.
+3. Đánh giá: Cuối giờ, chúng ta sẽ có bài kiểm tra A2.1 trên LMS để tổng hợp kiến thức chương này.
+Người 2: Vậy là hôm nay chúng ta học cách các công ty kiếm tiền và giữ khách, chứ không phải học code web đúng không thầy?
+Người 1: Chính xác. Tư duy của lớp Quản trị kinh doanh là nhìn ra dòng tiền và sự chuyển dịch của hành vi khách hàng.
+
+Slide 3: CÚ SỐC “SHOWROOMING” VÀ KHỦNG HOẢNG BÁN LẺ
+Người 1: Mời các em nhìn hình ảnh trên Slide 3. Đây chính là hiện tượng mà bạn sinh viên vừa thú nhận lúc nãy: “Showrooming”. Định nghĩa: Khách đến cửa hàng để xem, sờ, nghe nhân viên tư vấn nhiệt tình, nhưng lại đặt mua online của đối thủ. Hậu quả là gì?
+• Cửa hàng truyền thống (Brick-and-mortar) chịu đủ thứ phí: Tiền thuê mặt bằng Q1, tiền điện, lương bảo vệ, nhân viên.
+• Kết quả: Doanh thu = 0. Cửa hàng biến thành cái “phòng trưng bày miễn phí” cho các shop online.
+Người 2: Nghe bất công cho cửa hàng quá thầy nhỉ. Chẳng lẽ họ cứ chịu trận vậy sao?
+Người 1: Đó là câu hỏi sống còn ở cuối slide: “Doanh nghiệp truyền thống phải làm gì? Chết dần hay thay đổi mô hình?”. Ở Việt Nam, các chuỗi như Nguyễn Kim hay các shop thời trang đường phố đang rất đau đầu vụ này. Nhưng hãy xem Best Buy ở Mỹ đã làm gì để lật ngược thế cờ ở slide tiếp theo.
+
+Slide 4: CASE STUDY - SỰ TRỞ LẠI CỦA BEST BUY (RENEW BLUE)
+Người 1: Best Buy từng được ví là “Showroom của Amazon” và sắp phá sản. Nhưng CEO Hubert Joly đã tung ra chiến lược “Renew Blue” và chuyển sang mô hình Omnichannel (Đa kênh). Họ làm 3 việc táo bạo mà thầy muốn các em ghi nhớ:
+Người 2: Em thấy ý đầu tiên là Cam kết khớp giá (Price Matching). Nghĩa là sao ạ?
+Người 1: Nghĩa là: “Nếu em thấy Amazon bán cái TV này giá 10 triệu, đưa điện thoại cho thu ngân xem, Best Buy bán ngay cho em giá 10 triệu tại quầy”. Họ chấp nhận giảm biên lợi nhuận để giữ khách hàng lại, không cho khách bước ra khỏi cửa mà chưa mua gì.
+Người 2: Còn Ship-from-store là gì ạ?
+Người 1: Đây là chiến thuật cực hay. Thay vì xây kho mới, họ biến 1.000 cửa hàng sẵn có thành 1.000 cái kho phân phối nhỏ. Ví dụ thực tế: Các em hãy nhìn Bách Hóa Xanh hay Thế Giới Di Động. Khi em đặt online, hệ thống sẽ lấy hàng từ cửa hàng gần nhà em nhất để giao, chứ không phải lấy từ kho tổng tận Bình Dương. Nhờ vậy họ giao siêu nhanh, Amazon hay Shopee khó mà đua tốc độ này được.
+Người 2: Và cuối cùng là Dịch vụ Geek Squad.
+Người 1: Đúng. Amazon không thể cử người đến nhà em cài Win, treo TV lên tường hay sửa tủ lạnh ngay lập tức được. Best Buy bán “sự an tâm” và dịch vụ kỹ thuật tận nhà. Đó là thứ online thuần túy không làm được.
+
+Slide 5: CASE STUDY - CHIẾN LƯỢC DTC CỦA NIKE
+Người 1: Nếu Best Buy chọn cách “hòa nhập” đa kênh, thì Nike chọn cách “cắt bỏ”. Đây là chiến lược DTC (Direct-to-Consumer) hay Phi trung gian hóa. Nhìn sơ đồ :
+• Mô hình cũ: Nike → Nhà phân phối → Cửa hàng bán lẻ (Retailer) → Khách hàng.
+• Mô hình DTC: Nike → Website/App → Khách hàng.
+Người 2: Bán trực tiếp thì chắc chắn lời nhiều hơn rồi vì không phải chia hoa hồng cho đại lý đúng không thầy?.
+Người 1: Chính xác, biên lợi nhuận cao hơn. Nhưng với dân quản trị, cái quan trọng hơn tiền là Dữ liệu (Data). Ví dụ: Nếu em mua giày Nike ở Supersports hay Footlocker, Nike không biết em là ai. Nhưng nếu em mua trên App Nike, họ biết em chạy bộ bao nhiêu km/tuần, em thích màu gì. Ở Việt Nam, mô hình này giống như Coolmate. Họ không bán qua đại lý, họ bán trực tiếp để hiểu rõ từng khách hàng và tối ưu lợi nhuận.
+
+Slide 6: THẢO LUẬN QUẢN TRỊ - TẠI SAO KHÔNG PHẢI AI CŨNG LÀM DTC?
+Người 1: Nghe DTC hay quá nhỉ? Lời nhiều, nắm data. Vậy tại sao các ông lớn như Vinamilk, Unilever (Omo, Sunsilk) hay Mì Hảo Hảo không dẹp hết đại lý đi để bán trực tiếp trên web?.
+Người 2: Em nghĩ chắc là do vấn đề vận chuyển. Bán 1 gói mì mà ship tận nhà thì lỗ chết.
+Người 1: Rất chuẩn xác. Đó là Rào cản số 2: Gánh nặng Logistics. Nhà sản xuất như Mì Hảo Hảo quen bán sỉ (B2B), bán cả container/xe tải. Giờ bắt họ đóng gói từng gói mì, thuê shipper giao cho từng sinh viên (B2C) thì tiền ship đắt gấp 5 lần tiền mì. Họ chưa đủ năng lực vận hành hàng ngàn đơn nhỏ lẻ.
+Người 2: Còn rào cản nào nữa không ạ?
+Người 1: Rào cản 1: Xung đột kênh (Channel Conflict). Tưởng tượng Coca-Cola bán lon nước trên web giá 5k, trong khi WinMart/Circle K đang bán 10k. WinMart sẽ làm gì? Họ sẽ tẩy chay, “nghỉ chơi”, không nhập hàng Coca nữa. Trong khi 90% doanh thu của Coca đến từ siêu thị, họ không dám “đắc tội” với các ông lớn này. Vì vậy, làm DTC hay không là một bài toán đánh đổi lợi ích cực kỳ cân não.
+
+Slide 7: ĐỀ XUẤT GIÁ TRỊ TRỰC TUYẾN (OVP)
+Người 1: Chúng ta vừa thấy các ông lớn “sống mái” với nhau. Nhưng quay lại câu hỏi căn bản nhất ở Slide 7: “Tại sao khách hàng nên mua từ bạn chứ không phải đối thủ?”. Nhiều bạn Startup thường trả lời thầy: “Dạ, vì em bán rẻ nhất”. Nhưng trong TMĐT, rẻ chưa chắc đã thắng. Chúng ta cần OVP (Online Value Proposition). Nhìn công thức trên bảng: OVP = Lợi ích sản phẩm + Dịch vụ & Trải nghiệm.
+Người 2: Thầy cho ví dụ được không ạ? Em thấy mua đâu cũng giống nhau mà.
+Người 1: Không giống đâu. Hãy nhớ lại thời hoàng kim của Tiki với chiến lược TikiNOW. Tại sao lúc đó người ta chấp nhận mua sách trên Tiki dù giá có thể đắt hơn Shopee một chút?
+Người 2: Dạ… chắc là vì giao nhanh trong 2 tiếng. Đang cần gấp tặng quà sinh nhật thì cái đó cứu mạng ạ.
+Người 1: Chính xác! Cái “2 tiếng” đó chính là Dịch vụ & Trải nghiệm.
+• Shopee: OVP của họ là “Rẻ vô địch” và “Săn xu” (Gamification).
+• Tiki (lúc đó): OVP là “Nhanh nhất” và “Không hàng giả” (Tiki Trading). Bài học: Nếu sản phẩm y hệt nhau, các em phải thắng bằng Dịch vụ. OVP phải giải quyết một “nỗi đau” cụ thể của khách hàng.
+
+Slide 8: MÔ HÌNH 6Cs TRONG KIẾN TẠO GIÁ TRỊ
+Người 1: Vậy làm sao để “xào nấu” ra được một cái OVP xịn? Mời các em sang Slide 8. Đây là công thức 6Cs huyền thoại. Để dễ hiểu, thầy muốn các em nghĩ đến ứng dụng nghe nhạc Spotify hoặc Netflix mà các em dùng hàng ngày.
+Người 2: Em dùng Spotify ạ. Để em thử phân tích xem sao.
+Người 1: Ok, bắt đầu với chữ C đầu tiên: Content (Nội dung).
+Người 2: Content của Spotify thì quá khủng rồi, nhạc gì cũng có. Thông tin nghệ sĩ, lời bài hát đầy đủ.
+Người 1: Đúng. Nhưng cái “ăn tiền” nhất khiến em không thể bỏ Spotify là chữ C thứ hai: Customisation (Cá nhân hóa).
+Người 2: À cái này thì chuẩn. Nó toàn tự tạo playlist “Dành riêng cho Tuấn” (On Repeat). Em nghe gì nó biết hết, gợi ý bài nào là dính bài đó.
+Người 1: Đó là đỉnh cao của TMĐT: Giao diện được may đo theo nhu cầu riêng. Còn các chữ C còn lại thì sao?
+• Community (Cộng đồng): Cuối năm các em có hay share cái bảng tổng kết “Spotify Wrapped” lên Story Instagram không? Đó là cách họ tạo cộng đồng và lan truyền miễn phí.
+• Convenience (Tiện lợi): Nghe trên điện thoại, về nhà bật máy tính lên nghe tiếp đúng đoạn đó. 24/7.
+Người 2: Còn Choice (Lựa chọn) và Cost (Chi phí) thì em nghĩ Shopee là ví dụ rõ nhất. Thượng vàng hạ cám gì cũng có, mà giá thì rẻ hơn ra chợ mua.
+Người 1: Rất tốt. Một mô hình TMĐT thành công không cần có đủ cả 6, nhưng phải làm cực tốt ít nhất 2-3 yếu tố trong này.
+
+Slide 9: MA TRẬN GIÁ TRỊ THEO MÔ HÌNH KINH DOANH
+Người 1: Tuy nhiên, “thuốc đắng dã tật”, mỗi mô hình cần một loại thuốc khác nhau. Các em nhìn bảng ma trận ở Slide 9. Giá trị cốt lõi của B2C khác hẳn B2B.
+Người 2: Khác thế nào thầy? Em tưởng cứ bán được hàng là được?
+Người 1: Thầy lấy ví dụ nhé.
+• B2C (Business to Consumer): Em lên Shopee mua một cái áo phông. Em cần gì?
+Người 2: Dạ cần đẹp, cần rẻ, cần ship nhanh (Tiện lợi).
+Người 1: Đúng, đó là cảm xúc và tiện lợi.
+• B2B (Business to Business): Bây giờ, em là chủ tiệm tạp hóa, em lên ứng dụng VinShop hoặc Telio để nhập 50 thùng mì tôm về bán. Em có cần “cảm xúc” hay giao diện màu mè không?
+Người 2: Chắc là không. Em cần giá sỉ tốt, hóa đơn đỏ đầy đủ, và giao hàng đúng giờ để em còn bán.
+Người 1: Chuẩn. Đó là Hiệu quả (Efficiency) và Đối tác lâu dài. B2B không cần vui, B2B cần tin cậy và hệ thống tích hợp.
+Người 1: Cuối cùng là C2C và C2B.
+• C2C: Chợ Tốt, Facebook Marketplace. Giá trị là Độc đáo (đồ cũ, đồ hiếm) và Rẻ.
+• C2B: Đây là mô hình mới. Ví dụ các bạn KOC/Reviewer trên TikTok nhận booking của nhãn hàng.
+o Giá trị là Sự trao quyền (Empowerment). Các bạn sinh viên (Consumer) có quyền định giá sức ảnh hưởng của mình và bán ngược lại cho Doanh nghiệp (Business).
+Người 2: Vậy là khi làm bài tập nhóm, bọn em phải xác định rõ mình là B2B hay B2C để chọn chiến lược OVP cho đúng phải không ạ?
+Người 1: Chính xác. Đừng đem tư duy bán áo phông (B2C) đi bán phần mềm quản lý kho (B2B) nhé, thất bại đấy.
+
+Slide 10: HỆ SINH THÁI TMĐT - PHẦN CHÌM CỦA TẢNG BĂNG
+Người 1: Chúng ta đã có chiến lược hay, có mô hình xịn. Nhưng tại sao 90% các startup TMĐT ở Việt Nam vẫn “chết yểu” sau 1 năm? Mời các em nhìn Slide 10: Hệ sinh thái TMĐT. Cái mà khách hàng nhìn thấy chỉ là đỉnh tháp: Website/App Bán hàng. Nhưng cái quyết định sống còn là 5 tầng nền tảng chìm bên dưới.
+Người 2: Em tưởng cứ code xong cái App, chạy quảng cáo Facebook là bán được hàng chứ ạ?
+Người 1: Đó là sai lầm chết người. Hãy nhìn TikTok Shop. Khi họ mới vào Việt Nam, nếu họ chỉ có cái App để xem video thì chẳng ai mua hàng cả. Họ sống được là nhờ vận hành trơn tru các tầng dưới:
+• Hệ thống Thanh toán: Nếu TikTok không cho thanh toán COD (trả tiền mặt khi nhận hàng) hoặc không liên kết Momo/ZaloPay, thì người Việt sẽ bỏ ngay ở bước thanh toán.
+• Logistics & Chuỗi cung ứng: TikTok không tự đi giao hàng. Họ phải “bắt tay” với J&T Express, Ninja Van. Hãy tưởng tượng J&T giao chậm, làm móp hàng, khách hàng sẽ chửi ai? Chửi TikTok Shop, chứ không chửi J&T.
+Người 2: Em thấy gần đây nhiều shop kêu trời vì bị thuế sờ gáy. Đó có phải là tầng Hành lang Pháp lý không thầy?
+Người 1: Chính xác. Vấn đề truy thu thuế TMĐT đang rất nóng. Nếu em làm quản trị mà không hiểu luật, doanh thu càng cao thì rủi ro đi tù càng lớn.
+Bài học: Thành công = Tư duy chiến lược (chọn mô hình) + Năng lực thực thi (vận hành hệ sinh thái).
+
+Slide 11: KIỂM TRA ĐÁNH GIÁ A2.1
+Người 1: Lý thuyết đã xong. Bây giờ chúng ta sẽ chuyển sang phần Đánh giá A2.1. Các em lấy điện thoại hoặc laptop, đăng nhập vào LMS/Canvas ngay bây giờ.
+• Thời gian: 10 - 15 phút.
+• Phạm vi: Tổng hợp tất cả những gì đã học từ đầu chương: Khái niệm, Hạ tầng, và đặc biệt là phân biệt 4 mô hình B2B, B2C, C2C, C2B cùng chiến lược OVP chúng ta vừa thảo luận ,.
+Người 2: Bài này có khó không thầy? Có được mở tài liệu không ạ?
+Người 1: Bài không khó nếu em hiểu bản chất. Mục tiêu là để đánh giá xem các em có phân biệt được các mô hình hay không. Trong lúc chờ mọi người đăng nhập, thầy sẽ “nháp” trước 3 câu hỏi ôn tập để các em đỡ bỡ ngỡ nhé.
+
+Slide 12: THỰC HÀNH - CÂU HỎI ÔN TẬP (TRONG KHI CHỜ ĐĂNG NHẬP)
+Người 1: Nào, nhìn lên Slide 12. 3 câu này rất hay gặp trong đề thi cuối kỳ.
+Câu 1: Trong mô hình nào, khách hàng là người đưa ra mức giá họ muốn trả?
+Người 2: Lúc nãy thầy có lấy ví dụ về Freelancer hay Priceline. Em chọn C2B ạ. Khách hàng ra giá, doanh nghiệp/người bán đồng ý thì chốt.
+Người 1: Chuẩn. Nhớ từ khóa: “Consumer to Business” - Khách hàng là thượng đế theo đúng nghĩa đen.
+Câu 2: Hiện tượng ‘Showrooming’ là mối đe dọa lớn nhất đối với ai?
+Người 2: Là kẻ thù của Brick-and-mortar Retailers (Cửa hàng truyền thống). Vì họ mất chi phí mặt bằng mà không bán được hàng.
+Người 1: Tốt. Câu cuối khó hơn này, dành cho dân B2B.
+Câu 3: Đặc trưng quan trọng nhất của B2B so với B2C là gì?
+Người 2: Em nghĩ là đơn hàng lớn hơn?
+Người 1: Chưa đủ. Đó là Quy trình mua sắm phức tạp và nhiều cấp duyệt. Bán một cái áo cho em (B2C) chỉ tốn 30 giây. Nhưng bán phần mềm quản lý cho trường Đại học (B2B) thì phải qua Phòng hành chính, Phòng tài chính, Hiệu trưởng ký duyệt… mất cả tháng. Hiểu điều này thì mới làm Sale B2B được.
+
+Slide 13: TỔNG KẾT & BÀI HỌC CỐT LÕI
+Người 1: Kết thúc bài học hôm nay, thầy muốn tặng các em một câu nói cốt lõi ở Slide 13. “Trong kỷ nguyên số, đối thủ lớn nhất không phải là công ty khác, mà là sự thay đổi trong hành vi của khách hàng”.
+Người 2: Câu này làm em nhớ đến Nokia quá thầy.
+Người 1: Đúng vậy. Nokia chết không phải vì Samsung hay Apple quá giỏi, mà vì Nokia không nhận ra hành vi khách hàng đã chuyển từ “nghe gọi đập đá” sang “lướt web chạm vuốt”. Best Buy sống lại được vì họ hiểu khách hàng muốn “xem tận mắt nhưng mua giá rẻ”. Nhiệm vụ của các em - những nhà quản trị tương lai - là phải “đánh hơi” được sự thay đổi này trước khi quá muộn. Về nhà các em nhớ chuẩn bị bài cho Chương 2. Bây giờ chúng ta bắt đầu làm bài kiểm tra!

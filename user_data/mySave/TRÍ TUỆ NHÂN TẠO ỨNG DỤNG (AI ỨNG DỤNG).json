@@ -1,0 +1,1561 @@
+{
+    "course_name": "TRÍ TUỆ NHÂN TẠO ỨNG DỤNG (AI ỨNG DỤNG)",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Khai thác dữ liệu và thông tin",
+            "resources": [
+                {
+                    "id": "res_session_m1_aca9",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m1_b499",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "m2",
+            "title": "Giao tiếp và hợp tác trong môi trường số",
+            "resources": [
+                {
+                    "id": "res_session_m2_87b0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m2_d010",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "m3",
+            "title": "Sáng tạo nội dung số",
+            "resources": [
+                {
+                    "id": "res_session_m3_2ef8",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m3_fabb",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "m4",
+            "title": "An toàn Không gian số",
+            "resources": [
+                {
+                    "id": "res_session_m4_cf6d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4",
+                    "title": "📋 Mục lục Module 4",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m4_06d6",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv",
+                    "title": "📝 Trắc nghiệm Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "m5",
+            "title": "Giải quyết vấn đề bằng công nghệ",
+            "resources": [
+                {
+                    "id": "res_session_m5_4b1b",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=5",
+                    "title": "📋 Mục lục Module 5",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m5_bbf8",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD5.csv",
+                    "title": "📝 Trắc nghiệm Module 5",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "m6",
+            "title": "Nhập môn Trí tuệ Nhân tạo (AI)",
+            "resources": [
+                {
+                    "id": "res_session_m6_50f0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6",
+                    "title": "📋 Mục lục Module 6",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m6_5f33",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv",
+                    "title": "📝 Trắc nghiệm Module 6",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "m7",
+            "title": "Thực hành Word & Tích hợp AI (Buổi 6-9)",
+            "resources": []
+        },
+        {
+            "id": "m8",
+            "title": "Thực hành Excel & Tích hợp AI (Buổi 10-12)",
+            "resources": []
+        },
+        {
+            "id": "m9",
+            "title": "Thực hành PowerPoint & Tích hợp AI (Buổi 13-14)",
+            "resources": []
+        },
+        {
+            "id": "m10",
+            "title": "Tổng ôn & Chinh phục AI (Buổi 15)",
+            "resources": []
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Tổng quan dữ liệu",
+            "content": "Bài học giới thiệu về sự khác biệt cơ bản giữa dữ liệu thô, thông tin số và tri thức. Học viên sẽ tìm hiểu về các loại dữ liệu phổ biến như dữ liệu cấu trúc và phi cấu trúc. Đồng thời, tiết học cũng làm rõ các đặc điểm quan trọng của dữ liệu số trong bối cảnh hiện nay.",
+            "alpha_base": 15,
+            "resources": [
+                {
+                    "id": "res_lesson_c1.1_1669",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=11",
+                    "title": "🎬 Bài giảng: Khai phá Đại dương Số",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.1_5ac8",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.1_0f85",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Kỹ năng duyệt Web và tìm kiếm nâng cao",
+            "content": "Học viên sẽ được trang bị các chiến lược hiệu quả để duyệt trang web và tìm kiếm thông tin học thuật. Bài học tập trung vào việc sử dụng các công cụ tìm kiếm nâng cao như Google Scholar và PubMed. Đặc biệt, người học sẽ thực hành áp dụng các toán tử logic để tinh chỉnh kết quả tìm kiếm.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_lesson_c1.2_1be9",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=12",
+                    "title": "🎬 Bài giảng: Hành trình công dân số",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.2_afdc",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.2_3cfe",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Lọc và Quản lý dữ liệu",
+            "content": "Tiết học này giới thiệu các kỹ thuật lọc dữ liệu, bao gồm cả phương pháp thu thập tự động (scraping). Học viên sẽ tìm hiểu về các nguyên tắc quản lý, lưu trữ, sao lưu và chia sẻ dữ liệu một cách hiệu quả. Ngoài ra, bài học còn nhấn mạnh tầm quan trọng của việc bảo mật thông tin cá nhân trong môi trường số.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_lesson_c1.3_d500",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=13",
+                    "title": "🎬 Bài giảng: LÀM CHỦ DỮ LIỆU SỐ",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.3_af7f",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.3_f382",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Giao tiếp công nghệ số",
+            "content": "Bài học hướng dẫn cách lựa chọn và sử dụng các công cụ giao tiếp số như email, chat và video call một cách hiệu quả. Học viên sẽ được tìm hiểu về các quyền công dân số và quy tắc ứng xử trên mạng. Mục tiêu là giúp người học thực hành giao tiếp chuyên nghiệp và có trách nhiệm trong môi trường trực tuyến.",
+            "alpha_base": 18,
+            "resources": [
+                {
+                    "id": "res_lesson_c2.1_e472",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=21",
+                    "title": "🎬 Bài giảng: Hành trình công dân số",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c2.1_aa1a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c2.1_ed0d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Làm việc nhóm trong môi trường số",
+            "content": "Tiết học này tập trung vào kỹ năng làm việc nhóm và chia sẻ thông tin an toàn trong môi trường số. Học viên sẽ được thực hành sử dụng các nền tảng như Google Drive/OneDrive để chia sẻ tài liệu và Trello/Google Docs để hợp tác dự án. Bài học cũng đề cập đến tầm quan trọng của việc bảo vệ danh tính số cá nhân khi làm việc nhóm trực tuyến.",
+            "alpha_base": 22,
+            "resources": [
+                {
+                    "id": "res_lesson_c2.2_9ecc",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=22",
+                    "title": "🎬 Bài giảng: Làm chủ tương tác",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c2.2_a78c",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c2.2_21dd",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Xây dựng chuyên án nội dung",
+            "content": "Bài học này hướng dẫn quy trình phân tích chân dung người xem để xác định đối tượng mục tiêu. Học viên sẽ được học cách lập kế hoạch nội dung đa nền tảng, bao gồm video, văn bản và infographic. Mục tiêu là giúp người học tạo ra các chiến lược nội dung hấp dẫn và phù hợp với từng kênh phân phối.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_lesson_c3.1_b83e",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=31",
+                    "title": "🎬 Bài giảng: Content Development",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.1_8261",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.1_2e6b",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "Biên tập và Bản quyền số",
+            "content": "Tiết học này bao gồm các kỹ năng biên tập nội dung số như tái tạo, cắt ghép và chuyển đổi định dạng. Học viên sẽ được hướng dẫn cách tra cứu giấy phép bản quyền để sử dụng nội dung hợp pháp. Đồng thời, bài học cũng cung cấp kiến thức về cách áp dụng nội dung ghi nguồn một cách chính xác và tuân thủ pháp luật.",
+            "alpha_base": 22,
+            "resources": [
+                {
+                    "id": "res_lesson_c3.2_36a7",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=32",
+                    "title": "🎬 Bài giảng: Content Repurposing",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.2_27f4",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.2_761f",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Lập trình cơ bản cho ứng dụng nội dung số",
+            "content": "Bài học giới thiệu các nguyên tắc cơ bản của lập trình, tập trung vào việc lựa chọn công nghệ phù hợp để phát triển ứng dụng nội dung số. Học viên sẽ tìm hiểu về các bước thiết kế, cài đặt và kiểm thử ứng dụng. Mục tiêu là cung cấp nền tảng để người học có thể tự xây dựng các công cụ hỗ trợ sáng tạo nội dung của mình.",
+            "alpha_base": 28,
+            "resources": [
+                {
+                    "id": "res_lesson_c3.3_49c8",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=33",
+                    "title": "🎬 Bài giảng: Digital Rights",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.3_63d9",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.3_d541",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c4.1",
+            "parent_macro": "m4",
+            "title": "Các cuộc tấn công mạng và rủi ro",
+            "content": "Tiết học cung cấp cái nhìn tổng quan về thực trạng các cuộc tấn công mạng phổ biến hiện nay. Học viên sẽ được hướng dẫn cách nhận diện các rủi ro như mã độc, hành vi đánh cắp mật khẩu và lừa đảo xã hội (social engineering). Mục tiêu là nâng cao nhận thức về các mối đe dọa an ninh mạng để phòng tránh hiệu quả.",
+            "alpha_base": 18,
+            "resources": [
+                {
+                    "id": "res_lesson_c4.1_95ca",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=41",
+                    "title": "🎬 Bài giảng: Safety Blueprint",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c4.1_3c96",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv",
+                    "title": "📝 Trắc nghiệm Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c4.1_55bc",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4",
+                    "title": "📋 Mục lục Module 4",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c4.2",
+            "parent_macro": "m4",
+            "title": "Chiến lược bảo mật đa lớp",
+            "content": "Bài học này giới thiệu các chiến lược bảo mật toàn diện để bảo vệ thông tin cá nhân và dữ liệu. Học viên sẽ tìm hiểu về tầm quan trọng của việc sao lưu dữ liệu (backup) và cách tạo mật khẩu an toàn. Đồng thời, tiết học cũng cung cấp các kỹ năng tự phòng thủ nhằm bảo vệ quyền riêng tư trên Internet.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_lesson_c4.2_123d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=42",
+                    "title": "🎬 Bài giảng: An toàn Mạng",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c4.2_4152",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv",
+                    "title": "📝 Trắc nghiệm Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c4.2_e807",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4",
+                    "title": "📋 Mục lục Module 4",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c4.3",
+            "parent_macro": "m4",
+            "title": "An sinh số và Tác động môi trường",
+            "content": "Tiết học này đề cập đến khái niệm \"Sức khỏe số\" và tầm quan trọng của việc cân bằng lối sống số. Học viên sẽ được khuyến khích đánh giá tác động của công nghệ số đến môi trường và tìm hiểu các giải pháp xanh bền vững. Mục tiêu là thúc đẩy ý thức trách nhiệm cá nhân đối với cả sức khỏe bản thân và môi trường trong kỷ nguyên số.",
+            "alpha_base": 15,
+            "resources": [
+                {
+                    "id": "res_lesson_c4.3_9b93",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=43",
+                    "title": "🎬 Bài giảng: Digital Sustainability",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c4.3_41de",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv",
+                    "title": "📝 Trắc nghiệm Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c4.3_356d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4",
+                    "title": "📋 Mục lục Module 4",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c5.1",
+            "parent_macro": "m5",
+            "title": "Xử lý lỗi hệ thống máy tính cơ bản",
+            "content": "Bài học này cung cấp các kỹ năng cơ bản để xử lý lỗi phần cứng và phần mềm của máy tính. Học viên sẽ được hướng dẫn cách kiểm tra lỗi mạng Wi-Fi và nhận diện các rủi ro từ lỗi phần mềm. Tiết học cũng giới thiệu cách đọc System Log cơ bản để chẩn đoán và khắc phục sự cố hiệu quả.",
+            "alpha_base": 28,
+            "resources": [
+                {
+                    "id": "res_lesson_c5.1_ddf8",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=5&id=51",
+                    "title": "🎬 Bài giảng: Giải quyết vấn đề",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c5.1_3586",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD5.csv",
+                    "title": "📝 Trắc nghiệm Module 5",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c5.1_7f3f",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=5",
+                    "title": "📋 Mục lục Module 5",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c5.2",
+            "parent_macro": "m5",
+            "title": "Kỹ năng tự học công nghệ mới",
+            "content": "Tiết học này giới thiệu các nguồn tài nguyên hữu ích để tự học và nâng cao kiến thức công nghệ. Học viên sẽ được hướng dẫn cách khai thác các nền tảng như Coursera, Udemy, Wikipedia, Reddit và Stack Overflow. Mục tiêu là trang bị cho người học kỹ năng tìm kiếm và giải quyết các câu hỏi học thuật kỹ thuật một cách độc lập và hiệu quả.",
+            "alpha_base": 20,
+            "resources": []
+        },
+        {
+            "id": "c5.3",
+            "parent_macro": "m5",
+            "title": "Thực hành Google Sheets cơ bản",
+            "content": "Bài học này tập trung vào thực hành các chức năng cơ bản của Google Sheets. Học viên sẽ được hướng dẫn cách nhập liệu, sử dụng Conditional Formatting và áp dụng các hàm như SUM. Tiết học cũng bao gồm việc vẽ biểu đồ để dự đoán chi tiêu tài chính cơ bản, giúp người học phân tích dữ liệu hiệu quả.",
+            "alpha_base": 28,
+            "resources": []
+        },
+        {
+            "id": "c6.1",
+            "parent_macro": "m6",
+            "title": "Khái niệm cốt lõi của Trí tuệ Nhân tạo",
+            "content": "Bài học này cung cấp cái nhìn tổng quan về lịch sử phát triển của AI và giới thiệu các khái niệm cơ bản như Machine Learning và Deep Learning. Học viên sẽ tìm hiểu về nguyên tắc hoạt động của thuật toán học máy từ dữ liệu đầu vào. Mục tiêu là xây dựng nền tảng kiến thức vững chắc về AI trước khi đi sâu vào ứng dụng.",
+            "alpha_base": 15,
+            "resources": [
+                {
+                    "id": "res_lesson_c6.1_fd9a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=6&id=61",
+                    "title": "🎬 Bài giảng: AI Foundations",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c6.1_8067",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv",
+                    "title": "📝 Trắc nghiệm Module 6",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c6.1_28f0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6",
+                    "title": "📋 Mục lục Module 6",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c6.2",
+            "parent_macro": "m6",
+            "title": "Các mô hình GenAI tạo sinh và ứng dụng",
+            "content": "Tiết học này giới thiệu các mô hình AI tạo sinh (GenAI) phổ biến như ChatGPT, Gemini, NoteBookLM, ShakkerAI và Sora. Học viên sẽ được hướng dẫn cách sử dụng các công cụ này để tạo văn bản, hình ảnh và video. Bài học cũng đề cập đến các vấn đề đạo đức và quyền riêng tư liên quan đến ứng dụng AI tạo sinh.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_lesson_c6.2_2a74",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=6&id=62",
+                    "title": "🎬 Bài giảng: AI Blueprint",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c6.2_3bcd",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv",
+                    "title": "📝 Trắc nghiệm Module 6",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c6.2_f3c6",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6",
+                    "title": "📋 Mục lục Module 6",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c7.1",
+            "parent_macro": "m7",
+            "title": "Định dạng văn bản chuyên nghiệp trong Word",
+            "content": "Bài học này tập trung vào các kỹ năng định dạng văn bản cơ bản và nâng cao trong Microsoft Word. Học viên sẽ thực hành thiết lập khổ giấy, lựa chọn font chữ, sử dụng Page Breaks, Section Breaks, TabStop và Bullets. Mục tiêu là giúp người học tạo ra các tài liệu Word có bố cục rõ ràng và đẹp mắt.",
+            "alpha_base": 25,
+            "resources": []
+        },
+        {
+            "id": "c7.2",
+            "parent_macro": "m7",
+            "title": "Trình bày văn bản chuyên nghiệp với Word",
+            "content": "Tiết học này hướng dẫn các kỹ thuật trình bày văn bản để tạo nên một tài liệu chuyên nghiệp. Học viên sẽ được thực hành tạo mục lục tự động (Multilevel list), sử dụng Header và Footer, thêm Caption cho hình ảnh và Comment. Mục tiêu là giúp người học nâng cao khả năng tổ chức và chú thích nội dung một cách hiệu quả.",
+            "alpha_base": 28,
+            "resources": []
+        },
+        {
+            "id": "c7.3",
+            "parent_macro": "m7",
+            "title": "Kiểm tra giữa kỳ thực hành Word",
+            "content": "Tiết học này là buổi kiểm tra giữa kỳ, tập trung vào việc rà soát lỗi ứng dụng và kỹ năng tổng hợp văn bản. Học viên sẽ thực hành áp dụng các kiến thức đã học để tạo ra một tài liệu chuẩn Harvard. Mục tiêu là đánh giá khả năng vận dụng tổng hợp các chức năng của Word để hoàn thành một bài tập thực tế.",
+            "alpha_base": 30,
+            "resources": []
+        },
+        {
+            "id": "c7.4",
+            "parent_macro": "m7",
+            "title": "Tích hợp AI vào Word",
+            "content": "Bài học này giới thiệu cách tích hợp các công cụ AI như Copilot hoặc ChatGPT vào Microsoft Word thông qua Add-ins. Học viên sẽ được hướng dẫn cách yêu cầu AI viết tự động, tóm tắt và viết lại văn bản chuẩn ngữ pháp. Mục tiêu là khai thác sức mạnh của AI để tối ưu hóa quy trình soạn thảo và nâng cao chất lượng văn bản.",
+            "alpha_base": 28,
+            "resources": []
+        },
+        {
+            "id": "c8.1",
+            "parent_macro": "m8",
+            "title": "Nền tảng hàm và xử lý dữ liệu trong Excel",
+            "content": "Tiết học này cung cấp kiến thức nền tảng về các hàm và kỹ thuật xử lý dữ liệu trong Excel. Học viên sẽ được hướng dẫn cách đặt tên vùng, sử dụng Validation, và áp dụng các hàm như If, Left, Right, Vlookup, Hlookup để định hình dữ liệu thô. Mục tiêu là xây dựng khả năng làm việc hiệu quả với các bộ dữ liệu phức tạp.",
+            "alpha_base": 28,
+            "resources": []
+        },
+        {
+            "id": "c8.2",
+            "parent_macro": "m8",
+            "title": "Quản trị và phân tích mảng dữ liệu với Excel",
+            "content": "Bài học này tập trung vào các công cụ quản trị và phân tích mảng dữ liệu trong Excel. Học viên sẽ thực hành các chức năng Sort, Filter và PivotTable để tổ chức dữ liệu. Đồng thời, tiết học cũng hướng dẫn cách sử dụng các hàm lọc đếm có điều kiện như Sumif và Countif. Mục tiêu là giúp người học trích xuất thông tin và insight từ dữ liệu.",
+            "alpha_base": 28,
+            "resources": []
+        },
+        {
+            "id": "c8.3",
+            "parent_macro": "m8",
+            "title": "Tích hợp AI để phân tích dữ liệu trong Excel",
+            "content": "Tiết học này giới thiệu cách tích hợp AI, cụ thể là Copilot, vào Excel để phân tích dữ liệu tự động. Học viên sẽ được hướng dẫn cách tạo bộ dữ liệu mẫu, phân tích logic xu hướng và yêu cầu AI sinh các công thức hàm phức tạp. Mục tiêu là khai thác khả năng của AI để tăng cường hiệu quả và độ chính xác trong phân tích dữ liệu.",
+            "alpha_base": 29,
+            "resources": []
+        },
+        {
+            "id": "c9.1",
+            "parent_macro": "m9",
+            "title": "Xây dựng trình chiếu chuyên nghiệp với PowerPoint",
+            "content": "Bài học này tập trung vào các kỹ thuật xây dựng trình chiếu ấn tượng trong PowerPoint. Học viên sẽ được hướng dẫn cách thiết kế Slide Master để đảm bảo tính nhất quán. Đồng thời, tiết học cũng bao gồm kỹ thuật tạo Trigger để liên kết các mảng nội dung và sử dụng Animation, Auto-loop để tăng tính tương tác.",
+            "alpha_base": 25,
+            "resources": []
+        },
+        {
+            "id": "c9.2",
+            "parent_macro": "m9",
+            "title": "Chế tác Slide siêu tốc với AI",
+            "content": "Tiết học này giới thiệu cách sử dụng các công cụ AI như Gamma AI hoặc Copilot để chế tác Slide một cách nhanh chóng và hiệu quả. Học viên sẽ được hướng dẫn cách yêu cầu AI sinh toàn bộ cấu trúc bài thuyết trình. Đồng thời, bài học cũng bao gồm việc chèn hình ảnh minh họa được tạo bởi GenAI để làm phong phú nội dung.",
+            "alpha_base": 28,
+            "resources": []
+        },
+        {
+            "id": "c10.1",
+            "parent_macro": "m10",
+            "title": "Tổng ôn quy trình và kiến thức",
+            "content": "Tiết học này là buổi tổng ôn toàn diện, rà soát lại toàn bộ kiến thức từ 6 module lý thuyết về công nghệ số và AI. Học viên sẽ ôn tập các kỹ năng đã học và tổ hợp các bài thi thực hành Office kết hợp AI. Mục tiêu là củng cố kiến thức và chuẩn bị tốt nhất cho các bài kiểm tra cuối khóa.",
+            "alpha_base": 20,
+            "resources": []
+        },
+        {
+            "id": "c10.2",
+            "parent_macro": "m10",
+            "title": "Giải đề minh họa và xử lý tình huống",
+            "content": "Bài học này tập trung vào việc giải các đề thi minh họa thực hành lớn, giúp học viên làm quen với định dạng và yêu cầu của bài thi cuối khóa. Học viên sẽ được chia sẻ quy trình làm bài hiệu quả và cách xử lý các tình huống phát sinh. Mục tiêu là trang bị kỹ năng giải quyết vấn đề và tự tin hoàn thành bài thi thực hành.",
+            "alpha_base": 25,
+            "resources": []
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "a1.1",
+            "target_micro": "c1.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Điểm khác biệt chính giữa dữ liệu thô và thông tin số là gì?",
+                    "options": [
+                        "A. Dữ liệu thô đã được xử lý, còn thông tin số thì chưa.",
+                        "B. Dữ liệu thô là các sự kiện, số liệu chưa được tổ chức, còn thông tin số là dữ liệu đã được xử lý và có ý nghĩa.",
+                        "C. Dữ liệu thô chỉ tồn tại ở dạng văn bản, thông tin số tồn tại ở nhiều định dạng.",
+                        "D. Dữ liệu thô luôn lớn hơn thông tin số về mặt dung lượng."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Dữ liệu 'phi cấu trúc' thường có đặc điểm nào sau đây?",
+                    "options": [
+                        "A. Được lưu trữ trong cơ sở dữ liệu quan hệ.",
+                        "B. Có định dạng cố định, dễ dàng phân tích bằng SQL.",
+                        "C. Không tuân theo một mô hình dữ liệu định sẵn, ví dụ: văn bản, hình ảnh, video.",
+                        "D. Luôn yêu cầu phải có một schema để lưu trữ."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a1.2",
+            "target_micro": "c1.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Để tìm kiếm các bài báo khoa học về 'Trí tuệ Nhân tạo trong Y học' trên Google Scholar, chiến lược nào sau đây là hiệu quả nhất?",
+                    "options": [
+                        "A. Chỉ gõ 'Trí tuệ Nhân tạo' và duyệt qua tất cả kết quả.",
+                        "B. Sử dụng cụm từ chính xác '\"Trí tuệ Nhân tạo trong Y học\"' để lọc kết quả.",
+                        "C. Tìm kiếm 'AI' và 'Y học' riêng biệt, sau đó tự tổng hợp.",
+                        "D. Đặt câu hỏi dạng hội thoại như 'AI được dùng thế nào trong y học?'"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Toán tử logic 'AND' trong tìm kiếm nâng cao có tác dụng gì?",
+                    "options": [
+                        "A. Tìm kiếm các tài liệu chứa ít nhất một trong các từ khóa.",
+                        "B. Tìm kiếm các tài liệu chứa tất cả các từ khóa được nối bằng 'AND'.",
+                        "C. Loại trừ các tài liệu chứa từ khóa sau 'AND'.",
+                        "D. Tìm kiếm các tài liệu có từ khóa gần nhau."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a1.3",
+            "target_micro": "c1.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Kỹ thuật 'web scraping' được sử dụng chủ yếu để làm gì?",
+                    "options": [
+                        "A. Thiết kế giao diện website đẹp mắt.",
+                        "B. Thu thập dữ liệu tự động từ các trang web.",
+                        "C. Tăng cường bảo mật cho website.",
+                        "D. Tối ưu hóa tốc độ tải trang web."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Nguyên tắc cơ bản để bảo mật thông tin cá nhân khi chia sẻ dữ liệu trực tuyến là gì?",
+                    "options": [
+                        "A. Chia sẻ càng nhiều càng tốt để tiện lợi.",
+                        "B. Chỉ chia sẻ thông tin cần thiết với những người đáng tin cậy và kiểm soát quyền truy cập.",
+                        "C. Sử dụng cùng một mật khẩu cho tất cả các dịch vụ.",
+                        "D. Lưu trữ tất cả dữ liệu trên một thiết bị duy nhất."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a2.1",
+            "target_micro": "c2.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Khi cần trao đổi thông tin khẩn cấp và cần phản hồi ngay lập tức trong môi trường làm việc, công cụ giao tiếp số nào thường được ưu tiên?",
+                    "options": [
+                        "A. Email.",
+                        "B. Video call.",
+                        "C. Thư truyền thống.",
+                        "D. Bảng thông báo."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Quy tắc ứng xử trên mạng (Netiquette) nào sau đây là phù hợp khi tham gia diễn đàn trực tuyến?",
+                    "options": [
+                        "A. Viết hoa toàn bộ bài viết để thu hút sự chú ý.",
+                        "B. Đăng tải thông tin cá nhân của người khác mà không có sự đồng ý.",
+                        "C. Tôn trọng ý kiến đa dạng và giữ thái độ lịch sự, chuyên nghiệp.",
+                        "D. Chia sẻ tin tức chưa kiểm chứng để tăng tương tác."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a2.2",
+            "target_micro": "c2.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Nền tảng nào sau đây cho phép chia sẻ tài liệu an toàn và làm việc cộng tác trực tuyến hiệu quả?",
+                    "options": [
+                        "A. Facebook.",
+                        "B. Google Drive/OneDrive.",
+                        "C. Instagram.",
+                        "D. TikTok."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Để bảo vệ danh tính số cá nhân khi làm việc nhóm trực tuyến, chúng ta nên làm gì?",
+                    "options": [
+                        "A. Luôn sử dụng biệt danh không liên quan đến bản thân.",
+                        "B. Chia sẻ mật khẩu tài khoản cá nhân với tất cả thành viên trong nhóm.",
+                        "C. Cẩn trọng với thông tin cá nhân mình chia sẻ và thiết lập quyền riêng tư phù hợp.",
+                        "D. Công khai tất cả thông tin cá nhân trên hồ sơ trực tuyến."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a3.1",
+            "target_micro": "c3.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Khi lập kế hoạch nội dung, việc phân tích chân dung người xem (audience persona) nhằm mục đích chính là gì?",
+                    "options": [
+                        "A. Xác định chi phí sản xuất nội dung.",
+                        "B. Hiểu rõ đối tượng mục tiêu để tạo nội dung phù hợp và hiệu quả.",
+                        "C. Tìm kiếm các đối thủ cạnh tranh.",
+                        "D. Quyết định nền tảng phân phối nội dung."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Hình thức nội dung nào sau đây là ví dụ của nội dung đa nền tảng?",
+                    "options": [
+                        "A. Chỉ một cuốn sách in.",
+                        "B. Một bài báo trên tạp chí giấy.",
+                        "C. Một video trên YouTube, kèm theo bài viết blog và infographic tóm tắt.",
+                        "D. Một bức tranh chỉ được trưng bày tại triển lãm."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a3.2",
+            "target_micro": "c3.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Để tái sử dụng một đoạn nhạc từ Internet cho video của mình một cách hợp pháp, bạn cần làm gì trước tiên?",
+                    "options": [
+                        "A. Đăng tải video và chờ thông báo vi phạm bản quyền.",
+                        "B. Tra cứu giấy phép bản quyền và đảm bảo tuân thủ các điều kiện sử dụng hoặc xin phép tác giả.",
+                        "C. Chỉnh sửa một chút để đoạn nhạc nghe khác đi.",
+                        "D. Ghi nguồn đoạn nhạc vào cuối video là đủ."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Hành động nào sau đây vi phạm bản quyền số?",
+                    "options": [
+                        "A. Chia sẻ đường link bài báo gốc trên mạng xã hội.",
+                        "B. Tải xuống một bộ phim có bản quyền và phát tán công khai mà không có sự cho phép.",
+                        "C. Mua một phần mềm có bản quyền và cài đặt trên máy tính cá nhân.",
+                        "D. Trích dẫn một đoạn văn ngắn có ghi nguồn rõ ràng."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a3.3",
+            "target_micro": "c3.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Giai đoạn 'kiểm thử' trong quá trình phát triển ứng dụng nội dung số nhằm mục đích gì?",
+                    "options": [
+                        "A. Quyết định công nghệ sẽ sử dụng.",
+                        "B. Đảm bảo ứng dụng hoạt động đúng như mong đợi và không có lỗi nghiêm trọng.",
+                        "C. Thiết kế giao diện người dùng.",
+                        "D. Xây dựng cơ sở dữ liệu cho ứng dụng."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Yếu tố quan trọng nhất cần xem xét khi lựa chọn công nghệ cho một ứng dụng nội dung số mới là gì?",
+                    "options": [
+                        "A. Công nghệ đó phải là công nghệ mới nhất trên thị trường.",
+                        "B. Chi phí phát triển, khả năng mở rộng và phù hợp với yêu cầu của ứng dụng.",
+                        "C. Số lượng người dùng hiện tại của công nghệ đó.",
+                        "D. Mức độ phổ biến của ngôn ngữ lập trình liên quan."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a4.1",
+            "target_micro": "c4.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Mã độc (malware) là gì?",
+                    "options": [
+                        "A. Một phần mềm diệt virus.",
+                        "B. Một loại phần mềm được thiết kế để gây hại cho hệ thống máy tính hoặc đánh cắp thông tin.",
+                        "C. Một hệ điều hành mã nguồn mở.",
+                        "D. Một công cụ tối ưu hóa hiệu suất máy tính."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Cuộc tấn công 'lừa đảo xã hội' (social engineering) thường khai thác điểm yếu nào để đạt được mục đích?",
+                    "options": [
+                        "A. Lỗ hổng bảo mật của phần mềm.",
+                        "B. Sức mạnh xử lý của máy tính.",
+                        "C. Sự nhẹ dạ, cả tin hoặc thiếu cảnh giác của con người.",
+                        "D. Tốc độ kết nối internet."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a4.2",
+            "target_micro": "c4.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Tại sao việc sao lưu dữ liệu (backup) là một phần quan trọng của chiến lược bảo mật?",
+                    "options": [
+                        "A. Giúp giảm dung lượng ổ cứng.",
+                        "B. Đảm bảo rằng bạn có thể khôi phục thông tin quan trọng nếu dữ liệu gốc bị mất hoặc hỏng.",
+                        "C. Tăng tốc độ truy cập dữ liệu.",
+                        "D. Tự động mã hóa tất cả dữ liệu."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Khi tạo mật khẩu an toàn, bạn nên tuân thủ nguyên tắc nào?",
+                    "options": [
+                        "A. Sử dụng thông tin cá nhân dễ đoán như ngày sinh, tên người thân.",
+                        "B. Dùng một mật khẩu duy nhất cho tất cả các tài khoản.",
+                        "C. Kết hợp chữ hoa, chữ thường, số và ký tự đặc biệt, đồng thời sử dụng mật khẩu dài và duy nhất cho mỗi dịch vụ.",
+                        "D. Viết mật khẩu ra giấy và dán cạnh màn hình."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a4.3",
+            "target_micro": "c4.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Khái niệm 'Sức khỏe số' (Digital Wellness) đề cập đến điều gì?",
+                    "options": [
+                        "A. Tốc độ kết nối internet của bạn.",
+                        "B. Khả năng sử dụng thành thạo các thiết bị điện tử.",
+                        "C. Trạng thái cân bằng giữa việc sử dụng công nghệ và phúc lợi về thể chất, tinh thần của cá nhân.",
+                        "D. Số lượng ứng dụng được cài đặt trên điện thoại."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Giải pháp 'công nghệ xanh bền vững' là gì?",
+                    "options": [
+                        "A. Các công nghệ chỉ sử dụng màu xanh lá cây trong thiết kế.",
+                        "B. Các công nghệ được phát triển và sử dụng nhằm giảm thiểu tác động tiêu cực đến môi trường.",
+                        "C. Các công nghệ chỉ dành riêng cho ngành nông nghiệp.",
+                        "D. Các công nghệ yêu cầu lượng năng lượng tiêu thụ cực lớn."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a5.1",
+            "target_micro": "c5.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Khi mạng Wi-Fi không hoạt động, bước đầu tiên bạn nên làm để kiểm tra lỗi phần cứng mạng là gì?",
+                    "options": [
+                        "A. Gọi ngay cho nhà cung cấp dịch vụ Internet.",
+                        "B. Khởi động lại router/modem Wi-Fi.",
+                        "C. Cài đặt lại hệ điều hành máy tính.",
+                        "D. Thay card mạng của máy tính."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Mục đích chính của việc đọc 'System Log' trên máy tính là gì?",
+                    "options": [
+                        "A. Tùy chỉnh giao diện hệ điều hành.",
+                        "B. Theo dõi và chẩn đoán các sự cố, lỗi hệ thống hoặc các hoạt động bất thường.",
+                        "C. Tăng tốc độ xử lý của CPU.",
+                        "D. Cài đặt phần mềm mới."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a5.2",
+            "target_micro": "c5.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Nền tảng nào sau đây là tài nguyên hữu ích để tìm kiếm giải pháp cho các vấn đề lập trình hoặc kỹ thuật cụ thể?",
+                    "options": [
+                        "A. Facebook.",
+                        "B. TikTok.",
+                        "C. Stack Overflow.",
+                        "D. Instagram."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Khi tự học công nghệ mới, việc sử dụng Wikipedia thường mang lại lợi ích gì?",
+                    "options": [
+                        "A. Cung cấp các khóa học chuyên sâu có chứng chỉ.",
+                        "B. Đưa ra cái nhìn tổng quan, định nghĩa và liên kết đến các chủ đề liên quan một cách nhanh chóng.",
+                        "C. Cung cấp các công cụ lập trình trực tuyến.",
+                        "D. Hỗ trợ giải quyết bài tập coding."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a5.3",
+            "target_micro": "c5.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Trong Google Sheets, chức năng 'Conditional Formatting' được sử dụng để làm gì?",
+                    "options": [
+                        "A. Tự động tính tổng các số trong một cột.",
+                        "B. Áp dụng định dạng (màu sắc, font chữ) cho các ô dựa trên một hoặc nhiều điều kiện nhất định.",
+                        "C. Sắp xếp dữ liệu theo thứ tự bảng chữ cái.",
+                        "D. Tạo biểu đồ từ dữ liệu đã chọn."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Để tính tổng các giá trị trong một phạm vi ô trong Google Sheets, hàm nào sau đây được sử dụng?",
+                    "options": [
+                        "A. AVERAGE()",
+                        "B. COUNT()",
+                        "C. SUM()",
+                        "D. MAX()"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a6.1",
+            "target_micro": "c6.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Điểm khác biệt cơ bản giữa Machine Learning (ML) và Deep Learning (DL) là gì?",
+                    "options": [
+                        "A. ML chỉ xử lý số liệu, DL xử lý hình ảnh.",
+                        "B. DL là một tập con của ML, sử dụng mạng nơ-ron nhân tạo với nhiều lớp ẩn để học các biểu diễn phức tạp từ dữ liệu.",
+                        "C. ML chỉ dùng thuật toán đơn giản, DL dùng thuật toán phức tạp.",
+                        "D. DL không yêu cầu dữ liệu đầu vào, còn ML thì có."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Thuật toán học máy (Machine Learning algorithm) hoạt động dựa trên nguyên tắc nào?",
+                    "options": [
+                        "A. Lập trình thủ công tất cả các quy tắc ra quyết định.",
+                        "B. Học hỏi từ dữ liệu đầu vào để tìm ra các mẫu và đưa ra dự đoán hoặc quyết định.",
+                        "C. Hoàn toàn phụ thuộc vào sự can thiệp liên tục của con người trong quá trình vận hành.",
+                        "D. Chỉ xử lý dữ liệu định dạng cấu trúc."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a6.2",
+            "target_micro": "c6.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Công cụ GenAI nào sau đây được biết đến với khả năng tạo văn bản chất lượng cao dựa trên các yêu cầu của người dùng?",
+                    "options": [
+                        "A. Sora.",
+                        "B. ShakkerAI.",
+                        "C. ChatGPT.",
+                        "D. Google Maps."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Khi sử dụng các mô hình GenAI, vấn đề đạo đức nào sau đây cần được quan tâm hàng đầu?",
+                    "options": [
+                        "A. Tốc độ phản hồi của AI.",
+                        "B. Khả năng bảo vệ quyền riêng tư và tránh việc tạo ra nội dung sai lệch hoặc có hại.",
+                        "C. Số lượng ngôn ngữ mà AI hỗ trợ.",
+                        "D. Giá thành của dịch vụ AI."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a7.1",
+            "target_micro": "c7.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Trong Microsoft Word, 'Section Breaks' được sử dụng với mục đích gì?",
+                    "options": [
+                        "A. Chèn một dấu ngắt trang mới.",
+                        "B. Chia văn bản thành các phần riêng biệt để áp dụng định dạng trang khác nhau (ví dụ: số trang, hướng giấy).",
+                        "C. Thêm dấu đầu dòng vào danh sách.",
+                        "D. Tự động căn chỉnh các đoạn văn bản."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Chức năng 'Tab Stop' trong Word giúp người dùng làm gì?",
+                    "options": [
+                        "A. Thay đổi cỡ chữ của văn bản.",
+                        "B. Đặt các điểm dừng cố định để căn chỉnh văn bản một cách chính xác khi nhấn phím Tab.",
+                        "C. Chèn hình ảnh vào tài liệu.",
+                        "D. Tự động kiểm tra lỗi chính tả."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a7.2",
+            "target_micro": "c7.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Để tạo mục lục tự động (Multilevel list) trong Word, bạn cần sử dụng tính năng nào?",
+                    "options": [
+                        "A. Chỉ cần gõ thủ công từng dòng mục lục.",
+                        "B. Sử dụng các kiểu Headings (Heading 1, Heading 2,...) và tính năng Table of Contents.",
+                        "C. Chèn một bảng trống và điền thủ công.",
+                        "D. Sử dụng chức năng tìm kiếm và thay thế."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Chức năng Header và Footer trong Word được sử dụng để làm gì?",
+                    "options": [
+                        "A. Định dạng font chữ của toàn bộ tài liệu.",
+                        "B. Thêm nội dung lặp lại (ví dụ: số trang, tiêu đề chương) vào đầu hoặc cuối mỗi trang.",
+                        "C. Tạo biểu đồ và đồ thị.",
+                        "D. Chèn các hình ảnh lớn vào tài liệu."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a7.3",
+            "target_micro": "c7.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Khi rà soát lỗi ứng dụng trong Word, điều gì thường là mục tiêu chính?",
+                    "options": [
+                        "A. Đảm bảo văn bản có hình ảnh minh họa đẹp.",
+                        "B. Phát hiện và sửa chữa các lỗi chính tả, ngữ pháp, định dạng và tính nhất quán của tài liệu.",
+                        "C. Tăng số lượng trang của tài liệu.",
+                        "D. Thay đổi khổ giấy tài liệu."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Tiêu chuẩn định dạng 'chuẩn Harvard' chủ yếu áp dụng cho khía cạnh nào của văn bản?",
+                    "options": [
+                        "A. Kích thước font chữ và lề trang.",
+                        "B. Cách trích dẫn nguồn và lập danh mục tài liệu tham khảo.",
+                        "C. Màu sắc của các đoạn văn bản.",
+                        "D. Số lượng hình ảnh trong tài liệu."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a7.4",
+            "target_micro": "c7.4",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Để tích hợp Copilot hoặc ChatGPT vào Word, người dùng thường sử dụng phương pháp nào?",
+                    "options": [
+                        "A. Cài đặt trực tiếp vào hệ điều hành.",
+                        "B. Sử dụng các Add-ins (tiện ích bổ sung) có sẵn hoặc từ Microsoft Store.",
+                        "C. Sao chép và dán từ trang web của AI.",
+                        "D. Gõ trực tiếp lệnh AI vào cửa sổ lệnh của Word."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Một trong những chức năng chính của AI khi tích hợp vào Word là gì?",
+                    "options": [
+                        "A. Tự động vẽ biểu đồ phức tạp.",
+                        "B. Hỗ trợ viết tự động, tóm tắt, kiểm tra ngữ pháp và viết lại văn bản theo yêu cầu.",
+                        "C. Thay đổi theme màu của Word.",
+                        "D. Quản lý các file tài liệu trên máy tính."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a8.1",
+            "target_micro": "c8.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Hàm VLOOKUP trong Excel được sử dụng để làm gì?",
+                    "options": [
+                        "A. Tính tổng các giá trị trong một cột.",
+                        "B. Tìm kiếm một giá trị trong cột đầu tiên của một phạm vi bảng và trả về một giá trị từ cùng hàng trong một cột khác.",
+                        "C. Sắp xếp dữ liệu theo thứ tự tăng dần.",
+                        "D. Đổi định dạng ngày tháng."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Chức năng Data Validation trong Excel có mục đích chính là gì?",
+                    "options": [
+                        "A. Tự động sao lưu dữ liệu.",
+                        "B. Hạn chế loại dữ liệu hoặc giá trị mà người dùng có thể nhập vào một ô hoặc phạm vi ô.",
+                        "C. Tạo biểu đồ tương tác.",
+                        "D. Mã hóa dữ liệu trong bảng tính."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a8.2",
+            "target_micro": "c8.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Chức năng PivotTable trong Excel giúp người dùng làm gì?",
+                    "options": [
+                        "A. Tạo các công thức tính toán đơn giản.",
+                        "B. Tổng hợp, phân tích và trình bày dữ liệu lớn một cách linh hoạt và dễ hiểu.",
+                        "C. Tô màu các ô theo điều kiện.",
+                        "D. Chỉnh sửa font chữ và kích thước văn bản."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Điểm khác biệt cơ bản giữa hàm SUMIF và COUNTIF trong Excel là gì?",
+                    "options": [
+                        "A. SUMIF tính tổng, còn COUNTIF đếm số lượng các ô thỏa mãn điều kiện.",
+                        "B. SUMIF chỉ dùng cho số, COUNTIF dùng cho văn bản.",
+                        "C. SUMIF đếm số lượng, còn COUNTIF tính tổng.",
+                        "D. Cả hai hàm đều làm nhiệm vụ giống nhau."
+                    ],
+                    "answer": "A"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a8.3",
+            "target_micro": "c8.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Khi tích hợp AI như Copilot vào Excel, AI có thể hỗ trợ phân tích xu hướng dữ liệu bằng cách nào?",
+                    "options": [
+                        "A. Tự động tô màu ngẫu nhiên các ô.",
+                        "B. Sinh ra các biểu đồ và báo cáo tóm tắt tự động, phát hiện mẫu và xu hướng ẩn trong dữ liệu.",
+                        "C. Xóa các hàng dữ liệu không cần thiết.",
+                        "D. Thay đổi tên các cột dữ liệu."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Lợi ích chính của việc yêu cầu AI sinh công thức hàm phức tạp trong Excel là gì?",
+                    "options": [
+                        "A. Giảm dung lượng file Excel.",
+                        "B. Tiết kiệm thời gian, giảm lỗi và cho phép người dùng không chuyên cũng có thể sử dụng các hàm nâng cao.",
+                        "C. Chuyển đổi định dạng file Excel.",
+                        "D. Tự động gửi email với kết quả phân tích."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a9.1",
+            "target_micro": "c9.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Trong PowerPoint, 'Slide Master' được sử dụng chủ yếu để làm gì?",
+                    "options": [
+                        "A. Chèn một slide mới vào bài thuyết trình.",
+                        "B. Đảm bảo tính nhất quán về bố cục, font chữ, màu sắc và hình nền cho tất cả các slide trong bài thuyết trình.",
+                        "C. Thực hiện hiệu ứng chuyển động cho đối tượng.",
+                        "D. Tạo một biểu đồ phức tạp."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Kỹ thuật 'Trigger' trong PowerPoint giúp người dùng đạt được điều gì?",
+                    "options": [
+                        "A. Tự động chạy tất cả các hiệu ứng ngay khi slide xuất hiện.",
+                        "B. Kích hoạt một hiệu ứng hoặc hành động cụ thể khi người dùng nhấp vào một đối tượng đã chọn.",
+                        "C. Thay đổi thứ tự các slide trong bài thuyết trình.",
+                        "D. Chia sẻ bài thuyết trình trực tuyến."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a9.2",
+            "target_micro": "c9.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Khi sử dụng Gamma AI hoặc Copilot để 'sinh toàn bộ cấu trúc bài thuyết trình', điều này có nghĩa là gì?",
+                    "options": [
+                        "A. AI chỉ giúp bạn chọn màu sắc cho các slide.",
+                        "B. AI sẽ tạo ra một dàn ý, bố cục slide, thậm chí cả nội dung gợi ý dựa trên chủ đề bạn cung cấp.",
+                        "C. AI tự động tìm kiếm hình ảnh và video từ Internet.",
+                        "D. AI chỉ hỗ trợ bạn in bài thuyết trình."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Việc chèn hình ảnh minh họa được tạo bởi GenAI vào slide PowerPoint mang lại lợi ích gì?",
+                    "options": [
+                        "A. Giảm dung lượng file trình chiếu.",
+                        "B. Cung cấp hình ảnh độc đáo, phù hợp với nội dung mà không cần tìm kiếm thủ công, giúp tăng tính thẩm mỹ và thu hút.",
+                        "C. Tự động thêm hiệu ứng động cho hình ảnh.",
+                        "D. Đảm bảo tất cả hình ảnh đều có bản quyền."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a10.1",
+            "target_micro": "c10.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Mục đích chính của buổi tổng ôn quy trình trọn gói là gì?",
+                    "options": [
+                        "A. Học các kiến thức hoàn toàn mới.",
+                        "B. Rà soát, củng cố và hệ thống hóa toàn bộ kiến thức đã học từ lý thuyết đến thực hành để chuẩn bị cho kỳ thi.",
+                        "C. Chỉ tập trung vào việc cài đặt phần mềm mới.",
+                        "D. Thảo luận về các chủ đề không liên quan đến môn học."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Các kiến thức được ôn tập trong buổi tổng ôn bao gồm những gì?",
+                    "options": [
+                        "A. Chỉ các kiến thức về Trí tuệ Nhân tạo.",
+                        "B. Chỉ các kỹ năng thực hành Office.",
+                        "C. Toàn bộ kiến thức từ 6 module lý thuyết về công nghệ số và tổ hợp bài thi thực hành Office kết hợp AI.",
+                        "D. Các kiến thức chỉ liên quan đến lịch sử máy tính."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": []
+        },
+        {
+            "id": "a10.2",
+            "target_micro": "c10.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Việc giải các đề thi minh họa có ý nghĩa gì đối với học viên?",
+                    "options": [
+                        "A. Giúp học viên bỏ qua việc học lý thuyết.",
+                        "B. Giúp học viên làm quen với cấu trúc, định dạng và yêu cầu của bài thi thật, đồng thời rèn luyện kỹ năng giải quyết vấn đề dưới áp lực thời gian.",
+                        "C. Là cách duy nhất để đạt điểm cao.",
+                        "D. Chỉ dành cho những học viên có năng khiếu đặc biệt."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Khi xử lý tình huống phát sinh trong bài thi thực hành, điều quan trọng nhất là gì?",
+                    "options": [
+                        "A. Hoảng sợ và từ bỏ bài thi.",
+                        "B. Nắm vững kiến thức cơ bản, giữ bình tĩnh và áp dụng các kỹ năng xử lý lỗi đã học để tìm cách khắc phục hoặc tìm giải pháp thay thế.",
+                        "C. Chờ đợi người khác giúp đỡ.",
+                        "D. Thay đổi yêu cầu của đề bài."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": []
+        }
+    ],
+    "user_id": "thanhthangbmt7",
+    "edges": [
+        {
+            "source": "c1.1",
+            "target": "c1.3",
+            "reason": "Để lọc và quản lý dữ liệu hiệu quả, cần có cái nhìn tổng quan về dữ liệu."
+        },
+        {
+            "source": "c1.1",
+            "target": "c8.1",
+            "reason": "Hiểu biết tổng quan về dữ liệu là nền tảng để làm việc với hàm và xử lý dữ liệu trong Excel."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.2",
+            "reason": "Giao tiếp hiệu quả là kỹ năng tiên quyết để làm việc nhóm thành công trong môi trường số."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.2",
+            "reason": "Việc nắm rõ các cuộc tấn công mạng và rủi ro giúp xây dựng chiến lược bảo mật đa lớp hiệu quả hơn."
+        },
+        {
+            "source": "c6.1",
+            "target": "c6.2",
+            "reason": "Khái niệm cốt lõi của Trí tuệ Nhân tạo là nền tảng để hiểu các mô hình GenAI tạo sinh."
+        },
+        {
+            "source": "c6.1",
+            "target": "c7.4",
+            "reason": "Hiểu biết về AI là cần thiết để tích hợp công nghệ này vào Word một cách hiệu quả."
+        },
+        {
+            "source": "c6.1",
+            "target": "c8.3",
+            "reason": "Kiến thức về AI là cần thiết để áp dụng AI vào phân tích dữ liệu trong Excel."
+        },
+        {
+            "source": "c6.1",
+            "target": "c9.2",
+            "reason": "Hiểu về AI là yếu tố quan trọng để sử dụng AI tạo slide siêu tốc."
+        },
+        {
+            "source": "c7.1",
+            "target": "c7.2",
+            "reason": "Kỹ năng định dạng văn bản là cơ sở để trình bày văn bản một cách chuyên nghiệp trong Word."
+        },
+        {
+            "source": "c7.2",
+            "target": "c7.3",
+            "reason": "Kiến thức và kỹ năng trình bày văn bản là cần thiết để hoàn thành bài kiểm tra thực hành Word."
+        },
+        {
+            "source": "c7.2",
+            "target": "c7.4",
+            "reason": "Việc nắm vững cách trình bày văn bản trong Word hỗ trợ việc tích hợp AI hiệu quả hơn."
+        },
+        {
+            "source": "c8.1",
+            "target": "c8.2",
+            "reason": "Nền tảng hàm và xử lý dữ liệu là điều kiện tiên quyết để quản trị và phân tích mảng dữ liệu phức tạp trong Excel."
+        },
+        {
+            "source": "c8.2",
+            "target": "c8.3",
+            "reason": "Để tích hợp AI vào phân tích dữ liệu, cần có khả năng quản trị và phân tích dữ liệu cơ bản trong Excel."
+        },
+        {
+            "source": "c9.1",
+            "target": "c9.2",
+            "reason": "Kỹ năng xây dựng trình chiếu chuyên nghiệp là cơ sở để sử dụng AI chế tác slide hiệu quả."
+        },
+        {
+            "source": "c10.1",
+            "target": "c10.2",
+            "reason": "Tổng ôn quy trình và kiến thức là bước chuẩn bị để giải đề minh họa và xử lý tình huống thực tế."
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+﻿Slide 1: CHƯƠNG 1 - TIẾT 3: LỢI THẾ CHIẾN LƯỢC & CHÌA KHÓA THÀNH CÔNG
+Người 1: Chào mừng các bạn đến với Tiết 3, cũng là tiết cuối cùng của Chương 1.
+Ở các tiết trước, chúng ta đã biết “TMĐT là gì” và “Nó vận hành thế nào”. Hôm nay, câu hỏi quan trọng hơn là: “Tại sao nó lại chiến thắng?”. Hãy nhìn vào Mục tiêu tiết học trên Slide 1. Chúng ta sẽ cùng nhau giải mã 3 vấn đề lớn.
+Đặc biệt, thầy muốn các bạn chú ý đến mục tiêu số 3: “Mô hình 6Cs và OVP”.
+OVP (Online Value Proposition) hay “Đề xuất giá trị trực tuyến” chính là câu trả lời cho câu hỏi: “Tại sao tôi phải vào web của bạn thay vì ra chợ?”.
+Người 2: Thưa thầy, còn khái niệm “Tảng băng trôi” ở mục tiêu số 2 nghĩa là gì ạ? Có phải nói về những rủi ro ngầm không ạ?
+Người 1: Đúng vậy. Chúng ta thường chỉ nhìn thấy bề nổi là lợi ích (doanh số, tiện lợi), nhưng phần chìm bên dưới là những rào cản về công nghệ và niềm tin có thể đánh chìm doanh nghiệp bất cứ lúc nào. Chúng ta sẽ “lặn” xuống đó ngay sau đây.
+
+Slide 2: HẢI TRÌNH HÔM NAY - LỘ TRÌNH CHINH PHỤC ĐẠI DƯƠNG SỐ
+Người 1: Để các bạn dễ hình dung, hãy coi hành trình hôm nay như một chuyến ra khơi chinh phục đại dương số. Slide 2 vẽ ra lộ trình 3 chặng của chúng ta.
+• Chặng 1: Khám phá Luật chơi mới. Chúng ta sẽ tìm hiểu 3 tác động chiến lược của thông tin.
+• Chặng 2: Quần đảo Kho báu & Tảng băng trôi. Nơi chúng ta phân tích Lợi ích (Kho báu) và Rủi ro (Tảng băng).
+• Chặng 3: Hải đồ Thành công. Chúng ta sẽ cầm trong tay chiếc “la bàn” 6Cs để định hướng.
+Người 1: Các thủy thủ đoàn lớp BA24M đã sẵn sàng chưa? Chúng ta bắt đầu với “Luật chơi mới”.
+
+Slide 3: BA TÁC ĐỘNG CHIẾN LƯỢC (LUẬT CHƠI MỚI)
+Người 1: Ngày xưa trong kinh doanh truyền thống, có một quy luật nghiệt ngã: “Bạn chỉ có thể chọn 1 trong 2: Hoặc là tiếp cận nhiều người (Reach), Hoặc là cung cấp thông tin chi tiết cho ít người (Richness)”. Nhưng Slide 31 cho thấy TMĐT đã phá vỡ quy luật đó như thế nào. Hãy nhìn vào 3 vòng tròn: Reach, Richness và Affiliation.
+Thầy đố em: “Độ phong phú” (Richness) trong TMĐT khác gì so với tờ rơi quảng cáo ngày xưa?
+Người 2: Dạ, tờ rơi thì chỉ có chữ với hình tĩnh, thông tin rất ít. Còn trên TMĐT, “Richness” nghĩa là mình có thể xem video review sản phẩm, xoay hình ảnh 3D, thậm chí chat trực tiếp với người bán để hỏi kỹ từng chút một.
+Thông tin nó “giàu” hơn rất nhiều ạ.
+Người 1: Chính xác. Thế còn “Tầm với” (Reach)?
+Người 2: Dạ là khả năng vươn ra toàn cầu ạ. Nhờ Google và Internet, một shop nhỏ ở Việt Nam cũng có thể tiếp cận khách hàng ở Mỹ với chi phí rất thấp.
+Người 1: Đúng. Và yếu tố thứ 3 là “Sự liên kết” (Affiliation). TMĐT cho phép chúng ta kết nối với các đối tác và cộng đồng dễ dàng hơn bao giờ hết.
+Ba yếu tố này cộng lại tạo nên một “Luật chơi mới”: Doanh nghiệp nhỏ vẫn có thể thắng doanh nghiệp lớn nếu biết dùng thông tin để tiếp cận khách hàng tốt hơn.
+
+Slide 4: LỢI ÍCH ĐỐI VỚI TỔ CHỨC - TỐI ƯU HÓA CỖ MÁY
+Người 1: Cụ thể hơn, những “quy luật mới” đó mang lại tiền bạc gì cho doanh nghiệp? Slide 4 liệt kê 4 lợi ích cốt lõi.
+Thầy muốn các bạn tập trung vào ý số 3: “Cá nhân hóa quy mô lớn” (Mass Customization).
+Nghe có vẻ mâu thuẫn nhỉ? Đã “quy mô lớn” (Mass) tức là bán cho hàng triệu người, thì làm sao mà “Cá nhân hóa” (Customization) cho từng người được?
+Người 2: Dạ, em nghĩ chìa khóa nằm ở “Dữ liệu” ạ. Ví dụ như Netflix, họ có hàng trăm triệu người dùng (Quy mô lớn), nhưng giao diện màn hình chính của mỗi người lại khác nhau hoàn toàn dựa trên phim họ đã xem (Cá nhân hóa). Họ dùng thuật toán để “đo ni đóng giày” cho từng người một cách tự động, chứ không phải dùng sức người để tư vấn thủ công ạ.
+Người 1: Phân tích rất sắc sảo! Đó chính là sức mạnh của công nghệ. Ngoài ra, TMĐT còn giúp “Giảm chi phí vận hành” khủng khiếp. Nhất là chi phí gì em biết không?
+Người 2: Dạ là chi phí kho bãi và hàng tồn kho ạ. Như thầy nói lúc nãy về mô hình “Kéo”, mình không cần trữ hàng đống trong kho nữa nên tiết kiệm được rất nhiều tiền ạ.
+Người 1: Chính xác. Và cuối cùng là khả năng phục vụ 24/7/365. Cỗ máy kiếm tiền của các bạn sẽ chạy ngay cả khi các bạn đang ngủ. Đó là giấc mơ của mọi nhà quản trị.
+
+Slide 5: LỢI ÍCH ĐỐI VỚI NGƯỜI TIÊU DÙNG - QUYỀN LỰC CỦA CÁI ĐUÔI DÀI
+Người 1: Chúng ta đã nói về lợi ích cho doanh nghiệp. Bây giờ hãy nhìn từ phía chúng ta - những người tiêu dùng.
+Trên Slide 5 có một biểu đồ rất nổi tiếng: Biểu đồ Cái đuôi dài (The Long Tail).
+Các bạn thấy biểu đồ chia làm 2 phần: Phần đầu (Head) màu đậm và Phần đuôi (Long Tail) màu nhạt kéo dài mãi.
+Theo em, sự khác biệt giữa một tiệm sách ngoài phố và Amazon nằm ở đâu trên biểu đồ này?
+Người 2: Dạ, tiệm sách ngoài phố diện tích có hạn, họ chỉ bày bán những cuốn sách bán chạy nhất (Best-seller) thôi. Chắc đó là phần “Head”.
+Còn Amazon thì kho hàng vô tận, họ bán cả những cuốn sách cực hiếm, sách chuyên ngành mà ít người mua. Đó là phần “Long Tail”.
+Người 1: Rất chính xác. TMĐT cho phép người dùng tiếp cận sự “Lựa chọn đa dạng” mà cửa hàng truyền thống không thể nào trưng bày hết được.
+Ngoài ra, người dùng còn được hưởng lợi từ “Tính phổ quát” (Ubiquity) - mua mọi lúc mọi nơi.
+Và đặc biệt là tốc độ. Nếu em mua phần mềm hay phim ảnh (sản phẩm số), em nhận hàng nhanh như thế nào?
+Người 2: Dạ nhận ngay lập tức sau khi thanh toán ạ. Không phải chờ ship.
+À, em còn thấy một lợi ích nữa là “Tìm kiếm giá hời”. Mình dùng mấy trang so sánh giá là biết ngay chỗ nào bán rẻ nhất để mua.
+Người 1: Đúng vậy. Người tiêu dùng ngày nay nắm quyền lực thông tin rất lớn.
+
+Slide 6: HẠN CHẾ VÀ RÀO CẢN - MÔ HÌNH “TẢNG BĂNG TRÔI”
+Người 1: Tuy nhiên, không có gì là hoàn hảo. Slide 6 đưa chúng ta quay lại với thực tế khắc nghiệt: Mô hình “Tảng băng trôi”.
+Thành công bề nổi (như doanh số khủng, web đẹp) chỉ là phần nhỏ. Nó có thể che giấu những mối nguy chí mạng bên dưới.
+Là nhà quản trị, nhiệm vụ của các em là phải nhìn thấu mặt nước để nhận diện các “rủi ro ngầm” này trước khi con tàu doanh nghiệp đâm phải nó.
+
+Slide 7: GIẢI PHẪU “TẢNG BĂNG TRÔI” - NHỮNG CÁI BẪY NGẦM
+Người 1: Vậy cụ thể bên dưới mặt nước có gì? Slide 7 “giải phẫu” tảng băng này thành 2 loại rào cản: Kỹ thuật và Phi kỹ thuật.
+Hãy nhìn vào Phần nổi trước. Khách hàng thấy gì?
+Người 2: Dạ họ thấy Website đẹp, chương trình khuyến mãi hấp dẫn và giao hàng nhanh. Mọi thứ trông có vẻ rất ổn.
+Người 1: Nhưng hãy nhìn xuống Phần chìm. Về Kỹ thuật, chúng ta đối mặt với cái gì?
+Người 2: Dạ là rủi ro bị hack, bị tấn công DDoS hoặc virus.
+Với lại vấn đề tích hợp hệ thống cũ (legacy systems) nữa. Kiểu như phần mềm kế toán cũ không khớp với web bán hàng mới thì dữ liệu bị lệch hết.
+Người 1: Chính xác. Còn rào cản Phi kỹ thuật (Non-technical) thì sao? Cái này liên quan đến con người và tâm lý.
+Người 2: Em thấy cái lớn nhất là “Thiếu lòng tin”. Mua hàng mà không thấy mặt người bán (“faceless”) nên khách sợ bị lừa.
+Ngoài ra còn vấn đề riêng tư nữa. Khách sợ bị web cài cookies hay spyware để theo dõi lén ạ.
+Người 1: Và đừng quên “Sự kháng cự thay đổi”. Nhiều người vẫn thích thói quen ra chợ trả giá hơn là bấm chuột.
+Hiểu rõ tảng băng này để thấy rằng làm TMĐT không chỉ là vẽ cái web cho đẹp, mà là cuộc chiến về an ninh, niềm tin và thói quen.
+
+Slide 8: CHÌA KHÓA THÀNH CÔNG - LA BÀN ĐIỀU HƯỚNG 6Cs
+Người 1: Làm sao để con tàu của chúng ta lách qua được những tảng băng đó? Slide 8 trao cho các bạn một công cụ định hướng: La bàn 6Cs.
+Đây là bộ tọa độ giúp các bạn tối ưu hóa chiến lược.
+Nhìn vào chiếc la bàn trên slide, em thấy những mũi kim chỉ vào những yếu tố nào?
+Người 2: Dạ em thấy có 6 yếu tố: Bảo mật, Truyền thông, Trí tuệ, Thương mại, Liên kết… và cái gì nữa ạ? Hình như slide sau sẽ giải thích kỹ hơn.
+Người 1: Đúng vậy. 6 chữ C này là viết tắt của các từ tiếng Anh. Chúng ta sẽ đi sâu vào từng chữ C ngay sau đây để xem nó giúp gì cho doanh nghiệp.
+
+Slide 9: 6 TỌA ĐỘ VÀNG CỦA “LA BÀN 6Cs”
+Người 1: Đây là nội dung cốt lõi các bạn cần ghi nhớ. Slide 9 giải mã 6 chữ C.
+Thầy sẽ đi qua từng chữ, các bạn hãy liên hệ thực tế nhé. Đầu tiên, Content (Nội dung). Nó không chỉ là đăng bài bán hàng, mà là cung cấp thông tin giá trị cao để khách quyết định.
+Thứ hai, Customisation (Cá nhân hóa). Em thấy ví dụ của Amazon trên slide không?
+Người 2: Dạ thấy ạ. Dòng chữ quen thuộc: “Customers who bought this item also bought…” (Khách hàng mua món này cũng mua thêm…).
+Nó dựa vào lịch sử mua sắm để gợi ý đúng ý mình luôn.
+Người 1: Tiếp theo là Community (Cộng đồng). Tại sao các sàn TMĐT lại cần phần Đánh giá (Review)?
+Người 2: Dạ để xây dựng niềm tin ạ. Em mua hàng toàn đọc comment trước.
+Người 1: Convenience (Tiện lợi): Quy trình phải mượt mà, ít thao tác.
+Choice (Lựa chọn): Danh mục sản phẩm phải đa dạng.
+Và cuối cùng, Cost reduction (Giảm chi phí): Biến lợi thế chi phí thấp thành giá rẻ cho khách hàng.
+Người 1: Tổng kết lại, nếu dự án của các bạn đảm bảo được 6 chữ C này, các bạn đã nắm trong tay 80% cơ hội chiến thắng trên thị trường số. Bài học hôm nay dừng ở đây. Các nhóm về nhà rà soát lại ý tưởng của mình dựa trên La bàn 6Cs này nhé!
+
+Slide 10: ĐỀ XUẤT GIÁ TRỊ TRỰC TUYẾN (OVP) - LÁ CỜ CỦA RIÊNG BẠN
+Người 1: Sau khi đã có chiến lược 6Cs, chúng ta cần một thông điệp để gói gọn tất cả lại. Đó chính là OVP - Đề xuất giá trị trực tuyến.
+Slide 10 ví OVP như là “Lá cờ” của riêng bạn. Theo em, tại sao một doanh nghiệp online lại cần một “lá cờ” riêng biệt so với cửa hàng truyền thống của chính họ?
+Người 2: Dạ, em nghĩ là để khách hàng biết lý do tại sao nên lên mạng mua thay vì ra cửa hàng.
+Nếu lên mạng mua mà giá y chang, hàng y chang, lại còn phải chờ ship, thì thà em chạy ra tiệm mua cho nhanh. Nên OVP phải là những lợi ích độc đáo chỉ có ở online, đúng không thầy?
+Người 1: Rất chính xác. OVP giúp phân biệt chúng ta với đối thủ và với chính kênh offline của mình.
+Quan trọng hơn, nó tạo ra một thứ gọi là “Soft lock-in” (Khóa chân mềm). Nghĩa là khách hàng tự nguyện ở lại vì họ thấy lợi ích, và OVP giúp chúng ta chiến thắng ngay từ giai đoạn ZMOT (tìm kiếm thông tin).
+Hãy nhìn ví dụ của Amazon trên slide: “Sự lựa chọn lớn nhất Trái đất”.
+Câu này khẳng định điều gì?
+Người 2: Dạ khẳng định là ở đây có tất cả mọi thứ, cái gì cũng có, cửa hàng vật lý không thể đọ lại được số lượng hàng hóa này.
+Người 1: Đúng vậy. Hoặc Kelkoo: “So sánh. Mua. Tiết kiệm”. Rất ngắn gọn và đánh trúng tâm lý muốn giá rẻ.
+
+Slide 11: THẤU HIỂU CƯ DÂN MỚI - KHÁCH HÀNG XÃ HỘI (SOCIAL CUSTOMER)
+Người 1: Chúng ta đã có “Lá cờ” (OVP), nhưng ai là người sẽ nhìn thấy lá cờ đó? Slide 11 giới thiệu một thế hệ khách hàng mới: Social Customer (Khách hàng xã hội).
+Em thấy hành vi của nhóm khách hàng này có gì khác so với thế hệ trước?
+Người 2: Dạ, họ không tin quảng cáo tivi nữa.
+Họ tin vào ý kiến của bạn bè, hoặc các chuyên gia review (mavens) trên mạng xã hội hơn.
+Trước khi mua cái gì, họ đều lên Facebook hay TikTok tìm xem người ta nói gì về nó.
+Người 1: Chính xác. Quyền năng của họ rất lớn. Họ không chỉ mua, mà còn tham gia vào quá trình lan truyền (Viral Marketing).
+Họ sẵn sàng khen hết lời nhưng cũng sẵn sàng “bóc phốt” nếu không hài lòng. Vậy chiến lược ứng phó của doanh nghiệp là gì?
+Người 2: Dạ trên slide ghi là phải chuyển từ “Độc thoại” sang “Đối thoại”.
+Nghĩa là không được chỉ ra rả nói về mình tốt thế nào, mà phải lắng nghe và trả lời bình luận của khách hàng một cách chân thực (Social CRM).
+Người 1: Đúng vậy. Đừng bao giờ lờ đi phản hồi của Khách hàng xã hội.
+
+Slide 12: HOẠT ĐỘNG LỚP - TRANH BIỆN “VƯỢT TẢNG BĂNG TRÔI”
+Người 1: Bây giờ, chúng ta sẽ áp dụng tất cả kiến thức: Tảng băng trôi, 6Cs, OVP và Social Customer vào bài tập tình huống thực tế. Các bạn nhìn Slide 12. Đây là đề bài chi tiết cho hoạt động mà thầy đã giới thiệu sơ qua ở phần trước.
+Tình huống: Nhóm các bạn đóng vai Ban Giám đốc một Startup nông sản sạch.
+Các bạn có 10 phút để giải quyết 4 thử thách sau đây:
+Người 2: Dạ thầy ơi, cụ thể 4 việc phải làm là gì ạ?
+Người 1: Phân tích Tảng băng trôi: Chỉ ra những rủi ro “chìm” lớn nhất (như lỗi thanh toán, bảo mật…).
+1. Tranh luận đầu tư: Quyết định xem nên đổ tiền vào đâu để cứu “phần chìm” của con tàu.
+2. Xây dựng OVP: Hãy viết ra một câu slogan đủ mạnh để thu hút khách hàng ngay lập tức.
+3. Lựa chọn chiến lược 6Cs: Chọn một chữ C làm vũ khí chủ lực và giải thích tại sao.
+Người 2: Dạ rõ rồi ạ. Nhóm em sẽ tập trung vào chữ C là “Community” (Cộng đồng) và xử lý rủi ro “Niềm tin” như thầy đã gợi ý lúc nãy ạ.
+Người 1: Rất tốt. Các nhóm bắt đầu thảo luận ngay nhé!
+
+Slide 13: TỔNG KẾT & ẨN DỤ GHI NHỚ
+Người 1: Thời gian thảo luận đã hết. Để khép lại buổi học hôm nay, thầy muốn các bạn ghi nhớ hình ảnh ẩn dụ cuối cùng trên Slide 13.
+Hãy tưởng tượng doanh nghiệp TMĐT của bạn như một chiếc tàu siêu tốc trên biển.
+Chiếc tàu này có hai mặt đối lập nào?
+Người 2: Dạ thưa thầy:
+• Mặt lợi thế là Tốc độ: Nó chạy cực nhanh để chiếm lĩnh thị trường mới.
+• Nhưng mặt nguy hiểm là: Những “Tảng băng trôi”. Đó là rủi ro vận hành và lòng tin nằm ẩn dưới làn sóng công nghệ hào nhoáng.
+Người 1: Rất chính xác. Thông điệp chủ đạo thầy muốn gửi gắm: TMĐT là con đường tất yếu, nhưng thành công chỉ đến với nhà quản trị biết cân bằng giữa Tốc độ (Marketing, Sales) và Sự an toàn (Vận hành, Pháp lý, Bảo mật).
+Đừng lái tàu quá nhanh mà quên nhìn bản đồ ngầm.
+Người 2: Dạ, em sẽ nhớ kỹ bài học này cho dự án của nhóm ạ.
+Người 1: Bài tập về nhà: Các bạn hãy chuẩn bị nội dung về “Cơ sở hạ tầng TMĐT” cho buổi học tuần sau nhé.
+Cảm ơn cả lớp và hẹn gặp lại!
+

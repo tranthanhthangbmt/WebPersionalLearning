@@ -1,0 +1,76 @@
+﻿Slide 1: TRANG TIÊU ĐỀ
+Người 1: Chào các em. Chào mừng các em đến với Tiết học số ba của Module 3: Sáng tạo nội dung số. Ở các phần trước, chúng ta đã nắm được cách phát triển và tái sử dụng nội dung. Hôm nay, chúng ta sẽ tìm hiểu hai chủ đề mang tính sống còn đối với bất kỳ nhà sáng tạo nào: Thực thi bản quyền, giấy phép và Lập trình cho nội dung số.
+Người 2: Thưa thầy, bình thường em cứ lên mạng tải ảnh hay nhạc về ghép vào video thôi. Phải chăng bài học hôm nay sẽ giúp em biết cách làm sao để không bị nền tảng "đánh gậy bản quyền" khi đăng video lên mạng ạ?
+
+Slide 2: MỤC TIÊU BÀI HỌC
+Người 1: Một câu hỏi dẫn dắt rất chính xác! Để các em tự tin sáng tạo mà không lo rủi ro pháp lý, bài học hôm nay sẽ có ba mục tiêu chính. Thứ nhất, các em sẽ hiểu rõ khái niệm bản quyền và nhận diện được những thành phần nào dễ bị vi phạm nhất. Thứ hai, các em sẽ biết cách tra cứu, phân loại các giấy phép mở như cờ-ri-ây-típ com-mừn (Creative Commons) hay Miền công cộng để sử dụng tài nguyên hợp pháp. Và cuối cùng, chúng ta sẽ nhận biết các công cụ lập trình thông qua quy trình ba khâu: Thiết kế, Cài đặt và Kiểm thử.
+Người 2: Nghe phần bản quyền thì em hiểu, nhưng lập trình thì có vẻ hơi xa lạ với người làm nội dung số thầy nhỉ? Chắc hẳn phần cuối sẽ có một vũ khí bí mật nào đó dành cho tụi em.
+
+Slide 3: NHẬN DIỆN RỦI RO VI PHẠM BẢN QUYỀN
+Người 1: Đúng vậy, lập trình sẽ là công cụ tự động hóa cực kỳ mạnh mẽ mà ta sẽ khám phá ở nửa sau bài học. Còn bây giờ, hãy bước vào mục 3 chấm 3 chấm 1: Nhận diện rủi ro vi phạm bản quyền. Có một nguyên tắc cốt lõi các em phải nhớ: Hầu hết mọi tác phẩm sáng tạo đều được tự động bảo hộ bản quyền ngay khi ra đời. Việc "miễn phí xem" không hề đồng nghĩa với "miễn phí sử dụng". Có bốn nhóm tài nguyên rất dễ khiến các em vi phạm: Hình ảnh và Video, Âm nhạc, Văn bản, và cuối cùng là Lô-gô của các thương hiệu.
+Người 2: Dạ vâng, em cũng hay nghe các bạn phàn nàn về việc lấy một đoạn nhạc trên mạng chèn vào video ngắn chừng mười lăm giây thôi mà cũng bị nền tảng tắt tiếng, chắc đó là lỗi ở nhóm Âm nhạc phải không ạ?
+
+Slide 4: PHÂN LOẠI CÁC LOẠI GIẤY PHÉP BẢN QUYỀN
+Người 1: Em lấy ví dụ rất chuẩn xác. Vậy làm sao để biết tài nguyên nào được phép dùng? Chúng ta sẽ chuyển sang mục 3 chấm 3 chấm 2 để phân loại giấy phép bản quyền. Có bốn mức độ từ chặt chẽ đến tự do nhất. Đầu tiên là Bản quyền đầy đủ, ký hiệu là chữ cê nằm trong vòng tròn, bắt buộc phải xin phép. Thứ hai là roi-ân-ti phờ-ri (Royalty-Free) tức là các em mua bản quyền một lần và dùng được nhiều lần. Thứ ba là cờ-ri-ây-típ com-mừn, viết tắt là xi-xi (CC), đây là giấy phép mở cho dùng miễn phí nhưng phải tuân thủ điều kiện của tác giả. Và cuối cùng là pắp-líc đô-mên (Public Domain) hay Miền công cộng, nơi tài nguyên được sử dụng hoàn toàn tự do.
+Người 2: Em hiểu rồi ạ. Vậy nếu em là sinh viên không có nhiều chi phí để mua bản quyền, em nên tập trung tìm kiếm các tài nguyên thuộc nhóm giấy phép xi-xi (CC) và Miền công cộng thầy nhỉ?
+
+Slide 5: TRA CỨU VÀ NGUỒN TÀI NGUYÊN HỢP PHÁP
+Người 1: Rất thông minh! Và để tìm được những tài nguyên đó, chúng ta cùng xem cách tra cứu nguồn hợp pháp. Để kiểm tra nguồn gốc, các em cần chú ý tìm các dấu hiệu như chữ ký, hình mờ gu-tờ-mác (watermark), hoặc ký hiệu chữ cê nằm trong vòng tròn. Các em cũng có thể dùng công cụ Tìm kiếm hình ảnh đảo ngược của Gu-gồ (Google Reverse Image Search) để truy vết ảnh gốc. Về nguồn tài nguyên an toàn, đối với hình ảnh các em hãy dùng các kho như Ân-sờ-pờ-lát (Unsplash) hay Pi-xa-bay (Pixabay); còn với âm thanh, thư viện âm thanh của Y-u-túp (YouTube Audio Library) hoặc Pi-xa-bay Miu-dích (Pixabay Music) là những kho tàng vô giá và hoàn toàn hợp pháp.
+Người 2: Quá tiện lợi luôn ạ! Vậy từ nay em sẽ tạo cho mình thói quen dùng tìm kiếm hình ảnh đảo ngược và chỉ tải tài nguyên từ các kho an toàn này để bảo vệ các sản phẩm sáng tạo của mình. Mọi việc tưởng phức tạp mà hóa ra lại rất rõ ràng!
+
+Slide 6: ÁP DỤNG GIẤY PHÉP BẢN QUYỀN (QUY TẮC GHI NGUỒN)
+Người 1: Chào các em, chúng ta tiếp tục bài học với mục 3 chấm 3 chấm 3. Khi các em đã tìm được tài nguyên hợp pháp từ các kho miễn phí, bước bắt buộc tiếp theo là phải ghi nguồn. Việc ghi công tác giả không chỉ là quy tắc bắt buộc mà còn thể hiện sự tôn trọng đối với người sáng tạo nội dung. Để ghi nguồn chuẩn, các em hãy nhớ quy tắc Tê-rờ-a-sét (TRAS).
+Người 2: Tê-rờ-a-sét nghe giống như một công thức bí mật thầy nhỉ. Cụ thể bốn chữ cái này đại diện cho những thông tin gì vậy ạ?
+Người 1: Rất dễ nhớ thôi em. Chữ Tê đầu tiên là Thai-tồ (Title), tức là tên tác phẩm. Chữ Rờ là Cơ-ri-ây-tờ (Creator), tức là tên tác giả hoặc người tạo ra nó. Chữ A là Át-tờ-ri-biu-sừn (Attribution), nghĩa là em phải để một đường link dẫn về nguồn gốc. Cuối cùng, chữ Sét là Xót-x (Source), tức là loại giấy phép sử dụng, ví dụ như xi-xi-bai bốn chấm không (CC BY 4.0). Phần ghi nguồn này em có thể đặt dưới hình ảnh, ở cuối bài viết, hoặc tạo một trang cờ-rét-đít (credit) riêng.
+
+Slide 7: ÁP DỤNG GIẤY PHÉP BẢN QUYỀN (XIN PHÉP VÀ THAY THẾ)
+Người 2: Thưa thầy, giả sử em vô tình tìm thấy một đoạn video rất phù hợp cho bài tập, nhưng nó lại mang biểu tượng bản quyền đầy đủ, tức là chữ cê trong vòng tròn. Liệu có cách nào để em vẫn được dùng nó không ạ?
+Người 1: Có chứ em. Giải pháp đầu tiên là em phải chủ động gửi i-meo (email) xin phép tác giả. Trong i-meo, em cần ghi rõ mục đích sử dụng, mô tả chi tiết nội dung mình muốn dùng, và nhớ là luôn phải lưu lại bằng chứng xin phép như i-meo phản hồi hoặc hợp đồng.
+Người 2: Lỡ em gửi i-meo mà tác giả từ chối, hoặc họ đưa ra điều kiện tốn kém quá thì sao thầy?
+Người 1: Lúc đó, chúng ta chuyển sang phương án hai: Tìm nguồn thay thế an toàn. Nếu điều kiện quá phức tạp hoặc em không tìm thấy thông tin giấy phép rõ ràng, hãy chủ động đổi sang các tài nguyên miễn phí và an toàn như Pi-xa-bay (Pixabay) hay Ân-sờ-pờ-lát (Unsplash). Đừng cố chấp vi phạm nhé!
+
+Slide 8: LẬP TRÌNH CHO NỘI DUNG SỐ
+Người 1: Bây giờ, chúng ta sẽ khép lại phần bản quyền và bước sang mục 3 chấm 4: Lập trình cho nội dung số.
+Người 2: Dạ thưa thầy, nghe đến "lập trình" tụi em hơi sợ. Tụi em học làm nội dung, quay video, viết bài chứ có phải dân công nghệ thông tin đâu mà cần phải biết lập trình ạ?
+Người 1: Thầy rất hiểu tâm lý đó của các em. Nhưng các em yên tâm, tại sao người làm nội dung số cần biết lập trình? Mục đích chính là để tự động hóa các tác vụ thủ công lặp đi lặp lại, ví dụ như xử lý hàng loạt file, và tạo ra các biểu mẫu hay câu đố tương tác thông minh. Lập trình ở đây không chỉ đơn thuần là viết code, mà là một công cụ, một lối tư duy công nghệ mạnh mẽ để giải quyết các vấn đề và tối ưu hóa quy trình làm việc trong môi trường số.
+
+Slide 9: LỰA CHỌN CÔNG NGHỆ PHÙ HỢP
+Người 2: Ồ, ra là để tự động hóa công việc. Thế tụi em nên bắt đầu làm quen với những công cụ hay ngôn ngữ nào cho đỡ bị ngợp ạ?
+Người 1: Tùy thuộc vào mục tiêu mà ta chọn công cụ thích hợp, được chia làm bốn nhóm chính ở mục 3 chấm 4 chấm 1. Nhóm một là Web và Tương tác, sử dụng Hát-tê-mờ-lờ (HTML), Xê-ét-ét (CSS) và Gia-va-xờ-cờ-ríp (JavaScript) để thiết kế web hay biểu mẫu. Nhóm hai là Tự động hóa hệ sinh thái, dùng Gu-gồ Áp Xờ-cờ-ríp (Google Apps Script) để liên kết Gu-gồ Sít (Google Sheets), Đốc (Docs) và Phom (Forms). Nhóm ba là xử lý dữ liệu sâu và trí tuệ nhân tạo bằng ngôn ngữ Pai-thòn (Python). Cuối cùng là tận dụng ngay đồ nghề văn phòng cơ bản như Éc-xeo (Excel), Uốt (Word) hay Pao-ơ-poi (PowerPoint).
+
+Slide 10: QUY TRÌNH PHÁT TRIỂN (THIẾT KẾ - CÀI ĐẶT - KIỂM THỬ)
+Người 2: Em thấy nhóm tự động hóa Gu-gồ Áp Xờ-cờ-ríp (Google Apps Script) rất hữu ích cho sinh viên tụi em. Vậy khi có ý tưởng, mình cứ mở máy lên và gõ lệnh luôn đúng không thầy?
+Người 1: Tuyệt đối không được nôn nóng như vậy! Để ra một sản phẩm tốt, các em phải tuân thủ quy trình ba khâu ở mục 3 chấm 4 chấm 2. Khâu đầu tiên là Thiết kế, đây là bước "đo bảy lần, cắt một lần", các em phải lập kế hoạch, xác định rõ yêu cầu đầu vào tức là in-pút (Input), đầu ra là a-u-pút (Output) và viết ra luồng hoạt động. Khâu thứ hai mới là Cài đặt, lúc này ta mới dùng công cụ để viết code thực thi ý tưởng.
+Người 2: Viết code xong là xong rồi đúng không ạ?
+Người 1: Vẫn chưa xong đâu em! Khâu thứ ba rất quan trọng là Kiểm thử. Các em phải thử nghiệm sản phẩm với các kịch bản khác nhau, thử nhập dữ liệu đúng, dữ liệu sai, hoặc trường hợp ngoại lệ để đảm bảo phần mềm hoạt động ổn định và không có lỗi. Phải đi qua đủ ba bước này thì mới hoàn thiện một sản phẩm lập trình chất lượng.
+
+Slide 11: VÍ DỤ THỰC TIỄN: ỨNG DỤNG 3 KHÂU TRONG LẬP TRÌNH
+Người 1: Ở slide trước, chúng ta đã nói về quy trình ba khâu, vậy hãy xem một ví dụ thực tiễn: tự động hóa việc thu thập ý kiến khán giả sau buổi thuyết trình bằng cách gửi i-meo (email) cảm ơn tự động kèm tài liệu.
+Người 2: Tình huống này rất hay gặp thực tế. Vậy mình sẽ áp dụng ba khâu Thiết kế, Cài đặt và Kiểm thử vào đây như thế nào thưa thầy?
+Người 1: Khâu một, Thiết kế: Đầu vào hay in-pút (Input) là Gu-gồ Phom (Google Forms), đầu ra hay a-u-pút (Output) là I-meo (Email) tự động. Luồng hoạt động sẽ là: Khán giả điền phom, lưu dữ liệu vào Sít (Sheet), rồi kích hoạt gửi thư. Khâu hai, Cài đặt: Ta sẽ sử dụng Gu-gồ Áp Xờ-cờ-ríp (Google Apps Script) để viết một đoạn code ngắn liên kết giữa Phom, Sít và Gờ-meo (Gmail).
+Người 2: Dạ, rồi đến khâu Kiểm thử thì sao ạ?
+Người 1: Khâu ba, Kiểm thử: Em phải tự nhập i-meo cá nhân vào phom để kiểm tra xem hệ thống có gửi thư đúng tên và đúng file đính kèm hay không, trước khi gửi cho khán giả thật.
+
+Slide 12: TÓM TẮT: BẢN QUYỀN, GIẤY PHÉP VÀ LẬP TRÌNH
+Người 1: Slide 12 là bảng tóm tắt toàn bộ nội dung chúng ta đã học về Bản quyền, Giấy phép và Lập trình. Thứ nhất, về Bản quyền và Giấy phép ở mục 3 chấm 3, các em cần thận trọng vì hầu hết tài nguyên trên mạng đều được bảo hộ tự động, ký hiệu bằng chữ cê trong vòng tròn. Hãy ưu tiên sử dụng tài nguyên từ các kho hợp pháp có giấy phép mở như Ân-sờ-pờ-lát (Unsplash), Pi-xa-bay (Pixabay), thư viện âm thanh Y-u-túp (YouTube Audio Library).
+Người 2: Và mình luôn phải tuân thủ việc ghi nguồn và xin phép đúng không ạ?
+Người 1: Chính xác! Thứ hai, về Áp dụng và Ghi nguồn, luôn tuân thủ quy tắc ghi nguồn Tê-rờ-a-sét (TRAS) bao gồm Tên tác phẩm, Tác giả, Nguồn và Giấy phép. Nhớ chủ động gửi i-meo xin phép hoặc tìm nguồn thay thế nếu tài nguyên có bản quyền đầy đủ. Thứ ba, Lập trình ở mục 3 chấm 4 là công cụ mạnh mẽ để tự động hóa, luôn bám sát quy trình ba bước cốt lõi: Thiết kế lên luồng ý tưởng, Cài đặt viết code, và Kiểm thử tìm sửa lỗi.
+
+Slide 13: HƯỚNG DẪN BÀI TẬP THỰC HÀNH
+Người 1: Bây giờ chúng ta sẽ chuyển sang Hướng dẫn Bài tập thực hành. Mục đích của bài tập là để các em vận dụng kiến thức về nhận diện rủi ro bản quyền, phân loại tài nguyên và cách áp dụng quy tắc sử dụng hợp pháp vào một tình huống thực tế.
+Người 2: Hình thức làm bài tập này như thế nào vậy thầy?
+Người 1: Về hình thức, các em có thể làm việc cá nhân hoặc thảo luận theo nhóm nhỏ từ ba đến bốn sinh viên. Yêu cầu là đọc kỹ tình huống của Sinh viên Lan ở slide tiếp theo, đóng vai trò là một người hiểu biết về sáng tạo nội dung số để phân tích các lỗi vi phạm và đưa ra hướng xử lý, ghi nguồn hợp lý cho từng tài nguyên mà Lan đã sử dụng.
+
+Slide 14: BÀI TẬP THỰC HÀNH (TÌNH HUỐNG TIẾT 3)
+Người 1: Slide 14 đưa ra Bài tập thực hành với tình huống cụ thể của tiết 3. Tình huống là: Lan, sinh viên năm hai, được giao làm bài thuyết trình về 'An toàn trên môi trường mạng'.
+Người 2: Bạn ấy đã chuẩn bị nội dung bằng cách nào ạ?
+Người 1: Cô ấy đã lấy một bức ảnh minh họa rất đẹp trên Gu-gồ I-mết-gi (Google Images) chèn vào slide nhưng không ghi nguồn; dùng một đoạn nhạc nền lấy từ vi-đi-ô (video) Y-u-túp (YouTube) chèn vào phần mở đầu; và tải một ảnh từ Ân-sờ-pờ-lát (Unsplash) làm ảnh nền với giấy phép sử dụng miễn phí.
+Người 2: Ồ, vậy bài tập yêu cầu chúng em phải giải quyết những câu hỏi nào?
+Người 1: Có ba câu hỏi thảo luận: Thành phần nào có khả năng vi phạm bản quyền cao nhất? Nếu là Lan, em sẽ kiểm tra nguồn gốc và giấy phép thế nào trước khi dùng? Và đề xuất cách áp dụng bản quyền, tức là cách xử lý và ghi nguồn đúng trong cả ba trường hợp trên.
+
+Slide 15: GỢI Ý LỜI GIẢI (BÀI TẬP TIẾT 3)
+Người 2: Câu hỏi hóc búa quá thưa thầy, thầy có thể gợi ý cho chúng em hướng giải quyết không ạ?
+Người 1: Ở Slide 15, thầy sẽ đưa ra Gợi ý lời giải cho bài tập này. Bước một, Nhận diện vi phạm: Ảnh lấy từ Gu-gồ I-mết-gi (Google Images) và nhạc nền từ Y-u-túp (YouTube) có nguy cơ vi phạm cao nhất vì chưa xin phép tác giả và không rõ giấy phép sử dụng. Bước hai, Cách kiểm tra: Với ảnh, hãy dùng công cụ Tìm kiếm hình ảnh đảo ngược Gu-gồ Ri-vớt I-mết Sớt (Google Reverse Image Search) để tìm nguồn gốc và tác giả. Với nhạc, kiểm tra phần mô tả của vi-đi-ô Y-u-túp xem có giấy phép cờ-ri-ây-típ com-mừn (Creative Commons) cho phép sử dụng lại hay không.
+Người 2: Dạ vâng, vậy bước cuối cùng, đề xuất cách xử lý cho bạn Lan thì sao thưa thầy?
+Người 1: Bước ba, Đề xuất xử lý: Đối với ảnh Gu-gồ, cần gửi i-meo xin phép tác giả nếu là ảnh có bản quyền, hoặc đổi sang hình ảnh miễn phí; nếu được dùng, phải ghi công chuẩn Tê-rờ-a-sét (TRAS). Đối với nhạc Y-u-túp, nên bỏ đoạn nhạc đó đi và thay thế bằng nhạc không bản quyền từ Y-u-túp Âu-đi-ô Lai-bờ-ra-ri (YouTube Audio Library) hoặc Pi-xa-bay Miu-dích (Pixabay Music) để tránh bị nền tảng đánh gậy bản quyền. Cuối cùng, với ảnh Ân-sờ-pờ-lát (Unsplash), mặc dù miễn phí, Lan vẫn nên ghi nguồn gồm Tên tác giả và Nguồn Ân-sờ-pờ-lát để thể hiện sự tôn trọng bản quyền và tính chuyên nghiệp. Bài học của chúng ta hôm nay kết thúc tại đây, cảm ơn các em!
+

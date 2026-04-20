@@ -1,0 +1,74 @@
+﻿Slide 1: KHAI PHÁ ĐẠI DƯƠNG SỐ - TỪ DỮ LIỆU THÔ ĐẾN TRI THỨC CHUYÊN SÂU
+Người 1: Chào các em. Chào mừng các em đến với Module một, mang tên: Khai phá Đại dương Số. Các em có biết không, theo dự báo, đến năm hai ngàn không trăm hai mươi lăm, khối lượng dữ liệu toàn cầu sẽ đạt tới con số khổng lồ là một trăm tám mươi mốt zét-ta-bai.
+Người 2: Dạ thưa thầy, với một lượng dữ liệu lớn như vậy thì việc duyệt, tìm kiếm hay lọc thông tin chắc chắn không chỉ là một lợi thế cạnh tranh nữa, mà nó đã trở thành kỹ năng sinh tồn rồi đúng không ạ? Bài học hôm nay giống như một tấm hải đồ giúp chúng em không bị lạc lối.
+
+Slide 2: HÀNH TRÌNH LÀM CHỦ THÔNG TIN SỐ TRONG BỐN GIAI ĐOẠN
+Người 1: Chính xác! Và tấm hải đồ này sẽ dẫn dắt chúng ta qua bốn giai đoạn cốt lõi. Giai đoạn một là Nền tảng, nơi ta tìm hiểu địa hình của đại dương dữ liệu, từ dữ liệu thô đến tri thức. Giai đoạn hai là Duyệt, trang bị kỹ năng quét bề mặt như đọc lướt để đánh giá nhanh thông tin. Giai đoạn ba là Tìm kiếm, sử dụng công cụ nâng cao để lặn sâu truy xuất thông tin chính xác.
+Người 2: Vậy còn giai đoạn cuối cùng là Lọc và Trích xuất thì sao ạ? Có phải giống như mình đãi cát tìm vàng, dùng kỹ thuật thu thập tự động để biến dữ liệu thành giá trị thực tế không thầy?
+
+Slide 3: GIAI ĐOẠN MỘT: NỀN TẢNG - CON ĐƯỜNG BIẾN DỮ LIỆU THÔ THÀNH TRI THỨC GIÁ TRỊ
+Người 1: Đúng vậy em! Bây giờ chúng ta sẽ bước ngay vào Giai đoạn một: Nền tảng. Hãy nhìn vào kim tự tháp nhận thức này. Ở tầng đáy cùng là Dữ liệu, hay còn gọi là đa-ta. Đây là những sự kiện, con số rời rạc chưa qua xử lý. Ví dụ như con số hai mươi lăm ngàn, tám phẩy năm, hay cái tên Nguyễn Văn A.
+Người 2: Thế nếu em đặt các con số đó vào một ngữ cảnh cụ thể, ví dụ như câu: "Sinh viên Nguyễn Văn A đạt điểm tám phẩy năm môn Toán", thì nó sẽ nâng cấp lên tầng thứ hai là Thông tin đúng không thầy?
+Người 1: Một sự liên tưởng rất chuẩn xác! Và từ thông tin đó, nếu ta phân tích, suy luận để trả lời câu hỏi "tại sao" và "làm thế nào", ta sẽ đạt đến đỉnh của kim tự tháp: Tri thức. Ví dụ: "Điểm tám phẩy năm của Nguyễn Văn A cao hơn trung bình lớp, có thể do phương pháp học mới, và chúng ta nên nhân rộng phương pháp này."
+
+Slide 4: GIAI ĐOẠN MỘT: NỀN TẢNG - PHÂN LOẠI ĐỊA HÌNH: NHẬN DIỆN CÁC LOẠI DỮ LIỆU SỐ
+Người 1: Để tồn tại trong đại dương này, ta phải biết phân loại địa hình dữ liệu. Có ba loại chính. Thứ nhất là dữ liệu có cấu trúc, với định dạng cố định, nhất quán cao và rất dễ truy vấn bằng ngôn ngữ ét-kiu-eo, ví dụ như bảng tính Excel hay cơ sở dữ liệu khách hàng.
+Người 2: Dạ, em thấy còn có dữ liệu bán cấu trúc và phi cấu trúc nữa. Dữ liệu bán cấu trúc thì linh hoạt hơn, dùng các thẻ để tổ chức như định dạng gi-sân, X-M-L hay H-T-M-L. Còn dữ liệu phi cấu trúc thì sao ạ? Nó có phải là những thứ như nội dung email, bài đăng mạng xã hội, hình ảnh, video hay tệp P-D-F mà chúng ta hay dùng hàng ngày không thầy?
+Người 1: Tuyệt vời, em nắm bài rất nhanh. Đúng vậy, dữ liệu phi cấu trúc không có định dạng cố định, chiếm phần lớn không gian dữ liệu nhưng lại khó phân tích nhất.
+
+Slide 5: GIAI ĐOẠN MỘT: NỀN TẢNG - BỐN ĐẶC ĐIỂM CỐT LÕI CỦA DỮ LIỆU LỚN
+Người 1: Để khép lại phần Nền tảng, thầy trò ta cùng tìm hiểu về Dữ liệu lớn, hay Bích Đa-ta, thông qua bốn đặc điểm cốt lõi. Đầu tiên là Khối lượng, lượng dữ liệu đang tăng theo cấp số nhân từ các thiết bị vạn vật kết nối, mạng xã hội và giao dịch. Thứ hai là Tốc độ, dữ liệu được tạo ra và truyền tải cực nhanh, yêu cầu xử lý thời gian thực, ví dụ như sự biến động của giá cổ phiếu hay dữ liệu định vị G-P-S.
+Người 2: Hai đặc điểm còn lại là sự Đa dạng và Độ chính xác đúng không ạ? Đa dạng là vì nó tồn tại dưới đủ mọi định dạng từ cấu trúc, bán cấu trúc đến phi cấu trúc. Còn Độ chính xác là vì dữ liệu thu về có thể chứa lỗi, sự không nhất quán hoặc sai lệch, đòi hỏi mình phải làm sạch và xác minh chất lượng.
+Người 1: Chính xác! Việc hiểu rõ bốn đặc điểm này sẽ là bệ phóng vững chắc để các em bước sang những giai đoạn tiếp theo của quá trình khai phá đại dương số.
+
+
+Slide 6: GIAI ĐOẠN HAI: DUYỆT - KỸ THUẬT ĐỌC LƯỚT (SKIMMING): NẮM BẮT Ý CHÍNH TRONG VÀI PHÚT
+Người 1: Chuyển sang giai đoạn hai là Duyệt. Kỹ năng đầu tiên và quan trọng nhất ở đây là đọc lướt, hay tiếng Anh gọi là xờ-kim-ming. Mục đích của kỹ thuật này là giúp các em đọc thật nhanh để hiểu tổng thể và xác định xem tài liệu đó có liên quan đến mục tiêu của mình hay không, chỉ trong vài phút.
+Người 2: Thưa thầy, một tài liệu thường rất dài, vậy khi xờ-kim-ming mình nên tập trung ánh mắt vào những vị trí nào để nắm được ý chính ạ?
+Người 1: Rất thực tế! Em hãy chú ý ngay vào tiêu đề, phụ đề, và mục lục. Tiếp đó là đọc phần đoạn mở đầu - tức là phần áp-xờ-trách, và đoạn kết luận - con-cờ-lu-dần. Ngoài ra, hãy đọc câu đầu và câu cuối của mỗi đoạn, đồng thời quét mắt tìm các từ in đậm, in nghiêng, các dấu gạch đầu dòng, và đặc biệt là không được bỏ qua các hình ảnh hay biểu đồ nhé.
+
+Slide 7: GIAI ĐOẠN HAI: DUYỆT - XÂY DỰNG CHIẾN LƯỢC DUYỆT WEB VÀ TÀI LIỆU SỐ HIỆU QUẢ
+Người 1: Sau khi biết cách đọc lướt, chúng ta cần xây dựng một chiến lược duyệt web bài bản gồm bốn bước. Bước một là xác định rõ mục tiêu, em phải biết mình đang tìm định nghĩa, số liệu thống kê hay báo cáo phân tích. Bước hai là chọn đúng nguồn phù hợp với mục tiêu đó.
+Người 2: Chọn nguồn tức là sao ạ? Có phải nếu tìm tài liệu học thuật thì mình dùng Gù-gờ Sờ-co-lờ hoặc các trang có đuôi chấm e-du chấm vi-en. Còn tìm thông tin chính phủ thì vào các trang đuôi chấm gốp, đúng không thầy?
+Người 1: Hoàn toàn chính xác! Nếu tìm tin tức uy tín thì vào Vê-en-ếch-prét hoặc Roi-tơ, còn dân kỹ thuật thì hay dùng Xờ-tách Ô-vờ-phờ-lâu. Sang bước ba, các em phải biết tận dụng cấu trúc trang web như thanh điều hướng mê-nu, mục lục và thanh tìm kiếm nội bộ. Và bước cuối cùng, bước bốn, là đánh giá nhanh độ tin cậy thông qua việc kiểm tra tên miền, ngày cập nhật và thông tin tác giả.
+
+Slide 8: GIAI ĐOẠN BA: TÌM KIẾM - BỘ CÔNG CỤ TÌM KIẾM NÂNG CAO TRÊN GOOGLE VÀ BING
+Người 1: Giờ ta sẽ lặn sâu hơn với Giai đoạn ba: Tìm kiếm. Thầy sẽ hướng dẫn các em dùng bộ toán tử tìm kiếm nâng cao. Để tìm chính xác một cụm từ, hãy đặt nó trong dấu ngoặc kép. Nếu muốn loại trừ một từ khóa nào đó khỏi kết quả, hãy thêm dấu trừ ngay trước từ đó. Ví dụ: gõ cụm từ Tập đoàn ép-pê-tê, rồi thêm dấu trừ và chữ đại học.
+Người 2: Thế nếu em chỉ muốn tìm tệp P-D-F báo cáo tài chính thì dùng lệnh gì ạ? Và làm sao giới hạn tìm kiếm trong một trang web cụ thể?
+Người 1: Để tìm một loại tệp, em gõ "phai-táp hai chấm P-D-F". Để giới hạn trong một trang web, em dùng "sai hai chấm" kèm tên miền. Ngoài ra, ta có lệnh "in-tai-tồ hai chấm" để tìm từ khóa nằm ngay trong tiêu đề, và dùng hai dấu chấm liên tiếp để tìm trong một khoảng số. Ví dụ tìm điện thoại từ năm triệu đến mười triệu thì gõ: năm triệu, hai dấu chấm, mười triệu, vi-en-đê. Một mẹo nhỏ cho chuyên gia là đừng quên dùng bộ lọc "Công cụ" để giới hạn thời gian và ngôn ngữ nhé.
+
+Slide 9: GIAI ĐOẠN BA: TÌM KIẾM - LỰA CHỌN CÔNG CỤ CHUYÊN DỤNG CHO NGHIÊN CỨU HỌC THUẬT
+Người 1: Trong nghiên cứu học thuật, công cụ tìm kiếm thông thường là chưa đủ. Ta có hai trợ thủ chuyên dụng đắc lực. Đầu tiên là Gù-gờ Sờ-co-lờ, công cụ tìm kiếm đa ngành miễn phí. Nó cực kỳ mạnh ở tính năng "Sai-tựt bai" giúp tìm các nghiên cứu mới hơn đã trích dẫn tài liệu em đang xem, và tính năng "Ri-lây-tựt a-ti-cồ" để khám phá các bài viết có chủ đề tương tự.
+Người 2: Dạ, em thấy trên slide có nhắc đến Pắp-mét. Đây có phải là kho dữ liệu dành riêng cho khối ngành y khoa và khoa học đời sống không thầy?
+Người 1: Đúng vậy! Pắp-mét là cơ sở dữ liệu miễn phí hàng đầu thế giới về y sinh. Nó có từ điển thuật ngữ chuẩn hóa tên là "Mét Đa-ta-bây", và cung cấp các bộ lọc cực kỳ chi tiết cho phép em lọc theo loại thử nghiệm lâm sàng, độ tuổi, hay giới tính. Rất tuyệt vời cho việc nghiên cứu y khoa chuyên sâu.
+
+Slide 10: GIAI ĐOẠN BỐN: LỌC VÀ TRÍCH XUẤT - TINH CHỈNH DỮ LIỆU: KỸ THUẬT LỌC THEO ĐIỀU KIỆN
+Người 1: Mẻ lưới cuối cùng của chúng ta là Giai đoạn bốn: Lọc và Trích xuất. Ở đây, tinh chỉnh dữ liệu bằng kỹ thuật lọc là cách em chỉ cho hiển thị các dữ liệu thỏa mãn một hoặc nhiều tiêu chí lô-gích. Kỹ thuật này giúp loại bỏ nhiễu và tập trung đúng vào thông tin cốt lõi.
+Người 2: Thầy có thể cho em một ví dụ thực tế khi mình dùng trên bảng tính Ích-xeo hoặc Gù-gờ Xít được không ạ?
+Người 1: Được chứ. Trong bảng tính, em có thể lọc ra danh sách thỏa mãn hai điều kiện cùng lúc, ví dụ: Điểm trung bình lớn hơn tám phẩy không, và, Ngành học bằng Công nghệ thông tin. Còn đối với cơ sở dữ liệu khi dùng ngôn ngữ Ét-kiu-eo, câu lệnh sẽ là: Xê-lếch sao phờ-rom Khách Hàng, uê Thành phố bằng Tê Pê chấm Hát Xê Mờ, en, Tổng chi tiêu lớn hơn một triệu. Lệnh này sẽ giúp lấy ra danh sách khách hàng ở thành phố Hồ Chí Minh có chi tiêu trên một triệu đồng.
+
+
+Slide 11: GIAI ĐOẠN BỐN: LỌC VÀ TRÍCH XUẤT - THU THẬP DỮ LIỆU QUY MÔ LỚN: GIỚI THIỆU VỀ UÉP SỜ-CỜ-RÁP-PING
+Người 1: Tiếp tục ở giai đoạn bốn, thầy sẽ giới thiệu cho các em một kỹ thuật thu thập dữ liệu quy mô lớn, đó là Uép sờ-cờ-ráp-ping (Web Scraping). Đây là kỹ thuật sử dụng phần mềm để tự động truy xuất và trích xuất dữ liệu công khai từ các trang web.
+Người 2: Vậy quy trình hoạt động của nó như thế nào ạ? Có phải máy tính sẽ tự động làm hết mọi việc thay con người không thầy?
+Người 1: Đúng vậy em, quy trình này gồm bốn bước rất logic. Bước một là gửi yêu cầu, tức là sờ-cờ-ríp (script) sẽ gửi yêu cầu hát-tê-tê-pê (HTTP) đến máy chủ của trang web. Bước hai là nhận nội dung, lúc này máy chủ sẽ trả về nội dung trang dưới dạng hát-tê-mờ-lờ (HTML) hoặc gi-sân (JSON). Bước ba là phân tích và trích xuất, công cụ sẽ tìm và lấy ra dữ liệu cần thiết như giá cả hay tiêu đề. Và bước bốn là lưu trữ dữ liệu đó vào các tệp xê-ét-vê (CSV), Ích-xeo (Excel) hoặc cơ sở dữ liệu. Kỹ thuật này rất phổ biến để theo dõi giá sản phẩm, thu thập tin tức, nghiên cứu thị trường hoặc lấy dữ liệu cho mô hình học máy.
+
+Slide 12: GIAI ĐOẠN BỐN: LỌC VÀ TRÍCH XUẤT - BỘ CÔNG CỤ UÉP SỜ-CỜ-RÁP-PING: TỪ NÔ-CỐT ĐẾN LẬP TRÌNH
+Người 1: Để thực hiện Uép sờ-cờ-ráp-ping, chúng ta có bộ công cụ chia làm hai nhóm chính. Nhóm thứ nhất là công cụ Nô-cốt (No-Code) dành cho người mới bắt đầu. Ưu điểm của chúng là giao diện kéo thả trực quan và hoàn toàn không yêu cầu viết mã code. Một số nền tảng tiêu biểu như Óc-tô-pác (Octoparse), Pác-húp (ParseHub), hay Uép-sờ-cờ-ráp-pờ chấm i-ô (WebScraper.io).
+Người 2: Còn nhóm thứ hai chắc chắn là dành cho người dùng nâng cao rồi đúng không ạ? Em thấy trên slide có nhắc đến ngôn ngữ Phai-thần (Python) và các công cụ như Biu-ti-phun súp (BeautifulSoup), Sờ-cờ-ráp-pi (Scrapy), Sê-lê-ni-um (Selenium) và Pắp-pét-tia (Puppeteer). Nhóm công cụ lập trình này linh hoạt và mạnh mẽ hơn nhiều nhưng lại yêu cầu kiến thức lập trình.
+Người 1: Phân tích rất chuẩn xác! Tuy nhiên, dù dùng công cụ nào, các em cũng phải đặc biệt lưu ý về tính pháp lý và đạo đức. Luôn luôn kiểm tra Điều khoản dịch vụ của trang web và chỉ được phép thu thập dữ liệu công khai. Và điều quan trọng nhất là phải tôn trọng máy chủ: hãy nhớ cài đặt độ trễ, hay còn gọi là đi-lây (delay), giữa các yêu cầu để tránh làm hệ thống của họ bị quá tải.
+
+Slide 13: GIAI ĐOẠN BỐN: LỌC VÀ TRÍCH XUẤT - TỪ TÌM KIẾM ĐẾN PHÂN TÍCH: CÁC CÔNG CỤ HỖ TRỢ CHUYÊN DỤNG
+Người 1: Các em biết không, đôi khi chúng ta không cần phải tự thu thập dữ liệu từ đầu nhờ vào Gù-gờ Đa-ta-sét Sớt (Google Dataset Search). Đây là một công cụ tìm kiếm chuyên dụng giúp khám phá các tập dữ liệu công khai từ các tổ chức chính phủ, trường đại học và các kho dữ liệu như Cáp-gồ (Kaggle) hay Đa-ta chấm gốp (Data.gov). Lời khuyên là thay vì tự đi thu thập, hãy tìm xem có sẵn bộ dữ liệu nào về chủ đề của mình hay không.
+Người 2: Chà, vậy khi đã có dữ liệu rồi, mình sẽ phân tích và trực quan hóa bằng thư viện Pan-đát (Pandas) của ngôn ngữ Phai-thần đúng không thầy? Em thấy chỉ với một đoạn code rất ngắn, thư viện này có sức mạnh biến số liệu khô khan trong tệp xê-ét-vê thành hình ảnh trực quan cực kỳ dễ hiểu.
+Người 1: Em quan sát rất tốt! Thư viện Phai-thần Pan-đát chính là công cụ mạnh mẽ nhất hiện nay để làm sạch, xử lý và phân tích các dữ liệu có cấu trúc.
+
+Slide 14: TÓM TẮT HÀNH TRÌNH: BỘ KỸ NĂNG CỦA NHÀ NGHIÊN CỨU HIỆN ĐẠI
+Người 1: Như vậy, chúng ta đã đi qua toàn bộ bốn cột mốc kỹ năng cốt lõi của một nhà nghiên cứu hiện đại. Đầu tiên, các em đã hiểu được bản chất của dữ liệu, biết cách phân biệt dữ liệu, thông tin, tri thức và các định dạng dữ liệu khác nhau. Thứ hai, các em đã biết cách duyệt thông tin một cách chiến lược, đánh giá nhanh tài liệu và xác định chính xác các nguồn tin cậy.
+Người 2: Cột mốc thứ ba là khả năng tìm kiếm như một chuyên gia, biết sử dụng các toán tử nâng cao và công cụ học thuật để tìm chính xác những gì mình cần. Và cuối cùng là khả năng khai thác, tinh luyện dữ liệu, giúp lọc, trích xuất và biến dữ liệu thành hiểu biết sâu sắc để có thể hành động.
+Người 1: Hoàn toàn chính xác! Thông điệp thầy muốn gửi gắm là: Đại dương số giờ đây không còn là một mối đe dọa nữa, mà nó đã trở thành một nguồn tài nguyên vô tận cho những ai biết cách điều hướng.
+
+Slide 15: TÀI LIỆU THAM KHẢO VÀ CÁC NGUỒN LỰC ĐỂ TÌM HIỂU SÂU HƠN
+Người 1: Để kết thúc bài học, thầy giới thiệu một số tài liệu tham khảo và nguồn lực uy tín để các em tìm hiểu sâu hơn. Để tìm số liệu thống kê khối lượng dữ liệu toàn cầu, hãy truy cập Xờ-ta-tít-ta (Statista). Về các khái niệm lý thuyết nâng cao, cuốn sách Mai-ning ọp Mát-síp Đa-ta-sét (Mining of Massive Datasets) trên trang mờ-mờ-đê-ét chấm o-rờ-gờ (mmds.org) là một lựa chọn tuyệt vời.
+Người 2: Dạ vâng, trên slide em thấy còn có các tài liệu hướng dẫn công cụ như Pan-đát Đốc-kiu-men-tây-sần (Pandas Documentation) và Sờ-cờ-ráp-pi Đốc-kiu-men-tây-sần (Scrapy Documentation). Để cải thiện kỹ năng tìm kiếm học thuật, em sẽ tìm đọc thêm Cẩm nang Pắp-mét (PubMed User Guide) và cuốn Giới thiệu về Truy xuất Thông tin từ đại học Xờ-ten-phớt (Introduction to Information Retrieval của Stanford) cũng như Gù-gờ Đa-ta-sét Sớt để bắt đầu tìm kiếm dữ liệu mở. Chúng em cảm ơn thầy về buổi học hôm nay ạ!
+

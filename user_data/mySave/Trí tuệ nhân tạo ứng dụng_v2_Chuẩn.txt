@@ -1,0 +1,59 @@
+CẤU TRÚC CHI TIẾT MÔN HỌC: TRÍ TUỆ NHÂN TẠO ỨNG DỤNG (AI ỨNG DỤNG)
+Khóa học cung cấp kiến thức toàn diện từ lý thuyết hệ thống thông tin, làm chủ công nghệ số, cho đến ứng dụng Trí Tuệ Nhân Tạo (AI) vào thực chiến công việc với Word, Excel và PowerPoint.
+
+CHƯƠNG 1: Khai thác dữ liệu và thông tin
+- Tiết 1.1: Tổng quan dữ liệu. Sự khác nhau giữa dữ liệu thô, thông tin số và tri thức. Các loại dữ liệu (cấu trúc, phi cấu trúc). Đặc điểm dữ liệu số.
+- Tiết 1.2: Kỹ năng duyệt Web. Chiến lược duyệt trang web, tìm kiếm học thuật nâng cao trên Google Scholar, PubMed. Sử dụng toán tử logic.
+- Tiết 1.3: Lọc và Quản lý dữ liệu. Kỹ thuật lọc dữ liệu, scraping (thu thập tự động). Quản lý, lưu trữ, sao lưu, chia sẻ và bảo mật thông tin cá nhân.
+* Từ khóa hệ thống: MD1, Module 1, Video MD1
+
+CHƯƠNG 2: Giao tiếp và hợp tác trong môi trường số
+- Tiết 2.1: Giao tiếp công nghệ số. Lựa chọn công cụ email, chat, video call. Sử dụng công nghệ thực hiện quyền công dân và quy tắc ứng xử trên mạng.
+- Tiết 2.2: Làm việc nhóm. Chia sẻ thông tin an toàn qua Google Drive/OneDrive. Hợp tác qua Trello, Google Docs. Bảo vệ danh tính số cá nhân.
+* Từ khóa hệ thống: MD2, Module 2, Video MD2
+
+CHƯƠNG 3: Sáng tạo nội dung số
+- Tiết 3.1: Xây dựng chuyên án nội dung. Phân tích chân dung người xem, lập kế hoạch nội dung đa nền tảng (Video, Text, Infographic).
+- Tiết 3.2: Biên tập và Bản quyền số. Tái tạo, cắt ghép và chuyển đổi định dạng. Tra cứu giấy phép bản quyền và cách áp dụng nội dung ghi nguồn.
+- Tiết 3.3: Lập trình cơ bản. Lựa chọn công nghệ, thiết kế, cài đặt và kiểm thử ứng dụng nội dung số.
+* Từ khóa hệ thống: MD3, Module 3, Video MD3
+
+CHƯƠNG 4: An toàn Không gian số
+- Tiết 4.1: Các cuộc tấn công mạng. Thực trạng, nhận diện rủi ro mã độc, đánh cắp mật khẩu, lừa đảo xã hội (social engineering).
+- Tiết 4.2: Chiến lược bảo mật đa lớp. Backup dữ liệu, mật khẩu an toàn, kỹ năng tự phòng thủ quyền riêng tư trên Internet.
+- Tiết 4.3: An sinh và Môi trường. Bảo vệ 'Sức khỏe số', cân bằng lối sống số, và đánh giá tác động công nghệ số tới môi trường, giải pháp xanh bền vững.
+* Từ khóa hệ thống: MD4, Module 4, Video MD4
+
+CHƯƠNG 5: Giải quyết vấn đề bằng công nghệ
+- Tiết 5.1: Xử lý lỗi hệ thống máy tính. Kiểm tra lỗi phần cứng mạng (Wi-Fi), bắt rủi ro lỗi phần mềm, đọc System Log cơ bản.
+- Tiết 5.2: Tự học công nghệ mới. Khai thác Coursera, Udemy, Wikipedia, Reddit, Stack Overflow để giải quyết câu hỏi học thuật kỹ thuật.
+- Tiết 5.3: Thực hành Google Sheets. Nhập liệu, Conditional Formatting, dùng SUM, vẽ biểu đồ dự đoán chi tiêu tài chính cơ bản.
+* Từ khóa hệ thống: MD5, Module 5, Video MD5
+
+CHƯƠNG 6: Nhập môn Trí tuệ Nhân tạo (AI)
+- Tiết 6.1: Khái niệm cốt lõi của AI. Lịch sử AI, Machine Learning, Deep Learning, và nguyên tắc thuật toán học máy từ dữ liệu đầu vào.
+- Tiết 6.2: Các mô hình GenAI tạo sinh. Sử dụng ChatGPT, Gemini, NoteBookLM, ShakkerAI, Sora để tạo văn bản, hình ảnh, video. Đạo đức và quyền riêng tư AI.
+* Từ khóa hệ thống: MD6, Module 6, Video MD6
+
+CHƯƠNG 7: Thực hành Word & Tích hợp AI (Buổi 6-9)
+- Tiết 7.1: Định dạng văn bản. Khổ giấy, Font, Page Breaks, Section Breaks, TabStop, Bullets (Kiến thức Buổi 6).
+- Tiết 7.2: Trình bày chuyên nghiệp. Tạo mục lục tự động Multilevel list, Header, Footer, Caption, Comment (Kiến thức Buổi 7).
+- Tiết 7.3: Kiểm tra giữa kỳ thực hành Word. Rà soát lỗi ứng dụng, kỹ năng tổng hợp văn bản chuẩn Harvard (Kiến thức Buổi 8).
+- Tiết 7.4: Gọi AI thông minh. Tích hợp dòng lệnh Copilot hoặc ChatGPT bằng Add-ins. Yêu cầu AI viết tự động, tóm tắt, viết lại văn bản chuẩn ngữ pháp (Kiến thức Buổi 9).
+* Từ khóa hệ thống: Bài 1, Bài 2, Bài 3, Bài 4, BTVN_1, Buổi 6, Buổi 7, Buổi 8, Buổi 9, Tài liệu Word
+
+CHƯƠNG 8: Thực hành Excel & Tích hợp AI (Buổi 10-12)
+- Tiết 8.1: Nền tảng hàm Excel. Đặt tên vùng, Validation. Hàm If, Left, Right, Vlookup, Hlookup xử lý định hình dữ liệu thô (Kiến thức Buổi 10).
+- Tiết 8.2: Quản trị mảng dữ liệu. Sort, Filter, Pivot. Lọc đếm có điều kiện Sumif, Countif (Kiến thức Buổi 11).
+- Tiết 8.3: Tích hợp AI phân tích dữ liệu. Copilot tạo bộ dữ liệu ma, phân tích logic xu hướng tự động, yêu cầu AI sinh công thức hàm phức tạp (Kiến thức Buổi 12).
+* Từ khóa hệ thống: Bài 5, Bài 6, Bài 7, Bài 8, Buổi 10, Buổi 11, Buổi 12, Tài liệu Excel
+
+CHƯƠNG 9: Thực hành PowerPoint & Tích hợp AI (Buổi 13-14)
+- Tiết 9.1: Xây dựng trình chiếu. Thiết kế Slide Master, kỹ thuật tạo Trigger liên kết mảng và Animation, Auto-loop (Kiến thức Buổi 13).
+- Tiết 9.2: Chế tác Slide siêu tốc AI. Sử dụng Gamma AI hoặc Copilot sinh toàn bộ cấu trúc bài thuyết trình, chèn hình ảnh minh hoạ GenAI (Kiến thức Buổi 14).
+* Từ khóa hệ thống: Buổi 13, Buổi 14, Slide Master, Tài liệu Powerpoint
+
+CHƯƠNG 10: Tổng ôn & Chinh phục AI (Buổi 15)
+- Tiết 10.1: Ôn tập quy trình trọn gói. Wrap-up toàn bộ kiến thức 6 modules lý thuyết và tổ hợp bài thi thực hành Office kết hợp AI.
+- Tiết 10.2: Giải đề minh hoạ. Chia sẻ quy trình làm bài thực hành lớn, xử lý tình huống phát sinh (Kiến thức Buổi 15).
+* Từ khóa hệ thống: Buổi 15, Đề 1, Đề 2, Đề 3, Đề 4, Đề 5, Bài tập tổng hợp

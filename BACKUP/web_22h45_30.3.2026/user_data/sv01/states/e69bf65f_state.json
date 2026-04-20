@@ -1,0 +1,30 @@
+{
+  "subject_id": "e69bf65f",
+  "mastery": {
+    "c3.1": {
+      "level": 0.2,
+      "attempts": 1,
+      "last_score": 0,
+      "last_updated": 1774715763.4312084,
+      "pure_level": 0.0,
+      "_decayed": true
+    },
+    "c1.1": {
+      "level": 0.7718015902875447,
+      "attempts": 6,
+      "last_score": 10,
+      "last_updated": 1774884154.7638493,
+      "pure_level": 1.0,
+      "_decayed": true
+    },
+    "c1.5": {
+      "level": 0.5549999999999999,
+      "attempts": 3,
+      "last_score": 0,
+      "last_updated": 1774884286.5054138,
+      "pure_level": 0.5549999999999999,
+      "_decayed": true
+    }
+  },
+  "current_focus": "c1.5"
+}

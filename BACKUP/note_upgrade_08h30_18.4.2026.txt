@@ -1,0 +1,101 @@
+Listed directory BACKUP
+Listed directory AWS
+Viewed log1.txt:1-800
+Viewed Thi%E1%BA%BFt%20l%E1%BA%ADp%20AWS.md:1-800
+
+Dựa vào file `log1.txt` và `Thiết lập AWS.md` bạn lưu trong thư mục `BACKUP\AWS`, tôi thấy server Ubuntu của bạn đang chạy source code ngay trong thư mục gốc (`/home/ubuntu`) và bạn đã deploy hệ thống dưới dạng Docker (với tên image là `treeknowledge-app` và tên vùng chứa là `myapp`). 
+
+Để cập nhật lên cục code mới (`WebPersionalLearning_08h11_18.4.2026.zip`), bạn làm tuần tự các lệnh sau trên terminal của AWS Ubuntu nhé:
+
+### 1. Giải nén và ghi đè code mới
+Đầu tiên, cài đặt `unzip` (nếu máy chủ chưa có) và tiến hành giải nén file zip. Thuộc tính `-o` sẽ giúp ghi đè các file cũ bằng file mới:
+```bash
+sudo apt-get install unzip -y
+unzip -o WebPersionalLearning_09h19_20.4.2026.zip
+```
+*(Lưu ý: Bạn hãy gõ lệnh `ls` sau khi giải nén. Nếu code giải nén ra nằm gọn trong một thư mục tên là `WebPersionalLearning...` thì bạn cần `cd` vào thư mục đó, thay vì ở thư mục gốc. Còn nếu nó đã bung đè thẳng các file như `main.py`, `Dockerfile` ra thư mục hiện tại thì bạn cứ giữ nguyên).*
+
+**⚠️ Chú ý bảo mật:** Việc ghi đè `unzip -o` thường vẫn giữ nguyên các file không tồn tại trong file zip mới. Tuy nhiên hãy đảm bảo là các file chứa API Key của bạn (như `GeminiKey`) không bị mất. Bạn có thể kiểm tra lại bằng lệnh `cat GeminiKey`.
+
+### 2. Dừng và xóa phiên bản ứng dụng cũ đang chạy
+Hệ thống cũ đang được Docker chạy bằng tên `myapp`, do đó bạn phải dừng nó lại để cổng mạng `80` được giải phóng.
+```bash
+docker stop myapp
+docker rm myapp
+```
+
+### 3. Build (đóng gói) lại khối mã nguồn mới
+Bước này Docker sẽ đọc lại toàn bộ code mới, tải các file `requirements.txt` mới (nếu bạn có cập nhật thư viện) và đóng gói lại.
+```bash
+docker build -t treeknowledge-app .
+```
+
+### 4. Khởi chạy lại hệ thống mới
+Lỗi này báo rằng "cái vỏ hũ" cũ mang tên `myapp` (mặc dù đã bị sập/dừng) vẫn còn nằm rác lại trong máy, nên mình không thể tạo hũ mới đè lên cái tên đó được.
+
+Bạn chỉ cần "dọn dẹp" bỏ cái vỏ cũ đi, sau đó khởi chạy là xong 100%! Bạn gõ 3 dòng lệnh sau nhé:
+
+1. Xóa cái vỏ cũ:
+```bash
+docker rm myapp
+```
+
+2. Khởi chạy lại đúng cấu hình cho Nginx:
+```bash
+docker run -d -p 8080:8081 --name myapp treeknowledge-app
+```
+
+3. (Tùy chọn) Gõ lệnh này để xem màn hình khởi động của app cho chắc ăn:
+```bash
+docker logs -f myapp
+```
+
+Bây giờ bạn tải lại trang `https://treeknowledge.online/` là hệ thống với phiên bản code mới nhất sẽ sẵn sàng chạy!
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Viewed main.py:1-800
+Viewed main.py:1900-2009
+Viewed Dockerfile:1-31
+Edited main.py
+
+Lỗi `502 Bad Gateway` là do Nginx (người bảo vệ cổng) tìm hoài mà không thấy ứng dụng của bạn ở bên trong để kết nối, vì nãy giờ **bạn chưa thực sự giải nén code mới và chưa build (đóng gói) lại Docker**! 
+
+Khi bạn dùng lệnh `docker run` lúc nãy, nó lấy lại "cái bản vẽ code cũ" và cố gắng ráp vào cấu hình cổng 8081 mới nên bị lệch "khớp nối" dẫn đến Nginx bị mất kết nối (502).
+
+Bây giờ chúng ta sẽ làm trọn vẹn quy trình cập nhật lên server nhé. Bạn hãy sao chép và chạy lần lượt 4 lệnh sau trên terminal của AWS (Ubuntu):
+
+**1. Giải nén file code mới (chấp nhận ghi đè file cũ):**
+```bash
+unzip -o WebPersionalLearning_08h47_18.4.2026.zip
+```
+
+**2. Xóa bỏ hoàn toàn cái hũ Docker cũ đang bị lỗi:**
+```bash
+docker stop myapp
+docker rm -f myapp
+```
+
+**3. Đóng gói code mới thành bản thiết kế Docker mới (Bước này rất quan trọng, máy sẽ chạy hơi lâu 1-2 phút):**
+```bash
+docker build -t treeknowledge-app .
+```
+
+**4. Khởi chạy lại hệ thống với kết nối mới 8080 -> 8081:**
+1. Gỡ kết nối bị lệch cũ:
+
+bash
+docker rm -f myapp
+2. Khởi chạy lại chặn kết nối đúng 8081 -> 8081:
+
+bash
+docker run -d -p 8081:8081 --name myapp treeknowledge-app
+Bây giờ bạn tải lại trang https://treeknowledge.online/ nhé. Nó bảo đảm sẽ lên 100%!
+
+```bash
+docker run -d -p 8080:8081 --name myapp treeknowledge-app
+```
+
+Sau khi hoàn thành bước 4, bạn chờ khoảng 5 giây rồi F5 lại trang `https://treeknowledge.online/`. Chắc chắn code mới của bạn sẽ lên sóng! 
+
+*(Lưu ý: Tôi cũng vừa thêm một cải tiến nhỏ vào file `main.py` trên máy tính cá nhân của bạn để hỗ trợ kết nối mạng ổn định hơn cho những lần upload sau này).*

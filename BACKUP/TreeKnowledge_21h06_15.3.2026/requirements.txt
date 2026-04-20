@@ -1,0 +1,16 @@
+nicegui
+sqlmodel
+google-generativeai
+pandas
+torch
+numpy
+scikit-learn
+chromadb
+pypdf
+fpdf2
+openai
+matplotlib
+sentence_transformers
+Flask==2.2.3
+gunicorn==20.0.4
+Werkzeug==2.2.3

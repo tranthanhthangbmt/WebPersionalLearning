@@ -1,0 +1,121 @@
+﻿ID,CourseContentId,IdContent,QuestionType,QuestionContent,AAnsver,BAnswer,CAnswer,DAnswer,Answer,ResultAnswer
+1,Module 1. Khai thác dữ liệu và thông tin,1,1,Dữ liệu thô là?,"Dữ liệu đã được xử lý và có ý nghĩa	",Dữ liệu mang tính tổng hợp và suy luận,"Các sự kiện, con số, ký hiệu chưa được xử lý",Các bảng thông tin trong Excel,C,"Các sự kiện, con số, ký hiệu chưa được xử lý"
+2,Module 1. Khai thác dữ liệu và thông tin,1,1,Ví dụ nào dưới đây là dữ liệu thô?,“Sinh viên A đạt 8.5 môn Toán”,"“25.000”, “áo thun”, “Hà Nội”",“Dựa trên điểm số để đánh giá xu hướng học tập”,“Báo cáo học tập năm 2024”,B,"“25.000”, “áo thun”, “Hà Nội”"
+3,Module 1. Khai thác dữ liệu và thông tin,1,1,Thông tin là:,Dữ liệu thô chưa được tổ chức,Các tri thức chuyên sâu,"Dữ liệu đã được xử lý, tổ chức và mang ý nghĩa",Các quan điểm cá nhân,C,"Dữ liệu đã được xử lý, tổ chức và mang ý nghĩa"
+4,Module 1. Khai thác dữ liệu và thông tin,1,1,Ví dụ nào sau đây là tri thức?,Số liệu bán hàng theo tháng,Phân tích xu hướng khách hàng và đề xuất hành động,Giá trị đơn chiếc của sản phẩm,Bảng thống kê doanh thu,B,Phân tích xu hướng khách hàng và đề xuất hành động
+5,Module 1. Khai thác dữ liệu và thông tin,1,1,Sự khác biệt giữa thông tin và tri thức nằm ở:,Định dạng,Nguồn gốc dữ liệu,Mức độ xử lý và khả năng suy luận,Ngôn ngữ trình bày,C,Mức độ xử lý và khả năng suy luận
+6,Module 1. Khai thác dữ liệu và thông tin,1,1,Dữ liệu có cấu trúc thường được lưu trữ trong:,File ảnh JPEG,Hệ thống cơ sở dữ liệu quan hệ,File video MP4,Bài viết trên mạng xã hội,B,Hệ thống cơ sở dữ liệu quan hệ
+7,Module 1. Khai thác dữ liệu và thông tin,1,1,Dữ liệu phi cấu trúc là:,"Dữ liệu có bảng, hàng, cột",Dữ liệu có thẻ XML rõ ràng,"Văn bản tự do, video, hình ảnh",Tệp Excel,C,"Văn bản tự do, video, hình ảnh"
+8,Module 1. Khai thác dữ liệu và thông tin,1,1,Ví dụ nào sau đây là dữ liệu bán cấu trúc?,"JSON, XML",Bảng tính Excel,Video TikTok,Bình luận YouTube,A,"JSON, XML"
+9,Module 1. Khai thác dữ liệu và thông tin,1,1,Điểm yếu của dữ liệu phi cấu trúc là:,Không có giá trị,"Rất khó truy xuất, phân tích",Không phổ biến trong môi trường số,Không có trong thực tế,B,"Rất khó truy xuất, phân tích"
+10,Module 1. Khai thác dữ liệu và thông tin,1,1,Đặc điểm nào KHÔNG đúng với dữ liệu có cấu trúc?,Dễ phân tích,Linh hoạt cao khi thay đổi,Lưu trữ dạng bảng,Tính nhất quán cao,B,Linh hoạt cao khi thay đổi
+11,Module 1. Khai thác dữ liệu và thông tin,1,1,“Velocity” trong mô hình 4V nói về:,Tính phong phú của dữ liệu,Tốc độ sinh ra và xử lý dữ liệu,Sự chính xác của dữ liệu,Dung lượng ổ cứng,B,Tốc độ sinh ra và xử lý dữ liệu
+12,Module 1. Khai thác dữ liệu và thông tin,1,1,Dữ liệu từ mạng xã hội thường là ví dụ cho yếu tố nào?,Veracity,Volume,Variety,Value,C,Variety
+13,Module 1. Khai thác dữ liệu và thông tin,1,1,“Veracity” nghĩa là:,Dữ liệu có khối lượng lớn,Dữ liệu đa dạng về định dạng,Độ chính xác và tin cậy của dữ liệu,Tốc độ lan truyền dữ liệu,C,Độ chính xác và tin cậy của dữ liệu
+14,Module 1. Khai thác dữ liệu và thông tin,1,1,Thách thức của “Volume” là gì?,Không thể xử lý dữ liệu dạng văn bản,Dễ bị mất dữ liệu,Cần hệ thống lưu trữ mở rộng,Không thể chia sẻ dữ liệu,C,Cần hệ thống lưu trữ mở rộng
+15,Module 1. Khai thác dữ liệu và thông tin,1,1,Một ví dụ của “Variety” là:,Dữ liệu chỉ có văn bản,CSDL SQL,"Video, hình ảnh, văn bản, cảm biến",Dữ liệu năm 2000,C,"Video, hình ảnh, văn bản, cảm biến"
+16,Module 1. Khai thác dữ liệu và thông tin,1,1,Kỹ năng “Đọc lướt” còn được gọi là:,Scanning,Browsing,Skimming,Jumping,C,Skimming
+17,Module 1. Khai thác dữ liệu và thông tin,1,1,"Khi đọc lướt, bạn nên đọc những phần nào?","Câu đầu đoạn, tiêu đề, đoạn mở đầu và kết",Câu ngẫu nhiên,Từ cuối văn bản,Toàn bộ văn bản một lượt,A,"Câu đầu đoạn, tiêu đề, đoạn mở đầu và kết"
+18,Module 1. Khai thác dữ liệu và thông tin,1,1,Chiến lược duyệt trang web hiệu quả KHÔNG bao gồm:,Xác định mục tiêu,Mở tất cả liên kết cùng lúc,Chọn nguồn phù hợp,Quan sát cấu trúc trang,B,Mở tất cả liên kết cùng lúc
+19,Module 1. Khai thác dữ liệu và thông tin,1,1,Nguồn nào đáng tin cậy hơn?,Blog không rõ tác giả,Trang .com quảng cáo,Tên miền .edu hoặc .gov,Trang mạng xã hội cá nhân,C,Tên miền .edu hoặc .gov
+20,Module 1. Khai thác dữ liệu và thông tin,1,1,Một cách đánh giá nhanh độ tin cậy của trang là:,Màu sắc nổi bật,Càng nhiều hình ảnh càng tốt,"Có thông tin tác giả, ngày cập nhật",Đăng bởi người nổi tiếng,C,"Có thông tin tác giả, ngày cập nhật"
+21,Module 1. Khai thác dữ liệu và thông tin,1,1,Toán tử “-” dùng để:,Tìm cụm từ chính xác,Loại trừ từ khóa,Thêm từ khóa,Tìm định nghĩa,B,Loại trừ từ khóa
+22,Module 1. Khai thác dữ liệu và thông tin,1,1,"Dấu ngoặc kép """" trong tìm kiếm dùng để:",Loại trừ kết quả,Mở rộng phạm vi tìm,Tìm cụm từ chính xác,Lọc theo file,C,Tìm cụm từ chính xác
+23,Module 1. Khai thác dữ liệu và thông tin,1,1,"Để tìm bài viết về AI trên vnexpress.net, bạn dùng cú pháp:",AI inurl:vnexpress,AI site:vnexpress.net,AI filetype:vnexpress,AI intitle:vnexpress,B,AI site:vnexpress.net
+24,Module 1. Khai thác dữ liệu và thông tin,1,1,Google Scholar được dùng để:,Tìm kiếm tài khoản Gmail,Tìm thông tin thời tiết,Tìm tài liệu học thuật,Tra cứu hình ảnh,C,Tìm tài liệu học thuật
+25,Module 1. Khai thác dữ liệu và thông tin,1,1,Toán tử “OR” dùng để:,Loại từ,Tìm một trong các từ khóa,Ghép 2 cụm từ,Tìm cụm từ trong tiêu đề,B,Tìm một trong các từ khóa
+26,Module 1. Khai thác dữ liệu và thông tin,1,1,Long-tail keyword là:,Từ khóa dài và cụ thể,Từ khóa lặp lại,Từ viết tắt,Từ khóa phổ biến,A,Từ khóa dài và cụ thể
+27,Module 1. Khai thác dữ liệu và thông tin,1,1,"Để tìm bài PDF, bạn dùng toán tử nào?",filetype:pdf,ext:.pdf,docfile:pdf,findtype:pdf,A,filetype:pdf
+28,Module 1. Khai thác dữ liệu và thông tin,1,1,Ví dụ nào là từ khóa rõ ràng và cụ thể?,Công nghệ,Công nghệ blockchain trong logistics,Thị trường,Tác động,B,Công nghệ blockchain trong logistics
+29,Module 1. Khai thác dữ liệu và thông tin,1,1,Bộ lọc theo thời gian dùng để:,Tìm thông tin trong 1 khu vực,Tìm tài liệu đúng độ tuổi,"Giới hạn kết quả theo năm, tháng",Chỉ tìm định dạng .docx,C,"Giới hạn kết quả theo năm, tháng"
+30,Module 1. Khai thác dữ liệu và thông tin,1,1,Kết hợp nhiều điều kiện lọc trong tìm kiếm bằng:,TO,SUM,AND,LIST,C,AND
+31,Module 1. Khai thác dữ liệu và thông tin,1,2,Kỹ thuật lọc được sử dụng nhiều trong:,Trình duyệt,Google Docs,"Excel, SQL, Pandas",Gmail,C,"Excel, SQL, Pandas"
+32,Module 1. Khai thác dữ liệu và thông tin,1,2,Lọc dữ liệu theo điều kiện thường dùng toán tử:,+,=,"AND, OR",IN,C,"AND, OR"
+33,Module 1. Khai thác dữ liệu và thông tin,1,2,"Filetype:pdf ""AI applications"" giúp bạn:",Tìm video AI,Tìm ảnh về AI,Tìm file PDF liên quan đến AI,Tìm trang web,C,Tìm file PDF liên quan đến AI
+34,Module 1. Khai thác dữ liệu và thông tin,1,2,Lọc theo thời gian thường áp dụng trong:,Xem video,Lọc dữ liệu theo ngày/tháng,Đổi màu văn bản,Chỉnh sửa file,B,Lọc dữ liệu theo ngày/tháng
+35,Module 1. Khai thác dữ liệu và thông tin,1,2,Web scraping là kỹ thuật:,Bảo vệ web,Truy xuất dữ liệu tự động,Duyệt thủ công,Mã hóa dữ liệu,B,Truy xuất dữ liệu tự động
+36,Module 1. Khai thác dữ liệu và thông tin,1,2,Công cụ nào sau đây KHÔNG dùng để web scraping?,BeautifulSoup,Selenium,Canva,Scrapy,C,Canva
+37,Module 1. Khai thác dữ liệu và thông tin,1,2,Google Dataset Search giúp:,Chạy quảng cáo,Tìm tập dữ liệu công khai,Tạo website,Viết mã,B,Tìm tập dữ liệu công khai
+38,Module 1. Khai thác dữ liệu và thông tin,1,2,Pandas là thư viện dùng trong ngôn ngữ nào?,C++,Java,Python,PHP,C,Python
+39,Module 1. Khai thác dữ liệu và thông tin,1,2,Một ứng dụng của Pandas là:,Tạo ảnh,Lập kế hoạch,Phân tích và xử lý dữ liệu,Tìm kiếm video,C,Phân tích và xử lý dữ liệu
+40,Module 1. Khai thác dữ liệu và thông tin,1,2,Định dạng dữ liệu nào phổ biến trong Google Dataset Search?,PSD,DOCX,CSV,MP3,C,CSV
+41,Module 1. Khai thác dữ liệu và thông tin,1,2,Thông tin số là gì theo Luật Công nghệ thông tin 2006?,Thông tin truyền miệng,Thông tin được tạo lập bằng phương pháp tín hiệu số,Thông tin trên báo in,Dữ liệu được lưu trữ bằng giấy tờ,B,Thông tin được tạo lập bằng phương pháp tín hiệu số
+42,Module 1. Khai thác dữ liệu và thông tin,1,2,Ví dụ nào sau đây KHÔNG phải là thông tin số?,Sách giấy truyền thống,File PDF thống kê dân số,Ứng dụng điện thoại,Video lưu trữ trên YouTube,A,Sách giấy truyền thống
+43,Module 1. Khai thác dữ liệu và thông tin,1,2,Thông tin sai lệch (misinformation) là gì?,Thông tin đúng được chia sẻ sai thời điểm,Thông tin sai được chia sẻ đúng thời điểm,Thông tin sai nhưng được chia sẻ không có chủ đích,Thông tin đúng nhưng gây hiểu nhầm,C,Thông tin sai nhưng được chia sẻ không có chủ đích
+44,Module 1. Khai thác dữ liệu và thông tin,1,2,Thông tin xuyên tạc (disinformation) có đặc điểm nào?,Được chia sẻ do thiếu kiến thức,Bị lỗi chính tả,"Có mục đích lừa dối, gây hại",Không có tác hại đến xã hội,C,"Có mục đích lừa dối, gây hại"
+45,Module 1. Khai thác dữ liệu và thông tin,1,2,Tin giả (Fake News) thường có hình thức nào?,Báo cáo học thuật,"Clickbait, tin đồn",Thư tín chính thức,Video hướng dẫn học tập,B,"Clickbait, tin đồn"
+46,Module 1. Khai thác dữ liệu và thông tin,1,2,Bias trong thông tin có nghĩa là gì?,Thông tin chính xác tuyệt đối,Thông tin được trình bày trung lập,Thông tin có thiên vị,Thông tin bị ẩn danh,C,Thông tin có thiên vị
+47,Module 1. Khai thác dữ liệu và thông tin,1,2,Ví dụ về Confirmation Bias là gì?,Người đọc nghi ngờ mọi thông tin,Tin vào thông tin trái ngược niềm tin,Chỉ tin và chia sẻ thông tin phù hợp niềm tin sẵn có,Không quan tâm đến bất kỳ thông tin nào,C,Chỉ tin và chia sẻ thông tin phù hợp niềm tin sẵn có
+48,Module 1. Khai thác dữ liệu và thông tin,1,2,Thông tin thật (Information Accuracy) nên có yếu tố nào?,Dựa vào tin đồn,"Được xác minh, kiểm chứng, từ nguồn chính thống",Có nhiều lượt chia sẻ trên mạng,Không có nguồn trích dẫn,B,"Được xác minh, kiểm chứng, từ nguồn chính thống"
+49,Module 1. Khai thác dữ liệu và thông tin,1,2,Mô hình CRAAP KHÔNG bao gồm yếu tố nào sau đây?,Relevance,Accuracy,Popularity,Purpose,C,Popularity
+50,Module 1. Khai thác dữ liệu và thông tin,1,2,Authority trong CRAAP dùng để đánh giá gì?,Mức độ chia sẻ trên mạng,Địa chỉ email người dùng,Thẩm quyền của nguồn tin,Tốc độ truyền tin,C,Thẩm quyền của nguồn tin
+51,Module 1. Khai thác dữ liệu và thông tin,1,2,CRAAP: Currency đề cập đến yếu tố gì?,Ngôn ngữ của thông tin,Ngày xuất bản hoặc cập nhật của thông tin,Sự nổi tiếng của tác giả,Mức độ dài của bài viết,B,Ngày xuất bản hoặc cập nhật của thông tin
+52,Module 1. Khai thác dữ liệu và thông tin,1,2,"Trong mô hình RADCAB, chữ D viết tắt cho yếu tố nào?",Định hướng,Detail,Data,Delay,B,Detail
+53,Module 1. Khai thác dữ liệu và thông tin,1,2,Mô hình IMVAIN dùng nhiều trong lĩnh vực nào?,Học đường,Công nghệ sinh học,Báo chí và truyền thông,Kỹ thuật phần mềm,C,Báo chí và truyền thông
+54,Module 1. Khai thác dữ liệu và thông tin,1,2,"Trong IMVAIN, Verified có nghĩa là gì?",Được chia sẻ rộng rãi,Được xác minh bằng bằng chứng cụ thể,Được viết bằng tiếng Anh,Được người nổi tiếng nhắc đến,B,Được xác minh bằng bằng chứng cụ thể
+55,Module 1. Khai thác dữ liệu và thông tin,1,2,"Trong mô hình DRAMA, yếu tố nào thay thế cho yếu tố “Purpose” trong mô hình CRAAP.",Motivation,Accuracy,Authority,Date,A,Motivation
+56,Module 1. Khai thác dữ liệu và thông tin,1,2,"Trong mô hình DRAMA, Motivation tập trung vào:",Mức độ chi tiết,Động cơ của người viết,Ngôn ngữ cảm xúc,Địa điểm công bố thông tin,B,Động cơ của người viết
+57,Module 1. Khai thác dữ liệu và thông tin,1,2,Bước đầu tiên trong SIFT là gì?,Investigate the Source,Find better coverage,Stop,Trace,C,Stop
+58,Module 1. Khai thác dữ liệu và thông tin,1,2,Lateral Reading là gì?,Đọc theo chiều dọc nội dung,Đọc qua một nguồn duy nhất,Đọc ngang – tra cứu thêm nguồn khác,Đọc nội dung hài hước,C,Đọc ngang – tra cứu thêm nguồn khác
+59,Module 1. Khai thác dữ liệu và thông tin,1,2,"Trong SIFT, “Find Better Coverage” nhắm đến việc gì?",Tìm nguồn thông tin có nhiều lượt like,Tìm nguồn khác đáng tin cậy hơn,Tìm video minh họa,Tìm bài viết từ cá nhân,B,Tìm nguồn khác đáng tin cậy hơn
+60,Module 1. Khai thác dữ liệu và thông tin,1,2,Công cụ nào sau đây KHÔNG nằm trong SIFT?,Stop,Investigate,Analyze,Trace,C,Analyze
+61,Module 1. Khai thác dữ liệu và thông tin,1,3,Phân tích dữ liệu là gì?,Lưu trữ dữ liệu,Biến dữ liệu thành thông tin có giá trị,Xóa dữ liệu không cần thiết,Gửi email tự động,B,Biến dữ liệu thành thông tin có giá trị
+62,Module 1. Khai thác dữ liệu và thông tin,1,3,Phân tích mô tả trả lời câu hỏi gì?,Tại sao điều đó xảy ra?,Điều gì có thể xảy ra?,Điều gì đã xảy ra?,Làm gì tiếp theo?,C,Điều gì đã xảy ra?
+63,Module 1. Khai thác dữ liệu và thông tin,1,3,Phân tích chẩn đoán giúp xác định:,Ai là người viết bài,Nguyên nhân hiện tượng,Tần suất xuất hiện,Độ dài bài viết,B,Nguyên nhân hiện tượng
+64,Module 1. Khai thác dữ liệu và thông tin,1,3,Công cụ nào sau đây KHÔNG phải công cụ làm sạch dữ liệu?,Pandas,Excel,PowerPoint,OpenRefine,C,PowerPoint
+65,Module 1. Khai thác dữ liệu và thông tin,1,3,Phương pháp nào dùng để loại bỏ giá trị ngoại lai (outlier)?,"IQR, Z-score",Google search,AI chatbot,Filter mặc định,A,"IQR, Z-score"
+66,Module 1. Khai thác dữ liệu và thông tin,1,3,Tra cứu mạng là kỹ năng gì?,Chia sẻ bài viết,Tìm kiếm và đánh giá thông tin trên Internet,Mở email,Xem phim trực tuyến,B,Tìm kiếm và đánh giá thông tin trên Internet
+67,Module 1. Khai thác dữ liệu và thông tin,1,3,Tìm kiếm ngược hình ảnh dùng để:,Tăng tốc độ tải ảnh,Biến ảnh thành văn bản,Xác minh nguồn gốc ảnh,Làm cho ảnh rõ nét hơn,C,Xác minh nguồn gốc ảnh
+68,Module 1. Khai thác dữ liệu và thông tin,1,3,Công cụ Google Fact Check Explorer giúp:,Kiểm tra chính tả,Tìm kiếm video YouTube,Tìm các bài kiểm chứng thông tin,Dịch bài viết,C,Tìm các bài kiểm chứng thông tin
+69,Module 1. Khai thác dữ liệu và thông tin,1,3,Dấu hiệu nhận biết tin giả là gì?,Bài viết dài,Nhiều số liệu,"Tiêu đề giật gân, không có nguồn rõ ràng",Có hình ảnh sắc nét,C,"Tiêu đề giật gân, không có nguồn rõ ràng"
+70,Module 1. Khai thác dữ liệu và thông tin,1,3,Kiểm tra chéo thông tin có ý nghĩa gì?,Chia sẻ nhiều nơi,Đối chiếu với nhiều nguồn để tăng độ chính xác,Tạo nhiều bản sao,Đăng tải lên mạng xã hội,B,Đối chiếu với nhiều nguồn để tăng độ chính xác
+71,Module 1. Khai thác dữ liệu và thông tin,1,3,AI có thể giúp gì trong kiểm tra thông tin?,Tăng tốc độ xác minh,Xoá thông tin,Thay đổi ý kiến,Giấu nguồn gốc,A,Tăng tốc độ xác minh
+72,Module 1. Khai thác dữ liệu và thông tin,1,3,Công cụ Copyleaks dùng để:,Gửi email,Kiểm tra văn bản có phải do AI viết không,Tạo biểu đồ,Dịch ngôn ngữ,B,Kiểm tra văn bản có phải do AI viết không
+73,Module 1. Khai thác dữ liệu và thông tin,1,3,Công cụ giúp kiểm tra deepfake video là gì?,InVID,Excel,Grammarly,Notion,A,InVID
+74,Module 1. Khai thác dữ liệu và thông tin,1,3,NLP trong AI là viết tắt của gì?,Natural Learning Protocol,National Level Prediction,Natural Language Processing,New Language Provider,C,Natural Language Processing
+75,Module 1. Khai thác dữ liệu và thông tin,1,3,Một nhược điểm của AI là gì?,Chậm,Không phân tích được,Tốn chi phí triển khai,Không cần dữ liệu,C,Tốn chi phí triển khai
+76,Module 1. Khai thác dữ liệu và thông tin,1,3,Công cụ nào giúp xác minh hình ảnh?,Canva,TinEye,Google Docs,Notepad,B,TinEye
+77,Module 1. Khai thác dữ liệu và thông tin,1,3,Hoaxy dùng để làm gì?,Tìm lỗi chính tả,Theo dõi lan truyền thông tin,Dịch bài viết,Vẽ biểu đồ,B,Theo dõi lan truyền thông tin
+78,Module 1. Khai thác dữ liệu và thông tin,1,3,Mô hình BERT do tổ chức nào phát triển?,Apple,Microsoft,OpenAI,Google,D,Google
+79,Module 1. Khai thác dữ liệu và thông tin,1,3,Wolfram Alpha giúp gì trong kiểm tra thông tin?,Tạo bản trình chiếu,Tìm số liệu chính xác từ nguồn cấu trúc,Viết blog cá nhân,Dịch văn bản,B,Tìm số liệu chính xác từ nguồn cấu trúc
+80,Module 1. Khai thác dữ liệu và thông tin,1,3,FactCheck.org là tổ chức chuyên:,Thiết kế đồ họa,Lập trình phần mềm,Kiểm chứng sự thật,Quảng bá thương hiệu,C,Kiểm chứng sự thật
+81,Module 1. Khai thác dữ liệu và thông tin,1,3,Dữ liệu số là gì?,Văn bản được in trên giấy,"Dữ liệu có thể lưu trữ, xử lý và truyền tải bằng máy tính",Dữ liệu được vẽ tay,Âm thanh không thu được,B,"Dữ liệu có thể lưu trữ, xử lý và truyền tải bằng máy tính"
+82,Module 1. Khai thác dữ liệu và thông tin,1,3,Thông tin số có thể biểu diễn dưới dạng:,Chỉ văn bản,Hình ảnh và âm thanh,"Nhiều dạng khác nhau như văn bản, âm thanh, hình ảnh, video",Dữ liệu bảng tính duy nhất,C,"Nhiều dạng khác nhau như văn bản, âm thanh, hình ảnh, video"
+83,Module 1. Khai thác dữ liệu và thông tin,1,3,"Trong môi trường số, kỹ năng thông tin số KHÔNG bao gồm:",Khả năng tra cứu và đánh giá thông tin,Khả năng nấu ăn,"Kỹ năng tìm kiếm, xác thực, tổ chức thông tin",Kỹ năng phân tích dữ liệu,B,Khả năng nấu ăn
+84,Module 1. Khai thác dữ liệu và thông tin,1,3,Yếu tố nào sau đây thể hiện thông tin số chất lượng?,Không có nguồn trích dẫn,"Cập nhật mới nhất, chính xác, có nguồn gốc rõ ràng",Tạo từ trang mạng không xác định,Không cần xác thực,B,"Cập nhật mới nhất, chính xác, có nguồn gốc rõ ràng"
+85,Module 1. Khai thác dữ liệu và thông tin,1,3,Một ví dụ về nguồn dữ liệu mở là:,Facebook cá nhân,Wikipedia,Nhóm kín trên mạng xã hội,Tin đồn lan truyền,B,Wikipedia
+86,Module 1. Khai thác dữ liệu và thông tin,1,3,Mô hình CRAAP gồm mấy yếu tố chính?,2,3,5,6,C,5
+87,Module 1. Khai thác dữ liệu và thông tin,1,3,CRAAP: “Accuracy” dùng để đánh giá:,Tính đầy đủ của nội dung,Tính chính xác của thông tin,Tác giả có nổi tiếng không,Hình thức trình bày bài viết,B,Tính chính xác của thông tin
+88,Module 1. Khai thác dữ liệu và thông tin,1,3,CRAAP: “Authority” tập trung vào:,"Người viết có thẩm quyền, chuyên môn không",Địa chỉ email của tác giả,Thời gian cập nhật,Cảm xúc người đọc,A,"Người viết có thẩm quyền, chuyên môn không"
+89,Module 1. Khai thác dữ liệu và thông tin,1,3,CRAAP: “Purpose” là gì?,Mục tiêu và động cơ của nội dung thông tin,Màu sắc của bài viết,Độ dài văn bản,Tên miền trang web,A,Mục tiêu và động cơ của nội dung thông tin
+90,Module 1. Khai thác dữ liệu và thông tin,1,3,CRAAP: “Currency” dùng để kiểm tra:,Thời điểm tạo hoặc cập nhật thông tin,Giá trị tiền tệ,Vị trí địa lý,Tên tác giả,A,Thời điểm tạo hoặc cập nhật thông tin
+91,Module 1. Khai thác dữ liệu và thông tin,1,4,SIFT là viết tắt của mô hình nào?,Source – Investigate – Fake – Truth,Stop – Investigate – Find – Trace,Study – Integrate – Filter – Track,Scan – Identify – Follow – Test,B,Stop – Investigate – Find – Trace
+92,Module 1. Khai thác dữ liệu và thông tin,1,4,“Stop” trong SIFT có nghĩa là:,Ngừng đọc mọi thứ,Tạm dừng để cân nhắc trước khi chia sẻ thông tin,Đóng ứng dụng,Xóa thông tin,B,Tạm dừng để cân nhắc trước khi chia sẻ thông tin
+93,Module 1. Khai thác dữ liệu và thông tin,1,4,“Investigate the source” nghĩa là:,Tra cứu nguồn tin gốc để xác minh,Sao chép nội dung,Bình luận bài viết,Gửi email,A,Tra cứu nguồn tin gốc để xác minh
+94,Module 1. Khai thác dữ liệu và thông tin,1,4,"“Trace claims, quotes and media” nghĩa là:",Tìm nguồn gốc của thông tin hoặc phương tiện,Xem lượt thích,Dò dấu vết tội phạm,Dự đoán xu hướng,A,Tìm nguồn gốc của thông tin hoặc phương tiện
+95,Module 1. Khai thác dữ liệu và thông tin,1,4,Công cụ Google Reverse Image Search dùng để:,Vẽ hình ảnh,Tìm kiếm ngược hình ảnh,Biến ảnh thành văn bản,Tăng độ phân giải,B,Tìm kiếm ngược hình ảnh
+96,Module 1. Khai thác dữ liệu và thông tin,1,4,RADCAB là công cụ gì?,Đánh giá phương tiện di chuyển,Đánh giá chất lượng thông tin trên mạng,Chuyển đổi văn bản,Vẽ sơ đồ,B,Đánh giá chất lượng thông tin trên mạng
+97,Module 1. Khai thác dữ liệu và thông tin,1,4,RADCAB gồm bao nhiêu yếu tố?,5,6,7,8,B,6
+98,Module 1. Khai thác dữ liệu và thông tin,1,4,Yếu tố “Detail” trong RADCAB liên quan đến:,Độ dài đoạn văn,Mức độ chi tiết trong nội dung,Dạng dữ liệu,Số lượt bình luận,B,Mức độ chi tiết trong nội dung
+99,Module 1. Khai thác dữ liệu và thông tin,1,4,DRAMA là mô hình cải tiến từ:,CRAAP,SIFT,SWOT,PEST,A,CRAAP
+100,Module 1. Khai thác dữ liệu và thông tin,1,4,“Motivation” trong DRAMA đánh giá:,Ý định đằng sau nội dung,Chiều dài văn bản,Số người xem,Địa điểm viết bài,A,Ý định đằng sau nội dung
+101,Module 1. Khai thác dữ liệu và thông tin,1,4,AI có thể giúp xác minh thông tin như thế nào?,Làm giả thông tin,Kiểm tra sự thật tự động,Giấu nguồn tin,Tăng tương tác,B,Kiểm tra sự thật tự động
+102,Module 1. Khai thác dữ liệu và thông tin,1,4,Công cụ giúp kiểm tra văn bản AI viết là:,Copyleaks,Paint,Zalo,YouTube,A,Copyleaks
+103,Module 1. Khai thác dữ liệu và thông tin,1,4,Deepfake là gì?,Mã lỗi phần mềm,Video giả mạo bằng AI,Ứng dụng học ngôn ngữ,Bài báo khoa học,B,Video giả mạo bằng AI
+104,Module 1. Khai thác dữ liệu và thông tin,1,4,Công cụ InVID dùng để:,Kiểm tra nguồn video,Làm video ca nhạc,Xử lý văn bản,Tạo biểu đồ,A,Kiểm tra nguồn video
+105,Module 1. Khai thác dữ liệu và thông tin,1,4,TinEye giúp xác minh:,Văn bản,Video,Hình ảnh,Âm thanh,C,Hình ảnh
+106,Module 1. Khai thác dữ liệu và thông tin,1,4,Tin giả thường có đặc điểm:,Có nguồn gốc rõ ràng,"Giật gân, không có căn cứ",Dễ kiểm chứng,Được xuất bản bởi chính phủ,B,"Giật gân, không có căn cứ"
+107,Module 1. Khai thác dữ liệu và thông tin,1,4,Misinformation là gì?,Thông tin sai do cố ý,Thông tin sai nhưng không cố ý,Thông tin thật,Thông tin quảng cáo,B,Thông tin sai nhưng không cố ý
+108,Module 1. Khai thác dữ liệu và thông tin,1,4,Disinformation là gì?,Thông tin thiếu chính xác do lỗi đánh máy,Thông tin sai được chia sẻ có chủ đích,Dữ liệu học thuật,Sách in,B,Thông tin sai được chia sẻ có chủ đích
+109,Module 1. Khai thác dữ liệu và thông tin,1,4,Bias trong thông tin là:,Dạng tin cũ,Thiên kiến hoặc lệch lạc trong đánh giá thông tin,Tên công cụ tìm kiếm,Mẫu tin chuẩn,B,Thiên kiến hoặc lệch lạc trong đánh giá thông tin
+110,Module 1. Khai thác dữ liệu và thông tin,1,4,Confirmation Bias là hiện tượng:,Tìm kiếm thông tin trái niềm tin,Chỉ tin thông tin củng cố niềm tin có sẵn,Kiểm chứng thông tin ngẫu nhiên,Không tìm kiếm thông tin,B,Chỉ tin thông tin củng cố niềm tin có sẵn
+111,Module 1. Khai thác dữ liệu và thông tin,1,4,Lateral Reading là gì?,Đọc dọc,Đọc các nguồn khác nhau để xác minh,Đọc lướt,Đọc chậm,B,Đọc các nguồn khác nhau để xác minh
+112,Module 1. Khai thác dữ liệu và thông tin,1,4,Công cụ nào giúp kiểm chứng tin lan truyền trên mạng?,Hoaxy,Excel,TikTok,Word,A,Hoaxy
+113,Module 1. Khai thác dữ liệu và thông tin,1,4,FactCheck.org là:,Trang blog cá nhân,Tổ chức kiểm chứng thông tin,Diễn đàn thảo luận,Công cụ dịch thuật,B,Tổ chức kiểm chứng thông tin
+114,Module 1. Khai thác dữ liệu và thông tin,1,4,Snopes.com giúp:,Tìm hình ảnh đẹp,Phân tích ngữ pháp,Kiểm tra độ xác thực của tin tức,Xem video,C,Kiểm tra độ xác thực của tin tức
+115,Module 1. Khai thác dữ liệu và thông tin,1,4,Công cụ kiểm tra AI-generated text:,ChatGPT,GPTZero,Notepad,Zoom,B,GPTZero
+116,Module 1. Khai thác dữ liệu và thông tin,1,4,Tại sao cần đánh giá thông tin số?,Để giải trí,"Để đảm bảo tiếp cận thông tin đúng, chính xác",Để giảm thời gian sử dụng Internet,Để tăng like,B,"Để đảm bảo tiếp cận thông tin đúng, chính xác"
+117,Module 1. Khai thác dữ liệu và thông tin,1,4,Một lợi ích của thông tin chính xác là gì?,Gây hoang mang,Dễ bị giả mạo,Hỗ trợ ra quyết định hiệu quả,Giảm sự hiểu biết,C,Hỗ trợ ra quyết định hiệu quả
+118,Module 1. Khai thác dữ liệu và thông tin,1,4,Công cụ nào dưới đây KHÔNG dùng để xác minh thông tin?,Google Fact Check,Wikipedia,Zalo Chat,TinEye,C,Zalo Chat
+119,Module 1. Khai thác dữ liệu và thông tin,1,4,Công cụ nào hỗ trợ phân tích dữ liệu số?,Excel,TikTok,ZingMP3,Paint,A,Excel
+120,Module 1. Khai thác dữ liệu và thông tin,1,4,Nguồn thông tin đáng tin cậy là:,"Trang chính phủ, viện nghiên cứu, báo chí uy tín",Trang blog cá nhân ẩn danh,Group Facebook không kiểm duyệt,Tin đồn từ bạn bè,A,"Trang chính phủ, viện nghiên cứu, báo chí uy tín"

@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_1_Tiet_6",
+    "concept_name": "Chương_1_Tiết 6 Hạ tầng Nhân lực, Phân phối & Bài tập",
+    "file_source": "Chương_1_Tiết 6 Hạ tầng Nhân lực, Phân phối & Bài tập.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_1_Tiet_6_0",
+      "type": "multiple_choice",
+      "content": "Thuật ngữ \"Order Fulfillment\" (Hoàn tất đơn hàng) đề cập đến quy trình nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ là khâu vận chuyển hàng hóa."
+        },
+        {
+          "key": "B",
+          "text": "Quy trình từ nhận đơn đến khi giao hàng."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ là khâu sản xuất sản phẩm tại nhà máy."
+        },
+        {
+          "key": "D",
+          "text": "Việc khách hàng thanh toán tiền mặt."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Order fulfillment đề cập đến tất cả các hoạt động mà công ty thực hiện từ lúc nhận đơn hàng cho đến khi hàng được giao đến tay khách hàng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_1",
+      "type": "multiple_choice",
+      "content": "\"Reverse Logistics\" (Logistics ngược) trong thương mại điện tử chủ yếu giải quyết vấn đề gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nhập nguyên liệu thô."
+        },
+        {
+          "key": "B",
+          "text": "Xử lý hàng hóa đổi trả."
+        },
+        {
+          "key": "C",
+          "text": "Giao hàng chặng cuối."
+        },
+        {
+          "key": "D",
+          "text": "Tuyển dụng nhân sự mới."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Reverse logistics liên quan đến dòng chảy của hàng hóa từ người tiêu dùng trở lại người bán, chủ yếu là xử lý hàng đổi trả (returns).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_2",
+      "type": "multiple_choice",
+      "content": "Vai trò của bên thứ ba cung cấp dịch vụ logistics (3PL) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sản xuất hàng hóa cho người bán."
+        },
+        {
+          "key": "B",
+          "text": "Cung cấp dịch vụ vận chuyển và kho bãi."
+        },
+        {
+          "key": "C",
+          "text": "Quản lý tài khoản ngân hàng của người bán."
+        },
+        {
+          "key": "D",
+          "text": "Thiết kế website bán hàng trực tuyến."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "3PL (Third-party logistics) là các công ty bên ngoài cung cấp dịch vụ hậu cần như vận chuyển, lưu kho thay vì doanh nghiệp tự làm.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_3",
+      "type": "multiple_choice",
+      "content": "Trong mô hình \"Drop-shipping\", ai là người chịu trách nhiệm lưu kho và giao hàng cho khách?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Người bán lẻ (Retailer)."
+        },
+        {
+          "key": "B",
+          "text": "Nhà cung cấp (Supplier)."
+        },
+        {
+          "key": "C",
+          "text": "Ngân hàng thanh toán."
+        },
+        {
+          "key": "D",
+          "text": "Sàn giao dịch chứng khoán."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong Drop-shipping, người bán chuyển đơn hàng cho nhà cung cấp/nhà sản xuất và họ sẽ giao trực tiếp cho khách, người bán không giữ kho.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_4",
+      "type": "multiple_choice",
+      "content": "Một kỹ năng nhân sự quan trọng mới nổi cần thiết cho TMĐT ngoài kỹ năng IT là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kỹ năng vận hành máy in offset."
+        },
+        {
+          "key": "B",
+          "text": "Phân tích dữ liệu lớn (Big Data)."
+        },
+        {
+          "key": "C",
+          "text": "Kỹ năng sửa chữa xe tải giao hàng."
+        },
+        {
+          "key": "D",
+          "text": "Kỹ năng lưu trữ hồ sơ giấy tờ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Nhân lực TMĐT cần hiểu biết về phân tích dữ liệu lớn để ra quyết định dựa trên hành vi khách hàng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_5",
+      "type": "multiple_choice",
+      "content": "\"Last Mile Delivery\" (Giao hàng chặng cuối) thường được coi là khâu như thế nào trong logistics?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Khâu rẻ nhất trong chuỗi."
+        },
+        {
+          "key": "B",
+          "text": "Khâu tốn kém và phức tạp nhất."
+        },
+        {
+          "key": "C",
+          "text": "Khâu ít quan trọng nhất."
+        },
+        {
+          "key": "D",
+          "text": "Khâu hoàn toàn tự động hóa."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Giao hàng chặng cuối đến cửa nhà khách hàng thường là phần tốn kém và phức tạp nhất do số lượng điểm đến lớn và đơn hàng nhỏ lẻ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_6",
+      "type": "multiple_choice",
+      "content": "Công nghệ RFID (Nhận dạng qua tần số vô tuyến) chủ yếu giúp cải thiện điều gì trong chuỗi cung ứng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng giá bán sản phẩm."
+        },
+        {
+          "key": "B",
+          "text": "Khả năng nhìn thấy (Visibility) hàng hóa."
+        },
+        {
+          "key": "C",
+          "text": "Tăng thời gian vận chuyển."
+        },
+        {
+          "key": "D",
+          "text": "Giảm chất lượng sản phẩm."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "RFID cung cấp khả năng hiển thị (visibility) và theo dõi vị trí của hàng hóa trong thời gian thực dọc theo chuỗi cung ứng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_7",
+      "type": "multiple_choice",
+      "content": "Sự khác biệt chính giữa mô hình \"Make-to-Stock\" (MTS) và \"Make-to-Order\" (MTO) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "MTS sản xuất khi có đơn, MTO sản xuất để tồn kho."
+        },
+        {
+          "key": "B",
+          "text": "MTS sản xuất để tồn kho, MTO sản xuất khi có đơn."
+        },
+        {
+          "key": "C",
+          "text": "Cả hai đều không cần kho bãi."
+        },
+        {
+          "key": "D",
+          "text": "MTO chỉ dành cho hàng hóa kỹ thuật số."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "MTS (Make-to-stock) sản xuất dựa trên dự báo để lưu kho, trong khi MTO (Make-to-order) chỉ sản xuất sau khi đã nhận được đơn đặt hàng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_8",
+      "type": "multiple_choice",
+      "content": "Tại sao Amazon sử dụng robot Kiva (Amazon Robotics) trong các trung tâm fulfillment của họ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Để thay thế hoàn toàn con người."
+        },
+        {
+          "key": "B",
+          "text": "Để mang kệ hàng đến cho nhân viên (Goods-to-man)."
+        },
+        {
+          "key": "C",
+          "text": "Để lái xe tải giao hàng đường dài."
+        },
+        {
+          "key": "D",
+          "text": "Để trả lời điện thoại khách hàng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Robot Kiva thực hiện quy trình \"Goods-to-man\", tự động di chuyển các kệ hàng đến vị trí nhân viên đóng gói, giúp giảm thời gian đi lại.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_9",
+      "type": "multiple_choice",
+      "content": "\"Bullwhip Effect\" (Hiệu ứng cái roi da) trong chuỗi cung ứng mô tả hiện tượng tiêu cực nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sự thiếu hụt nhân sự giao hàng."
+        },
+        {
+          "key": "B",
+          "text": "Sự biến động thông tin nhu cầu bị khuếch đại."
+        },
+        {
+          "key": "C",
+          "text": "Giá xăng dầu tăng đột biến."
+        },
+        {
+          "key": "D",
+          "text": "Hàng hóa bị hỏng khi vận chuyển."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Hiệu ứng Bullwhip là sự sai lệch giữa nhu cầu thực tế và tồn kho, sự biến động này tăng dần khi đi ngược lên phía trên chuỗi cung ứng do thiếu chia sẻ thông tin.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_10",
+      "type": "multiple_choice",
+      "content": "Mô hình \"Click-and-mortar\" có lợi thế gì hơn \"Pure-play\" trong việc xử lý hàng đổi trả (Returns)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Không cho phép đổi trả hàng."
+        },
+        {
+          "key": "B",
+          "text": "Khách có thể trả hàng tại cửa hàng vật lý."
+        },
+        {
+          "key": "C",
+          "text": "Luôn miễn phí vận chuyển trả hàng."
+        },
+        {
+          "key": "D",
+          "text": "Tự động hoàn tiền mà không cần nhận lại hàng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các cửa hàng Click-and-mortar (như Walmart) cho phép khách hàng mang hàng mua online đến trả trực tiếp tại cửa hàng vật lý, thuận tiện hơn gửi bưu điện.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_11",
+      "type": "multiple_choice",
+      "content": "Một thách thức lớn về nhân lực đối với các doanh nghiệp TMĐT vừa và nhỏ là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quá nhiều ứng viên nộp đơn."
+        },
+        {
+          "key": "B",
+          "text": "Khan hiếm nhân tài kỹ năng cao (AI, dữ liệu)."
+        },
+        {
+          "key": "C",
+          "text": "Chi phí đào tạo quá thấp."
+        },
+        {
+          "key": "D",
+          "text": "Không cần nhân viên biết dùng máy tính."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sự khan hiếm nhân tài có kỹ năng cao về AI và khoa học dữ liệu là rào cản lớn cho các doanh nghiệp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_12",
+      "type": "multiple_choice",
+      "content": "Hệ thống quản lý kho hàng (WMS) giúp ích gì cho hoạt động fulfillment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tự động đặt hàng từ nhà cung cấp."
+        },
+        {
+          "key": "B",
+          "text": "Tối ưu hóa vị trí và quy trình lấy hàng."
+        },
+        {
+          "key": "C",
+          "text": "Tăng chi phí nhân sự kho."
+        },
+        {
+          "key": "D",
+          "text": "Loại bỏ nhu cầu kiểm kê hàng hóa."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "WMS giúp quản lý vị trí hàng hóa, tối ưu hóa lộ trình lấy hàng (picking) và kiểm soát tồn kho chính xác.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_13",
+      "type": "multiple_choice",
+      "content": "Tại sao các đơn hàng B2B thường phức tạp hơn B2C trong khâu hoàn tất đơn hàng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì B2B thanh toán bằng tiền mặt."
+        },
+        {
+          "key": "B",
+          "text": "Do khối lượng lớn và yêu cầu vận chuyển đặc thù."
+        },
+        {
+          "key": "C",
+          "text": "Vì B2B không sử dụng Internet."
+        },
+        {
+          "key": "D",
+          "text": "Vì B2B chỉ giao hàng vào ban đêm."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "B2B phức tạp hơn do lô hàng lớn hơn, nhiều kênh phân phối, quy trình giao dịch phức tạp và yêu cầu đóng gói/vận chuyển khắt khe hơn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_14",
+      "type": "multiple_choice",
+      "content": "Chiến lược \"Merge-in-transit\" (Hợp nhất trong quá trình vận chuyển) giúp tối ưu hóa logistics như thế nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lưu trữ tất cả linh kiện tại một kho trung tâm lớn."
+        },
+        {
+          "key": "B",
+          "text": "Gom các linh kiện từ nhiều nguồn và giao một lần cho khách."
+        },
+        {
+          "key": "C",
+          "text": "Giao từng linh kiện riêng lẻ cho khách hàng để nhanh hơn."
+        },
+        {
+          "key": "D",
+          "text": "Yêu cầu khách hàng tự đến các nhà máy để lấy linh kiện."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Merge-in-transit là vận chuyển các thành phần từ các địa điểm khác nhau và hợp nhất chúng thành một lô hàng duy nhất trước khi giao cho khách, giảm kho bãi trung gian.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_15",
+      "type": "multiple_choice",
+      "content": "Việc Amazon xây dựng các \"Sortation Centers\" (Trung tâm phân loại) nhằm mục đích chiến lược gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng sự phụ thuộc vào UPS và FedEx."
+        },
+        {
+          "key": "B",
+          "text": "Giành quyền kiểm soát và giảm chi phí giao hàng chặng cuối."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ để lưu trữ hàng hóa lâu dài."
+        },
+        {
+          "key": "D",
+          "text": "Để bán lại dịch vụ cho các đối thủ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các trung tâm phân loại giúp Amazon giảm sự phụ thuộc vào UPS/FedEx, chuyển sang dùng USPS và tự kiểm soát giao hàng để đạt tốc độ nhanh hơn và chi phí thấp hơn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_16",
+      "type": "multiple_choice",
+      "content": "Tại sao mô hình \"Assemble-to-Order\" (Lắp ráp theo đơn) của Dell lại yêu cầu sự tích hợp chuỗi cung ứng chặt chẽ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì Dell tự sản xuất tất cả linh kiện."
+        },
+        {
+          "key": "B",
+          "text": "Vì cần linh kiện đúng lúc (JIT) để lắp ráp nhanh."
+        },
+        {
+          "key": "C",
+          "text": "Vì khách hàng muốn nhận hàng sau 1 tháng."
+        },
+        {
+          "key": "D",
+          "text": "Vì tồn kho linh kiện của Dell rất lớn."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Dell giảm thiểu tồn kho bằng cách chỉ lắp ráp khi có đơn, do đó cần nhà cung cấp giao linh kiện ngay lập tức (Just-in-time) để đảm bảo tốc độ giao hàng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_17",
+      "type": "multiple_choice",
+      "content": "Rủi ro lớn nhất của việc thuê ngoài toàn bộ logistics (3PL) đối với một doanh nghiệp TMĐT là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng chi phí đầu tư tài sản cố định."
+        },
+        {
+          "key": "B",
+          "text": "Mất kiểm soát trực tiếp chất lượng dịch vụ giao hàng."
+        },
+        {
+          "key": "C",
+          "text": "Phải tự tuyển dụng tài xế."
+        },
+        {
+          "key": "D",
+          "text": "Phải xây dựng nhiều kho bãi."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Thuê ngoài 3PL có thể dẫn đến việc phụ thuộc vào người ngoài và khó kiểm soát độ tin cậy cũng như trải nghiệm giao hàng trực tiếp với khách.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_18",
+      "type": "multiple_choice",
+      "content": "Trong bối cảnh hạ tầng nhân lực, tại sao kỹ năng \"tương tác với AI/Chatbot\" lại quan trọng đối với nhân viên CSKH?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Để thay thế hoàn toàn nhân viên con người."
+        },
+        {
+          "key": "B",
+          "text": "Để tối ưu hóa quy trình cộng tác người - máy."
+        },
+        {
+          "key": "C",
+          "text": "Để nhân viên có thể lập trình lại robot."
+        },
+        {
+          "key": "D",
+          "text": "Để giúp nhân viên làm việc ít giờ hơn."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Nhân viên cần làm việc song song với AI (cộng tác), để AI xử lý các tác vụ lặp lại trong khi con người xử lý các vấn đề phức tạp hơn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_6_19",
+      "type": "multiple_choice",
+      "content": "Giải pháp \"Supply Chain Segmentation\" (Phân khúc chuỗi cung ứng) giúp doanh nghiệp giải quyết vấn đề gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Áp dụng một quy trình duy nhất cho mọi khách hàng."
+        },
+        {
+          "key": "B",
+          "text": "Tối ưu hóa phục vụ cho các nhóm khách hàng khác nhau."
+        },
+        {
+          "key": "C",
+          "text": "Loại bỏ hoàn toàn nhu cầu dự báo."
+        },
+        {
+          "key": "D",
+          "text": "Tăng lượng hàng tồn kho cho mọi sản phẩm."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Phân khúc chuỗi cung ứng tạo ra các quy trình riêng biệt phù hợp với nhu cầu của từng loại khách hàng hoặc sản phẩm khác nhau để tối ưu hóa lợi nhuận và dịch vụ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

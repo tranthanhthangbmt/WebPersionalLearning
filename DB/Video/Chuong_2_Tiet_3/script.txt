@@ -1,0 +1,92 @@
+﻿Slide 1: TRANG BÌA & GIỚI THIỆU GIẢNG VIÊN
+Người 1: Chào các em sinh viên lớp B A hai mươi bốn mờ. Hôm nay, chúng ta sẽ bước vào Chương hai: Giao dịch điện tử. Cụ thể, đây là tiết ba trên tổng số sáu tiết của chương, với chủ đề vô cùng quan trọng: Những lưu ý cốt lõi khi sử dụng Hợp đồng điện tử. Thầy là Trần Thành Thắng, giảng viên phụ trách môn học này. Các em có thể thấy tài liệu hôm nay mang tên tiếng Anh là “Field Manual: From Theory to Defense”, tức là “Cẩm nang thực chiến: Từ Lý thuyết đến Phòng thủ”.
+Người 2: Dạ em chào thầy ạ. Thưa thầy, tên chủ đề nghe có vẻ hơi mang tính chất quân sự và “phòng thủ” quá. Liệu việc ký một cái hợp đồng trên mạng có thực sự nhiều rủi ro đến mức chúng ta phải “phòng thủ” không ạ?
+Người 1: Một câu hỏi khởi động rất hay. Các em ạ, thương trường là chiến trường, và trên không gian mạng, rủi ro bị lừa đảo hoặc mất trắng tài sản chỉ qua một cú nhấp chuột là hoàn toàn có thật. Đó là lý do bài học này được thiết kế như một cuốn cẩm nang thực chiến, giúp các em không chỉ hiểu lý thuyết mà còn biết cách tự bảo vệ doanh nghiệp của mình. Bây giờ, chúng ta cùng xem mục tiêu cụ thể của tiết học này là gì nhé.
+
+Slide 2: MỤC TIÊU TIẾT HỌC
+Người 1: Tiết học hôm nay của chúng ta được chia thành ba giai đoạn nhiệm vụ, hay còn gọi là Mission Phase. Ở Giai đoạn một, mục tiêu của chúng ta là Nhận diện rủi ro. Chúng ta sẽ cùng nhau phân tích các lỗ hổng pháp lý và công nghệ trên không gian mạng.
+Người 2: Vậy sau khi biết được các lỗ hổng đó, chúng ta sẽ làm gì tiếp theo thưa thầy?
+Người 1: Tốt lắm. Nhận diện xong thì chúng ta phải tìm cách vá nó lại. Đó chính là Giai đoạn hai: Nắm vững Bốn Lưu ý Vàng. Trong đó, trọng tâm lớn nhất của chúng ta sẽ rơi vào hai vấn đề: Thẩm quyền ký kết và Tính toàn vẹn dữ liệu. Cuối cùng, ở Giai đoạn ba, chúng ta sẽ chuyển sang Thực hành Case Study, tức là giải quyết các tranh chấp thực tế. Thầy lưu ý thêm, phần thực hành này sẽ được dùng để đánh giá cột điểm thường xuyên A hai chấm ba của các em nhé.
+
+
+Slide 3: LƯU Ý 1 - XÁC ĐỊNH ĐÚNG THẨM QUYỀN KÝ KẾT
+Người 1: Chúng ta đi vào “Lưu ý vàng” đầu tiên: Xác định đúng Thẩm quyền ký kết. Vấn đề lớn nhất của hợp đồng điện tử là chúng ta không gặp mặt nhau trực tiếp. Vậy câu hỏi đặt ra là: Ai thực sự là người đang ngồi sau màn hình để ký kết với chúng ta? Điều này dẫn đến một rủi ro rất lớn là rủi ro mạo danh đại diện.
+
+Người 2: Thưa thầy, bình thường ký giấy thì em có thể đòi xem chứng minh nhân dân. Vậy trên mạng, đặc biệt là giữa các doanh nghiệp ký kết với nhau, thì mình kiểm tra kiểu gì ạ?
+Người 1: Rất thực tế! Đối với giao dịch giữa các doanh nghiệp, hay còn gọi là B hai B, chúng ta có hai bước giải pháp. Bước một, em phải kiểm tra Giấy chứng nhận Đăng ký doanh nghiệp của đối tác. Bước hai, em phải soi thật kỹ Chứng thư số, tiếng Anh gọi là Digital Certificate. Trên chứng thư số này phải ghi đúng tên của người đại diện hợp pháp. Nếu các em bỏ qua bước này, hậu quả sẽ rất nghiêm trọng: Ký sai thẩm quyền sẽ làm cho Hợp đồng vô hiệu, dẫn đến thiệt hại nặng nề về mặt tài chính. Ví dụ, một nhân viên kế toán tự ý lấy USB chữ ký số của Giám đốc để ký một hợp đồng mua bán rủi ro, nếu chúng ta không xác minh rõ ai đang thực sự cầm khóa ký đó, công ty chúng ta có thể không đòi được tiền.
+
+
+Slide 4: LƯU Ý 2 - ĐẢM BẢO TÍNH TOÀN VẸN CỦA DỮ LIỆU
+Người 1: Chúng ta chuyển sang Lưu ý số hai: Đảm bảo Tính toàn vẹn của Dữ liệu. Quy tắc pháp lý cốt lõi ở đây là: Thông tin bắt buộc phải không bị thay đổi kể từ khi nó được khởi tạo.
+Người 2: Thầy ơi, em thấy file hợp đồng trên máy tính thường hay gửi qua file Word hoặc PDF. Mà mấy file đó tải về máy thì sửa một trăm đô la thành một ngàn đô la dễ như trở bàn tay. Vậy làm sao để đảm bảo nó không bị thay đổi ạ?
+Người 1: Em phát hiện ra vấn đề rất chuẩn. Đúng là file thường như Word hay PDF cực kỳ dễ chỉnh sửa. Do đó, về mặt giao thức kỹ thuật, các doanh nghiệp phải dùng định dạng PDF gạch chéo A, tức là một chuẩn lưu trữ tài liệu đặc biệt. Đồng thời, bắt buộc phải dùng Chữ ký số trên file đó. Tính năng tuyệt vời của chữ ký số là nếu có bất kỳ ai thay đổi nội dung file sau khi ký, hệ thống sẽ lập tức báo lỗi chữ ký ‘Invalid’, tức là không hợp lệ. Ngoài ra, hệ thống còn áp dụng dấu thời gian, tiếng Anh là Time-stamping, để ghi nhận chính xác giây phút hợp đồng được ký. Tóm lại, công thức của chúng ta là: File PDF gạch chéo A cộng với Chữ ký số sẽ tạo ra một tài liệu bất biến.
+
+
+Slide 5: LƯU Ý 3 - THU THẬP CHỨNG CỨ & QUY TẮC LƯU TRỮ
+Người 1: Lưu ý số ba liên quan đến Thu thập Chứng cứ và Quy tắc Lưu trữ. Nếu chẳng may có tranh chấp xảy ra và phải mang nhau ra tòa, các em định lấy gì làm bằng chứng?
+Người 2: Em nghĩ lúc đó mình cứ in cái hợp đồng trên máy tính ra giấy, đóng dấu treo của công ty mang lên nộp cho tòa án là được chứ ạ? Bản in giấy thì rõ ràng dễ đọc nhất rồi.
+Người 1: Sai lầm lớn! Thầy đặc biệt nhấn mạnh: Bản in giấy là không đủ để làm chứng cứ hợp lệ. Quy tắc của Tòa án là bắt buộc các bên phải xuất trình được File mềm gốc, tức là Thông điệp dữ liệu gốc, kèm theo Lịch sử giao dịch. Lịch sử giao dịch này còn được gọi là các file nhật ký, hay Log files. Do đó, Quy tắc lưu trữ cho doanh nghiệp là phải lưu toàn bộ: từ file hợp đồng gốc, các email trao đổi, cho đến cả địa chỉ IP truy cập của đối tác. Đồng thời, hệ thống lưu trữ phải đảm bảo tính sẵn sàng, nghĩa là có thể trích xuất dữ liệu ra bất cứ lúc nào Tòa án yêu cầu.
+
+
+Slide 6: LƯU Ý 4 - RÀNG BUỘC BẢO MẬT & QUYỀN RIÊNG TƯ
+Người 1: Chúng ta tiếp tục với Lưu ý số bốn trong cuốn cẩm nang thực chiến: Ràng buộc Bảo mật và Quyền riêng tư. Rủi ro lớn nhất ở đây là việc rò rỉ bí mật kinh doanh và thông tin thẻ thanh toán của khách hàng.
+Người 2: Thưa thầy, mấy cái vụ lộ thông tin thẻ tín dụng thì em nghe nhiều rồi. Vậy doanh nghiệp phải làm sao để “phòng thủ” thưa thầy?
+Người 1: Câu hỏi rất hay. Để phòng thủ, doanh nghiệp cần có ba chiến lược cốt lõi. Thứ nhất, trước khi chia sẻ dữ liệu nhạy cảm, phải yêu cầu đối tác ký En Đi Ây, tức là Thỏa thuận bảo mật điện tử. Thứ hai, các em phải xem thật kỹ phần Privacy Policy, tức là Chính sách bảo mật, trước khi bấm nút ‘Đồng ý’ trên bất kỳ nền tảng nào. Và thứ ba, về mặt kỹ thuật, bắt buộc hệ thống giao dịch phải dùng giao thức an toàn Hát Tê Tê Pê Ét. Nếu thấy địa chỉ web chỉ có Hát Tê Tê Pê mà không có chữ Ét cuối cùng, tuyệt đối không nhập thông tin.
+
+
+Slide 7: RỦI RO KỸ THUẬT & HẠ TẦNG MẠNG
+Người 1: Tiếp theo, chúng ta bàn về Rủi ro Kỹ thuật và Hạ tầng mạng. Các em thử tưởng tượng, đang chuẩn bị bấm nút ký một hợp đồng trị giá cả tỷ đồng thì màn hình hiện lên dòng chữ “Connection Lost - Error bốn linh bốn”, tức là Mất kết nối.
+Người 2: Tình huống này thót tim thật thầy ạ! Nhỡ bên mình bấm nút rồi mà bên kia bảo chưa nhận được thì sao ạ?
+Người 1: Chính xác! Đó là sự cố điển hình: Mất kết nối khi đang ký, dẫn đến tranh chấp giữa trạng thái ‘Đã gửi’ và ‘Đã nhận’. Một sự cố thứ hai cũng nguy hiểm không kém là Lỗi phần mềm, tiếng Anh gọi là Bugs, làm hệ thống tự động tính sai giá hoặc sai điều khoản hợp đồng. Để khắc phục, hệ thống của doanh nghiệp bắt buộc phải có Máy chủ dự phòng, tức là Backup Server. Thêm vào đó, phải thiết lập hệ thống Email hoặc tin nhắn Ét Em Ét xác nhận tự động để đối soát hai chiều. Hệ thống phải báo về điện thoại là “Bạn vừa ký thành công hợp đồng A” thì mới chắc chắn.
+
+
+Slide 8: RỦI RO GIAN LẬN & GIẢ MẠO (FRAUD)
+Người 1: Slide số tám đề cập đến một mảng tối trên không gian mạng: Rủi ro Gian lận và Giả mạo, hay còn gọi là Fraud. Các tin tặc hiện nay có ba ngón đòn tấn công phổ biến. Đầu tiên là Phishing, tức là giả mạo email để yêu cầu kế toán chuyển tiền sai tài khoản. Các em nhìn lên màn hình, địa chỉ email của đối tác thay vì là “công ty A chấm com” thì kẻ gian đăng ký tên miền là “con ty A chấm com”, chữ n gờ bị đổi thành chữ n. Nếu kế toán hoa mắt chuyển tiền là mất trắng.
+Người 2: Tinh vi quá thầy ạ! Thế còn hai ngón đòn kia là gì ạ?
+Người 1: Đòn thứ hai là Account Takeover, hay chiếm đoạt tài khoản. Điều này xảy ra khi giám đốc làm mất U Ét Bê Tốc Cần chứa chữ ký số, hoặc để lộ mã Ô Tê Pê vào tay kẻ xấu. Đòn thứ ba mang tính công nghệ cao hơn, gọi là Man-in-the-Middle, hay tấn công xen giữa. Kẻ gian sẽ can thiệp vào đường truyền và đánh tráo nội dung file hợp đồng ngay trên đường truyền internet.
+
+
+Slide 9: RỦI RO CHỐI BỎ TRÁCH NHIỆM (REPUDIATION)
+Người 1: Slide số chín là một rủi ro mang đậm tính “con người”: Rủi ro Chối bỏ trách nhiệm, tiếng Anh là Repudiation. Rủi ro này mô tả hành vi một bên cố tình chối bỏ việc đã đặt hàng hoặc đã ký kết khi thị trường có biến động. Ví dụ, ngay tại Đắk Lắk của chúng ta, một công ty chốt giá mua cà phê qua hợp đồng điện tử hôm nay. Nhưng ngày mai giá cà phê trên sàn London lao dốc, họ liền trở mặt xua tay bảo “Tôi không ký”, trong khi hệ thống của chúng ta rõ ràng báo “Hệ thống đã ghi nhận”.
+Người 2: Tại sao họ lại dám chối bay chối biến như vậy thưa thầy? Chẳng lẽ luật pháp không làm gì được ạ?
+Người 1: Họ dám chối vì hệ thống của chúng ta có lỗ hổng. Nguyên nhân thứ nhất là do quy trình định danh điện tử, gọi là Y Cây Oai Si, quá lỏng lẻo. Nguyên nhân thứ hai, nghiêm trọng hơn, là hệ thống của chúng ta thiếu các file nhật ký, tức là Log-files, và thiếu địa chỉ Ai Pi để làm bằng chứng đối chứng trước tòa. Nếu không chứng minh được cái click chuột đó xuất phát từ máy tính của họ, chúng ta sẽ thua kiện.
+
+
+Slide 10: CHIẾN LƯỢC PHÒNG THỦ CHO DOANH NGHIỆP (B2B)
+Người 1: Dựa trên tất cả những rủi ro vừa phân tích, Slide số mười sẽ tóm gọn Chiến lược phòng thủ cho Doanh nghiệp trong giao dịch Bê hai Bê. Chúng ta có ba lớp khiên bảo vệ. Lớp thứ nhất là Quy trình nội bộ: doanh nghiệp phải quản lý chặt chẽ U Ét Bê Tốc Cần và thiết lập cơ chế phê duyệt đa lớp.
+
+Người 2: Thế còn lớp khiên công nghệ thì sao thầy? Mình phải mua phần mềm xịn đúng không ạ?
+Người 1: Đúng vậy, đó là lớp khiên thứ hai: Công nghệ. Doanh nghiệp phải chọn nhà cung cấp dịch vụ đạt tiêu chuẩn bảo mật quốc tế I Sô hai bảy không không một. Phải áp dụng dấu thời gian Time-stamping và dùng Chữ ký số từ tổ chức chứng thực Xê A. Và lớp khiên cuối cùng, cũng là thao tác xác minh đơn giản nhất nhưng cực kỳ quan trọng: Nếu thấy đối tác gửi email thông báo đổi số tài khoản ngân hàng, bắt buộc phải nhấc điện thoại lên gọi điện xác nhận trực tiếp bằng giọng nói. Đừng bao giờ tin tưởng tuyệt đối vào email.
+
+
+Slide 11: GIẢI PHÁP BẢO VỆ NGƯỜI TIÊU DÙNG (B2C)
+Người 1: Chúng ta vừa đi qua các chiến lược phòng thủ cho doanh nghiệp. Giờ hãy nhìn lại chính chúng ta, những người mua hàng cá nhân. Slide số mười một là Giải pháp bảo vệ Người tiêu dùng trong mô hình Bê hai Xê. Giải pháp này gồm bốn nguyên tắc cốt lõi. Nguyên tắc thứ nhất: Đọc trước khi tích chọn. Đừng bao giờ lướt qua các Điều khoản và Điều kiện, đặc biệt phải soi thật kỹ Điều khoản hoàn tiền và các loại Phí ẩn.
+Người 2: Chà, em toàn lướt nhanh cho xong rồi bấm “Đồng ý” thôi thầy ạ. Cái bảng điều khoản dài cả chục trang thì ai mà đọc nổi ạ?
+Người 1: Đó là thói quen chết người đấy! Rất nhiều người mua vé máy bay giá rẻ hoặc đặt phòng khách sạn trực tuyến, đến khi muốn hủy thì mới ngã ngửa vì phí phạt lên đến một trăm phần trăm. Để an toàn, các em hãy áp dụng nguyên tắc thứ hai: Tìm dấu hiệu tin cậy. Hãy nhìn lên thanh địa chỉ xem có biểu tượng ổ khóa Hát Tê Tê Pê Ét không, và kéo xuống cuối trang xem có Logo của Bộ Công Thương hay không. Nguyên tắc thứ ba: Phải lưu bằng chứng bằng cách chụp màn hình, tức là Screenshot, và lưu lại Email xác nhận đơn hàng. Và nguyên tắc cuối cùng, quan trọng nhất: Tuyệt đối không chia sẻ mã Ô Tê Pê cho bất kỳ ai, dù người đó tự xưng là nhân viên ngân hàng hay công an.
+
+
+Slide 12: BÀI TẬP NHÓM A2.3: PHÂN TÍCH CASE STUDY
+Người 1: Bây giờ, chúng ta sẽ áp dụng toàn bộ “võ công” vừa học vào thực chiến. Slide số mười hai là Bài tập nhóm đánh giá cột điểm thường xuyên A hai chấm ba. Mục tiêu của chúng ta là giải quyết một tranh chấp thực tế, và phần này chiếm trọng số hai mươi phần trăm điểm kiểm tra thường xuyên của các em.
+
+Người 2: Ôi, có tính điểm luôn hả thầy? Vậy tụi em phải làm bài theo cấu trúc như thế nào để ăn trọn điểm ạ?
+Người 1: Các em sẽ có mười lăm phút để thảo luận , sau đó trình bày và tranh biện. Cấu trúc bài làm phải đi qua ba bước chuẩn mực. Bước một: Tức là Nhận diện tranh chấp. Bước hai: Tức là Áp dụng luật hoặc lý thuyết. Và Bước ba: Tức là Kết luận và đưa ra Giải pháp.
+
+
+Slide 13: BỐI CẢNH: VỤ TRANH CHẤP “CHỮ KÝ SỐ BỊ MƯỢN TẠM”
+Người 1: Nào, xin mời các em nhìn lên màn hình Slide số mười ba để đọc bối cảnh. Đây là vụ tranh chấp có thật mang tên “Chữ ký số bị mượn tạm”. Câu chuyện như sau: Có một hợp đồng mua bán trị giá hai tỷ đồng. Giám đốc Công ty A vì quá bận rộn nên đã giao thẳng cái U Ét Bê Tốc Cần chứa chữ ký số cho cô Kế toán để tiện xuất hóa đơn.
+Người 2: Em bắt đầu thấy “mùi” rủi ro rồi thầy ạ. Giao chìa khóa két sắt cho người khác cầm thì kiểu gì cũng có chuyện.
+Người 1: Rất nhạy bén! Sự việc xảy ra đúng như vậy. Cô Kế toán đã tự ý dùng chữ ký số đó để ký một hợp đồng mua hàng với Công ty B. Công ty B thấy hợp đồng có chữ ký số hợp lệ, liền lập tức giao hàng. Nhưng khi nhận hóa đơn, Giám đốc Công ty A tá hỏa từ chối trả tiền. Giám đốc lập luận cực kỳ gay gắt rằng: “Tôi không tự tay ký, nên Hợp đồng này là Vô hiệu”. Xung đột chính thức nổ ra!
+
+
+Slide 14: THẢO LUẬN & TRANH BIỆN
+Người 1: Chuyển sang Slide số mười bốn. Đây là thời gian dành cho các em. Các em có hai nhóm câu hỏi để tranh biện. Câu hỏi số một về mặt Pháp lý: Lập luận của Giám đốc A là Đúng hay Sai? Ai sẽ là người thắng kiện và tại sao?
+Người 2: Dạ theo em, Giám đốc A nói cũng có lý. Rõ ràng ổng đâu có biết gì về cái hợp đồng đó đâu. Cô kế toán lén làm mà. Công ty B nên đi đòi tiền cô kế toán mới đúng ạ!
+Người 1: Một luồng ý kiến rất thú vị! Nhưng hãy nhớ lại bài học về “Thẩm quyền ký kết” mà chúng ta vừa học. Các nhóm khác hãy suy nghĩ để phản biện nhé. Ngoài ra, các em phải trả lời câu hỏi số hai về mặt Quản trị: Lỗ hổng quản trị nào trong nội bộ Công ty A đã gây ra rủi ro tày đình này? Và hãy đề xuất hai giải pháp phòng ngừa để chuyện này không bao giờ lặp lại. Mười lăm phút của các em bắt đầu!
+
+Slide 15: PHÁN QUYẾT & TỔNG KẾT
+Người 1: Hết giờ! Thầy đã nghe các nhóm tranh luận rất sôi nổi. Và bây giờ, ở Slide số mười lăm cuối cùng này, thầy sẽ gõ búa công bố Phán quyết. Xin chia buồn với nhóm nào ủng hộ Giám đốc A. Phán quyết của tòa án là: Công ty A thua kiện!
+Người 2: Ôi, tại sao lại thua kiện được ạ? Tội nghiệp Giám đốc A quá thầy ơi!
+Người 1: Tòa án phân xử rất công bằng. Chữ ký số là đại diện pháp lý cao nhất cho một pháp nhân trên không gian mạng. Việc giám đốc quản lý nội bộ lỏng lẻo, giao tài sản công ty cho nhân viên làm bậy, đó là lỗi của Công ty A. Lỗi quản lý nội bộ này tuyệt đối không làm vô hiệu hợp đồng đối với bên thứ ba ngay tình là Công ty B. Công ty A phải trả hai tỷ cho Công ty B, sau đó tự về đóng cửa bảo nhau, kiện cô kế toán ra tòa để đòi lại tiền bồi thường.
+Người 2: Dạ em hiểu rồi. Một bài học hai tỷ đồng quá đắt giá!
+Người 1: Đúng vậy. Và giải pháp triệt để cho vấn đề này, như trên màn hình các em thấy, là tuyệt đối không giao U Ét Bê Tốc Cần tùy tiện. Thay vào đó, phải dùng hệ thống Trình ký đa lớp: Kế toán duyệt lệnh xong, hệ thống sẽ gửi một mã Ô Tê Pê về điện thoại cá nhân của Giám đốc, Giám đốc nhập mã đó vào thì hệ thống mới kích hoạt chữ ký. Lời kết cho bài học hôm nay: Hợp đồng điện tử mang lại tốc độ khủng khiếp cho kinh doanh, nhưng nó lại đòi hỏi một kỷ luật thép về quy trình. Chúc các em vận dụng tốt những kiến thức này. Chúng ta kết thúc bài học ở đây!
+

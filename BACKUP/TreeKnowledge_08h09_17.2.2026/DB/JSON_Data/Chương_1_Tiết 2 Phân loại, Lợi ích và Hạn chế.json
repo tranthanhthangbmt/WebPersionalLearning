@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "concept_id": "CONCEPT_b60419",
+    "concept_name": "Chương_1_Tiết 2 Phân loại, Lợi ích và Hạn chế",
+    "file_source": "Chương_1_Tiết 2 Phân loại, Lợi ích và Hạn chế.csv"
+  },
+  "questions": [
+    {
+      "id": "CONCEPT_21b87a_0",
+      "type": "multiple_choice",
+      "content": "Loại hình giao dịch TMĐT nào chiếm tỷ trọng lớn nhất (khoảng 85%) về khối lượng giao dịch?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Business-to-Consumer (B2C)."
+        },
+        {
+          "key": "B",
+          "text": "Consumer-to-Consumer (C2C)."
+        },
+        {
+          "key": "C",
+          "text": "Business-to-Business (B2B)."
+        },
+        {
+          "key": "D",
+          "text": "Government-to-Citizen (G2C)."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "B2B (Doanh nghiệp với Doanh nghiệp) chiếm khoảng 85% tổng khối lượng giao dịch TMĐT.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_c88c31_1",
+      "type": "multiple_choice",
+      "content": "Hoạt động bán hàng giữa các cá nhân trên eBay hoặc Chợ Tốt thuộc mô hình nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "B2C."
+        },
+        {
+          "key": "B",
+          "text": "C2B."
+        },
+        {
+          "key": "C",
+          "text": "C2C."
+        },
+        {
+          "key": "D",
+          "text": "B2B."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Trong mô hình C2C (Consumer-to-Consumer), các cá nhân bán hoặc mua sản phẩm trực tiếp với nhau, thường thông qua một nền tảng trung gian.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_bbd645_2",
+      "type": "multiple_choice",
+      "content": "Mô hình B2E (Business-to-Employee) đề cập đến giao dịch giữa ai với ai?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doanh nghiệp và Khách hàng."
+        },
+        {
+          "key": "B",
+          "text": "Chính phủ và Doanh nghiệp."
+        },
+        {
+          "key": "C",
+          "text": "Doanh nghiệp và Nhân viên."
+        },
+        {
+          "key": "D",
+          "text": "Doanh nghiệp và Đối tác."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "B2E đề cập đến việc tổ chức cung cấp thông tin, dịch vụ hoặc sản phẩm cho nhân viên của mình.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_cdec90_3",
+      "type": "multiple_choice",
+      "content": "Lợi ích nào sau đây của TMĐT tác động tích cực đến XÃ HỘI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng lợi nhuận công ty."
+        },
+        {
+          "key": "B",
+          "text": "Giảm ô nhiễm môi trường."
+        },
+        {
+          "key": "C",
+          "text": "Mua hàng giá rẻ hơn."
+        },
+        {
+          "key": "D",
+          "text": "Tăng doanh số bán lẻ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "TMĐT cho phép làm việc tại nhà (telecommuting) và giảm đi lại, giúp giảm lưu lượng giao thông và ô nhiễm không khí.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_8e76fe_4",
+      "type": "multiple_choice",
+      "content": "Priceline.com cho phép khách hàng tự đặt mức giá họ muốn trả cho dịch vụ. Đây là mô hình gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "B2C."
+        },
+        {
+          "key": "B",
+          "text": "C2B."
+        },
+        {
+          "key": "C",
+          "text": "G2C."
+        },
+        {
+          "key": "D",
+          "text": "B2B."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Trong mô hình C2B, cá nhân sử dụng Internet để đưa ra mức giá (đấu giá ngược) mà họ chấp nhận trả cho doanh nghiệp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_1647df_5",
+      "type": "multiple_choice",
+      "content": "Một hạn chế về mặt KỸ THUẬT (Technological limitation) của TMĐT là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thiếu lòng tin khách hàng."
+        },
+        {
+          "key": "B",
+          "text": "Luật pháp chưa rõ ràng."
+        },
+        {
+          "key": "C",
+          "text": "Khó tích hợp hệ thống cũ."
+        },
+        {
+          "key": "D",
+          "text": "Khách quen mua trực tiếp."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Khó khăn khi tích hợp phần mềm Internet/TMĐT với các ứng dụng và cơ sở dữ liệu hiện có (legacy systems) là một hạn chế kỹ thuật.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_c3b162_6",
+      "type": "multiple_choice",
+      "content": "Intrabusiness EC đề cập đến các hoạt động thương mại điện tử diễn ra ở đâu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giữa các quốc gia."
+        },
+        {
+          "key": "B",
+          "text": "Trong nội bộ tổ chức."
+        },
+        {
+          "key": "C",
+          "text": "Giữa hai công ty."
+        },
+        {
+          "key": "D",
+          "text": "Trên sàn chứng khoán."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Intrabusiness EC đề cập đến các giao dịch TMĐT giữa các bộ phận và cá nhân khác nhau trong cùng một tổ chức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_a39e9f_7",
+      "type": "multiple_choice",
+      "content": "Lợi ích \"Mass Customization\" (Cá nhân hóa đại trà) giúp doanh nghiệp điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bán hàng tồn kho giá rẻ."
+        },
+        {
+          "key": "B",
+          "text": "Sản xuất theo sở thích khách."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ bán sản phẩm kỹ thuật số."
+        },
+        {
+          "key": "D",
+          "text": "Loại bỏ hoàn toàn nhân viên."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Mass customization cho phép doanh nghiệp cấu hình sản phẩm theo sở thích riêng của từng khách hàng với chi phí thấp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_ae9cb5_8",
+      "type": "multiple_choice",
+      "content": "\"Khoảng cách số\" (Digital Divide) là vấn đề xã hội liên quan đến sự chênh lệch về:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thu nhập cá nhân."
+        },
+        {
+          "key": "B",
+          "text": "Tiếp cận công nghệ."
+        },
+        {
+          "key": "C",
+          "text": "Khoảng cách địa lý."
+        },
+        {
+          "key": "D",
+          "text": "Trình độ ngoại ngữ."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Digital divide là khoảng cách giữa những người có khả năng truy cập Internet/công nghệ thông tin và những người không có.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_a1aa95_9",
+      "type": "multiple_choice",
+      "content": "Tại sao \"An ninh\" (Security) vừa là vấn đề kỹ thuật vừa là vấn đề phi kỹ thuật?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vì nó tốn kém chi phí."
+        },
+        {
+          "key": "B",
+          "text": "Vì nó liên quan cả tâm lý."
+        },
+        {
+          "key": "C",
+          "text": "Vì hacker rất giỏi."
+        },
+        {
+          "key": "D",
+          "text": "Vì phần mềm quá đắt."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Bảo mật cần giải pháp công nghệ (kỹ thuật), nhưng sự lo ngại và thiếu lòng tin của khách hàng (phi kỹ thuật) cũng là rào cản lớn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_93b31c_10",
+      "type": "multiple_choice",
+      "content": "E-procurement (Mua sắm điện tử) mang lại lợi ích gì chính cho người mua (Doanh nghiệp)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng giá sản phẩm."
+        },
+        {
+          "key": "B",
+          "text": "Tăng hàng tồn kho."
+        },
+        {
+          "key": "C",
+          "text": "Giảm chi phí mua sắm."
+        },
+        {
+          "key": "D",
+          "text": "Kéo dài thời gian mua."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "E-procurement giúp doanh nghiệp mua sắm hiệu quả hơn bằng cách giảm chi phí xử lý và giá thành sản phẩm.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_77c239_11",
+      "type": "multiple_choice",
+      "content": "Chính phủ đấu thầu điện tử (e-tendering) để mua trang thiết bị từ công ty thuộc mô hình nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "G2C."
+        },
+        {
+          "key": "B",
+          "text": "G2B."
+        },
+        {
+          "key": "C",
+          "text": "B2C."
+        },
+        {
+          "key": "D",
+          "text": "C2G."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "G2B là giao dịch giữa chính phủ và doanh nghiệp, ví dụ như chính phủ mua hàng hóa, dịch vụ từ doanh nghiệp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_73393d_12",
+      "type": "multiple_choice",
+      "content": "Rào cản nào khiến khách hàng ngần ngại giao dịch \"không mặt đối mặt\"?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tốc độ mạng chậm."
+        },
+        {
+          "key": "B",
+          "text": "Thiếu lòng tin."
+        },
+        {
+          "key": "C",
+          "text": "Không có thẻ tín dụng."
+        },
+        {
+          "key": "D",
+          "text": "Chi phí vận chuyển."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Thiếu lòng tin (Lack of trust) vào người bán và các giao dịch ẩn danh là một hạn chế phi kỹ thuật chính.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_598b0c_13",
+      "type": "multiple_choice",
+      "content": "Lợi ích \"The Long Tail\" cho phép doanh nghiệp kinh doanh hiệu quả loại sản phẩm nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sản phẩm bán chạy nhất."
+        },
+        {
+          "key": "B",
+          "text": "Sản phẩm ngách, ít phổ biến."
+        },
+        {
+          "key": "C",
+          "text": "Sản phẩm giá rất rẻ."
+        },
+        {
+          "key": "D",
+          "text": "Sản phẩm thiết yếu hàng ngày."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "TMĐT cho phép tiếp cận \"cái đuôi dài\" (Long Tail), nơi các sản phẩm ngách vẫn có thể tìm thấy người mua nhờ không bị giới hạn kệ hàng.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_984176_14",
+      "type": "multiple_choice",
+      "content": "Trong mô hình \"Drop-shipping\", người bán (retailer) KHÔNG cần làm gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tìm kiếm khách hàng."
+        },
+        {
+          "key": "B",
+          "text": "Xử lý thanh toán."
+        },
+        {
+          "key": "C",
+          "text": "Giữ hàng tồn kho."
+        },
+        {
+          "key": "D",
+          "text": "Chăm sóc khách hàng."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Trong Drop-shipping, người bán chuyển đơn hàng cho nhà cung cấp để giao trực tiếp, do đó không cần giữ hàng tồn kho.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_b9e921_15",
+      "type": "multiple_choice",
+      "content": "Một rào cản pháp lý phức tạp đối với TMĐT quốc tế là vấn đề gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ngôn ngữ website."
+        },
+        {
+          "key": "B",
+          "text": "Chi phí vận chuyển."
+        },
+        {
+          "key": "C",
+          "text": "Thuế và quyền tài phán."
+        },
+        {
+          "key": "D",
+          "text": "Phương thức thanh toán."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Các vấn đề pháp lý chưa rõ ràng, đặc biệt là quy định về thuế và quyền tài phán trong các giao dịch xuyên biên giới là hạn chế lớn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_fd597a_16",
+      "type": "multiple_choice",
+      "content": "Uber và Airbnb tác động đến thị trường truyền thống thông qua mô hình kinh tế nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kinh tế bao cấp."
+        },
+        {
+          "key": "B",
+          "text": "Kinh tế chia sẻ."
+        },
+        {
+          "key": "C",
+          "text": "Kinh tế tập trung."
+        },
+        {
+          "key": "D",
+          "text": "Kinh tế độc quyền."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Uber và Airbnb thuộc mô hình Kinh tế chia sẻ (Sharing Economy), gây gián đoạn (disrupt) các ngành công nghiệp truyền thống.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_bc8679_17",
+      "type": "multiple_choice",
+      "content": "Lợi ích chi phí thấp của Internet so với mạng VAN (Value-Added Network) đến từ đâu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Internet là mạng mở, công cộng."
+        },
+        {
+          "key": "B",
+          "text": "Internet ít người sử dụng hơn."
+        },
+        {
+          "key": "C",
+          "text": "Internet bảo mật kém hơn."
+        },
+        {
+          "key": "D",
+          "text": "Internet không cần máy tính."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Internet rẻ hơn các mạng riêng (VAN) vì nó là mạng công cộng sử dụng các giao thức chuẩn toàn cầu, giúp giảm chi phí truyền tải.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_dd643b_18",
+      "type": "multiple_choice",
+      "content": "\"Critical Mass\" (Khối lượng tới hạn) là thách thức gì đối với các sàn TMĐT mới?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hệ thống quá tải."
+        },
+        {
+          "key": "B",
+          "text": "Thiếu người tham gia."
+        },
+        {
+          "key": "C",
+          "text": "Chi phí đầu tư thấp."
+        },
+        {
+          "key": "D",
+          "text": "Quá nhiều người bán."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Cần có đủ số lượng người mua và người bán (Critical Mass) để hệ thống có giá trị; thiếu điều này là một hạn chế lớn.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "CONCEPT_b6b036_19",
+      "type": "multiple_choice",
+      "content": "Khi chuyển từ Brick-and-Mortar sang Click-and-Mortar, rào cản nhân sự lớn nhất là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Thiếu máy tính."
+        },
+        {
+          "key": "B",
+          "text": "Kháng cự thay đổi."
+        },
+        {
+          "key": "C",
+          "text": "Lương nhân viên thấp."
+        },
+        {
+          "key": "D",
+          "text": "Không biết tiếng Anh."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Sự kháng cự thay đổi",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

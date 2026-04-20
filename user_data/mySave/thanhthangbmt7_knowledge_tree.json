@@ -1,0 +1,697 @@
+{
+    "course_name": "Thị giác máy tính",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Tổng quan về thị giác máy tính"
+        },
+        {
+            "id": "m2",
+            "title": "Nâng cấp và khôi phục ảnh"
+        },
+        {
+            "id": "m3",
+            "title": "Phân đoạn ảnh"
+        },
+        {
+            "id": "m4",
+            "title": "Phát hiện và mô tả đặc trưng ảnh"
+        },
+        {
+            "id": "m5",
+            "title": "Phân lớp ảnh"
+        },
+        {
+            "id": "m6",
+            "title": "Mạng CNN"
+        },
+        {
+            "id": "m7",
+            "title": "Một số mô hình DeepLearning cho Thị giác máy tính"
+        },
+        {
+            "id": "m8",
+            "title": "Dự đoán chuyển động (motion estimation)"
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Giới thiệu",
+            "content": "Giới thiệu về lĩnh vực Thị giác máy tính, lịch sử phát triển, và tầm quan trọng của nó trong công nghệ hiện đại. Nêu bật các ứng dụng đa dạng của thị giác máy tính trong đời sống và công nghiệp.",
+            "alpha_base": 10
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Ứng dụng",
+            "content": "Trình bày các ứng dụng thực tế của thị giác máy tính như nhận dạng khuôn mặt, xe tự lái, y tế, robot công nghiệp và an ninh. Khám phá cách các công nghệ này đã và đang thay đổi thế giới.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Thách thức",
+            "content": "Thảo luận về những khó khăn và thách thức chính trong thị giác máy tính, bao gồm điều kiện ánh sáng thay đổi, vật cản, biến dạng đối tượng, và yêu cầu về tính toán hiệu quả.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c1.4",
+            "parent_macro": "m1",
+            "title": "Ánh sáng và màu sắc",
+            "content": "Giải thích các khái niệm cơ bản về ánh sáng và màu sắc trong bối cảnh xử lý ảnh, bao gồm các mô hình màu sắc như RGB, HSV và cách chúng được biểu diễn trong ảnh số.",
+            "alpha_base": 10
+        },
+        {
+            "id": "c1.5",
+            "parent_macro": "m1",
+            "title": "Mô hình camera",
+            "content": "Tìm hiểu về các mô hình camera khác nhau, cách ánh sáng được thu thập và chuyển đổi thành dữ liệu số. Giới thiệu về các tham số nội tại và ngoại tại của camera.",
+            "alpha_base": 15
+        },
+        {
+            "id": "c1.6",
+            "parent_macro": "m1",
+            "title": "Ảnh số",
+            "content": "Khái niệm về ảnh số, pixel, độ phân giải và các định dạng ảnh phổ biến. Phân tích cách ảnh được lưu trữ và biểu diễn dưới dạng ma trận số.",
+            "alpha_base": 10
+        },
+        {
+            "id": "c1.7",
+            "parent_macro": "m1",
+            "title": "Công cụ và thư viện",
+            "content": "Giới thiệu các công cụ và thư viện xử lý ảnh và thị giác máy tính phổ biến như OpenCV và TensorFlow. Hướng dẫn cách sử dụng cơ bản để thực hiện các thao tác xử lý ảnh.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Các phép toán điểm ảnh",
+            "content": "Khám phá các phép toán cơ bản trên từng điểm ảnh như biến đổi độ sáng, độ tương phản, và các phép toán logic. Nắm vững cách các phép toán này ảnh hưởng đến chất lượng ảnh.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Cân bằng Histogram",
+            "content": "Học cách sử dụng kỹ thuật cân bằng Histogram để cải thiện độ tương phản của ảnh. Phân tích ưu và nhược điểm của phương pháp này trong các tình huống khác nhau.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c2.3",
+            "parent_macro": "m2",
+            "title": "Phương pháp lọc ảnh",
+            "content": "Giới thiệu các loại bộ lọc ảnh cơ bản như bộ lọc làm mờ, bộ lọc làm sắc nét và bộ lọc nhiễu. Hiểu nguyên lý hoạt động và ứng dụng của chúng.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c2.4",
+            "parent_macro": "m2",
+            "title": "Nâng cấp ảnh: lọc Gaussian, lọc đạo hàm (Sobel, Laplace)",
+            "content": "Tìm hiểu các bộ lọc nâng cấp ảnh chuyên sâu như Gaussian để làm mờ và giảm nhiễu, cùng với các bộ lọc đạo hàm (Sobel, Laplace) để phát hiện cạnh và đặc trưng ảnh.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c2.5",
+            "parent_macro": "m2",
+            "title": "Khôi phục ảnh: lọc max, lọc min, lọc trung bình, lọc trung vị",
+            "content": "Khám phá các phương pháp lọc để khôi phục ảnh bị nhiễu hoặc hư hỏng, bao gồm lọc max, min, trung bình và trung vị. So sánh hiệu quả của từng phương pháp trong các trường hợp nhiễu khác nhau.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Cắt ngưỡng",
+            "content": "Tìm hiểu kỹ thuật phân đoạn ảnh bằng cắt ngưỡng, bao gồm các phương pháp chọn ngưỡng tự động và thủ công. Ứng dụng cắt ngưỡng để tách đối tượng khỏi nền.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "K-Mean, Mean Shift",
+            "content": "Khám phá các thuật toán phân cụm K-Means và Mean Shift để phân đoạn ảnh dựa trên đặc trưng màu sắc hoặc không gian. So sánh ưu nhược điểm và ứng dụng của chúng.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Graphcut",
+            "content": "Giới thiệu phương pháp Graphcut, một kỹ thuật phân đoạn ảnh mạnh mẽ dựa trên lý thuyết đồ thị. Hiểu cách xây dựng đồ thị và sử dụng cắt min để tìm biên giới đối tượng tối ưu.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c4.1",
+            "parent_macro": "m4",
+            "title": "Phát hiện điểm, đường, biên",
+            "content": "Tìm hiểu các thuật toán cơ bản để phát hiện các yếu tố hình học như điểm, đường thẳng và biên cạnh trong ảnh. Ứng dụng các kỹ thuật như bộ lọc Canny để phát hiện biên.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c4.2",
+            "parent_macro": "m4",
+            "title": "Phát hiện đặc trưng: Phát hiện đặc trưng góc, Phát hiện đặc trưng đa tỉ lệ",
+            "content": "Khám phá các phương pháp phát hiện đặc trưng ảnh như góc (Harris, Shi-Tomasi) và đặc trưng đa tỉ lệ (DoG, LoG). Hiểu tầm quan trọng của các đặc trưng này trong nhận dạng và so khớp.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c4.3",
+            "parent_macro": "m4",
+            "title": "Mô tả đặc trưng ảnh: SURF, SIFT",
+            "content": "Nghiên cứu các bộ mô tả đặc trưng mạnh mẽ và bất biến như SIFT (Scale-Invariant Feature Transform) và SURF (Speeded Up Robust Features). Hiểu cách chúng được tính toán và ứng dụng trong so khớp ảnh.",
+            "alpha_base": 30
+        },
+        {
+            "id": "c4.4",
+            "parent_macro": "m4",
+            "title": "Mô tả đặc trưng ảnh: HOG, LBP",
+            "content": "Tìm hiểu về các bộ mô tả đặc trưng như HOG (Histogram of Oriented Gradients) dùng cho phát hiện người và LBP (Local Binary Patterns) cho nhận dạng kết cấu. Ứng dụng chúng trong các bài toán phân loại.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c4.5",
+            "parent_macro": "m4",
+            "title": "So khớp đặc trưng",
+            "content": "Học các kỹ thuật so khớp đặc trưng giữa hai ảnh, sử dụng các bộ mô tả như SIFT/SURF. Phân tích các phương pháp so khớp như Brute-Force Matcher và FLANN Matcher.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c5.1",
+            "parent_macro": "m5",
+            "title": "K Nearest Neighbors",
+            "content": "Giới thiệu thuật toán K-Nearest Neighbors (KNN) để phân loại ảnh dựa trên khoảng cách tới các mẫu huấn luyện. Ứng dụng KNN trong các bài toán phân lớp đơn giản.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c5.2",
+            "parent_macro": "m5",
+            "title": "Bag-of-features",
+            "content": "Khám phá mô hình Bag-of-Features (BoF) để biểu diễn ảnh dưới dạng tập hợp các đặc trưng thị giác. Hiểu cách BoF được xây dựng và sử dụng cho phân loại ảnh.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c5.3",
+            "parent_macro": "m5",
+            "title": "Support Vector Machine",
+            "content": "Tìm hiểu về máy học Support Vector Machine (SVM), một thuật toán phân lớp mạnh mẽ. Ứng dụng SVM để phân loại ảnh, đặc biệt hiệu quả với dữ liệu có thể phân tách tuyến tính.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c6.1",
+            "parent_macro": "m6",
+            "title": "Kiến trúc CNN",
+            "content": "Giới thiệu cấu trúc cơ bản của Mạng tích chập (CNN), bao gồm các lớp tích chập, pooling và lớp kết nối đầy đủ. Hiểu vai trò của từng lớp trong quá trình trích xuất đặc trưng.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c6.2",
+            "parent_macro": "m6",
+            "title": "Các kỹ thuật cơ bản",
+            "content": "Khám phá các kỹ thuật quan trọng trong CNN như padding, stride, activation functions (ReLU), và dropout. Nắm vững cách các kỹ thuật này ảnh hưởng đến hiệu suất mạng.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c6.3",
+            "parent_macro": "m6",
+            "title": "Pretrained Models for Transfer Learning",
+            "content": "Tìm hiểu về khái niệm transfer learning và cách sử dụng các mô hình CNN đã được huấn luyện sẵn (pretrained models) như VGG, ResNet, Inception. Ứng dụng chúng để giải quyết các bài toán thị giác máy tính mới.",
+            "alpha_base": 30
+        },
+        {
+            "id": "c6.4",
+            "parent_macro": "m6",
+            "title": "Ứng dụng CNN: Nhận diện đối tượng, Phát hiện đối tượng",
+            "content": "Phân tích các ứng dụng phổ biến của CNN trong nhận diện đối tượng (image classification) và phát hiện đối tượng (object detection). Giới thiệu các khung làm việc như YOLO, Faster R-CNN.",
+            "alpha_base": 30
+        },
+        {
+            "id": "c7.1",
+            "parent_macro": "m7",
+            "title": "VGG16",
+            "content": "Nghiên cứu kiến trúc mạng VGG16, một trong những CNN kinh điển. Hiểu cách VGG16 sử dụng các khối tích chập nhỏ để xây dựng mạng sâu và hiệu quả trong phân loại ảnh.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c7.2",
+            "parent_macro": "m7",
+            "title": "MobiNet",
+            "content": "Tìm hiểu về kiến trúc MobiNet, được thiết kế để hoạt động hiệu quả trên các thiết bị di động và tài nguyên hạn chế. Phân tích các kỹ thuật tối ưu hóa như Depthwise Separable Convolutions.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c7.3",
+            "parent_macro": "m7",
+            "title": "ResNet",
+            "content": "Khám phá mạng ResNet (Residual Network) với kiến trúc đặc trưng là các kết nối tắt (skip connections). Hiểu cách ResNet giải quyết vấn đề gradient vanishing trong mạng rất sâu.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c7.4",
+            "parent_macro": "m7",
+            "title": "Alexnet, Inception V3",
+            "content": "Giới thiệu về AlexNet, một trong những mạng CNN đầu tiên đạt hiệu suất cao, và Inception V3, nổi bật với các mô-đun Inception để tăng cường khả năng trích xuất đặc trưng.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c8.1",
+            "parent_macro": "m8",
+            "title": "Phép liên kết chuyển đổi",
+            "content": "Tìm hiểu các phép liên kết chuyển đổi (transformations) như tịnh tiến, xoay, tỉ lệ và biến dạng. Ứng dụng chúng để mô tả và dự đoán chuyển động giữa các khung hình.",
+            "alpha_base": 20
+        },
+        {
+            "id": "c8.2",
+            "parent_macro": "m8",
+            "title": "Chuyển động tham số",
+            "content": "Khám phá các mô hình chuyển động tham số để ước lượng chuyển động của toàn bộ ảnh hoặc các vùng ảnh. Hiểu cách các tham số được ước lượng để khớp giữa các khung hình.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c8.3",
+            "parent_macro": "m8",
+            "title": "Chuyển động dạng Spline",
+            "content": "Giới thiệu phương pháp chuyển động dạng Spline, cho phép mô tả các biến dạng cục bộ và phi tuyến tính một cách linh hoạt hơn so với các mô hình tham số toàn cục.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c8.4",
+            "parent_macro": "m8",
+            "title": "Luồng quang",
+            "content": "Tìm hiểu về khái niệm luồng quang (optical flow), là vector trường mô tả sự dịch chuyển của các điểm ảnh giữa hai khung hình liên tiếp. Ứng dụng các thuật toán như Lucas-Kanade.",
+            "alpha_base": 25
+        },
+        {
+            "id": "c8.5",
+            "parent_macro": "m8",
+            "title": "Chuyển động phân lớp",
+            "content": "Khám phá các phương pháp phân lớp chuyển động, nơi ảnh được chia thành các vùng chuyển động khác nhau. Ứng dụng để phân tích các đối tượng chuyển động độc lập trong một cảnh.",
+            "alpha_base": 25
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "a1.1",
+            "target_micro": "c1.7",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Thư viện nào sau đây thường được sử dụng rộng rãi nhất cho các tác vụ xử lý ảnh và thị giác máy tính trong Python?",
+                    "options": [
+                        "A. NumPy",
+                        "B. SciPy",
+                        "C. OpenCV",
+                        "D. Matplotlib"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Công cụ nào dưới đây chủ yếu được dùng để xây dựng và huấn luyện các mô hình học sâu, đặc biệt là trong thị giác máy tính?",
+                    "options": [
+                        "A. scikit-learn",
+                        "B. TensorFlow",
+                        "C. Pandas",
+                        "D. Keras"
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a2.1",
+            "target_micro": "c2.4",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Bộ lọc nào sau đây thường được sử dụng để làm mờ ảnh và giảm nhiễu Gaussian?",
+                    "options": [
+                        "A. Bộ lọc Sobel",
+                        "B. Bộ lọc Laplace",
+                        "C. Bộ lọc Gaussian",
+                        "D. Bộ lọc Median"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Bộ lọc đạo hàm nào được dùng để phát hiện biên cạnh trong ảnh bằng cách tính xấp xỉ đạo hàm theo các hướng ngang và dọc?",
+                    "options": [
+                        "A. Bộ lọc Trung bình",
+                        "B. Bộ lọc Gaussian",
+                        "C. Bộ lọc Sobel",
+                        "D. Bộ lọc Min"
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a3.1",
+            "target_micro": "c3.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Thuật toán phân cụm nào sau đây yêu cầu người dùng xác định trước số lượng cụm (k)?",
+                    "options": [
+                        "A. Mean Shift",
+                        "B. K-Means",
+                        "C. Graphcut",
+                        "D. Otsu's method"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Thuật toán Mean Shift thực hiện phân đoạn ảnh dựa trên nguyên tắc nào?",
+                    "options": [
+                        "A. Phân tách dữ liệu thành k cụm có phương sai nhỏ nhất",
+                        "B. Di chuyển tâm cụm đến vùng có mật độ dữ liệu cao hơn",
+                        "C. Tìm đường cắt tối thiểu trên đồ thị",
+                        "D. Áp dụng ngưỡng cố định cho từng pixel"
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a4.1",
+            "target_micro": "c4.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Đặc trưng nào sau đây có khả năng bất biến với thay đổi tỉ lệ (scale invariant) và xoay (rotation invariant)?",
+                    "options": [
+                        "A. Harris Corner",
+                        "B. SIFT",
+                        "C. Canny Edge",
+                        "D. HOG"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "SURF là một phiên bản cải tiến của SIFT nhằm mục đích chính nào?",
+                    "options": [
+                        "A. Tăng độ chính xác phát hiện biên",
+                        "B. Tăng tốc độ tính toán",
+                        "C. Giảm yêu cầu bộ nhớ",
+                        "D. Cải thiện khả năng phân loại đối tượng"
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a5.1",
+            "target_micro": "c5.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "SVM tìm cách tối ưu hóa việc phân loại bằng cách nào?",
+                    "options": [
+                        "A. Tìm siêu phẳng có số lỗi phân loại ít nhất",
+                        "B. Tìm siêu phẳng có biên độ (margin) lớn nhất giữa các lớp",
+                        "C. Gán nhãn cho điểm dữ liệu dựa trên nhãn của k điểm gần nhất",
+                        "D. Ước lượng mật độ xác suất của từng lớp"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Trong SVM, các điểm dữ liệu nằm trên hoặc gần biên độ được gọi là gì?",
+                    "options": [
+                        "A. Điểm ngoại lai",
+                        "B. Điểm trung tâm",
+                        "C. Vector hỗ trợ (Support Vectors)",
+                        "D. C. Điểm nhiễu"
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a6.1",
+            "target_micro": "c6.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Lớp nào trong mạng CNN chịu trách nhiệm trích xuất các đặc trưng cục bộ từ ảnh bằng cách áp dụng các kernel (bộ lọc)?",
+                    "options": [
+                        "A. Lớp Pooling",
+                        "B. Lớp Fully Connected",
+                        "C. Lớp Convolutional",
+                        "D. Lớp Batch Normalization"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Chức năng chính của lớp Pooling trong mạng CNN là gì?",
+                    "options": [
+                        "A. Tăng số lượng đặc trưng",
+                        "B. Giảm kích thước không gian của biểu diễn",
+                        "C. Thêm tính phi tuyến tính",
+                        "D. Chuẩn hóa dữ liệu đầu vào"
+                    ],
+                    "answer": "B"
+                }
+            ]
+        },
+        {
+            "id": "a7.1",
+            "target_micro": "c7.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Đặc điểm nổi bật của kiến trúc ResNet giúp giải quyết vấn đề gradient vanishing trong mạng sâu là gì?",
+                    "options": [
+                        "A. Sử dụng các lớp tích chập rất nhỏ",
+                        "B. Giới thiệu các kết nối tắt (skip connections)",
+                        "C. Áp dụng hàm kích hoạt Sigmoid",
+                        "D. Tăng số lượng lớp Fully Connected"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Kiến trúc VGG16 nổi tiếng với việc sử dụng lặp đi lặp lại các loại lớp nào?",
+                    "options": [
+                        "A. Lớp tích chập 7x7",
+                        "B. Lớp tích chập 1x1",
+                        "C. Lớp tích chập 3x3 và pooling 2x2",
+                        "D. Lớp Depthwise Separable Convolution"
+                    ],
+                    "answer": "C"
+                }
+            ]
+        },
+        {
+            "id": "a8.1",
+            "target_micro": "c8.4",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "“Luồng quang” (Optical Flow) dùng để ước lượng điều gì trong chuỗi ảnh?",
+                    "options": [
+                        "A. Màu sắc trung bình của ảnh",
+                        "B. Độ sâu của các đối tượng",
+                        "C. Sự dịch chuyển biểu kiến của các điểm ảnh",
+                        "D. Độ phân giải của video"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Một trong những giả định cơ bản của hầu hết các thuật toán ước lượng luồng quang là gì?",
+                    "options": [
+                        "A. Cường độ điểm ảnh thay đổi đáng kể giữa các khung hình",
+                        "B. Độ sáng của một đối tượng không thay đổi giữa các khung hình liên tiếp",
+                        "C. Chuyển động của đối tượng luôn thẳng hàng",
+                        "D. Không có nhiễu trong ảnh"
+                    ],
+                    "answer": "B"
+                }
+            ]
+        }
+    ],
+    "user_id": "thanhthangbmt7",
+    "edges": [
+        {
+            "source": "c1.1",
+            "target": "c1.2",
+            "reason": "Bài 'Giới thiệu' là nền tảng để hiểu 'Ứng dụng' của lĩnh vực."
+        },
+        {
+            "source": "c1.1",
+            "target": "c1.3",
+            "reason": "Bài 'Giới thiệu' là nền tảng để hiểu 'Thách thức' của lĩnh vực."
+        },
+        {
+            "source": "c1.1",
+            "target": "c1.4",
+            "reason": "Kiến thức giới thiệu chung về môn học là nền tảng trước khi đi sâu vào các khái niệm vật lý."
+        },
+        {
+            "source": "c1.4",
+            "target": "c1.5",
+            "reason": "Hiểu về 'Ánh sáng và màu sắc' là cần thiết để nắm bắt 'Mô hình camera' hoạt động."
+        },
+        {
+            "source": "c1.5",
+            "target": "c1.6",
+            "reason": "'Mô hình camera' giải thích cách 'Ảnh số' được tạo ra và biểu diễn."
+        },
+        {
+            "source": "c1.6",
+            "target": "c1.7",
+            "reason": "Hiểu cấu trúc 'Ảnh số' giúp sử dụng 'Công cụ và thư viện' xử lý ảnh hiệu quả hơn."
+        },
+        {
+            "source": "c1.6",
+            "target": "c2.1",
+            "reason": "'Ảnh số' là đối tượng chính của 'Các phép toán điểm ảnh'."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.2",
+            "reason": "'Cân bằng Histogram' là một dạng của 'các phép toán điểm ảnh' cơ bản."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.3",
+            "reason": "'Các phép toán điểm ảnh' là nền tảng để hiểu cách 'Phương pháp lọc ảnh' tác động lên pixel."
+        },
+        {
+            "source": "c2.3",
+            "target": "c2.4",
+            "reason": "'Phương pháp lọc ảnh' cung cấp kiến thức tổng quát cho các kỹ thuật 'nâng cấp ảnh' như lọc Gaussian, lọc đạo hàm."
+        },
+        {
+            "source": "c2.3",
+            "target": "c2.5",
+            "reason": "'Phương pháp lọc ảnh' cung cấp kiến thức tổng quát cho các kỹ thuật 'khôi phục ảnh' như lọc max, min, trung bình, trung vị."
+        },
+        {
+            "source": "c1.6",
+            "target": "c3.1",
+            "reason": "'Cắt ngưỡng' là một phương pháp cơ bản để phân đoạn 'Ảnh số'."
+        },
+        {
+            "source": "c3.1",
+            "target": "c3.2",
+            "reason": "'Cắt ngưỡng' cung cấp kiến thức nền tảng về phân vùng ảnh trước khi học các phương pháp phân cụm nâng cao."
+        },
+        {
+            "source": "c3.1",
+            "target": "c3.3",
+            "reason": "'Cắt ngưỡng' là kiến thức cơ bản về phân đoạn ảnh cần thiết để hiểu 'Graphcut'."
+        },
+        {
+            "source": "c2.4",
+            "target": "c4.1",
+            "reason": "'Lọc đạo hàm' từ bài 'Nâng cấp ảnh' là kỹ thuật cốt lõi trong 'phát hiện biên'."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.2",
+            "reason": "'Phát hiện điểm, đường, biên' là cơ sở để phát hiện các loại 'đặc trưng' phức tạp hơn như góc và đa tỉ lệ."
+        },
+        {
+            "source": "c4.2",
+            "target": "c4.3",
+            "reason": "Sau khi 'phát hiện đặc trưng', cần học cách 'mô tả' chúng bằng các thuật toán như SURF, SIFT."
+        },
+        {
+            "source": "c4.2",
+            "target": "c4.4",
+            "reason": "Sau khi 'phát hiện đặc trưng', cần học cách 'mô tả' chúng bằng các thuật toán như HOG, LBP."
+        },
+        {
+            "source": "c4.3",
+            "target": "c4.5",
+            "reason": "'Mô tả đặc trưng ảnh' là bước tiền đề để thực hiện 'So khớp đặc trưng'."
+        },
+        {
+            "source": "c4.4",
+            "target": "c4.5",
+            "reason": "'Mô tả đặc trưng ảnh' là bước tiền đề để thực hiện 'So khớp đặc trưng'."
+        },
+        {
+            "source": "c4.5",
+            "target": "c5.1",
+            "reason": "'So khớp đặc trưng' thường được sử dụng làm đầu vào cho các thuật toán phân loại cổ điển như 'K Nearest Neighbors'."
+        },
+        {
+            "source": "c4.3",
+            "target": "c5.2",
+            "reason": "Kiến thức về 'Mô tả đặc trưng ảnh' là thành phần cơ bản để xây dựng mô hình 'Bag-of-features'."
+        },
+        {
+            "source": "c4.4",
+            "target": "c5.2",
+            "reason": "Kiến thức về 'Mô tả đặc trưng ảnh' là thành phần cơ bản để xây dựng mô hình 'Bag-of-features'."
+        },
+        {
+            "source": "c4.5",
+            "target": "c5.3",
+            "reason": "'So khớp đặc trưng' thường được sử dụng làm đầu vào cho các thuật toán phân loại cổ điển như 'Support Vector Machine'."
+        },
+        {
+            "source": "c1.6",
+            "target": "c6.1",
+            "reason": "Hiểu về 'Ảnh số' là nền tảng để học cách CNN xử lý dữ liệu ảnh."
+        },
+        {
+            "source": "c6.1",
+            "target": "c6.2",
+            "reason": "'Kiến trúc CNN' cung cấp cái nhìn tổng thể trước khi đi sâu vào 'các kỹ thuật cơ bản' của nó."
+        },
+        {
+            "source": "c6.2",
+            "target": "c6.3",
+            "reason": "Nắm vững 'các kỹ thuật cơ bản' giúp hiểu cách 'Pretrained Models' hoạt động và ứng dụng trong Transfer Learning."
+        },
+        {
+            "source": "c6.3",
+            "target": "c6.4",
+            "reason": "'Pretrained Models' thường được sử dụng để phát triển các 'ứng dụng CNN' như nhận diện và phát hiện đối tượng."
+        },
+        {
+            "source": "c6.2",
+            "target": "c7.1",
+            "reason": "'Các kỹ thuật cơ bản' của CNN là nền tảng để phân tích các 'mô hình hiện đại' như VGG16."
+        },
+        {
+            "source": "c6.2",
+            "target": "c7.2",
+            "reason": "'Các kỹ thuật cơ bản' của CNN là nền tảng để phân tích các 'mô hình hiện đại' như MobiNet."
+        },
+        {
+            "source": "c6.2",
+            "target": "c7.3",
+            "reason": "'Các kỹ thuật cơ bản' của CNN là nền tảng để phân tích các 'mô hình hiện đại' như ResNet."
+        },
+        {
+            "source": "c6.2",
+            "target": "c7.4",
+            "reason": "'Các kỹ thuật cơ bản' của CNN là nền tảng để phân tích các 'mô hình hiện đại' như Alexnet, Inception V3."
+        },
+        {
+            "source": "c4.5",
+            "target": "c8.1",
+            "reason": "'So khớp đặc trưng' là kỹ thuật thường được dùng để thực hiện 'phép liên kết chuyển đổi' giữa các khung hình."
+        },
+        {
+            "source": "c8.1",
+            "target": "c8.2",
+            "reason": "'Phép liên kết chuyển đổi' là kiến thức nền tảng để hiểu các mô hình 'chuyển động tham số'."
+        },
+        {
+            "source": "c8.1",
+            "target": "c8.3",
+            "reason": "'Phép liên kết chuyển đổi' là kiến thức nền tảng để hiểu các mô hình 'chuyển động dạng Spline'."
+        },
+        {
+            "source": "c8.1",
+            "target": "c8.4",
+            "reason": "'Phép liên kết chuyển đổi' là khái niệm liên quan chặt chẽ đến việc ước tính 'Luồng quang'."
+        },
+        {
+            "source": "c8.4",
+            "target": "c8.5",
+            "reason": "'Luồng quang' là cơ sở để phân tích và hiểu 'chuyển động phân lớp'."
+        }
+    ]
+}

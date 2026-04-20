@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Galaxy 3D — PKT Bio-Tutor</title>
+    <!-- 3D Force Graph WebGL -->
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #060714;
+            --glass-bg: rgba(10, 14, 40, 0.75);
+            --glass-border: rgba(255, 255, 255, 0.06);
+            --text-primary: #f0f4ff;
+            --text-muted: #7b8ab8;
+            --accent: #38bdf8;
+            --accent-glow: rgba(56, 189, 248, 0.25);
+            --green: #4ade80;
+            --yellow: #fbbf24;
+            --red: #f87171;
+            --purple: #a78bfa;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            overflow: hidden;
+            font-family: 'Inter', -apple-system, sans-serif;
+            color: var(--text-primary);
+            background: var(--bg-color);
+        }
+
+        /* ===== NEBULA BACKGROUND ===== */
+        #nebula-bg {
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 0;
+            background: radial-gradient(ellipse at 20% 50%, rgba(88, 28, 135, 0.15) 0%, transparent 60%),
+                        radial-gradient(ellipse at 80% 20%, rgba(15, 82, 186, 0.12) 0%, transparent 55%),
+                        radial-gradient(ellipse at 50% 80%, rgba(6, 78, 59, 0.10) 0%, transparent 50%),
+                        radial-gradient(ellipse at 70% 60%, rgba(127, 29, 29, 0.08) 0%, transparent 45%),
+                        var(--bg-color);
+        }
+        #nebula-bg::before {
+            content: '';
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+            opacity: 0.5; mix-blend-mode: overlay;
+        }
+        .nebula-orb {
+            position: absolute; border-radius: 50%; filter: blur(80px); opacity: 0.4;
+            animation: nebulaDrift 20s ease-in-out infinite alternate;
+        }
+        .nebula-orb:nth-child(1) { width: 500px; height: 500px; top: -10%; left: -5%; background: rgba(99, 49, 222, 0.3); animation-duration: 25s; }
+        .nebula-orb:nth-child(2) { width: 400px; height: 400px; bottom: -8%; right: -5%; background: rgba(14, 116, 144, 0.25); animation-duration: 30s; animation-delay: -5s; }
+        .nebula-orb:nth-child(3) { width: 350px; height: 350px; top: 30%; right: 20%; background: rgba(168, 85, 247, 0.15); animation-duration: 22s; animation-delay: -10s; }
+        @keyframes nebulaDrift {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(40px, -30px) scale(1.1); }
+            100% { transform: translate(-20px, 20px) scale(0.95); }
+        }
+
+        /* ===== 3D GRAPH ===== */
+        #3d-graph {
+            position: absolute; top: 0; left: 0;
+            width: 100vw; height: 100vh; z-index: 1;
+        }
+
+        /* ===== UI OVERLAY ===== */
+        #ui-overlay {
+            position: absolute; top: 0; left: 0;
+            width: 100%; height: 100%;
+            pointer-events: none; z-index: 10;
+        }
+        .glass-panel {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px; padding: 20px; pointer-events: auto;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255,255,255,0.04);
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            position: absolute; top: 24px; left: 24px; pointer-events: auto;
+        }
+        header h1 {
+            margin: 0; font-size: 24px; font-weight: 800;
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            letter-spacing: -0.03em;
+            text-shadow: none;
+        }
+        header .subtitle {
+            margin-top: 2px; color: var(--text-muted); font-size: 12px; font-weight: 500;
+            letter-spacing: 0.05em; text-transform: uppercase;
+        }
+
+        /* ===== SEARCH BOX ===== */
+        .search-box {
+            position: absolute; top: 24px; right: 24px;
+            display: flex; align-items: center; gap: 8px;
+            background: var(--glass-bg); backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border); border-radius: 12px;
+            padding: 8px 14px; pointer-events: auto; width: 240px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .search-box:focus-within {
+            border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow);
+            width: 300px;
+        }
+        .search-box input {
+            background: transparent; border: none; color: white;
+            font-family: 'Inter', sans-serif; font-size: 13px; width: 100%; outline: none;
+        }
+        .search-box input::placeholder { color: #4a5578; }
+        .search-box svg { color: #4a5578; flex-shrink: 0; }
+
+        /* ===== PROGRESS RING ===== */
+        #progress-ring-container {
+            position: absolute; top: 24px; right: 280px;
+            pointer-events: auto; cursor: default;
+        }
+        .progress-ring-wrap {
+            position: relative; width: 56px; height: 56px;
+        }
+        .progress-ring-wrap svg { transform: rotate(-90deg); }
+        .progress-ring-bg { fill: none; stroke: rgba(255,255,255,0.06); stroke-width: 4; }
+        .progress-ring-fill {
+            fill: none; stroke: url(#progressGrad); stroke-width: 4;
+            stroke-linecap: round; transition: stroke-dashoffset 1s ease;
+        }
+        .progress-ring-text {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            font-size: 13px; font-weight: 800; color: var(--accent);
+        }
+
+        /* ===== DASHBOARD PANEL ===== */
+        #dashboard-panel {
+            position: absolute; top: 90px; left: 24px; width: 230px;
+        }
+        #dashboard-panel h3 {
+            margin: 0 0 12px 0; font-size: 13px; color: var(--accent);
+            display: flex; align-items: center; gap: 8px;
+            text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700;
+        }
+        .stat-card {
+            background: rgba(255, 255, 255, 0.02); border-radius: 10px; padding: 10px 14px;
+            display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;
+            border-left: 3px solid transparent; transition: all 0.3s;
+        }
+        .stat-card:hover { background: rgba(255, 255, 255, 0.04); }
+        .stat-label { font-size: 11px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+        .stat-sub { font-size: 9px; color: #4a5578; margin-top: 1px; }
+        .stat-value { font-size: 20px; font-weight: 800; font-variant-numeric: tabular-nums; }
+        .text-green { color: var(--green); }
+        .text-yellow { color: var(--yellow); }
+        .text-red { color: var(--red); }
+        .text-gray { color: #64748b; }
+
+        /* ===== FILTER TOOLBAR ===== */
+        #filter-toolbar {
+            position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%);
+            display: flex; gap: 6px; align-items: center; padding: 8px 12px;
+            border-radius: 14px; pointer-events: auto;
+        }
+        .filter-btn {
+            display: flex; align-items: center; gap: 6px;
+            padding: 6px 14px; border-radius: 8px; border: 1px solid var(--glass-border);
+            background: rgba(255,255,255,0.03); color: var(--text-muted);
+            font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 600;
+            cursor: pointer; transition: all 0.2s; text-transform: uppercase; letter-spacing: 0.04em;
+        }
+        .filter-btn:hover { background: rgba(255,255,255,0.06); }
+        .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(56, 189, 248, 0.08); }
+        .filter-btn .dot {
+            width: 8px; height: 8px; border-radius: 50%;
+        }
+
+        /* ===== MINIMAP ===== */
+        #minimap-container {
+            position: absolute; bottom: 80px; right: 24px;
+            pointer-events: auto; border-radius: 12px; overflow: hidden;
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        #minimap {
+            width: 160px; height: 120px;
+            background: rgba(6, 7, 20, 0.8);
+        }
+
+        /* ===== INFO PANEL ===== */
+        #info-panel {
+            position: absolute; top: 20px; bottom: 20px;
+            right: -420px; /* Fully off-screen */
+            width: 360px; min-width: 320px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            opacity: 0; 
+            transition: right 0.4s ease, opacity 0.3s;
+            display: flex; flex-direction: column;
+            padding: 32px 24px;
+            box-shadow: -10px 0 40px rgba(0, 0, 0, 0.3);
+            pointer-events: auto; z-index: 9999;
+        }
+        #info-panel.visible { right: 20px; opacity: 1; }
+        #info-panel h2 { margin: 12px 0 8px 0; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.3; }
+        .badge {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 4px 10px; border-radius: 6px;
+            font-size: 10px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 0.06em; margin-bottom: 12px;
+        }
+        .type-macro { background: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.2); }
+        .type-micro { background: rgba(251, 191, 36, 0.1); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.2); }
+        .type-assess { background: rgba(244, 63, 94, 0.1); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.2); }
+        #info-meta { font-size: 13px; color: var(--text-muted); margin-bottom: 16px; font-weight: 500; }
+
+        /* Mastery Bar inside info panel */
+        .mastery-bar-container { margin-bottom: 16px; }
+        .mastery-bar-bg { width: 100%; height: 6px; background: rgba(255,255,255,0.06); border-radius: 3px; overflow: hidden; }
+        .mastery-bar-fill { height: 100%; border-radius: 3px; transition: width 0.8s ease, background 0.8s ease; }
+        .mastery-bar-label { display: flex; justify-content: space-between; margin-top: 4px; font-size: 10px; color: var(--text-muted); }
+
+        #info-desc {
+            font-size: 13px; line-height: 1.7; color: #b0bdd5;
+            overflow-y: auto; margin-bottom: 24px; padding-right: 6px;
+            flex-grow: 1;
+        }
+        #info-desc::-webkit-scrollbar { width: 4px; }
+        #info-desc::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+
+        .close-panel-btn {
+            position: absolute; top: 20px; left: 20px;
+            background: rgba(255, 255, 255, 0.03); border: 1px solid var(--glass-border);
+            color: #64748b; width: 32px; height: 32px; border-radius: 8px;
+            display: flex; align-items: center; justify-content: center;
+            cursor: pointer; transition: all 0.2s;
+        }
+        .close-panel-btn:hover { background: rgba(244, 63, 94, 0.2); color: #f43f5e; border-color: rgba(244, 63, 94, 0.3); }
+
+        /* ===== LEGEND ===== */
+        .legend {
+            position: absolute; bottom: 80px; left: 24px;
+            display: flex; flex-direction: column; gap: 8px; pointer-events: auto;
+            padding: 14px 18px; border-radius: 12px;
+        }
+        .legend-item { display: flex; align-items: center; font-size: 11px; font-weight: 600; color: var(--text-muted); gap: 10px; }
+        .legend-item .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+        /* ===== ACTION BUTTONS ===== */
+        .action-btns { display: flex; flex-direction: column; gap: 8px; margin-top: auto; }
+        .btn-action {
+            border: none; height: 44px; border-radius: 10px;
+            font-weight: 700; font-size: 13px; cursor: pointer;
+            transition: all 0.2s; font-family: 'Inter', sans-serif;
+            display: flex; align-items: center; justify-content: center; gap: 8px;
+        }
+        .btn-action:hover { transform: translateY(-1px); }
+        .btn-primary { background: linear-gradient(135deg, #38bdf8, #818cf8); color: #0f172a; box-shadow: 0 4px 15px rgba(56, 189, 248, 0.25); }
+        .btn-primary:hover { box-shadow: 0 6px 20px rgba(56, 189, 248, 0.35); }
+        .btn-secondary { background: rgba(255, 255, 255, 0.04); color: #cbd5e1; border: 1px solid var(--glass-border); }
+        .btn-secondary:hover { background: rgba(255, 255, 255, 0.08); }
+        .btn-tertiary { background: rgba(139, 92, 246, 0.12); color: #c084fc; border: 1px solid rgba(139, 92, 246, 0.2); }
+        .btn-tertiary:hover { background: rgba(139, 92, 246, 0.2); }
+
+        /* ===== ADAPTIVE BUTTON ===== */
+        .adaptive-btn {
+            position: absolute; bottom: 24px; right: 200px;
+            background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
+            background-size: 200% 200%; animation: gradientShift 4s ease infinite;
+            border: none; border-radius: 12px; padding: 12px 24px;
+            color: #0f172a; font-weight: 700; font-size: 13px; cursor: pointer;
+            box-shadow: 0 8px 25px rgba(56, 189, 248, 0.25);
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            pointer-events: auto; z-index: 100; font-family: 'Inter', sans-serif;
+        }
+        .adaptive-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 35px rgba(56, 189, 248, 0.35); }
+        @keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+
+        /* ===== RIPPLE EFFECT ===== */
+        @keyframes rippleExpand {
+            0% { transform: scale(0); opacity: 0.6; }
+            100% { transform: scale(3); opacity: 0; }
+        }
+
+        /* ===== TOOLTIP ===== */
+        .node-tooltip {
+            background: var(--glass-bg); backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border); border-radius: 8px;
+            padding: 8px 12px; font-size: 12px; color: var(--text-primary);
+            pointer-events: none; white-space: nowrap;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+        }
+
+        /* ===== NOTIFICATION TOAST ===== */
+        #toast-container {
+            position: absolute; top: 80px; right: 24px; z-index: 2000;
+            display: flex; flex-direction: column; gap: 8px; pointer-events: none;
+        }
+        .toast {
+            padding: 10px 18px; border-radius: 10px;
+            background: var(--glass-bg); backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            font-size: 12px; font-weight: 600; color: var(--accent);
+            animation: toastIn 0.4s ease, toastOut 0.4s ease 2.6s forwards;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+        @keyframes toastIn { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
+        @keyframes toastOut { from { opacity: 1; } to { opacity: 0; transform: translateY(-10px); } }
+    </style>
+</head>
+<body>
+    <!-- NEBULA BACKGROUND -->
+    <div id="nebula-bg">
+        <div class="nebula-orb"></div>
+        <div class="nebula-orb"></div>
+        <div class="nebula-orb"></div>
+    </div>
+
+    <!-- 3D GRAPH -->
+    <div id="3d-graph"></div>
+
+    <!-- UI OVERLAY -->
+    <div id="ui-overlay">
+        <!-- Header -->
+        <header>
+            <h1>Knowledge Galaxy</h1>
+            <p class="subtitle">Đồ thị Không Gian Tri Thức 3D</p>
+        </header>
+
+        <!-- Progress Ring -->
+        <div id="progress-ring-container">
+            <div class="progress-ring-wrap">
+                <svg width="56" height="56" viewBox="0 0 56 56">
+                    <defs>
+                        <linearGradient id="progressGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#38bdf8"/>
+                            <stop offset="100%" stop-color="#818cf8"/>
+                        </linearGradient>
+                    </defs>
+                    <circle class="progress-ring-bg" cx="28" cy="28" r="24"/>
+                    <circle class="progress-ring-fill" id="progress-ring" cx="28" cy="28" r="24"
+                            stroke-dasharray="150.8" stroke-dashoffset="150.8"/>
+                </svg>
+                <span class="progress-ring-text" id="progress-text">0%</span>
+            </div>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-box">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="searchInput" placeholder="Tìm kiếm node...">
+        </div>
+
+        <!-- Dashboard Panel -->
+        <div id="dashboard-panel" class="glass-panel">
+            <h3>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4"></path></svg>
+                Hồ sơ Năng lực
+            </h3>
+            <div class="stat-card" style="border-left-color: var(--green);">
+                <div><div class="stat-label">Thông thạo</div><div class="stat-sub">Mastery ≥ 80%</div></div>
+                <div id="stat-mastered" class="stat-value text-green">0</div>
+            </div>
+            <div class="stat-card" style="border-left-color: var(--yellow);">
+                <div><div class="stat-label">Đang nhạt dần</div><div class="stat-sub">Cần ôn tập</div></div>
+                <div id="stat-decaying" class="stat-value text-yellow">0</div>
+            </div>
+            <div class="stat-card" style="border-left-color: var(--red);">
+                <div><div class="stat-label">Hổng kiến thức</div><div class="stat-sub">Mastery < 50%</div></div>
+                <div id="stat-weak" class="stat-value text-red">0</div>
+            </div>
+            <div class="stat-card" style="border-left-color: #64748b;">
+                <div><div class="stat-label">Chưa học</div><div class="stat-sub">Chưa tương tác</div></div>
+                <div id="stat-untouched" class="stat-value text-gray">0</div>
+            </div>
+        </div>
+
+        <!-- Info Panel -->
+        <div id="info-panel">
+            <button class="close-panel-btn" onclick="document.getElementById('info-panel').classList.remove('visible')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <h2 id="info-title">Nexus Node</h2>
+            <div class="badge" id="info-type">Classification</div>
+            <div id="info-meta">Initialising insights...</div>
+            <div class="mastery-bar-container" id="mastery-bar-section" style="display:none;">
+                <div class="mastery-bar-bg"><div class="mastery-bar-fill" id="mastery-bar-fill" style="width:0%;background:var(--green);"></div></div>
+                <div class="mastery-bar-label"><span>Mastery</span><span id="mastery-bar-pct">0%</span></div>
+            </div>
+            <p id="info-desc">Select a node to explore the depth of knowledge.</p>
+            
+            <!-- Path info -->
+            <div id="path-info" style="display:none; margin-bottom: 12px;">
+                <div style="font-size:11px; color:var(--accent); font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:6px;">
+                    📌 Chuỗi tiên quyết
+                </div>
+                <div id="path-chain" style="font-size:12px; color:var(--text-muted); line-height:1.8;"></div>
+            </div>
+
+            <div class="action-btns" id="action-buttons" style="display: none;">
+                <button class="btn-action btn-primary" onclick="startAction('video')">▶ Xem bài giảng</button>
+                <button class="btn-action btn-secondary" onclick="startAction('quiz')">📝 Kiểm tra đánh giá</button>
+                <button class="btn-action btn-tertiary" onclick="startAction('tutor')">🤖 AI Gia sư</button>
+            </div>
+        </div>
+
+        <!-- Legend -->
+        <div class="legend glass-panel">
+            <div class="legend-item"><span class="dot" style="background:#38bdf8; box-shadow: 0 0 8px rgba(56,189,248,0.5);"></span> Chương (Macro)</div>
+            <div class="legend-item"><span class="dot" style="background:#4ade80; box-shadow: 0 0 8px rgba(74,222,128,0.5);"></span> Thông thạo</div>
+            <div class="legend-item"><span class="dot" style="background:#fbbf24; box-shadow: 0 0 8px rgba(251,191,36,0.5);"></span> Đang nhạt / Mới biết</div>
+            <div class="legend-item"><span class="dot" style="background:#f87171; box-shadow: 0 0 8px rgba(248,113,113,0.5);"></span> Hổng kiến thức</div>
+            <div class="legend-item"><span class="dot" style="background:#64748b;"></span> Chưa học</div>
+        </div>
+
+        <!-- Filter Toolbar -->
+        <div id="filter-toolbar" class="glass-panel">
+            <button class="filter-btn active" data-filter="all" onclick="setFilter('all', this)">
+                <span class="dot" style="background: linear-gradient(135deg, #38bdf8, #818cf8);"></span> Tất cả
+            </button>
+            <button class="filter-btn" data-filter="mastered" onclick="setFilter('mastered', this)">
+                <span class="dot" style="background: var(--green);"></span> Thông thạo
+            </button>
+            <button class="filter-btn" data-filter="decaying" onclick="setFilter('decaying', this)">
+                <span class="dot" style="background: var(--yellow);"></span> Nhạt dần
+            </button>
+            <button class="filter-btn" data-filter="weak" onclick="setFilter('weak', this)">
+                <span class="dot" style="background: var(--red);"></span> Hổng
+            </button>
+            <button class="filter-btn" data-filter="untouched" onclick="setFilter('untouched', this)">
+                <span class="dot" style="background: #64748b;"></span> Chưa học
+            </button>
+        </div>
+
+        <!-- Minimap -->
+        <div id="minimap-container">
+            <canvas id="minimap" width="160" height="120"></canvas>
+        </div>
+
+        <!-- Adaptive Button -->
+        <button class="adaptive-btn" onclick="findWeakestNode()">
+            🎯 Tôi cần học gì hôm nay?
+        </button>
+
+        <!-- Toast Container -->
+        <div id="toast-container"></div>
+    </div>
+
+    <script>
+        // ============================================================
+        //  DATA INITIALIZATION
+        // ============================================================
+        const GRAPH_DATA = {"nodes": [], "links": [{"source": "c1.1", "target": "c1.2", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c1.3", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c1.4", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c1.5", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c1.6", "relation": "prerequisite_for"}, {"source": "c1.6", "target": "c1.7", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c2.1", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c2.2", "relation": "prerequisite_for"}, {"source": "c2.1", "target": "c2.3", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c3.1", "relation": "prerequisite_for"}, {"source": "c3.1", "target": "c3.2", "relation": "prerequisite_for"}, {"source": "c3.1", "target": "c3.3", "relation": "prerequisite_for"}, {"source": "c3.1", "target": "c3.4", "relation": "prerequisite_for"}, {"source": "c3.4", "target": "c3.5", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c4.1", "relation": "prerequisite_for"}, {"source": "c4.1", "target": "c4.2", "relation": "prerequisite_for"}, {"source": "c4.2", "target": "c4.3", "relation": "prerequisite_for"}, {"source": "c4.3", "target": "c4.4", "relation": "prerequisite_for"}, {"source": "c1.1", "target": "c5.1", "relation": "prerequisite_for"}, {"source": "c1.6", "target": "c5.2", "relation": "prerequisite_for"}, {"source": "c5.1", "target": "c5.2", "relation": "prerequisite_for"}]};
+        const USER_STATE = {"subject_id": "177a89bb", "mastery": {}, "current_focus": null};
+        window.currentNodeId = null;
+        window.currentNodeContent = null;
+        let currentFilter = 'all';
+        let highlightedLinks = new Set();
+        let highlightedNodes = new Set();
+        let prevMasterySnapshot = {};
+
+        // Build adjacency for path finding
+        const adjList = {};
+        const reverseAdj = {};
+        GRAPH_DATA.links.forEach(link => {
+            const src = typeof link.source === 'object' ? link.source.id : link.source;
+            const tgt = typeof link.target === 'object' ? link.target.id : link.target;
+            if (!adjList[src]) adjList[src] = [];
+            adjList[src].push({ target: tgt, relation: link.relation });
+            if (!reverseAdj[tgt]) reverseAdj[tgt] = [];
+            reverseAdj[tgt].push({ source: src, relation: link.relation });
+        });
+
+        // Snapshot initial mastery for change detection
+        Object.keys(USER_STATE.mastery || {}).forEach(k => {
+            prevMasterySnapshot[k] = USER_STATE.mastery[k].level;
+        });
+
+        // ============================================================
+        //  UTILITY FUNCTIONS
+        // ============================================================
+        function getNodeStatus(node) {
+            if (node.type === 'macro') return 'macro';
+            const m = USER_STATE.mastery[node.id];
+            if (!m || m.attempts === 0) return 'untouched';
+            if (m._decayed && m.level < 0.9) return 'decaying';
+            if (m.level < 0.5) return 'weak';
+            if (m.level < 0.8) return 'learning';
+            return 'mastered';
+        }
+
+        function getNodeColor(node) {
+            const status = getNodeStatus(node);
+            switch (status) {
+                case 'macro': return '#38bdf8';
+                case 'mastered': return '#4ade80';
+                case 'decaying': return '#fbbf24';
+                case 'learning': return '#fbbf24';
+                case 'weak': return '#f87171';
+                case 'untouched': return 'rgba(100, 116, 139, 0.5)';
+                default: return '#64748b';
+            }
+        }
+
+        function getMasteryLevel(nodeId) {
+            const m = USER_STATE.mastery[nodeId];
+            return m ? m.level : 0;
+        }
+
+        function showToast(msg) {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.textContent = msg;
+            container.appendChild(toast);
+            setTimeout(() => toast.remove(), 3200);
+        }
+
+        function shouldShowNode(node) {
+            if (currentFilter === 'all') return true;
+            const status = getNodeStatus(node);
+            if (currentFilter === 'mastered') return status === 'mastered' || status === 'macro';
+            if (currentFilter === 'decaying') return status === 'decaying' || status === 'macro';
+            if (currentFilter === 'weak') return status === 'weak' || status === 'macro';
+            if (currentFilter === 'untouched') return status === 'untouched' || status === 'macro';
+            return true;
+        }
+
+        // ============================================================
+        //  PATH HIGHLIGHTING (BFS Prerequisites)
+        // ============================================================
+        function findPrerequisiteChain(nodeId) {
+            const chain = [];
+            const visited = new Set();
+            const queue = [nodeId];
+            visited.add(nodeId);
+
+            while (queue.length > 0) {
+                const current = queue.shift();
+                const parents = reverseAdj[current] || [];
+                for (const p of parents) {
+                    if (!visited.has(p.source)) {
+                        visited.add(p.source);
+                        chain.push({ from: p.source, to: current, relation: p.relation });
+                        queue.push(p.source);
+                    }
+                }
+            }
+            return { chain, visited };
+        }
+
+        function clearHighlights() {
+            highlightedLinks.clear();
+            highlightedNodes.clear();
+        }
+
+        // ============================================================
+        //  MAIN 3D GRAPH SETUP
+        // ============================================================
+        document.addEventListener('DOMContentLoaded', () => {
+            const graphElem = document.getElementById('3d-graph');
+
+            const Graph = ForceGraph3D()(graphElem)
+                .backgroundColor('#060714')
+                .showNavInfo(false)
+                // --- NODE RENDERING (Built-in APIs — no THREE.js required) ---
+                .nodeColor(node => getNodeColor(node))
+                .nodeVal(node => {
+                    if (!shouldShowNode(node)) return 0.01;
+                    if (node.type === 'macro') return 25;
+                    const mastery = getMasteryLevel(node.id);
+                    return 8 + mastery * 12;
+                })
+                .nodeOpacity(0.9)
+                .nodeLabel(node => {
+                    const status = getNodeStatus(node);
+                    const mastery = getMasteryLevel(node.id);
+                    const pct = Math.round(mastery * 100);
+                    let badge = '';
+                    if (status === 'macro') badge = '<span style="color:#38bdf8;">🌐 CHƯƠNG</span>';
+                    else if (status === 'mastered') badge = '<span style="color:#4ade80;">✅ ' + pct + '%</span>';
+                    else if (status === 'decaying') badge = '<span style="color:#fbbf24;">⚠️ ' + pct + '% Nhạt dần</span>';
+                    else if (status === 'weak') badge = '<span style="color:#f87171;">❌ ' + pct + '%</span>';
+                    else if (status === 'learning') badge = '<span style="color:#fbbf24;">📖 ' + pct + '%</span>';
+                    else badge = '<span style="color:#64748b;">🔲 Chưa học</span>';
+                    return `<div style="background:rgba(10,14,40,0.9);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);border-radius:10px;padding:8px 14px;font-family:Inter,sans-serif;font-size:12px;color:#f0f4ff;min-width:120px;text-align:center;box-shadow:0 4px 20px rgba(0,0,0,0.5);">
+                        <div style="font-weight:700;margin-bottom:4px;">${node.label || node.id}</div>
+                        <div>${badge}</div>
+                    </div>`;
+                })
+                // --- LINK RENDERING ---
+                .linkColor(link => {
+                    const src = typeof link.source === 'object' ? link.source.id : link.source;
+                    const tgt = typeof link.target === 'object' ? link.target.id : link.target;
+                    const linkKey = src + '->' + tgt;
+                    if (highlightedLinks.has(linkKey)) return '#818cf8';
+                    return 'rgba(255, 255, 255, 0.08)';
+                })
+                .linkWidth(link => {
+                    const src = typeof link.source === 'object' ? link.source.id : link.source;
+                    const tgt = typeof link.target === 'object' ? link.target.id : link.target;
+                    const linkKey = src + '->' + tgt;
+                    return highlightedLinks.has(linkKey) ? 2.0 : 0.3;
+                })
+                .linkOpacity(0.6)
+                // --- PARTICLES ON EDGES (Knowledge Flow) ---
+                .linkDirectionalParticles(link => {
+                    const src = typeof link.source === 'object' ? link.source.id : link.source;
+                    const tgt = typeof link.target === 'object' ? link.target.id : link.target;
+                    const linkKey = src + '->' + tgt;
+                    if (highlightedLinks.has(linkKey)) return 6;
+                    return 2;
+                })
+                .linkDirectionalParticleSpeed(0.004)
+                .linkDirectionalParticleWidth(link => {
+                    const src = typeof link.source === 'object' ? link.source.id : link.source;
+                    const tgt = typeof link.target === 'object' ? link.target.id : link.target;
+                    const linkKey = src + '->' + tgt;
+                    return highlightedLinks.has(linkKey) ? 2.5 : 0.8;
+                })
+                .linkDirectionalParticleColor(link => {
+                    const src = typeof link.source === 'object' ? link.source.id : link.source;
+                    const tgt = typeof link.target === 'object' ? link.target.id : link.target;
+                    const linkKey = src + '->' + tgt;
+                    if (highlightedLinks.has(linkKey)) return '#c084fc';
+                    return 'rgba(56, 189, 248, 0.4)';
+                })
+                .linkDirectionalArrowLength(4)
+                .linkDirectionalArrowRelPos(1)
+                .linkDirectionalArrowColor(link => {
+                    const src = typeof link.source === 'object' ? link.source.id : link.source;
+                    const tgt = typeof link.target === 'object' ? link.target.id : link.target;
+                    const linkKey = src + '->' + tgt;
+                    return highlightedLinks.has(linkKey) ? '#818cf8' : 'rgba(255,255,255,0.15)';
+                })
+                .graphData(GRAPH_DATA)
+                .onNodeClick(node => handleNodeClick(node))
+                .onNodeHover(node => {
+                    graphElem.style.cursor = node ? 'pointer' : null;
+                })
+                .onBackgroundClick(() => {
+                    clearHighlights();
+                    document.getElementById('info-panel').classList.remove('visible');
+                    document.getElementById('path-info').style.display = 'none';
+                    Graph.nodeColor(Graph.nodeColor());
+                    Graph.linkColor(Graph.linkColor());
+                    Graph.linkWidth(Graph.linkWidth());
+                    Graph.linkDirectionalParticles(Graph.linkDirectionalParticles());
+                    Graph.linkDirectionalParticleWidth(Graph.linkDirectionalParticleWidth());
+                    Graph.linkDirectionalParticleColor(Graph.linkDirectionalParticleColor());
+                });
+
+            // ============================================================
+            //  ANIMATION LOOP (Minimap update)
+            // ============================================================
+            function animateLoop() {
+                requestAnimationFrame(animateLoop);
+                updateMinimap();
+            }
+            animateLoop();
+
+            // ============================================================
+            //  DASHBOARD & PROGRESS
+            // ============================================================
+            function updateDashboard() {
+                let mastered = 0, decaying = 0, weak = 0, untouched = 0, total = 0;
+                GRAPH_DATA.nodes.forEach(n => {
+                    if (n.type === 'micro' || n.type === 'assess') {
+                        total++;
+                        const status = getNodeStatus(n);
+                        if (status === 'mastered') mastered++;
+                        else if (status === 'decaying') decaying++;
+                        else if (status === 'weak') weak++;
+                        else if (status === 'learning') { /* count as in-progress */ }
+                        else untouched++;
+                    }
+                });
+                document.getElementById('stat-mastered').innerText = mastered;
+                document.getElementById('stat-decaying').innerText = decaying;
+                document.getElementById('stat-weak').innerText = weak;
+                document.getElementById('stat-untouched').innerText = untouched;
+
+                // Update Progress Ring
+                const pct = total > 0 ? Math.round((mastered / total) * 100) : 0;
+                const circle = document.getElementById('progress-ring');
+                const circumference = 2 * Math.PI * 24; // r=24
+                circle.style.strokeDashoffset = circumference - (circumference * pct / 100);
+                document.getElementById('progress-text').innerText = pct + '%';
+            }
+            updateDashboard();
+
+            // ============================================================
+            //  NODE CLICK HANDLER
+            // ============================================================
+            function handleNodeClick(node) {
+                if (!node) return;
+                
+                // 1. Force Sidebar Visibility immediately
+                const panel = document.getElementById('info-panel');
+                if (panel) panel.classList.add('visible');
+
+                // 2. Camera Focus (Fly-to)
+                const distance = 80;
+                const distRatio = 1 + distance / Math.hypot(node.x || 1, node.y || 1, node.z || 1);
+                Graph.cameraPosition(
+                    { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // target pos
+                    node, // look-at node
+                    1000  // speed
+                );
+
+                // 3. Highlight Path
+                clearHighlights();
+                const pathData = findPrerequisiteChain(node.id);
+                if (pathData && pathData.chain) {
+                    highlightedNodes = pathData.visited;
+                    pathData.chain.forEach(c => highlightedLinks.add(c.from + '->' + c.to));
+                }
+
+                // Force link sync
+                Graph.linkColor(Graph.linkColor());
+
+                // 4. Update Sidebar Content
+                const title = document.getElementById('info-title');
+                const badge = document.getElementById('info-type');
+                const desc = document.getElementById('info-desc');
+                const meta = document.getElementById('info-meta');
+                const sectionMastery = document.getElementById('mastery-bar-section');
+                const pathChainDiv = document.getElementById('path-chain');
+                const pathInfoDiv = document.getElementById('path-info');
+
+                if (title) title.innerText = node.label || node.id;
+                
+                if (badge) {
+                    badge.className = 'badge';
+                    if (node.type === 'macro') {
+                        badge.classList.add('type-macro'); badge.innerText = '🌐 CHƯƠNG';
+                        if (desc) desc.innerText = 'Đây là một chương lớn của môn học.';
+                        if (meta) meta.innerText = 'Mã: ' + node.id;
+                        if (sectionMastery) sectionMastery.style.display = 'none';
+                    } else if (node.type === 'micro') {
+                        badge.classList.add('type-micro'); badge.innerText = '📚 BÀI HỌC';
+                        const mastery = getMasteryLevel(node.id);
+                        if (meta) meta.innerText = 'Mastery: ' + Math.round(mastery * 100) + '/100';
+                        if (desc) desc.innerText = node.content || 'Chưa có nội dung chi tiết.';
+                        if (sectionMastery) {
+                            sectionMastery.style.display = 'block';
+                            const barFill = document.getElementById('mastery-bar-fill');
+                            const barPct = document.getElementById('mastery-bar-pct');
+                            if (barFill) barFill.style.width = Math.round(mastery * 100) + '%';
+                            if (barPct) barPct.innerText = Math.round(mastery * 100) + '%';
+                        }
+                    } else if (node.type === 'assess') {
+                        badge.classList.add('type-assess'); badge.innerText = '🧪 ĐÁNH GIÁ';
+                        if (meta) meta.innerText = 'Ngưỡng đạt: ' + (node.theta_pass || '--');
+                        if (desc) desc.innerText = 'Bài đánh giá kiến thức.';
+                        if (sectionMastery) sectionMastery.style.display = 'none';
+                    }
+                }
+
+                // 5. Action Buttons visibility
+                const actionBtns = document.getElementById('action-buttons');
+                if (actionBtns) {
+                    if (node.type === 'micro' || node.type === 'assess') {
+                        window.currentNodeId = node.id;
+                        window.currentNodeContent = node.content || '';
+                        actionBtns.style.display = 'flex';
+                    } else {
+                        actionBtns.style.display = 'none';
+                    }
+                }
+
+                // 6. Path chain display
+                if (pathData && pathData.chain && pathData.chain.length > 0) {
+                    if (pathInfoDiv) pathInfoDiv.style.display = 'block';
+                    if (pathChainDiv) {
+                        const nodeLabels = {};
+                        GRAPH_DATA.nodes.forEach(n => nodeLabels[n.id] = n.label || n.id);
+                        const nodesInPath = Array.from(pathData.visited);
+                        pathChainDiv.innerHTML = nodesInPath.map(id => 
+                            '<span style="color:' + (id === node.id ? 'var(--accent)' : 'var(--purple)') + '">' + (nodeLabels[id] || id) + '</span>'
+                        ).join(' → ');
+                    }
+                } else if (pathInfoDiv) {
+                    pathInfoDiv.style.display = 'none';
+                }
+            }
+
+            // ============================================================
+            //  BRIDGE ACTION (Communicate with parent NiceGUI frame)
+            // ============================================================
+            window.startAction = function(actionType) {
+                if (!window.currentNodeId) return;
+                
+                // Find the full node data to include label for concept resolution
+                const nodeData = GRAPH_DATA.nodes.find(n => n.id === window.currentNodeId);
+                const payload = {
+                    id: window.currentNodeId,
+                    action: actionType,
+                    label: nodeData ? (nodeData.label || '') : '',
+                    type: nodeData ? (nodeData.type || '') : ''
+                };
+                
+                console.log('[3D Bridge] startAction called:', JSON.stringify(payload));
+                
+                // --- METHOD 1: Set __bridge_payload on parent window (for Nexus Space polling) ---
+                try {
+                    if (window.parent && window.parent !== window) {
+                        window.parent.__bridge_payload = payload;
+                        console.log('[3D Bridge] Set parent.__bridge_payload successfully');
+                    }
+                } catch(e) {
+                    console.warn('[3D Bridge] Cannot set parent.__bridge_payload:', e);
+                }
+                
+                // --- METHOD 2: Prototype Bypass for Graph Studio input bridge ---
+                try {
+                    if (window.parent && window.parent.document) {
+                        const bridgeIDs = ['studio-bridge'];
+                        let inputEl = null;
+
+                        for (const id of bridgeIDs) {
+                            const wrapper = window.parent.document.getElementById(id);
+                            if (wrapper) {
+                                inputEl = wrapper.tagName.toLowerCase() === 'input' ? wrapper : wrapper.querySelector('input');
+                                if (inputEl) break;
+                            }
+                        }
+
+                        if (inputEl) {
+                            const payloadStr = JSON.stringify(payload);
+                            let nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+                            nativeInputValueSetter.call(inputEl, payloadStr);
+                            inputEl.dispatchEvent(new Event('input', { bubbles: true }));
+                            console.log('[3D Bridge] Prototype bypass successful:', payloadStr);
+                        }
+                    }
+                } catch(e) {
+                    console.warn('[3D Bridge] Prototype bypass error:', e);
+                }
+                
+                // --- METHOD 3: postMessage (most reliable cross-frame method) ---
+                try {
+                    if (window.parent && window.parent !== window) {
+                        window.parent.postMessage({ type: 'graph3d_action', payload: payload }, '*');
+                        console.log('[3D Bridge] postMessage sent successfully');
+                    }
+                } catch(e) {
+                    console.warn('[3D Bridge] postMessage error:', e);
+                }
+                
+                showToast('🚀 Đang chuyển hướng: ' + actionType.toUpperCase() + '...');
+            };
+
+            // ============================================================
+            //  FILTER SYSTEM
+            // ============================================================
+            window.setFilter = function(filter, btn) {
+                currentFilter = filter;
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                // Re-render nodes visibility
+                Graph.nodeVal(Graph.nodeVal());
+                Graph.nodeColor(Graph.nodeColor());
+                showToast('🔍 Bộ lọc: ' + btn.textContent.trim());
+            };
+
+            // ============================================================
+            //  MINIMAP
+            // ============================================================
+            const minimapCanvas = document.getElementById('minimap');
+            const minimapCtx = minimapCanvas.getContext('2d');
+
+            function updateMinimap() {
+                const ctx = minimapCtx;
+                const w = minimapCanvas.width;
+                const h = minimapCanvas.height;
+                ctx.clearRect(0, 0, w, h);
+                
+                // Find bounds
+                const nodes = Graph.graphData().nodes;
+                if (nodes.length === 0) return;
+                let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+                nodes.forEach(n => {
+                    if (n.x !== undefined) {
+                        minX = Math.min(minX, n.x); maxX = Math.max(maxX, n.x);
+                        minY = Math.min(minY, n.y); maxY = Math.max(maxY, n.y);
+                    }
+                });
+                if (!isFinite(minX)) return;
+                
+                const rangeX = (maxX - minX) || 1;
+                const rangeY = (maxY - minY) || 1;
+                const pad = 10;
+                const scaleX = (w - pad * 2) / rangeX;
+                const scaleY = (h - pad * 2) / rangeY;
+                const scale = Math.min(scaleX, scaleY);
+
+                // Draw edges
+                ctx.strokeStyle = 'rgba(255,255,255,0.05)';
+                ctx.lineWidth = 0.5;
+                Graph.graphData().links.forEach(link => {
+                    const src = typeof link.source === 'object' ? link.source : nodes.find(n => n.id === link.source);
+                    const tgt = typeof link.target === 'object' ? link.target : nodes.find(n => n.id === link.target);
+                    if (src && tgt && src.x !== undefined && tgt.x !== undefined) {
+                        ctx.beginPath();
+                        ctx.moveTo(pad + (src.x - minX) * scale, pad + (src.y - minY) * scale);
+                        ctx.lineTo(pad + (tgt.x - minX) * scale, pad + (tgt.y - minY) * scale);
+                        ctx.stroke();
+                    }
+                });
+
+                // Draw nodes
+                nodes.forEach(n => {
+                    if (n.x === undefined) return;
+                    const nx = pad + (n.x - minX) * scale;
+                    const ny = pad + (n.y - minY) * scale;
+                    const r = n.type === 'macro' ? 3 : 2;
+                    ctx.fillStyle = getNodeColor(n);
+                    ctx.globalAlpha = highlightedNodes.has(n.id) ? 1.0 : 0.6;
+                    ctx.beginPath();
+                    ctx.arc(nx, ny, r, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+                ctx.globalAlpha = 1.0;
+
+                // Camera position indicator
+                const camPos = Graph.cameraPosition();
+                if (camPos) {
+                    const cx = pad + (camPos.x - minX) * scale * 0.3 + w * 0.35;
+                    const cy = pad + (camPos.y - minY) * scale * 0.3 + h * 0.35;
+                    ctx.fillStyle = '#38bdf8';
+                    ctx.globalAlpha = 0.8;
+                    ctx.beginPath();
+                    ctx.arc(Math.min(w - 4, Math.max(4, cx)), Math.min(h - 4, Math.max(4, cy)), 4, 0, Math.PI * 2);
+                    ctx.fill();
+                    // Draw FOV cone
+                    ctx.strokeStyle = 'rgba(56, 189, 248, 0.3)';
+                    ctx.lineWidth = 1;
+                    ctx.beginPath();
+                    ctx.moveTo(Math.min(w-4, Math.max(4, cx)), Math.min(h-4, Math.max(4, cy)));
+                    ctx.lineTo(Math.min(w-4, Math.max(4, cx - 15)), Math.min(h-4, Math.max(4, cy - 20)));
+                    ctx.moveTo(Math.min(w-4, Math.max(4, cx)), Math.min(h-4, Math.max(4, cy)));
+                    ctx.lineTo(Math.min(w-4, Math.max(4, cx + 15)), Math.min(h-4, Math.max(4, cy - 20)));
+                    ctx.stroke();
+                    ctx.globalAlpha = 1.0;
+                }
+            }
+
+            // ============================================================
+            //  ADAPTIVE PATHFINDING
+            // ============================================================
+            window.findWeakestNode = function() {
+                let target = null;
+
+                // 1. Ưu tiên: Ebbinghaus decaying nodes
+                let decayingNodes = GRAPH_DATA.nodes.filter(n => {
+                    const m = USER_STATE.mastery[n.id];
+                    return m && m._decayed && m.level < 0.9 && (n.type === 'micro' || n.type === 'assess');
+                });
+
+                if (decayingNodes.length > 0) {
+                    decayingNodes.sort((a, b) => USER_STATE.mastery[a.id].level - USER_STATE.mastery[b.id].level);
+                    target = decayingNodes[0];
+                    showToast('🚨 Cảnh báo Ebbinghaus: Kiến thức đang nhạt dần!');
+                } else {
+                    // 2. Untouched nodes
+                    let untouchedNodes = GRAPH_DATA.nodes.filter(n =>
+                        (n.type === 'micro' || n.type === 'assess') &&
+                        (!USER_STATE.mastery[n.id] || USER_STATE.mastery[n.id].attempts === 0)
+                    );
+                    if (untouchedNodes.length > 0) {
+                        target = untouchedNodes[0];
+                        showToast('🌱 Gợi ý bài học mới theo lộ trình!');
+                    } else {
+                        // 3. Lowest mastery
+                        let lowestScore = 999;
+                        GRAPH_DATA.nodes.forEach(n => {
+                            if (n.type === 'micro' || n.type === 'assess') {
+                                const mastery = USER_STATE.mastery[n.id];
+                                if (mastery && mastery.level < lowestScore) {
+                                    lowestScore = mastery.level;
+                                    target = n;
+                                }
+                            }
+                        });
+                        if (target && lowestScore < 0.8) {
+                            showToast('🎯 Điểm hổng: ' + Math.round(lowestScore * 100) + '/100');
+                        } else {
+                            target = null;
+                        }
+                    }
+                }
+
+                if (target) {
+                    handleNodeClick(target);
+                } else {
+                    showToast('🏆 Chúc mừng! Bạn đã Master toàn bộ!');
+                }
+            };
+
+            // ============================================================
+            //  SEARCH
+            // ============================================================
+            const searchInput = document.getElementById('searchInput');
+
+            function doSearch() {
+                const query = searchInput.value.toLowerCase().trim();
+                if (!query) return;
+                const target = GRAPH_DATA.nodes.find(n => (n.label || '').toLowerCase().includes(query));
+                if (target) {
+                    handleNodeClick(target);
+                    showToast('🔍 Tìm thấy: ' + target.label);
+                } else {
+                    showToast('❌ Không tìm thấy kết quả');
+                }
+            }
+
+            searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') doSearch();
+            });
+
+            // ============================================================
+            //  REAL-TIME SYNC (1s polling with change detection)
+            // ============================================================
+            setInterval(() => {
+                fetch(`/user_data/thanhthangbmt1/states/177a89bb_state.json?t=${Date.now()}`)
+                    .then(r => r.json())
+                    .then(data => {
+                        if (!data || !data.mastery) return;
+                        let changed = false;
+                        Object.keys(data.mastery).forEach(key => {
+                            const newLevel = data.mastery[key].level;
+                            const oldLevel = prevMasterySnapshot[key];
+                            
+                            if (!USER_STATE.mastery[key] ||
+                                USER_STATE.mastery[key].level !== newLevel ||
+                                USER_STATE.mastery[key].attempts !== data.mastery[key].attempts) {
+                                
+                                USER_STATE.mastery[key] = data.mastery[key];
+                                changed = true;
+
+                                // Detect improvement → show ripple toast
+                                if (oldLevel !== undefined && newLevel > oldLevel) {
+                                    const nodeName = GRAPH_DATA.nodes.find(n => n.id === key);
+                                    showToast('⬆️ ' + (nodeName ? nodeName.label : key) + ' → ' + Math.round(newLevel * 100) + '%');
+                                }
+                                prevMasterySnapshot[key] = newLevel;
+                            }
+                        });
+
+                        if (changed) {
+                            // Re-render nodes with new mastery colors
+                            Graph.nodeVal(Graph.nodeVal());
+                            Graph.nodeColor(Graph.nodeColor());
+                            updateDashboard();
+
+                            // Update info panel if open
+                            if (window.currentNodeId) {
+                                const currentMastery = getMasteryLevel(window.currentNodeId);
+                                const pctVal = Math.round(currentMastery * 100);
+                                document.getElementById('info-meta').innerText = 'Mastery: ' + pctVal + '/100';
+                                const barFill = document.getElementById('mastery-bar-fill');
+                                if (barFill) {
+                                    barFill.style.width = pctVal + '%';
+                                    barFill.style.background = currentMastery >= 0.8 ? 'var(--green)' : (currentMastery >= 0.5 ? 'var(--yellow)' : 'var(--red)');
+                                    document.getElementById('mastery-bar-pct').innerText = pctVal + '%';
+                                }
+                            }
+                        }
+                    })
+                    .catch(() => {});
+            }, 1000);  // 1 second polling (was 3s)
+        });
+    </script>
+</body>
+</html>

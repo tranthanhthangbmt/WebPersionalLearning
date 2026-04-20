@@ -1,0 +1,156 @@
+﻿Slide 1: TỔNG QUAN VỀ E-MARKETPLACES – HẠ TẦNG KINH TẾ SỐ
+Người 1: Chào các bạn lớp BA24M. Hôm nay chúng ta bước vào Buổi 5 , một chủ đề cực kỳ quan trọng: Sàn giao dịch Thương mại điện tử (E-Marketplaces). Mời các em nhìn lên Slide 1. Thầy muốn mở đầu bằng một nhận định: “Sàn TMĐT không chỉ là nơi mua bán, nó là hạ tầng của nền kinh tế số”.
+Người 2: Dạ thưa thầy, em thường nghĩ hạ tầng là đường xá, cầu cống, điện nước. Tại sao Shopee hay Lazada lại được gọi là “hạ tầng” ạ?
+Người 1: Câu hỏi rất hay. Trong kinh tế truyền thống, nếu đường xá bị chặn, hàng hóa không lưu thông được. Còn trong kinh tế số, Sàn TMĐT đóng vai trò y hệt như vậy.
+• Ví dụ thực tế: Em hãy tưởng tượng nếu ngày mai Shopee “sập” server trong 24 giờ. Hàng triệu người bán không có khách, hàng chục đơn vị vận chuyển (như GHTK, J&T) ngồi chơi xơi nước, và dòng tiền hàng trăm tỷ đồng bị đóng băng. Nó không khác gì việc phong tỏa một thành phố lớn cả. Do đó, chúng ta phải học về nó như học về một hệ sinh thái, chứ không chỉ là một cái chợ.
+
+Slide 2: TỪ “CHỢ VẬT LÝ” ĐẾN “KHÔNG GIAN THỊ TRƯỜNG ẢO”
+Người 1: Để hiểu sự tiến hóa này, chúng ta hãy so sánh hai khái niệm: Marketplace (Chợ truyền thống) và Marketspace (Thị trường ảo).
+Người 2: Nhìn hình ảnh trên slide, em thấy bên trái là Chợ Bến Thành, bên phải là Shopee. Sự khác biệt lớn nhất có phải là cái điện thoại không thầy?
+Người 1: Cái điện thoại chỉ là công cụ. Sự khác biệt nằm ở Giới hạn Vật lý.
+• Chợ Bến Thành (Marketplace): Em muốn mua hàng, em phải dắt xe ra, chịu nắng nôi, và quan trọng là phải đến trước giờ đóng cửa (thường là 6-7h tối). Giao dịch diễn ra mặt đối mặt. 
+• Shopee (Marketspace): Em nằm trên giường lúc 12h đêm vẫn “chốt đơn” được. Hàng hóa và thông tin đã được số hóa.
+• Ví dụ thực tế: Một sinh viên lớp mình muốn mua vải vóc. Nếu ra chợ Ninh Hiệp, em mất cả ngày đi lại. Nhưng trên Marketspace, em có thể đặt vải từ Quảng Châu (Taobao/1688) ship về tận cửa mà không cần biết tiếng Trung. Rào cản không gian và thời gian đã bị xóa bỏ.
+
+Slide 3: BẢN CHẤT: MÔ HÌNH MANY-TO-MANY
+Người 1: Slide này rất quan trọng để dân Quản trị kinh doanh phân biệt các mô hình. Chúng ta có Webstore (One-to-Many) và Sàn giao dịch (Many-to-Many).
+
+Người 2: Thầy ơi, vậy trang web của Nike hay Dell có phải là sàn không ạ? Em thấy họ bán nhiều đồ lắm.
+Người 1: Không đâu em.
+• Webstore (One-to-Many): Trang Nike.com hay Dell.com chỉ có một người bán (là chính hãng) bán cho nhiều người mua. Nếu Nike hết size giày em thích, em buộc phải rời đi. 
+• Sàn giao dịch (Many-to-Many): Em hãy nhìn vào Amazon hay Alibaba. Ở đó có hàng triệu người bán và hàng triệu người mua gặp nhau. Sàn chỉ đứng giữa làm nền tảng kết nối. 
+• Ví dụ thực tế: Khi em lên Tiki gõ “Giày thể thao”, em sẽ thấy giày của Biti’s, Adidas, và cả Thượng Đình cùng hiện ra. Nhiều người bán cùng cạnh tranh để phục vụ em. Đó chính là bản chất “Many-to-Many” tạo nên sự đa dạng khổng lồ mà Webstore không bao giờ có được.
+
+Slide 4: 06 THÀNH PHẦN CẤU TẠO CỦA “CỖ MÁY” SÀN TMĐT
+Người 1: Vậy để vận hành cái “chợ vạn người bán” này, chúng ta cần những linh kiện gì? Slide 4 cho thấy 6 thành phần cấu tạo.
+Người 2: Em thấy có Khách hàng, Người bán, Hàng hóa… mấy cái này dễ hiểu. Nhưng Hạ tầng (Infrastructure) và Back-end khác nhau chỗ nào ạ?
+Người 1: Đây là điểm các CEO tương lai hay nhầm lẫn. Hãy nhìn theo mô hình “Tảng băng trôi”:
+• Front-end (Giao diện): Là cái App Shopee màu cam mà em lướt hàng ngày. Nó có thanh tìm kiếm, giỏ hàng. Đây là phần nổi.
+• Back-end (Quản trị) & Infrastructure: Là phần chìm nhưng quyết định sống còn.
+o Ví dụ thực tế: Em đặt một ly trà sữa. Front-end giúp em chọn món. Nhưng để ly trà sữa đến tay em trong 30 phút, hệ thống Back-end phải điều phối shipper (Logistics), xử lý trừ tiền ví điện tử (Payment) và cập nhật kho hàng (Inventory). Nếu Back-end lỗi, App có đẹp đến mấy cũng vô dụng.
+• Các em lưu ý: Cạnh tranh hiện nay của các sàn không nằm ở giao diện đẹp, mà nằm ở Logistics và Thanh toán (Back-end).
+
+Slide 5: CHỨC NĂNG TẠO GIÁ TRỊ (TẠI SAO CHÚNG TA CẦN SÀN?)
+Người 1: Cuối cùng cho phần này, tại sao người bán chịu mất phí 8-10% cho sàn? Sàn mang lại giá trị gì?
+Người 2: Em nghĩ đầu tiên là tiện ạ. Tìm cái gì cũng có.
+Người 1: Đúng, đó là chức năng số 1: Kết nối (Matching).
+• Nó giúp giảm Chi phí tìm kiếm (Search cost). Thay vì chạy 10 cửa hàng để khảo giá cái Tivi, em chỉ cần gõ tên và bấm “Sắp xếp giá thấp đến cao”. Đó là So sánh giá (Price discovery). 
+Người 2: Còn chức năng số 3: Xây dựng niềm tin (Institutional Trust) là sao ạ?
+Người 1: Đây là cái đáng tiền nhất. Trong môi trường ảo, làm sao em tin một người bán lạ hoắc ở tận Cà Mau?
+• Sàn tạo ra niềm tin bằng hệ thống Review/Rating (Sao và Bình luận).
+• Quan trọng hơn, họ có cơ chế Bảo hiểm giao dịch (Escrow).
+• Ví dụ thực tế: “Shopee Đảm Bảo”. Khi em trả tiền mua áo, Shopee giữ tiền đó, chưa đưa cho người bán ngay. Sau 3-7 ngày, nếu em không khiếu nại hàng rách/hỏng, Shopee mới nhả tiền cho người bán. Chính cơ chế “người trung gian cầm tiền” này giúp người lạ dám giao dịch với nhau.
+
+Slide 6: PHÂN LOẠI THEO QUYỀN SỞ HỮU (AI LÀ CHỦ SÂN CHƠI?)
+Người 1: Chúng ta vừa biết Sàn là một cái chợ. Vậy ai làm chủ cái chợ này? Slide 6 phân loại dựa trên “Quyền sở hữu” (Ownership).
+Người 2: Em thấy trên slide có 2 loại: Công cộng (Public) và Riêng (Private). Có phải Public là của nhà nước không thầy?
+Người 1: À không, “Công cộng” ở đây nghĩa là Mở cửa cho công chúng.
+1. Sàn Công cộng (Public):
+o Là sân chơi “vui vẻ” nhất. Do bên thứ 3 độc lập sở hữu.
+o Bất kỳ ai cũng có thể đăng ký bán, bất kỳ ai cũng có thể mua.
+o Ví dụ: Lazada, Alibaba.com. Họ không bán hàng của họ, họ bán “chỗ ngồi” cho thiên hạ buôn bán.
+2. Sàn Riêng (Private):
+o Đây là sân chơi “kín”. Do một công ty lớn (thường là Tập đoàn B2B) sở hữu để phục vụ mục đích riêng của họ.
+o Nó chia làm 2 nhánh nhỏ mà các em rất dễ nhầm lẫn:
+• Sell-side: Một ông lớn BÁN cho nhiều đại lý (Ví dụ: Cisco, Vinamilk).
+• Buy-side: Một ông lớn MUA từ nhiều nhà cung cấp (Ví dụ: Walmart).
+Teaching Point: Sàn Công cộng kiếm tiền từ phí giao dịch. Sàn Riêng kiếm tiền từ việc tối ưu hóa quy trình mua/bán của chính công ty đó.
+
+Slide 7: PHÂN LOẠI THEO ĐẶC THÙ HÀNG HÓA (NGANG HAY DỌC?)
+Người 1: Tiếp theo, nếu em khởi nghiệp làm sàn TMĐT, em sẽ bán “tạp hóa” hay bán “đồ chuyên dụng”? Mời nhìn Slide 7.
+Người 2: Em thấy khái niệm Sàn Ngang (Horizontal) và Sàn Dọc (Vertical). Nghe trừu tượng quá ạ.
+Người 1: Hãy hình dung thế này:
+• Sàn Ngang (Horizontal):
+o Giống như siêu thị BigC hay trang Tiki/Amazon.
+o Phương châm là: “Bán tất cả mọi thứ” (One-stop shopping).
+o Họ bán từ cái tăm đến cái tủ lạnh. Lợi thế là Tiện lợi, khách hàng mua gì cũng có.
+• Sàn Dọc (Vertical):
+o Giống như một Hiệu thuốc hay Cửa hàng bán đồ phượt.
+o Họ chỉ chuyên sâu đúng 1 ngành hàng.
+o Ví dụ thực tế: Airbnb (chỉ chuyên lưu trú) hoặc ChemConnect (sàn giao dịch hóa chất). Em không thể lên Airbnb mua quần áo, và cũng không lên Amazon để tìm mua 1 tấn hóa chất công nghiệp chuyên dụng được.
+Câu hỏi thảo luận: Tại sao các sàn Dọc (Vertical) vẫn sống khỏe dù Amazon hay Shopee rất mạnh? (Gợi ý: Vì họ có kiến thức chuyên môn sâu mà sàn ngang không có).
+
+Slide 8: MÔ HÌNH DOANH THU (SÀN KIẾM TIỀN KIỂU GÌ?)
+Người 1: Làm sàn tốn tiền server, nhân viên, marketing. Vậy họ lấy tiền đâu để bù lỗ 10 năm trời như Shopee/Lazada? Slide 8 trả lời câu hỏi này.
+Người 2: Em nghĩ chủ yếu là ăn phần trăm hoa hồng đúng không thầy?
+Người 1: Chính xác, nhưng chưa đủ. Đó chỉ là 1 trong 4 nguồn thu chính:
+1. Phí giao dịch (Transaction Fees): Mô hình phổ biến nhất. Thu % trên hóa đơn (ví dụ 8-10%). 
+2. Phí thành viên (Subscription): Thu phí định kỳ.
+o Ví dụ: LinkedIn Premium hoặc gói Alibaba Gold Supplier. Em đóng tiền để được xem data xịn, hoặc được huy hiệu uy tín.
+3. Quảng cáo (Advertising):
+o Đây là “mỏ vàng”. Khi em search từ khóa, ai trả tiền cao nhất sẽ được hiện lên đầu (Đấu thầu từ khóa).
+4. Dịch vụ GTGT (Value-Added Services):
+o Sàn cung cấp thêm Logistics, Tài chính (cho vay), Phân tích dữ liệu bán hàng.
+Teaching Point: Các sàn TMĐT ngày nay đang chuyển dịch từ thu phí giao dịch sang thu tiền từ Quảng cáo và Dịch vụ tài chính (Fintech).
+
+Slide 9: VAI TRÒ TRUNG GIAN (DISINTERMEDIATION & REINTERMEDIATION)
+Người 1: Slide 9 nói về sự thay đổi quyền lực trong kênh phân phối. Đây là slide quan trọng nhất về mặt chiến lược.
+Người 2: Em thấy hai từ này dài và khó đọc quá: Disintermediation và Reintermediation.
+Người 1: (Cười) Đừng lo, hãy nhìn vào ví dụ ngành hàng không trên slide.
+1. Truyền thống: Nhà SX -> Đại lý cấp 1 -> Đại lý cấp 2 -> Khách hàng . Ngày xưa mua vé máy bay em phải ra phòng vé, tốn thời gian và phí cao.
+2. Disintermediation (Phi trung gian hóa):
+o Nghĩa là “Cắt bỏ khâu trung gian”.
+o Ví dụ: Hãng hàng không bán vé trực tiếp trên Website của họ. Đại lý mất việc. Giá vé rẻ hơn cho khách.
+3. Reintermediation (Tái trung gian hóa):
+o Khi Đại lý cũ chết đi, một loại “Cò” mới, thông minh hơn xuất hiện. Đó là các Sàn TMĐT (như Agoda, Traveloka).
+o Tại sao? Vì khách hàng không muốn vào 10 trang web của 10 hãng bay để so giá. Họ cần 1 nơi tổng hợp tất cả. Traveloka tạo ra “giá trị thông tin”.
+Kết luận: TMĐT không giết chết trung gian, nó chỉ thay thế trung gian kém hiệu quả bằng trung gian công nghệ cao.
+
+Slide 10: MÔ HÌNH PRIVATE SELL-SIDE (B2B - DELL PREMIER)
+Người 1: Chúng ta chốt lại phần này với một mô hình B2B kinh điển: Private Sell-side. Slide 10 lấy ví dụ về Dell.
+Người 2: Thầy ơi, B2B là bán buôn đúng không ạ?
+Người 1: Đúng, nhưng ở đẳng cấp cao hơn. Mô hình này là: Một người bán (One) -> Nhiều người mua (Many).
+• Hãy nhìn Case Study Dell Premier.
+• Giả sử em là Giám đốc CNTT của tập đoàn FPT. Em cần mua 1.000 cái laptop cho nhân viên. Em không thể lên trang chủ Dell rồi ngồi click mua lẻ từng cái.
+• Dell sẽ cấp cho FPT một tài khoản riêng (Extranet).
+• Khi đăng nhập vào, FPT sẽ thấy một Catalog cá nhân hóa. Giá trong đó là giá đã chiết khấu 20% theo hợp đồng riêng, và cấu hình máy là cấu hình chuẩn cho nhân viên FPT. 
+• Hơn nữa, hệ thống này tích hợp thẳng vào phần mềm quản lý (ERP) của FPT để tự động hóa việc đặt hàng.
+Teaching Point: Trong B2B, khách hàng không cần giao diện đẹp lung linh, họ cần sự tích hợp hệ thống và giá cả cá nhân hóa.
+
+Slide 11: MÔ HÌNH PRIVATE BUY-SIDE (KHI NGƯỜI MUA LÀ “VUA”)
+Người 1: Chúng ta tiếp tục với một mô hình rất thú vị: Private Buy-side hay còn gọi là E-Procurement (Mua sắm điện tử). Mời các em nhìn vào biểu đồ trên Slide 11.
+Người 2: Thưa thầy, bình thường đi đấu giá (Auction) là ai trả giá cao nhất thì thắng. Tại sao ở đây biểu đồ giá lại đi xuống (Reverse Auction) ạ? .
+Người 1: Rất tinh ý. Đây là Đấu giá ngược.
+• Trong mô hình này: Một Người Mua (One) -> Nhiều Người Bán (Many).
+• Ví dụ thực tế: Tập đoàn Walmart cần mua 1 triệu chiếc áo thun để bán trong năm nay. Họ không đi năn nỉ từng nhà máy. Họ đăng một yêu cầu (RFQ) lên hệ thống riêng.
+• Các nhà máy dệt may (Supplier 1, 2, 3) nhìn thấy “miếng bánh” này và bắt đầu đấu giá. Ông A chào giá 5$/áo. Ông B muốn thắng thầu nên chào 4.8$. Ông C chốt 4.5$.
+• Kết quả: Giá giảm dần theo thời gian. Walmart mua được giá rẻ nhất.
+• Lợi ích: Tiết kiệm chi phí khổng lồ và minh bạch hóa quá trình mua sắm, tránh việc nhân viên thu mua “đi đêm” với nhà cung cấp.
+
+Slide 12: SÀN GIAO DỊCH CÔNG CỘNG B2B (ALIBABA.COM)
+Người 1: Rời khỏi sân chơi riêng của các ông lớn, chúng ta ra biển lớn: Public B2B Exchanges. Điển hình là Alibaba.com.
+Người 2: Alibaba.com khác gì Taobao hay Shopee ạ?
+Người 1: Khác hoàn toàn về quy mô đơn hàng.
+• Shopee là B2C (bán lẻ từng cái). Alibaba.com là B2B (bán buôn, bán theo container).
+• Vấn đề lớn nhất của B2B là Niềm tin. Em dám chuyển 100.000 USD cho một nhà máy ở Trung Quốc mà em chưa từng gặp mặt không?
+• Giải pháp của Alibaba:
+1. Verified Supplier: Alibaba cử nhân viên đến tận nhà máy quay phim, chụp ảnh, kiểm tra giấy phép kinh doanh rồi cấp “Tích xanh”.
+2. Trade Assurance (Bảo hiểm thanh toán): Alibaba giữ tiền của em. Nếu nhà máy giao sai hàng hoặc chậm tiến độ, Alibaba hoàn tiền cho em. Đây chính là cách họ giải quyết bài toán “Thanh khoản” và “Niềm tin” trong B2B toàn cầu.
+
+Slide 13: XU HƯỚNG TƯƠNG LAI (SOCIAL, MOBILE & O2O)
+Người 1: Vậy tương lai của Sàn TMĐT sẽ đi về đâu? Slide 13 chỉ ra 3 xu hướng: Mobile First, Social Commerce và O2O.
+Người 2: Em thấy Social Commerce đang rất hot với TikTok Shop.
+Người 1: Đúng vậy.
+• Social Commerce: Trước đây, em lên Facebook để giải trí, lên Shopee để mua sắm. Bây giờ, ranh giới đó bị xóa nhòa. Em xem livestream của “chiến thần hà linh” hay “Phạm Thoại” trên TikTok, vừa cười vui vừa chốt đơn. Đó là Shoppertainment (Mua sắm kết hợp giải trí).
+• O2O (Online-to-Offline): Grab hay Uber là ví dụ điển hình. Em đặt xe trên môi trường ảo (Online), nhưng dịch vụ em nhận được là một chuyến đi thực tế (Offline). Sàn TMĐT không chỉ bán hàng hóa, nó bán cả dịch vụ đời sống. 
+
+Slide 14: BÀI TẬP TÌNH HUỐNG (CASE STUDY: ỐC VÍT MÁY BAY)
+Người 1: Bây giờ chúng ta sẽ áp dụng kiến thức vào thực tế. Mời các em nhìn bản vẽ kỹ thuật trên Slide 14 .
+• Tình huống: Em là CEO một Startup sản xuất Linh kiện ốc vít chính xác cao cho máy bay/ô tô. Em muốn bán toàn cầu.
+Câu hỏi thảo luận:
+1. Em chọn Sàn Ngang (như Alibaba) hay Sàn Dọc (như Aeroxchange - sàn chuyên linh kiện hàng không)?
+2. Chiến lược của em là Phi trung gian hóa hay Tái trung gian hóa?
+(GV dừng lại 30 giây để sinh viên suy nghĩ)
+SV (đại diện): Dạ thưa thầy, em nghĩ nên chọn Alibaba vì nó đông người mua nhất ạ. Càng đông càng dễ bán chứ?
+Người 1: Cảm ơn em. Có bạn nào có ý kiến khác không? Một con ốc vít máy bay giá 100$, sai số 0.001mm, liệu có bán chung chỗ với ốc vít cân ký không?
+
+Slide 15: GIẢI ĐÁP & TỔNG KẾT BÀI HỌC
+Người 1: Đây là câu trả lời và cũng là bài học “xương máu” cho doanh nghiệp B2B:
+1. Chiến lược chọn sàn: Phải chọn Sàn Dọc (Vertical Marketplace).
+o Tại sao? Khách hàng của em là kỹ sư Boeing, Airbus hay VinFast. Họ cần tìm kiếm dựa trên thông số kỹ thuật, chứng chỉ an toàn (CO/CQ), vật liệu hợp kim.
+o Sàn Ngang như Alibaba quá “loãng”, khách ở đó thường tìm hàng giá rẻ, phổ thông. Em bán hàng kỹ thuật cao ở đó sẽ không tìm thấy khách hàng mục tiêu (Niche market).
+2. Vai trò trung gian:
+o Em đang thực hiện Disintermediation (Phi trung gian hóa) vì em bỏ qua các công ty xuất nhập khẩu truyền thống.
+o Đồng thời, em đang thực hiện Reintermediation (Tái trung gian hóa) vì em sử dụng Sàn TMĐT làm “cầu nối” mới để đảm bảo thanh toán và logistics.
+KẾT LUẬN: Thương mại điện tử không phải cứ lên sàn lớn nhất là thắng. Hiểu đúng bản chất hàng hóa và mô hình sàn (Ngang hay Dọc, B2B hay B2C) mới giúp doanh nghiệp tìm đúng “long mạch” để phát triển.
+Cảm ơn các em đã lắng nghe buổi học hôm nay!

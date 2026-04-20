@@ -1,0 +1,609 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_1_Tiet_1",
+    "concept_name": "Chương_1_Tiết 1_Khái niệm và Tiếp cận",
+    "file_source": "Chương_1_Tiết 1_Khái niệm và Tiếp cận.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_1_Tiet_1_0",
+      "type": "multiple_choice",
+      "content": "Theo nghĩa hẹp, thương mại điện tử (E-commerce) chủ yếu tập trung vào hoạt động nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đào tạo nhân sự nội bộ."
+        },
+        {
+          "key": "B",
+          "text": "Mua bán qua mạng."
+        },
+        {
+          "key": "C",
+          "text": "Quản lý tài nguyên doanh nghiệp (ERP)."
+        },
+        {
+          "key": "D",
+          "text": "Thiết kế sản phẩm mới."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "TMĐT (EC) theo nghĩa hẹp tập trung vào việc mua, bán, chuyển giao hoặc trao đổi sản phẩm/dịch vụ qua mạng máy tính và Internet.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_1",
+      "type": "multiple_choice",
+      "content": "Thuật ngữ \"E-business\" (Kinh doanh điện tử) khác với \"E-commerce\" (Thương mại điện tử) ở điểm nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "E-business hẹp hơn E-commerce."
+        },
+        {
+          "key": "B",
+          "text": "E-business chỉ dùng cho B2B."
+        },
+        {
+          "key": "C",
+          "text": "E-business có phạm vi rộng hơn."
+        },
+        {
+          "key": "D",
+          "text": "Cả hai thuật ngữ là đồng nghĩa."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "E-business có định nghĩa rộng hơn, bao gồm không chỉ mua bán mà còn phục vụ khách hàng, cộng tác với đối tác và các giao dịch điện tử nội bộ.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_2",
+      "type": "multiple_choice",
+      "content": "Một tổ chức chỉ bán hàng trực tuyến và không có cửa hàng vật lý được gọi là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Brick-and-mortar."
+        },
+        {
+          "key": "B",
+          "text": "Click-and-mortar."
+        },
+        {
+          "key": "C",
+          "text": "Virtual (Pure-play)."
+        },
+        {
+          "key": "D",
+          "text": "Traditional retailer."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Các công ty chỉ tham gia vào TMĐT (chỉ bán hàng trực tuyến) được coi là các tổ chức ảo (virtual) hoặc pure-play.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_3",
+      "type": "multiple_choice",
+      "content": "Đặc điểm \"Ubiquity\" (Tính phổ quát) của thương mại điện tử có nghĩa là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ bán hàng tại cửa hàng vật lý."
+        },
+        {
+          "key": "B",
+          "text": "Có mặt mọi nơi, mọi lúc."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ bán hàng trong giờ hành chính."
+        },
+        {
+          "key": "D",
+          "text": "Giới hạn trong biên giới quốc gia."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Tính phổ quát (Ubiquity) cho phép mua sắm mọi lúc, mọi nơi, vượt qua giới hạn về thời gian và địa lý, giải phóng thị trường khỏi vị trí vật lý.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_4",
+      "type": "multiple_choice",
+      "content": "Ba chiều được sử dụng để phân loại TMĐT trong ma trận 3D là: Sản phẩm, Quy trình và...?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lợi nhuận."
+        },
+        {
+          "key": "B",
+          "text": "Tác nhân giao hàng."
+        },
+        {
+          "key": "C",
+          "text": "Công nghệ thanh toán."
+        },
+        {
+          "key": "D",
+          "text": "Nền tảng tiếp thị."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Ba chiều của TMĐT để xác định mức độ số hóa là: Sản phẩm (Product), Quy trình (Process) và Tác nhân giao hàng (Delivery Agent).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_5",
+      "type": "multiple_choice",
+      "content": "\"Brick-and-mortar\" dùng để chỉ loại hình doanh nghiệp nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Doanh nghiệp thuần túy số."
+        },
+        {
+          "key": "B",
+          "text": "Sàn giao dịch ảo."
+        },
+        {
+          "key": "C",
+          "text": "Doanh nghiệp thuần vật lý."
+        },
+        {
+          "key": "D",
+          "text": "Doanh nghiệp kết hợp."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Các tổ chức thuần túy vật lý được gọi là tổ chức \"brick-and-mortar\" (gạch và vữa).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_6",
+      "type": "multiple_choice",
+      "content": "Loại hình TMĐT nào chiếm khối lượng giao dịch lớn nhất (khoảng 85%) trên toàn cầu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "B2C."
+        },
+        {
+          "key": "B",
+          "text": "C2C."
+        },
+        {
+          "key": "C",
+          "text": "B2B."
+        },
+        {
+          "key": "D",
+          "text": "G2C."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "B2B (Doanh nghiệp với Doanh nghiệp) chiếm khoảng 85% tổng khối lượng giao dịch TMĐT.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_7",
+      "type": "multiple_choice",
+      "content": "Mua một cuốn sách in (vật lý) từ Amazon được phân loại là hình thức TMĐT nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pure EC (Thuần túy)."
+        },
+        {
+          "key": "B",
+          "text": "Partial EC (Bán phần)."
+        },
+        {
+          "key": "C",
+          "text": "Traditional Commerce."
+        },
+        {
+          "key": "D",
+          "text": "Non-business EC."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Nếu có ít nhất một chiều là vật lý (ở đây là sản phẩm vật lý và giao hàng vật lý), thì đó là TMĐT bán phần (Partial EC).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_8",
+      "type": "multiple_choice",
+      "content": "Hoạt động nào sau đây thuộc E-business nhưng KHÔNG nhất thiết là E-commerce?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bán hàng trên Shopee."
+        },
+        {
+          "key": "B",
+          "text": "Đào tạo nhân viên qua mạng nội bộ."
+        },
+        {
+          "key": "C",
+          "text": "Đấu giá trên eBay."
+        },
+        {
+          "key": "D",
+          "text": "Đặt phòng trên Agoda."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đào tạo trực tuyến và các giao dịch nội bộ thuộc E-business nhưng không phải là hoạt động mua bán thương mại (E-commerce) theo nghĩa hẹp.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_9",
+      "type": "multiple_choice",
+      "content": "\"Global Reach\" (Tầm với toàn cầu) trong TMĐT mang lại lợi thế gì so với thương mại truyền thống?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tăng chi phí tiếp thị."
+        },
+        {
+          "key": "B",
+          "text": "Giới hạn khách hàng địa phương."
+        },
+        {
+          "key": "C",
+          "text": "Tiếp cận qua biên giới chi phí thấp."
+        },
+        {
+          "key": "D",
+          "text": "Yêu cầu cửa hàng vật lý ở mọi nơi."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Tính toàn cầu cho phép doanh nghiệp tiếp cận khách hàng trên toàn thế giới với chi phí hợp lý, vượt qua ranh giới địa lý.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_10",
+      "type": "multiple_choice",
+      "content": "Mô hình \"Click-and-mortar\" là sự kết hợp của:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Webstore và Sàn giao dịch."
+        },
+        {
+          "key": "B",
+          "text": "Online và Offline."
+        },
+        {
+          "key": "C",
+          "text": "Bán buôn và Bán lẻ."
+        },
+        {
+          "key": "D",
+          "text": "Sản xuất và Phân phối."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Click-and-mortar là các tổ chức thực hiện hoạt động TMĐT (online) kết hợp với hoạt động vật lý truyền thống (offline).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_11",
+      "type": "multiple_choice",
+      "content": "Đặc tính \"Interactivity\" (Tính tương tác) của TMĐT cho phép điều gì khác biệt so với TV truyền thống?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giao tiếp hai chiều."
+        },
+        {
+          "key": "B",
+          "text": "Phát sóng một chiều."
+        },
+        {
+          "key": "C",
+          "text": "Quảng cáo thụ động."
+        },
+        {
+          "key": "D",
+          "text": "Hình ảnh độ nét cao."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Tính tương tác cho phép giao tiếp hai chiều (two-way communication) giữa thương nhân và người tiêu dùng, khác với cơ chế một chiều của truyền thông truyền thống như TV.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_12",
+      "type": "multiple_choice",
+      "content": "Một sản phẩm phần mềm được mua, thanh toán và tải xuống hoàn toàn qua Internet là ví dụ của:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Partial EC."
+        },
+        {
+          "key": "B",
+          "text": "Pure EC."
+        },
+        {
+          "key": "C",
+          "text": "Brick-and-mortar."
+        },
+        {
+          "key": "D",
+          "text": "Traditional Commerce."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Khi cả sản phẩm, quy trình và giao hàng đều là kỹ thuật số, đó là TMĐT thuần túy (Pure EC).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_13",
+      "type": "multiple_choice",
+      "content": "Internet giúp giảm sự bất cân xứng thông tin (Information Asymmetry), dẫn đến điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Giá cả minh bạch hơn."
+        },
+        {
+          "key": "B",
+          "text": "Giá cả tăng cao hơn."
+        },
+        {
+          "key": "C",
+          "text": "Khó so sánh giá hơn."
+        },
+        {
+          "key": "D",
+          "text": "Người bán độc quyền giá."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Internet làm tăng sự phong phú và khả năng tiếp cận thông tin, giúp giá cả minh bạch hơn và giảm sự bất cân xứng thông tin giữa người mua và người bán.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_14",
+      "type": "multiple_choice",
+      "content": "Tại sao các doanh nghiệp truyền thống (như Walmart) chuyển đổi sang mô hình Click-and-mortar?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Để đóng cửa hết kho bãi."
+        },
+        {
+          "key": "B",
+          "text": "Để tận dụng lợi thế đa kênh."
+        },
+        {
+          "key": "C",
+          "text": "Để tăng chi phí nhân sự."
+        },
+        {
+          "key": "D",
+          "text": "Để loại bỏ hoàn toàn webstore."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các công ty truyền thống chuyển sang Click-and-mortar để tận dụng lợi thế của cả hai môi trường (online và offline), tạo ra mô hình đa kênh (multichannel/omnichannel).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_15",
+      "type": "multiple_choice",
+      "content": "Yếu tố nào sau đây là rào cản phi kỹ thuật (non-technical limitation) lớn nhất của TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tốc độ đường truyền."
+        },
+        {
+          "key": "B",
+          "text": "Thiếu lòng tin (Trust)."
+        },
+        {
+          "key": "C",
+          "text": "Phần mềm chưa hoàn thiện."
+        },
+        {
+          "key": "D",
+          "text": "Thiếu thiết bị phần cứng."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Thiếu lòng tin vào người bán và các giao dịch \"không mặt đối mặt\" là một hạn chế phi kỹ thuật chính.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_16",
+      "type": "multiple_choice",
+      "content": "Khái niệm \"Richness\" (Độ phong phú thông tin) trong TMĐT có điểm gì vượt trội so với truyền thống?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tiếp cận ít người hơn nhưng tin sâu hơn."
+        },
+        {
+          "key": "B",
+          "text": "Thông tin phong phú và tương tác cao."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ cung cấp văn bản đơn giản."
+        },
+        {
+          "key": "D",
+          "text": "Giảm lượng thông tin để tiết kiệm."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "TMĐT cho phép cung cấp thông tin phong phú (video, âm thanh, văn bản) và có tính tương tác cao tới lượng lớn người dùng, không phải đánh đổi giữa độ phong phú và tầm với như truyền thống.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_17",
+      "type": "multiple_choice",
+      "content": "Sự chuyển dịch từ \"Push\" (Đẩy) sang \"Pull\" (Kéo) trong quy trình sản xuất nhờ TMĐT nghĩa là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sản xuất theo đơn đặt hàng."
+        },
+        {
+          "key": "B",
+          "text": "Sản xuất để tồn kho."
+        },
+        {
+          "key": "C",
+          "text": "Sản xuất hàng loạt trước."
+        },
+        {
+          "key": "D",
+          "text": "Đẩy hàng ra đại lý."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "TMĐT hỗ trợ mô hình \"Kéo\" (Pull), tức là sản xuất bắt đầu từ đơn đặt hàng (build-to-order), thay vì mô hình \"Đẩy\" (Push) là sản xuất dựa trên dự báo và tồn kho.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_18",
+      "type": "multiple_choice",
+      "content": "\"Universal Standards\" (Tiêu chuẩn toàn cầu) của Internet ảnh hưởng thế nào đến rào cản gia nhập thị trường?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Làm tăng rào cản gia nhập."
+        },
+        {
+          "key": "B",
+          "text": "Giảm rào cản gia nhập."
+        },
+        {
+          "key": "C",
+          "text": "Không ảnh hưởng gì."
+        },
+        {
+          "key": "D",
+          "text": "Làm tăng chi phí tìm kiếm."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Các tiêu chuẩn kỹ thuật chung của Internet (như TCP/IP) giúp giảm chi phí gia nhập thị trường cho các doanh nghiệp mới so với các công nghệ độc quyền trước đây.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_1_Tiet_1_19",
+      "type": "multiple_choice",
+      "content": "Trong bối cảnh Kinh doanh số (Digital Business), việc Starbucks tích hợp thẻ thành viên vào ứng dụng di động là ví dụ của:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Chỉ là bán hàng thuần túy."
+        },
+        {
+          "key": "B",
+          "text": "Tối ưu hóa quy trình nội bộ."
+        },
+        {
+          "key": "C",
+          "text": "Giao dịch C2C."
+        },
+        {
+          "key": "D",
+          "text": "Mô hình Pure-play."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đây là ví dụ của Kinh doanh số (Digital Business) vì nó liên quan đến việc tối ưu hóa quy trình quản lý khách hàng và vận hành nội bộ, không chỉ đơn thuần là bán một cốc cà phê (Commerce).",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}

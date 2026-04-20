@@ -1,0 +1,699 @@
+{
+  "metadata": {
+    "concept_id": "Chuong_4_Tiet_3",
+    "concept_name": "Chuong_4_Tiet_3",
+    "file_source": "Chuong_4_Tiet_3.csv"
+  },
+  "questions": [
+    {
+      "id": "Chuong_4_Tiet_3_0",
+      "type": "multiple_choice",
+      "content": "Hình ảnh \"sợi dây thừng mục nát\" nối giữa sợi dây xích thép trong an ninh hệ thống ám chỉ điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Máy chủ máy tính hoạt động quá chậm"
+        },
+        {
+          "key": "B",
+          "text": "Sự lỗi thời của các phần mềm giá rẻ"
+        },
+        {
+          "key": "C",
+          "text": "Điểm yếu sinh ra từ nhận thức của con người"
+        },
+        {
+          "key": "D",
+          "text": "Cáp truyền tải tín hiệu mạng bị đứt gãy"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Điểm yếu sinh ra từ nhận thức của con người. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_1",
+      "type": "multiple_choice",
+      "content": "Tại sao một hệ thống công nghệ tường lửa đắt tiền nhất vẫn có thể sụp đổ hoàn toàn dễ dàng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Do ngân sách dự án năm sau luôn bị giảm bớt"
+        },
+        {
+          "key": "B",
+          "text": "Vì nhân viên quá bất cẩn nhấn link email lừa đảo"
+        },
+        {
+          "key": "C",
+          "text": "Do khách hàng quên thường xuyên cập nhật mã thẻ số"
+        },
+        {
+          "key": "D",
+          "text": "Phân bổ lưu lượng máy chủ nội bộ luôn bị ách tắc"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Vì nhân viên quá bất cẩn nhấn link email lừa đảo. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_2",
+      "type": "multiple_choice",
+      "content": "Một lá chắn bảo mật hoàn chỉnh đối với tổ chức luôn cần được kết hợp bởi hai mặt kiểm soát nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kiểm soát hệ kỹ thuật và hệ thống Kiểm soát quản trị"
+        },
+        {
+          "key": "B",
+          "text": "Khởi tạo mã hóa đa tầng lớp và Nhận diện chuỗi tự động"
+        },
+        {
+          "key": "C",
+          "text": "Trí tuệ học máy AI tạo sinh và Nâng cấp phần mềm máy"
+        },
+        {
+          "key": "D",
+          "text": "Chiến lược kế hoạch bán hàng và Trải nghiệm của khách"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Kiểm soát hệ kỹ thuật và hệ thống Kiểm soát quản trị. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_3",
+      "type": "multiple_choice",
+      "content": "Bản chất cốt lõi của lớp Kiểm soát quản trị (Administrative Controls) là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dùng cấu trúc thuật toán tạo rào che phần mềm web"
+        },
+        {
+          "key": "B",
+          "text": "Giới hạn hành vi hoạt động bằng các chính sách gốc"
+        },
+        {
+          "key": "C",
+          "text": "Thiết lập những bức tường lửa nhằm ngăn chặn DDoS"
+        },
+        {
+          "key": "D",
+          "text": "Vô hiệu ngắt khóa các tính năng thanh toán của web"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Giới hạn hành vi hoạt động bằng các chính sách gốc. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_4",
+      "type": "multiple_choice",
+      "content": "Công cụ đắc lực nhất của Kiểm soát quản trị để ngăn ngừa phá hoại rò rỉ từ bên trong là gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bố trí thêm mạng lưới camera lưu lại hoạt động nhân viên"
+        },
+        {
+          "key": "B",
+          "text": "Thiết lập giới hạn quyền hạn và Phân quyền nội nhân sự"
+        },
+        {
+          "key": "C",
+          "text": "Khuyến khích tạo áp lực đẩy mạnh cạnh tranh lượng bán hàng"
+        },
+        {
+          "key": "D",
+          "text": "Bật mã hóa hệ lưu phân khu tự động lưu cho hệ thống gốc"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Thiết lập giới hạn quyền hạn và Phân quyền nội nhân sự. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_5",
+      "type": "multiple_choice",
+      "content": "Kiến trúc an ninh toàn doanh nghiệp được ví như ngôi đền mà phần \"Nền móng\" tượng trưng cho điều gì trọng tâm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dàn máy siêu xử lý dữ liệu đời mới băng thông rất rộng"
+        },
+        {
+          "key": "B",
+          "text": "Khoản ngân sách cố định hàng đợt nhập mua phần mềm ngoại"
+        },
+        {
+          "key": "C",
+          "text": "Nguồn tài nguyên kiến thức Chính sách và Đào tạo con người"
+        },
+        {
+          "key": "D",
+          "text": "Hệ thuật toán ứng dụng băm chia tích phân xác thực bảo mật"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Nguồn tài nguyên kiến thức Chính sách và Đào tạo con người. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_6",
+      "type": "multiple_choice",
+      "content": "Trong mô hình Ngôi đền an ninh kỹ thuật số, phần \"Mái nhà\" tượng trưng cho vai trò bao bọc của tổ chức bộ phận nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Những lực lượng nhân sự ở bộ phận tư vấn tổng đài chăm sóc khách"
+        },
+        {
+          "key": "B",
+          "text": "Các cam kết xuyên suốt từ trên xuống của Ban cấp cơ sở Giám đốc"
+        },
+        {
+          "key": "C",
+          "text": "Mạng lưới tệp khách hàng thân thiết thường xuyên truy cập vào xem"
+        },
+        {
+          "key": "D",
+          "text": "Lượng bạn thanh niên tài năng sinh viên thực tập thuộc chuyên ban Marketing"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Các cam kết xuyên suốt từ trên xuống của Ban cấp cơ sở Giám đốc. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_7",
+      "type": "multiple_choice",
+      "content": "Tại sao sự cam kết ủng hộ hỗ trợ của Ban Giám đốc lại rất quyết định đến khả năng thành bại của hệ thống kiến trúc?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trọng dụng nguồn thợ xây công thái học phần mềm gốc rễ cực thân tin"
+        },
+        {
+          "key": "B",
+          "text": "Vì chỉ họ có khả năng đánh máy thao tác xử lý hệ máy nội mạng cực nhanh"
+        },
+        {
+          "key": "C",
+          "text": "Họ chính là lực lượng cốt cán nắm giữ quyết định chiến lược và số ngân sách"
+        },
+        {
+          "key": "D",
+          "text": "Họ là những người duy nhất trực tiếp lên lớp tham gia chặn đứng các mã nguồn"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Họ chính là lực lượng cốt cán nắm giữ quyết định chiến lược và số ngân sách. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_8",
+      "type": "multiple_choice",
+      "content": "Kế hoạch Liên tục Kinh doanh nền tảng BCP mang lại tác dụng quan trọng cốt tủy nào khi mà trạng thái khủng hoảng xảy ra?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Triển khai hệ thông tin tìm diệt gốc độ mã nguồn bị nhiễm siêu cấp"
+        },
+        {
+          "key": "B",
+          "text": "Hỗ trợ hệ thống chuyển hướng trạng thái để duy trì chức năng cốt lõi"
+        },
+        {
+          "key": "C",
+          "text": "Bồi hoàn và bù đắp lập tức mọi tổn thất gây ảnh hưởng nhanh chóng theo quy"
+        },
+        {
+          "key": "D",
+          "text": "Bảo chứng và giữ nguyên trạng các máy vi tính xử lý theo chuẩn máy hoàn hảo"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Hỗ trợ hệ thống chuyển hướng trạng thái để duy trì chức năng cốt lõi. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_9",
+      "type": "multiple_choice",
+      "content": "Sự tiến hóa trong việc gây thiệt hại của nền tảng tội phạm mạng hiện tại được thay đổi đáng kể như thế nào so với giai đoạn thuở đầu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dịch chuyển từ trục lợi lấy hàng tỷ triệu đô la tới đánh hoại trang giao diện web vui"
+        },
+        {
+          "key": "B",
+          "text": "Di dời động từ tổ chức trả đũa nhắm đến một cá nhân sang thành phần chống hỗ trợ pháp luật"
+        },
+        {
+          "key": "C",
+          "text": "Phát triển từ việc kết hợp liên phòng thành số ít các nhân tài có lối tư duy suy luận rất đỉnh"
+        },
+        {
+          "key": "D",
+          "text": "Hình thành lên từ mục đích thể hiện cái tôi siêu đẳng tới kinh doanh lấy tiền trục lợi tinh vi"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Hình thành lên từ mục đích thể hiện cái tôi siêu đẳng tới kinh doanh lấy tiền trục lợi tinh vi. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_10",
+      "type": "multiple_choice",
+      "content": "Một trong những đặc điểm nổi bật gây đáng sợ của lực lượng nền kinh tế ngầm kỹ thuật số ngày nay là yếu tố gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quy tắc hoạt động chỉ đánh sập nếu không ai thuê giá cao nhất định"
+        },
+        {
+          "key": "B",
+          "text": "Lập luôn cả những nhân viên phòng giao ban chăm sóc các nạn nhân"
+        },
+        {
+          "key": "C",
+          "text": "Cam kết chỉ tập trung vào lây phát mã độc trong khoảng phiên ban đêm"
+        },
+        {
+          "key": "D",
+          "text": "Chiếu lưu bằng cách lưu hành công khai mọi chứng cứ gốc lên cảnh sát"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Lập luôn cả những nhân viên phòng giao ban chăm sóc các nạn nhân. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_11",
+      "type": "multiple_choice",
+      "content": "Điều gì sẽ tác động trực tiếp lên hệ sinh thái của nhánh bán hàng web nếu chẳng may chỉ có \"Một bánh răng\" trong tam giác đó bị tuột khỏi trục?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hệ thiết bị máy của cỗ xe bán chéo vẫn tiếp diễn chịu được sự tổn thất"
+        },
+        {
+          "key": "B",
+          "text": "Toàn bộ sức chứa của doanh thu hệ trục kết nối sẽ sụp xuống đóng băng"
+        },
+        {
+          "key": "C",
+          "text": "Doanh nghiệp thương quyền cũng chỉ bị thất thoát doanh thu ở cấp độ tương đối"
+        },
+        {
+          "key": "D",
+          "text": "Nguồn khách mới có khả năng trải nghiệm mức duy trì sự trung thành mua nhẹ"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Toàn bộ sức chứa của doanh thu hệ trục kết nối sẽ sụp xuống đóng băng. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_12",
+      "type": "multiple_choice",
+      "content": "Tính Toàn vẹn của hệ thông tin (Integrity) được hệ thống coi là vi phạm cực kỳ nghiêm trọng nhất trong một bối cảnh phát sinh nào dưới đây?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hệ quy chiếu hiển thị lượng trang dẫn đăng chủ liên tục thường luôn bão hòa tắc nghẽn"
+        },
+        {
+          "key": "B",
+          "text": "Giới hacker tiến hành chui lọt mạng truyền tải rồi đổi thông số giá niêm yết của hàng mua"
+        },
+        {
+          "key": "C",
+          "text": "Các hệ quản lý vô tình bất ngờ khiến lộ lọt nguồn thông tin thống kê số lượng nhân viên quỹ"
+        },
+        {
+          "key": "D",
+          "text": "Bộ thiết bị truy dẫn theo hành động trang xem bán mua khóa giấu kỹ lại mã trạm"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Đáp án chính xác là: Giới hacker tiến hành chui lọt mạng truyền tải rồi đổi thông số giá niêm yết của hàng mua. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_13",
+      "type": "multiple_choice",
+      "content": "Một đánh giá thực ví dụ thực tế về việc doanh nghiệp tổ chức website làm thất bại quy ước nhằm củng cố hoàn thành Tính Sẵn sàng (Availability) nghĩa là điều gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Công ty bất ý thao tác để làm tiết lộ ra hàng nghìn tập lớn danh tính thông tin tín dụng khách"
+        },
+        {
+          "key": "B",
+          "text": "Các thực thể có quyền truy quản trị máy bị rơi lọt thông tin chùm mã gốc cấp quyền mật"
+        },
+        {
+          "key": "C",
+          "text": "Rớt đường truyền đứt liên kết mạng làm vô hiệu hóa người mua truy cập máy khi giờ Flash Sale đến"
+        },
+        {
+          "key": "D",
+          "text": "Xử trí chuyển khoản dòng đi nhầm lẫn đường đi thông dẫn đến nguồn thất thoát dòng tín đối lưu"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Rớt đường truyền đứt liên kết mạng làm vô hiệu hóa người mua truy cập máy khi giờ Flash Sale đến. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_14",
+      "type": "multiple_choice",
+      "content": "Tính Đặc tính Bảo mật bảo hộ (Confidentiality) đảm nhận vị thế ra sao trong một trục tam giác lõi cấu tạo nền tảng buôn hàng TMĐT?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tuyệt đối giới hạn luôn quy trình và chỉ hiện phần tài nguyên dữ liệu riêng nhạy cảm nhất cho người theo đúng thẩm quyền"
+        },
+        {
+          "key": "B",
+          "text": "Kiểm định rào lưới để cho kho máy nội mở tính kết nối trao qua dữ liệu công tự do truy xem trên mọi trình không gian mạng"
+        },
+        {
+          "key": "C",
+          "text": "Có xu hướng biến ảo thay cải trạm đổi mỗi liên kết mã cổng thông đầu nối quy chuẩn kết thiết lập đa giao điện chạy đa nhiệm"
+        },
+        {
+          "key": "D",
+          "text": "Rút dây ngắt hoạt mọi loại truy lưu động ứng dụng nội mảng app của trang nền làm tê sập khách chặn luôn ảnh thông qua mua"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Tuyệt đối giới hạn luôn quy trình và chỉ hiện phần tài nguyên dữ liệu riêng nhạy cảm nhất cho người theo đúng thẩm quyền. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_15",
+      "type": "multiple_choice",
+      "content": "Bài thi đạo tạo hướng dẫn các lực lượng nhân viên phụ trách tại văn phòng phải tra xét hình thành được việc phản biện để thuyên giảm tối khả rủi nguyên ra sao?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Đăng ký đình công cắt giảm ca lao làm khi trong đơn xin có kèm theo gửi lệnh thu xếp phải có phần thu gửi làm tài khoản viết cáo"
+        },
+        {
+          "key": "B",
+          "text": "Tuân thủ triết áp vô điều kiện không mảy ấn bấm dính loại thư đường nhánh mạng gửi bởi tất yếu nhóm người đối tác gửi công cụ"
+        },
+        {
+          "key": "C",
+          "text": "Cẩn trọng thiết lập tạo quy tắc xác chứng đối kiểm ngang ngay đối với các lệnh thông điện cầu khẩn cấp tính cách xuất bất ngờ"
+        },
+        {
+          "key": "D",
+          "text": "Quy củ đồng dạng tẩy xóa tệp nguồn tức thì mỗi khi theo thư xuất trình có đưa đi phần chèn nhập định lượng hình khung đính thêm"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Cẩn trọng thiết lập tạo quy tắc xác chứng đối kiểm ngang ngay đối với các lệnh thông điện cầu khẩn cấp tính cách xuất bất ngờ. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_16",
+      "type": "multiple_choice",
+      "content": "Lý do lớn nhất khiến cuộc đua bảo đảm an toàn mạng nền luôn trở thành vòng lặp bất tận qua phép so sánh ẩn ý lá \"Khiên\" đứng cạnh mũi \"Giáo\" là do đâu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bởi quy trách nhiệm do cấu phần kết trát hạ phòng thiết lạc hậu dẫn truyền làm yếu nhịp hệ mạng sinh ra rỗng hệ thống mãi"
+        },
+        {
+          "key": "B",
+          "text": "Nguyên cớ bắt nguồn thông phần dàn công nghệ máy xử vi tính nội hạt cá nhân bộ của người sử xài lúc nào cũng thường trực rớt nhanh"
+        },
+        {
+          "key": "C",
+          "text": "Với nhận định ngay khi phía chặn phòng vươn đắp vững lên theo trình mới thì phương án đòn bẻ khóa đánh công vào cũng nhịp độ tiến lên ngay"
+        },
+        {
+          "key": "D",
+          "text": "Do lực lượng các tổng nhân viên làm thuộc trạm tổng thông thông đài đường ống dẫn truyền chăm công ty luôn vô tâm lộ điểm rò phát mã truy tiếp ra"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Với nhận định ngay khi phía chặn phòng vươn đắp vững lên theo trình mới thì phương án đòn bẻ khóa đánh công vào cũng nhịp độ tiến lên ngay. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_17",
+      "type": "multiple_choice",
+      "content": "Thế chân cho cách lấy định tính tiếp thị dựa theo khía cạnh gia tốc giao dịch của nhà băng tài chính thì các vị chuyên trị chiến lược có thể làm gì thiết lực hơn?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tiến lên đẩy đưa kích sinh vô số những chương trò đãi khách tặng điểm phần thưởng chi phí giá mầm chiêu khuyến khích lôi gọi tham vui kết giao hòa đồng"
+        },
+        {
+          "key": "B",
+          "text": "Xây mua nhập cài ghép bổ khuyết thêm những lớp hệ sinh kỹ phần vi kiểm rà chứng dạng phân tích chuỗi chữ viết câu có tích sẵn định chuẩn cấu đồ"
+        },
+        {
+          "key": "C",
+          "text": "Mang biến yếu phần tính ứng bảo mật trở là lõi chốt lõi để đưa giá thu điểm nhấn cạnh chiếm ưu OVP đầy đảm tính uy tín cao mạnh sức nặng cốt tủy"
+        },
+        {
+          "key": "D",
+          "text": "Mở tung đẩy ồ thêm hạn chính chiết đặc giảm nếu chốt đối khách đồng xài bằng dùng tài quẹt mã thu ngân sẽ trao lấy thời đổi ngày hạn giãn kết phần"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Mang biến yếu phần tính ứng bảo mật trở là lõi chốt lõi để đưa giá thu điểm nhấn cạnh chiếm ưu OVP đầy đảm tính uy tín cao mạnh sức nặng cốt tủy. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_18",
+      "type": "multiple_choice",
+      "content": "Khi mạng lưới định hệ thiết khóa eKYC đa định danh chống xâm phòng lừa bịp có lớp chắn che nhiều tầng bảo vệ được nêu trình, nó dùng biểu chưng đắp ví dụ về bài học gì cốt yếu?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hướng diễn ra lộ chuỗi thiết họa khung đồ đạc kiến trang ngoại thất và cả trong cấu hình phần lập trình rất nặng tốn phí bảo dưỡng đội giá mắc"
+        },
+        {
+          "key": "B",
+          "text": "Các bước phương quy pháp thiết màng tạo màng trượt phanh nhằm ngăn hãm làm kẽm giảm cường nhịp mua qua sàn mạng tiêu chuẩn quá xuề trơn mức"
+        },
+        {
+          "key": "C",
+          "text": "Thiết định lại lấy luôn thuộc mảng hệ lưới bảo vệ an nguy để kết gộp làm mũi giáo mũi chốt sale kinh thương và gia công nâng khả thế sức tranh cạnh đua đối"
+        },
+        {
+          "key": "D",
+          "text": "Xử lược trốn chạy thành lọt né trượt các cửa kiểm lề khung phạt quy giá thuộc quản hành pháp thuộc về nhánh bên quy quan nhà điều khoản ban phát giới"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Thiết định lại lấy luôn thuộc mảng hệ lưới bảo vệ an nguy để kết gộp làm mũi giáo mũi chốt sale kinh thương và gia công nâng khả thế sức tranh cạnh đua đối. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_19",
+      "type": "multiple_choice",
+      "content": "Vụ việc lừa ép tay sinh nhân mảng quảng đăng Marketing làm tài bài cá vì trục điểm riêng thôi mà để tay hacker lẻn được vào kho VIP tệp dữ quan thì mạng ứng vi hệ đã phạm lỗi sai lầm hệ yếu hệ nào?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vi phạm theo nền gốc Phương luận tiêu chế phương của Quản kiểm hành bộ định thiết thuật cứng khuôn bảo thủ thù đặc cách cơ chắp vá lỗi lỏng hở"
+        },
+        {
+          "key": "B",
+          "text": "Bỏ ngang màng Tính định đồ phân khung phát cấu tiến của tổng quản mạng hệ định hướng cho phép bán đi theo các mặt ngạch nguồn đường buôn theo chuẩn"
+        },
+        {
+          "key": "C",
+          "text": "Quy tắc về Chu kỳ phân ngạch quản hệ thống phân quyền phân công nhân nguồn theo trách vị bảo quản thông quyền mật có mảng buông chắp yếu buông"
+        },
+        {
+          "key": "D",
+          "text": "Sai trượt hệ chốt Các lớp rào điểm mảng quy chiếu cho mảng tính điểm phần điểm thưởng thành hạng khi giao hàng quy tiêu dùng cho người đổi trao chưa bật"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Quy tắc về Chu kỳ phân ngạch quản hệ thống phân quyền phân công nhân nguồn theo trách vị bảo quản thông quyền mật có mảng buông chắp yếu buông. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_20",
+      "type": "multiple_choice",
+      "content": "Mục triết cốt chỉ sau rốt cùng của khóa bài ứng thực tập thao Pitching giải về \"Bùng máy Sập khủng hệ giao dòng thông và Thư nhiễm mã độc\" đặt lên hàng sinh học viên là để kích sinh tài năng gì?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nêu chỉ yêu đội sinh lớp tự viết soạn soạn đoạn thay mã thuật nền gốc thay thế phần thuyết diễn giảng lan tràng quá dư lời đi dài dông dòng ở trước giảng"
+        },
+        {
+          "key": "B",
+          "text": "Bắt ép đội khối ban phận kỹ nhân cứng tạo lập ra loại nhỏ điều hành tối sơ hệ giản đơn thay đổi hệ to cấu tốn lớn nguồn lực tài cho bộ máy chính quy máy"
+        },
+        {
+          "key": "C",
+          "text": "Bộc tài minh làm hiện bày phản tư biện logic xử quy khủng cả về hai mảng thuộc nhóm ngạch Quản phòng trị nhân nguồn nội sự lẫn phối đan Nhánh ngạch thuật kỹ thuật số"
+        },
+        {
+          "key": "D",
+          "text": "Phát trình chiếu lại thao chiếu phim từ nguồn băng băng hình quay đồ mô tạo của dòng máy in lập khối 3 chiều hình ảnh mô tạo nổi nâng cấu đa chiều mô máy ảo tiên tiến"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Đáp án chính xác là: Bộc tài minh làm hiện bày phản tư biện logic xử quy khủng cả về hai mảng thuộc nhóm ngạch Quản phòng trị nhân nguồn nội sự lẫn phối đan Nhánh ngạch thuật kỹ thuật số. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_21",
+      "type": "multiple_choice",
+      "content": "Thủ đoạn xảo hình thức mưu loại nào giúp dân nhóm hacker tay xâm dễ vượt xuyên vòng vây hàng tường phần lửa hệ mảng phòng chặn đắt đỏ số hạng bậc nhất trên câu thực chứng diễn giảng?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vô tính giả tình mưu gởi nhắm tới thư hứa trao lấy gói tiền thưởng lễ Tết cho nhóm nhánh kho phận tính kế để làm ngơ lừa dối người nhân qua phòng ban quản kế vào đường mạng kết"
+        },
+        {
+          "key": "B",
+          "text": "Bắn đạn phá hủy từ vật làm phá nhiễu tần sóng làm mất nguồn đầu các trạm dẫn kết phát tín tiếp phát làm sóng vô ngắt đứt không đường truyền đi dây kết mạng"
+        },
+        {
+          "key": "C",
+          "text": "Truy đường theo luồng phân mã luồn theo những cụm câu đoạn phân quy ranh lệnh gốc danh mật của nhánh ứng chương đồ án mạng hệ từ phần thiết sơ bản thiết họa cấu đã trước"
+        },
+        {
+          "key": "D",
+          "text": "Tái thay làm định thiết lại chương cấu bộ hệ máy thiết trạm nối mạch đầu bộ định máy móc định tuyến lõi chính hệ trung trạm kết nguồn mạng bảo hệ bảo bộ để xâm đột lấy lọt luồn kết"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Đáp án chính xác là: Vô tính giả tình mưu gởi nhắm tới thư hứa trao lấy gói tiền thưởng lễ Tết cho nhóm nhánh kho phận tính kế để làm ngơ lừa dối người nhân qua phòng ban quản kế vào đường mạng kết. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    },
+    {
+      "id": "Chuong_4_Tiet_3_22",
+      "type": "multiple_choice",
+      "content": "Nội quy mang gửi lớn đúc tổng nhất kết cho điểm của hoàn cả vòng toàn chương học phần an trị phần quản ninh của phân Chương phân hạng 4 đúc kết chung là nằm ở sự phát nhận thực gì cốt là to chuẩn xác lớn định?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Việc quên không đưa dùng áp cấu khóa bảo hóa hệ sẽ làm thất trôi trút thoát thất luồng đi lượng phí khủng tốn quỹ to khổng quá định khoản mảng phần chi kinh ngạch tài xuất ra cho phận hệ tiếp quảng marketing tiếp quy ngoại thu"
+        },
+        {
+          "key": "B",
+          "text": "Sự kiện hệ gây sai cố từ do phía mảng lỗi trục trặc của đường kỹ dây cáp thuật sẽ giúp gây tự động nhảy làm kích sinh làm gia cao khả lượng tần tương tương mức của đường lượng xem qua tệp khách lướt ghé dạo thăm ứng web"
+        },
+        {
+          "key": "C",
+          "text": "Lớp vòng an hệ cấu của phần tầng hệ khung máy móc ứng cấu của nhánh nên trở đẩy thành điều điểm mấu chốt để doanh cơ nghiệp công ty thực định thu đòi tiền đóng mua phụ thu cho mỗi phần khoản phí từ giá khi dùng kết thêm mở phụ gia"
+        },
+        {
+          "key": "D",
+          "text": "Lỗ hổng sự rườm từ nhóm lỗi sự yếu mảng ngạch quản bộ trị thuộc phân đoạn hệ kỹ số học chính nguyên mầm rễ cốt lõi dẫn tạo ra hệ suy gây hệ gãy đứt sinh hệ đoạt tử mạch hoạt mạng hệ mệnh cho công mạch quy sinh tổ cấu trúc doanh công ti làm kinh phát triển doanh nghiệp trụ cột"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Đáp án chính xác là: Lỗ hổng sự rườm từ nhóm lỗi sự yếu mảng ngạch quản bộ trị thuộc phân đoạn hệ kỹ số học chính nguyên mầm rễ cốt lõi dẫn tạo ra hệ suy gây hệ gãy đứt sinh hệ đoạt tử mạch hoạt mạng hệ mệnh cho công mạch quy sinh tổ cấu trúc doanh công ti làm kinh phát triển doanh nghiệp trụ cột. Vui lòng ôn tập lại nội dung Tiết học này để nắm vững kiến thức.",
+      "pkt_tags": {
+        "difficulty": 0.5,
+        "bloom_level": "understand",
+        "avg_time_sec": 30
+      }
+    }
+  ]
+}
