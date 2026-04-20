@@ -1,0 +1,55 @@
+Chào bạn, đây là một lỗi rất phổ biến khi sử dụng Git và GitHub.
+
+Nguyên nhân:
+GitHub có giới hạn dung lượng tối đa là 100MB cho một file. Mặc dù ở commit mới nhất (10h48_20.4.2026), bạn đã xóa các file backup .zip này đi (hiển thị bằng dấu trừ màu đỏ), nhưng các file nặng này vẫn đang nằm trong các commit cũ (như Initial commit, 10h39...).
+
+Vì Git có cơ chế lưu lại toàn bộ lịch sử thay đổi, nên khi bạn nhấn "Push", nó vẫn cố gắng tải toàn bộ các commit (bao gồm cả những file .zip nặng > 170MB trong quá khứ) lên server, dẫn đến việc bị GitHub chặn lại.
+
+Cách khắc phục:
+Vì dự án này của bạn mới khởi tạo (các commit mới được tạo cách đây khoảng 20 phút) và chưa push thành công lên GitHub lần nào, cách nhanh, sạch và an toàn nhất là xóa lịch sử Git cục bộ đi và tạo lại từ đầu.
+
+Dưới đây là các bước thực hiện (Code và file của bạn sẽ vẫn được giữ nguyên, chúng ta chỉ reset lại lịch sử Git):
+
+Bước 1: Gỡ Repository khỏi GitHub Desktop
+
+Trong GitHub Desktop, click chuột phải vào tên Repository của bạn (WebPersonalLearning) ở cột bên trái.
+
+Chọn Remove.
+
+Lưu ý cực kỳ quan trọng: Một bảng hỏi sẽ hiện ra, TUYỆT ĐỐI KHÔNG tích vào ô "Also move this repository to Recycle Bin" (nếu tích vào, nó sẽ xóa luôn file code của bạn). Chỉ cần nhấn nút Remove.
+
+Bước 2: Xóa lịch sử Git trong thư mục code
+
+Mở thư mục chứa code dự án WebPersonalLearning trên máy tính của bạn.
+
+Bật chế độ xem file ẩn của Windows (Vào tab View > Tích chọn Hidden items).
+
+Bạn sẽ thấy một thư mục bị làm mờ có tên là .git. Hãy xóa thư mục .git này đi. (Bước này giúp xóa toàn bộ lịch sử commit bị dính file nặng).
+
+Bước 3: Ngăn chặn Git lưu file .zip trong tương lai
+Bạn nên báo cho Git biết là hãy "ngó lơ" các file backup đi để không bao giờ bị lỗi này nữa.
+
+Vẫn ở trong thư mục dự án của bạn, tạo một file văn bản mới và đặt tên chính xác là .gitignore (nhớ có dấu chấm ở đầu).
+
+Mở file đó lên bằng Notepad, gõ dòng sau vào và lưu lại:
+*.zip
+
+(Tùy chọn) Bạn cũng có thể thêm dòng BACKUP/ vào file này nếu muốn Git bỏ qua toàn bộ thư mục BACKUP.
+
+Bước 4: Tạo lại Repository và Push
+
+Mở lại GitHub Desktop.
+
+Kéo thả thư mục WebPersonalLearning từ máy tính vào giao diện GitHub Desktop.
+
+Phần mềm sẽ báo không tìm thấy Git repository. Bạn hãy click vào "create a repository" màu xanh dương.
+
+Đặt tên và chọn đường dẫn, sau đó nhấn Create repository.
+
+Bây giờ, bạn hãy điền tên ở ô Summary (ví dụ: Initial commit mới) và nhấn Commit to main.
+
+Cuối cùng, nhấn Publish repository để đẩy code lên GitHub.
+
+Lúc này, vì Git đã bỏ qua các file .zip (nhờ file .gitignore), nó sẽ chỉ tải code của bạn lên và lỗi quá dung lượng sẽ hoàn toàn biến mất.
+
+Bạn thử thực hiện theo các bước trên nhé, có vướng mắc ở bước nào cứ báo lại cho tôi!
