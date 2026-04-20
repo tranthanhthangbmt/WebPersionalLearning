@@ -1,11 +1,11 @@
-/Ref/WebTracNghiem
-/BACKUP
-/Ref
-/BACKUP/stuff
-BACKUP/web_22h45_30.3.2026/WebPersionalLearning.zip
-BACKUP/WebPersionalLearning_08h11_18.4.2026.zip
-BACKUP/WebPersionalLearning_08h47_18.4.2026.zip
-BACKUP/WebPersionalLearning_20h50_30.3.2026.zip
-BACKUP/WebPersionalLearning_20h50_30.3.2026/WebPersionalLearning_20h50_30.3.2026.zip
-BACKUP/WebPersionalLearning_23h59_30.3.2026.zip
-/.venv
+# Bỏ qua toàn bộ thư mục BACKUP và tất cả file bên trong
+/BACKUP/
+
+# Bỏ qua toàn bộ thư mục Ref
+/Ref/
+
+# Bỏ qua môi trường ảo Python
+/.venv/
+
+# Tùy chọn: Bỏ qua tất cả các file nén .zip ở bất kỳ đâu trong dự án
+*.zip
