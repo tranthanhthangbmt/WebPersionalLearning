@@ -9,9 +9,13 @@
 
 # Bỏ qua dữ liệu người dùng và DB để tránh reload loop
 /user_data/
-/DB/
+# Bỏ qua vector store và file db
+/DB/vector_store/
 *.db-wal
 *.db-shm
+
+# Bỏ qua thư mục chứa API key bảo mật
+/GeminiKey/
 
 # Tùy chọn: Bỏ qua tất cả các file nén .zip ở bất kỳ đâu trong dự án
 *.zip
