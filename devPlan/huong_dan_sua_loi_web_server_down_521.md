@@ -39,7 +39,7 @@ Sau khi đã nạp đủ file Key, bạn khởi động lại hệ thống bằn
 sudo docker rm -f $(sudo docker ps -aq)
 
 # Chạy lại container mới ở cổng 80 (chuyển tiếp vào 8081 bên trong)
-sudo docker run -d -p 80:8081 my-web-app
+sudo docker run -d --restart unless-stopped -p 80:8081 my-web-app
 ```
 
 **Cách kiểm tra:**
