@@ -145,5 +145,8 @@ gcloud cli
 C:\Users\thanh\AppData\Local\Google\Cloud SDK
 +++++++++++++++++++++++
 AWS server info
-IP Address: 18.139.255.248
+IP Address: 56.10.131.44
+++++++++++++++++++++++++
 
+git clone https://github.com/tranthanhthangbmt/WebPersionalLearning.git
+cd WebPersionalLearning/
