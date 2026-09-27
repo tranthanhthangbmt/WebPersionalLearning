@@ -31,72 +31,84 @@ class StreakService:
                 "longest_streak": int,
             }
         """
-        today_str = date.today().isoformat()  # "YYYY-MM-DD"
+        try:
+            today_str = date.today().isoformat()  # "YYYY-MM-DD"
 
-        with Session(engine) as session:
-            progress = session.exec(
-                select(UserProgress).where(UserProgress.user_id == user_id)
-            ).first()
+            with Session(engine) as session:
+                progress = session.exec(
+                    select(UserProgress).where(UserProgress.user_id == user_id)
+                ).first()
 
-            if not progress:
-                progress = UserProgress(user_id=user_id)
-                session.add(progress)
-                session.flush()
+                if not progress:
+                    progress = UserProgress(user_id=user_id)
+                    session.add(progress)
+                    session.flush()
 
-            last_active = progress.last_active_date
-            streak_changed = False
-            is_new_day = False
-            daily_bonus = False
+                last_active = progress.last_active_date
+                streak_changed = False
+                is_new_day = False
+                daily_bonus = False
 
-            if last_active == today_str:
-                # Already checked in today - no change
-                pass
-            elif last_active == (date.today() - timedelta(days=1)).isoformat():
-                # Consecutive day! Increment streak
-                progress.current_streak += 1
-                progress.daily_xp_earned = 0  # Reset daily XP
-                streak_changed = True
-                is_new_day = True
-                daily_bonus = True
-            elif last_active is None:
-                # First ever activity
-                progress.current_streak = 1
-                progress.daily_xp_earned = 0
-                streak_changed = True
-                is_new_day = True
-                daily_bonus = True
-            else:
-                # Streak broken! Check for streak freeze
-                frozen = StreakService._check_streak_freeze(user_id)
-                if frozen:
-                    # Freeze used - keep streak
+                if last_active == today_str:
+                    # Already checked in today - no change
+                    pass
+                elif last_active == (date.today() - timedelta(days=1)).isoformat():
+                    # Consecutive day! Increment streak
                     progress.current_streak += 1
+                    progress.daily_xp_earned = 0  # Reset daily XP
                     streak_changed = True
-                else:
-                    # Streak reset
+                    is_new_day = True
+                    daily_bonus = True
+                elif last_active is None:
+                    # First ever activity
                     progress.current_streak = 1
+                    progress.daily_xp_earned = 0
                     streak_changed = True
-                progress.daily_xp_earned = 0
-                is_new_day = True
-                daily_bonus = True
+                    is_new_day = True
+                    daily_bonus = True
+                else:
+                    # Streak broken! Check for streak freeze
+                    frozen = StreakService._check_streak_freeze(user_id)
+                    if frozen:
+                        # Freeze used - keep streak
+                        progress.current_streak += 1
+                        streak_changed = True
+                    else:
+                        # Streak reset
+                        progress.current_streak = 1
+                        streak_changed = True
+                    progress.daily_xp_earned = 0
+                    is_new_day = True
+                    daily_bonus = True
 
-            # Update longest streak
-            if progress.current_streak > progress.longest_streak:
-                progress.longest_streak = progress.current_streak
+                # Update longest streak
+                if progress.current_streak > progress.longest_streak:
+                    progress.longest_streak = progress.current_streak
 
-            progress.last_active_date = today_str
-            session.add(progress)
-            session.commit()
+                progress.last_active_date = today_str
+                session.add(progress)
+                session.commit()
 
-            # Save activity to heatmap file
-            StreakService._log_activity(user_id, today_str)
+                # Save activity to heatmap file
+                StreakService._log_activity(user_id, today_str)
 
+                return {
+                    "streak": progress.current_streak,
+                    "streak_changed": streak_changed,
+                    "is_new_day": is_new_day,
+                    "daily_bonus_awarded": daily_bonus,
+                    "longest_streak": progress.longest_streak,
+                }
+        except Exception as e:
+            print(f"[StreakService] CRITICAL ERROR in check_in: {e}")
+            # Return safe defaults to prevent app crash
             return {
-                "streak": progress.current_streak,
-                "streak_changed": streak_changed,
-                "is_new_day": is_new_day,
-                "daily_bonus_awarded": daily_bonus,
-                "longest_streak": progress.longest_streak,
+                "streak": 0,
+                "streak_changed": False,
+                "is_new_day": False,
+                "daily_bonus_awarded": False,
+                "longest_streak": 0,
+                "error": str(e)
             }
 
     @staticmethod
@@ -161,7 +173,10 @@ class StreakService:
     @staticmethod
     def get_streak_info(user_id: int) -> dict:
         """Get current streak information"""
+        if user_id == 0:
+            return {"current_streak": 0, "longest_streak": 0, "last_active": None, "is_active_today": False}
         with Session(engine) as session:
+
             progress = session.exec(
                 select(UserProgress).where(UserProgress.user_id == user_id)
             ).first()

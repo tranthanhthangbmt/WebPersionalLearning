@@ -1,0 +1,129 @@
+Chào mừng mọi người đã quay trở lại với chương trình phân tích chuyên sâu của chúng ta bắt đầu. Hôm nay thì mình có một thông tin khá là giật gân muốn chia sẻ.
+Ồ, nghe có vẻ nghiêm trọng đấy. Mình đang sẵn sàng nghe đây.
+Theo một khảo sát quy mô toàn cầu của Deloy về xu hướng nguồn vốn nhân lực ấy thì có tới 53% lực lượng lao động hiện nay. Vâng, hơn một nửa đấy, sẽ cần phải thay đổi kỹ năng hoàn toàn trong vòng 3 năm tới.
+Wow, 3 năm tức là chỉ chớp mất một cái là kiến thức của chúng ta bị lỗi thời rồi.
+Đúng rồi. Và diễn đàn kinh tế thế giới cũng bồi thêm một cái cảnh báo là khoảng 40 đến 50% bộ kỹ năng hiện tại sẽ biến mất hoặc thay đổi trong 5 năm. Nó không còn là lời hù dọa nữa.
+Rõ ràng nó là một bài toán sinh tồn luôn rồi. Mô hình đào tạo kiểu dập khuôn, nhổ nhết hàng loạt trong các doanh nghiệp hay trường học hiện tại thực sự là đã sụp đổ.
+Chính xác. Nó quá chậm chạp. Và đó cũng là lý do chúng ta thực hiện buổi trò chuyện hôm nay. Đây sẽ là phần đầu tiên trong chuỗi bốn phần giải mã một tài liệu cực kỳ giá trị.
+À cuốn Designing Personalized Learning Experiences đúng không?
+Chuẩn luôn. Thiết kế trải nghiệm học tập cá nhân hóa của hai tác giả Helen Fake và Nada Dabak. Cuốn sách này đưa ra những chiến lược rất thực tế để xây dựng các chương trình đào tạo cho sinh viên và cả nhân sự doanh nghiệp nữa.
+Một tài liệu rất đúng thời điểm.
+Vâng và mục tiêu của chúng ta trong phần một này là làm rõ nền tảng cốt lõi của họ. Ba phương pháp tiếp cận học tập cá nhân hóa. Đồng thời đập tan cái lầm tưởng rằng cá nhân hóa chỉ đơn giản là giao phó con người cho một thuật toán máy tính khô khan.
+Đúng một lầm tưởng vô cùng phổ biến. Rất nhiều người nghĩ cá nhân hóa giống như một cái công tác bật lên là có AI lo hết. Nhưng theo tài liệu thì dựa trên nghiên cứu của Galager và Presswich, học tập cá nhân hóa nó là một cái giải liên tục.
+Một giải liên tục. Anh có thể giải thích rõ hơn về khái niệm này không?
+Chắc chắn rồi. Tưởng tượng nó như một cái quang phổ ấy. Ở một đầu cực chúng ta gọi là cực vi mô, nơi mà hệ thống máy móc và thuật toán nắm quyền kiểm soát tuyệt đối.
+Tức là máy quyết định mọi thứ.
+Đúng vậy. Nó đánh giá và ra quyết định còn di chuyển dần sang đầu. kia chúng ta có cực vĩ mô. Ở đây thì người học mới là trung tâm của vũ trụ. Họ tự quyết định mọi thứ từ nội dung đến thời gian học.
+Ừm. Để mình thử đưa ra một cái ví dụ hình ảnh cho người nghe dễ hình dung nha. Cái c lực vi mô ấy nó giống hệt như việc chúng ta ngồi vào một chiếc xe hơi tự lái cấp độ cao nhất vậy.
+À một sự so sánh rất thú vị
+đúng không? Kiểu như hệ thống camera tự thu thập dữ liệu, AI tự tính toán đường ngắn nhất. Mình ngồi trong xe không cần biết đường đi ra sao, chỉ việc thất dây an toàn và để hệ thống đưa đến đích.
+Chính xác. Thế còn cực vĩ mô thì Thì sao
+nó giống như việc mình tự cầm lái một chiếc xe đạp địa hình ấy, không có đường ray, không có hệ thống dẫn đường ép buộc. Người lái cứ tự do rẽ phải, rẽ trái, thậm chí lao vào đường mòn ngập bùn để khám phá.
+Rất chuẩn. Và cái điểm mấu chốt mà các nhà thiết kế giáo dục cần phải nắm được là không có chiếc xe nào sinh ra để đi được mọi loại địa hình cả.
+Tức là phải tùy thuộc vào nội dung kiến thức đúng không anh?
+Đúng vậy. Việc chọn phương tiện nào phụ thuộc trực tiếp vào bản chất của cái môn học đó. Nếu nó là một môn có quy tắc đúng sai, rõ ràng, cấu trục chặt chẽ thì chiếc xe tự lái là lựa chọn hoàn hảo.
+Nó dẫn thẳng chúng ta đến phương pháp đầu tiên trên giải liên tục này. Đó là phương pháp dựa trên hệ thống hay system based personalization.
+Vâng, cái đầu cực vi mô mà chúng ta vừa nói. Đấy,
+nơi công nghệ nắm giữ chiếc vô lăng. Phương pháp này tận dụng thuật toán để phân tích liên tục dữ liệu hành vi của người học.
+Để từ đó máy móc tự quyết định xem à cá nhân này nên học gì tiếp theo.
+Chính xác. Học vừa lúc nào, hình thức nào, kiểu như môn toán học hay lập trình thì áp dụng cái này cực kỳ hiệu quả luôn.
+Sách có dẫn chứng một cái hệ thống dạy ngôn ngữ Java. tên là Produce rất hay. Thay vì chỉ bắt sinh viên làm bài test đầu vào để xếp lớp cái kiểu rất truyền thống á
+thì Pro nó làm gì khác biệt ạ?
+Nó theo dõi những cái dữ liệu siêu nhỏ kiểu Vimo ấy. Ví dụ nó xem sinh viên có xu hướng bấm xem video nhiều hơn hay là thích độc các dòng chữa tex hơn.
+Ồ, nó bắt từng cái click chuột luôn.
+Đúng rồi. Nó tính toán cả thời gian sinh viên dừng lại ở một đoạn cốt khó. Xong từ những cái hành vi vô thức đó, thuật toán sẽ phân loại người học theo phong cách tiếp thu và tự chỉnh tài liệu cho bài sau.
+Wow. Và kết quả thì Sao anh?
+Rất đáng suy ngẫm nhé. Điểm số cuối kỳ của nhóm dùng Protus thì không chênh lệch quá nhiều so với nhóm bình thường nhưng thời gian để họ hoàn thành khóa học lại ngắn hơn đáng kể.
+Tối yêu hóa được thời gian hấp thụ kiến thức ở những môn khô khan như vậy là một chỉ số lợi tức đầu tư. Cái ROI cực kỳ khổng lồ đấy. Nhất là trong đào tạo doanh nghiệp.
+Chắc chắn rồi.
+À tài liệu cũng có nhắc đến vụ Skill Shopof kết hợp với IBM này. Họ phân tích dữ liệu lịch sử lướt web của hơn 32.000 nhân sự xem họ click vào chủ đề nào, bỏ qua cái nào
+để gửi email đề xuất. Đúng không? Đúng. Họ gửi email gợi ý lộ trình học tiếp theo dựa trên cái weblog đó và kết quả là tỉ lệ tham gia tương tác tăng vọt tới 128%.
+128% một con số cho thấy sức mệnh của việc đoán chúng có quen vi mô. Nhưng mà này đằng sau sự tăng trưởng đó có một lỗ hồng tâm lý rất tinh vi đấy.
+Mình biết anh định nói gì rồi. Thuật toán có thực sự hiểu con người không? Đúng không?
+Chính xác.
+Kiểu như lúc lập tài khoản mình tích vào ô sở thích là a tố thích trí tuệ nhân tạo, thích phân tích dữ liệu, rất là vĩ mô, rất tham vọng.
+Tầm lý chung mà ai cũng muốn chọn cái nghe có vẻ to tát.
+Nhưng mà đến tầm 4:00 chiều thứ sáu, não bộ dã rời rồi thì hành vi thực tế của mình lại toàn là bấm vào đọc tin giải trí hay xem video hài ngắn.
+Rất thực tế.
+Vậy lúc đó hệ thống sẽ tin vào cả lý tưởng mình nói hay hành động vô thức mình đang làm.
+Khúc mắc này được mổ sẻ rất kỹ trong một nghiên cứu của Lav và cộng sự năm 2010. Nghiên cứu này chỉ ra sự sai lệch cực kỳ lớn giữa cái gọi là sở thích được tuyên bố và sở thích thực tế.
+Nghĩa là chúng ta luôn muốn thể hiện một phiên bản hoàn hảo của mình.
+Đúng. Ai cũng muốn mình là người chăm chỉ. thích tư duy bậc cao nhưng hành đi thực tế lại bị chi phố bởi bản năng tìm kiếm sự thoải mái tức thời. Nếu hệ thống cứ mù quáng chạy theo cái click chuột, nó sẽ liên tục mớm cho người dùng những nội dung dễ dãi.
+Vừa vặn với vùng an toàn luôn.
+Đúng vậy.
+Kiểu này nó tạo ra một cái buồng vang thông tin ecochamber ngay trong môi trường học tập. Hệ thống thấy người học thích ăn ngọt là cứ liên tục đút đường
+thay vì đưa rau xanh và protein đúng không?
+Chính xác. Những kiến thức gai góc khó nhằn nhưng lại mang giá trị cốt lõi thì bị giấu đi mất.
+Đó chính là điểm yếu chí mạng của máy móc. Thuật toán tối ưu sự tương tác rất giỏi. nhưng lại hoàn toàn thất bại trong việc thách thức người học bước ra khỏi giới hạn.
+Nó không hiểu được bối cảnh tâm lý, không biết lúc nào cần phải ép con người đối mặt với khó khăn. Và vì sự đít gãy này của cái gọi là hệ thống tự lái, các chuyên gia buộc phải tìm đến một lời giải khác.
+Lời giải thứ hai, trả lại toàn bộ chiếc vô lăng, nhảy sang chiếc xe đạp địa hình.
+Phương pháp: Dựa trên
+người học Learner based personalization,
+nơi mà công nghệ lùi lại phía sau chỉ nóng đai trò như một cái kho cụ thôi, còn cá nhân người học mới là kiến trúc sư trưởng. tự thiết kế không gian lộ trình đi đến kiến thức của mình.
+Phương pháp này thì thường được hiện thực hóa qua môi trường học tập cá nhân PLE.
+Please tức là personal learning environments. Mình nhớ tài liệu có nhấn mạnh là đừng nhầm lẫn nó với một phần mềm khép kín mà trường học hay công ty mua bản quyền.
+Đúng vậy. Nó không phải là một LMS cứng nhắc. Nó là một hệ sinh thái mở do chính người học tự chắp vá từ các công cụ web 2.0.
+Kiểu như họ dùng YouTube để tìm video, dùng một blog để viết nhật ký, rồi lên mạng xã hội tranh luận với chuyên gia ngoài ngành hoàn toàn. Toàn do họ tự chủ. Có ví dụ về học sinh lớp 7 tự dùng công cụ Simbau để gom nhóm tài liệu môn khoa học theo đúng ý thích của các em. Wow! Cá nhân mình thấy phương pháp này vô cùng lý tưởng nhá. Nghe việc được tự do tuyệt đối, không bị gò bó bởi giáo trình, nó là cách học tự nhiên nhất rồi.
+Cứ mở tung mọi thứ ra đúng không?
+Đúng. Cứ cho họ YouTube, blog, không ai phán xét đúng sai, không có thuật toán bắt ép. Nghe rất là hứa hẹn.
+Khát khao tự chủ đó là một động lực mạnh mẽ. Nhưng chúng ta phải nhìn thẳng vào thực tế, tâm lý phức tạp hơn một chút.
+Lại có cái bẫy gì ở đây sao anh?
+Để sự tự do này không biến thành một đống hỗn độn ấy, người học bắt buộc phải sở hữu một vũ khí bí mật, đó là kỹ năng học tập tự điều chỉnh SRL.
+Self regulated learning
+chính nó.
+Vậy cái SRL này áp dụng vào thực tế nó sẽ trông như thế nào? Nó đâu chỉ đơn giản là việc tự học đâu, đúng không?
+Không hề. Nó là cả một chuỗi kỷ luật tâm lý khắt khe bắt đầu bằng việc tự thiết lập mục tiêu trước khi mở máy lên, sau đó là tự giám sát xem mình có đang bị sao nhãng không. Kiểu thấy bắt đầu mở Facebook là phải tự tắt đi.
+Khó nha. Khó chứ. Và cuối cùng là tự đánh giá khách quan xem mình đã hiểu bài chưa mà không cần ai chấm điểm. Vấn đề là không phải ai cũng có sẵn bộ kỹ năng SL này.
+À cái này giải thích cho nghiên cứu về chương trình Ettime ở một trường trung học mà Netco và Bishop thực hiện này.
+Vụ cho 55 phút tự do đúng không?
+Đúng rồi. Các trưởng áp dụng trao quyển tối đa cho học sinh gần một tiếng mỗi ngày làm bất cứ dự án nào mình muốn, công cụ nào mình thích. Nghe như giấc mơ luôn.
+Nhưng thực tế lại là một cú sốc lớn.
+Tại sao vậy anh?
+Vì khi đối mặt với một chân trời vô tận lựa chọn. Những học sinh không có kỹ năng tự điều chỉnh lập tức rơi vào trạng thái tê liệt lựa chọn.
+Kiểu bị thả vào cái siêu thị khổng lồ mà không đưa cho danh sách mua sắm.
+Đúng không có biển báo lối đi. Đó không phải là tự do nữa mà là sự hoang mang tột độ. Các em cảm thấy lạc lỗng.
+Không chỉ học sinh đâu mà trong tài liệu còn nói các giáo viên cũng chật vật. Họ bị rằng xé nếu hướng dẫn chi tiết thì phá vỡ nguyên tắc tự quyết. Mà đứng im thì học sinh lại không làm được gì.
+Ranh giới giữa hướng dẫn và can thiệp nó quá mỏng manh.
+Tuy nhiên nếu phương pháp này mà áp dụng cho nhóm người đã có sẵn kỷ luật cao thì lại cực kỳ bùng nổ. Tài liệu có nhắc đến dự án Cam Opener tại Denver.
+Một ví dụ tuyệt vời cho môi trường học tập cá nhân ở cấp độ chuyên gia.
+Dự án này dành cho giáo viên đúng không anh?
+Vận. Thay vì để ban giám hiệu xuống dự giờ một cách căng thẳng, các giáo viên ở Denver tự đặt camera quay lại lớp học của chính họ.
+Xong họ làm gì với cái video đó?
+Họ tải lên một nhóm mạng nội bộ kín và tự nguyện mời đồng nghiệp vào hóp ý.
+Wow! Biến từ việc bị cấp trên đánh giá sang việc tự bộc lộ điểm yếu để cùng nhau phát triển.
+Một sự thay đổi đổi văn hóa đào tạo ngoạn mục, kết quả là 90% cảm thấy gắn kết và tỉ lệ bỏ việc giảm xuống múc thấp kỷ lục.
+Khi con người được làm chủ lộ trình của mình, động lực nội tại thực sự bùng nổ.
+Chắc chắn rồi.
+Nhưng mà nhìn lại thì máy móc quyết định hộ thì dễ tạo ra buồng vang, còn tự do tuyệt đối thì lại gây rủi ro tê liệt lựa chọn. Sự xung đột này dẫn chúng ta đến phương pháp thứ ba.
+Một nỗ lực tìm kiếm điểm cân bằng hoàn hảo.
+Phương pháp học tập cá nhân hóa kết hợp blended personalized learning.
+Phương pháp này nó không phải là một sự thỏa hiệp yếu ớt đâu. mà là sự pha trộn tinh hoa,
+nghĩa là có cả hai yếu tố cùng lúc.
+Đúng. Công nghệ vẫn được rồng để thiết lập cấu trúc, gợi ý hướng đi, tức là loại bỏ đi sự hoang mang của cái siêu thị khổng lồ.
+Ừ.
+Nhưng quan trọng nhất, nó không tước đi đặc quyền ra quyết định cuối cùng của con người.
+À, con người vẫn cầm lái nhưng chiếc xe có thêm hệ thống cảnh báo điểm mù. Nghiên cứu của tập đoàn Rand tại các trường K12 chỉ ra rằng phương pháp kết hợp này giúp điểm toán và ngữ văn tăng vọt. Đấy,
+có một ví dụ cụ thể về hệ thống tên là Pears trong tài liệu thực sự vẽ ra được cái tương lai của đào tạo
+Provasive Learning System đúng không? Do viện nghiên cứu SRI và ADL phát triển cho Bộ Quốc phòng Mỹ.
+Vâng, hệ thống này nó không chỉ xem người học click vào đâu mà nó thu thập cả dữ liệu ngữ cảnh đời thực.
+Dữ liệu ngữ cảnh context data. Anh thử mô tả một kịch bản xem nó hoạt động thế nào.
+Tưởng tượng một nhân viên đi công tác chuyến bay đồn một báo trễ hai tiếng. Họ đang ngồi bồn chồn ở sân bay của một thành phố lạ.
+Lúc đó thì họ đang rất rảnh và chán.
+Ngay lập tức hệ thống P nhận diện được sự thay đổi vị trí và thời gian dành đó. Nó gửi một thông báo đẩy cực kỳ nhẹ nhàng. Chuyến bay đang trễ, hệ thống có một tài liệu 5 phút về văn hóa đàm phán của thành phố này. Bạn có muốn xem lướt qua không?
+Trời ơi, ờ cá nhân mình vô cùng thích cái ví dụ này. Nó giống hệt như một vị trợ lý tinh tế đang đi dạo cùng mình vậy.
+Rất tinh tế. Nó không tữ mở video lên, cũng không đánh tụt cây pi nếu mình bấm bỏ qua.
+Trợ lý thấy sếp đang uống cà phê rảnh rỗi liền rút cuốn tạt chí ra gợi ý. Quyết định lật mở ra đọc hay cứ ngồi ngắm máy bay là hoàn toàn tục về con người. Nó bảo vệ được cái bản ngã tự chủ của người học.
+Loại bỏ được sự hoang mang nhưng vẫn nuôi dưỡng sự chủ động,
+biến việc học thành những lựa chọn nhỏ lẻ đan sen vào đời sống thay vì một cái KPI ép buộc, đó mới là văn hóa học tập suốt đời.
+Hoàn toàn đồng ý.
+Chúng ta đã đi qua một chạng đường khá dài rồi. Hãy tổng kết nhanh lại nhé. Học tập cá nhân hóa không phải là chiếc áo mặc vừa cho tất cả. Dù là dựa trên hệ thống như cỗ máy dẫn đường hay dựa trên người học như tự mở đường hay kết hợp như có một trợ lý
+thì các chuyên gia thiết kế giáo dục phải chọn đúng phương pháp cho đúng mục tiêu.
+Vâng. Và hãy nhớ đây mới chỉ là phần một của chuỗi bốn chương trình thôi. Ở các phần sau, chúng ta sẽ đào sâu vào khung tương tác học tập.
+Sẽ có rất nhiều kỹ thuật áp dụng thực tế đấy.
+Nhưng trước khi khép lại, mình muốn nể lại một suy nghĩ này cho người nghe. Trong tài liệu có nhắc đến sự tiến hóa từ web 1.0 chỉ độc đến web 2.0 mạng xã hội tương tác.
+Và giờ là web 3.0 với blockchain phân quyền.
+Đúng, web 3.0 trao quyền sở hữu dữ liệu lại cho cá nhân. Vậy hãy thử tưởng tượng, nếu công nghệ blockchain cho phép mỗi chúng ta sở hữu trọn vẹn, vĩnh viễn và minh bạch mọi dữ liệu học tập, mọi chứng chỉ của mình
+mà không cần lưu trữ trên máy chủ của trường đại học nào cũng không bị Phòng nhân sự công ty kiểm soát
+thì liệu quyền lực có bị đảo chiều không? Liệu trong thập kỷ tới các bằng cấp truyền thống và các bộ phận đào tạo hiện nay có đối mặt với nguy cơ trở nên lỗi thời khi mà mỗi cá nhân đã là một nhà trường của riêng mình?
+Một câu hỏi cực kỳ sắc bén để chúng ta cùng suy ngẫm.
+Vâng, hãy giữ lấy câu hỏi đó. Cảm ơn mọi người đã đồng hành trong buổi phân tích hôm nay và hẹn gặp lại ở phần hai.

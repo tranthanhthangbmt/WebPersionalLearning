@@ -1,0 +1,1507 @@
+{
+    "course_name": "Toán lớp 6 - Khan Academy",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Chương 1: Số tự nhiên",
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "m2",
+            "title": "Chương 2: Số nguyên",
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "m3",
+            "title": "Chương 3: Hình học trực quan",
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "m4",
+            "title": "Chương 4: Một số yếu tố thống kê và xác suất",
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "m5",
+            "title": "Chương 5: Phân số và số thập phân",
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "m6",
+            "title": "Chương 6: Hình học phẳng",
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "m7",
+            "title": "Chương 7: Phần mở rộng",
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Topic 1: Ôn tập về số tự nhiên",
+            "content": "Ôn tập về hàng giá trị của số tự nhiên và cách viết số tự nhiên.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_325f8f8d",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Ôn tập về số tự nhiên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Topic 2: Phép cộng, phép trừ các số tự nhiên",
+            "content": "Thực hiện cộng và trừ các số tự nhiên có nhiều chữ số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_3c915d93",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Phép cộng, phép trừ các số tự nhiên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Topic 3: Phép nhân, phép chia các số tự nhiên",
+            "content": "Thực hiện nhân và chia số tự nhiên, tính chất của phép nhân.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_15fd30c3",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Phép nhân, phép chia các số tự nhiên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c1.4",
+            "parent_macro": "m1",
+            "title": "Topic 4: Lũy thừa với số mũ tự nhiên",
+            "content": "Các phép tính với lũy thừa.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_f3794403",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Lũy thừa với số mũ tự nhiên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c1.5",
+            "parent_macro": "m1",
+            "title": "Topic 5: Thứ tự thực hiện các phép tính",
+            "content": "Áp dụng thứ tự nhân chia trước, cộng trừ sau.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_2d36c59d",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Thứ tự thực hiện các phép tính",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c1.6",
+            "parent_macro": "m1",
+            "title": "Topic 6: Quan hệ chia hết",
+            "content": "Tìm hiểu về ước và bội của một số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_b208131f",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Quan hệ chia hết",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c1.7",
+            "parent_macro": "m1",
+            "title": "Topic 7: Dấu hiệu chia hết",
+            "content": "Dấu hiệu chia hết cho 2, 3, 5, 9.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_99955862",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Dấu hiệu chia hết",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c1.8",
+            "parent_macro": "m1",
+            "title": "Topic 8: Số nguyên tố và hợp số",
+            "content": "Phân biệt số nguyên tố và hợp số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_bf4301a7",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Số nguyên tố và hợp số",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c1.9",
+            "parent_macro": "m1",
+            "title": "Topic 9: Phân tích ra thừa số nguyên tố",
+            "content": "Phương pháp phân tích một số ra thừa số nguyên tố.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_b7794856",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Phân tích ra thừa số nguyên tố",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Topic 1: Làm quen với số nguyên âm",
+            "content": "Khái niệm số nguyên âm và ý nghĩa trong thực tế.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_6aadfdeb",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Làm quen với số nguyên âm",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Topic 2: Thứ tự trong tập hợp các số nguyên",
+            "content": "So sánh số nguyên và biểu diễn trên trục số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_4d73d2ab",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Thứ tự trong tập hợp các số nguyên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c2.3",
+            "parent_macro": "m2",
+            "title": "Topic 3: Phép cộng số nguyên",
+            "content": "Cộng hai số nguyên cùng dấu và khác dấu.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_a3e38656",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Phép cộng số nguyên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c2.4",
+            "parent_macro": "m2",
+            "title": "Topic 4: Phép trừ số nguyên",
+            "content": "Quy tắc trừ số nguyên.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_14f1378e",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Phép trừ số nguyên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c2.5",
+            "parent_macro": "m2",
+            "title": "Topic 5: Phép nhân số nguyên",
+            "content": "Nhân hai số nguyên cùng dấu và khác dấu.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_a142edb4",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Phép nhân số nguyên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c2.6",
+            "parent_macro": "m2",
+            "title": "Topic 6: Phép chia hết và phép chia có dư trong tập số nguyên",
+            "content": "Thực hiện phép chia trong Z.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_d98ff3d0",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Phép chia hết và phép chia có dư trong tập số nguyên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Topic 1: Hình vuông, tam giác đều, lục giác đều",
+            "content": "Nhận biết các hình phẳng cơ bản.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_9c278fa2",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Hình vuông, tam giác đều, lục giác đều",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "Topic 2: Hình chữ nhật, hình thoi, hình bình hành, hình thang cân",
+            "content": "Các tính chất của hình phẳng.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_8289212b",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Hình chữ nhật, hình thoi, hình bình hành, hình thang cân",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Topic 3: Chu vi và diện tích của một số hình phẳng",
+            "content": "Công thức tính chu vi và diện tích.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_b844af84",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Chu vi và diện tích của một số hình phẳng",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c3.4",
+            "parent_macro": "m3",
+            "title": "Topic 4: Trục đối xứng và tâm đối xứng",
+            "content": "Tính đối xứng của các hình.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_e5a5dc2a",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Trục đối xứng và tâm đối xứng",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c4.1",
+            "parent_macro": "m4",
+            "title": "Topic 1: Thu thập và tổ chức dữ liệu",
+            "content": "Cách thu thập và phân loại dữ liệu.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_f3cf5c20",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Thu thập và tổ chức dữ liệu",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c4.2",
+            "parent_macro": "m4",
+            "title": "Topic 2: Biểu đồ cột và biểu đồ cột kép",
+            "content": "Vẽ và đọc dữ liệu từ biểu đồ cột.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_57453858",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Biểu đồ cột và biểu đồ cột kép",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c4.3",
+            "parent_macro": "m4",
+            "title": "Topic 3: Biểu đồ tranh",
+            "content": "Đọc dữ liệu từ biểu đồ tranh.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_7d34a5bd",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Biểu đồ tranh",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c4.4",
+            "parent_macro": "m4",
+            "title": "Topic 4: Xác suất thực nghiệm",
+            "content": "Tính xác suất của một sự kiện đơn giản.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_3a8d91c9",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Xác suất thực nghiệm",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c5.1",
+            "parent_macro": "m5",
+            "title": "Topic 1: Phân số với tử và mẫu là số nguyên",
+            "content": "Mở rộng khái niệm phân số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_12d83623",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Phân số với tử và mẫu là số nguyên",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c5.2",
+            "parent_macro": "m5",
+            "title": "Topic 2: Tính chất cơ bản của phân số",
+            "content": "Rút gọn và quy đồng mẫu số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_78cdd13b",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Tính chất cơ bản của phân số",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c5.3",
+            "parent_macro": "m5",
+            "title": "Topic 3: So sánh phân số",
+            "content": "Cách so sánh hai phân số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_4afff0d6",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: So sánh phân số",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c5.4",
+            "parent_macro": "m5",
+            "title": "Topic 4: Các phép tính với phân số",
+            "content": "Cộng, trừ, nhân, chia phân số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_eba6f812",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Các phép tính với phân số",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c5.5",
+            "parent_macro": "m5",
+            "title": "Topic 5: Số thập phân và các phép tính",
+            "content": "Cộng, trừ, nhân, chia số thập phân.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_89bda89a",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Số thập phân và các phép tính",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c5.6",
+            "parent_macro": "m5",
+            "title": "Topic 6: Làm tròn số và ước lượng",
+            "content": "Quy tắc làm tròn số thập phân.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_eac19513",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Làm tròn số và ước lượng",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c5.7",
+            "parent_macro": "m5",
+            "title": "Topic 7: Tỉ số và phần trăm",
+            "content": "Tính tỉ số phần trăm của hai số.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_1ab62453",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Tỉ số và phần trăm",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c6.1",
+            "parent_macro": "m6",
+            "title": "Topic 1: Điểm, đường thẳng, tia",
+            "content": "Khái niệm cơ bản về hình học phẳng.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_ed3b0844",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Điểm, đường thẳng, tia",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c6.2",
+            "parent_macro": "m6",
+            "title": "Topic 2: Đoạn thẳng. Độ dài đoạn thẳng",
+            "content": "Đo và vẽ đoạn thẳng.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_482ba7aa",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Đoạn thẳng. Độ dài đoạn thẳng",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c6.3",
+            "parent_macro": "m6",
+            "title": "Topic 3: Góc. Số đo góc",
+            "content": "Nhận biết các loại góc (vuông, nhọn, tù, bẹt).",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_4fda5f52",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Góc. Số đo góc",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c7.1",
+            "parent_macro": "m7",
+            "title": "Topic 1: Ứng dụng toán học thực tiễn",
+            "content": "Áp dụng kiến thức vào các bài toán thực tế nâng cao.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_7de9b6f7",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Ứng dụng toán học thực tiễn",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "c7.2",
+            "parent_macro": "m7",
+            "title": "Topic 2: Toán tư duy",
+            "content": "Phát triển tư duy logic toán học.",
+            "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_ext_d4056d72",
+                    "url": "https://vi.khanacademy.org/math/toan-lop-6-viet-nam",
+                    "title": "Tài nguyên: Toán tư duy",
+                    "type": "web",
+                    "icon": "🌐",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "q_m1",
+            "parent_micro": "c1.1",
+            "title": "Bài kiểm tra Chương 1",
+            "content": "Kiểm tra tổng hợp kiến thức chương 1.",
+            "alpha_base": 30,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "q_m2",
+            "parent_micro": "c2.1",
+            "title": "Bài kiểm tra Chương 2",
+            "content": "Kiểm tra tổng hợp kiến thức chương 2.",
+            "alpha_base": 30,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "q_m3",
+            "parent_micro": "c3.1",
+            "title": "Bài kiểm tra Chương 3",
+            "content": "Kiểm tra tổng hợp kiến thức chương 3.",
+            "alpha_base": 30,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "q_m4",
+            "parent_micro": "c4.1",
+            "title": "Bài kiểm tra Chương 4",
+            "content": "Kiểm tra tổng hợp kiến thức chương 4.",
+            "alpha_base": 30,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "q_m5",
+            "parent_micro": "c5.1",
+            "title": "Bài kiểm tra Chương 5",
+            "content": "Kiểm tra tổng hợp kiến thức chương 5.",
+            "alpha_base": 30,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "q_m6",
+            "parent_micro": "c6.1",
+            "title": "Bài kiểm tra Chương 6",
+            "content": "Kiểm tra tổng hợp kiến thức chương 6.",
+            "alpha_base": 30,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        },
+        {
+            "id": "q_m7",
+            "parent_micro": "c7.1",
+            "title": "Bài kiểm tra Chương 7",
+            "content": "Kiểm tra tổng hợp kiến thức chương 7.",
+            "alpha_base": 30,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-05-31T21:20:58.571356"
+            }
+        }
+    ]
+}

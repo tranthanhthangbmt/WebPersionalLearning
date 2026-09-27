@@ -286,7 +286,7 @@ def register_flashcard_page():
                                 with ui.row().classes('items-center gap-3'):
                                     ui.icon('folder', color='blue-400').classes('text-xl')
                                     ui.label(chap_name).classes('font-medium text-gray-200 text-sm')
-                                    ui.label(f'{len(cn)} nodes').classes('text-xs text-gray-500 ml-auto')
+                                    ui.label(f'{len(chap_nodes)} nodes').classes('text-xs text-gray-500 ml-auto')
 
             async def start_session_all():
                 """Generate flashcards from all nodes"""

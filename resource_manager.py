@@ -351,3 +351,137 @@ def get_resource_stats(tree_path: str) -> dict:
         "total_nodes": len(nodes),
         "type_counts": type_counts
     }
+
+
+# ============================================================
+#  MÔ TẢ CHI TIẾT NODE (description_md)
+# ============================================================
+
+def get_node_detail(tree_path: str, node_id: str) -> dict:
+    """
+    Lấy thông tin chi tiết của 1 node, bao gồm ngữ cảnh để AI sinh mô tả.
+    
+    Returns:
+        {id, title, content, description_md, type, parent_id,
+         chapter_title, course_name, sibling_titles, children_titles}
+    """
+    tree_data = _read_tree(tree_path)
+    nodes = _get_nodes_dict(tree_data)
+    edges = tree_data.get("edges", [])
+    
+    if node_id not in nodes:
+        return {}
+    
+    node = nodes[node_id]
+    node_type = node.get("type", "unknown")
+    
+    # Determine type heuristically if not set
+    if node_type == "unknown":
+        if node_id.startswith("m") and node_id[1:].isdigit():
+            node_type = "macro"
+        elif node_id.startswith("a"):
+            node_type = "assess"
+        else:
+            node_type = "micro"
+    
+    title = node.get("label") or node.get("title") or node_id
+    content = node.get("content") or node.get("description") or ""
+    description_md = node.get("description_md", "")
+    
+    # Find parent
+    parent_id = node.get("parent_macro") or node.get("target_micro") or ""
+    if not parent_id:
+        for e in edges:
+            if e.get("relation") == "contains" and e.get("target") == node_id:
+                parent_id = e.get("source", "")
+                break
+        if not parent_id:
+            match = re.search(r'Chuong_(\d+)', node_id)
+            if match:
+                parent_id = f"m{match.group(1)}"
+    
+    # Chapter title
+    chapter_title = ""
+    if parent_id and parent_id in nodes:
+        chapter_title = nodes[parent_id].get("label") or nodes[parent_id].get("title") or parent_id
+    
+    # Course name
+    course_name = tree_data.get("course_name", "")
+    
+    # Sibling titles (nodes with same parent)
+    sibling_titles = []
+    if node_type == "micro":
+        for nid, ndata in nodes.items():
+            if nid == node_id:
+                continue
+            nparent = ndata.get("parent_macro") or ndata.get("target_micro") or ""
+            if not nparent:
+                nm = re.search(r'Chuong_(\d+)', nid)
+                if nm:
+                    nparent = f"m{nm.group(1)}"
+            if nparent == parent_id and nparent:
+                sibling_titles.append(ndata.get("label") or ndata.get("title") or nid)
+    
+    # Children titles and details (for macro nodes)
+    children_titles = []
+    children_details = []
+    if node_type == "macro":
+        for nid, ndata in nodes.items():
+            nparent = ndata.get("parent_macro", "")
+            if not nparent:
+                nm = re.search(r'Chuong_(\d+)', nid)
+                if nm:
+                    nparent = f"m{nm.group(1)}"
+            if nparent == node_id:
+                child_title = ndata.get("label") or ndata.get("title") or nid
+                children_titles.append(child_title)
+                children_details.append({
+                    "id": nid,
+                    "title": child_title,
+                    "content": ndata.get("content") or ndata.get("description") or "",
+                    "description_md": ndata.get("description_md", ""),
+                })
+    
+    return {
+        "id": node_id,
+        "title": title,
+        "content": content,
+        "description_md": description_md,
+        "type": node_type,
+        "parent_id": parent_id,
+        "chapter_title": chapter_title,
+        "course_name": course_name,
+        "sibling_titles": sibling_titles,
+        "children_titles": children_titles,
+        "children_details": children_details,
+    }
+
+
+def update_node_description(tree_path: str, node_id: str, description_md: str) -> bool:
+    """
+    Cập nhật trường description_md cho 1 node.
+    
+    Returns:
+        True nếu thành công, False nếu node không tồn tại
+    """
+    tree_data = _read_tree(tree_path)
+    nodes = _get_nodes_dict(tree_data)
+    
+    if node_id not in nodes:
+        # Thử tìm trong format cũ (macro_nodes, micro_nodes, assess_nodes)
+        found = False
+        for list_key in ["macro_nodes", "micro_nodes", "assess_nodes"]:
+            for node in tree_data.get(list_key, []):
+                if node.get("id") == node_id:
+                    node["description_md"] = description_md
+                    found = True
+                    break
+            if found:
+                break
+        if not found:
+            return False
+    else:
+        nodes[node_id]["description_md"] = description_md
+    
+    _write_tree(tree_path, tree_data)
+    return True

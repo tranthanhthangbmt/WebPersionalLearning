@@ -1,0 +1,161 @@
+﻿I. PHÂN TÍCH DỰ ÁN
+Dựa trên các thông tin được cung cấp từ hồ sơ dự án, dưới đây là phần phân tích chi tiết về dự án khởi nghiệp “Gia sư AI Toàn Năng” (Cây Tri Thức):
+1. Tổng quan dự án
+• Tên dự án: Gia sư AI Toàn Năng - Cây Tri Thức (Knowledge Tree).
+• Đơn vị thực hiện: Nhóm sinh viên thuộc Đại học Đông Á, Phân hiệu Đắk Lắk bao gồm Phạm Quỳnh Nhi (Trưởng nhóm), Lê Anh Đức, Lê Thành Nam và Đỗ Đinh Minh Trọng.
+• Thông điệp cốt lõi: “Gia sư AI Toàn Năng – Tìm đúng bệnh – Trị đúng gốc”.
+• Sứ mệnh: Xóa bỏ rào cản tài chính và địa lý, mang môi trường học tập công bằng, chất lượng tới mọi học sinh vùng sâu vùng xa bằng “Gia sư AI cá nhân hóa”.
+2. Phân tích Vấn đề và Giải pháp
+• Nỗi đau của thị trường (Problem):
+o Khu vực Đắk Lắk đang thiếu hụt gần 1.200 giáo viên, dẫn đến việc gần 10.000 học sinh bỏ học trong vòng 5 năm qua vì bị bỏ lại phía sau do không theo kịp bài vở.
+o Chi phí gia sư truyền thống từ 100.000 - 250.000 VNĐ/buổi tạo ra rào cản tài chính quá lớn đối với các gia đình ở vùng sâu vùng xa.
+o Người học gặp khó khăn do kiến thức bị phân mảnh, học thụ động, và không biết bản thân đang hổng kiến thức ở đâu để ôn tập.
+• Giải pháp (Solution): Dự án mang đến một nền tảng học tập AI cá nhân hóa 3D hoạt động 24/7 thông qua 3 trụ cột chính:
+o Creator Hub: Tự động bóc tách tài liệu (PDF, Sách giáo khoa) thành sơ đồ Cây Tri Thức (Knowledge Graph).
+o Nhúng tài nguyên: Tích hợp các học liệu đa phương tiện như video, PDF, ghi chú vào từng node bài học trên cây.
+o Graph Studio: Cung cấp không gian tương tác trực quan để học tập và đánh giá.
+3. Lợi thế cạnh tranh và Công nghệ cốt lõi
+• Tutor AI phương pháp Socratic: Khác với các AI tổng quát (như ChatGPT, Gemini) thường đưa ra đáp án trực tiếp, AI của dự án không cho sẵn đáp án mà đặt câu hỏi gợi mở, hướng dẫn học sinh tự suy luận từng bước. Điều này giúp rèn luyện tư duy phản biện và khả năng tự học.
+• Chẩn đoán theo thang đo Bloom và Cơ chế tô màu: Hệ thống tự sinh bài tập đánh giá 6 cấp độ nhận thức và trực quan hóa lỗ hổng kiến thức bằng màu sắc (Xanh - Thành thạo, Vàng - Cần lưu ý, Đỏ - Hổng kiến thức).
+• Chi phí vận hành thấp: Sử dụng kiến trúc Backendless và lưu trữ qua Google Drive cá nhân, giúp giảm tới 90% chi phí máy chủ so với các nền tảng tập trung.
+• Minh chứng hiệu quả (Traction): Các thử nghiệm ban đầu cho thấy thời gian học sinh tương tác tăng 280% (từ 15 phút lên 42 phút/ngày), điểm số tăng trung bình 2.1 điểm sau 4 tuần, và AI phát hiện chính xác trung bình 4.5 lỗ hổng kiến thức trên mỗi học sinh.
+4. Thị trường và Mô hình kinh doanh
+• Quy mô thị trường (TAM - SAM - SOM):
+o Thị trường EdTech Việt Nam dự kiến bùng nổ, đạt 1,1 tỷ USD vào năm 2025 và có thể lên tới 3,2 tỷ USD năm 2034.
+o Khách hàng mục tiêu chính là học sinh THCS, THPT có nhu cầu tự học cao trong số 79,8 triệu người dùng Internet tại Việt Nam.
+o Thị trường chiếm lĩnh (SOM) tập trung sâu vào học sinh ở Tây Nguyên/Đắk Lắk, nơi đang chịu rào cản lớn về chi phí gia sư.
+• Mô hình doanh thu:
+o B2C (Khách hàng lẻ): Mô hình Freemium (Miễn phí cơ bản) và Gói Premium có giá 149.000 VNĐ/tháng (Lợi nhuận biên: 85.000 VNĐ/user).
+o B2B (Khách hàng trường học): Bán License trọn gói giá 12.000.000 VNĐ/năm/trường (Lợi nhuận biên: 9.000.000 VNĐ/trường).
+• Điểm hòa vốn: Hệ thống chỉ cần có 5 trường học (B2B) và 250 học sinh Premium mỗi tháng (B2C) là có thể bù đắp toàn bộ chi phí vận hành.
+5. Kế hoạch tài chính
+• Nhu cầu gọi vốn: 500.000.000 VNĐ cho 12 tháng vận hành đầu tiên.
+• Cơ cấu phân bổ vốn:
+o 30% (150 triệu VNĐ): Nghiên cứu và phát triển (R&D) lõi thuật toán AI Socratic.
+o 32% (160 triệu VNĐ): Hoạt động Marketing và thâu tóm khách hàng (B2C & B2B).
+o 16% (80 triệu VNĐ): Thiết kế UI/UX đồ thị tri thức.
+o 22%: Hạ tầng kỹ thuật máy chủ và lập quỹ dự phòng.
+6. Đánh giá tiềm năng (SWOT)
+• Điểm mạnh: Sản phẩm có sự kết hợp tốt giữa lý luận sư phạm (Thang đo Bloom, phương pháp Socratic) và công nghệ AI. Mô hình chi phí thấp và có khả năng cá nhân hóa cao.
+• Điểm yếu: Dự án sẽ cần thời gian để xây dựng cộng đồng người dùng và hệ thống có sự phụ thuộc vào hạ tầng AI cũng như API Google Drive.
+• Cơ hội: Đón đầu xu hướng chuyển đổi số trong giáo dục tại Việt Nam và nhu cầu học tập AI đang tăng mạnh.
+• Thách thức: Sự cạnh tranh khốc liệt từ các nền tảng EdTech hiện hữu hoặc các AI tổng quát lớn, cùng với áp lực chi phí mở rộng hạ tầng khi lượng người dùng tăng đột biến trong tương lai.
+II. SCRIPT THUYẾT TRÌNH
+Slide 1: Tiêu đề / Mở đầu (Dự kiến: 20 giây) 
+Người 1: "Kính chào Ban giám khảo và quý vị đại biểu. Hôm nay, nhóm chúng em xin phép được trình bày và mang đến cuộc thi dự án giáo dục – công nghệ: CÂY TRI THỨC - Gia sư AI Toàn Năng."
+Slide 2: Vấn đề & Nỗi đau thị trường (Dự kiến: 50 giây) 
+Người 1: "Thưa quý vị, có những đứa trẻ không hề học kém, các em chỉ là không có cơ hội được học tốt như những người khác. Ở thành phố, nhiều học sinh có người hướng dẫn ngay khi không hiểu bài. Nhưng tại Đắk Lắk, đặc biệt ở vùng sâu vùng xa, rất nhiều em phải tự học mà không có điều kiện kèm cặp. Trong khi đó, chi phí gia sư từ 100.000 đến 250.000 đồng mỗi buổi là một rào cản quá lớn đối với nhiều gia đình. Theo VOV, ngành giáo dục Đắk Lắk hiện đang thiếu gần 1.200 giáo viên. Và xót xa hơn, theo Báo Pháp Luật Việt Nam, gần 10.000 học sinh tại đây đã bỏ học trong vòng 5 năm qua. Nhiều em không bỏ học vì lười, mà vì các em dần bị bỏ lại phía sau khi không còn theo kịp chương trình trên lớp. Và đó chính là lý do 'Cây Tri Thức' ra đời – một nền tảng AI giúp mọi học sinh đều có cơ hội tiếp cận tri thức công bằng với một gia sư cá nhân hóa, dù các em ở bất kỳ đâu."
+Slide 3: Giải pháp - Cây Tri Thức hoạt động ra sao? (Dự kiến: 55 giây) 
+Người 1: "Cây Tri Thức là nền tảng học tập AI cá nhân hóa giúp mọi học sinh đều có Gia sư AI riêng 24/7, hoạt động qua 3 phần chính:
+• Thứ nhất là Creator Hub: Người dùng chỉ cần tải sách hoặc tài liệu lên, AI sẽ tự động phân tích và biến chúng thành một Cây Tri Thức trực quan (Knowledge Graph) với các chương và các nút (node) liên kết logic.
+• Thứ hai là Nhúng tài nguyên: Giáo viên hoặc học sinh có thể gắn trực tiếp video, file PDF, hoặc ghi chú vào từng nhánh để tạo thành một bài học hoàn chỉnh.
+• Và thứ ba, cốt lõi nhất là Graph Studio: Ở phần Học, chúng em ứng dụng Tutor AI theo phương pháp Socratic – AI tuyệt đối không đưa sẵn đáp án, mà hỏi gợi mở, hướng dẫn từng bước để học sinh tự tư duy. Ở phần Đánh giá, hệ thống sẽ tự sinh bài tập theo Thang đo Bloom, và trực quan hóa điểm yếu bằng cách tô màu lên cây: Xanh – Vàng – Đỏ, giúp học sinh biết chính xác mình đang hổng kiến thức ở đâu."
+Slide 4: Thị trường mục tiêu (Dự kiến: 30 giây) 
+Người 1: "Về thị trường, khách hàng mục tiêu trọng tâm của chúng em trong giai đoạn đầu là học sinh cấp 2 và cấp 3 tại khu vực Tây Nguyên – đây là những em có nhu cầu tự học cao nhưng không có điều kiện đi học thêm hoặc thuê gia sư. Bên cạnh đó, tệp khách hàng mở rộng của dự án chính là các nhà trường. Các trường học có thể sử dụng nền tảng này để tạo bài giảng sinh động và dễ dàng theo dõi tiến độ, năng lực của toàn bộ học sinh thông qua màu sắc trên cây tri thức."
+Slide 5: Mô hình kinh doanh (Dự kiến: 45 giây) 
+Người 1: "Để đảm bảo doanh thu và sự phát triển bền vững, chúng em áp dụng mô hình kinh doanh Freemium kết hợp B2B:
+• Ở mảng B2C dành cho người dùng cá nhân: Chúng em cung cấp bản miễn phí cơ bản để thu hút người dùng. Khi học sinh muốn trải nghiệm toàn bộ tính năng sâu hơn, mức phí cho gói Premium chỉ là 149.000 VNĐ/tháng – rẻ hơn rất nhiều so với một buổi học gia sư truyền thống.
+• Ở mảng B2B dành cho tổ chức: Chúng em bán gói giải pháp (License) cho các trường học tính theo đầu học sinh, với mức giá trọn gói là 12.000.000 VNĐ cho 1 gói sử dụng trong 1 năm học."
+
+
+
+Slide 6: Kết quả thử nghiệm thực tế - Traction (Dự kiến: 30 giây) 
+Người 1: "Sản phẩm của chúng em không chỉ nằm trên bản vẽ. Chúng em đã tiến hành chạy thử nghiệm (Pilot) trên 50 học sinh lớp 6 môn Toán tại Đắk Lắk. Kết quả mang lại vô cùng khả quan: Nhờ cơ chế sơ đồ 3D, thời lượng tự học của các em tăng vọt 280%. AI đã tìm ra trung bình 4.5 điểm mù kiến thức trên mỗi học sinh. Và kết quả ngọt ngào nhất là điểm số trung bình của các em đã tăng từ 6.2 lên 8.3 chỉ sau 1 tháng."
+Slide 7: Lợi thế cạnh tranh (Dự kiến: 35 giây) 
+Người 1: "So với các nền tảng học trực tuyến hiện nay, Cây Tri Thức sở hữu 3 lợi thế cốt lõi không dễ sao chép:
+• Thứ nhất: Trực quan hóa kiến thức bằng Cây Tri Thức tương tác.
+• Thứ hai: Tutor AI hoạt động theo phương pháp Socratic – dạy cách tư duy, tuyệt đối không đưa sẵn đáp án.
+• Thứ ba: Tích hợp Thang đo Bloom và tự động tô màu điểm yếu. Chúng em không chỉ giúp học sinh học thuộc lòng, mà giúp các em hiểu bản chất và biết cách vận dụng kiến thức."
+Slide 8: Kế hoạch tiếp cận thị trường - Go-To-Market (Dự kiến: 35 giây) 
+Người 1: "Về chiến lược đưa sản phẩm ra thị trường, chúng em chia làm 2 giai đoạn:
+• 0 đến 6 tháng đầu: Triển khai Pilot miễn phí tại 5 đến 10 trường THCS và THPT trên địa bàn Đắk Lắk.
+• 6 đến 12 tháng tiếp theo: Mở rộng ra toàn khu vực Tây Nguyên và phát triển mạnh mảng B2B bán License cho các trường học. Để thu hút người dùng, chúng em đánh mạnh truyền thông qua TikTok, các Group Facebook phụ huynh, tổ chức Workshop cho giáo viên và đẩy mạnh chương trình 'Học sinh giỏi giới thiệu bạn'."
+Slide 9: Đội ngũ thực thi (Dự kiến: 30 giây) 
+Người 1: "Để hiện thực hóa dự án này là một đội ngũ có sự giao thoa giữa Giáo dục và Công nghệ. Em là Quỳnh Nhi cùng bạn Thành Nam phụ trách phát triển Kinh doanh và Truyền thông; hai kỹ sư Anh Đức và Minh Trọng chịu trách nhiệm phát triển nền tảng và lõi AI. Đặc biệt, dự án được bảo chứng và dẫn dắt bởi Ban cố vấn chuyên môn: Tiến sĩ Trần Thành Thắng - Cố vấn công nghệ lõi, và Nghiên cứu sinh Lê Đức Thọ - Cố vấn tài chính."
+Slide 10: Tầm nhìn và Tác động xã hội (Dự kiến: 30 giây) 
+Người 1: "Tầm nhìn của chúng em đến năm 2030 là mang Gia sư AI cá nhân hóa đến mọi học sinh Việt Nam, dù các em ở thành thị hay vùng sâu vùng xa. Chúng em khao khát tạo ra tác động xã hội thực sự: Giảm tỷ lệ bỏ học do mất gốc, giúp các em không chỉ học tốt mà còn biết cách tư duy phản biện độc lập thay vì ỷ lại vào đáp án, từ đó góp phần nâng cao chất lượng nguồn nhân lực cho đất nước."
+
+
+Slide 11: Tài chính & Kêu gọi vốn (Dự kiến: 40 giây) 
+Người 1: "Để đưa sản phẩm mở rộng ra thị trường, hôm nay chúng em đến đây để kêu gọi mức vốn 500.000.000 VNĐ cho vòng Pre-Seed. Nguồn vốn này sẽ được phân bổ chiến lược trong năm đầu tiên:
+• 160 triệu dành cho Marketing để thâu tóm khách hàng.
+• 150 triệu để R&D, liên tục nâng cấp độ thông minh của lõi AI Socratic.
+• 80 triệu thiết kế UI/UX và không gian 3D.
+• 50 triệu cho hạ tầng Server chịu tải và bản quyền.
+• Và 60 triệu làm quỹ dự phòng vận hành hệ thống."
+Slide 12: Kết thúc (Dự kiến: 20 giây) 
+Người 1: "Tóm lại, Cây Tri Thức không chỉ là một nền tảng học tập, mà là chiếc cầu nối mang lại sự công bằng tri thức cho hàng triệu học sinh Việt Nam. Ngay lúc này, bản thử nghiệm MVP của chúng em đã sẵn sàng, kính mời quý Ban giám khảo quét mã QR trên màn hình để trực tiếp trải nghiệm sự kỳ diệu của Vũ trụ tri thức. Cảm ơn quý thầy cô đã lắng nghe, chúng em đã sẵn sàng cho phần phản biện!"
+
+III. KỊCH BẢN HỎI ĐÁP TẠI KHU TRƯNG BÀY
+Kịch bản chi tiết: Nhóm Kinh doanh & Thị trường
+1. Mức độ Dễ (Dành cho khách tham quan chung)
+• Câu hỏi: Khách hàng mục tiêu của “Cây Tri Thức” là ai? Tại sao lại chọn nhóm này?
+• Gợi ý trả lời: Nhóm tập trung vào học sinh THCS và THPT, đặc biệt tại khu vực Tây Nguyên. Đây là nhóm chịu rào cản lớn về chi phí gia sư truyền thống (100k - 250k/buổi) và thiếu hụt giáo viên hướng dẫn trực tiếp khi tự học ở nhà.
+• Câu hỏi: Sản phẩm này khác gì so với các app học trực tuyến như VioEdu hay Tuyensinh247?
+• Gợi ý trả lời: Các app truyền thống chủ yếu cung cấp video và bài tập một chiều. Cây Tri Thức cá nhân hóa 100% bằng cách biến tài liệu thành “Sơ đồ cây” tương tác, giúp học sinh thấy rõ mối liên kết kiến thức và biết chính xác mình đang “hổng” ở đâu qua hệ thống tô màu (Đỏ - Vàng - Xanh).
+2. Mức độ Trung bình (Dành cho Mentor/Nhà đầu tư vòng đầu)
+• Câu hỏi: Tại sao học sinh phải trả 149.000 VNĐ/tháng cho các em trong khi họ có thể dùng ChatGPT miễn phí?
+• Gợi ý trả lời: ChatGPT là AI tổng quát, thường đưa ra đáp án trực tiếp khiến học sinh lười tư duy và không có lộ trình rõ ràng. Cây Tri Thức dùng AI Socratic – chỉ đặt câu hỏi gợi mở để dẫn dắt học sinh tự tìm ra lời giải, đồng thời lưu trữ tiến độ thành một “Bộ não tri thức số” theo suốt các năm học.
+• Câu hỏi: Dự án kiếm tiền bằng cách nào?
+• Gợi ý trả lời: Nhóm áp dụng mô hình Freemium cho học sinh (B2C) với gói Premium 149.000 VNĐ/tháng. Nguồn thu thứ hai là bán License B2B cho trường học với giá 12.000.000 VNĐ/năm/trường để giáo viên quản lý tiến độ học sinh.
+3. Mức độ Khó (Dành cho Ban giám khảo chuyên môn)
+• Câu hỏi: Điểm hòa vốn của nhóm là 5 trường học và 250 học sinh Premium. Nghe có vẻ dễ, nhưng thực tế các trường công lập rất khó phê duyệt chi phí mua phần mềm ngoài. Nhóm giải quyết rào cản này thế nào?
+• Gợi ý trả lời: (Nhóm cần thể hiện sự linh hoạt) Trong 0-6 tháng đầu, nhóm không bán ngay mà cấp quyền Pilot (thử nghiệm) miễn phí cho 5-10 trường THCS-THPT tại Đắk Lắk để chứng minh hiệu quả thực tế (như đợt thử nghiệm đã giúp tăng 2.1 điểm). Khi giáo viên thấy giảm tải được áp lực chấm bài và theo dõi học sinh, nhà trường sẽ có cơ sở thực tiễn để phê duyệt ngân sách, hoặc phụ huynh sẽ tự nguyện đóng góp qua Ban đại diện.
+Kịch bản chi tiết: Nhóm Kỹ thuật & Sản phẩm
+1. Mức độ Dễ (Dành cho khách tham quan thích công nghệ)
+• Câu hỏi: Tính năng Tutor AI Socratic hoạt động cụ thể ra sao khi học sinh hỏi một bài toán khó?
+• Gợi ý trả lời: Thay vì in ra đáp án A, B, C, AI sẽ phân tích các bước giải. Ví dụ: “Để giải phương trình này, bước đầu tiên em nghĩ chúng ta nên biến đổi cụm nào trước?”. Nếu học sinh trả lời sai, AI tiếp tục đưa ra gợi ý nhỏ hơn cho đến khi các em tự hiểu bản chất.
+2. Mức độ Trung bình (Dành cho chuyên gia IT/Giám khảo kỹ thuật)
+• Câu hỏi: Hồ sơ ghi nhóm dùng kiến trúc “Backendless” và lưu trữ Drive cá nhân để giảm 90% chi phí. Cơ chế này hoạt động như thế nào?
+• Gợi ý trả lời: Thay vì thuê máy chủ (Server) đắt tiền để lưu trữ toàn bộ PDF/Video của hàng ngàn user, hệ thống đẩy trực tiếp file và dữ liệu cá nhân hóa vào Google Drive của chính người dùng thông qua API. Nền tảng của nhóm chỉ xử lý logic thuật toán và điều phối luồng dữ liệu, giúp chi phí vận hành hạ tầng gần như bằng 0 khi scale up (mở rộng).
+• Câu hỏi: Làm sao AI tự tạo bài tập theo đúng thang đo Bloom (Nhớ - Hiểu - Vận dụng - Sáng tạo)?
+• Gợi ý trả lời: Creator Hub dùng kỹ thuật Prompt Engineering phức tạp kết hợp RAG (Retrieval-Augmented Generation). Hệ thống truy xuất đúng node kiến thức, sau đó ép buộc LLM (Mô hình ngôn ngữ lớn) phải sinh ra câu hỏi tuân thủ nghiêm ngặt các động từ đặc trưng của từng cấp độ Bloom (ví dụ: “Định nghĩa” cho cấp độ Nhớ, “Tính toán” cho Vận dụng).
+3. Mức độ Khó (Dành cho Giám khảo chuyên sâu về AI)
+• Câu hỏi: AI hiện nay vẫn mắc lỗi “Hallucination” (ảo giác/bịa đặt thông tin). Lỡ AI Tutor dạy sai kiến thức cho học sinh thì sao? Hệ thống của các em có cơ chế kiểm duyệt (Guardrails) nào không?
+• Gợi ý trả lời: (Nhóm cần nắm chắc phần này) Hệ thống không cho phép AI tự do sáng tạo nội dung giáo dục. Nhóm sử dụng công nghệ Local RAG đóng vùng dữ liệu. AI chỉ được phép truy xuất và trả lời dựa chính xác trên SGK và tài liệu đã được tải lên node đó. Ngoài ra, cơ chế Socratic cũng là một bộ lọc an toàn: AI hỏi ngược lại học sinh dựa trên các nguyên lý logic đã được lập trình sẵn, thay vì tự sinh ra một đoạn văn bản dài có nguy cơ sai lệch.
+IV. KỊCH BẢN HỎI VÀ TRẢ LỜI KHI PITCHING
+PHẦN 1: KỊCH BẢN Q&A KINH DOANH & THỊ TRƯỜNG
+1. Mức độ Dễ (Mục đích: Kiểm tra độ hiểu sản phẩm và quản lý vốn cơ bản)
+• Câu hỏi 1 (Về USP - Điểm bán hàng độc nhất): Trên thị trường hiện nay có rất nhiều nền tảng EdTech lớn, và cả những mô hình gia sư sinh viên giá rẻ. Đâu là lý do lớn nhất khiến một phụ huynh ở Đắk Lắk chịu rút ví trả 149.000 VNĐ/tháng cho “Cây Tri Thức”?
+o Ẩn ý của giám khảo: Kiểm tra xem các em có hiểu rõ “Nỗi đau” của khách hàng không, hay chỉ đang bán thứ mình có.
+o Gợi ý trả lời: “Dạ thưa Ban giám khảo, lý do lớn nhất là sự cá nhân hóa đi kèm với chi phí thấp. Gia sư truyền thống giá rẻ cũng mất từ 100k - 250k/buổi, một tháng tốn hàng triệu đồng nhưng phụ huynh không đo lường được con mình hổng kiến thức ở đâu. Với 149.000 VNĐ/tháng, Cây Tri Thức không chỉ rẻ hơn nhiều, mà còn trực quan hóa chính xác lỗ hổng kiến thức bằng màu Đỏ - Vàng - Xanh, giúp phụ huynh dù không giỏi chuyên môn vẫn theo dõi được tiến độ thực sự của con.”
+• Câu hỏi 2 (Về Phân bổ vốn): Nhóm kêu gọi 500 triệu đồng. Nếu chỉ được giải ngân trước 30% (khoảng 150 triệu), nhóm sẽ ưu tiên dùng số tiền này vào việc gì trong 3 tháng đầu tiên?
+o Ẩn ý của giám khảo: Xem nhóm có biết cách tiêu tiền khởi nghiệp không.
+o Gợi ý trả lời: “Dạ, nếu chỉ có 150 triệu trong giai đoạn đầu, nhóm sẽ dồn 100% vào R&D Lõi thuật toán AI Socratic và hoàn thiện giao diện Cây tri thức. Vì đây là ‘trái tim’ tạo nên sự khác biệt của dự án. Khi sản phẩm lõi chạy mượt mà, chúng em mới có công cụ để đi thuyết phục các trường học mảng B2B, từ đó tạo ra dòng tiền tự nuôi dự án ở các giai đoạn sau.”
+2. Mức độ Trung bình (Mục đích: Đào sâu vào Go-to-market và Tính xác thực)
+• Câu hỏi 3 (Về Bán hàng B2B): Bán phần mềm vào các trường học công lập là cực kỳ khó khăn do rào cản về ngân sách và quy trình phê duyệt. Với gói 12 triệu/năm/trường, nhóm có chiến lược cụ thể nào để chốt được 5 trường học đầu tiên như kế hoạch?
+o Ẩn ý của giám khảo: Sinh viên thường rất ngây thơ khi nghĩ cứ có phần mềm hay là trường học sẽ mua.
+o Gợi ý trả lời: “Nhóm hiểu rào cản này ạ. Vì vậy chiến lược thâm nhập không phải là ‘bán hàng’, mà là ‘đồng hành phi lợi nhuận giai đoạn đầu’. Trong 6 tháng đầu, nhóm sẽ triển khai Pilot miễn phí cho 5-10 trường tại Đắk Lắk. Chúng em tiếp cận từ góc độ ‘Giảm tải áp lực cho giáo viên’ trước. Khi giáo viên dùng thấy hiệu quả, học sinh tăng điểm, nhà trường sẽ có đầy đủ báo cáo minh chứng để đề xuất ngân sách từ nhà nước hoặc xã hội hóa từ Ban đại diện phụ huynh.”
+• Câu hỏi 4 (Về Minh chứng/Traction): Trong bài thuyết trình, nhóm đưa ra con số học sinh tăng trung bình 2.1 điểm sau 4 tuần. Các em đã đo lường con số này như thế nào? Có đáng tin cậy không?
+o Ẩn ý của giám khảo: Kiểm tra xem số liệu có bị “bốc phét” không.
+o Gợi ý trả lời: “Dạ, đây là con số từ đợt thử nghiệm (Pilot) nội bộ của nhóm trên một nhóm nhỏ học sinh cấp 2 tại địa phương. Chúng em đo lường bằng cách lấy điểm bài kiểm tra đầu vào (Pre-test) so sánh với bài kiểm tra sau 4 tuần học với hệ thống (Post-test). Tất nhiên, mẫu khảo sát hiện tại chưa đủ lớn để đại diện cho toàn thị trường, nhưng nó minh chứng được xu hướng tương tác tích cực: thời gian học sinh tự nguyện ngồi học đã tăng từ 15 phút lên 42 phút/ngày nhờ cơ chế 3D và Gamification.”
+3. Mức độ Khó (Mục đích: Thử thách Khả năng phòng thủ và Rào cản cạnh tranh)
+• Câu hỏi 5 (Về Rào cản cạnh tranh - Moat): Nếu ngày mai, các ông lớn như Vuihoc, Hocmai hay FPT dội một lượng tiền khổng lồ để copy tính năng “Cây Tri Thức” và “AI Socratic” của các em, nhóm lấy gì để cạnh tranh và tồn tại?
+o Ẩn ý của giám khảo: Start-up công nghệ rất dễ bị copy tính năng. Lợi thế thực sự là gì?
+o Gợi ý trả lời: “Đây là một rủi ro thực tế ạ. Tuy nhiên, Cây Tri Thức có 2 ‘lớp phòng thủ’. Thứ nhất là chi phí vận hành (Cost Advantage): Mô hình của chúng em dùng kiến trúc Backendless kết hợp Google Drive, giúp giảm 90% chi phí server, cho phép nhóm duy trì mức giá rất rẻ ở các thị trường ngách (Tây Nguyên, vùng sâu vùng xa) – nơi các ông lớn với bộ máy cồng kềnh khó tối ưu lợi nhuận. Thứ hai là Tính địa phương (Local Focus): Nhóm đi lên từ Đắk Lắk, thấu hiểu giáo viên và văn hóa ở đây. Chúng em sẽ chiếm lĩnh thị trường ngách SOM này thật chắc chắn trước khi các ông lớn kịp xoay trục.”
+• Câu hỏi 6 (Về Unit Economics): Với gói B2C, lợi nhuận biên là 85.000 VNĐ/user. Nhưng chi phí để có được 1 khách hàng (CAC - Customer Acquisition Cost) trên Facebook/TikTok hiện nay rất đắt. Nếu chạy quảng cáo hết 100.000 VNĐ mới ra 1 user, thì nhóm đang lỗ. Nhóm giải quyết bài toán Marketing này thế nào?
+o Ẩn ý của giám khảo: Bài toán kinh điển của EdTech: Tiền thu về < Tiền Marketing.
+o Gợi ý trả lời: “Dạ, nếu đốt tiền chạy quảng cáo diện rộng chắc chắn nhóm sẽ lỗ. Do đó, kênh B2C của nhóm được ‘nuôi’ bằng kênh B2B. Khi chúng em đưa hệ thống vào các trường học (B2B), chính giáo viên sẽ là người ứng dụng Cây Tri Thức vào bài giảng và giao bài tập về nhà. Từ đó, sản phẩm sẽ tiếp cận trực tiếp đến học sinh với chi phí Marketing (CAC) gần như bằng 0. Cơ chế ‘Học sinh giỏi giới thiệu bạn bè’ cũng là cách chúng em dùng Product-led growth (tăng trưởng nhờ chính sản phẩm) thay vì đổ tiền cho quảng cáo.”
+PHẦN 2: KỊCH BẢN Q&A KỸ THUẬT & CÔNG NGHỆ (Bản cập nhật)
+1. Mức độ Dễ (Mục đích: Làm rõ luồng vận hành và Điểm nhấn tính năng)
+• Câu hỏi 1 (Về cách tạo Cây Tri Thức): Nhóm nói hệ thống có thể tạo Cây Tri Thức rất nhanh. Vậy người dùng (giáo viên/học sinh) đưa dữ liệu vào hệ thống như thế nào nếu dự án không cho tải các file tài liệu lớn lên?
+o Ẩn ý của giám khảo: Kiểm tra xem luồng thao tác của người dùng có thực sự tiện lợi không.
+o Gợi ý trả lời: “Dạ, đây chính là cách nhóm tối ưu hệ thống. Thay vì bắt server phải gồng gánh đọc các file PDF/Video nặng nề, người dùng chỉ cần đưa vào một file cấu trúc nhỏ (text/csv) chứa Tên chương, Tên bài và các đường link URL dẫn đến tài nguyên (như link YouTube, link Google Docs, Drive). Hệ thống sẽ lập tức parse (phân tích) file này và vẽ ra Cây Tri Thức 3D. Nhờ vậy, thao tác tạo cây diễn ra chỉ trong tích tắc và không bao giờ bị nghẽn mạng.”
+• Câu hỏi 2 (Về Tính năng trọng tâm): Nếu chỉ là vẽ sơ đồ cây chứa link, thì có khác gì vẽ Mindmap bình thường? Đâu là vai trò của AI ở đây?
+o Gợi ý trả lời: “Dạ, phần vẽ sơ đồ chỉ là bộ khung. Trái tim của dự án nằm ở tính năng Đánh giá (Assessment). Dựa vào nội dung từ các đường link tài nguyên tại mỗi Node, AI của hệ thống sẽ tự động quét, đọc hiểu và sinh ra các bộ câu hỏi, bài tập bám sát theo 6 cấp độ của thang đo Bloom (từ Nhớ, Hiểu, Vận dụng đến Sáng tạo). Tức là hệ thống không chỉ là nơi lưu trữ link bài học, mà là một ‘người khảo thí’ liên tục đánh giá năng lực học sinh tại từng Node đó.”
+2. Mức độ Trung bình (Mục đích: Đào sâu vào Kiến trúc JSON và Thuật toán sinh đề)
+• Câu hỏi 3 (Về Kiến trúc dữ liệu): Các em lưu trữ toàn bộ hệ thống tri thức này như thế nào để tối ưu chi phí hạ tầng (như trong hồ sơ đề cập)?
+o Ẩn ý của giám khảo: Đánh giá tính khả thi về mặt kỹ thuật Backend.
+o Gợi ý trả lời (Dành cho Đức/Trọng): “Thưa BGK, toàn bộ cấu trúc không gian Cây Tri Thức của mỗi học sinh được nhóm lưu trữ dưới dạng một file định dạng JSON siêu nhẹ. Các tài liệu, video học liệu không nằm trên server của nhóm mà tồn tại dưới dạng tham chiếu (pointers/links). Kiến trúc ‘chỉ lưu cấu trúc, không lưu file vật lý’ này giúp Database của dự án nhẹ hơn hàng ngàn lần so với các web học tập thông thường, truy xuất cực nhanh và chi phí lưu trữ (Storage Cost) gần như bằng không.”
+• Câu hỏi 4 (Về Cơ chế sinh bài tập Bloom): Việc sinh ra câu hỏi trắc nghiệm dễ (mức độ Nhớ/Hiểu) thì AI làm rất tốt. Nhưng làm sao hệ thống của các em sinh ra được bài tập ở mức độ Vận dụng hoặc Phân tích (cấp độ Bloom cao) chỉ từ các đường link đó?
+o Gợi ý trả lời: “Nhóm sử dụng kỹ thuật RAG (Retrieval-Augmented Generation) kết hợp với Prompt Engineering chuyên sâu. AI sẽ cào (scrape) nội dung text từ đường link được gắn ở Node. Sau đó, nhóm áp đặt một ‘Khuôn mẫu Bloom’ vào Prompt để ép LLM xử lý. Ví dụ: Để tạo câu hỏi cấp độ Vận dụng, Prompt bắt buộc LLM không được hỏi lại định nghĩa, mà phải tạo ra một tình huống thực tế hoàn toàn mới và yêu cầu học sinh dùng kiến thức trong link để giải quyết. Học sinh phải vượt qua các câu hỏi tình huống này thì Node mới chuyển sang màu Xanh.”
+3. Mức độ Khó (Mục đích: Xử lý rủi ro chi phí API và Độ chính xác của câu hỏi)
+• Câu hỏi 5 (Bài toán chi phí AI): Cấu trúc JSON giúp các em tiết kiệm tiền lưu trữ (Storage). Nhưng nếu AI liên tục phải đọc nội dung từ link và sinh ra bộ câu hỏi Bloom mới cho từng học sinh, tiền gọi API (Token cost) của OpenAI/Gemini sẽ rất khổng lồ. Nhóm giải quyết bài toán sập chi phí API này thế nào khi mở rộng cho 10.000 học sinh?
+o Ẩn ý của giám khảo: Giám khảo “bắt thóp” được điểm yếu thực sự của mô hình này: Tốn tiền gọi LLM API.
+o Gợi ý trả lời (Phòng thủ cực mạnh): “Dạ BGK rất tinh tế khi nhìn ra rủi ro này. Để giải bài toán chi phí Token, nhóm áp dụng cơ chế Caching Database (Bộ nhớ đệm câu hỏi). Khi giáo viên đưa 1 link tài nguyên vào, AI sẽ sinh ra bộ câu hỏi Bloom một lần duy nhất và lưu cấu trúc câu hỏi đó vào JSON. Khi hàng ngàn học sinh lớp đó bấm vào Node, hệ thống chỉ lấy câu hỏi từ JSON ra (xáo trộn thứ tự) chứ không gọi lại API LLM nữa. Nhóm chỉ tốn tiền gọi LLM cho tính năng ‘Tutor Socratic’ khi học sinh cần hỏi đáp 1-1. Điều này giúp kiểm soát chi phí cực kỳ an toàn.”
+• Câu hỏi 6 (Về Rủi ro chất lượng Đề thi - Hallucination): Bản chất của AI là đoán từ, lỡ nó sinh ra câu hỏi trắc nghiệm đánh giá sai hoàn toàn nội dung bài học, hoặc đưa ra đáp án sai thì sao? Hệ thống có tin tưởng AI 100% không?
+o Gợi ý trả lời: “Dạ trong giáo dục, tính chính xác là tuyệt đối nên nhóm không phó mặc 100% cho AI. Hệ thống được thiết kế theo mô hình ‘Human-in-the-loop’ (Có sự tham gia của con người). Đối với kênh B2B (Trường học), khi AI sinh ra bộ câu hỏi Bloom cho 1 chương, bộ câu hỏi đó sẽ hiển thị trên Dashboard (Bảng điều khiển) của Giáo viên. Giáo viên chỉ mất 2-3 phút để lướt qua duyệt, sửa nhanh hoặc xóa câu sai trước khi ‘Publish’ (phát hành) Cây Tri Thức đó cho học sinh làm. AI đóng vai trò làm trợ lý tiết kiệm 90% thời gian ra đề, còn giáo viên mới là người gác cổng cuối cùng.”
+Với phiên bản cập nhật này, luồng câu chuyện kỹ thuật của nhóm sẽ trở nên rất logic, thông minh và cực kỳ khả thi (feasibility cao) trong mắt ban giám khảo, vì các em biết cách tránh việc “đốt tiền” vào lưu trữ server, mà dồn trí tuệ vào luồng xử lý AI.
+Page 2 of 2
+
+

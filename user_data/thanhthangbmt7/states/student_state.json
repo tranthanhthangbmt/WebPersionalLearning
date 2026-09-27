@@ -3,12 +3,14 @@
     "nodes_mastery": {
         "Chuong_4_Tiet_1": 0.5624368631454192,
         "Chuong_4_Tiet_2": 0.51,
-        "Chuong_3_Tiet_6": 0.4917573002781275
+        "Chuong_3_Tiet_6": 0.4917573002781275,
+        "Chuong_1_Tiet_1": 0.500879015216456
     },
     "inferred_blooms": {
-        "Chuong_4_Tiet_1": 1.6659932068844712,
-        "Chuong_4_Tiet_2": 1.3066666666666666,
-        "Chuong_3_Tiet_6": 0.9120778696333597
+        "Chuong_4_Tiet_1": 0.0,
+        "Chuong_4_Tiet_2": 0.0,
+        "Chuong_3_Tiet_6": 0.0,
+        "Chuong_1_Tiet_1": 1.009376162308863
     },
     "history": {
         "Chuong_4_Tiet_1": {
@@ -60,8 +62,22 @@
                 "correct": 1,
                 "wrong": 2
             }
-        }
+        },
+        "Chuong_2_Tiet_4": {},
+        "Chuong_5_Tiet_2": {},
+        "Chuong_4_Tiet_3": {},
+        "Chuong_1_Tiet_6": {},
+        "Chuong_1_Tiet_4": {},
+        "Chuong_3_Tiet_1": {},
+        "Chuong_1_Tiet_1": {
+            "0": {
+                "correct": 2,
+                "wrong": 2
+            }
+        },
+        "Chuong_1_Tiet_2": {},
+        "Chuong_1_Tiet_3": {}
     },
-    "last_fatigue_update": "2026-04-19",
-    "current_fatigue": 0.7000000000000001
+    "last_fatigue_update": "2026-04-26",
+    "current_fatigue": 0.2
 }

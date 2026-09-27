@@ -24,7 +24,6 @@ def extract_nodes_with_gemini(document_text):
        - "id": vd a1.1, a1.2 (tương ứng với micro_node)
        - "target_micro": id của micro_node mà nó kiểm tra.
        - "theta_pass": 0.6 (mặc định)
-       - "questions": Mảng gồm 2 câu hỏi trắc nghiệm khách quan để kiểm tra. Mỗi câu có "question", "options" (mảng 4 lựa chọn), và "answer" (đáp án đúng, vd "A").
 
     NỘI DUNG TÀI LIỆU:
     -------------------

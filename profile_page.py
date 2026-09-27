@@ -16,17 +16,29 @@ from gamification.xp_engine import XPEngine, LEVEL_CONFIG
 from gamification.streak_service import StreakService
 from gamification.achievement_service import AchievementService
 from datetime import date, timedelta
+import json
 
 
 def create_profile_section(user, parent_container):
     """Render profile section within the main app"""
-    progress = get_user_progress(user.id)
-    stats = XPEngine.get_user_stats(user.id)
-    streak_info = StreakService.get_streak_info(user.id)
-    all_achievements = AchievementService.get_all_achievements(user.id)
-    unlocked_badges = AchievementService.get_unlocked_badges(user.id)
-    unlocked_count, total_count = AchievementService.get_unlocked_count(user.id)
-    activity_data = StreakService.get_activity_heatmap(user.id, days=90)
+    print(f"[ProfilePage] Starting render for user_id={user.id}")
+    try:
+        progress = get_user_progress(user.id)
+        print(f"[ProfilePage] Got progress: {progress}")
+        stats = XPEngine.get_user_stats(user.id)
+        print(f"[ProfilePage] Got stats: {list(stats.keys())}")
+        streak_info = StreakService.get_streak_info(user.id)
+        print(f"[ProfilePage] Got streak: {streak_info}")
+        all_achievements = AchievementService.get_all_achievements(user.id)
+        unlocked_badges = AchievementService.get_unlocked_badges(user.id)
+        unlocked_count, total_count = AchievementService.get_unlocked_count(user.id)
+        activity_data = StreakService.get_activity_heatmap(user.id, days=90)
+        print(f"[ProfilePage] Data fetch complete")
+    except Exception as e:
+        print(f"[ProfilePage] Error fetching data: {e}")
+        with parent_container:
+            ui.label(f"Lỗi fetch dữ liệu: {e}").classes('text-red-500')
+        return
     
     level_info = XPEngine.get_level_info(stats["current_level"])
     level_name = level_info["name"]
@@ -36,6 +48,15 @@ def create_profile_section(user, parent_container):
     
     parent_container.clear()
     with parent_container:
+        # --- RAW DATA LOG (As requested) ---
+        with ui.expansion('📄 Nhật ký dữ liệu (Raw Info)', icon='history').classes('w-full bg-slate-200 rounded-lg mb-4'):
+            info = {
+                "user": {"name": user.username, "full": user.full_name, "id": user.id},
+                "stats": stats,
+                "drive": bool(user.google_id)
+            }
+            ui.label(json.dumps(info, indent=2, ensure_ascii=False)).classes('font-mono text-[10px] whitespace-pre p-2 bg-white w-full')
+
         with ui.column().classes('w-full max-w-3xl mx-auto p-6 gap-6'):
             
             # --- PROFILE CARD ---
@@ -268,4 +289,59 @@ def create_profile_section(user, parent_container):
                         ui.label(f'Nhóm thí nghiệm: {user.group}').classes('text-sm text-gray-500')
                         ui.label(f'Streak dài nhất: {streak_info["longest_streak"]} ngày').classes('text-sm text-gray-500')
                         ui.label(f'Tổng quiz: {stats["total_quizzes"]}').classes('text-sm text-gray-500')
+                        ui.label(f'Tổng quiz: {stats["total_quizzes"]}').classes('text-sm text-gray-500')
                         ui.label(f'Số câu đúng: {stats["total_correct"]}').classes('text-sm text-gray-500')
+
+                # --- GOOGLE & DRIVE INFO (Sprint 01) ---
+                with ui.expansion('Tài khoản liên kết & Drive', icon='cloud').classes('w-full mt-2'):
+                    with ui.column().classes('gap-3 p-2'):
+                        if user.google_id:
+                            with ui.row().classes('items-center gap-3 p-3 bg-blue-50 rounded-xl border border-blue-100 w-full'):
+                                ui.image('https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg').classes('w-6 h-6')
+                                with ui.column().classes('gap-0'):
+                                    ui.label('Đã liên kết Google').classes('text-sm font-bold text-blue-700')
+                                    ui.label(user.email).classes('text-xs text-blue-600/70')
+                            
+                            # Drive IDs
+                            with ui.column().classes('gap-1 mt-2'):
+                                ui.label('📁 Cấu trúc dữ liệu trên Drive:').classes('text-xs font-bold text-gray-600')
+                                
+                                for label, folder_id in [
+                                    ('Thư mục gốc', user.drive_root_folder_id),
+                                    ('Thư mục Môn học', user.drive_subjects_folder_id),
+                                    ('File Profile', user.drive_profile_file_id)
+                                ]:
+                                    with ui.row().classes('w-full justify-between items-center bg-gray-50 p-2 rounded-lg'):
+                                        ui.label(label).classes('text-xs text-gray-500')
+                                        if folder_id:
+                                            ui.label(f'{folder_id[:10]}...{folder_id[-5:]}').classes('text-[10px] font-mono text-gray-400 bg-white px-2 py-0.5 rounded border')
+                                        else:
+                                            ui.label('Chưa tạo').classes('text-[10px] italic text-red-300')
+                        else:
+                            with ui.row().classes('items-center gap-3 p-3 bg-gray-50 rounded-xl border border-gray-200 w-full'):
+                                ui.icon('link_off', color='gray-400')
+                                ui.label('Chưa liên kết Google Account').classes('text-sm text-gray-500')
+                            ui.button('Liên kết ngay', icon='login').props('color=blue outline no-caps').classes('w-full mt-2')
+
+            # --- JSON RAW DATA (Requested for easier display/debug) ---
+            with ui.expansion('Dữ liệu thô (JSON System Info)', icon='analytics').classes('w-full bg-slate-100 rounded-xl mt-4'):
+                user_dict = {
+                    "account": {
+                        "id": user.id,
+                        "username": user.username,
+                        "email": user.email,
+                        "role": user.role,
+                        "group": getattr(user, 'group', 'N/A')
+                    },
+                    "gamification": {
+                        "stats": stats,
+                        "streak": streak_info
+                    },
+                    "google_drive": {
+                        "connected": bool(user.google_id),
+                        "root_id": getattr(user, 'drive_root_folder_id', ''),
+                        "subjects_id": getattr(user, 'drive_subjects_folder_id', ''),
+                        "profile_file_id": getattr(user, 'drive_profile_file_id', '')
+                    }
+                }
+                ui.code(json.dumps(user_dict, indent=2, ensure_ascii=False)).classes('w-full text-xs')

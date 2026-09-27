@@ -6,3 +6,23 @@ venv/
 .local/
 .cache/
 *.db
+*.db-shm
+*.db-wal
+node_modules/
+BACKUP/
+*.zip
+*.tar.gz
+scratch/
+log/
+.nicegui/
+conversion.log
+run_log.txt
+*.bat
+diff.txt
+diff_video_player.txt
+fix_debug.txt
+prompt_AI_Program/
+Ref/
+devPlan/
+tests/
+ACCOUNT FREE/

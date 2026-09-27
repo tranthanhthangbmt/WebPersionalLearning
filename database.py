@@ -19,6 +19,13 @@ class User(SQLModel, table=True):
     group: str = "experimental"  # control vs experimental
     is_onboarded: bool = False  # Đã hoàn thành onboarding chưa
     created_at: datetime = Field(default_factory=datetime.now)
+    # --- Sprint 01: Google OAuth fields ---
+    google_id: str = Field(default="", index=True)  # Google Account ID
+    google_avatar_url: str = ""  # URL avatar từ Google
+    google_refresh_token: str = ""  # Refresh token để đổi access_token mới
+    drive_root_folder_id: str = ""  # ID thư mục KnowledgeGalaxy_Data trên Drive
+    drive_subjects_folder_id: str = ""  # ID thư mục Subjects trên Drive
+    drive_profile_file_id: str = ""  # ID file profile.json trên Drive
 
 class UserProgress(SQLModel, table=True):
     """Gamification: XP, Streak, Level tracking"""
@@ -78,7 +85,24 @@ class ReviewSchedule(SQLModel, table=True):
 sqlite_file_name = "pkt_research.db"
 sqlite_url = f"sqlite:///{sqlite_file_name}"
 
-engine = create_engine(sqlite_url)
+from sqlalchemy import event
+from sqlalchemy.pool import NullPool
+
+# Sử dụng NullPool cho SQLite để tránh lỗi I/O trên ổ đĩa ngoài/mạng
+engine = create_engine(
+    sqlite_url,
+    connect_args={"check_same_thread": False, "timeout": 60},
+    poolclass=NullPool
+)
+
+@event.listens_for(engine, "connect")
+def set_sqlite_pragma(dbapi_connection, connection_record):
+    cursor = dbapi_connection.cursor()
+    # Tối ưu hóa cho độ tin cậy cao trên I/O chậm
+    cursor.execute("PRAGMA journal_mode=WAL")
+    cursor.execute("PRAGMA synchronous=NORMAL")
+    cursor.execute("PRAGMA cache_size=-64000") # 64MB cache
+    cursor.close()
 
 def create_db_and_tables():
     SQLModel.metadata.create_all(engine)
@@ -111,6 +135,12 @@ def get_user_by_email(email: str):
         results = session.exec(statement)
         return results.first()
 
+def get_user_by_id(user_id: int):
+    with Session(engine, expire_on_commit=False) as session:
+        statement = select(User).where(User.id == user_id)
+        results = session.exec(statement)
+        return results.first()
+
 def create_user(username, password, full_name, email="", role="student"):
     """Create a new user with hashed password"""
     with Session(engine, expire_on_commit=False) as session:
@@ -132,6 +162,12 @@ def create_user(username, password, full_name, email="", role="student"):
         
         return user
 
+def get_user_by_id(user_id: int):
+    with Session(engine, expire_on_commit=False) as session:
+        statement = select(User).where(User.id == user_id)
+        results = session.exec(statement)
+        return results.first()
+
 def authenticate_user(username: str, password: str):
     """Authenticate user - returns User object or None"""
     user = get_user_by_username(username)
@@ -141,7 +177,11 @@ def authenticate_user(username: str, password: str):
 
 def get_user_progress(user_id: int):
     """Get or create UserProgress for a user"""
+    if user_id == 0:
+        # GUEST MODE: Return a mock progress object (not saved to DB)
+        return UserProgress(user_id=0, total_xp=0, current_level=1)
     with Session(engine, expire_on_commit=False) as session:
+
         statement = select(UserProgress).where(UserProgress.user_id == user_id)
         progress = session.exec(statement).first()
         if not progress:
@@ -173,3 +213,107 @@ def log_interaction(user_id, concept, action, mastery, fatigue, sentiment, detai
         )
         session.add(log)
         session.commit()
+
+
+# --- Sprint 01: Google OAuth User Management ---
+
+def get_user_by_google_id(google_id: str):
+    """Tìm user theo Google Account ID."""
+    with Session(engine, expire_on_commit=False) as session:
+        statement = select(User).where(User.google_id == google_id)
+        return session.exec(statement).first()
+
+
+def get_or_create_google_user(
+    google_id: str,
+    email: str,
+    full_name: str,
+    avatar_url: str = "",
+    refresh_token: str = "",
+) -> User:
+    """
+    Tìm hoặc tạo user dựa trên Google Account.
+    
+    Luồng:
+    1. Tìm theo google_id → Nếu có, cập nhật refresh_token (nếu có mới) và trả về.
+    2. Tìm theo email → Nếu có, liên kết google_id vào user cũ.
+    3. Không tìm thấy → Tạo user mới.
+    """
+    with Session(engine, expire_on_commit=False) as session:
+        # Strategy 1: Tìm theo google_id
+        user = session.exec(
+            select(User).where(User.google_id == google_id)
+        ).first()
+        if user:
+            # Cập nhật refresh_token nếu Google cấp mới
+            if refresh_token:
+                user.google_refresh_token = refresh_token
+            if avatar_url:
+                user.google_avatar_url = avatar_url
+                user.avatar_url = avatar_url
+            session.add(user)
+            session.commit()
+            session.refresh(user)
+            return user
+
+        # Strategy 2: Tìm theo email (User đã đăng ký bằng username/password trước đó)
+        user = session.exec(
+            select(User).where(User.email == email)
+        ).first()
+        if user:
+            user.google_id = google_id
+            user.google_avatar_url = avatar_url
+            if not user.avatar_url:
+                user.avatar_url = avatar_url
+            if refresh_token:
+                user.google_refresh_token = refresh_token
+            session.add(user)
+            session.commit()
+            session.refresh(user)
+            print(f"[DB] Liên kết Google Account vào user hiện có: {user.username}")
+            return user
+
+        # Strategy 3: Tạo user mới
+        # Sinh username an toàn từ email (vd: john.doe@gmail.com → john_doe)
+        base_username = email.split("@")[0].replace(".", "_").replace("-", "_")[:20]
+        username = base_username
+        counter = 1
+        while session.exec(select(User).where(User.username == username)).first():
+            username = f"{base_username}_{counter}"
+            counter += 1
+
+        new_user = User(
+            username=username,
+            password="",  # Không cần password cho Google Login
+            email=email,
+            full_name=full_name,
+            avatar_url=avatar_url,
+            google_id=google_id,
+            google_avatar_url=avatar_url,
+            google_refresh_token=refresh_token,
+            role="student",
+        )
+        session.add(new_user)
+        session.commit()
+        session.refresh(new_user)
+
+        # Tạo UserProgress ban đầu
+        progress = UserProgress(user_id=new_user.id, total_xp=100)
+        session.add(progress)
+        session.commit()
+
+        print(f"[DB] ✅ Tạo user mới từ Google: {new_user.username} ({email})")
+        return new_user
+
+
+def update_user_drive_ids(user_id: int, root_folder_id: str, subjects_folder_id: str, profile_file_id: str = ""):
+    """Lưu Drive folder/file IDs vào user record sau khi init_drive_environment()."""
+    with Session(engine) as session:
+        user = session.exec(select(User).where(User.id == user_id)).first()
+        if user:
+            user.drive_root_folder_id = root_folder_id
+            user.drive_subjects_folder_id = subjects_folder_id
+            if profile_file_id:
+                user.drive_profile_file_id = profile_file_id
+            session.add(user)
+            session.commit()

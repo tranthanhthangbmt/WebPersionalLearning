@@ -6,6 +6,12 @@
     <title>Knowledge Galaxy 3D — PKT Bio-Tutor</title>
     <script src="https://unpkg.com/three@0.141.0/build/three.min.js"></script>
     <script src="https://unpkg.com/3d-force-graph@1.70.16/dist/3d-force-graph.min.js"></script>
+    <script src="https://unpkg.com/three-spritetext@1.8.2/dist/three-spritetext.min.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/EffectComposer.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/RenderPass.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+    <script src="https://unpkg.com/three@0.141.0/examples/js/shaders/CopyShader.js"></script>
                             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
@@ -26,71 +32,301 @@
         .glass-panel { background: var(--glass-bg); backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 16px; padding: 20px; pointer-events: auto; }
         header { position: absolute; top: 24px; left: 24px; pointer-events: none; }
         header h1 { font-size: 24px; font-weight: 800; background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        #dashboard-panel { position: absolute; top: 90px; left: 24px; width: 230px; }
+        #dashboard-panel { display: none; position: fixed; bottom: 80px; right: 24px; width: 230px; z-index: 55; }
         .stat-card { background: rgba(255, 255, 255, 0.03); border-radius: 10px; padding: 12px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; border-left: 3px solid transparent; }
         .stat-label { font-size: 10px; color: var(--text-muted); font-weight: 700; text-transform: uppercase; }
         .stat-value { font-size: 18px; font-weight: 800; }
-        .legend { position: absolute; bottom: 30px; left: 24px; display: flex; flex-direction: column; gap: 8px; }
-        .legend-item { display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 600; color: var(--text-muted); }
-        .legend-item .dot { width: 10px; height: 10px; border-radius: 50%; }
-        #info-panel { position: absolute; top: 24px; right: 24px; width: 320px; max-height: calc(100vh - 48px); overflow-y: auto; transform: translateX(350px); transition: transform 0.5s ease; }
-        #info-panel.visible { transform: translateX(0); }
-        .badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 10px; font-weight: 800; margin-bottom: 12px; }
-        .type-macro { background: rgba(56, 189, 248, 0.15); color: var(--accent); }
-        .resource-list { display: flex; flex-direction: column; gap: 8px; margin-top: 15px; margin-bottom: 15px; max-height: 150px; overflow-y: auto; }
-        .resource-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); transition: 0.2s; font-size: 12px; text-decoration: none; color: var(--text-primary); cursor: pointer; }
-        .resource-item:hover { background: rgba(255,255,255,0.1); border-color: var(--accent); }
-        .play-btn { color: var(--green); opacity: 0.6; transition: 0.2s; display: flex; align-items: center; }
-        .play-btn:hover { opacity: 1; transform: scale(1.2); }
-        .action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 20px; }
-        .action-btn { background: rgba(255,255,255,0.08); border-radius: 12px; padding: 12px; text-align: center; cursor: pointer; transition: 0.2s; border: 1px solid transparent; }
-        .action-btn:hover { background: rgba(255,255,255,0.12); border-color: var(--accent); }
+        #legend-panel { display: none; position: fixed; bottom: 30px; left: 0; right: 0; margin: 0 auto; width: max-content; flex-direction: row; gap: 18px; padding: 10px 20px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); white-space: nowrap; z-index: 55; align-items: center; justify-content: center; }
+        .legend-item { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 700; color: var(--text-primary); }
+        .legend-item .dot { width: 10px; height: 10px; border-radius: 50%; box-shadow: 0 0 10px currentColor; }
+        
+        /* ── Collapsible Panel System ── */
+        .glass-panel { display: flex; flex-direction: column; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); width: auto; }
+        .panel-header { display: flex; align-items: center; justify-content: space-between; cursor: pointer; padding: 2px 0; gap: 12px; transition: color 0.2s; }
+        .panel-header:hover { color: var(--accent); }
+        .panel-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; color: inherit; display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+        .panel-content { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); overflow: hidden; opacity: 1; max-height: 800px; margin-top: 8px; }
+        .collapsed .panel-content { max-height: 0; opacity: 0; margin: 0; padding: 0; pointer-events: none; }
+        .collapsed .toggle-icon { transform: rotate(-90deg); }
+        .toggle-icon { font-size: 18px; transition: transform 0.3s; color: var(--text-muted); }
+        .collapsed { padding: 10px 16px !important; width: fit-content !important; min-width: 0 !important; max-width: 90vw !important; }
+        #info-panel { position: fixed; width: 300px; max-height: 70vh; overflow-y: auto; opacity: 0; pointer-events: none; transition: opacity 0.3s, transform 0.3s; transform: scale(0.92); z-index: 100; }
+        #info-panel.visible { opacity: 1; pointer-events: auto; transform: scale(1); }
+        #info-panel::-webkit-scrollbar { width: 4px; } #info-panel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 4px; }
+        .badge { display: inline-block; padding: 3px 10px; border-radius: 6px; font-size: 10px; font-weight: 800; }
+        .type-macro { background: rgba(56,189,248,0.15); color: var(--accent); }
+        .close-btn { position: absolute; top: 10px; right: 10px; background: rgba(255,255,255,0.08); border: none; color: var(--text-muted); width: 26px; height: 26px; border-radius: 50%; cursor: pointer; font-size: 16px; display: flex; align-items: center; justify-content: center; transition: 0.2s; }
+        .close-btn:hover { background: rgba(248,113,113,0.3); color: #fff; }
+        .node-header { display: flex; align-items: center; gap: 14px; margin: 12px 0 16px; }
+        .mastery-ring { position: relative; width: 52px; height: 52px; flex-shrink: 0; }
+        .mastery-ring svg { transform: rotate(-90deg); }
+        .mastery-ring .pct { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 800; color: #fff; }
+        .bloom-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 9px; font-weight: 800; margin-top: 4px; }
+        .section-hdr { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin: 14px 0 8px; padding-bottom: 4px; border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; gap: 6px; }
+        .res-card { background: rgba(255,255,255,0.04); padding: 7px 10px; border-radius: 8px; font-size: 11px; color: var(--text-primary); border: 1px solid rgba(255,255,255,0.06); margin-bottom: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .cta-btn { display: block; width: 100%; padding: 10px; border-radius: 10px; border: none; font-size: 13px; font-weight: 700; cursor: pointer; text-align: center; transition: 0.2s; margin-top: 8px; }
+        .cta-learn { background: linear-gradient(135deg, #2563eb, #7c3aed); color: #fff; }
+        .cta-learn:hover { filter: brightness(1.2); transform: translateY(-1px); box-shadow: 0 4px 20px rgba(37,99,235,0.4); }
+        .cta-assess { background: rgba(56,189,248,0.12); color: var(--accent); border: 1px solid rgba(56,189,248,0.3); }
+        .cta-assess:hover { background: rgba(56,189,248,0.25); transform: translateY(-1px); }
+        .mini-bloom { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; font-size: 10px; }
+        .mini-bloom .lbl { width: 24px; font-weight: 700; color: var(--text-muted); }
+        .mini-bloom .bar { flex: 1; height: 5px; background: rgba(255,255,255,0.08); border-radius: 3px; overflow: hidden; }
+        .mini-bloom .bar .fill { height: 100%; border-radius: 3px; transition: width 0.5s; }
+        .mini-bloom .val { width: 30px; text-align: right; color: var(--text-muted); font-weight: 600; }
         #loading-screen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-color); z-index: 1000; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: opacity 0.8s; }
         .loader-ring { width: 60px; height: 60px; border: 4px solid rgba(56, 189, 248, 0.2); border-top-color: var(--accent); border-radius: 50%; animation: spin 1s infinite linear; }
         @keyframes spin { to { transform: rotate(360deg); } }
         #toast-container { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); z-index: 9999; }
         .toast { background: var(--glass-bg); border: 1px solid var(--accent); padding: 10px 20px; border-radius: 10px; font-size: 13px; font-weight: 600; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+        /* ── Chapter Navigation Panel ── */
+        #chapter-nav { display: none; position: fixed; bottom: 80px; right: 24px; width: 220px; max-height: 60vh; overflow-y: auto; z-index: 55; }
+        #chapter-nav::-webkit-scrollbar { width: 3px; } #chapter-nav::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+        .nav-title { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+        .nav-item { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 8px; font-size: 11px; font-weight: 600; color: var(--text-muted); cursor: pointer; transition: all 0.2s; border: 1px solid transparent; margin-bottom: 3px; }
+        .nav-item:hover { background: rgba(56,189,248,0.1); color: var(--text-primary); border-color: rgba(56,189,248,0.2); }
+        /* ── Progress Breadcrumb ── */
+        #progress-bar { display: none; position: fixed; bottom: 80px; right: 24px; z-index: 55; max-width: 65vw; }
+        #progress-bar::-webkit-scrollbar { height: 3px; } #progress-bar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+        .prog-item { display: flex; flex-direction: column; align-items: center; gap: 3px; min-width: 70px; cursor: pointer; padding: 6px 8px; border-radius: 8px; transition: all 0.2s; }
+        .prog-item:hover { background: rgba(56,189,248,0.1); }
+        .prog-label { font-size: 9px; font-weight: 700; color: var(--text-muted); white-space: nowrap; max-width: 70px; overflow: hidden; text-overflow: ellipsis; text-align: center; }
+        .prog-bar { width: 60px; height: 4px; background: rgba(255,255,255,0.08); border-radius: 2px; overflow: hidden; }
+        .prog-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.5s; }
+        .prog-pct { font-size: 9px; font-weight: 800; color: var(--text-muted); }
+        .prog-item.mastered .prog-fill { background: var(--green); }
+        .prog-item.mastered .prog-pct { color: var(--green); }
+        .prog-arrow { color: rgba(255,255,255,0.15); font-size: 12px; font-weight: 800; margin: 0 2px; flex-shrink: 0; }
+        /* ── Lesson Group Cards ── */
+        .lesson-group { margin-bottom: 8px; border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; overflow: hidden; }
+        .lesson-header { display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: rgba(255,255,255,0.03); cursor: pointer; transition: background 0.2s; }
+        .lesson-header:hover { background: rgba(56,189,248,0.08); }
+        .lesson-step { width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 800; color: #fff; flex-shrink: 0; }
+        .lesson-title { flex: 1; font-size: 11px; font-weight: 700; color: var(--text-primary); line-height: 1.3; }
+        .lesson-mastery { font-size: 9px; font-weight: 800; padding: 2px 6px; border-radius: 4px; }
+        .lesson-resources { padding: 4px 10px 8px 40px; display: none; }
+        .lesson-resources.open { display: block; }
+        .lesson-res-item { font-size: 10px; color: var(--text-muted); padding: 3px 0; display: flex; align-items: center; gap: 5px; cursor: pointer; transition: color 0.2s; }
+        .lesson-res-item:hover { color: var(--text-primary); }
+        .lesson-res-icon { font-size: 12px; flex-shrink: 0; }
+        /* ── Floating Action Buttons (FAB) ── */
+        .panel-toggle { display: flex; position: relative; z-index: 60; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--glass-border); background: var(--glass-bg); backdrop-filter: blur(12px); color: var(--accent); font-size: 20px; cursor: pointer; align-items: center; justify-content: center; transition: all 0.2s; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+        .panel-toggle:hover { background: rgba(56,189,248,0.15); transform: translateY(-2px); }
+        .panel-toggle.active { background: rgba(56,189,248,0.25); border-color: rgba(56,189,248,0.5); }
+        #fab-container { position: fixed; bottom: 24px; right: 24px; display: flex; gap: 12px; z-index: 60; flex-direction: row-reverse; }
+        .panel-show { display: flex !important; animation: popUp 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        @keyframes popUp { from { opacity: 0; transform: translateY(20px) scale(0.95); } to { opacity: 1; transform: translateY(0) scale(1); } }
+        /* ── Mobile Responsive ── */
+        @media (max-width: 768px) {
+            header h1 { font-size: 16px; }
+            header { top: 8px; left: 8px; }
+            /* Progress bar compact */
+            #progress-bar.panel-show { max-width: 85vw; padding: 6px 10px; border-radius: 10px; }
+            .prog-item { min-width: 50px; padding: 4px 4px; }
+            .prog-label { font-size: 7px; max-width: 50px; }
+            .prog-bar { width: 40px; height: 3px; }
+            .prog-pct { font-size: 7px; }
+            .prog-arrow { font-size: 9px; }
+            /* Legend compact */
+            .legend { bottom: 16px; left: 12px; padding: 8px 16px; gap: 10px; border-radius: 10px; width: auto; max-width: 95vw; overflow-x: auto; }
+            .legend-item { font-size: 8px; gap: 4px; }
+            .legend-item .dot { width: 6px; height: 6px; }
+            /* Info panel full-width bottom sheet */
+            #info-panel { position: fixed !important; bottom: 0 !important; left: 0 !important; top: auto !important; right: 0 !important; width: 100% !important; max-height: 55vh; border-radius: 16px 16px 0 0; transform: translateY(100%); opacity: 1; pointer-events: none; transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1); }
+            #info-panel.visible { transform: translateY(0); pointer-events: auto; opacity: 1; }
+            /* Adjust FAB on mobile */
+            #fab-container { bottom: 16px; right: 16px; gap: 8px; }
+            .panel-toggle { width: 38px; height: 38px; font-size: 18px; }
+        }
+        @media (max-width: 480px) {
+            header h1 { font-size: 14px; }
+            #progress-bar.panel-show { max-width: 92vw; padding: 5px 6px; }
+            .prog-item { min-width: 40px; }
+            .prog-label { font-size: 6px; max-width: 40px; }
+            .prog-bar { width: 32px; }
+            .legend { padding: 8px; }
+            .legend-item { font-size: 8px; }
+        }
     </style>
 </head>
 <body>
-    <div id="loading-screen"><div class="loader-ring"></div><div style="margin-top: 20px; color: var(--accent);">GALAXY BOOTING...</div></div>
+    <div id="loading-screen"><div class="loader-ring"></div><div class="loader-ring" style="width:44px;height:44px;border-color:rgba(124,58,237,0.15);border-top-color:#7c3aed;animation-direction:reverse;position:absolute;"></div><div style="margin-top: 30px; font-size:14px; font-weight:700; letter-spacing:3px; background:linear-gradient(135deg,#38bdf8,#818cf8,#c084fc); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">INITIALIZING GALAXY</div><div style="margin-top:8px;font-size:10px;color:rgba(255,255,255,0.3);letter-spacing:1px;">Personalized Knowledge Tree v3.0</div></div>
     <div id="3d-graph"></div>
     <div id="ui-overlay">
         <header><h1>Knowledge Galaxy</h1></header>
-        <div id="dashboard-panel" class="glass-panel">
-            <div class="stat-card" style="border-left-color: var(--green)"><span class="stat-label">MASTERED</span><span class="stat-value" id="stat-mastered">0</span></div>
-            <div class="stat-card" style="border-left-color: var(--yellow)"><span class="stat-label">LEARNING</span><span class="stat-value" id="stat-learning">0</span></div>
-            <div class="stat-card" style="border-left-color: var(--red)"><span class="stat-label">WEAK</span><span class="stat-value" id="stat-weak">0</span></div>
+        <div id="progress-bar" class="glass-panel">
+            <div class="panel-header" onclick="togglePanel('progress-bar')">
+                <div class="panel-title"><span class="material-icons" style="font-size:16px;">insights</span> TIẾN TRÌNH HỌC TẬP</div>
+                <span class="material-icons toggle-icon">expand_more</span>
+            </div>
+            <div class="panel-content">
+                <div id="progress-chapters" style="display:flex;align-items:center;gap:4px;"></div>
+            </div>
         </div>
-        <div class="legend glass-panel">
+        
+        <div id="dashboard-panel" class="glass-panel">
+            <div class="panel-header" onclick="togglePanel('dashboard-panel')">
+                <div class="panel-title"><span class="material-icons" style="font-size:16px;">bar_chart</span> THỐNG KÊ</div>
+                <span class="material-icons toggle-icon">expand_more</span>
+            </div>
+            <div class="panel-content">
+                <div class="stat-card" style="border-left-color: var(--green)"><span class="stat-label">MASTERED</span><span class="stat-value" id="stat-mastered">0</span></div>
+                <div class="stat-card" style="border-left-color: var(--yellow)"><span class="stat-label">LEARNING</span><span class="stat-value" id="stat-learning">0</span></div>
+                <div class="stat-card" style="border-left-color: var(--red)"><span class="stat-label">WEAK</span><span class="stat-value" id="stat-weak">0</span></div>
+            </div>
+        </div>
+        
+        <div id="chapter-nav" class="glass-panel">
+            <div class="panel-header" onclick="togglePanel('chapter-nav')">
+                <div class="panel-title"><span class="material-icons" style="font-size:16px;">menu_book</span> MỤC LỤC</div>
+                <span class="material-icons toggle-icon">expand_more</span>
+            </div>
+            <div class="panel-content">
+                <div id="chapter-list"></div>
+            </div>
+        </div>
+        <div id="legend-panel" class="legend glass-panel">
             <div class="legend-item"><span class="dot" style="background:var(--accent)"></span> Chương / Topic</div>
             <div class="legend-item"><span class="dot" style="background:var(--green)"></span> Mastered (&gt;80%)</div>
             <div class="legend-item"><span class="dot" style="background:var(--yellow)"></span> Developing</div>
             <div class="legend-item"><span class="dot" style="background:var(--red)"></span> Weak Point</div>
         </div>
         <div id="info-panel" class="glass-panel">
+            <button class="close-btn" onclick="closePanel()" title="Đóng">&times;</button>
             <div id="info-type" class="badge type-macro">SELECT A NODE</div>
-            <h2 id="info-title">Star Map</h2>
-            <p id="info-desc">Select a node to view details and start learning journey.</p>
-            <div id="node-resources" class="resource-list" style="display: none;"></div>
-            <div id="action-buttons" style="display: none;">
-                <div class="action-grid">
-                    <div class="action-btn" onclick="startAction('video')">📺 VIDEO</div>
-                    <div class="action-btn" onclick="startAction('quiz')">📝 QUIZ</div>
-                    <div class="action-btn" onclick="startAction('ai_tutor')">🤖 AI TUTOR</div>
-                    <div class="action-btn" onclick="startAction('flashcard')">📇 FLASHCARDS</div>
+            <h2 id="info-title" style="font-size:16px;font-weight:800;margin:4px 0 0;line-height:1.3;padding-right:30px;">Star Map</h2>
+            <div class="node-header">
+                <div class="mastery-ring" id="mastery-ring">
+                    <svg width="52" height="52"><circle cx="26" cy="26" r="22" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="4"/><circle id="ring-fill" cx="26" cy="26" r="22" fill="none" stroke="var(--accent)" stroke-width="4" stroke-dasharray="138.23" stroke-dashoffset="138.23" stroke-linecap="round"/></svg>
+                    <div class="pct" id="ring-pct">0%</div>
                 </div>
+                <div>
+                    <div id="bloom-badge" class="bloom-badge" style="background:rgba(74,222,128,0.15);color:#4ade80;">L1 Ghi nhớ</div>
+                    <div style="font-size:10px;color:var(--text-muted);margin-top:4px;" id="info-subtitle">Chọn node để xem chi tiết</div>
+                </div>
+            </div>
+            <div id="learn-section" style="display:none;">
+                <div class="section-hdr"><span class="material-icons" style="font-size:14px;">school</span> Học</div>
+                <div id="learn-resources"></div>
+                <button class="cta-btn cta-learn" onclick="startAction('video')">▶ &nbsp;Bắt đầu học</button>
+            </div>
+            <div id="assess-section">
+                <div class="section-hdr"><span class="material-icons" style="font-size:14px;">psychology</span> Đánh giá</div>
+                <div id="mini-bloom-bars"></div>
+                <button class="cta-btn cta-assess" onclick="startAction('bloom_hub')">🧪 &nbsp;Đánh giá Bloom</button>
             </div>
         </div>
         <div id="toast-container"></div>
+        <div id="fab-container">
+            <button id="toggle-nav" class="panel-toggle" onclick="toggleFabPanel('chapter-nav')" title="Mục lục"><span class="material-icons">menu_book</span></button>
+            <button id="toggle-stats" class="panel-toggle" onclick="toggleFabPanel('dashboard-panel')" title="Thống kê"><span class="material-icons">bar_chart</span></button>
+            <button id="toggle-prog" class="panel-toggle" onclick="toggleFabPanel('progress-bar')" title="Tiến trình học tập"><span class="material-icons">insights</span></button>
+            <button id="toggle-legend" class="panel-toggle" onclick="toggleFabPanel('legend-panel')" title="Chú giải"><span class="material-icons">palette</span></button>
+        </div>
     </div>
     <script>
-        const GRAPH_DATA = {"nodes": [{"id": "m1", "next_best": false, "type": "macro", "label": "Khai thác dữ liệu và thông tin", "resources": [{"id": "res_session_m1_ba74", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1", "title": "📋 Mục lục Module 1", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_quiz_m1_6d8b", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv", "title": "📝 Trắc nghiệm Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m2", "next_best": false, "type": "macro", "label": "Giao tiếp và hợp tác trong môi trường số", "resources": [{"id": "res_session_m2_9acb", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2", "title": "📋 Mục lục Module 2", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_quiz_m2_c15e", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv", "title": "📝 Trắc nghiệm Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m3", "next_best": false, "type": "macro", "label": "Sáng tạo nội dung số", "resources": [{"id": "res_session_m3_9d81", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3", "title": "📋 Mục lục Module 3", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_quiz_m3_272f", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv", "title": "📝 Trắc nghiệm Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m4", "next_best": false, "type": "macro", "label": "An toàn Không gian số", "resources": [{"id": "res_session_m4_8002", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4", "title": "📋 Mục lục Module 4", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_quiz_m4_5b04", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv", "title": "📝 Trắc nghiệm Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m5", "next_best": false, "type": "macro", "label": "Giải quyết vấn đề bằng công nghệ", "resources": [{"id": "res_session_m5_31e1", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=5", "title": "📋 Mục lục Module 5", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_quiz_m5_a050", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD5.csv", "title": "📝 Trắc nghiệm Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m6", "next_best": false, "type": "macro", "label": "Nhập môn Trí tuệ Nhân tạo (AI)", "resources": [{"id": "res_session_m6_35fd", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6", "title": "📋 Mục lục Module 6", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_quiz_m6_019c", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv", "title": "📝 Trắc nghiệm Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m7", "next_best": false, "type": "macro", "label": "Thực hành Word & Tích hợp AI (Buổi 6-9)", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m8", "next_best": false, "type": "macro", "label": "Thực hành Excel & Tích hợp AI (Buổi 10-12)", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m9", "next_best": false, "type": "macro", "label": "Thực hành PowerPoint & Tích hợp AI (Buổi 13-14)", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m10", "next_best": false, "type": "macro", "label": "Tổng ôn & Chinh phục AI (Buổi 15)", "resources": [], "color": "#00ffcc", "val": 25}, {"id": "m1_Meso_1", "next_best": true, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c1.1", "title": "Tổng quan dữ liệu", "content": "Bài học giới thiệu về sự khác biệt cơ bản giữa dữ liệu thô, thông tin số và tri thức. Học viên sẽ tìm hiểu về các loại dữ liệu phổ biến như dữ liệu cấu trúc và phi cấu trúc. Đồng thời, tiết học cũng làm rõ các đặc điểm quan trọng của dữ liệu số trong bối cảnh hiện nay.", "resources": [{"id": "res_lesson_c1.1_0c62", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=11", "title": "🎬 Bài giảng: Khai phá Đại dương Số", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c1.1_55f4", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv", "title": "📝 Trắc nghiệm Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c1.1_a904", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1", "title": "📋 Mục lục Module 1", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c1.2", "title": "Kỹ năng duyệt Web và tìm kiếm nâng cao", "content": "Học viên sẽ được trang bị các chiến lược hiệu quả để duyệt trang web và tìm kiếm thông tin học thuật. Bài học tập trung vào việc sử dụng các công cụ tìm kiếm nâng cao như Google Scholar và PubMed. Đặc biệt, người học sẽ thực hành áp dụng các toán tử logic để tinh chỉnh kết quả tìm kiếm.", "resources": [{"id": "res_lesson_c1.2_cc17", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=12", "title": "🎬 Bài giảng: Hành trình công dân số", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c1.2_9aa8", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv", "title": "📝 Trắc nghiệm Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c1.2_4070", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1", "title": "📋 Mục lục Module 1", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c1.3", "title": "Lọc và Quản lý dữ liệu", "content": "Tiết học này giới thiệu các kỹ thuật lọc dữ liệu, bao gồm cả phương pháp thu thập tự động (scraping). Học viên sẽ tìm hiểu về các nguyên tắc quản lý, lưu trữ, sao lưu và chia sẻ dữ liệu một cách hiệu quả. Ngoài ra, bài học còn nhấn mạnh tầm quan trọng của việc bảo mật thông tin cá nhân trong môi trường số.", "resources": [{"id": "res_lesson_c1.3_aea0", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=13", "title": "🎬 Bài giảng: LÀM CHỦ DỮ LIỆU SỐ", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c1.3_75b6", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv", "title": "📝 Trắc nghiệm Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c1.3_5870", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1", "title": "📋 Mục lục Module 1", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}], "resources": [{"id": "res_lesson_c1.1_0c62", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=11", "title": "🎬 Bài giảng: Khai phá Đại dương Số", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c1.1_55f4", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv", "title": "📝 Trắc nghiệm Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c1.1_a904", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1", "title": "📋 Mục lục Module 1", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_lesson_c1.2_cc17", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=12", "title": "🎬 Bài giảng: Hành trình công dân số", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c1.2_9aa8", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv", "title": "📝 Trắc nghiệm Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c1.2_4070", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1", "title": "📋 Mục lục Module 1", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_lesson_c1.3_aea0", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=13", "title": "🎬 Bài giảng: LÀM CHỦ DỮ LIỆU SỐ", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c1.3_75b6", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv", "title": "📝 Trắc nghiệm Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c1.3_5870", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1", "title": "📋 Mục lục Module 1", "type": "link", "icon": "📋", "added_at": "auto-sync"}], "val": 15, "prerequisites": []}, {"id": "m2_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c2.1", "title": "Giao tiếp công nghệ số", "content": "Bài học hướng dẫn cách lựa chọn và sử dụng các công cụ giao tiếp số như email, chat và video call một cách hiệu quả. Học viên sẽ được tìm hiểu về các quyền công dân số và quy tắc ứng xử trên mạng. Mục tiêu là giúp người học thực hành giao tiếp chuyên nghiệp và có trách nhiệm trong môi trường trực tuyến.", "resources": [{"id": "res_lesson_c2.1_7386", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=21", "title": "🎬 Bài giảng: Hành trình công dân số", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c2.1_093c", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv", "title": "📝 Trắc nghiệm Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c2.1_36f6", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2", "title": "📋 Mục lục Module 2", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c2.2", "title": "Làm việc nhóm trong môi trường số", "content": "Tiết học này tập trung vào kỹ năng làm việc nhóm và chia sẻ thông tin an toàn trong môi trường số. Học viên sẽ được thực hành sử dụng các nền tảng như Google Drive/OneDrive để chia sẻ tài liệu và Trello/Google Docs để hợp tác dự án. Bài học cũng đề cập đến tầm quan trọng của việc bảo vệ danh tính số cá nhân khi làm việc nhóm trực tuyến.", "resources": [{"id": "res_lesson_c2.2_cb89", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=22", "title": "🎬 Bài giảng: Làm chủ tương tác", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c2.2_89eb", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv", "title": "📝 Trắc nghiệm Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c2.2_1d69", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2", "title": "📋 Mục lục Module 2", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}], "resources": [{"id": "res_lesson_c2.1_7386", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=21", "title": "🎬 Bài giảng: Hành trình công dân số", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c2.1_093c", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv", "title": "📝 Trắc nghiệm Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c2.1_36f6", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2", "title": "📋 Mục lục Module 2", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_lesson_c2.2_cb89", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=22", "title": "🎬 Bài giảng: Làm chủ tương tác", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c2.2_89eb", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv", "title": "📝 Trắc nghiệm Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c2.2_1d69", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2", "title": "📋 Mục lục Module 2", "type": "link", "icon": "📋", "added_at": "auto-sync"}], "val": 15, "prerequisites": []}, {"id": "m3_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c3.1", "title": "Xây dựng chuyên án nội dung", "content": "Bài học này hướng dẫn quy trình phân tích chân dung người xem để xác định đối tượng mục tiêu. Học viên sẽ được học cách lập kế hoạch nội dung đa nền tảng, bao gồm video, văn bản và infographic. Mục tiêu là giúp người học tạo ra các chiến lược nội dung hấp dẫn và phù hợp với từng kênh phân phối.", "resources": [{"id": "res_lesson_c3.1_e93f", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=31", "title": "🎬 Bài giảng: Content Development", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c3.1_0981", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv", "title": "📝 Trắc nghiệm Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c3.1_7ac2", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3", "title": "📋 Mục lục Module 3", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c3.2", "title": "Biên tập và Bản quyền số", "content": "Tiết học này bao gồm các kỹ năng biên tập nội dung số như tái tạo, cắt ghép và chuyển đổi định dạng. Học viên sẽ được hướng dẫn cách tra cứu giấy phép bản quyền để sử dụng nội dung hợp pháp. Đồng thời, bài học cũng cung cấp kiến thức về cách áp dụng nội dung ghi nguồn một cách chính xác và tuân thủ pháp luật.", "resources": [{"id": "res_lesson_c3.2_267c", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=32", "title": "🎬 Bài giảng: Content Repurposing", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c3.2_6ef3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv", "title": "📝 Trắc nghiệm Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c3.2_58c5", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3", "title": "📋 Mục lục Module 3", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c3.3", "title": "Lập trình cơ bản cho ứng dụng nội dung số", "content": "Bài học giới thiệu các nguyên tắc cơ bản của lập trình, tập trung vào việc lựa chọn công nghệ phù hợp để phát triển ứng dụng nội dung số. Học viên sẽ tìm hiểu về các bước thiết kế, cài đặt và kiểm thử ứng dụng. Mục tiêu là cung cấp nền tảng để người học có thể tự xây dựng các công cụ hỗ trợ sáng tạo nội dung của mình.", "resources": [{"id": "res_lesson_c3.3_7bf7", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=33", "title": "🎬 Bài giảng: Digital Rights", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c3.3_ca58", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv", "title": "📝 Trắc nghiệm Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c3.3_6fe8", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3", "title": "📋 Mục lục Module 3", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}], "resources": [{"id": "res_lesson_c3.1_e93f", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=31", "title": "🎬 Bài giảng: Content Development", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c3.1_0981", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv", "title": "📝 Trắc nghiệm Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c3.1_7ac2", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3", "title": "📋 Mục lục Module 3", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_lesson_c3.2_267c", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=32", "title": "🎬 Bài giảng: Content Repurposing", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c3.2_6ef3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv", "title": "📝 Trắc nghiệm Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c3.2_58c5", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3", "title": "📋 Mục lục Module 3", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_lesson_c3.3_7bf7", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=33", "title": "🎬 Bài giảng: Digital Rights", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c3.3_ca58", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv", "title": "📝 Trắc nghiệm Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c3.3_6fe8", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3", "title": "📋 Mục lục Module 3", "type": "link", "icon": "📋", "added_at": "auto-sync"}], "val": 15, "prerequisites": []}, {"id": "m4_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c4.1", "title": "Các cuộc tấn công mạng và rủi ro", "content": "Tiết học cung cấp cái nhìn tổng quan về thực trạng các cuộc tấn công mạng phổ biến hiện nay. Học viên sẽ được hướng dẫn cách nhận diện các rủi ro như mã độc, hành vi đánh cắp mật khẩu và lừa đảo xã hội (social engineering). Mục tiêu là nâng cao nhận thức về các mối đe dọa an ninh mạng để phòng tránh hiệu quả.", "resources": [{"id": "res_lesson_c4.1_911e", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=41", "title": "🎬 Bài giảng: Safety Blueprint", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c4.1_b551", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv", "title": "📝 Trắc nghiệm Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c4.1_a6ed", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4", "title": "📋 Mục lục Module 4", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c4.2", "title": "Chiến lược bảo mật đa lớp", "content": "Bài học này giới thiệu các chiến lược bảo mật toàn diện để bảo vệ thông tin cá nhân và dữ liệu. Học viên sẽ tìm hiểu về tầm quan trọng của việc sao lưu dữ liệu (backup) và cách tạo mật khẩu an toàn. Đồng thời, tiết học cũng cung cấp các kỹ năng tự phòng thủ nhằm bảo vệ quyền riêng tư trên Internet.", "resources": [{"id": "res_lesson_c4.2_5227", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=42", "title": "🎬 Bài giảng: An toàn Mạng", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c4.2_2631", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv", "title": "📝 Trắc nghiệm Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c4.2_e6c6", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4", "title": "📋 Mục lục Module 4", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c4.3", "title": "An sinh số và Tác động môi trường", "content": "Tiết học này đề cập đến khái niệm \"Sức khỏe số\" và tầm quan trọng của việc cân bằng lối sống số. Học viên sẽ được khuyến khích đánh giá tác động của công nghệ số đến môi trường và tìm hiểu các giải pháp xanh bền vững. Mục tiêu là thúc đẩy ý thức trách nhiệm cá nhân đối với cả sức khỏe bản thân và môi trường trong kỷ nguyên số.", "resources": [{"id": "res_lesson_c4.3_5190", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=43", "title": "🎬 Bài giảng: Digital Sustainability", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c4.3_663d", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv", "title": "📝 Trắc nghiệm Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c4.3_fddc", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4", "title": "📋 Mục lục Module 4", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}], "resources": [{"id": "res_lesson_c4.1_911e", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=41", "title": "🎬 Bài giảng: Safety Blueprint", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c4.1_b551", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv", "title": "📝 Trắc nghiệm Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c4.1_a6ed", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4", "title": "📋 Mục lục Module 4", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_lesson_c4.2_5227", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=42", "title": "🎬 Bài giảng: An toàn Mạng", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c4.2_2631", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv", "title": "📝 Trắc nghiệm Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c4.2_e6c6", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4", "title": "📋 Mục lục Module 4", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_lesson_c4.3_5190", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=43", "title": "🎬 Bài giảng: Digital Sustainability", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c4.3_663d", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv", "title": "📝 Trắc nghiệm Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c4.3_fddc", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4", "title": "📋 Mục lục Module 4", "type": "link", "icon": "📋", "added_at": "auto-sync"}], "val": 15, "prerequisites": []}, {"id": "m5_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c5.1", "title": "Xử lý lỗi hệ thống máy tính cơ bản", "content": "Bài học này cung cấp các kỹ năng cơ bản để xử lý lỗi phần cứng và phần mềm của máy tính. Học viên sẽ được hướng dẫn cách kiểm tra lỗi mạng Wi-Fi và nhận diện các rủi ro từ lỗi phần mềm. Tiết học cũng giới thiệu cách đọc System Log cơ bản để chẩn đoán và khắc phục sự cố hiệu quả.", "resources": [{"id": "res_lesson_c5.1_5918", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=5&id=51", "title": "🎬 Bài giảng: Giải quyết vấn đề", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c5.1_9da5", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD5.csv", "title": "📝 Trắc nghiệm Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c5.1_5bd3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=5", "title": "📋 Mục lục Module 5", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c5.2", "title": "Kỹ năng tự học công nghệ mới", "content": "Tiết học này giới thiệu các nguồn tài nguyên hữu ích để tự học và nâng cao kiến thức công nghệ. Học viên sẽ được hướng dẫn cách khai thác các nền tảng như Coursera, Udemy, Wikipedia, Reddit và Stack Overflow. Mục tiêu là trang bị cho người học kỹ năng tìm kiếm và giải quyết các câu hỏi học thuật kỹ thuật một cách độc lập và hiệu quả.", "resources": []}, {"id": "c5.3", "title": "Thực hành Google Sheets cơ bản", "content": "Bài học này tập trung vào thực hành các chức năng cơ bản của Google Sheets. Học viên sẽ được hướng dẫn cách nhập liệu, sử dụng Conditional Formatting và áp dụng các hàm như SUM. Tiết học cũng bao gồm việc vẽ biểu đồ để dự đoán chi tiêu tài chính cơ bản, giúp người học phân tích dữ liệu hiệu quả.", "resources": []}], "resources": [{"id": "res_lesson_c5.1_5918", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=5&id=51", "title": "🎬 Bài giảng: Giải quyết vấn đề", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c5.1_9da5", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD5.csv", "title": "📝 Trắc nghiệm Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c5.1_5bd3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=5", "title": "📋 Mục lục Module 5", "type": "link", "icon": "📋", "added_at": "auto-sync"}], "val": 15, "prerequisites": []}, {"id": "m6_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c6.1", "title": "Khái niệm cốt lõi của Trí tuệ Nhân tạo", "content": "Bài học này cung cấp cái nhìn tổng quan về lịch sử phát triển của AI và giới thiệu các khái niệm cơ bản như Machine Learning và Deep Learning. Học viên sẽ tìm hiểu về nguyên tắc hoạt động của thuật toán học máy từ dữ liệu đầu vào. Mục tiêu là xây dựng nền tảng kiến thức vững chắc về AI trước khi đi sâu vào ứng dụng.", "resources": [{"id": "res_lesson_c6.1_d6b3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=6&id=61", "title": "🎬 Bài giảng: AI Foundations", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c6.1_8c60", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv", "title": "📝 Trắc nghiệm Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c6.1_5fe3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6", "title": "📋 Mục lục Module 6", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}, {"id": "c6.2", "title": "Các mô hình GenAI tạo sinh và ứng dụng", "content": "Tiết học này giới thiệu các mô hình AI tạo sinh (GenAI) phổ biến như ChatGPT, Gemini, NoteBookLM, ShakkerAI và Sora. Học viên sẽ được hướng dẫn cách sử dụng các công cụ này để tạo văn bản, hình ảnh và video. Bài học cũng đề cập đến các vấn đề đạo đức và quyền riêng tư liên quan đến ứng dụng AI tạo sinh.", "resources": [{"id": "res_lesson_c6.2_6a35", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=6&id=62", "title": "🎬 Bài giảng: AI Blueprint", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c6.2_462a", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv", "title": "📝 Trắc nghiệm Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c6.2_22e3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6", "title": "📋 Mục lục Module 6", "type": "link", "icon": "📋", "added_at": "auto-sync"}]}], "resources": [{"id": "res_lesson_c6.1_d6b3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=6&id=61", "title": "🎬 Bài giảng: AI Foundations", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c6.1_8c60", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv", "title": "📝 Trắc nghiệm Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c6.1_5fe3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6", "title": "📋 Mục lục Module 6", "type": "link", "icon": "📋", "added_at": "auto-sync"}, {"id": "res_lesson_c6.2_6a35", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=6&id=62", "title": "🎬 Bài giảng: AI Blueprint", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_c6.2_462a", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv", "title": "📝 Trắc nghiệm Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_session_c6.2_22e3", "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6", "title": "📋 Mục lục Module 6", "type": "link", "icon": "📋", "added_at": "auto-sync"}], "val": 15, "prerequisites": []}, {"id": "m7_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c7.1", "title": "Định dạng văn bản chuyên nghiệp trong Word", "content": "Bài học này tập trung vào các kỹ năng định dạng văn bản cơ bản và nâng cao trong Microsoft Word. Học viên sẽ thực hành thiết lập khổ giấy, lựa chọn font chữ, sử dụng Page Breaks, Section Breaks, TabStop và Bullets. Mục tiêu là giúp người học tạo ra các tài liệu Word có bố cục rõ ràng và đẹp mắt.", "resources": []}, {"id": "c7.2", "title": "Trình bày văn bản chuyên nghiệp với Word", "content": "Tiết học này hướng dẫn các kỹ thuật trình bày văn bản để tạo nên một tài liệu chuyên nghiệp. Học viên sẽ được thực hành tạo mục lục tự động (Multilevel list), sử dụng Header và Footer, thêm Caption cho hình ảnh và Comment. Mục tiêu là giúp người học nâng cao khả năng tổ chức và chú thích nội dung một cách hiệu quả.", "resources": []}, {"id": "c7.3", "title": "Kiểm tra giữa kỳ thực hành Word", "content": "Tiết học này là buổi kiểm tra giữa kỳ, tập trung vào việc rà soát lỗi ứng dụng và kỹ năng tổng hợp văn bản. Học viên sẽ thực hành áp dụng các kiến thức đã học để tạo ra một tài liệu chuẩn Harvard. Mục tiêu là đánh giá khả năng vận dụng tổng hợp các chức năng của Word để hoàn thành một bài tập thực tế.", "resources": []}], "resources": [], "val": 15, "prerequisites": []}, {"id": "m7_Meso_2", "next_best": false, "type": "meso", "label": "Phần 2", "micro_children": [{"id": "c7.4", "title": "Tích hợp AI vào Word", "content": "Bài học này giới thiệu cách tích hợp các công cụ AI như Copilot hoặc ChatGPT vào Microsoft Word thông qua Add-ins. Học viên sẽ được hướng dẫn cách yêu cầu AI viết tự động, tóm tắt và viết lại văn bản chuẩn ngữ pháp. Mục tiêu là khai thác sức mạnh của AI để tối ưu hóa quy trình soạn thảo và nâng cao chất lượng văn bản.", "resources": []}], "resources": [], "val": 15, "prerequisites": ["m6_Meso_1", "m7_Meso_1"]}, {"id": "m8_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c8.1", "title": "Nền tảng hàm và xử lý dữ liệu trong Excel", "content": "Tiết học này cung cấp kiến thức nền tảng về các hàm và kỹ thuật xử lý dữ liệu trong Excel. Học viên sẽ được hướng dẫn cách đặt tên vùng, sử dụng Validation, và áp dụng các hàm như If, Left, Right, Vlookup, Hlookup để định hình dữ liệu thô. Mục tiêu là xây dựng khả năng làm việc hiệu quả với các bộ dữ liệu phức tạp.", "resources": []}, {"id": "c8.2", "title": "Quản trị và phân tích mảng dữ liệu với Excel", "content": "Bài học này tập trung vào các công cụ quản trị và phân tích mảng dữ liệu trong Excel. Học viên sẽ thực hành các chức năng Sort, Filter và PivotTable để tổ chức dữ liệu. Đồng thời, tiết học cũng hướng dẫn cách sử dụng các hàm lọc đếm có điều kiện như Sumif và Countif. Mục tiêu là giúp người học trích xuất thông tin và insight từ dữ liệu.", "resources": []}, {"id": "c8.3", "title": "Tích hợp AI để phân tích dữ liệu trong Excel", "content": "Tiết học này giới thiệu cách tích hợp AI, cụ thể là Copilot, vào Excel để phân tích dữ liệu tự động. Học viên sẽ được hướng dẫn cách tạo bộ dữ liệu mẫu, phân tích logic xu hướng và yêu cầu AI sinh các công thức hàm phức tạp. Mục tiêu là khai thác khả năng của AI để tăng cường hiệu quả và độ chính xác trong phân tích dữ liệu.", "resources": []}], "resources": [], "val": 15, "prerequisites": ["m1_Meso_1", "m6_Meso_1"]}, {"id": "m9_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c9.1", "title": "Xây dựng trình chiếu chuyên nghiệp với PowerPoint", "content": "Bài học này tập trung vào các kỹ thuật xây dựng trình chiếu ấn tượng trong PowerPoint. Học viên sẽ được hướng dẫn cách thiết kế Slide Master để đảm bảo tính nhất quán. Đồng thời, tiết học cũng bao gồm kỹ thuật tạo Trigger để liên kết các mảng nội dung và sử dụng Animation, Auto-loop để tăng tính tương tác.", "resources": []}, {"id": "c9.2", "title": "Chế tác Slide siêu tốc với AI", "content": "Tiết học này giới thiệu cách sử dụng các công cụ AI như Gamma AI hoặc Copilot để chế tác Slide một cách nhanh chóng và hiệu quả. Học viên sẽ được hướng dẫn cách yêu cầu AI sinh toàn bộ cấu trúc bài thuyết trình. Đồng thời, bài học cũng bao gồm việc chèn hình ảnh minh họa được tạo bởi GenAI để làm phong phú nội dung.", "resources": []}], "resources": [], "val": 15, "prerequisites": ["m6_Meso_1"]}, {"id": "m10_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c10.1", "title": "Tổng ôn quy trình và kiến thức", "content": "Tiết học này là buổi tổng ôn toàn diện, rà soát lại toàn bộ kiến thức từ 6 module lý thuyết về công nghệ số và AI. Học viên sẽ ôn tập các kỹ năng đã học và tổ hợp các bài thi thực hành Office kết hợp AI. Mục tiêu là củng cố kiến thức và chuẩn bị tốt nhất cho các bài kiểm tra cuối khóa.", "resources": []}, {"id": "c10.2", "title": "Giải đề minh họa và xử lý tình huống", "content": "Bài học này tập trung vào việc giải các đề thi minh họa thực hành lớn, giúp học viên làm quen với định dạng và yêu cầu của bài thi cuối khóa. Học viên sẽ được chia sẻ quy trình làm bài hiệu quả và cách xử lý các tình huống phát sinh. Mục tiêu là trang bị kỹ năng giải quyết vấn đề và tự tin hoàn thành bài thi thực hành.", "resources": []}], "resources": [], "val": 15, "prerequisites": []}], "links": [{"source": "m1", "target": "m1_Meso_1", "relation": "contains"}, {"source": "m2", "target": "m2_Meso_1", "relation": "contains"}, {"source": "m3", "target": "m3_Meso_1", "relation": "contains"}, {"source": "m4", "target": "m4_Meso_1", "relation": "contains"}, {"source": "m5", "target": "m5_Meso_1", "relation": "contains"}, {"source": "m6", "target": "m6_Meso_1", "relation": "contains"}, {"source": "m7", "target": "m7_Meso_1", "relation": "contains"}, {"source": "m7", "target": "m7_Meso_2", "relation": "contains"}, {"source": "m8", "target": "m8_Meso_1", "relation": "contains"}, {"source": "m9", "target": "m9_Meso_1", "relation": "contains"}, {"source": "m10", "target": "m10_Meso_1", "relation": "contains"}, {"source": "m1", "target": "m2", "relation": "macro_path"}, {"source": "m2", "target": "m3", "relation": "macro_path"}, {"source": "m3", "target": "m4", "relation": "macro_path"}, {"source": "m4", "target": "m5", "relation": "macro_path"}, {"source": "m5", "target": "m6", "relation": "macro_path"}, {"source": "m6", "target": "m7", "relation": "macro_path"}, {"source": "m7", "target": "m8", "relation": "macro_path"}, {"source": "m8", "target": "m9", "relation": "macro_path"}, {"source": "m9", "target": "m10", "relation": "macro_path"}, {"source": "m1_Meso_1", "target": "m8_Meso_1", "relation": "prerequisite_for"}, {"source": "m6_Meso_1", "target": "m7_Meso_2", "relation": "prerequisite_for"}, {"source": "m6_Meso_1", "target": "m8_Meso_1", "relation": "prerequisite_for"}, {"source": "m6_Meso_1", "target": "m9_Meso_1", "relation": "prerequisite_for"}, {"source": "m7_Meso_1", "target": "m7_Meso_2", "relation": "prerequisite_for"}]};
+        const GRAPH_DATA = {"nodes": [{"id": "m1", "next_best": false, "type": "macro", "label": "Chương 1. Giới thiệu về Machine Learning", "resources": [{"id": "res_quiz_MD1_65ad", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m2", "next_best": false, "type": "macro", "label": "Chương 2. Trích chọn đặc trưng", "resources": [{"id": "res_quiz_MD2_bacf", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m3", "next_best": false, "type": "macro", "label": "Chương 3. Hồi quy – Regression", "resources": [{"id": "res_quiz_MD3_c9c7", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3", "title": "📝 Trắc nghiệm - Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m4", "next_best": false, "type": "macro", "label": "Chương 4. Phân lớp – Classification", "resources": [{"id": "res_quiz_MD4_8b7a", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m5", "next_best": false, "type": "macro", "label": "Chương 5. Gom cụm – Clustering", "resources": [{"id": "res_quiz_MD5_be71", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5", "title": "📝 Trắc nghiệm - Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m6", "next_best": false, "type": "macro", "label": "Chương 6. Phương pháp tối ưu Gradient Descent", "resources": [{"id": "res_quiz_MD6_b695", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6", "title": "📝 Trắc nghiệm - Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m7", "next_best": false, "type": "macro", "label": "Chương 7. Mạng neuron nhân tạo – ANNs", "resources": [{"id": "res_quiz_MD7_830b", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD7", "title": "📝 Trắc nghiệm - Module 7", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "color": "#00ffcc", "val": 25}, {"id": "m1_Meso_1", "next_best": true, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c1.1", "title": "Định nghĩa Machine Learning", "content": "Giới thiệu khái niệm cơ bản về học máy, các mục tiêu và ứng dụng chính. Giải thích cách máy tính học từ dữ liệu mà không cần lập trình rõ ràng. Đây là nền tảng để hiểu về lĩnh vực Machine Learning.", "resources": [{"id": "res_vid_MD1_762e", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_212d", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c1.2", "title": "Quy trình xây dựng hệ thống Machine Learning", "content": "Mô tả các bước cơ bản để xây dựng một hệ thống học máy hoàn chỉnh, từ thu thập dữ liệu, tiền xử lý, huấn luyện mô hình, đến đánh giá và triển khai. Quy trình này là kim chỉ nam cho các dự án ML thực tế.", "resources": [{"id": "res_vid_MD1_e0b9", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_f591", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c1.3", "title": "Phân loại thuật toán Machine Learning", "content": "Phân biệt các loại học máy chính như học có giám sát, không giám sát và học tăng cường, cùng các thuật toán phổ biến trong mỗi loại. Việc phân loại giúp định hướng lựa chọn thuật toán phù hợp cho từng bài toán cụ thể.", "resources": [{"id": "res_vid_MD1_e5dd", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_3ed2", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD1_762e", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_212d", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD1_e0b9", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_f591", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD1_e5dd", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_3ed2", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": []}, {"id": "m1_Meso_2", "next_best": false, "type": "meso", "label": "Phần 2", "micro_children": [{"id": "c1.4", "title": "Một số bài toán Machine Learning cơ bản", "content": "Giới thiệu các bài toán điển hình trong học máy như hồi quy, phân lớp, gom cụm và tầm quan trọng của chúng trong thực tiễn. Hiểu rõ các bài toán này là bước đầu tiên để áp dụng ML vào giải quyết vấn đề.", "resources": [{"id": "res_vid_MD1_9d09", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_84d2", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c1.5", "title": "Datasets và Thư viện lập trình Machine Learning", "content": "Giới thiệu về các tập dữ liệu mẫu và các thư viện lập trình phổ biến (như Scikit-learn, TensorFlow, Keras) được sử dụng để phát triển ứng dụng học máy. Đây là các công cụ thiết yếu để triển khai các thuật toán ML.", "resources": [{"id": "res_vid_MD1_d459", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_7884", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD1_9d09", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_84d2", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD1_d459", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 1)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD1_7884", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1", "title": "📝 Trắc nghiệm - Module 1", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m1_Meso_1"]}, {"id": "m2_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c2.1", "title": "Mô tả, Biên tập, Tóm tắt, Trực quan dữ liệu", "content": "Giải thích các kỹ thuật khám phá dữ liệu ban đầu bao gồm mô tả thống kê, biên tập lỗi, tóm tắt thông tin và trực quan hóa để hiểu cấu trúc dữ liệu. Đây là các bước quan trọng trong giai đoạn tiền xử lý dữ liệu.", "resources": [{"id": "res_vid_MD2_f6fd", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_94bf", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c2.2", "title": "Khái niệm về đặc trưng (features)", "content": "Định nghĩa đặc trưng là các thuộc tính đầu vào quan trọng của dữ liệu được sử dụng để huấn luyện mô hình học máy. Đặc trưng đóng vai trò cốt lõi trong việc biểu diễn thông tin và ảnh hưởng trực tiếp đến hiệu suất mô hình.", "resources": [{"id": "res_vid_MD2_2bff", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_dad0", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c2.3", "title": "Trích đặc trưng trên dữ liệu số và phân loại", "content": "Giới thiệu các phương pháp tạo ra đặc trưng mới hoặc chuyển đổi đặc trưng hiện có trên dữ liệu số (scaling, binning) và dữ liệu phân loại (one-hot encoding, label encoding). Các kỹ thuật này giúp dữ liệu phù hợp hơn với các thuật toán ML.", "resources": [{"id": "res_vid_MD2_d757", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_c112", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD2_f6fd", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_94bf", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD2_2bff", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_dad0", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD2_d757", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_c112", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m1_Meso_1"]}, {"id": "m2_Meso_2", "next_best": false, "type": "meso", "label": "Phần 2", "micro_children": [{"id": "c2.4", "title": "Trích đặc trưng trên dữ liệu văn bản, ảnh, tuần tự", "content": "Khám phá các kỹ thuật đặc trưng chuyên biệt cho dữ liệu phi cấu trúc như văn bản (TF-IDF), ảnh (pixel values, embeddings) và dữ liệu chuỗi thời gian. Đây là các phương pháp tiên tiến để xử lý dữ liệu phức tạp.", "resources": [{"id": "res_vid_MD2_03b5", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_3ce0", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c2.5", "title": "Chuẩn hóa và Chọn lọc đặc trưng", "content": "Trình bày các phương pháp chuẩn hóa dữ liệu để đảm bảo các đặc trưng có cùng thang đo và các kỹ thuật chọn lọc đặc trưng để giảm chiều dữ liệu, cải thiện hiệu suất mô hình. Chuẩn hóa giúp tránh bias, còn chọn lọc giúp giảm nhiễu và tăng tốc độ xử lý.", "resources": [{"id": "res_vid_MD2_b8eb", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_3820", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD2_03b5", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_3ce0", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD2_b8eb", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 2)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD2_3820", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2", "title": "📝 Trắc nghiệm - Module 2", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m2_Meso_1"]}, {"id": "m3_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c3.1", "title": "Bài toán hồi quy và Hồi quy tuyến tính", "content": "Giới thiệu bài toán hồi quy nhằm dự đoán một giá trị liên tục. Giải thích nguyên lý, công thức và cách huấn luyện mô hình Hồi quy Tuyến tính để tìm mối quan hệ tuyến tính giữa biến đầu vào và đầu ra. Đây là một trong những thuật toán học có giám sát cơ bản nhất.", "resources": [{"id": "res_vid_MD3_3066", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 3)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD3_7e76", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3", "title": "📝 Trắc nghiệm - Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c3.2", "title": "Hồi quy dựa trên cây (Tree-based Regression) và so sánh", "content": "Khám phá các thuật toán hồi quy dựa trên cấu trúc cây như Cây Quyết định cho hồi quy hoặc Random Forest Regression. So sánh ưu nhược điểm của chúng với Hồi quy Tuyến tính, giúp sinh viên lựa chọn mô hình phù hợp cho các tập dữ liệu phức tạp hơn.", "resources": [{"id": "res_vid_MD3_b08b", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 3)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD3_50e6", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3", "title": "📝 Trắc nghiệm - Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD3_3066", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 3)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD3_7e76", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3", "title": "📝 Trắc nghiệm - Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD3_b08b", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 3)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD3_50e6", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3", "title": "📝 Trắc nghiệm - Module 3", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m1_Meso_2", "m2_Meso_1"]}, {"id": "m4_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c4.1", "title": "Bài toán phân lớp dữ liệu", "content": "Giới thiệu bài toán phân lớp, mục tiêu là gán nhãn loại (category) cho dữ liệu mới dựa trên dữ liệu đã học. Phân lớp là một trong những ứng dụng phổ biến nhất của Machine Learning, từ phân loại email spam đến chẩn đoán bệnh.", "resources": [{"id": "res_vid_MD4_5e02", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_e506", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c4.2", "title": "k-Nearest Neighbors (k-NN)", "content": "Trình bày thuật toán k-NN, một phương pháp phân lớp dựa trên khoảng cách, gán nhãn cho một điểm dữ liệu mới dựa trên nhãn của k điểm gần nhất trong tập huấn luyện. k-NN là một thuật toán đơn giản nhưng hiệu quả, đặc biệt cho dữ liệu không quá lớn.", "resources": [{"id": "res_vid_MD4_c7f8", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_aec6", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c4.3", "title": "Cây quyết định (Decision Trees)", "content": "Giải thích thuật toán Cây Quyết định, xây dựng một mô hình cây để đưa ra quyết định phân loại bằng cách phân chia dữ liệu dựa trên các thuộc tính. Cây quyết định dễ hiểu và dễ diễn giải, phù hợp cho cả bài toán phân lớp và hồi quy.", "resources": [{"id": "res_vid_MD4_91c3", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_4964", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD4_5e02", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_e506", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD4_c7f8", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_aec6", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD4_91c3", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_4964", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m1_Meso_2", "m2_Meso_1"]}, {"id": "m4_Meso_2", "next_best": false, "type": "meso", "label": "Phần 2", "micro_children": [{"id": "c4.4", "title": "Naïve Bayes", "content": "Giới thiệu thuật toán Naïve Bayes, một phương pháp phân lớp dựa trên định lý Bayes với giả định độc lập giữa các đặc trưng, thường được dùng trong phân loại văn bản. Mặc dù 'naïve' (ngây thơ) trong giả định, nó vẫn rất hiệu quả trong nhiều trường hợp.", "resources": [{"id": "res_vid_MD4_4fda", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_e29b", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c4.5", "title": "Hồi quy logistic (Logistic Regression)", "content": "Trình bày Hồi quy Logistic, mặc dù tên là 'hồi quy' nhưng đây là một thuật toán phân lớp sử dụng hàm sigmoid để ước tính xác suất một mẫu thuộc về một lớp nhất định. Nó là cầu nối quan trọng giữa hồi quy tuyến tính và phân loại.", "resources": [{"id": "res_vid_MD4_92e4", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_8f9e", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c4.6", "title": "Support Vector Machines (SVM)", "content": "Giới thiệu thuật toán SVM, tìm một siêu phẳng tối ưu để phân tách dữ liệu thành các lớp, tối đa hóa biên độ giữa các lớp. SVM là một thuật toán mạnh mẽ, đặc biệt hiệu quả trong không gian chiều cao hoặc khi dữ liệu có thể phân tách tuyến tính.", "resources": [{"id": "res_vid_MD4_ed85", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_986c", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD4_4fda", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_e29b", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD4_92e4", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_8f9e", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD4_ed85", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 4)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD4_986c", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4", "title": "📝 Trắc nghiệm - Module 4", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m4_Meso_1"]}, {"id": "m5_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c5.1", "title": "Bài toán gom cụm dữ liệu", "content": "Giới thiệu bài toán gom cụm, mục tiêu là nhóm các điểm dữ liệu tương tự nhau thành các cụm mà không có nhãn sẵn. Đây là một kỹ thuật học không giám sát quan trọng để khám phá cấu trúc ẩn trong dữ liệu.", "resources": [{"id": "res_vid_MD5_f675", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 5)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD5_5165", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5", "title": "📝 Trắc nghiệm - Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c5.2", "title": "K-Means", "content": "Trình bày thuật toán K-Means, một phương pháp gom cụm phổ biến nhằm chia n điểm dữ liệu thành k cụm, trong đó mỗi điểm thuộc về cụm có tâm gần nhất. K-Means được sử dụng rộng rãi nhờ sự đơn giản và hiệu quả.", "resources": [{"id": "res_vid_MD5_1054", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 5)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD5_f230", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5", "title": "📝 Trắc nghiệm - Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c5.3", "title": "DBSCAN", "content": "Giới thiệu thuật toán DBSCAN, một phương pháp gom cụm dựa trên mật độ, có khả năng tìm các cụm có hình dạng tùy ý và phát hiện nhiễu. DBSCAN linh hoạt hơn K-Means khi xử lý các cụm không có hình dạng cầu.", "resources": [{"id": "res_vid_MD5_2869", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 5)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD5_c37c", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5", "title": "📝 Trắc nghiệm - Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD5_f675", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 5)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD5_5165", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5", "title": "📝 Trắc nghiệm - Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD5_1054", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 5)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD5_f230", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5", "title": "📝 Trắc nghiệm - Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD5_2869", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 5)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD5_c37c", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5", "title": "📝 Trắc nghiệm - Module 5", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m1_Meso_2", "m2_Meso_1"]}, {"id": "m6_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c6.1", "title": "Gradient Descent cho hàm một biến và nhiều biến", "content": "Giải thích nguyên lý của Gradient Descent như một thuật toán tối ưu hóa lặp để tìm giá trị cực tiểu của một hàm số bằng cách di chuyển theo hướng dốc nhất xuống. Đây là xương sống của việc huấn luyện nhiều mô hình học máy hiện đại.", "resources": [{"id": "res_vid_MD6_c994", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 6)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD6_5f80", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6", "title": "📝 Trắc nghiệm - Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c6.2", "title": "Kỹ thuật Momentum và Nesterov accelerated gradient", "content": "Trình bày các kỹ thuật cải tiến Gradient Descent như Momentum và Nesterov accelerated gradient, giúp tăng tốc độ hội tụ và vượt qua các điểm cực tiểu cục bộ. Các kỹ thuật này đóng vai trò quan trọng trong việc huấn luyện các mô hình lớn.", "resources": [{"id": "res_vid_MD6_c53a", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 6)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD6_1352", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6", "title": "📝 Trắc nghiệm - Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}, {"id": "c6.3", "title": "Stochastic Gradient Descent (SGD) và Mini-batch Gradient Descent", "content": "Giới thiệu các biến thể của Gradient Descent như SGD (cập nhật trọng số sau mỗi mẫu) và Mini-batch GD (cập nhật sau một nhóm mẫu nhỏ) để tối ưu hiệu quả huấn luyện trên tập dữ liệu lớn. Các biến thể này giúp tăng tốc độ và giảm dao động trong quá trình huấn luyện.", "resources": [{"id": "res_vid_MD6_b79e", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 6)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD6_8ccd", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6", "title": "📝 Trắc nghiệm - Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}]}], "resources": [{"id": "res_vid_MD6_c994", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 6)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD6_5f80", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6", "title": "📝 Trắc nghiệm - Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD6_c53a", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 6)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD6_1352", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6", "title": "📝 Trắc nghiệm - Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}, {"id": "res_vid_MD6_b79e", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html", "title": "🎬 Bài giảng Video (Module 6)", "type": "youtube", "icon": "🎬", "added_at": "auto-sync"}, {"id": "res_quiz_MD6_8ccd", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6", "title": "📝 Trắc nghiệm - Module 6", "type": "link", "icon": "📝", "added_at": "auto-sync"}], "val": 15, "prerequisites": []}, {"id": "m7_Meso_1", "next_best": false, "type": "meso", "label": "Phần 1", "micro_children": [{"id": "c7.1", "title": "Neuron sinh học và neuron nhân tạo (Perceptron)", "content": "So sánh cơ chế hoạt động của neuron sinh học với mô hình neuron nhân tạo (Perceptron), đơn vị cơ bản trong mạng nơ-ron, bao gồm đầu vào, trọng số, hàm kích hoạt và đầu ra. Hiểu về Perceptron là nền tảng để nắm bắt cách mạng nơ-ron hoạt động.", "resources": [{"id": "res_doc_w_9e2a", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf", "title": "📄 Slide Bài giảng Word", "type": "pdf", "icon": "📄", "added_at": "auto-sync"}]}, {"id": "c7.2", "title": "Mạng neuron đa tầng (MLPs) và Thuật toán lan truyền tiến", "content": "Giới thiệu cấu trúc mạng nơ-ron đa tầng (MLPs) gồm nhiều lớp neuron. Giải thích quá trình lan truyền tiến (feedforward) khi dữ liệu đi qua các lớp để tạo ra dự đoán. MLPs là một kiến trúc cơ bản nhưng mạnh mẽ cho nhiều bài toán.", "resources": [{"id": "res_doc_w_6953", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf", "title": "📄 Slide Bài giảng Word", "type": "pdf", "icon": "📄", "added_at": "auto-sync"}]}, {"id": "c7.3", "title": "Thuật toán huấn luyện (Lan truyền ngược) và các thành phần", "content": "Trình bày thuật toán lan truyền ngược (Backpropagation) để điều chỉnh trọng số của mạng nơ-ron, giảm thiểu lỗi dự đoán. Nêu bật bốn thành phần chính của mạng neuron: đầu vào, đầu ra, trọng số và hàm kích hoạt. Backpropagation là cốt lõi của việc huấn luyện mạng nơ-ron sâu.", "resources": [{"id": "res_doc_w_ef95", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf", "title": "📄 Slide Bài giảng Word", "type": "pdf", "icon": "📄", "added_at": "auto-sync"}]}], "resources": [{"id": "res_doc_w_9e2a", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf", "title": "📄 Slide Bài giảng Word", "type": "pdf", "icon": "📄", "added_at": "auto-sync"}, {"id": "res_doc_w_6953", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf", "title": "📄 Slide Bài giảng Word", "type": "pdf", "icon": "📄", "added_at": "auto-sync"}, {"id": "res_doc_w_ef95", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf", "title": "📄 Slide Bài giảng Word", "type": "pdf", "icon": "📄", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m1_Meso_1", "m2_Meso_1", "m6_Meso_1"]}, {"id": "m7_Meso_2", "next_best": false, "type": "meso", "label": "Phần 2", "micro_children": [{"id": "c7.4", "title": "Tổng kết học phần và định hướng báo cáo cuối kỳ", "content": "Tóm tắt các kiến thức trọng tâm của học phần, củng cố sự hiểu biết về quy trình xây dựng hệ thống học máy. Hướng dẫn sinh viên thực hiện dự án cuối kỳ để ứng dụng kiến thức vào giải quyết vấn đề thực tế, tổng hợp các kỹ năng đã học.", "resources": [{"id": "res_doc_w_5296", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf", "title": "📄 Slide Bài giảng Word", "type": "pdf", "icon": "📄", "added_at": "auto-sync"}]}], "resources": [{"id": "res_doc_w_5296", "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf", "title": "📄 Slide Bài giảng Word", "type": "pdf", "icon": "📄", "added_at": "auto-sync"}], "val": 15, "prerequisites": ["m7_Meso_1"]}], "links": [{"source": "m1", "target": "m1_Meso_1", "relation": "contains"}, {"source": "m1", "target": "m1_Meso_2", "relation": "contains"}, {"source": "m2", "target": "m2_Meso_1", "relation": "contains"}, {"source": "m2", "target": "m2_Meso_2", "relation": "contains"}, {"source": "m3", "target": "m3_Meso_1", "relation": "contains"}, {"source": "m4", "target": "m4_Meso_1", "relation": "contains"}, {"source": "m4", "target": "m4_Meso_2", "relation": "contains"}, {"source": "m5", "target": "m5_Meso_1", "relation": "contains"}, {"source": "m6", "target": "m6_Meso_1", "relation": "contains"}, {"source": "m7", "target": "m7_Meso_1", "relation": "contains"}, {"source": "m7", "target": "m7_Meso_2", "relation": "contains"}, {"source": "m1", "target": "m2", "relation": "macro_path"}, {"source": "m2", "target": "m3", "relation": "macro_path"}, {"source": "m3", "target": "m4", "relation": "macro_path"}, {"source": "m4", "target": "m5", "relation": "macro_path"}, {"source": "m5", "target": "m6", "relation": "macro_path"}, {"source": "m6", "target": "m7", "relation": "macro_path"}, {"source": "m1_Meso_1", "target": "m1_Meso_2", "relation": "prerequisite_for"}, {"source": "m1_Meso_1", "target": "m2_Meso_1", "relation": "prerequisite_for"}, {"source": "m2_Meso_1", "target": "m2_Meso_2", "relation": "prerequisite_for"}, {"source": "m1_Meso_2", "target": "m3_Meso_1", "relation": "prerequisite_for"}, {"source": "m2_Meso_1", "target": "m3_Meso_1", "relation": "prerequisite_for"}, {"source": "m1_Meso_2", "target": "m4_Meso_1", "relation": "prerequisite_for"}, {"source": "m2_Meso_1", "target": "m4_Meso_1", "relation": "prerequisite_for"}, {"source": "m4_Meso_1", "target": "m4_Meso_2", "relation": "prerequisite_for"}, {"source": "m1_Meso_2", "target": "m5_Meso_1", "relation": "prerequisite_for"}, {"source": "m2_Meso_1", "target": "m5_Meso_1", "relation": "prerequisite_for"}, {"source": "m1_Meso_1", "target": "m7_Meso_1", "relation": "prerequisite_for"}, {"source": "m2_Meso_1", "target": "m7_Meso_1", "relation": "prerequisite_for"}, {"source": "m6_Meso_1", "target": "m7_Meso_1", "relation": "prerequisite_for"}, {"source": "m7_Meso_1", "target": "m7_Meso_2", "relation": "prerequisite_for"}]};
         const USER_STATE = {
-            "mastery": {"Chuong_4_Tiet_1": 0.5624368631454192, "Chuong_4_Tiet_2": 0.51, "Chuong_3_Tiet_6": 0.4917573002781275},
-            "inferred_blooms": {"Chuong_4_Tiet_1": 1.6659932068844712, "Chuong_4_Tiet_2": 1.1066666666666667, "Chuong_3_Tiet_6": 0.9120778696333597}
+            "mastery": {"Chuong_4_Tiet_1": 0.5624368631454192, "Chuong_4_Tiet_2": 0.51, "Chuong_3_Tiet_6": 0.4917573002781275, "Chuong_1_Tiet_1": 0.500879015216456},
+            "inferred_blooms": {},
+            "bloom_level_scores": {}
         };
+        const CHAPTER_LIST = [{"id": "m1", "title": "Chương 1. Giới thiệu về Machine Learning", "order": 1}, {"id": "m2", "title": "Chương 2. Trích chọn đặc trưng", "order": 2}, {"id": "m3", "title": "Chương 3. Hồi quy – Regression", "order": 3}, {"id": "m4", "title": "Chương 4. Phân lớp – Classification", "order": 4}, {"id": "m5", "title": "Chương 5. Gom cụm – Clustering", "order": 5}, {"id": "m6", "title": "Chương 6. Phương pháp tối ưu Gradient Descent", "order": 6}, {"id": "m7", "title": "Chương 7. Mạng neuron nhân tạo – ANNs", "order": 7}];
         let Graph = null;
+
+        function toggleFabPanel(id) {
+            const panels = ['dashboard-panel', 'chapter-nav', 'progress-bar', 'legend-panel'];
+            const buttons = {'dashboard-panel': 'toggle-stats', 'chapter-nav': 'toggle-nav', 'progress-bar': 'toggle-prog', 'legend-panel': 'toggle-legend'};
+            
+            panels.forEach(p => {
+                const el = document.getElementById(p);
+                const btn = document.getElementById(buttons[p]);
+                if (!el || !btn) return;
+                
+                if (p === id) {
+                    if (el.classList.contains('panel-show')) {
+                        el.classList.remove('panel-show');
+                        btn.classList.remove('active');
+                    } else {
+                        el.classList.add('panel-show');
+                        btn.classList.add('active');
+                    }
+                } else {
+                    el.classList.remove('panel-show');
+                    btn.classList.remove('active');
+                }
+            });
+        }
+        
+        function togglePanel(id) {
+            // Old function kept for panel-header clicks
+            toggleFabPanel(id);
+        }
+
+        function getShortLabel(node) {
+            if (node.type === 'macro') {
+                const match = node.id.match(/(\d+)/);
+                if (match) {
+                    const num = match[1];
+                    if (num === '999') return '✉ Phụ lục';
+                    return 'Ch.' + num + ': ' + (node.label || '').substring(0, 14);
+                }
+                return (node.label || node.id).substring(0, 16);
+            }
+            if (node.micro_children && node.micro_children.length > 0) {
+                const t = node.micro_children[0].title || node.label || '';
+                return t.length > 20 ? t.substring(0, 18) + '…' : t;
+            }
+            return (node.label || node.id).substring(0, 18);
+        }
+
+        function focusChapter(chapterId) {
+            const node = GRAPH_DATA.nodes.find(n => n.id === chapterId);
+            if (node && Graph) {
+                Graph.cameraPosition(
+                    { x: node.x * 1.6, y: node.y * 1.6, z: node.z * 1.6 },
+                    node, 1500
+                );
+            }
+        }
+
+        function renderProgressBar() {
+            const container = document.getElementById('progress-chapters');
+            if (!container) return;
+            container.innerHTML = '';
+            CHAPTER_LIST.forEach((ch, idx) => {
+                const mesoNodes = GRAPH_DATA.nodes.filter(n => n.type === 'meso' && n.id.startsWith(ch.id + '_'));
+                let totalM = 0, cnt = 0;
+                mesoNodes.forEach(mn => { totalM += getMasteryLevel(mn.id); cnt++; });
+                const pct = cnt > 0 ? Math.round((totalM / cnt) * 100) : 0;
+                const item = document.createElement('div');
+                item.className = 'prog-item' + (pct >= 80 ? ' mastered' : '');
+                const shortTitle = ch.title.length > 10 ? ch.title.substring(0, 8) + '…' : ch.title;
+                item.innerHTML = '<div class="prog-label">' + shortTitle + '</div><div class="prog-bar"><div class="prog-fill" style="width:' + pct + '%"></div></div><div class="prog-pct">' + pct + '%</div>';
+                item.onclick = function() { focusChapter(ch.id); };
+                container.appendChild(item);
+                if (idx < CHAPTER_LIST.length - 1) {
+                    const arrow = document.createElement('span');
+                    arrow.className = 'prog-arrow';
+                    arrow.textContent = '→';
+                    container.appendChild(arrow);
+                }
+            });
+        }
+
+        function renderChapterNav() {
+            const container = document.getElementById('chapter-list');
+            if (!container) return;
+            container.innerHTML = '';
+            CHAPTER_LIST.forEach(ch => {
+                const item = document.createElement('div');
+                item.className = 'nav-item';
+                item.innerHTML = '<span class="material-icons" style="font-size:14px;color:var(--accent);">folder</span> ' + ch.title;
+                item.onclick = function() { focusChapter(ch.id); };
+                container.appendChild(item);
+            });
+        }
+
 
         function getMasteryLevel(id) { 
             const node = GRAPH_DATA.nodes.find(n => n.id === id);
@@ -106,6 +342,24 @@
         }
         
         function getBloomLevel(id) {
+            // Priority 1: Check explicit level scores (highest active level)
+            const levelScores = USER_STATE.bloom_level_scores[id];
+            if (levelScores && Object.keys(levelScores).length > 0) {
+                let highest = 0;
+                for (let lvl = 6; lvl >= 1; lvl--) {
+                    if (levelScores[String(lvl)] !== undefined && levelScores[String(lvl)] > 0) {
+                        highest = lvl;
+                        break;
+                    }
+                }
+                if (highest > 0) return highest;
+            }
+            
+            // Priority 2: Node's own inferred bloom
+            let selfBloom = USER_STATE.inferred_blooms[id] || 0;
+            if (selfBloom > 0) return selfBloom;
+
+            // Priority 3: Fallback to averaging children for meso nodes
             const node = GRAPH_DATA.nodes.find(n => n.id === id);
             if (node && node.type === 'meso') {
                 let total = 0, count = 0;
@@ -115,7 +369,7 @@
                 });
                 return count > 0 ? total / count : 0;
             }
-            return USER_STATE.inferred_blooms[id] || 0; 
+            return 0; 
         }
 
         function getNodeStatus(n) {
@@ -149,8 +403,8 @@
         }
         
         function isLocked(n) {
-            if (n.type === 'macro') return false;
-            return (n.prerequisites || []).some(p => getMasteryLevel(p) < 0.6);
+            // Unlocked all nodes per user request to allow proactive learning
+            return false;
         }
         function updateStats() {
             let m=0, l=0, w=0;
@@ -164,6 +418,10 @@
             document.getElementById('stat-learning').innerText = l;
             document.getElementById('stat-weak').innerText = w;
         }
+        function closePanel() {
+            document.getElementById('info-panel').classList.remove('visible');
+            window.currentNodeId = null;
+        }
         function startAction(type) {
             if (!window.currentNodeId) return;
             const node = GRAPH_DATA.nodes.find(n => n.id === window.currentNodeId);
@@ -174,90 +432,423 @@
                 children: node && node.micro_children ? node.micro_children : []
             };
             if (window.parent) window.parent.postMessage({ type: 'graph3d_action', payload }, '*');
-            const t = document.createElement('div'); t.className='toast'; t.innerText='🚀 Starting '+type.toUpperCase();
+            const t = document.createElement('div'); t.className='toast'; t.innerText='🚀 Đang mở '+( type==='video'?'Bài giảng':'Bloom Hub');
             document.getElementById('toast-container').appendChild(t);
             setTimeout(() => t.remove(), 2500);
         }
+
+        function startActionForResource(childId, type, url) {
+            if (!window.currentNodeId) return;
+            const node = GRAPH_DATA.nodes.find(n => n.id === window.currentNodeId);
+            const payload = { 
+                id: window.currentNodeId, 
+                action: type,
+                label: document.getElementById('info-title').innerText,
+                children: node && node.micro_children ? node.micro_children : [],
+                selected_child: childId,
+                target_url: url
+            };
+            if (window.parent) window.parent.postMessage({ type: 'graph3d_action', payload }, '*');
+            const t = document.createElement('div'); t.className='toast'; t.innerText='🚀 Đang mở Tài liệu/Bài giảng';
+            document.getElementById('toast-container').appendChild(t);
+            setTimeout(() => t.remove(), 2500);
+        }
+        
+        const BLOOM_LABELS = {1:'Ghi nhớ',2:'Hiểu',3:'Áp dụng',4:'Phân tích',5:'Đánh giá',6:'Sáng tạo'};
+        const BLOOM_COLORS = {1:'#60a5fa',2:'#4ade80',3:'#fbbf24',4:'#fb923c',5:'#f87171',6:'#c084fc'};
+        
+        function positionPanel(node) {
+            const panel = document.getElementById('info-panel');
+            const renderer = Graph.renderer();
+            const camera = Graph.camera();
+            const vec = new THREE.Vector3(node.x, node.y, node.z);
+            vec.project(camera);
+            const hw = renderer.domElement.clientWidth / 2;
+            const hh = renderer.domElement.clientHeight / 2;
+            let sx = (vec.x * hw) + hw;
+            let sy = -(vec.y * hh) + hh;
+            sx += 30;
+            sy -= 40;
+            const pw = 300, ph = panel.offsetHeight || 400, margin = 16;
+            if (sx + pw > window.innerWidth - margin) sx = window.innerWidth - pw - margin;
+            if (sx < margin) sx = margin;
+            if (sy + ph > window.innerHeight - margin) sy = window.innerHeight - ph - margin;
+            if (sy < margin) sy = margin;
+            panel.style.left = sx + 'px';
+            panel.style.top = sy + 'px';
+        }
+        
+        function renderMasteryRing(mastery) {
+            const circumference = 2 * Math.PI * 22;
+            const offset = circumference * (1 - mastery);
+            const fill = document.getElementById('ring-fill');
+            fill.style.strokeDasharray = circumference;
+            fill.style.strokeDashoffset = offset;
+            const color = mastery >= 0.8 ? '#4ade80' : mastery >= 0.4 ? '#fbbf24' : mastery > 0 ? '#f87171' : 'rgba(255,255,255,0.2)';
+            fill.style.stroke = color;
+            document.getElementById('ring-pct').innerText = Math.round(mastery * 100) + '%';
+        }
+        
+        function renderBloomBadge(bloomLevel) {
+            const badge = document.getElementById('bloom-badge');
+            const lvl = Math.max(1, Math.min(6, Math.ceil(bloomLevel || 0)));
+            const label = BLOOM_LABELS[lvl] || 'Chưa đánh giá';
+            const color = BLOOM_COLORS[lvl] || '#60a5fa';
+            badge.style.background = color + '22';
+            badge.style.color = color;
+            badge.innerText = bloomLevel > 0 ? ('L' + lvl + ' ' + label) : '⏳ Chưa đánh giá';
+        }
+        
+        function renderMiniBloom(nodeId) {
+            const container = document.getElementById('mini-bloom-bars');
+            container.innerHTML = '';
+            const levelScores = USER_STATE.bloom_level_scores[nodeId] || {};
+            const maxLevels = Object.keys(levelScores).length > 0 ? Math.max(...Object.keys(levelScores).map(Number)) : 3;
+            const numLevels = Math.max(3, Math.min(6, maxLevels));
+            for (let lvl = 1; lvl <= numLevels; lvl++) {
+                const pct = levelScores[String(lvl)] || 0;
+                const color = BLOOM_COLORS[lvl] || BLOOM_COLORS[3];
+                container.innerHTML += `<div class="mini-bloom"><span class="lbl">L${lvl}</span><div class="bar"><div class="fill" style="width:${pct}%;background:${color}"></div></div><span class="val">${pct}%</span></div>`;
+            }
+        }
+        
+        function hasLearningResources(node) {
+            const resources = node.resources || [];
+            if (resources.length > 0) return true;
+            const children = node.micro_children || [];
+            return children.some(c => (c.resources || []).length > 0);
+        }
+
+        function toggleLesson(idx) {
+            const el = document.getElementById('lg_' + idx);
+            if (el) el.classList.toggle('open');
+        }
+        
+        function renderLearnResources(node) {
+            const container = document.getElementById('learn-resources');
+            container.innerHTML = '';
+            const children = node.micro_children || [];
+            if (children.length === 0) {
+                const resources = node.resources || [];
+                resources.slice(0, 5).forEach(r => {
+                    if (!r || !r.url) return;
+                    const icon = r.icon || '📎';
+                    const title = r.title || 'Tài nguyên';
+                    const short = title.length > 35 ? title.substring(0, 32) + '...' : title;
+                    const safeUrl = (r.url || '#').replace(/'/g, "\\'");
+                    const isValidUrl = safeUrl && safeUrl !== '#' && safeUrl !== '';
+                    if (isValidUrl) {
+                        container.innerHTML += '<div class="res-card" title="' + title + '" onclick="startActionForResource(\'' + node.id + '\', \'video\', \'' + safeUrl + '\')" style="cursor:pointer; border-color:rgba(56,189,248,0.3);">' + icon + ' ' + short + '</div>';
+                    } else {
+                        container.innerHTML += '<div class="res-card" title="' + title + '" style="border-color:rgba(255,255,255,0.06); opacity:0.5;">' + icon + ' ' + short + '</div>';
+                    }
+                });
+                return;
+            }
+            const stepColors = ['#3b82f6','#8b5cf6','#06b6d4','#10b981','#f59e0b','#ef4444','#ec4899','#6366f1','#14b8a6','#f97316','#84cc16','#e879f9'];
+            children.forEach((child, idx) => {
+                const mastery = USER_STATE.mastery[child.id] || 0;
+                const mPct = Math.round(mastery * 100);
+                const color = stepColors[idx % stepColors.length];
+                const mColor = mastery >= 0.8 ? 'var(--green)' : mastery >= 0.4 ? 'var(--yellow)' : 'rgba(255,255,255,0.3)';
+                const mBg = mastery >= 0.8 ? 'rgba(74,222,128,0.15)' : mastery >= 0.4 ? 'rgba(251,191,36,0.15)' : 'rgba(255,255,255,0.05)';
+                const groupId = 'lg_' + idx;
+                const title = child.title || ('Bài ' + (idx + 1));
+                const shortTitle = title.length > 28 ? title.substring(0, 26) + '…' : title;
+                let html = '<div class="lesson-group">';
+                html += '<div class="lesson-header" onclick="toggleLesson(' + idx + ')">';
+                html += '<div class="lesson-step" style="background:' + color + '">' + (idx + 1) + '</div>';
+                html += '<div class="lesson-title">' + shortTitle + '</div>';
+                html += '<div class="lesson-mastery" style="color:' + mColor + ';background:' + mBg + '">' + mPct + '%</div>';
+                html += '</div>';
+                html += '<div class="lesson-resources" id="' + groupId + '">';
+                const res = child.resources || [];
+                if (res.length === 0) {
+                    html += '<div class="lesson-res-item" style="opacity:0.4">Chưa có tài nguyên</div>';
+                } else {
+                    res.forEach(r => {
+                        if (!r) return;
+                        const rIcon = r.type === 'youtube' ? '🎬' : r.type === 'pdf' ? '📄' : r.type === 'document' ? '📝' : r.type === 'link' ? '🔗' : '📎';
+                        const rTitle = (r.title || 'Tài nguyên');
+                        const rShort = rTitle.length > 30 ? rTitle.substring(0, 28) + '…' : rTitle;
+                        const safeUrl = (r.url || '#').replace(/'/g, "\\'");
+                        const isValidUrl = safeUrl && safeUrl !== '#' && safeUrl !== '';
+                        if (isValidUrl) {
+                            html += '<div class="lesson-res-item" title="' + rTitle + '" onclick="startActionForResource(\'' + child.id + '\', \'video\', \'' + safeUrl + '\')">';
+                        } else {
+                            html += '<div class="lesson-res-item" title="' + rTitle + '" style="opacity:0.5;">';
+                        }
+                        html += '<span class="lesson-res-icon">' + rIcon + '</span> <span style="text-decoration: underline; text-decoration-color: rgba(255,255,255,0.2);">' + rShort + '</span>';
+                        html += '</div>';
+                    });
+                }
+                html += '</div></div>';
+                container.innerHTML += html;
+            });
+            // Auto-expand first lesson - Disabled per user request
+            // const firstGroup = document.getElementById('lg_0');
+            // if (firstGroup) firstGroup.classList.add('open');
+        }
+
         function init() {
             updateStats();
+            renderChapterNav();
             Graph = ForceGraph3D()(document.getElementById('3d-graph'))
                 .graphData(GRAPH_DATA)
                 .backgroundColor('#060714')
                 .showNavInfo(false)
-                .nodeColor(getNodeColor)
+                .dagMode('radialout')
+                .dagLevelDistance(65)
+                .d3AlphaDecay(0.02)
+                .d3VelocityDecay(0.3)
+                .warmupTicks(80)
+                .cooldownTicks(120)
                 .nodeVal('val')
                 .nodeLabel(n => (isLocked(n) ? '🔒 ' : '') + (n.label || n.id))
-                .linkColor(link => link.relation === 'macro_path' ? 'rgba(255, 255, 255, 0.7)' : (link.relation === 'contains' ? 'rgba(56, 189, 248, 0.4)' : 'rgba(251, 191, 36, 0.8)'))
-                .linkWidth(link => link.relation === 'macro_path' ? 4.5 : (link.relation === 'contains' ? 1.5 : 2.5))
-                .linkDirectionalParticles(link => link.relation === 'prerequisite_for' ? 5 : (link.relation === 'macro_path' ? 6 : 0))
-                .linkDirectionalParticleWidth(link => link.relation === 'macro_path' ? 3.0 : 2.0)
-                .linkDirectionalParticleSpeed(link => link.relation === 'macro_path' ? 0.008 : 0.005)
-                .linkDirectionalParticleColor(() => '#ffffff')
+                .nodeThreeObject(node => {
+                    const group = new THREE.Group();
+                    const color = new THREE.Color(getNodeColor(node));
+                    if (node.type === 'macro') {
+                        // ★ STAR/SUN style for Chapters
+                        const coreGeo = new THREE.IcosahedronGeometry(node.val / 2.2, 2);
+                        const coreMat = new THREE.MeshPhongMaterial({
+                            color: color, emissive: color, emissiveIntensity: 0.8,
+                            transparent: true, opacity: 0.95, shininess: 120
+                        });
+                        group.add(new THREE.Mesh(coreGeo, coreMat));
+                        // Inner glow sphere
+                        const glowGeo = new THREE.SphereGeometry(node.val / 1.8, 24, 16);
+                        const glowMat = new THREE.MeshBasicMaterial({
+                            color: color, transparent: true, opacity: 0.12, side: THREE.BackSide
+                        });
+                        group.add(new THREE.Mesh(glowGeo, glowMat));
+                        // Orbital ring
+                        const ringGeo = new THREE.TorusGeometry(node.val / 1.6, 0.35, 16, 64);
+                        const ringMat = new THREE.MeshBasicMaterial({ color: color, transparent: true, opacity: 0.25 });
+                        const ring = new THREE.Mesh(ringGeo, ringMat);
+                        ring.rotation.x = Math.PI / 2.5;
+                        group.add(ring);
+                        // Second ring perpendicular
+                        const ring2Geo = new THREE.TorusGeometry(node.val / 1.4, 0.2, 16, 64);
+                        const ring2Mat = new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.08 });
+                        const ring2 = new THREE.Mesh(ring2Geo, ring2Mat);
+                        ring2.rotation.x = Math.PI / 1.5;
+                        ring2.rotation.y = Math.PI / 4;
+                        group.add(ring2);
+                    } else {
+                        // ● PLANET style for Meso lessons
+                        const mastery = getMasteryLevel(node.id);
+                        const bloom = getBloomLevel(node.id);
+                        const radius = node.val / 2.8;
+                        const coreGeo = new THREE.SphereGeometry(radius, 24, 18);
+                        const coreMat = new THREE.MeshPhongMaterial({
+                            color: color, emissive: color,
+                            emissiveIntensity: mastery > 0.5 ? 0.6 : 0.25,
+                            transparent: true, opacity: isLocked(node) ? 0.2 : 0.92,
+                            shininess: 80
+                        });
+                        group.add(new THREE.Mesh(coreGeo, coreMat));
+                        // Atmosphere glow
+                        if (!isLocked(node)) {
+                            const atmoGeo = new THREE.SphereGeometry(radius * 1.35, 24, 18);
+                            const atmoMat = new THREE.MeshBasicMaterial({
+                                color: color, transparent: true, opacity: 0.08, side: THREE.BackSide
+                            });
+                            group.add(new THREE.Mesh(atmoGeo, atmoMat));
+                        }
+                        // Next-best pulsing ring
+                        if (node.next_best) {
+                            const pulseGeo = new THREE.TorusGeometry(radius * 1.6, 0.5, 16, 48);
+                            const pulseMat = new THREE.MeshBasicMaterial({ color: 0x38bdf8, transparent: true, opacity: 0.7 });
+                            const pulseRing = new THREE.Mesh(pulseGeo, pulseMat);
+                            pulseRing.rotation.x = Math.PI / 2;
+                            group.add(pulseRing);
+                        }
+                        // Mastery ring indicator
+                        if (mastery > 0.1 && !isLocked(node)) {
+                            const mRingGeo = new THREE.TorusGeometry(radius * 1.2, 0.25, 8, 48, Math.PI * 2 * mastery);
+                            const mColor = mastery >= 0.8 ? 0x4ade80 : mastery >= 0.4 ? 0xfbbf24 : 0xf87171;
+                            const mRingMat = new THREE.MeshBasicMaterial({ color: mColor, transparent: true, opacity: 0.6 });
+                            const mRing = new THREE.Mesh(mRingGeo, mRingMat);
+                            mRing.rotation.x = Math.PI / 2;
+                            group.add(mRing);
+                        }
+                    }
+                    // Premium label - adjusted for better harmony and no clipping
+                    let labelText = getShortLabel(node);
+                    if (node.type === 'macro') {
+                        const match = node.id.match(/(\d+)/);
+                        labelText = match ? match[1] : '?';
+                    }
+                    
+                    const label = new SpriteText(labelText);
+                    label.color = '#ffffff';
+                    label.fontFace = 'Inter, sans-serif';
+                    label.material.map.anisotropy = 4;
+                    
+                    if (node.type === 'macro') {
+                        label.textHeight = node.val / 2;
+                        label.fontWeight = '800';
+                        label.backgroundColor = 'transparent';
+                        label.position.set(0, 0, 0); // Đặt giữa khối cầu
+                        label.material.depthTest = false; // Luôn hiển thị xuyên qua khối cầu
+                        label.material.depthWrite = false;
+                        label.renderOrder = 999;
+                    } else {
+                        label.textHeight = 1.4;
+                        label.fontWeight = '400';
+                        label.backgroundColor = 'rgba(10,15,40,0.4)';
+                        label.padding = [3, 6];
+                        label.borderRadius = 4;
+                        label.borderColor = 'rgba(56,189,248,0.5)';
+                        const yOff = node.val / 2 + 5;
+                        label.position.set(0, yOff, 0);
+                        label.material.depthTest = true;
+                        label.material.depthWrite = true;
+                        label.renderOrder = 0;
+                    }
+                    
+                    group.add(label);
+                    return group;
+                })
+                .nodeThreeObjectExtend(false)
+                .linkColor(link => {
+                    if (link.relation === 'macro_path') return 'rgba(100, 160, 255, 0.35)';
+                    if (link.relation === 'contains') return 'rgba(56, 189, 248, 0.18)';
+                    return 'rgba(251, 191, 36, 0.35)';
+                })
+                .linkWidth(link => link.relation === 'macro_path' ? 2 : (link.relation === 'contains' ? 0.5 : 1))
+                .linkDirectionalArrowLength(link => link.relation === 'contains' ? 0 : 4)
+                .linkDirectionalArrowRelPos(0.9)
+                .linkDirectionalArrowColor(link => link.relation === 'macro_path' ? 'rgba(100,160,255,0.5)' : 'rgba(251,191,36,0.5)')
+                .linkDirectionalParticles(link => link.relation === 'prerequisite_for' ? 4 : (link.relation === 'macro_path' ? 3 : 1))
+                .linkDirectionalParticleWidth(link => link.relation === 'macro_path' ? 2.5 : 1.5)
+                .linkDirectionalParticleSpeed(0.004)
+                .linkDirectionalParticleColor(link => {
+                    if (link.relation === 'macro_path') return 'rgba(100,180,255,0.8)';
+                    if (link.relation === 'contains') return 'rgba(56,189,248,0.5)';
+                    return 'rgba(251,191,36,0.7)';
+                })
+                .linkCurvature(link => link.relation === 'prerequisite_for' ? 0.2 : 0.08)
+                .linkOpacity(0.6)
+                .onBackgroundClick(() => closePanel())
                 .onNodeClick(n => {
                     if (isLocked(n)) return;
                     Graph.cameraPosition({ x: n.x*1.5, y: n.y*1.5, z: n.z*1.5 }, n, 1000);
-                    const p = document.getElementById('info-panel'); p.classList.add('visible');
-                    document.getElementById('info-title').innerText = n.label || n.id;
-                    document.getElementById('info-desc').innerText = n.content || 'Chọn một hành động bên dưới để bắt đầu học.';
-                    
+                    window.currentNodeId = n.id;
                     const pType = document.getElementById('info-type');
                     pType.className = 'badge';
                     if (n.type === 'macro') {
                         pType.classList.add('type-macro');
                         pType.innerText = 'CHƯƠNG KIẾN THỨC';
-                    } else if (n.type === 'meso') {
-                        pType.classList.add('type-micro');
-                        pType.innerText = 'PHẦN BÀI HỌC';
-                        pType.style.background = getNodeColor(n);
-                        pType.style.color = '#000';
-                    } else if (n.type === 'assess') {
-                        pType.classList.add('type-assess');
-                        pType.innerText = 'BÀI ĐÁNH GIÁ';
-                    }
-
-                    const resContainer = document.getElementById('node-resources');
-                    resContainer.innerHTML = '';
-                    const resources = n.resources || [];
-                    if (resources.length > 0) {
-                        resContainer.style.display = 'flex';
-                        resources.forEach(res => {
-                            if (!res || !res.url) return;
-                            const resTitle = res.title || 'Tài nguyên chưa đặt tên';
-                            const resIcon = res.icon || '📎';
-                            const resType = (res.type || '').toLowerCase();
-
-                            const a = document.createElement('a');
-                            a.className = 'resource-item';
-                            if (resType === 'youtube' || resTitle.toLowerCase().includes('video')) {
-                                a.href = '#';
-                                a.onclick = (e) => { e.preventDefault(); startAction('video'); };
-                            } else {
-                                a.href = res.url;
-                                a.target = '_blank';
-                            }
-                            a.innerHTML = `
-                                <div style="display: flex; align-items: center; gap: 8px; flex: 1; overflow: hidden;">
-                                    <span>${resIcon}</span>
-                                    <span style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 180px;" title="${resTitle}">${resTitle}</span>
-                                </div>
-                                <div class="play-btn" title="Học ngay với Player" onclick="event.stopPropagation(); event.preventDefault(); startAction('video');">
-                                    <i class="material-icons" style="font-size: 20px;">play_circle_outline</i>
-                                </div>
-                            `;
-                            resContainer.appendChild(a);
-                        });
                     } else {
-                        resContainer.style.display = 'none';
+                        pType.style.background = getNodeColor(n) + '33';
+                        pType.style.color = getNodeColor(n);
+                        pType.innerText = 'PHẦN BÀI HỌc';
                     }
-                    
-                    document.getElementById('action-buttons').style.display = (n.type === 'macro' ? 'none' : 'block');
-                    window.currentNodeId = n.id;
+                    document.getElementById('info-title').innerText = n.label || n.id;
+                    const mastery = getMasteryLevel(n.id);
+                    renderMasteryRing(mastery);
+                    const bloom = getBloomLevel(n.id);
+                    renderBloomBadge(bloom);
+                    const statusText = mastery >= 0.8 ? 'Đã thành thạo' : mastery >= 0.4 ? 'Đang học' : 'Chưa bắt đầu';
+                    document.getElementById('info-subtitle').innerText = statusText;
+                    const learnSec = document.getElementById('learn-section');
+                    if (n.type !== 'macro' && hasLearningResources(n)) {
+                        learnSec.style.display = 'block';
+                        renderLearnResources(n);
+                    } else {
+                        learnSec.style.display = 'none';
+                    }
+                    document.getElementById('assess-section').style.display = n.type === 'macro' ? 'none' : 'block';
+                    if (n.type !== 'macro') renderMiniBloom(n.id);
+                    const panel = document.getElementById('info-panel');
+                    panel.classList.add('visible');
+                    setTimeout(() => positionPanel(n), 50);
                 });
-                
+
+            // ═══ CINEMATIC LIGHTING ═══
+            const scene = Graph.scene();
+            scene.add(new THREE.AmbientLight(0x1a1a3a, 1.5));
+            const keyLight = new THREE.DirectionalLight(0x6090ff, 0.8);
+            keyLight.position.set(150, 250, 100);
+            scene.add(keyLight);
+            const fillLight = new THREE.DirectionalLight(0xff6040, 0.3);
+            fillLight.position.set(-100, -50, -100);
+            scene.add(fillLight);
+            const rimLight = new THREE.PointLight(0x38bdf8, 1.0, 800);
+            rimLight.position.set(0, 120, 0);
+            scene.add(rimLight);
+            const accentLight = new THREE.PointLight(0x7c3aed, 0.5, 500);
+            accentLight.position.set(-80, -40, 60);
+            scene.add(accentLight);
+
+            // ═══ STARFIELD BACKGROUND ═══
+            const starGeo = new THREE.BufferGeometry();
+            const starCount = 2500;
+            const starPos = new Float32Array(starCount * 3);
+            const starSizes = new Float32Array(starCount);
+            for (let i = 0; i < starCount; i++) {
+                starPos[i*3] = (Math.random() - 0.5) * 2000;
+                starPos[i*3+1] = (Math.random() - 0.5) * 2000;
+                starPos[i*3+2] = (Math.random() - 0.5) * 2000;
+                starSizes[i] = Math.random() * 1.5 + 0.3;
+            }
+            starGeo.setAttribute('position', new THREE.BufferAttribute(starPos, 3));
+            starGeo.setAttribute('size', new THREE.BufferAttribute(starSizes, 1));
+            const starMat = new THREE.PointsMaterial({
+                color: 0xccddff, size: 0.8, transparent: true, opacity: 0.7,
+                sizeAttenuation: true, blending: THREE.AdditiveBlending
+            });
+            scene.add(new THREE.Points(starGeo, starMat));
+            // Nebula cloud (second layer, warmer stars)
+            const nebGeo = new THREE.BufferGeometry();
+            const nebPos = new Float32Array(500 * 3);
+            for (let i = 0; i < 500; i++) {
+                nebPos[i*3] = (Math.random() - 0.5) * 1200;
+                nebPos[i*3+1] = (Math.random() - 0.5) * 600;
+                nebPos[i*3+2] = (Math.random() - 0.5) * 1200;
+            }
+            nebGeo.setAttribute('position', new THREE.BufferAttribute(nebPos, 3));
+            const nebMat = new THREE.PointsMaterial({
+                color: 0x6040ff, size: 2.0, transparent: true, opacity: 0.15,
+                sizeAttenuation: true, blending: THREE.AdditiveBlending
+            });
+            scene.add(new THREE.Points(nebGeo, nebMat));
+
+            // ═══ POST-PROCESSING BLOOM ═══
+            try {
+                const renderer = Graph.renderer();
+                renderer.toneMapping = THREE.ReinhardToneMapping;
+                renderer.toneMappingExposure = 1.2;
+                const composer = new THREE.EffectComposer(renderer);
+                const renderPass = new THREE.RenderPass(scene, Graph.camera());
+                composer.addPass(renderPass);
+                const bloomPass = new THREE.UnrealBloomPass(
+                    new THREE.Vector2(window.innerWidth, window.innerHeight),
+                    0.8, 0.4, 0.85
+                );
+                composer.addPass(bloomPass);
+                // Override render loop
+                const origTick = Graph._animationCycle || null;
+                (function animate() {
+                    requestAnimationFrame(animate);
+                    composer.render();
+                })();
+            } catch(bErr) {
+                console.log('Bloom postprocessing not available:', bErr);
+            }
+
+            // ═══ CINEMATIC INTRO ═══
+            Graph.cameraPosition({ x: 0, y: 0, z: 500 }, { x: 0, y: 0, z: 0 }, 0);
+            setTimeout(() => {
+                Graph.cameraPosition({ x: 80, y: 40, z: 200 }, { x: 0, y: 0, z: 0 }, 2500);
+            }, 800);
+
             document.getElementById('loading-screen').style.opacity = '0';
             setTimeout(() => document.getElementById('loading-screen').remove(), 1000);
-            
-            // Fix canvas resize inside iframe
+            setTimeout(() => renderProgressBar(), 1500);
+
             window.addEventListener('resize', () => {
                 const w = window.innerWidth || document.documentElement.clientWidth;
                 const h = window.innerHeight || document.documentElement.clientHeight;
@@ -267,7 +858,18 @@
             });
             setTimeout(() => window.dispatchEvent(new Event('resize')), 500);
         }
-        window.addEventListener('DOMContentLoaded', init);
+        // Safety: always dismiss loading after 5s even if error
+        setTimeout(() => {
+            const ls = document.getElementById('loading-screen');
+            if (ls) { ls.style.opacity = '0'; setTimeout(() => ls.remove(), 500); }
+        }, 5000);
+        window.addEventListener('DOMContentLoaded', function() {
+            try { init(); } catch(e) {
+                console.error('Galaxy init error:', e);
+                const ls = document.getElementById('loading-screen');
+                if (ls) { ls.style.opacity = '0'; setTimeout(() => ls.remove(), 500); }
+            }
+        });
         setInterval(() => {
             fetch(`/user_data/thanhthangbmt7/states/student_state.json?t=${Date.now()}`)
                 .then(r => r.json())
@@ -275,6 +877,8 @@
                     if(data) { 
                         if(data.nodes_mastery) USER_STATE.mastery = data.nodes_mastery; 
                         if(data.inferred_blooms) USER_STATE.inferred_blooms = data.inferred_blooms;
+
+                        if(data.bloom_level_scores) USER_STATE.bloom_level_scores = data.bloom_level_scores;
                         updateStats(); 
                         if(Graph) Graph.nodeColor(getNodeColor);
                     } 

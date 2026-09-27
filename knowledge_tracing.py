@@ -112,3 +112,90 @@ def get_dynamic_difficulty(user_id, subject_id, node_id, base_alpha):
         return min(100, int(base_alpha * 1.5)), "Advanced (Hỏi lắt léo, gay gắt và xoáy sâu vì sinh viên đã thông thạo)"
         
     return base_alpha, "Normal (Kiểm tra bình thường)"
+
+
+# ============================================================
+#  CAT STATE TRACKING — Lưu/đọc θ từ CAT sessions
+# ============================================================
+
+def get_cat_state_path(user_id, subject_id):
+    """Đường dẫn file CAT state riêng biệt."""
+    dir_path = f"user_data/{user_id}/states"
+    os.makedirs(dir_path, exist_ok=True)
+    return f"{dir_path}/{subject_id}_cat.json"
+
+
+def get_cat_prior_theta(user_id, subject_id, node_id):
+    """
+    Lấy θ ước lượng từ lịch sử CAT, dùng làm prior cho session mới.
+    
+    Returns:
+        float: θ prior (0.0 nếu chưa có lịch sử)
+    """
+    cat_path = get_cat_state_path(user_id, subject_id)
+    if not os.path.exists(cat_path):
+        return 0.0
+    
+    with open(cat_path, 'r', encoding='utf-8') as f:
+        cat_state = json.load(f)
+    
+    node_cat = cat_state.get("nodes", {}).get(node_id, {})
+    return node_cat.get("theta", 0.0)
+
+
+def update_theta_from_cat(user_id, subject_id, node_id, theta, se,
+                          bloom_level=None, items_used=0):
+    """
+    Lưu θ estimate sau CAT session.
+    
+    Args:
+        user_id: ID người dùng
+        subject_id: ID môn học
+        node_id: ID node
+        theta: θ estimate từ CAT
+        se: Standard Error
+        bloom_level: Bloom level tương ứng (optional, auto-calc if None)
+        items_used: Số items đã sử dụng
+    """
+    cat_path = get_cat_state_path(user_id, subject_id)
+    
+    if os.path.exists(cat_path):
+        with open(cat_path, 'r', encoding='utf-8') as f:
+            cat_state = json.load(f)
+    else:
+        cat_state = {"subject_id": subject_id, "nodes": {}}
+    
+    if bloom_level is None:
+        try:
+            from cat_engine import map_theta_to_bloom
+            bloom_level = map_theta_to_bloom(theta)
+        except ImportError:
+            bloom_level = max(1, min(6, int(theta + 3.5)))
+    
+    cat_state.setdefault("nodes", {})[node_id] = {
+        "theta": round(theta, 3),
+        "se": round(se, 3),
+        "bloom_level": bloom_level,
+        "items_used": items_used,
+        "last_cat_session": time.time(),
+    }
+    
+    with open(cat_path, 'w', encoding='utf-8') as f:
+        json.dump(cat_state, f, ensure_ascii=False, indent=2)
+
+
+def get_all_cat_thetas(user_id, subject_id):
+    """
+    Lấy tất cả θ estimates cho một môn học.
+    
+    Returns:
+        dict: {node_id: {"theta": float, "se": float, "bloom_level": int, ...}}
+    """
+    cat_path = get_cat_state_path(user_id, subject_id)
+    if not os.path.exists(cat_path):
+        return {}
+    
+    with open(cat_path, 'r', encoding='utf-8') as f:
+        cat_state = json.load(f)
+    
+    return cat_state.get("nodes", {})

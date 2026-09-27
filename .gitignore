@@ -7,5 +7,14 @@
 # Bỏ qua môi trường ảo Python
 /.venv/
 
+# Bỏ qua dữ liệu người dùng và DB để tránh reload loop
+/user_data/
+/DB/
+*.db-wal
+*.db-shm
+
 # Tùy chọn: Bỏ qua tất cả các file nén .zip ở bất kỳ đâu trong dự án
 *.zip
+
+# Sprint 01: Bỏ qua file biến môi trường chứa secrets
+.env

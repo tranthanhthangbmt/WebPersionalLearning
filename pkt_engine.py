@@ -6,11 +6,24 @@ import json
 class StudentState:
     def __init__(self, user_db_id):
         self.user_db_id = user_db_id
+        try:
+            self.username = self._get_username()
+        except Exception:
+            self.username = "unknown"
         self.current_fatigue = 0.0
         self.current_concept_id = None
         self.quiz_history = {} # {concept_id: {question_idx: 'correct'/'wrong'}}
         # Load Elo từ DB khi khởi tạo
-        self.knowledge_cache = self._load_from_db()
+        try:
+            self.knowledge_cache = self._load_from_db()
+        except Exception as e:
+            print(f"[StudentState] Error loading from DB: {e}")
+            self.knowledge_cache = {}
+
+    def _get_username(self):
+        from database import get_user_by_id
+        user = get_user_by_id(self.user_db_id)
+        return user.username if user else "unknown"
 
     def _load_from_db(self):
         """Đọc trạng thái từ DB lên Cache"""
@@ -26,21 +39,50 @@ class StudentState:
         return self.knowledge_cache.get(concept_id, 1200.0)
     
     def get_mastery(self, concept_id):
-        # Convert Elo to 0.0 - 1.0 scale for visualization
-        # Elo 2000 -> 1.0, Elo 1200 -> 0.5, Elo 400 -> 0.0
+        # Convert Elo to 0.0 - 1.0 scale
         elo = self.get_elo(concept_id)
-        return max(0.0, min(1.0, (elo - 400) / 1600))
+        elo_mastery = max(0.0, min(1.0, (elo - 400) / 1600))
+        
+        # Factor in real Bloom score if available
+        # If Bloom score is >= 4.0 (Analyze), mastery should be at least 0.8
+        real_bloom = self.calculate_inferred_bloom(concept_id)
+        if real_bloom >= 4.0:
+            return max(elo_mastery, 0.8 + (real_bloom - 4.0) * 0.1)
+        elif real_bloom >= 2.0:
+            return max(elo_mastery, 0.6 + (real_bloom - 2.0) * 0.1)
+            
+        return elo_mastery
 
-    def calculate_inferred_bloom(self, concept_id):
+    def calculate_inferred_bloom(self, concept_id, subject_id=None):
         """
-        Tính toán 'Inferred Bloom' (Bloom suy luận) từ Elo và Quiz History (IRT cơ bản).
-        Thang điểm trả về: 0.0 đến 6.0
+        Lấy Bloom score: Ưu tiên dữ liệu thực tế từ Bloom Hub, 
+        nếu không có thì mới suy luận từ Elo.
         """
+        # 1. Thử lấy từ Bloom Hub State (Real Assessment)
+        try:
+            from bloom_taxonomy import load_bloom_state
+            # Tìm subject_id nếu không có
+            if not subject_id:
+                # Fallback: scan all subjects for this user to find the node
+                user_dir = os.path.join(os.getcwd(), 'user_data', self.username, 'bloom_state')
+                if os.path.exists(user_dir):
+                    for f in os.listdir(user_dir):
+                        if f.endswith('.json'):
+                            sid = f.replace('.json', '')
+                            state = load_bloom_state(self.username, sid)
+                            if concept_id in state.get("nodes", {}):
+                                return state["nodes"][concept_id].get("overall_bloom", 0.0)
+            else:
+                state = load_bloom_state(self.username, subject_id)
+                if concept_id in state.get("nodes", {}):
+                    return state["nodes"][concept_id].get("overall_bloom", 0.0)
+        except Exception as e:
+            print(f"[StudentState] Error fetching real bloom: {e}")
+
+        # 2. Fallback: Suy luận từ Elo (Logic cũ)
         elo = self.get_elo(concept_id)
-        # Base Bloom mapping từ Elo
         base_bloom = max(0.0, min(6.0, (elo - 1050) / 150.0))
         
-        # Kết hợp Streak và Tính chính xác từ quiz_history
         node_hist = self.quiz_history.get(concept_id, {})
         correct_count = 0
         total_count = 0
@@ -49,7 +91,6 @@ class StudentState:
                 correct_count += stats.get('correct', 0)
                 total_count += stats.get('correct', 0) + stats.get('wrong', 0)
                 
-        # Nếu tỷ lệ đúng cao trên 80%, thưởng thêm Bloom score để mô phỏng sự thành thạo (Apply/Analyze)
         if total_count > 0:
             accuracy = correct_count / total_count
             if accuracy > 0.8:
@@ -150,42 +191,68 @@ class StudentState:
             return "VIDEO" # Chuyển sang thụ động (xem video) để giảm tải
         return "QUIZ" # Tiếp tục thử thách
 
-    def to_dict(self):
-        """Serialize state for storage"""
+    def to_dict(self, current_concept_id=None):
+        """Serialize state for storage and AI context"""
+        cid = current_concept_id or self.current_concept_id
+        mastery = self.get_mastery(cid) if cid else 0.0
+        bloom = self.calculate_inferred_bloom(cid) if cid else 0.0
+        
         return {
             "user_db_id": self.user_db_id,
+            "username": self.username,
             "current_fatigue": self.current_fatigue,
-            "current_concept_id": self.current_concept_id,
+            "current_concept_id": cid,
+            "current_mastery": float(mastery),
+            "current_bloom": float(bloom),
             "quiz_history": self.quiz_history,
             "last_fatigue_update": datetime.now().strftime("%Y-%m-%d")
         }
 
     def sync_to_json(self):
         """Đồng bộ trạng thái tiến độ ra file JSON linh động định kỳ/khi có thay đổi"""
-        with Session(engine) as session:
-            user = session.exec(select(User).where(User.id == self.user_db_id)).first()
-            if not user: return
-            
-            user_dir = os.path.join(os.getcwd(), 'user_data', user.username)
-            if not os.path.exists(user_dir):
-                os.makedirs(user_dir)
-            states_dir = os.path.join(user_dir, 'states')
-            if not os.path.exists(states_dir):
-                os.makedirs(states_dir)
+        try:
+            with Session(engine) as session:
+                user = session.exec(select(User).where(User.id == self.user_db_id)).first()
+                if not user: return
                 
-            file_path = os.path.join(states_dir, 'student_state.json')
-            
-            payload = {
-                "user": user.username,
-                "nodes_mastery": {str(cid): float(self.get_mastery(cid)) for cid in self.knowledge_cache.keys()},
-                "inferred_blooms": {str(cid): float(self.calculate_inferred_bloom(cid)) for cid in self.knowledge_cache.keys()},
-                "history": self.quiz_history,
-                "last_fatigue_update": datetime.now().strftime("%Y-%m-%d"),
-                "current_fatigue": self.current_fatigue
-            }
-            
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(payload, f, ensure_ascii=False, indent=4)
+                user_dir = os.path.join(os.getcwd(), 'user_data', user.username)
+                if not os.path.exists(user_dir):
+                    os.makedirs(user_dir)
+                states_dir = os.path.join(user_dir, 'states')
+                if not os.path.exists(states_dir):
+                    os.makedirs(states_dir)
+                    
+                file_path = os.path.join(states_dir, 'student_state.json')
+                
+                payload = {
+                    "user": user.username,
+                    "nodes_mastery": {str(cid): float(self.get_mastery(cid)) for cid in self.knowledge_cache.keys()},
+                    "inferred_blooms": {str(cid): float(self.calculate_inferred_bloom(cid)) for cid in self.knowledge_cache.keys()},
+                    "history": self.quiz_history,
+                    "last_fatigue_update": datetime.now().strftime("%Y-%m-%d"),
+                    "current_fatigue": self.current_fatigue
+                }
+                
+                # Add per-level bloom scores if available
+                try:
+                    from bloom_taxonomy import get_all_bloom_level_scores
+                    # Scan user's bloom_state directory for all subjects
+                    bloom_dir = os.path.join(os.getcwd(), 'user_data', user.username, 'bloom_state')
+                    if os.path.exists(bloom_dir):
+                        all_level_scores = {}
+                        for bf in os.listdir(bloom_dir):
+                            if bf.endswith('.json'):
+                                sid = bf.replace('.json', '')
+                                lvl_scores = get_all_bloom_level_scores(user.username, sid)
+                                all_level_scores.update(lvl_scores)
+                        payload["bloom_level_scores"] = all_level_scores
+                except Exception:
+                    pass
+                
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    json.dump(payload, f, ensure_ascii=False, indent=4)
+        except Exception as e:
+            print(f"[StudentState] Error in sync_to_json (non-critical): {e}")
 
     @classmethod
     def from_dict(cls, data):

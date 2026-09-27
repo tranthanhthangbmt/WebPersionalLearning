@@ -11,7 +11,7 @@ Dựa vào file `log1.txt` và `Thiết lập AWS.md` bạn lưu trong thư mụ
 Đầu tiên, cài đặt `unzip` (nếu máy chủ chưa có) và tiến hành giải nén file zip. Thuộc tính `-o` sẽ giúp ghi đè các file cũ bằng file mới:
 ```bash
 sudo apt-get install unzip -y
-unzip -o WebPersionalLearning_09h19_20.4.2026.zip
+unzip -o WebPersionalLearning_23h40_24.4.2026.zip
 ```
 *(Lưu ý: Bạn hãy gõ lệnh `ls` sau khi giải nén. Nếu code giải nén ra nằm gọn trong một thư mục tên là `WebPersionalLearning...` thì bạn cần `cd` vào thư mục đó, thay vì ở thư mục gốc. Còn nếu nó đã bung đè thẳng các file như `main.py`, `Dockerfile` ra thư mục hiện tại thì bạn cứ giữ nguyên).*
 
@@ -67,7 +67,7 @@ Bây giờ chúng ta sẽ làm trọn vẹn quy trình cập nhật lên server 
 
 **1. Giải nén file code mới (chấp nhận ghi đè file cũ):**
 ```bash
-unzip -o WebPersionalLearning_08h47_18.4.2026.zip
+unzip -o WebPersionalLearning_18h37_26.4.2026.zip
 ```
 
 **2. Xóa bỏ hoàn toàn cái hũ Docker cũ đang bị lỗi:**
@@ -99,3 +99,154 @@ docker run -d -p 8080:8081 --name myapp treeknowledge-app
 Sau khi hoàn thành bước 4, bạn chờ khoảng 5 giây rồi F5 lại trang `https://treeknowledge.online/`. Chắc chắn code mới của bạn sẽ lên sóng! 
 
 *(Lưu ý: Tôi cũng vừa thêm một cải tiến nhỏ vào file `main.py` trên máy tính cá nhân của bạn để hỗ trợ kết nối mạng ổn định hơn cho những lần upload sau này).*
+
+++++++++++++++++++++++++++++++++++++
+unzip -o WebPersionalLearning_18h49_26.4.2026.zip
+
+docker stop myapp
+docker rm -f myapp
+
+docker build -t treeknowledge-app .
+
+docker run -d -p 8081:8081 --name myapp treeknowledge-app
+https://treeknowledge.online
+
+++++++++++++++++++++++++++++++++++++
+## 🎯 Tìm thấy lỗi rồi!
+
+Nhìn vào cột `PORTS`:
+
+```
+0.0.0.0:8080->8081/tcp
+```
+
+**Port mapping sai!** Bạn đã map host port **8080** → container port 8081. Nhưng Nginx (và lệnh bạn nói) đang kỳ vọng port **8081**.
+
+Nghĩa là bạn đã chạy `-p 8080:8081` thay vì `-p 8081:8081`.
+
+### Fix ngay — chạy trên AWS:
+
+```bash
+# 1. Dừng container cũ
+docker stop myapp
+docker rm -f myapp
+
+# 2. Chạy lại với PORT ĐÚNG: 8081:8081
+docker run -d -p 8081:8081 --name myapp --restart unless-stopped treeknowledge-app
+
+
+# 3. Đợi 10 giây rồi test
+sleep 10
+curl http://localhost:8081/api/health
+```
+
+Nếu `curl` trả về `{"status":"healthy"...}` → app hoạt động.
+
+Sau đó kiểm tra thêm Nginx có proxy đúng port 8081 không:
+
+```bash
+cat /etc/nginx/sites-enabled/default
+```
+
+Gửi output cho tôi nếu vẫn còn lỗi 502 sau khi fix port.
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+Để đảm bảo bạn chạy đúng bản mới nhất và không bị "dính" cache cũ, hãy thực hiện quy trình dọn dẹp sạch sẽ (Clean Install) này trên AWS.
+
+Bạn hãy copy và chạy từng cụm lệnh sau:
+
+### Bước 1: Xóa sạch Container và Image cũ
+Lệnh này đảm bảo không còn dấu vết nào của bản cũ.
+```bash
+docker stop myapp
+docker rm myapp
+docker rmi treeknowledge-app
+```
+
+### Bước 2: Giải nén bản mới nhất
+(Giả sử bạn đang ở thư mục chứa file zip)
+```bash
+# Xóa thư mục cũ nếu có để tránh lẫn lộn file
+rm -rf WebPersionalLearning 
+
+# Giải nén bản mới 18h49
+unzip -o WebPersionalLearning_18h49_26.4.2026.zip 
+```
+
+### Bước 3: Build lại Image "tươi" (Không dùng cache)
+Sử dụng tham số `--no-cache` là cách tốt nhất để ép Docker đọc lại toàn bộ code mới của bạn.
+```bash
+docker build --no-cache -t treeknowledge-app .
+```
+
+### Bước 4: Chạy Container mới
+```bash
+docker run -d -p 8081:8081 --name myapp --restart unless-stopped treeknowledge-app
+```
+
+### Bước 5: Kiểm tra kết quả
+Bạn hãy đợi khoảng 10 giây rồi chạy lệnh xem log. Nếu thấy dòng thông báo của NiceGUI là thành công:
+```bash
+docker logs --tail 20 myapp
+```
+
+**Tại sao bạn có cảm giác chạy bản cũ?**
+1.  **Docker Cache:** Khi build, Docker thường giữ lại các "layer" cũ nếu nó thấy file không đổi. `--no-cache` sẽ giải quyết việc này.
+2.  **Port Mapping:** Như lúc nãy, việc map lộn port (8080 thay vì 8081) cũng khiến Nginx trỏ vào một chỗ không có thật hoặc bản cũ đang treo.
+
+Sau khi làm xong 5 bước này, bạn thử truy cập lại https://treeknowledge.online nhé!
+
+++++++++++++++++++++++++++++
+
+Lỗi **"No space left on device"** xác nhận rằng ổ cứng máy chủ AWS của bạn đã bị đầy. Việc cài đặt **PyTorch** và các thư viện AI khác (như Transformers, Pandas) chiếm rất nhiều dung lượng (có thể lên tới vài GB).
+
+Bạn cần dọn dẹp ổ cứng trước khi Build lại. Hãy chạy các lệnh sau:
+
+docker stop myapp
+docker rm myapp
+docker rmi treeknowledge-app
+
+
+### 1. Dọn dẹp Docker hoàn toàn
+Lệnh này sẽ xóa toàn bộ các bản Build lỗi, các Image cũ và Cache không dùng đến để giải phóng vài GB bộ nhớ.
+```bash
+docker system prune -a -f
+```
+
+### 2. Xóa các file Zip cũ
+Sau khi giải nén xong, các file `.zip` không còn cần thiết và đang chiếm chỗ rất lớn (mỗi file ~186MB).
+```bash
+
+unzip -o WebPersionalLearning_21h30_03.6.2026.zip
+
+rm *.zip
+```
+
+### 3. Kiểm tra dung lượng còn trống
+Sau khi chạy 2 lệnh trên, hãy kiểm tra xem mục `/` (Gốc) còn bao nhiêu % trống:
+```bash
+df -h /
+```
+*(Nếu cột "Avail" hiện trên 2-3 GB thì mới có hy vọng Build tiếp được).*
+
+---
+
+### 4. Giải pháp nếu vẫn không đủ chỗ:
+Nếu ổ cứng của bạn chỉ có 8GB (mặc định của AWS Free Tier), nó sẽ rất khó để chứa cả bộ mã nguồn, Docker Image và các thư viện AI nặng. 
+
+**Cách khắc phục trong Dockerfile:**
+Tôi thấy bạn đang cài PyTorch. Nếu bạn không dùng các tính năng học sâu (Deep Learning) quá nặng, hãy kiểm tra xem có thể gỡ bớt các thư viện không cần thiết trong `requirements.txt` không.
+
+
+**Thử Build lại sau khi dọn dẹp:**
+```bash
+docker build -t treeknowledge-app .
+```
+
+docker run -d -p 8081:8081 --name myapp --restart unless-stopped treeknowledge-app
+```
+
+### Bước 5: Kiểm tra kết quả
+Bạn hãy đợi khoảng 10 giây rồi chạy lệnh xem log. Nếu thấy dòng thông báo của NiceGUI là thành công:
+```bash
+docker logs --tail 20 myapp

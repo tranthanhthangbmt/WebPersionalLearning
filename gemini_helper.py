@@ -9,8 +9,8 @@ import threading
 key_lock = threading.Lock()
 
 # Models to try in order
-# Key is mapped to experimental models like gemini-2.5-flash
-MODEL_PRIORITY = ['gemini-2.5-flash', 'gemini-2.5-pro', 'gemini-2.0-flash']
+# Prioritizing gemini-2.5-flash-lite as it is confirmed working and fast in this environment
+MODEL_PRIORITY = ['gemini-2.5-flash-lite', 'gemini-flash-latest', 'gemini-3.1-pro-preview']
 
 def get_all_api_keys():
     try:
@@ -28,15 +28,24 @@ def get_gemini_api_key():
     return keys[0] if keys else None
 
 class RobustGeminiModel:
-    def __init__(self, keys):
+    def __init__(self, keys, system_instruction=None):
         self.keys = keys
         self.current_key_index = 0
         self.current_model_index = 0
         self.model_name = MODEL_PRIORITY[0]
         self.working_key_saved = False
+        self.system_instruction = system_instruction
         
         self._configure_current_key()
-        self.model = genai.GenerativeModel(self.model_name)
+        self._init_model()
+
+    def _init_model(self):
+        # Robustly handle system_instruction (SDK versions can be picky)
+        sys_inst = None
+        if self.system_instruction:
+            sys_inst = {'role': 'system', 'parts': [{'text': self.system_instruction}]}
+            
+        self.model = genai.GenerativeModel(self.model_name, system_instruction=sys_inst)
 
     def _prioritize_current_key(self):
         try:
@@ -73,7 +82,12 @@ class RobustGeminiModel:
                 self.model_name = MODEL_PRIORITY[next_model_idx]
                 print(f"🔄 Switching to Model: {self.model_name}...")
             self._configure_current_key()
-            self.model = genai.GenerativeModel(self.model_name)
+            self._init_model()
+
+    def update_system_instruction(self, instruction):
+        """Cập nhật chỉ dẫn hệ thống cho model hiện tại."""
+        self.system_instruction = instruction
+        self._init_model()
 
     def start_chat(self, *args, **kwargs):
         chat_session = self.model.start_chat(*args, **kwargs)
@@ -152,14 +166,16 @@ class RobustChatSession:
                     time.sleep(0.1) # Fast retry
                     
                     old_history = self.chat.history
+                    # Re-create chat session with updated model (which has system_instruction)
                     self.chat = self.parent.model.start_chat(history=old_history)
                     continue
                 raise e
+        raise Exception(f"Chat Session: All {max_retries} rotation attempts failed.")
 
-def get_chat_model():
+def get_chat_model(system_instruction=None):
     keys = get_all_api_keys()
     if not keys: return None
-    return RobustGeminiModel(keys)
+    return RobustGeminiModel(keys, system_instruction=system_instruction)
 
 # --- Restored Helper Functions ---
 

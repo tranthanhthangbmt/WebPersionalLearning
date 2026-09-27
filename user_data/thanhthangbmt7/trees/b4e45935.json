@@ -6,212 +6,424 @@
             "title": "Khai thác dữ liệu và thông tin",
             "resources": [
                 {
-                    "id": "res_vid_MD1_8f07",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_1/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 1)",
-                    "type": "youtube",
-                    "icon": "🎬",
+                    "id": "res_session_m1_f9c5",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD1_4102",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD1",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 1",
+                    "id": "res_quiz_m1_a90e",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.1_d048",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.1/script.txt",
+                    "title": "📄 Kịch bản Video: Khai phá Đại dương Số (c1.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.2_8a49",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.2/script.txt",
+                    "title": "📄 Kịch bản Video: Hành trình công dân số (c1.2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.3_844b",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.3/script.txt",
+                    "title": "📄 Kịch bản Video: LÀM CHỦ DỮ LIỆU SỐ (c1.3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m2",
             "title": "Giao tiếp và hợp tác trong môi trường số",
             "resources": [
                 {
-                    "id": "res_vid_MD2_dc32",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_2/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 2)",
-                    "type": "youtube",
-                    "icon": "🎬",
+                    "id": "res_session_m2_2608",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD2_0209",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD2",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 2",
+                    "id": "res_quiz_m2_00fb",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c2.1_4502",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c2.1/script.txt",
+                    "title": "📄 Kịch bản Video: Hành trình công dân số (c2.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c2.2_db24",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c2.2/script.txt",
+                    "title": "📄 Kịch bản Video: Làm chủ tương tác (c2.2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m3",
             "title": "Sáng tạo nội dung số",
             "resources": [
                 {
-                    "id": "res_vid_MD3_8f4c",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_3/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 3)",
-                    "type": "youtube",
-                    "icon": "🎬",
+                    "id": "res_session_m3_f9c1",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD3_60da",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD3",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 3",
+                    "id": "res_quiz_m3_9506",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.1_8292",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.1/script.txt",
+                    "title": "📄 Kịch bản Video: Content Development (c3.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.2_d130",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.2/script.txt",
+                    "title": "📄 Kịch bản Video: Content Repurposing (c3.2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.3_bca0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.3/script.txt",
+                    "title": "📄 Kịch bản Video: Digital Rights (c3.3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m4",
             "title": "An toàn Không gian số",
             "resources": [
                 {
-                    "id": "res_vid_MD4_700a",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_4/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 4)",
-                    "type": "youtube",
-                    "icon": "🎬",
+                    "id": "res_session_m4_9b54",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4",
+                    "title": "📋 Mục lục Module 4",
+                    "type": "link",
+                    "icon": "📋",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD4_8a72",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD4",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 4",
+                    "id": "res_quiz_m4_3f63",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv",
+                    "title": "📝 Trắc nghiệm Module 4",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c4.1_6fa3",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c4.1/script.txt",
+                    "title": "📄 Kịch bản Video: Safety Blueprint (c4.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c4.2_ea5c",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c4.2/script.txt",
+                    "title": "📄 Kịch bản Video: An toàn Mạng (c4.2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c4.3_50c0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c4.3/script.txt",
+                    "title": "📄 Kịch bản Video: Digital Sustainability (c4.3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m5",
             "title": "Giải quyết vấn đề bằng công nghệ",
             "resources": [
                 {
-                    "id": "res_vid_MD5_99c5",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_5/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 5)",
-                    "type": "youtube",
-                    "icon": "🎬",
+                    "id": "res_session_m5_b21b",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=5",
+                    "title": "📋 Mục lục Module 5",
+                    "type": "link",
+                    "icon": "📋",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD5_8fda",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD5",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 5",
+                    "id": "res_quiz_m5_7aee",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD5.csv",
+                    "title": "📝 Trắc nghiệm Module 5",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c5.1_dff8",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c5.1/script.txt",
+                    "title": "📄 Kịch bản Video: Giải quyết vấn đề (c5.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m6",
             "title": "Nhập môn Trí tuệ Nhân tạo (AI)",
             "resources": [
                 {
-                    "id": "res_vid_MD6_84b4",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_6/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 6)",
-                    "type": "youtube",
-                    "icon": "🎬",
+                    "id": "res_session_m6_e015",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6",
+                    "title": "📋 Mục lục Module 6",
+                    "type": "link",
+                    "icon": "📋",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD6_2cad",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD6",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 6",
+                    "id": "res_quiz_m6_aa19",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv",
+                    "title": "📝 Trắc nghiệm Module 6",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c6.1_7d37",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c6.1/script.txt",
+                    "title": "📄 Kịch bản Video: AI Foundations (c6.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c6.2_ac20",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c6.2/script.txt",
+                    "title": "📄 Kịch bản Video: AI Blueprint (c6.2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m7",
             "title": "Thực hành Word & Tích hợp AI (Buổi 6-9)",
-            "resources": [
-                {
-                    "id": "res_slide_B6_78c1",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Buổi%206/",
-                    "title": "📄 Tài liệu Thực hành Buổi 6",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                },
-                {
-                    "id": "res_doc_w_dfbe",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
-                    "title": "📄 Slide Bài giảng Word",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m8",
             "title": "Thực hành Excel & Tích hợp AI (Buổi 10-12)",
-            "resources": [
-                {
-                    "id": "res_slide_B10_5309",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Buổi%2010/",
-                    "title": "📄 Tài liệu Thực hành Buổi 10",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                },
-                {
-                    "id": "res_doc_e_1209",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Excel.pdf",
-                    "title": "📄 Slide Bài giảng Excel",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m9",
             "title": "Thực hành PowerPoint & Tích hợp AI (Buổi 13-14)",
-            "resources": [
-                {
-                    "id": "res_slide_B13_c983",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Buổi%2013/",
-                    "title": "📄 Tài liệu Thực hành Buổi 13",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                },
-                {
-                    "id": "res_doc_p_105c",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_PowerPoint.pdf",
-                    "title": "📄 Slide Bài giảng PowerPoint",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "m10",
             "title": "Tổng ôn & Chinh phục AI (Buổi 15)",
-            "resources": [
-                {
-                    "id": "res_slide_B15_906e",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Buổi%2015/",
-                    "title": "📄 Tài liệu Thực hành Buổi 15",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         }
     ],
     "micro_nodes": [
@@ -223,22 +435,54 @@
             "alpha_base": 15,
             "resources": [
                 {
-                    "id": "res_vid_MD1_2019",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_1/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 1)",
+                    "id": "res_lesson_c1.1_dab6",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=11",
+                    "title": "🎬 Bài giảng: Khai phá Đại dương Số",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD1_7e92",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD1",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 1",
+                    "id": "res_script_c1.1_0ea2",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.1/script.txt",
+                    "title": "📄 Kịch bản Video: Khai phá Đại dương Số",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.1_d828",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.1_935c",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c1.2",
@@ -248,22 +492,54 @@
             "alpha_base": 20,
             "resources": [
                 {
-                    "id": "res_vid_MD1_0954",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_1/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 1)",
+                    "id": "res_lesson_c1.2_0282",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=12",
+                    "title": "🎬 Bài giảng: Hành trình công dân số",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD1_627d",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD1",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 1",
+                    "id": "res_script_c1.2_d2e0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.2/script.txt",
+                    "title": "📄 Kịch bản Video: Hành trình công dân số",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.2_f07d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.2_677d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c1.3",
@@ -273,22 +549,54 @@
             "alpha_base": 25,
             "resources": [
                 {
-                    "id": "res_vid_MD1_afe7",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_1/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 1)",
+                    "id": "res_lesson_c1.3_3353",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=13",
+                    "title": "🎬 Bài giảng: LÀM CHỦ DỮ LIỆU SỐ",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD1_07f5",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD1",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 1",
+                    "id": "res_script_c1.3_a6b0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.3/script.txt",
+                    "title": "📄 Kịch bản Video: LÀM CHỦ DỮ LIỆU SỐ",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.3_697a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.3_8d9a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c2.1",
@@ -298,22 +606,54 @@
             "alpha_base": 15,
             "resources": [
                 {
-                    "id": "res_vid_MD2_0ced",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_2/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 2)",
+                    "id": "res_lesson_c2.1_53fe",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=21",
+                    "title": "🎬 Bài giảng: Hành trình công dân số",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD2_ff52",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD2",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 2",
+                    "id": "res_script_c2.1_3ae5",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c2.1/script.txt",
+                    "title": "📄 Kịch bản Video: Hành trình công dân số",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c2.1_11be",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c2.1_ba83",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c2.2",
@@ -323,22 +663,54 @@
             "alpha_base": 20,
             "resources": [
                 {
-                    "id": "res_vid_MD2_056c",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_2/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 2)",
+                    "id": "res_lesson_c2.2_172c",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=22",
+                    "title": "🎬 Bài giảng: Làm chủ tương tác",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD2_b4fa",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD2",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 2",
+                    "id": "res_script_c2.2_c679",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c2.2/script.txt",
+                    "title": "📄 Kịch bản Video: Làm chủ tương tác",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c2.2_778c",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c2.2_f58a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c3.1",
@@ -348,22 +720,54 @@
             "alpha_base": 20,
             "resources": [
                 {
-                    "id": "res_vid_MD3_2350",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_3/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 3)",
+                    "id": "res_lesson_c3.1_0a52",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=31",
+                    "title": "🎬 Bài giảng: Content Development",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD3_4ea6",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD3",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 3",
+                    "id": "res_script_c3.1_592c",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.1/script.txt",
+                    "title": "📄 Kịch bản Video: Content Development",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.1_9c3a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.1_5221",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c3.2",
@@ -373,22 +777,54 @@
             "alpha_base": 25,
             "resources": [
                 {
-                    "id": "res_vid_MD3_34c9",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_3/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 3)",
+                    "id": "res_lesson_c3.2_59da",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=32",
+                    "title": "🎬 Bài giảng: Content Repurposing",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD3_b695",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD3",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 3",
+                    "id": "res_script_c3.2_22b0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.2/script.txt",
+                    "title": "📄 Kịch bản Video: Content Repurposing",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.2_ff03",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.2_ef41",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c3.3",
@@ -398,22 +834,54 @@
             "alpha_base": 25,
             "resources": [
                 {
-                    "id": "res_vid_MD3_a84a",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_3/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 3)",
+                    "id": "res_lesson_c3.3_ce76",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=33",
+                    "title": "🎬 Bài giảng: Digital Rights",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD3_d4fc",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD3",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 3",
+                    "id": "res_script_c3.3_e6f0",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.3/script.txt",
+                    "title": "📄 Kịch bản Video: Digital Rights",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.3_f502",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.3_58ec",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c4.1",
@@ -423,22 +891,54 @@
             "alpha_base": 15,
             "resources": [
                 {
-                    "id": "res_vid_MD4_b68b",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_4/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 4)",
+                    "id": "res_lesson_c4.1_54ef",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=41",
+                    "title": "🎬 Bài giảng: Safety Blueprint",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD4_fcfd",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD4",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 4",
+                    "id": "res_script_c4.1_4d84",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c4.1/script.txt",
+                    "title": "📄 Kịch bản Video: Safety Blueprint",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c4.1_84e8",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv",
+                    "title": "📝 Trắc nghiệm Module 4",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c4.1_dc02",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4",
+                    "title": "📋 Mục lục Module 4",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c4.2",
@@ -448,22 +948,54 @@
             "alpha_base": 20,
             "resources": [
                 {
-                    "id": "res_vid_MD4_2fd2",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_4/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 4)",
+                    "id": "res_lesson_c4.2_400a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=42",
+                    "title": "🎬 Bài giảng: An toàn Mạng",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD4_5e1b",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD4",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 4",
+                    "id": "res_script_c4.2_7261",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c4.2/script.txt",
+                    "title": "📄 Kịch bản Video: An toàn Mạng",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c4.2_e103",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv",
+                    "title": "📝 Trắc nghiệm Module 4",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c4.2_4a8e",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4",
+                    "title": "📋 Mục lục Module 4",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c4.3",
@@ -473,22 +1005,54 @@
             "alpha_base": 15,
             "resources": [
                 {
-                    "id": "res_vid_MD4_1392",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_4/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 4)",
+                    "id": "res_lesson_c4.3_c4dd",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=4&id=43",
+                    "title": "🎬 Bài giảng: Digital Sustainability",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD4_efe3",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD4",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 4",
+                    "id": "res_script_c4.3_788e",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c4.3/script.txt",
+                    "title": "📄 Kịch bản Video: Digital Sustainability",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c4.3_696e",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD4.csv",
+                    "title": "📝 Trắc nghiệm Module 4",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c4.3_c079",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=4",
+                    "title": "📋 Mục lục Module 4",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c5.1",
@@ -498,22 +1062,54 @@
             "alpha_base": 25,
             "resources": [
                 {
-                    "id": "res_vid_MD5_3aeb",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_5/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 5)",
+                    "id": "res_lesson_c5.1_e0fa",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=5&id=51",
+                    "title": "🎬 Bài giảng: Giải quyết vấn đề",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD5_f686",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD5",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 5",
+                    "id": "res_script_c5.1_dfe9",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c5.1/script.txt",
+                    "title": "📄 Kịch bản Video: Giải quyết vấn đề",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c5.1_1a0d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD5.csv",
+                    "title": "📝 Trắc nghiệm Module 5",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c5.1_4405",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=5",
+                    "title": "📋 Mục lục Module 5",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c5.2",
@@ -521,24 +1117,23 @@
             "title": "Tự học công nghệ mới",
             "content": "Nội dung này khuyến khích và hướng dẫn phương pháp tự học công nghệ mới thông qua việc khai thác các nguồn tài nguyên trực tuyến uy tín. Học viên sẽ tìm hiểu cách sử dụng hiệu quả Coursera, Udemy, Wikipedia, Reddit và Stack Overflow để tìm kiếm giải pháp và trả lời các câu hỏi học thuật kỹ thuật phức tạp.",
             "alpha_base": 15,
-            "resources": [
-                {
-                    "id": "res_vid_MD5_2eb2",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_5/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 5)",
-                    "type": "youtube",
-                    "icon": "🎬",
-                    "added_at": "auto-sync"
-                },
-                {
-                    "id": "res_quiz_MD5_6096",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD5",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 5",
-                    "type": "link",
-                    "icon": "📝",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c5.3",
@@ -546,24 +1141,23 @@
             "title": "Thực hành Google Sheets",
             "content": "Bài học này cung cấp kiến thức thực hành về Google Sheets, hướng dẫn các thao tác cơ bản như nhập liệu và áp dụng Conditional Formatting. Học viên sẽ học cách sử dụng hàm SUM, cũng như kỹ năng vẽ biểu đồ để dự đoán chi tiêu tài chính ở mức độ cơ bản, giúp quản lý dữ liệu hiệu quả.",
             "alpha_base": 25,
-            "resources": [
-                {
-                    "id": "res_vid_MD5_73ec",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_5/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 5)",
-                    "type": "youtube",
-                    "icon": "🎬",
-                    "added_at": "auto-sync"
-                },
-                {
-                    "id": "res_quiz_MD5_4eb9",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD5",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 5",
-                    "type": "link",
-                    "icon": "📝",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c6.1",
@@ -573,22 +1167,54 @@
             "alpha_base": 15,
             "resources": [
                 {
-                    "id": "res_vid_MD6_ce8f",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_6/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 6)",
+                    "id": "res_lesson_c6.1_426d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=6&id=61",
+                    "title": "🎬 Bài giảng: AI Foundations",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD6_ca9c",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD6",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 6",
+                    "id": "res_script_c6.1_32f3",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c6.1/script.txt",
+                    "title": "📄 Kịch bản Video: AI Foundations",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c6.1_3d61",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv",
+                    "title": "📝 Trắc nghiệm Module 6",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c6.1_c424",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6",
+                    "title": "📋 Mục lục Module 6",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c6.2",
@@ -598,22 +1224,54 @@
             "alpha_base": 20,
             "resources": [
                 {
-                    "id": "res_vid_MD6_194e",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/Video/Module_6/index.html",
-                    "title": "🎬 Bài giảng Video AI (Module 6)",
+                    "id": "res_lesson_c6.2_ddb5",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=6&id=62",
+                    "title": "🎬 Bài giảng: AI Blueprint",
                     "type": "youtube",
                     "icon": "🎬",
                     "added_at": "auto-sync"
                 },
                 {
-                    "id": "res_quiz_MD6_dcca",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Module_1-6/index.html?module=MD6",
-                    "title": "📝 Trắc nghiệm Hệ thống - Module 6",
+                    "id": "res_script_c6.2_179b",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c6.2/script.txt",
+                    "title": "📄 Kịch bản Video: AI Blueprint",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c6.2_45aa",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD6.csv",
+                    "title": "📝 Trắc nghiệm Module 6",
                     "type": "link",
                     "icon": "📝",
                     "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c6.2_3353",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=6",
+                    "title": "📋 Mục lục Module 6",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
                 }
-            ]
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c7.1",
@@ -621,16 +1279,23 @@
             "title": "Định dạng văn bản trong Word",
             "content": "Bài học tập trung vào các kỹ năng định dạng văn bản cơ bản và nâng cao trong Microsoft Word. Học viên sẽ thực hành thiết lập khổ giấy, lựa chọn font chữ, sử dụng Page Breaks, Section Breaks, TabStop và Bullets để tạo ra các tài liệu có cấu trúc rõ ràng và chuyên nghiệp.",
             "alpha_base": 20,
-            "resources": [
-                {
-                    "id": "res_doc_w_73e8",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
-                    "title": "📄 Slide Bài giảng Word",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c7.2",
@@ -638,16 +1303,23 @@
             "title": "Trình bày văn bản chuyên nghiệp trong Word",
             "content": "Bài học này hướng dẫn các kỹ thuật trình bày văn bản chuyên nghiệp trong Word, bao gồm cách tạo mục lục tự động với Multilevel list, quản lý Header và Footer. Học viên cũng sẽ học cách chèn Caption cho hình ảnh/bảng biểu và sử dụng Comment để cộng tác hiệu quả trong tài liệu.",
             "alpha_base": 25,
-            "resources": [
-                {
-                    "id": "res_doc_w_04d5",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
-                    "title": "📄 Slide Bài giảng Word",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c7.3",
@@ -655,16 +1327,23 @@
             "title": "Kiểm tra giữa kỳ thực hành Word",
             "content": "Tiết học này là buổi kiểm tra giữa kỳ, tập trung vào việc rà soát các lỗi ứng dụng và đánh giá kỹ năng tổng hợp văn bản. Học viên sẽ được thực hành áp dụng các quy tắc định dạng theo chuẩn Harvard, củng cố toàn bộ kiến thức và kỹ năng đã học về Word.",
             "alpha_base": 30,
-            "resources": [
-                {
-                    "id": "res_doc_w_112e",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
-                    "title": "📄 Slide Bài giảng Word",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c7.4",
@@ -672,16 +1351,23 @@
             "title": "Tích hợp AI trong Word",
             "content": "Bài học này khám phá cách tích hợp các công cụ AI thông minh như Copilot hoặc ChatGPT vào Microsoft Word thông qua Add-ins. Học viên sẽ thực hành yêu cầu AI viết tự động, tóm tắt, và viết lại văn bản để đảm bảo chuẩn ngữ pháp, tối ưu hóa quá trình tạo và chỉnh sửa tài liệu.",
             "alpha_base": 25,
-            "resources": [
-                {
-                    "id": "res_doc_w_e0f0",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
-                    "title": "📄 Slide Bài giảng Word",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c8.1",
@@ -689,16 +1375,23 @@
             "title": "Nền tảng hàm Excel",
             "content": "Bài học này xây dựng nền tảng vững chắc về hàm Excel, bao gồm kỹ thuật đặt tên vùng và sử dụng Data Validation. Học viên sẽ được hướng dẫn áp dụng các hàm quan trọng như IF, LEFT, RIGHT, VLOOKUP, HLOOKUP để xử lý và định hình dữ liệu thô một cách hiệu quả.",
             "alpha_base": 25,
-            "resources": [
-                {
-                    "id": "res_doc_e_d755",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Excel.pdf",
-                    "title": "📄 Slide Bài giảng Excel",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c8.2",
@@ -706,16 +1399,23 @@
             "title": "Quản trị mảng dữ liệu trong Excel",
             "content": "Nội dung này tập trung vào các công cụ quản trị mảng dữ liệu trong Excel, bao gồm Sort, Filter và PivotTable để sắp xếp và tóm tắt dữ liệu. Học viên sẽ thực hành sử dụng các hàm lọc và đếm có điều kiện như SUMIF và COUNTIF để phân tích thông tin một cách linh hoạt và chính xác.",
             "alpha_base": 25,
-            "resources": [
-                {
-                    "id": "res_doc_e_e35b",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Excel.pdf",
-                    "title": "📄 Slide Bài giảng Excel",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c8.3",
@@ -723,16 +1423,23 @@
             "title": "Tích hợp AI phân tích dữ liệu trong Excel",
             "content": "Bài học này giới thiệu cách tích hợp AI, cụ thể là Copilot, vào Excel để phân tích dữ liệu một cách thông minh. Học viên sẽ tìm hiểu cách yêu cầu AI tạo bộ dữ liệu mẫu, tự động phân tích logic xu hướng và sinh ra các công thức hàm phức tạp, giúp đơn giản hóa quá trình phân tích và báo cáo.",
             "alpha_base": 25,
-            "resources": [
-                {
-                    "id": "res_doc_e_ba52",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Excel.pdf",
-                    "title": "📄 Slide Bài giảng Excel",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c9.1",
@@ -740,16 +1447,25 @@
             "title": "Xây dựng trình chiếu chuyên nghiệp với PowerPoint",
             "content": "Bài học này hướng dẫn các kỹ thuật xây dựng trình chiếu chuyên nghiệp trong PowerPoint, từ việc thiết kế Slide Master để đảm bảo tính nhất quán. Học viên sẽ được thực hành tạo hiệu ứng Trigger liên kết, sử dụng Animation và thiết lập chế độ Auto-loop để bài thuyết trình trở nên sinh động và hiệu quả hơn.",
             "alpha_base": 25,
-            "resources": [
-                {
-                    "id": "res_doc_p_67c3",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_PowerPoint.pdf",
-                    "title": "📄 Slide Bài giảng PowerPoint",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c9.2",
@@ -757,16 +1473,25 @@
             "title": "Chế tác Slide siêu tốc với AI",
             "content": "Nội dung này tập trung vào việc ứng dụng AI để chế tác slide thuyết trình một cách siêu tốc. Học viên sẽ tìm hiểu cách sử dụng các công cụ như Gamma AI hoặc Copilot để tự động sinh toàn bộ cấu trúc bài thuyết trình và chèn các hình ảnh minh họa được tạo bởi GenAI, giúp tiết kiệm thời gian và nâng cao chất lượng.",
             "alpha_base": 25,
-            "resources": [
-                {
-                    "id": "res_doc_p_604b",
-                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_PowerPoint.pdf",
-                    "title": "📄 Slide Bài giảng PowerPoint",
-                    "type": "pdf",
-                    "icon": "📄",
-                    "added_at": "auto-sync"
-                }
-            ]
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c10.1",
@@ -774,7 +1499,25 @@
             "title": "Ôn tập quy trình trọn gói",
             "content": "Bài học này tổng hợp và ôn tập toàn bộ kiến thức đã học từ 6 modules lý thuyết, đồng thời tích hợp các bài thực hành Office kết hợp AI. Đây là cơ hội để học viên củng cố lại các kỹ năng và chuẩn bị sẵn sàng cho các bài kiểm tra thực hành cuối khóa, đảm bảo nắm vững quy trình làm việc toàn diện.",
             "alpha_base": 20,
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "c10.2",
@@ -782,7 +1525,25 @@
             "title": "Giải đề minh hoạ và xử lý tình huống",
             "content": "Nội dung này tập trung vào việc giải các đề thi minh họa, giúp học viên làm quen với cấu trúc và yêu cầu của bài thi thực hành lớn. Bài học cũng chia sẻ quy trình làm bài hiệu quả và cách xử lý các tình huống phát sinh thường gặp, trang bị kinh nghiệm thực chiến cho kỳ thi cuối khóa.",
             "alpha_base": 30,
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         }
     ],
     "assess_nodes": [
@@ -812,7 +1573,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a1.2",
@@ -840,7 +1617,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a1.3",
@@ -868,7 +1661,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a2.1",
@@ -896,7 +1705,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a2.2",
@@ -924,7 +1749,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a3.1",
@@ -952,7 +1793,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a3.2",
@@ -980,7 +1837,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a3.3",
@@ -1008,7 +1881,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a4.1",
@@ -1036,7 +1925,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a4.2",
@@ -1064,7 +1969,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a4.3",
@@ -1092,7 +2013,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a5.1",
@@ -1120,7 +2057,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a5.2",
@@ -1148,7 +2101,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a5.3",
@@ -1176,7 +2145,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a6.1",
@@ -1204,7 +2189,23 @@
                     "answer": "A"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a6.2",
@@ -1232,7 +2233,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a7.1",
@@ -1260,7 +2277,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a7.2",
@@ -1288,7 +2321,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a7.3",
@@ -1316,7 +2365,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a7.4",
@@ -1344,7 +2409,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a8.1",
@@ -1372,7 +2453,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a8.2",
@@ -1400,7 +2497,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a8.3",
@@ -1428,7 +2541,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a9.1",
@@ -1456,7 +2585,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a9.2",
@@ -1484,7 +2629,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a10.1",
@@ -1512,7 +2673,23 @@
                     "answer": "B"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         },
         {
             "id": "a10.2",
@@ -1540,7 +2717,23 @@
                     "answer": "C"
                 }
             ],
-            "resources": []
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.626330"
+            }
         }
     ],
     "user_id": "thanhthangbmt7",

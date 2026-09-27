@@ -1,54 +1,66 @@
 {
   "trees": [
     {
-      "id": "5279da17",
-      "title": "Thị giác máy tính",
-      "filename": "DB/public_trees\\5279da17.json",
-      "total_nodes": 46,
-      "description": "Cây tri thức môn Thị giác máy tính với 46 khái niệm. Hệ thống hóa Computer Vision.",
-      "category": "Đại học",
-      "price_xp": 30,
-      "rating": 4.8,
-      "downloads": 1250,
-      "is_trending": true,
-      "premium_only": false
-    },
-    {
-      "id": "b7965aca",
-      "title": "Thương mại điện tử",
-      "filename": "DB/public_trees\\b7965aca.json",
-      "total_nodes": 34,
-      "description": "Cây tri thức môn Thương mại điện tử với 34 khái niệm",
-      "category": "Đại học",
-      "price_xp": 0,
-      "rating": 4.2,
-      "downloads": 430,
-      "is_trending": false,
-      "premium_only": false
-    },
-    {
-      "id": "e69bf65f",
-      "title": "Thương mại điện tử Đồng bộ",
-      "filename": "DB/public_trees\\e69bf65f.json",
-      "total_nodes": 68,
-      "description": "Cây tri thức môn Thương mại điện tử Đồng bộ với 68 khái niệm. Master branch.",
-      "category": "Đại học",
-      "price_xp": 50,
-      "rating": 4.9,
-      "downloads": 890,
-      "is_trending": true,
-      "premium_only": true
-    },
-    {
       "id": "faa95c0b",
       "title": "TRÍ TUỆ NHÂN TẠO ỨNG DỤNG (AI ỨNG DỤNG)",
       "filename": "DB/public_trees/faa95c0b.json",
       "total_nodes": 64,
-      "description": "Môn AI ứng dụng (3TC)",
+      "description": "Cây tri thức TRÍ TUỆ NHÂN TẠO ỨNG DỤNG (AI ỨNG DỤNG) do cộng đồng đóng góp.",
       "category": "Cộng đồng (UGC)",
       "price_xp": 10,
       "rating": 5.0,
       "downloads": 0,
+      "is_trending": false,
+      "premium_only": true
+    },
+    {
+      "id": "95a7dbf9",
+      "title": "Thương mại điện tử v2.0 (MIT)",
+      "filename": "DB/public_trees/95a7dbf9.json",
+      "total_nodes": 66,
+      "description": "Cây tri thức Thương mại điện tử v2.0 (MIT) do cộng đồng đóng góp.",
+      "category": "Cộng đồng (UGC)",
+      "is_trending": false,
+      "premium_only": true,
+      "price_xp": 10
+    },
+    {
+      "id": "7e6cf95f",
+      "title": "Toán lớp 6 - Kết nối tri thức với cuộc sống",
+      "filename": "DB/public_trees/7e6cf95f.json",
+      "total_nodes": 24,
+      "description": "Cây tri thức Toán lớp 6 - Kết nối tri thức với cuộc sống do cộng đồng đóng góp.",
+      "category": "Cộng đồng (UGC)",
+      "is_trending": false,
+      "premium_only": true
+    },
+    {
+      "id": "f2c8d7e9",
+      "title": "Toán lớp 6 - OLM (Kết nối tri thức)",
+      "filename": "DB/public_trees/f2c8d7e9.json",
+      "total_nodes": 212,
+      "description": "Khoá học Toán lớp 6 (Kết nối tri thức) cào dữ liệu từ OLM.vn, bao gồm đầy đủ chương, bài học và tài liệu tham khảo.",
+      "category": "Cộng đồng (UGC)",
+      "is_trending": true,
+      "premium_only": false
+    },
+    {
+      "id": "4f340d3d",
+      "title": "Lịch sử lớp 6",
+      "filename": "DB/public_trees/4f340d3d.json",
+      "total_nodes": 45,
+      "description": "Cây tri thức Lịch sử lớp 6 do cộng đồng đóng góp.",
+      "category": "Cộng đồng (UGC)",
+      "is_trending": false,
+      "premium_only": true
+    },
+    {
+      "id": "14963c07",
+      "title": "Địa lý 6",
+      "filename": "DB/public_trees/14963c07.json",
+      "total_nodes": 62,
+      "description": "Cây tri thức Địa lý 6 do cộng đồng đóng góp.",
+      "category": "Cộng đồng (UGC)",
       "is_trending": false,
       "premium_only": true
     }

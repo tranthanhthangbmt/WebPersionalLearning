@@ -1,0 +1,35 @@
+Viewed readme.txt:1-45
+Listed directory WebPersionalLearning
+Viewed run_server.bat:1-14
+
+Để chạy trang web của bạn ở local (trên máy tính cá nhân), bạn có thể làm theo một trong hai cách sau dựa trên các file đã được thiết lập sẵn trong dự án của bạn (thư mục `i:\MY_CODE\WebPersionalLearning`):
+
+### Cách 1: Sử dụng file chạy tự động (Nhanh nhất)
+Bạn đã có sẵn một file tên là [`run_server.bat`](file:///i:/MY_CODE/WebPersionalLearning/run_server.bat) được cấu hình để tự động kích hoạt môi trường ảo và chạy server. 
+
+1. Mở thư mục `i:\MY_CODE\WebPersionalLearning` trong File Explorer.
+2. Click đúp chuột vào file `run_server.bat`.
+3. Một cửa sổ đen (Command Prompt) sẽ hiện lên và tự động khởi động server cho bạn. 
+
+*Hoặc nếu bạn đang ở trong Terminal của VS Code, chỉ cần gõ lệnh sau rồi nhấn Enter:*
+```powershell
+.\run_server.bat
+```
+
+---
+
+### Cách 2: Chạy thủ công từng bước qua Terminal
+Nếu bạn muốn tự chạy trong Terminal của VS Code hoặc PowerShell để dễ theo dõi lỗi:
+
+1. **Mở Terminal** tại thư mục dự án (`i:\MY_CODE\WebPersionalLearning`).
+2. **Kích hoạt môi trường ảo** bằng lệnh sau:
+   ```powershell
+   .\.venv\Scripts\activate
+   ```
+   *(Thành công khi bạn thấy chữ `(.venv)` hiện ở đầu dòng lệnh).*
+3. **Chạy server chính** bằng lệnh:
+   ```powershell
+   python main.py
+   ```
+
+Sau khi chạy xong, Terminal thường sẽ in ra một đường dẫn (ví dụ: `http://localhost:8080` hoặc `http://127.0.0.1:5000`...). Bạn hãy giữ nguyên Terminal đừng tắt đi, rồi copy đường link đó dán lên trình duyệt web (Chrome, Edge, Cốc Cốc...) để truy cập trang web của mình nhé!

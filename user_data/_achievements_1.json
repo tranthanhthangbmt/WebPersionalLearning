@@ -4,7 +4,19 @@
       "unlocked_at": "2026-04-17T08:53:19.828288",
       "name": "Khởi đầu",
       "icon": "🏅"
+    },
+    "streak_3": {
+      "unlocked_at": "2026-04-28T00:24:19.071169",
+      "name": "Ngọn lửa nhỏ",
+      "icon": "🕯️"
+    },
+    "night_owl": {
+      "unlocked_at": "2026-05-12T23:17:27.731606",
+      "name": "Cú đêm",
+      "icon": "🦉"
     }
   },
-  "counters": {}
+  "counters": {
+    "night_study": 3
+  }
 }

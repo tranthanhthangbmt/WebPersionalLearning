@@ -230,6 +230,7 @@ class AchievementService:
         Check all achievements and unlock any that meet criteria.
         Returns list of NEWLY unlocked achievements.
         """
+        if user_id == 0: return []
         data = _load_user_achievements(user_id)
         newly_unlocked = []
 
@@ -300,6 +301,8 @@ class AchievementService:
 
             if criteria["type"] == "custom":
                 current_progress = data["counters"].get(criteria["key"], 0)
+            elif user_id == 0:
+                current_progress = 0
             else:
                 # Need DB data
                 with Session(engine) as session:

@@ -236,33 +236,44 @@ def show_correct_streak(correct_count: int):
 
 
 def create_xp_header_widget(stats: dict) -> None:
-    """Create a compact XP/Level/Streak widget for the app header"""
+    """Create a compact, premium XP/Level/Streak widget for the app header"""
     level_icon = stats.get("level_icon", "🌱")
     level = stats.get("current_level", 1)
     total_xp = stats.get("total_xp", 0)
     streak = stats.get("current_streak", 0)
     multiplier = stats.get("multiplier", 1.0)
     
-    with ui.row().classes('items-center gap-2 bg-gray-50 rounded-full px-3 py-1 border border-gray-200'):
-        # Level badge
-        ui.html(f'<span style="font-size:18px;">{level_icon}</span>').classes('leading-none')
-        ui.label(f'Lv.{level}').classes('text-xs font-bold text-indigo-700')
+    with ui.row().classes('items-center flex-nowrap gap-1 sm:gap-2 px-1.5 sm:px-3 py-1 rounded-2xl bg-white/40 backdrop-blur-md border border-white/20 shadow-sm hover:shadow-md transition-all').props('id="dashboard-progress-area"'):
+        # Level Section
+        with ui.row().classes('items-center gap-1 sm:gap-1.5'):
+            ui.html(f'<div class="flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 bg-indigo-100 rounded-lg shadow-inner text-[12px] sm:text-[14px]">{level_icon}</div>')
+            with ui.column().classes('gap-0'):
+                ui.label(f'Lv.{level}').classes('text-[10px] sm:text-[11px] font-black text-indigo-700 leading-none')
+                ui.label('Level').classes('text-[7px] sm:text-[8px] font-bold text-indigo-400 uppercase tracking-tighter leading-none')
         
-        # XP
-        ui.label(f'⚡{total_xp}').classes('text-xs font-bold text-blue-600')
+        ui.separator().props('vertical').classes('h-5 sm:h-6 bg-gray-200/50')
         
-        # Streak
+        # XP Section
+        with ui.row().classes('items-center gap-1 sm:gap-1.5'):
+            ui.html('<div class="flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 bg-amber-100 rounded-lg shadow-inner text-[12px] sm:text-[14px]">⚡</div>')
+            with ui.column().classes('gap-0'):
+                ui.label(f'{total_xp}').classes('text-[10px] sm:text-[11px] font-black text-amber-700 leading-none')
+                ui.label('XP').classes('text-[7px] sm:text-[8px] font-bold text-amber-500 uppercase tracking-tighter leading-none')
+        
+        # Streak Section (only if active)
         if streak > 0:
+            ui.separator().props('vertical').classes('h-5 sm:h-6 bg-gray-200/50')
             fire_class = 'streak-fire-anim' if streak >= 7 else ''
-            ui.html(f'<span class="{fire_class}" style="font-size:14px;">🔥</span>').classes('leading-none')
-            ui.label(f'{streak}').classes('text-xs font-bold text-orange-600')
+            with ui.row().classes('items-center gap-1 sm:gap-1.5'):
+                ui.html(f'<div class="flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 bg-orange-100 rounded-lg shadow-inner text-[12px] sm:text-[14px] {fire_class}">🔥</div>')
+                with ui.column().classes('gap-0'):
+                    ui.label(f'{streak}').classes('text-[10px] sm:text-[11px] font-black text-orange-700 leading-none')
+                    ui.label('Ngày').classes('text-[7px] sm:text-[8px] font-bold text-orange-500 uppercase tracking-tighter leading-none')
         
         # Multiplier badge
         if multiplier > 1.0:
-            ui.label(f'x{multiplier}').classes(
-                'text-[10px] font-extrabold text-white bg-gradient-to-r from-purple-500 to-pink-500 '
-                'px-1.5 py-0.5 rounded-full'
-            )
+            with ui.badge(outline=True).classes('bg-gradient-to-r from-fuchsia-600 to-purple-600 text-[9px] font-black text-white border-0 px-2 py-0.5 shadow-sm scale-95'):
+                ui.label(f'x{multiplier}')
 
 
 def process_gamification_event(user_id: int, action_type: str, extra_data: dict = None) -> dict:

@@ -1,0 +1,13 @@
+@echo off
+call .\.venv\Scripts\activate
+@REM echo Starting PKT E-commerce Tutor System...
+
+@REM echo [1/3] Converting CSV Data to JSON...
+@REM python convert_csv_to_json.py
+
+@REM echo [2/3] Checking and Ingesting PDFs (RAG)...
+@REM python ingest_pdfs.py
+
+echo [3/3] Launching Web Server...
+python main.py
+pause

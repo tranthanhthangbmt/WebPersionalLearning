@@ -41,13 +41,17 @@ def init_user_state(user_id, tree_data):
     save_json(state_path, state)
     return state
 
-def calculate_alpha_cost(node_id, tree_data, user_state):
+def calculate_alpha_cost(node_id, tree_data, user_state, policy="university_flexible"):
     """
     Toán học hóa công thức: 
-    alpha_t = alpha_base * (1 + lambda * sum(max(0, theta - k[parent])))
+    alpha_t = alpha_base * (1 + penalty_multiplier * sum(max(0, theta - k[parent])))
+    
+    Args:
+        policy: Access policy — ảnh hưởng penalty_multiplier
+                k12_strict=2.0, university_flexible=1.5, professional_open=1.0
     """
     # 1. Lấy alpha_base của nút hiện tại
-    micro_nodes = {n["id"]: n for n in tree_data["micro_nodes"]}
+    micro_nodes = {n["id"]: n for n in tree_data.get("micro_nodes", [])}
     target_node = micro_nodes.get(node_id)
     if not target_node:
         return 0
@@ -58,15 +62,24 @@ def calculate_alpha_cost(node_id, tree_data, user_state):
     edges = tree_data.get("edges", [])
     parent_ids = [edge["source"] for edge in edges if edge["target"] == node_id]
     
-    # 3. Tính hàm phạt (Penalty)
+    # 3. Lấy penalty multiplier từ policy
+    try:
+        from soft_prerequisite import ACCESS_POLICIES
+        policy_config = ACCESS_POLICIES.get(policy, {})
+        penalty_multiplier = policy_config.get("penalty_multiplier", LAMBDA_PENALTY)
+    except ImportError:
+        penalty_multiplier = LAMBDA_PENALTY
+    
+    # 4. Tính hàm phạt (Penalty)
     penalty_sum = 0.0
     for pid in parent_ids:
-        k_score = user_state["knowledge_states"][pid]["k_score"]
+        k_data = user_state.get("knowledge_states", {}).get(pid, {})
+        k_score = k_data.get("k_score", 0.0)
         # Nếu điểm cha < 0.6 => Phát sinh lỗ hổng dương => Phạt!
         gap = max(0, THETA_PASS - k_score)
         penalty_sum += gap
         
-    alpha_t = alpha_base * (1 + LAMBDA_PENALTY * penalty_sum)
+    alpha_t = alpha_base * (1 + penalty_multiplier * penalty_sum)
     return round(alpha_t, 2)
 
 def simulate_learning(user_id, target_node_id, quiz_score):

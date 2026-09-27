@@ -76,6 +76,17 @@ def _is_aiud_course(tree_path, tree_data):
     return False
 
 
+def _is_legacy_generic_course(tree_path, tree_data):
+    """Kiểm tra xem cây này có phải là khóa Thương mại điện tử / Tin học đại cương cũ không."""
+    tp_upper = tree_path.upper()
+    if "THUONGMAI" in tp_upper or "THƯƠNG MẠI" in tp_upper or "ECOMMERCE" in tp_upper or "TINHOC" in tp_upper or "TIN HỌC" in tp_upper:
+        return True
+    course_name = tree_data.get("course_name", "").upper()
+    if "THƯƠNG MẠI" in course_name or "ECOMMERCE" in course_name or "TIN HỌC" in course_name or "THUONG MAI" in course_name:
+        return True
+    return False
+
+
 def sync_resources_to_tree(tree_path):
     """
     Quét qua tất cả các node trong cây tri thức, tự động thêm tài nguyên:
@@ -102,7 +113,25 @@ def sync_resources_to_tree(tree_path):
 
     changed = False
     is_aiud = _is_aiud_course(tree_path, tree_data)
+    is_legacy = _is_legacy_generic_course(tree_path, tree_data)
     repo_url = AIUD_BASE if is_aiud else get_base_repo_url(tree_path)
+
+    # Build parent-child map to help macro nodes aggregate child scripts
+    parent_child_map = {}
+    for ninfo in nodes_to_process:
+        child_id = ninfo.get('_id_for_sync', ninfo.get('id', ''))
+        pid = ninfo.get('parent_macro')
+        
+        # Match Chuong_X_Tiet_Y to mX if no explicit parent_macro
+        if not pid:
+            match = re.match(r'^Chuong_(\d+)_', child_id)
+            if match:
+                pid = f"m{match.group(1)}"
+                
+        if pid:
+            if pid not in parent_child_map:
+                parent_child_map[pid] = []
+            parent_child_map[pid].append(ninfo)
 
     for node_info in nodes_to_process:
         node_id = node_info.get('_id_for_sync', '')
@@ -110,19 +139,24 @@ def sync_resources_to_tree(tree_path):
             node_info['resources'] = []
         
         # --- XÓA resource auto-sync cũ (sai URL) để ghi lại từ đầu ---
-        old_count = len(node_info['resources'])
-        node_info['resources'] = [r for r in node_info['resources'] if r.get('added_at') != 'auto-sync']
-        if len(node_info['resources']) != old_count:
-            changed = True
+        # Chỉ xóa đối với khóa AIUD hoặc legacy (vì các khóa này được sinh động bộ từ code)
+        if is_aiud or is_legacy:
+            old_count = len(node_info['resources'])
+            node_info['resources'] = [r for r in node_info['resources'] if r.get('added_at') != 'auto-sync']
+            if len(node_info['resources']) != old_count:
+                changed = True
             
         res_list = node_info['resources']
         
         if is_aiud:
             # ============ AIUD COURSE: Dùng bản đồ chính xác ============
-            changed = _sync_aiud_node(node_id, node_info, res_list, repo_url) or changed
-        else:
+            changed = _sync_aiud_node(node_id, node_info, res_list, repo_url, parent_child_map) or changed
+        elif is_legacy:
             # ============ GENERIC COURSE: Dùng keyword detection ============
-            changed = _sync_generic_node(node_id, node_info, res_list, repo_url) or changed
+            changed = _sync_generic_node(node_id, node_info, res_list, repo_url, parent_child_map) or changed
+        else:
+            # Trích xuất từ content cho các JSON ngoại lai
+            changed = _sync_extracted_node(node_id, node_info, res_list) or changed
 
         # Clean loop transient state
         if "_id_for_sync" in node_info:
@@ -136,11 +170,11 @@ def sync_resources_to_tree(tree_path):
     return changed
 
 
-def _sync_aiud_node(node_id, node_info, res_list, repo_url):
+def _sync_aiud_node(node_id, node_info, res_list, repo_url, parent_child_map):
     """Đồng bộ tài nguyên cho một node của khóa AIUD dựa trên bản đồ chính xác."""
     changed = False
     
-    # --- MICRO NODE: Gắn bài giảng video + quiz ---
+    # --- MICRO NODE: Gắn bài giảng video + quiz + SCRIPT ---
     if node_id in AIUD_LESSON_MAP:
         info = AIUD_LESSON_MAP[node_id]
         session_id = info["session"]
@@ -155,6 +189,17 @@ def _sync_aiud_node(node_id, node_info, res_list, repo_url):
                 "url": vid_url,
                 "title": f"🎬 Bài giảng: {title}",
                 "type": "youtube", "icon": "🎬", "added_at": "auto-sync"
+            })
+            changed = True
+            
+        # Kịch bản Video (Script)
+        script_url = f"{repo_url}/Video/{node_id}/script.txt"
+        if not any(r.get('url') == script_url for r in res_list):
+            res_list.append({
+                "id": f"res_script_{node_id}_{uuid.uuid4().hex[:4]}",
+                "url": script_url,
+                "title": f"📄 Kịch bản Video: {title}",
+                "type": "document", "icon": "📄", "added_at": "auto-sync"
             })
             changed = True
         
@@ -181,7 +226,7 @@ def _sync_aiud_node(node_id, node_info, res_list, repo_url):
             })
             changed = True
     
-    # --- MACRO NODE (mX): Gắn mục lục module + quiz ---
+    # --- MACRO NODE (mX): Gắn mục lục module + quiz + TỔNG HỢP SCRIPTS ---
     m_match = re.match(r'^m(\d+)$', node_id)
     if m_match:
         mod_num = int(m_match.group(1))
@@ -206,16 +251,88 @@ def _sync_aiud_node(node_id, node_info, res_list, repo_url):
                         "type": "link", "icon": "📝", "added_at": "auto-sync"
                     })
                     changed = True
+                    
+            # Tự động gộp Script từ các Micro Nodes trực thuộc
+            for child in parent_child_map.get(node_id, []):
+                child_id = child.get("_id_for_sync", child.get("id", ""))
+                if child_id in AIUD_LESSON_MAP:
+                    child_info = AIUD_LESSON_MAP[child_id]
+                    script_url = f"{repo_url}/Video/{child_id}/script.txt"
+                    if not any(r.get('url') == script_url for r in res_list):
+                        res_list.append({
+                            "id": f"res_script_{child_id}_{uuid.uuid4().hex[:4]}",
+                            "url": script_url,
+                            "title": f"📄 Kịch bản Video: {child_info['title']} ({child_id})",
+                            "type": "document", "icon": "📄", "added_at": "auto-sync"
+                        })
+                        changed = True
     
     return changed
 
 
-def _sync_generic_node(node_id, node_info, res_list, repo_url):
+def _sync_generic_node(node_id, node_info, res_list, repo_url, parent_child_map):
     """Đồng bộ tài nguyên cho các khóa học generic (không phải AIUD)."""
     changed = False
-    desc = (node_info.get('title', '') + ' ' + node_info.get('content', '') + ' ' + node_info.get('description', '')).upper()
+    desc = (node_info.get('title', '') + ' ' + node_info.get('content', '') + ' ' + node_info.get('description', '') + ' ' + node_info.get('label', '')).upper()
     
-    # 1. Nhận diện Module (MD1 -> MD6)
+    # ==== MICRO NODE: Chuong_X_Tiet_Y → Video/Chuong_X_Tiet_Y/index.html ====
+    chuong_match = re.match(r'^(Chuong_\d+_Tiet_\d+)$', node_id)
+    if chuong_match:
+        vid_url = f"{repo_url}/Video/{node_id}/index.html"
+        if not any(r.get('url') == vid_url for r in res_list):
+            # Xác định tiêu đề từ node
+            label = node_info.get('label', node_info.get('title', node_id))
+            res_list.insert(0, {
+                "id": f"res_vid_{node_id}_{uuid.uuid4().hex[:4]}",
+                "url": vid_url, "title": f"🎬 Bài giảng AI Video: {label}",
+                "type": "youtube", "icon": "🎬", "added_at": "auto-sync"
+            })
+            changed = True
+            
+        script_url = f"{repo_url}/Video/{node_id}/script.txt"
+        if not any(r.get('url') == script_url for r in res_list):
+            label = node_info.get('label', node_info.get('title', node_id))
+            res_list.append({
+                "id": f"res_script_{node_id}_{uuid.uuid4().hex[:4]}",
+                "url": script_url, "title": f"📄 Kịch bản Video: {label}",
+                "type": "document", "icon": "📄", "added_at": "auto-sync"
+            })
+            changed = True
+            
+        return changed
+    
+    # ==== MACRO NODE: mX → Trắc nghiệm + Quiz ====
+    macro_match = re.match(r'^m(\d+)$', node_id)
+    if macro_match:
+        mod_num = macro_match.group(1)
+        # Quiz link
+        quiz_url = f"{repo_url}/index.html?module=MD{mod_num}"
+        if not any(r.get('url') == quiz_url for r in res_list):
+            res_list.append({
+                "id": f"res_quiz_MD{mod_num}_{uuid.uuid4().hex[:4]}",
+                "url": quiz_url, "title": f"📝 Trắc nghiệm - Module {mod_num}",
+                "type": "link", "icon": "📝", "added_at": "auto-sync"
+            })
+            changed = True
+            
+        # Tự động gộp Script từ các Micro Nodes trực thuộc
+        for child in parent_child_map.get(node_id, []):
+            child_id = child.get("_id_for_sync", child.get("id", ""))
+            child_chuong_match = re.match(r'^(Chuong_\d+_Tiet_\d+)$', child_id)
+            if child_chuong_match:
+                script_url = f"{repo_url}/Video/{child_id}/script.txt"
+                if not any(r.get('url') == script_url for r in res_list):
+                    child_label = child.get('label', child.get('title', child_id))
+                    res_list.append({
+                        "id": f"res_script_{child_id}_{uuid.uuid4().hex[:4]}",
+                        "url": script_url, "title": f"📄 Kịch bản Video: {child_label} ({child_id})",
+                        "type": "document", "icon": "📄", "added_at": "auto-sync"
+                    })
+                    changed = True
+                    
+        return changed
+    
+    # ==== FALLBACK: Dò keyword Module / Buổi ====
     mod_id = None
     module_match = re.search(r'MD(\d)|MODULE\s*(\d)', desc)
     if module_match:
@@ -230,8 +347,9 @@ def _sync_generic_node(node_id, node_info, res_list, repo_url):
     if mod_id and mod_id.isdigit():
         mod_int = int(mod_id)
         if 1 <= mod_int <= 6:
-            vid_url = f"{repo_url}/Module_1-6/Video/Module_{mod_id}/index.html"
-            if not any(r.get('url') == vid_url for r in res_list):
+            # Thử dạng Video/Chuong_X_Tiet_1 trước, rồi Module_1-6 fallback
+            vid_url = f"{repo_url}/Video/Chuong_{mod_id}_Tiet_1/index.html"
+            if not any(f"Bài giảng" in r.get('title', '') for r in res_list):
                 res_list.insert(0, {
                     "id": f"res_vid_MD{mod_id}_{uuid.uuid4().hex[:4]}",
                     "url": vid_url, "title": f"🎬 Bài giảng Video (Module {mod_id})",
@@ -239,7 +357,7 @@ def _sync_generic_node(node_id, node_info, res_list, repo_url):
                 })
                 changed = True
                  
-            quiz_url = f"{repo_url}/Module_1-6/index.html?module=MD{mod_id}"
+            quiz_url = f"{repo_url}/index.html?module=MD{mod_id}"
             if not any(r.get('url') == quiz_url for r in res_list):
                 res_list.append({
                     "id": f"res_quiz_MD{mod_id}_{uuid.uuid4().hex[:4]}",
@@ -254,7 +372,7 @@ def _sync_generic_node(node_id, node_info, res_list, repo_url):
         elif mod_int == 9:
             desc += ' POWERPOINT'
 
-    # 2. Nhận diện Buổi học
+    # Buổi học
     buoi_match = re.search(r'BUỔI\s*(\d+)', desc)
     if buoi_match:
         buoi_id = buoi_match.group(1)
@@ -267,7 +385,7 @@ def _sync_generic_node(node_id, node_info, res_list, repo_url):
              })
              changed = True
 
-    # 3. Slide kỹ năng
+    # Slide kỹ năng
     if 'WORD' in desc and not any('Word' in r.get('title', '') for r in res_list):
         res_list.append({
             "id": f"res_doc_w_{uuid.uuid4().hex[:4]}", "url": f"{repo_url}/TaiLieuHuongDan/Slide/Slide_Word.pdf",
@@ -289,4 +407,87 @@ def _sync_generic_node(node_id, node_info, res_list, repo_url):
         })
         changed = True
     
+    return changed
+
+
+# ============================================================
+#  BLOOM CONTENT LIBRARY SYNC
+# ============================================================
+
+def sync_bloom_content_to_tree(tree_path: str, username: str) -> dict:
+    """
+    Quét toàn bộ nodes trong tree, sync content packs từ shared library.
+    Chạy khi user mở tree hoặc render 3D — giúp user mới có nội dung 
+    mà không cần gọi AI (tiết kiệm API cost).
+    
+    Returns: {"synced": int, "username": str}
+    """
+    from node_content_engine import sync_bloom_content_for_tree
+    from bloom_taxonomy import calibrate_tree_bloom
+    
+    if not os.path.exists(tree_path):
+        return {"synced": 0, "error": "File not found"}
+    
+    # Step 1: Ensure bloom profiles exist in tree
+    calibrate_tree_bloom(tree_path)
+    
+    # Step 2: Sync content from library
+    synced = sync_bloom_content_for_tree(tree_path, username)
+    
+    return {"synced": synced, "username": username}
+
+
+def _sync_extracted_node(node_id, node_info, res_list):
+    '''Trích xuất tài nguyên từ các trường url và content/description của node và làm sạch content.'''
+    changed = False
+    existing_urls = set(r.get('url', '').strip() for r in res_list)
+    
+    def add_res_if_new(url, title):
+        nonlocal changed
+        url = url.strip()
+        if url and url not in existing_urls:
+            from resource_manager import detect_resource_type
+            import uuid
+            rtype, icon, dname = detect_resource_type(url)
+            res_list.append({
+                "id": f"res_ext_{uuid.uuid4().hex[:8]}",
+                "url": url,
+                "title": title or dname,
+                "type": rtype,
+                "icon": icon,
+                "added_at": "auto-sync"
+            })
+            existing_urls.add(url)
+            changed = True
+
+    # Check direct 'url' field
+    if 'url' in node_info and isinstance(node_info['url'], str) and node_info['url'].strip():
+        add_res_if_new(node_info['url'], f"Tài nguyên chính: {node_info.get('title', node_id)}")
+        
+    # Regex extract from content/description_md
+    text_content = node_info.get('content', '') or ''
+    desc_md = node_info.get('description_md', '') or ''
+    combined_text = text_content + '\n' + desc_md
+    
+    # Extract markdown links [Title](url)
+    matches = re.findall(r'\[([^\]]+)\]\((https?://[^\)]+)\)', combined_text)
+    for title, url in matches:
+        add_res_if_new(url, title.strip())
+        
+    # Làm sạch content nếu chứa các phần tài liệu/thực hành thừa
+    if text_content:
+        marker_idx = -1
+        for marker in ["**Tài liệu học tập:**", "**Thực hành:**", "**Tài liệu:**", "**Tài liệu tham khảo:**"]:
+            idx = text_content.find(marker)
+            if idx != -1:
+                if marker_idx == -1 or idx < marker_idx:
+                    marker_idx = idx
+        
+        if marker_idx != -1:
+            cleaned_content = text_content[:marker_idx].strip()
+            cleaned_content = re.sub(r'(\\n|\n)+$', '', cleaned_content).strip()
+            if cleaned_content != text_content:
+                node_info['content'] = cleaned_content
+                changed = True
+                
     return changed

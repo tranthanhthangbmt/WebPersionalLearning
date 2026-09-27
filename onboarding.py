@@ -89,25 +89,31 @@ async def create_onboarding_wizard():
                             ui.html('<div style="width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,#3b82f6,#6366f1);display:flex;align-items:center;justify-content:center;font-size:22px;">📄</div>')
                             with ui.column().classes('gap-0 flex-grow'):
                                 ui.label('Tải lên tài liệu').classes('text-white font-bold text-base')
-                                ui.label('Hỗ trợ file .txt - AI sẽ tự động phân tích').classes('text-blue-200/50 text-xs')
+                                ui.label('Hỗ trợ file .txt, .pdf, .docx — AI sẽ tự động phân tích').classes('text-blue-200/50 text-xs')
 
                         upload_status = ui.label('').classes('text-blue-300/70 text-sm mt-3 italic hidden')
 
                         async def handle_upload(e):
-                            upload_status.classes(remove='hidden')
-                            upload_status.text = '⏳ Đang đọc file...'
-                            try:
-                                if hasattr(e, 'content'):
-                                    content_bytes = e.content.read()
-                                elif hasattr(e, 'file'):
-                                    content_bytes = await e.file.read()
-                                else:
-                                    raise Exception("Lỗi đọc file")
+                            # Robust filename extraction
+                            if isinstance(e, dict):
+                                filename = e.get('name') or e.get('filename') or 'document.txt'
+                            else:
+                                filename = getattr(e, 'name', None) or getattr(e, 'filename', None) or 'document.txt'
 
-                                content = content_bytes.decode('utf-8')
-                                content = content[:15000]
+                            upload_status.classes(remove='hidden')
+                            upload_status.text = f'⏳ Đang đọc {filename}...'
+                            try:
+                                if isinstance(e, dict):
+                                    content_bytes = e.get('content') or await e.get('file').read()
+                                else:
+                                    if hasattr(e, 'content'): content_bytes = e.content.read()
+                                    elif hasattr(e, 'file'): content_bytes = await e.file.read()
+                                    else: raise ValueError("Không tìm thấy nội dung file.")
+
+                                from document_parser import parse_document
+                                content = parse_document(filename, content_bytes)
                                 wizard_state['uploaded_content'] = content
-                                upload_status.text = f'✅ Đã đọc thành công ({len(content)} ký tự)'
+                                upload_status.text = f'✅ Đã đọc {filename} thành công ({len(content)} ký tự)'
                                 upload_status.classes(remove='text-blue-300/70', add='text-green-400')
 
                                 # Show next button
@@ -118,8 +124,8 @@ async def create_onboarding_wizard():
 
                         ui.upload(
                             on_upload=handle_upload, auto_upload=True, multiple=False,
-                            label='Kéo thả hoặc chọn file .txt'
-                        ).props('bordered accept=".txt" dark color=blue-8').classes('w-full mt-3 bg-white/5 rounded-xl')
+                            label='Kéo thả hoặc chọn file (.txt, .pdf, .docx)'
+                        ).props('bordered accept=".txt,.pdf,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document" dark color=blue-8').classes('w-full mt-3 bg-white/5 rounded-xl')
 
                     # Option 2: Use sample data
                     with ui.card().classes('w-full p-5 rounded-2xl bg-white/[0.04] border border-purple-400/20 hover:border-purple-400/50 transition-all cursor-pointer'):

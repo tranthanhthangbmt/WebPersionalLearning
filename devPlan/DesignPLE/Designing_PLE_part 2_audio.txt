@@ -1,0 +1,104 @@
+Hãy tưởng tượng một kịch bản như thế này nhé. Đang giữa một buổi học cực kỳ căng thẳng. Nhịp tim của người học bắt đầu tăng lên và ánh nốt kiểu có dấu hiệu lơ đãng.
+Một dấu hiệu quá tải rất điển hình.
+Chính xác. Và ngay lập tức, chiếc bà làm việc thông minh tự động thay đổi độ cao để nhắc người đó đứng lên. Ánh sáng trong phòng thì chuyển sang tông màu dịu hơn và hệ thống máy tính của họ ấy tạm thời khóa luôn các ứng dụng gây sao nhãng.
+Wow.
+Nghe có vẻ giống hệt một phân cảnh trong phim khoa học viễn tưởng đúng không? Nhưng thực chất thì ừ đây lại là một chiều không gian tương lai đang được định hình của học tập cá nhân hóa.
+Chào mừng nh. Những người ham học hỏi đã quay trở lại với chuyến hành trình khám phả chuyến sâu của chúng ta.
+Rất vui được tiếp tục cuộc trò chuyện này cùng bà. Vâng. Và xin nhắc lại một chút đây là phần hai trong chuỗi bốn phần của chúng ta khi phân tích cuốn sách Designing Personalized Learning Experiences thiết kế trải nghiệm học tập cá nhân hóa của hai tác giả Helen Fake và Nada Dabak.
+À ở phần một thì chúng ta đã cùng nhau gỡ rối một lầm tưởng rất lớn rồi.
+Đúng thế. Giàng học tập cá nhân hóa không chỉ đơn thuần là việc phó mặc cho một cái thuật toán vô tri quyết định xem nội dung tiếp theo là gì. Nó ý tôi là nó là sự kết hợp tinh tế. giữa hệ thống công nghệ và sự chủ động của con người.
+Vậy nên tiếp nối nền tảng lý thuyết đó, buổi phân tích tài liệu ngày hôm nay sẽ đưa chúng ta đi tìm câu trả lời cho chữ làm thế nào, kiểu như làm thế nào để thực sự xây dựng trải nghiệm đó trong môi trường thực tế,
+dù là ở trường đại học hay trong đào tạo doanh nghiệp đúng không?
+Chính xác. Và trọng tâm của cuộc thảo luận hôm nay là một mô hình cốp lõi của cuốn sách khung tương tác học tập cá nhân hóa hệ viết tắc là PLF.
+Được rồi, hãy cùng mổ sẻ vấn đề này. Tôi thấy tài liệu có nhắc đến việc khung PLF này được phát triển từ một nghiên cứu Delfi. Đối với những người nghe có thể chưa quen với các phương pháp nghiên cứu học thuật ấy thì khái niệm này nghĩa là gì và tại sao nó lại khiến cái khung này đáng tin cậy?
+À nghiên cứu Del Phi thì hiểu một cách đơn giản nhất nó là một kỹ thuật thu thập ý kiến chuyên gia qua nhiều vòng lập kín.
+Vòng lập kín
+vận tức là các tác giả không hề tập hợp mọi người vào một căn phòng để tranh cãi đâu. Thay vào đó họ gửi các bạn câu hỏi hoàn toàn ẩn răn cho 80 chuyên gia hàng đầu.
+80 người cơ.
+Đúng vậy. Bao gồm 32 nhà nghiên cứu Hàn Lâm, 33 người thực hành trực tiếp và 15 lãnh đạo doanh nghiệp. Các chuyên gia này đưa ra nhận định, sau đó cái nhiệt định được tổng hợp lại và gửi ngược lại cho họ để xem xét ở vòng tiếp theo.
+Kiểu cứ lặp đi lập nại như vậy à.
+Chính xác. Lặp lại cho đến khi tất cả các bộ óc xuất chúng này đạt được một sự đồng thuận.
+À ra thế tức là không ai bị ảnh hưởng bởi áp lực hay quyền uy của người khác trong quá trình đóng góp ý kiến.
+Hoàn toàn độc lập thứ bà. Và kết quả của sự đồng thuận đó là một bình nghĩa. Ừ thực sự gạt bỏ đi những từa khóa sáu rỗng mà các công ty bán phần mẻm hay dùng khi nói về cá nhân hóa.
+Ờ họ hay tâng bốc nó lên quá đả.
+Vâng. Các chuyên gia thống nhất rằng học tập cá nhân hóa phải là một hệ sinh thái sống động. Khung PLIF mở rộng lý thuyết tương tác kinh điển của mua khẳng định cái hệ sinh thái này bao gồm năm loại tương tác chính. Và như kịch bản mở đầu bà vừa nhắc tới ấy, có cả một chiều tương tác thứ sáu thuộc về tương lai.
+Wow, một hệ sinh thái. Nếu chúng ta coi hệ sinh thái POIF này giống như việc quy hoạch một thành phố học tập đi, thì ừ cơ sở hạ tầng đầu tiên mà một công dân phải tiếp xúc chính là tương tác giữa người học và nội dung.
+Đúng vậy. Trạm dừng chân đầu tiên.
+Nhưng trong thành phố này thì nội dung chắc chắn không thể chỉ là những cuốn giáo trình dày cộp hay là mấy cái đoạn video quay lại bài giảng một cách nhàm chán được.
+Chắc chắn rồi. Sự tương tác với nội dung hiện nay thì đòi hỏi một chiến lược đa phương tiện. Tài liệu nhấn mạnh việc khai thác cực kỳ đa dạng cách định dạng từ văn bản, âm thanh, video cho đến ừ các không gian thực tế ảo.
+Kiểu như Second Live hay các môi trường 3D đúng không?
+Vâng. Đại loại Thế nhưng điểm thú vị nhất nằm ở nguyên lý đa phương tiện của Meer mà cuốn sách đề cập.
+Ờ nguyên lý đó nói gì vậy ông?
+Trong khi rất nhiều nhà thiết kế khoa học tin rằng cứ nhồi nhét thật nhiều hình ảnh động và video thì trải nghiệm sẽ càng hấp dẫn và được cá nhân hóa. Thì Meer lại chứng minh điều ngược lại.
+Khoan đã, ông đang nói là đồ họa càng rực rỡ, video càng nhiều thì lại càng phản tác dụng á.
+Trong nhiều trường hợp thì đúng là như vậy. Video có âm thanh và hình ảnh chuyển động liên tục. Rất dễ gây ra cái gọi là hiện tượng của phá tải nhật thức
+à vì não bộ phải xử lý quá nhiều luồng thông tin cùng lúc.
+Đúng thế. Và quan trọng hơn, video cung cấp mọi thứ quá sẵn sàng khiến người học dễ rơi vào trạng thái tiêu thụ thụ động. Ngược lại, một đồ họa tĩnh chẳng hạn như một sơ độ tư duy phức tạp hoặc biểu đồ luồng lại tạo ra những khoảng chống nhận thức.
+Tôi hiểu rồi. Nó buộc não bộ của người học phải chủ động vận động để sâu chuỗi logic lại.
+Vâng. Họ phải tự hình thành các hình tư duy trong đổ mình.
+Chỗ này làm tôi nghĩ đến câu nói của M Hoan mà cuốn sách có ch dẫn phương tiện chính là thông điệp. Ý tôi là câu nói đó làm tôi nhớ đến việc ăn sub, nội dung chính là món sub đó. Nhưng nếu ông chọn công nghệ phân phối là một chiếc nghĩa thay vì chiếc thìa thì trả nghiện coi như vứt đi.
+Một ẩn dụ rất đắt giá thưa bà. Chọn sai công nghệ sẽ phá hỏng một nội dung tốt.
+Đúng vậy. Việc sử dụng web 2.0 cũng vậy đúng không?
+Chính xác. Sự chuyển dịch sang web 2.0 nơi chúng ta có thể bình luận, chia sẻ và tạo blog đã làm thay đổi hoàn toàn sự cân bằng quyền lực. Nó không chỉ là nơi chứa bài học mà nó biến người học từ một thánh giả ngoài ngoãn thành người đồng kiến tạo nội dung.
+Nhưng mà này dù người học có thể tự tạo nội dung nhưng nếu chỉ tương tác với mỗi cái màn hình vô chi thì quá trình đó vẫn mang tính cô lập quá.
+Vâng, học một mình thì dễ nản.
+Vậy làm thế nào để đưa yếu tố con người vào mà không tạo ra áp lực?
+Đó chính là bước đệm hoàn hảo để sang chiều tương tác thứ hai. Người học với người học. Hay nói cách khác là tương tác đồng đẳng.
+Tương tác đồng đẳng nghĩa là hai người ở cùng một trình độ ngồi lại với nhau. Tại sao tài liệu lại tách biệt cái sự tương tác này ra khỏi việc học với một giảng viên hay một chuyên gia? Tốt nằm ở sự vắng mặt của rào cản quyền lực thứ ba.
+Sự vắng mặt rào cản quyền lực ông có thể giải trích rõ hơn không?
+Ờ khi tương tác với một cố vấn hay giảng viên, dù người đó có cợi mở đến đâu, người ọc vẫn luôn mang một tâm lý phòng thủ nhất định. Họ sợ phải đặt những câu hỏi bị coi là ngớ ngận.
+À đúng rồi, sợ bị đánh giá hoặc lo ngại nó sẽ ảnh hưởng đến lộ trình thăng tiến của mình tại công ty.
+Vâng. Ngược lại, tương tác một kèm một giữa hai người ngang hàng tạo ra một không gian an toàn tuyệt đối. Ở đó họ tự do trao đổi phản hồi, mắc sai lầm và cùng nhau thử nghiệm tự duy. thông qua các công cụ nhì slack hoặc diễn đàn thảo luận.
+Tôi phải đóng vai người hoài nghi ở đây một chút nhé.
+Bà cứ tự nhiên.
+Nếu cả hai người đều đang bập bõm, đều chưa nắm vũng kiến thức thì việc họ dạy cho nhau liệu có biến thành câu chuyện người mù rất đường cho người mù không? Làm sao để đảm bảo chất lượng học tập?
+Đó là một rủi ro thường bị đem ra bàn tán. Nhưng tài liệu chỉ ra rằng chúng ta đang nhìn nhận sai về mục đích thực sự của tường tách đồng đẳng.
+Sai như thế nào thưa ông?
+Mục tiêu ở giai đoạn này không phải là để tìm ra ngay lập tức một chân lý hay một câu trả lời hoàn hảo như sách giáo khoa. Mục tiêu là quá trình thực hành. Khi một người cố gắng giải thích một khái niệm cho người bạn đồng cấp của mình, họ đang rèn luyện tứ dĩ phản biện và kỹ năng xã hội.
+Giống như một buồng nháp an toàn vậy.
+Đúng vậy. Nó giúp họ rèn rụa ý tưởng và tự tin hơn trước khi mang nó ra trình bày trước một nhóm lớn hơn.
+Tuyệt vời. Và nhắc đến nhóm lớn hơn. Điều gì sẽ xảy ra khi chúng ta thêm vài người nữa vào cuộc trò chuyện một kèm một này? Sự năng động chắc chắn sẽ thay đổi hoàn toàn đúng không?
+Chắc chắn rồi. Khi đó trải nghiệm mở rộng sang chiều tương tác thứ ba. Người học với nhóm nhỏ. Nhóm nhỏ ở đây được tài liệu định nghĩa chắc chẽ là từ ba đến sáu người.
+Ba đến sáu người. Tại sao lại giới hạn ở con số đó?
+Ở quy môn này, họ có thể áp dụng hiệu quả phương pháp học dựa trên vấn đề hay còn gọi là PBL. Cuốn sách đã mượn góc nhìn từ nhà xã hội học George Simo để giải thích nguyên lý về quy mô nhóm.
+George Simo nói gì về điều này?
+Ông ấy chỉ ra rằng ngay khi một nhóm chuyển từ hai người lên ba người trở lên, nguy cơ đánh mất sự độc lập hay hiện tượng grouping, tư duy tập thể bắt đầu xuất hiện.
+À là lúc mọi người ngại nêu ý kiến trạ ái chiều và chỉ hùa theo số đông.
+Đúng thế. Hoặc sẽ xuất hiện tình trạng ỷ lại, có người trốn tránh đóng gó nên việc thiết kế nhóm nhỏ ba đến sáu người đòi hỏi sự cẩn trọng để không ai áp đảo và không ai bị bỏ lại.
+Nghe ông nói thì nhóm ba đến sáu người này giống hệt như một ban nhạc rock vậy.
+Một ban nhạc rock. Bà có thể nói rõ hơn không?
+Thì ông thấy đấy. Mỗi người phải chơi một nhạc cụ khác nhau để bài hát có hồn. Người chơi guitar, người đánh trống, người hát chính. Nếu nhóm quá đông thành một dàn nhạc giao hưởng khổng lồ sẽ có người kéo vĩ cầm chỉ đứng nhép miệng kéo đàn mà không ai hay biết.
+Một sự so sánh rất sinh động và thực sự phản ánh đúng bản chất vấn đề. Cuốn sách cũng đưa ra một ví dụ thực tế về chương trình Launch and Learn tại một công ty tài chính.
+Ờ vừa ăn trưa vừa học.
+Họ đã vận hành cái ban nhạc rock của mình như thế nào?
+Họ dùng phương pháp PBL để phá vỡ rào cản giữa các phòng ban. Các thành viên đóng vai trò là người điều phối đồng đẳng.
+Tức là tự họ điều phối nhau chứ không cần giảng viên.
+Vâng. Họ sử dụng các đoạn video nghiên cứu người dùng và một bộ kịch bản mồi để hướng dẫn nhóm thảo luận. Kết quả là họ t tạo ra được những hiểu bị có thể hành động ngay lập tức mà không cần thuê chuyên gia đắt điển. Quá khéo léo. Chúng ta đã đi từ một mình tiêu thụ nội dung đến tâm sự 1.1 rồi làm việc nhóm nhỏ. Để hoàn thiện bức tranh hệ sinh thái PNF này, chắc chắn chúng ta cần nhìn xa hơn ra khỏi không gian ngang hàng rồi.
+Vâng. Và đó là lúc hai chiều tương tác tiếp theo xuất hiện. Chiều thứ tư là người học với huấn luyện viên cố vấn hoặc AI và chiều thứ năm là người học với mạng lưới xã hội hoặc cộng đồng thực hành COP. Khoan đã, huấn luyện viên là con người thì tôi hiểu, mang tính định huống mục tiêu rất rõ. Nhưng ai thì sao? Làm thế nào AI có thể hướng dẫn mà không tước đi quyền tự quyết của ngài học?
+À điểm hai là ở chỗ đó. AI trong Minh hình này không đưa ra đáp án sẵn. Nó dựa trên phân tích dữ liệu hành vi để làm người cố vấn. Ví dụ nó nhận thấy bà thường làm bài kém vào ban đêm. Nó sẽ gợi ý dữ liệu cho giấy độ tập trung của bạn năng giảm. Bạn có muốn thử học vào buổi sáng không?
+Tức là nó gợi ý chiến lược, còn quyết định áp dụng hay không vẫn hoàn. toàn ở tôi
+chính xác. Và khi người học đã có định hướng, họ mang kiến thức đó ra mạng lưới rộng lớn hơn chiều thứ năm để chia sẻ chuyên môn, tận dụng triệt để web 2.0.
+Vậy là bao trùng hết là đúng không? Có nội dung, có bạn bè, có nhóm, có chuyên gia, có mạng lưới xã hội. Còn gì có thể vượt ra ngoài những điều này nữa?
+Đây mới là phần gây ngạc nhiên nhất thưa bà. Về cuối tài liệu, các tác giả đề xuất một chiều tương tác đến từ tương lai. Chiều thứ sáu.
+Ồ, chiều thứ sáu
+đó là người học tương tác với Internet vạn vật hay còn gọi là là IoT
+ion là những đồ vật vô chi vô giác xung quanh cũng tham gia vào việc dạy chúng ta.
+Vâng, khái niệm này kết hợp với lý thuyết sự gắn kết xã hội vật chất, Social Material entanglement. Nó lập luận rằng con người và thế giới vật chất liên tục tái tạo lẫn nhau. Tác giả lấy ẩn dụ từ dự án cảm biến giao thông ở Chicago.
+Cảm biến giao thông?
+Đúng vậy. Các cảm biến không chỉ thụ động đếm số lượng xe, chúng phân tích luồng đi và ngay lập tức điều chỉnh đèn tín hiệu để dài tỏa ùn tắc theo thời gian thực. Giờ hãy áp dụng điều đó và không gian học tập.
+Trời ơi, đây chính là lúc mọi thứ trở nên thực sự thú vị đây. Có phải nó giống hệt như cái viễn cảnh bàn làm việc tự động nâng lên hạ xuống mà tôi đã kể ở đầu chương trình không?
+Chính xác là nó đấy. Các cảm biến thông minh, thiết bị đeo tay sẽ thu thập dữ liệu về mối trưởng, hành vi và cả nhịp độ sinh học của bà. Rồi chúng phản hỏi trực tiếp để giúp bà tối ưu hóa hành động học tập.
+Wow! Vậy là hệ sinh thái giờ đây không chỉ có con người, không chỉ có tài liệu mà chính cái môi trường vật lý xung quanh cũng đang dạy và điều chỉnh chúng ta.
+Vâng, một mạng lưới thực sự sống động. chứ không phải chỉ là một phần mềm tính. Khung PIF FLI đã chứng minh rằng học tập cá nhân hóa bao chủm ngóc nách.
+Một hành trình quá sức ấn tượng từ việc tiêu thụ nội dung đa phương tiện, tâm sự một kèm một an toàn, làm việc trong nhóm nhỏ ba đến sáu người, cho đến kết nối với cố vấn Ai ai mạng lưới xã hội và cuối cùng là IoT, đồ vật thông minh.
+Thật sự là một sự tiến hóa đáng kinh ngạc của giáo dục. Nhưng trước khi khép lại, tôi có một tư duy gợi mở từ tài liệu muốn để lại cho người nghe suy ngẫm.
+Ồ vâng, mời ông chia sẽ
+chúng ta luôn tiến rằng mình đang tạo ra các thiết bị IoT và AI để theo dõi và hướng dẫn việc học của chính mình.
+Đúng vậy, chúng ta phục vụ mục đích của mình.
+Nhưng hãy nghĩ xem, khi môi trường xung quanh, nhà cửa, bàn làm việc, điện thoại biết chính xác lúc nào chúng ta tiếp thu kiến thức tốt nhất và liên tục định hình thói quen của chúng ta
+thì sao?
+Liệu chúng ta đang cá nhân hóa môi trường hay chính môi trường đang dần cá nhân hóa tư duy của chúng ta theo một khuôn mẫu tối ưu đến mức vô cảm? RH giới thực sự nằm ở đâu?
+Wow, thật sự là nổi da gà. Một Câu hỏi phản biện quá xuất sắc. Liệu không gian làm việc đang phục vụ chúng ta hay đang lập trình lại chúng ta? Mọi người hãy quan sát chính cách không gian làm việc của mình đang ảnh hưởng đến mình ngày hôm nay để tự tìm ra câu trả lời nhé.
+Một bài tập quan sát rất thú vị đấy.
+Vâng, rất cảm ơn những người ham học hỏi đã đồng hành cùng chúng tôi trong chuyến lặn sâu này. Khung POF đã cho chúng ta một lăng kính hoàn toàn mới. Hẹn gặp lại tất cả ở phần ba, nơi chúng ta sẽ tiếp tục phân tích cách biến những khung lý thuyết này thành công cụ đánh giá năng lực thực sự.
+Hẹn gặp lại mọi người. Chúc mọi người một ngày tràn nên năng lượng. Tạm biệt.

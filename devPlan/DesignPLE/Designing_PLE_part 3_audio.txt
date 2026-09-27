@@ -1,0 +1,143 @@
+Khi một người bị gãy tay, ở bức ảnh Trụp X quăng hiện ra một đường nứt màu trắng rất là rõ ràng đúng không?
+Rất trực quan, nhìn kẽ là thấy ngay.
+Đúng thế. Y khoa thì nó mang tính trắng đen, danành mạch. Vấn đề nằm ở đâu thì giải pháp can thiệp ngay ở đó. Nhưng mà một khi bước chân vào thế giới của giáo dục, của việc phát triển nhận thức và đào tạo nhân sự thì ở cỗ máy X quang đó dường như bị hỏng rồi.
+Chắc chắn rồi, mọi thứ mờ mịt hơn rất nhiều. Ý tôi là chúng ta đâu thể đơn giản chụp chiếu não bộ của một nhân viên và nói rằng ở kỹ năng giải quyết vấn đề của người này đang bị nứt một đường chéo, không thể nào
+chuẩn luôn. Và đó chính là cái nút thắt mà cuốn sách thiết kế trải nghiệm học tập cá nhân hóa Designing Personalized Learning Experiences của hai tác giả Helen Fake và Nada Dabak cố gắng gỡ rối. Chào mừng người nghe đến với buổi phân tích chuyên sâu hôm nay.
+Và phải nhắc lại đây là phần ba trong chỗa bốn phần giải mã cuốn sách này của chúng ta.
+Đúng vậy. Nếu các phần trước chúng ta đã xây dựng cái khuông lý thuyết nền tảng thì nhiệm vụ cốt lõi của phần ba này là nhìn thẳng vào hiện thực, kiểu như làm sao để đánh giá và trao quyền cho người học khi mà công nghệ đang lật ngược hoàn toàn các mô hình truyền thống á. Một sự lật ngược thực sự đấy,
+rất lớn luôn. Vậy nên cái câu hỏi đầu tiên cần đặt ra là ờ làm thế nào mà cái hệ thống giáo dục và đào tạo doanh nghiệp lại rơi vào tình trạng đóng kín, kiểu nhồi nhét một chiều ngay từ lúc ban đầu nhỉ?
+Ờ để trả lời câu đó thì chúng ta phải nhìn vào lịch sử tiến hóa của công nghệ. Trong lĩnh vực sư phạm á thì phương pháp giảng dạy luôn luôn chạy theo bóng dáng của công cụ.
+Tức là công cụ dẫn đường cho phương pháp sao?
+Giới hạn của lớ. Tài liệu bóc tách quá trình này bắt đầu từ kỷ nguyên web 1.0. Ở cái thời kỳ này, bản chất của mạng Internet là chỉ đọc. Các trang web thì được lập trình tĩnh,
+kiểu bấm vào chỉ để xem chữ thôi á.
+Đúng, không tương tác gì được. Hệ quả tất yếu là phương pháp giáo dục mang đập tính hành vi. Behaviorist á, tổ chức hoặc người thầy nắm giữ toàn bộ luồng thông tin, còn người học ừ họ chỉ là cái trạm thu phát cuối cùng thôi.
+A nghe nó giống như một tấm bảng tin của công ty Chỏ hành lang vậy. Ban giám đốc dám một tờ thông báo lên đó, nhân viên đi ngang qua đứng đọc và hết
+đúng một sự ví von rất chuẩn.
+Không ai có thể kiểu lấy bút viết thêm ý kiến của mình lên cái tờ thông báo đó cả. Một luồng giao tiếp hoàn toàn thụ động luôn.
+Hoàn toàn thụ động. Vậy nên sự thay đổi mang tính bước ngoặc nó chỉ diễn ra khi mà web 2.0 xuất hiện. Đây là thế hệ web đọc và viết.
+Mạng xã hội bắt đầu bùng nổ đúng không?
+Đúng rồi đó. Đột nhiên cái tấm bảng tin ở hành lang mà chị vừa nói á nó biến thành một nền tảng mạng xã hội thu nhỏ. Và sự thay đổi công nghệ này lập tức kích hoạt một phương pháp học tập mới, đó là học tập kiến tạo.
+Constructivist.
+Chính xác, người học không còn bị bó buộc ở vị trí tiếp nhận nữa. Họ bắt đầu tự tạo ra nội dung, kiểu họ viết blog nè, họ đóng góp vào wiki, họ bình luận dưới các video hướng dẫn trên YouTube. Vị trí kiểm soát thông tin bắt đầu dịch chuyển từ tay các tổ chức sang tay từng cá nhân riêng lẻ.
+Hay quá. Nếu web 1.0 là tấm bảng tin công ty thì web 2.0 giống như một cái nhà bếp mở nơi mọi người cùng nhảy vào nêm nếm gia vị và chia sẻ công thức cho nhau vậy.
+Một nhà bếp rất ổn ồn ảo và sôi động
+rất vui nữa. Thế nhưng tài liệu còn nhắc đến web 3.0 nữa. Ờ mạng lưới phân quyền, blockchain và không gian 3D. Tác giả gọi đây là kỷ nguyên đọc, viết và sở hữu. Cái khái niệm sở hữu ở đây nghe có vẻ hơi trừu tượng một chút.
+Ờ nó hơi khố nắm bắt lúc ban đầu.
+Vậy anh có thể giải thích web 3.0 thực sự thay đổi cách chúng ta học như thế nào ở mức độ nền tảng không?
+Ừ được thôi. Điều đặt ra một câu hỏi quan trọng ở đây là danh tính kỹ thuật số. Điểm mấu chốt của web 3.0 nằm ở liên thông xuyên nền tảng ở web 2.0 nhé. Dữ liệu học tập của một cá nhân bị giam giữ trong các máy chủ riêng biệt.
+Kiểu tôi học xong một khóa trên nền tầng này thì nền tảng khác đâu có biết.
+Đúng rồi, khóa học hoàn thành trên trang A không được công nhận trên trang B. Nhưng web 3.0 thì nó phá vỡ hoàn toàn rào cản đó. Nó cho phép người học mang theo một ờ một cái hồ sơ năng lực kỹ thuật số duy nhất đi khắp mọi nơi.
+Ồ.
+Khi một cá nhân tham gia dự án mã nguồn mờ hoặc là hoàn thành một chứng chỉ vi mô nào đó thì những dữ liệu đó thuộc quyền sở hữu của chính họ. Nó được xác thực bằng blockchain, tồn tại vĩnh viễn và họ có thể mang đi trình diện với bất kỳ nhà tuyển dụng nào.
+Nó tạo ra một sự tự do tuyệt đối luôn nhỉ.
+Chuẩn. Công nghệ ở đây nó không chỉ là công cụ nữa, nó đóng vai trò như một lực lượng giải phóng. Nó đẩy mức độ trao quyền cho người học lên mức tối đa.
+Vậy thì khi mà công cụ thay đổi từ một tấm bảng tin thụ động sang một mạng lưới liên thông toàn cầu như vậy, kiến trúc của các lớp học hay các chương trình đào tạo doanh nghiệp chắc chắn không thể giữ nguyên trạng được nữa rồi.
+Chắc chắn là hệ thống cụ sẽ phải vỡ vụn.
+Chính sự tiến hóa công nghệ. này cáo theo một cuộc dạn nứt lớn về mặt cấu trúc và trong sách họ nói về trận chiến giữa hệ thống quản lý học tập gọi tắt là LMS và môi trình học tập cá nhân gọi tắt là PLE. Hãy nói về phê phòng thủ trước nhé, tức là LMS
+được.
+Tại sao các trường đại học và các tập đoàn hiện nay lại phụ thuộc vào nó đến vậy?
+LMS Learning Management System á thực chất nó là một sản phẩm tư duy của kỵ nguyên công nghiệp. Đặc tính cốt lõi của nó là sự kiểm soát và tính đồng nhất.
+Kiểm soát gắt gao á.
+Đúng. Đúng vậy. Tổ chức sẽ sử dụng hệ thống này để quyết định xem một người phải học phần A trước, làm xong bài kiểm tra B rồi mới được mở khóa video C. Quyền tự quyết của người học gần như là bằng 0.
+Nó khá là máy móc nhỉ?
+Rất máy móc. Nhưng lợi ích lớn nhất của LMS là nó giúp tổ chức dễ dàng theo dõi tiến độ trên quy mô khổng lồ, đánh giá hàng loạt và đảm bảo cái tiêu chuẩn tuần thủ. Anh không thể qua môn nếu chưa tích đủ dấu tích xanh.
+À tôi thường hình dung LMS giống như một khu vườn thực vật được nhà trường quy hoạch và rào chắn cực kỳ cẩn thận. Kiểu cây nào trồng ở luống nào, ngày tưới bao nhiêu lần đều đã được ban giám hiệu lập chỉnh sẵn. Rất gọn gang, rất an toàn
+nhưng lại rất nhàm chán.
+Đúng, rất chán. Còn ở phía bên kia, phe tấn công là PLE, Personal Learning Environment. Có một lầm tưởng rất phổ biến ở đây mà chúng ta cần phải xóa bỏ. Đó là PLE không phải là tên một cái phần mềm mới nào đó để thay thế LMS đâu.
+Chính xác. Nó hoàn toàn không phải phần mềm,
+nó là một triết lý, một cách tiếp cận. Ở đó, người học tự vác một chiếc ba lô lên vai đi du hành qua khu rừng kỹ thuật số rộng lớn. Họ thu thập hạt giống kiến thức từ ờ một video trên YouTube, một bài viết trên blog của chuyên gia, một diễn đàn cộng đồng rồi mang về tự gieo chồng trong hệ sinh thái của riêng họ.
+Điều hấp dẫn ở đây là sự dịch chuyển quyền lực.
+Sự cá nhân hóa lúc này không do hệ thống quyết định nữa mà do chính người học làm chủ toàn tập.
+Nghe cái hình ảnh chiếc ba lô và khu rừng kỹ thuật số của chị rất là lãng mạn đấy. Nhưng ở thực tế thì tản khốc hơn nhiều.
+Khoan, tan khốc á? Tại sao?
+Chị thử nghĩ xem, nếu ném một nhân viên văn phòng bình thường hoặc một sinh viên mới chập chững vào giữa khu rừng kỹ thuật số đó mà không cấp cho họ một chiếc la bản hay một tấm bản đổ, họ sẽ không gieo chồng được gì cả đâu.
+À, họ sẽ bị lạc.
+Đúng, họ sẽ kiệt sức giữa biển thông tin. Không biết phân biệt đâu là kiến thức giá trị, đâu là nhiễu loạn. Không phải ai sinh ra cũng có sẵn cái bản năng sinh tồn trong môi trường học tập phi cấu trúc. Như vậy
+công nhận
+việc trao cho người học hàng tác Công cụ tự do mà thiếu đi sự chuẩn bị, nó chỉ dẫn đến một kết quả duy nhất thôi. Sự tê liệt vì quá tải.
+Đó là một gốc nhìn cực kỳ thực tế. Kiểu chúng ta không thể cứ mở tung cánh cửa ra và hy vọng mọi người sẽ tự nhiên biết cách bơi trong biển kiến thức được. Vậy làm sao để trang bị cho họ cái chiếc la bàn đó? Chắc chắn phải có một cơ chế cốt lõi nào đó để giữ cho toàn bộ cái triết lý PE này không bị sục đổ chứ đúng không?
+Có chứ. Cơ chế cốt lõi đó chính là kỹ năng học tập tự điều chỉnh. Self regulated learning. Hãy ánh đặt là SRL.
+SRL
+đúng. Và SL không phải là một năng khiếu bẩm sinh nhé. Nó là một chuỗi các hành vi nhận thức hoàn toàn có thể rèn luyện được. Nó bao gồm khả năng tự thiết liệp mục tiêu học tập này, chủ động lựa chọn chiến lược tiếp cận tài liệu, duy trì động lực khi gặp khó khăn
+và còn phải tự đánh giá nữa.
+Chuẩn luôn. Quan trọng nhất là năng lực tự đánh giá, tự phản tư. Để giúp người học từng bước làm chủ SL, các tác giả Helenfake và Nadada Bark đã thiết kế ra một khung dàn giáo ba cấp độ.
+Khung dàn giáo
+đúng giống như khi xây nhà vậy á, chúng ta phải l cấp dàn giáo để nâng đỡ người học trong giai đoạn đầu trước khi họ có thể tự đứng vững.
+Cái khái niệm dàn giáo này thực sự rất đáng để mổ sẻ sâu hơn đấy. Làm thế nào một người từ chỗ hoàn toàn thụ động chờ được giao việc lại có thể tiến hóa thành một cá nhân tự chủ? Hãy thử đặt cái khung lý thuyết này vào một tình huống thực tế xem.
+À được thôi.
+Phân tích dữ liệu mạng xã hội ở cấp độ một, cái khung dàn giáo này nó sẽ hoạt động như thế nào?
+Ở cấp độ một, tài liệu gọi đó là giai đoạn quản lý thông tin cá nhân. Trọng tâm ở đây chỉ là thiết lập thói quen và sự ngăn nắp kỹ thuật số thôi.
+Tức là chưa có gì to tát cả.
+Đúng vậy. Nhân sự X sẽ bắt đầu bằng những công cụ mang tính cá nhân, riêng tư và hoàn toàn khép kín. Ờ lấy ví dụ, X có thể sử dụng ứng dụng Leck của Google để tạo các khối thời gian cố định mỗi tuần dành riêng cho việc đọc tài liệu.
+À chỉ là quản lý thời gian thôi.
+Đúng. Rồi. X có thể dùng một ứng dụng ghi chú cá nhân như Notion hay Evernote để liệt kê những khái niệm mình chưa hiểu, hoàn toàn không có sự tương tác với bên ngoài.
+Tự mình biết thôi.
+Chính xác. Mục tiêu duy nhất Âu cấp đồng 1 là giúp cá nhân định hình được không gian làm việc số của bản thân và biết cách tự đạt ra mục tiêu ngắn hạn. Tức là lúc này X vẫn đang loanh loanh trong một chiếc lều an toàn do chính mình dựng lên, chưa hề bước ra ngoài tiếp nối với ai cả. Vậy khi nào thì X mới sẵn sàng chuyển sang cấp độ hai? Và cái cấp độ này nó thay đổi động lực học tập ra sao?
+Cấp độ hai là một bước nhảy vọn. Nó mang tên tương tác xã hội và hợp tác. Đây là lúc nhân sự X bắt đầu nở cửa lều và bước ra ngoài đó.
+Ra ngoài khu rừng.
+Đúng. Họ bắt đầu nhận ra rằng tự học một mình trong lều là chưa đủ. Ở giai đoạn này, khung giàn giáo khuyến khích ích tham gia vào các cộng đồng nghề nghiệp.
+Cụ thể là làm gì nhỉ?
+Í có thể bắt đầu bằng những việc nhỏ thôi như để lại bình luận dưới một bài đăng LinkedIn của một chuyên gia phân tích dữ liệu hoặc là mạnh dạng đặt một câu hỏi trên diễn đàn nội bộ của công ty.
+Ồ, bắt đầu có sự cọ sát.
+Đúng. Điểm cốt lõi của cấp độ hai là người học bắt đầu xây dựng mạng lưới học tập cá nhân PLN. Ấ, họ nhận thức được cái danh giới kiến thức của mình và biết cách sử dụng các công cụ web 2.0 để thu hút sự trợ giúp từ những người khác.
+Chỗ này thực sự thú vị này vì cái quá trình này đòi hỏi sự can đảm rất lớn. Rõ Rõ ràng việc đặt câu hỏi đồng nghĩa với việc thừa nhận là mình không biết. Không phải ai cũng dám làm thế ở chốn công sở đâu.
+Chính xác, đó là một giào cản tâm lý cực lớn. Đó là lý do tại sao cần có hệ thống dàn giáo để khuyến khích họ.
+Vậy khi X đã quen với việc xây dựng mạng lưới và tương tác rồi thì cấp độ ba tập hợp và quản lý thông tin sẽ diễn ra như thế nào? Đâu là cái dấu hiệu cho thấy hệ thống dàn giáo đã có thể được tháo dỡ hoàn toàn?
+Dấu hiệu nhận biết sự trưởng thành ở cấp độ ba chính là năng lực tổng hợp và sáng tạo ý nghĩa.
+Sáng tạo ý nghĩa? Nghe trừu tượng nhỉ?
+Để tôi giải thích. Lúc này nhân sự X không chỉ đi hỏi người khác nữa. X có khả năng tự thu thập thông tin từ nhiều luồng khác nhau. Ví dụ một bài báo cáo ngành nè, một thuật toán mới được cập nhận trên mạng xã hội nè và dữ liệu thực tế từ chiến dịch của chính công ty.
+Gom hết lại với nhau.
+Đúng. Và X biết cách sang lọc nội dung giác, kết nối các điểm mù kiến thức và tự tay viết ra một tài liệu hướng dẫn tối ưu hóa mới cho toàn bộ đội ngũ.
+Wow. Biến kiến thức của người khác thành của mình và tạo ra giá trị mới luôn.
+Quá trình tiếp thu thông tin đã chuyển chuyển hóa hoàn toàn thành quá trình kiến tạo kiến thức. X lúc này đã hoàn thiện năng lực tự phản tư để liên tục điều chỉnh lộ trình học của mình mà không cần bất kỳ ai giao KPI cả.
+Tự thân vận động 100%.
+Đó chính là bức tranh hoàn hảo của một môi trường học tập cá nhân, một PLE thực thụ. Nghịch lý gì vậy?
+Giả sử nhá, các tổ chức doanh nghiệp đầu tư thời gian sử dụng các huấn luyện viên con người để kem cặp và cuối cùng tạo ra được một đội ngũ nhân sự đạt đến cấp độ ba. Những con người này giờ đây đã quá quen với tự do với việc tự làm chủ hành trình học tập.
+Ờ đúng. Các tổ chức chắc chắn không thể ép họ quay trở lại học các khóa đào tạo khô khan trên hệ thống LMS kiểu cũ được nữa đúng không? Họ sẽ chống đối ngay. Vậy cái cơ sở hạ tầng giáo dục tiếp theo sẽ phải như thế nào để giữ chân và dung nạp những cá nhân cực kỳ độc lập này?
+Nếu chúng ta kết nối điều này với bức tranh lớn hơn á thì sự trưởng thành của người học buộc các tổ chức phải xây dựng một hệ sinh thái PR tương lai.
+Hệ sinh thái này trông như thế nào?
+Nó hoàn toàn khác biệt với những phần mềm đóng kín như LMS. Nó là một mạng lưới linh hoạt nơi ranh giới giữa học tập chính quy và phi chính quy xóa nhàc. hoàn toàn.
+Nghĩa là sao?
+Trong hệ sinh thái này, một nhân viên có thể kết hợp việc học một khóa trên LinkedIn Learning, sau đó tham gia một dự án chéo phòng ban, rồi theo dõi các tài nguyên giáo dục mở từ các trường đại học. Và điểm hay là mọi trải niệm đó dù nhỏ nhất đều được hệ thống ghi nhận.
+Khoan đã, cái khái niệm ghi nhận điều làm tôi cực kỳ băn khoăn.
+Chị băn khoăn chỗ nào?
+Trong môi trường LMS truyền thống á, hệ thống ghi nhận bằng cách đếm xem bạn đã xem hết cái video hay chưa hoặc là bạn đạt bao nhiêu điểm trong bài trắc nghiệm. Nhưng nếu học tập diễn ra ở khắp mọi nơi trên diễn đàn, qua các cuộc thảo luận, qua việc đọc blog thì làm sao một cái hệ thống máy móc biết được để mà ghi nhận?
+Một câu hỏi rất hay.
+Tài liệu có nhắc đến chứng chỉ mở, rồi hệ thống huy hiệu và đặc biệt là công nghệ CPI được nhúng vào LRS, tức là kho lưu trữ hồ sơ học tập. Nhưng nói một cách dễ hiểu nhất thì ờ CPI thực chất nó hoạt động như thế nào vậy?
+Để dễ hình dung nhất nhé, hệ thống LMS truyền thống giống như một bác sĩ khám sức khỏe định kỳ mỗi năm một lần vậy.
+Vị bác sĩ đó chỉ hỏi một câu. anh có tập thể dục không và ghi vào sổ là có hoặc không. Kết quả nó rất là nông,
+rất hời hợt.
+Trong khi đó, CBI hoạt động giống như một chiếc đồng hồ thông minh siêu việt đeo trên cổ tay người học.
+Nó không chỉ hỏi một câu, nó liên tục bám sát là đo lường từng nhịp tim, từng bước chân học tập của cá nhân. CPI bản chất là một chuẩn giao tiếp kỹ thuật số. Nó có thể theo vết xem ở một người đã dừng lại đọc một bài báo chuyên ngành trong đúng 12 phút, nhấp vào ba đường link tham khảo trong đó và sau đó đóng góp một đoạn mã trên nền tảng Git Hub.
+Thật luôn. Nó chi tiết đến mức đó.
+Đúng vậy. Tất cả những cái bước chân dữ liệu Vimo đó sẽ được XAPI đóng gói lại và gửi thẳng về LRS, tức là cái trung tâm lưu trữ dữ liệu cốt lõi của tổ chức.
+Cái cơ chế này thực sự thay đổi hoàn toàn luật chơi luôn đấy. Thay bị chờ đợi bài kiểm tra cuối khóa để biết ai giỏi ai kém, tổ chức giờ đây có một bức tranh dữ liệu theo thời gian thực về cách nhân viên đang tiêu thụ kiến thức.
+Rõ như ban ngày luôn.
+Vậy làm thế nào để tích hợp cái sức mạnh khủng khiếp của XAPI và LRS này và một chiến lược đ đào tạo dài hạn của doanh nghiệp.
+Cuốn sách đề xuất một cuộc thử nghiệm gồm ba giai đoạn để xây dựng cái hệ sinh thái này.
+Ba giai đoạn.
+Đúng. Giai đoạn một chính là thứ chúng ta vừa thảo luận lúc nãy. Sử dụng con người. Tức là các huấn luyện viên hoặc quản lý trực tiếp sẽ đóng vai trò làm giàn giáo để hướng dẫn nhân viên dùng các công cụ từ học.
+Dùng sức người trước
+nhúng các trợ lý hoặc huấn luyện viên trí tuệ nhân tạo AI và hệ thống.
+Chà. AI bắt đầu nhập cuộc.
+Đúng vậy. Trợ lý AI này sẽ phân tích các dữ liệu khổng lồ từ XCPI để đóng vai trò như một người cố vấn cá nhân. Nó liên tục đưa ra các gợi ý, tài liệu hoặc là nhắc nhở tiến độ sao cho phù hợp với phong cách học riêng biệt của từng người.
+Giống như có một gia sư riêng 247 vậy. Và giai đoạn ba chắc chắn là khi cỗ máy dữ liệu bắt đầu phát huy toàn bộ cái sức mạnh hủy diệt của nó. Đúng không?
+Hoàn toàn đúng. Giai đoạn ba là việc triển khai toàn diện kho LRS để thực hiện phân tích học tập Learning Analytics trên quy mô toàn tổ chức.
+Nghe rất là vĩ mô.
+Đúng thế. Vì dữ liệu lúc này không chỉ để phục vụ từng cá nhân nhỏ lẻ nữa. Đội ngũ lãnh đạo có thể nhìn vào hàng triệu điểm dữ liệu hành vi đó để phát hiện ra những lỗ hồng kỹ năng chung của toàn công ty
+à họ sẽ biết được xu hướng
+một cách cực kỳ chuẩn xác.
+Nhìn vào toàn bộ cái bức tranh mà Helenfake và Nadabak đã vẽ ra trong phần này á, chúng ta có thể thấy một sự dịch chuyển mang tính kiến tạo luôn. Cái mô hình học một lần ở trường, dùng một đời ở chỗ làm, nó đã hoàn toàn sụp đổ rồi,
+không còn đường lui nữa.
+Đứng trước áp lực phải đào tạo lại lực lượng lao động để không bị tụt hậu. Phương thuốc duy nhất không nằm ở việc vung tiền mua thêm những cái hệ thống LMS đóng ký. đắt tiền. Phương thuốc thực sự nằm ở việc trao quyền cho cá nhân. Tương lai của việc học là sự phân mảnh kiến thức.
+Đúng, rất phân mảnh.
+Nhưng sự phân mảnh đó sẽ được kết dính lại một cách cực kỳ có nghệ thuật thông qua kỹ năng học tập tự điều chỉnh của con người, kết hợp với mạng lưới phân tích dữ liệu tinh vi của XAPI và AI.
+Tôi hoàn toàn đồng ý sự chuyển đổi từ phương pháp sư phạm ép buộc sang học đập tự quyết, nó không chỉ là một thay đổi về mặt kỹ thuật đâu chị. Nó là một cuộc cách mạng về nhận thức. Tổ chức nào xây dựng được cái hệ sinh thái này sẽ giải quyết được tẫn gốc dễ của sự chán nạn, giảm tỉ lệ bỏ cuộc trong đào tạo và tạo ra một lực lượng lao động có khả năng tự thích ứng với mọi biến động. Một hành trình quá tuyệt vời. Chúng ta đã đi một chặng đường rất sâu để bóc tách sự tiến hóa từ một kỷ nguyên web 1.0 tĩnh lặng, buồn tẻ đến một hệ sinh thái học tập PLE sống động. Ở buổi thảo luận tiếp theo, cũng là phần bốn và là phần cuối cùng của chuỗi phân tích cuốn sách này, chúng ta sẽ trả lời câu hỏi thực tế nhất.
+Đó là áp dụng nó như thế nào?
+Chính xác. Làm thế nào để áp dụng tất cả những lý thuyết vĩ mô và phân tích dữ liệu này vào việc đánh giá hiệu quả kinh doanh, đo lường Roy, lợi thức đầu tư và triển khai các chiến lược thực thi thực tế trong tổ chức. Nhưng mà trước khi khép lại phần ba hôm nay, có một nghịch lý về tương lai luôn khiến tôi phải suy ngẫm.
+Nghịch lý gì vậy?
+Chúng ta vừa nói về giai đoạn hai và 3, nơi các trợ lý AI liên tục thu thập hàng triệu điểm dữ liệu từ mỗi cú nhấp chuột, mỗi giây ngầm ngừng của người học. Sẽ đến một lúc cái thuật toán AI này hiểu rõ phong cách tiếp thu, hiểu rõ sự trì hoãn và hiểu rõ những điểm mù nhận thức của chúng ta. ta thậm chí còn sâu sắc hơn cả chính bản thân chúng ta tự hiểu mình nữa.
+Đó là một viễn cảnh rất dễ xảy ra.
+Mà mục đích ban đầu của toàn bộ hệ sinh thái POI là xây dựng sự tự chủ, rèn luyện kỹ năng tự phản tư cho người học. Nhưng nếu luôn vôn có một trí tuệ nhân tạo đứng bên cạnh, sẵn sàng phân tích và đưa ra câu trả lời tối yêu nhất về chính bản thân chúng ta,
+liệu chúng ta có còn tự suy nghĩ không?
+Đúng. Liệu năng lực tự phản tư của con người sẽ được nâng tầm hay chúng ta sẽ dần lười biếng, thôi chột, mất khả năng tự đối thoại với chính mình và tự nguyện giao nộp cái quyền tự điều chỉnh đó lại cho máy móc. Cỗ máy X quang của giáo dục có lẽ sắp được AI chế tạo thành công rồi. Nó sẽ so chiều rõ nét mọi ngóc nghếch trong tâm trí chúng ta. Nhưng câu hỏi để lại cho những ai đang nghe buổi thảo luận này là liệu chúng ta có còn giữ được năng lực tự mình đọc cái bản kết quả đó hay không? Hãy mang theo câu hỏi này và hẹn gặp lại tất cả trong phần cuối của chuỗi phân tích nhé.

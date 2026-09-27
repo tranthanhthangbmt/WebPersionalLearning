@@ -4,6 +4,7 @@ from database import (
     create_db_and_tables, create_user, get_user_by_username, 
     get_user_by_email, authenticate_user, get_user_progress
 )
+from config.google_oauth_config import GoogleOAuthConfig
 import re
 
 
@@ -15,7 +16,9 @@ def is_valid_email(email: str) -> bool:
 
 def is_logged_in() -> bool:
     """Check if current user is logged in"""
-    return app.storage.user.get('authenticated', False)
+    is_auth = app.storage.user.get('authenticated', False)
+    role = app.storage.user.get('role', '')
+    return is_auth and role != 'guest'
 
 
 def get_current_user_id() -> int:
@@ -40,8 +43,8 @@ def logout():
 def create_login_page():
     """Build the Login page UI"""
 
-    # Inject Google Font
-    ui.add_head_html('<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">')
+    # Inject Google Font and Custom CSS for Autofill
+    ui.add_head_html('<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"><style>input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active { -webkit-box-shadow: 0 0 0 100px #0f172a inset !important; -webkit-text-fill-color: white !important; caret-color: white !important; }</style>')
 
     # --- FULL PAGE BACKGROUND ---
     with ui.column().classes('w-full min-h-screen items-center justify-center bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 relative overflow-hidden'):
@@ -59,7 +62,7 @@ def create_login_page():
         ''')
 
         # --- LOGIN CARD ---
-        with ui.card().classes('w-[420px] p-8 rounded-3xl shadow-2xl bg-white/[0.03] backdrop-blur-xl border border-white/10 z-10'):
+        with ui.card().classes('w-[92%] sm:w-[420px] p-6 sm:p-8 rounded-3xl shadow-2xl bg-white/[0.03] backdrop-blur-xl border border-white/10 z-10'):
             
             # Logo & Title
             with ui.column().classes('items-center mb-8 gap-2'):
@@ -130,6 +133,31 @@ def create_login_page():
                 ui.label('hoặc').classes('text-xs text-blue-300/50 font-medium')
                 ui.element('div').classes('flex-grow h-px bg-white/10')
 
+            # --- Sprint 01: Google Sign-In Button ---
+            if GoogleOAuthConfig.is_configured():
+                btn_label = 'Đăng nhập bằng Google (Developer Mock)' if GoogleOAuthConfig.MOCK_MODE else 'Đăng nhập bằng Google'
+                target_url = '/auth/google/mock' if GoogleOAuthConfig.MOCK_MODE else '/auth/google/login'
+                
+                ui.button(
+                    btn_label,
+                    icon='img:https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg',
+                    on_click=lambda: ui.navigate.to(target_url),
+                ).classes(
+                    'w-full py-3 rounded-xl bg-white text-gray-700 font-bold text-base '
+                    'shadow-lg hover:shadow-xl hover:bg-gray-50 hover:scale-[1.02] '
+                    'transition-all duration-200 border border-gray-200'
+                ).props('no-caps')
+            else:
+                # Hiện nút disabled nếu chưa cấu hình
+                with ui.button(
+                    'Đăng nhập bằng Google (Chưa cấu hình)',
+                    icon='img:https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg',
+                ).classes(
+                    'w-full py-3 rounded-xl bg-white/50 text-gray-400 font-bold text-base '
+                    'cursor-not-allowed border border-gray-200/50'
+                ).props('no-caps disable'):
+                    pass
+
             # Register link
             with ui.row().classes('w-full justify-center'):
                 ui.label('Chưa có tài khoản?').classes('text-sm text-blue-200/50')
@@ -146,7 +174,8 @@ def create_login_page():
 def create_register_page():
     """Build the Register page UI"""
 
-    ui.add_head_html('<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">')
+    # Inject Google Font and Custom CSS for Autofill
+    ui.add_head_html('<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"><style>input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active { -webkit-box-shadow: 0 0 0 100px #0f172a inset !important; -webkit-text-fill-color: white !important; caret-color: white !important; }</style>')
 
     with ui.column().classes('w-full min-h-screen items-center justify-center bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 relative overflow-hidden'):
         
@@ -161,7 +190,7 @@ def create_register_page():
         ''')
 
         # --- REGISTER CARD ---
-        with ui.card().classes('w-[460px] p-8 rounded-3xl shadow-2xl bg-white/[0.03] backdrop-blur-xl border border-white/10 z-10'):
+        with ui.card().classes('w-[92%] sm:w-[460px] p-6 sm:p-8 rounded-3xl shadow-2xl bg-white/[0.03] backdrop-blur-xl border border-white/10 z-10'):
             
             # Header
             with ui.column().classes('items-center mb-6 gap-2'):
@@ -208,7 +237,7 @@ def create_register_page():
                     'parent': '👨‍👩‍👧 Phụ huynh'
                 },
                 value='student'
-            ).props('rounded outlined dark color=purple-4 label-color=purple-200 emit-value map-options').classes('w-full mb-4')
+            ).props('rounded outlined dark color=purple-4 label-color=purple-200 emit-value map-options behavior=menu').classes('w-full mb-4')
 
             def do_register():
                 fullname = fullname_input.value.strip()
