@@ -16,6 +16,8 @@
 
 # Bỏ qua thư mục chứa API key bảo mật
 /GeminiKey/
+/AWS key/
+/BACKUP/AWS/
 
 # Tùy chọn: Bỏ qua tất cả các file nén .zip ở bất kỳ đâu trong dự án
 *.zip
