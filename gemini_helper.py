@@ -9,8 +9,8 @@ import threading
 key_lock = threading.Lock()
 
 # Models to try in order
-# Prioritizing gemini-2.5-flash-lite as it is confirmed working and fast in this environment
-MODEL_PRIORITY = ['gemini-2.5-flash-lite', 'gemini-flash-latest', 'gemini-3.1-pro-preview']
+# Prioritizing gemini-3.5-flash-lite as it is confirmed working and fast in this environment
+MODEL_PRIORITY = ['gemini-3.5-flash-lite', 'gemini-flash-latest', 'gemini-3.1-pro-preview']
 
 def get_all_api_keys():
     try:
