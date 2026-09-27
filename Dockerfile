@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
 # Cài đặt PyTorch bản CPU siêu nhẹ để tiết kiệm >5GB ổ đĩa và RAM.
 # Phù hợp chạy 1 worker đơn giản trên VPS
 COPY requirements.txt .
-RUN pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu && \
+RUN pip install --no-cache-dir torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu && \
     pip install --no-cache-dir -r requirements.txt
 
 # Copy toàn bộ mã nguồn (.dockerignore sẽ chặn file nặng)
