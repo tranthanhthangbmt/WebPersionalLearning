@@ -150,3 +150,8 @@ IP Address: 56.10.131.44
 
 git clone https://github.com/tranthanhthangbmt/WebPersionalLearning.git
 cd WebPersionalLearning/
+
+--------------
+ssh -i "AWS key/my-key1.pem" ubuntu@56.10.131.44
+---------------
+sudo docker run -d -p 80:8081 my-web-app
