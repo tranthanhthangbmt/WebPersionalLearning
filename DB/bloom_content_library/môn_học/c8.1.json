@@ -1,0 +1,331 @@
+{
+  "node_id": "c8.1",
+  "course_id": "môn_học",
+  "version": 2,
+  "updated_at": "2026-05-06T23:30:52.685587",
+  "author": "thangtt",
+  "study_material": {
+    "learning_objectives": [],
+    "key_concepts": [],
+    "detailed_content": "# Phép liên kết chuyển đổi\n\nGiới thiệu các phép biến đổi hình học cơ bản như tịnh tiến, xoay, tỉ lệ và biến đổi Affine. Giải thích cách chúng được sử dụng để mô tả và ước tính chuyển động giữa các khung hình trong video.",
+    "summary": "Giới thiệu các phép biến đổi hình học cơ bản như tịnh tiến, xoay, tỉ lệ và biến đổi Affine. Giải thích cách chúng được sử dụng để mô tả và ước tính chuyển động giữa các khung hình trong video.",
+    "practical_examples": []
+  },
+  "bloom_profile": {
+    "auto_calibrated_levels": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "user_adjusted_levels": null,
+    "effective_levels": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "calibration_method": "alpha_base",
+    "alpha_base": 15,
+    "created_at": "2026-05-06T23:30:17.974040"
+  },
+  "question_bank": {
+    "L1": [
+      {
+        "type": "mcq_recall",
+        "question": "Theo bài học, phép biến đổi hình học cơ bản nào được đề cập đến?",
+        "options": {
+          "A": "Tịnh tiến, xoay, tỉ lệ, biến đổi Affine",
+          "B": "Co giãn, lật, cắt, ghép",
+          "C": "Định tuyến, dịch chuyển, phóng đại, nén",
+          "D": "Phép đối xứng, phép đồng dạng, phép quay"
+        },
+        "correct": "A",
+        "explanation": "Bài học giới thiệu các phép biến đổi hình học cơ bản bao gồm tịnh tiến, xoay, tỉ lệ và biến đổi Affine."
+      },
+      {
+        "type": "flashcard",
+        "front": "Tịnh tiến (Translation)",
+        "back": "Là một phép biến đổi hình học di chuyển mọi điểm của một đối tượng một khoảng cách cố định theo một hướng nhất định."
+      },
+      {
+        "type": "flashcard",
+        "front": "Xoay (Rotation)",
+        "back": "Là một phép biến đổi hình học làm thay đổi hướng của một đối tượng xung quanh một điểm cố định (tâm xoay)."
+      },
+      {
+        "type": "flashcard",
+        "front": "Tỉ lệ (Scaling)",
+        "back": "Là một phép biến đổi hình học làm thay đổi kích thước của một đối tượng, làm cho nó lớn hơn hoặc nhỏ hơn."
+      },
+      {
+        "type": "flashcard",
+        "front": "Biến đổi Affine (Affine Transformation)",
+        "back": "Là một loại phép biến đổi hình học bảo toàn tính thẳng hàng và tỉ lệ khoảng cách giữa các điểm trên một đường thẳng. Nó bao gồm các phép tịnh tiến, xoay, tỉ lệ và cắt."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Mục đích chính của việc sử dụng các phép biến đổi hình học trong xử lý video theo bài học là gì?",
+        "options": {
+          "A": "Mô tả và ước tính chuyển động giữa các khung hình",
+          "B": "Tăng độ phân giải của video",
+          "C": "Giảm dung lượng tệp video",
+          "D": "Thay đổi màu sắc của các đối tượng trong video"
+        },
+        "correct": "A",
+        "explanation": "Bài học giải thích cách các phép biến đổi hình học được sử dụng để mô tả và ước tính chuyển động giữa các khung hình trong video."
+      },
+      {
+        "type": "flashcard",
+        "front": "Chuyển động giữa các khung hình trong video",
+        "back": "Có thể được mô tả và ước tính bằng các phép biến đổi hình học như tịnh tiến, xoay, tỉ lệ và biến đổi Affine."
+      }
+    ],
+    "L2": [
+      {
+        "type": "mcq_comprehension",
+        "question": "Phép tịnh tiến trong biến đổi hình học được mô tả như thế nào?",
+        "options": {
+          "A": "Di chuyển một đối tượng theo một hướng và khoảng cách nhất định mà không làm thay đổi hình dạng hoặc hướng của nó.",
+          "B": "Quay một đối tượng quanh một điểm cố định với một góc nhất định.",
+          "C": "Thay đổi kích thước của một đối tượng, làm cho nó lớn hơn hoặc nhỏ hơn.",
+          "D": "Kết hợp nhiều phép biến đổi hình học khác nhau để tạo ra một phép biến đổi tổng quát hơn."
+        },
+        "correct": "A",
+        "explanation": "Phép tịnh tiến là phép biến đổi di chuyển mọi điểm của một hình theo cùng một hướng và cùng một khoảng cách. Hình dạng và kích thước của đối tượng không thay đổi."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Phép biến đổi giúp thay đổi kích thước của một đối tượng được gọi là phép [BLANK].",
+        "answer": "tỉ lệ",
+        "explanation": "Phép tỉ lệ (scaling) là phép biến đổi làm thay đổi kích thước của đối tượng, có thể làm cho nó lớn hơn hoặc nhỏ hơn bằng cách nhân tọa độ của các điểm với một hệ số nhất định."
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "term": "Tịnh tiến",
+            "definition": "Di chuyển đối tượng mà không làm thay đổi hướng và hình dạng."
+          },
+          {
+            "term": "Xoay",
+            "definition": "Quay đối tượng quanh một điểm cố định."
+          },
+          {
+            "term": "Tỉ lệ",
+            "definition": "Thay đổi kích thước của đối tượng."
+          },
+          {
+            "term": "Affine",
+            "definition": "Phép biến đổi tổng quát bao gồm tịnh tiến, xoay, tỉ lệ và xiên."
+          }
+        ]
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Tại sao các phép biến đổi hình học như tịnh tiến, xoay, tỉ lệ lại hữu ích trong việc mô tả chuyển động giữa các khung hình trong video?",
+        "options": {
+          "A": "Chúng giúp làm mịn hình ảnh trong video, loại bỏ nhiễu.",
+          "B": "Chúng cho phép chúng ta biểu diễn sự thay đổi vị trí, hướng và kích thước của các đối tượng theo thời gian.",
+          "C": "Chúng chỉ được sử dụng để áp dụng bộ lọc màu cho video.",
+          "D": "Chúng chỉ có tác dụng với các vật thể đứng yên trong video."
+        },
+        "correct": "B",
+        "explanation": "Bằng cách áp dụng các phép biến đổi hình học cho các đối tượng hoặc toàn bộ khung hình, chúng ta có thể mô hình hóa cách chúng di chuyển (tịnh tiến), thay đổi góc nhìn (xoay), hoặc thay đổi kích thước (tỉ lệ) giữa các khung hình liên tiếp trong một video."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Phép biến đổi [BLANK] là một phép biến đổi tổng quát hơn, có thể bao gồm tịnh tiến, xoay, tỉ lệ và cả phép xiên (shear).",
+        "answer": "Affine",
+        "explanation": "Phép biến đổi Affine là một loại phép biến đổi tuyến tính kết hợp, bao gồm tịnh tiến, xoay, tỉ lệ và phép xiên. Nó bảo toàn tính thẳng hàng của các điểm và tỉ lệ khoảng cách giữa các điểm trên một đường thẳng, nhưng không bảo toàn góc hay tỉ lệ độ dài."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Khi ước tính chuyển động giữa hai khung hình của video, nếu một đối tượng chỉ thay đổi vị trí mà không thay đổi hướng hay kích thước, phép biến đổi chủ yếu được sử dụng để mô tả sự thay đổi này là gì?",
+        "options": {
+          "A": "Xoay",
+          "B": "Tỉ lệ",
+          "C": "Tịnh tiến",
+          "D": "Biến đổi Affine phức tạp"
+        },
+        "correct": "C",
+        "explanation": "Nếu đối tượng chỉ thay đổi vị trí, điều này được mô tả chính xác nhất bằng phép tịnh tiến. Các phép biến đổi khác như xoay hay tỉ lệ sẽ làm thay đổi hướng hoặc kích thước của đối tượng."
+      }
+    ],
+    "L3": [
+      {
+        "type": "scenario_mcq",
+        "question": "Một nhà nghiên cứu đang phân tích một đoạn video về chuyển động của một chiếc xe trên đường. Khung hình đầu tiên cho thấy chiếc xe ở vị trí (10, 20) và khung hình tiếp theo, sau 1 giây, chiếc xe ở vị trí (15, 25). Giả sử chỉ có phép tịnh tiến xảy ra. Để mô tả sự thay đổi vị trí này, nhà nghiên cứu nên sử dụng phép biến đổi hình học nào?",
+        "options": {
+          "A": "Tịnh tiến",
+          "B": "Xoay",
+          "C": "Tỉ lệ",
+          "D": "Biến đổi Affine"
+        },
+        "correct": "A",
+        "explanation": "Phép tịnh tiến được sử dụng để mô tả sự dịch chuyển thẳng từ một điểm này sang một điểm khác mà không làm thay đổi hướng hay kích thước của đối tượng. Trong trường hợp này, tọa độ x tăng 5 đơn vị (15-10) và tọa độ y tăng 5 đơn vị (25-20), đây chính là biểu hiện của phép tịnh tiến."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một nhà khoa học muốn mô tả sự quay của một cánh quạt trong một đoạn video. Cánh quạt bắt đầu từ một hướng và sau đó quay một góc nhất định. Phép biến đổi hình học nào phù hợp nhất để mô tả sự thay đổi hướng này, giả sử tâm quay không thay đổi?",
+        "options": {
+          "A": "Tịnh tiến",
+          "B": "Xoay",
+          "C": "Tỉ lệ",
+          "D": "Biến đổi Affine"
+        },
+        "correct": "B",
+        "explanation": "Phép xoay được sử dụng để mô tả sự quay của một đối tượng xung quanh một điểm cố định (tâm quay) mà không làm thay đổi kích thước hoặc hình dạng của nó. Việc mô tả sự quay của cánh quạt là một ứng dụng trực tiếp của phép biến đổi xoay."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Trong một hệ thống giám sát an ninh, camera ghi lại hình ảnh một người đang tiến lại gần camera. Kích thước của người đó trên khung hình tăng lên theo thời gian. Phép biến đổi hình học nào có thể được sử dụng để mô tả sự thay đổi kích thước này?",
+        "options": {
+          "A": "Tịnh tiến",
+          "B": "Xoay",
+          "C": "Tỉ lệ",
+          "D": "Biến đổi Affine"
+        },
+        "correct": "C",
+        "explanation": "Phép tỉ lệ (scaling) được sử dụng để thay đổi kích thước của một đối tượng. Khi một người tiến lại gần camera, hình ảnh của họ trên màn hình sẽ lớn hơn, điều này có thể được mô tả bằng phép biến đổi tỉ lệ."
+      },
+      {
+        "type": "case_study",
+        "title": "Phân tích chuyển động của robot trong video",
+        "description": "Bạn đang làm việc với một dự án phân tích video ghi lại chuyển động của một robot di chuyển trong một nhà kho. Robot này có thể di chuyển theo đường thẳng, quay quanh trục và thay đổi kích thước (ví dụ, khi nó gấp các bộ phận). Bạn cần sử dụng các phép biến đổi hình học để mô tả chính xác từng giai đoạn chuyển động của robot giữa các khung hình liên tiếp. Hãy xem xét hai khung hình của video: \n- Khung hình 1: Robot có hình dạng là một hình chữ nhật với các đỉnh tại (5, 10), (15, 10), (15, 20), (5, 20). Robot đang ở góc trái dưới của khung hình.\n- Khung hình 2: Robot đã di chuyển sang phải, quay nhẹ và có vẻ lớn hơn một chút. Các đỉnh hiện tại được ước tính là (10, 15), (22, 12), (25, 22), (13, 25).\n\n1. Bạn sẽ sử dụng những phép biến đổi hình học nào để mô tả chuyển động từ Khung hình 1 sang Khung hình 2? Hãy giải thích tại sao.\n2. Nếu bạn chỉ quan tâm đến sự thay đổi vị trí chung của tâm robot, bạn sẽ sử dụng phép biến đổi nào?\n3. Giả sử bạn muốn mô tả sự thay đổi hình dạng của robot một cách tổng quát, bao gồm cả sự dịch chuyển, quay và thay đổi tỉ lệ, phép biến đổi nào sẽ là lựa chọn tốt nhất?",
+        "questions": [
+          {
+            "question": "1. Phép biến đổi nào là phù hợp nhất để mô tả toàn bộ sự thay đổi từ Khung hình 1 sang Khung hình 2, bao gồm cả dịch chuyển, quay và thay đổi tỉ lệ?",
+            "options": {
+              "A": "Chỉ Tịnh tiến",
+              "B": "Chỉ Xoay",
+              "C": "Chỉ Tỉ lệ",
+              "D": "Biến đổi Affine"
+            },
+            "correct": "D",
+            "explanation": "Biến đổi Affine là tổng hợp của phép tịnh tiến, xoay, tỉ lệ và xiên. Do robot có biểu hiện thay đổi vị trí, quay và có thể thay đổi tỉ lệ, biến đổi Affine là phù hợp nhất để mô tả toàn diện sự thay đổi này."
+          },
+          {
+            "question": "2. Để mô tả sự thay đổi vị trí chung của tâm robot giữa hai khung hình, ta cần tính toán tâm của hình chữ nhật trong mỗi khung hình và áp dụng phép biến đổi nào?",
+            "options": {
+              "A": "Xoay",
+              "B": "Tỉ lệ",
+              "C": "Tịnh tiến",
+              "D": "Phép chiếu"
+            },
+            "correct": "C",
+            "explanation": "Tâm của hình chữ nhật trong Khung hình 1 có thể tính toán và tâm trong Khung hình 2 cũng vậy. Sự thay đổi từ tâm này sang tâm kia chỉ đơn thuần là sự dịch chuyển về vị trí, do đó phép tịnh tiến là phù hợp."
+          },
+          {
+            "question": "3. Nếu chỉ xem xét sự thay đổi về hình dạng và kích thước, không tính đến vị trí tuyệt đối, phép biến đổi nào sẽ là thành phần chính trong phân tích này?",
+            "options": {
+              "A": "Tịnh tiến",
+              "B": "Xoay và Tỉ lệ",
+              "C": "Chỉ Tỉ lệ",
+              "D": "Chỉ Xoay"
+            },
+            "correct": "B",
+            "explanation": "Sự thay đổi về hình dạng và kích thước liên quan trực tiếp đến phép xoay (thay đổi hướng) và phép tỉ lệ (thay đổi độ lớn). Biến đổi Affine bao gồm cả hai điều này."
+          }
+        ]
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Trong việc ước tính chuyển động giữa các khung hình video, nếu bạn quan sát thấy một vật thể dường như di chuyển theo một đường thẳng và không thay đổi kích thước hay hướng của nó, bạn sẽ ưu tiên sử dụng phép biến đổi nào để mô tả chuyển động này?",
+        "options": {
+          "A": "Xoay",
+          "B": "Tỉ lệ",
+          "C": "Tịnh tiến",
+          "D": "Biến đổi Affine"
+        },
+        "correct": "C",
+        "explanation": "Khi một vật thể di chuyển theo đường thẳng và không thay đổi kích thước hay hướng, đó là biểu hiện rõ ràng của phép tịnh tiến. Việc sử dụng phép tịnh tiến sẽ đơn giản hóa mô hình và hiệu quả hơn so với các phép biến đổi phức tạp hơn."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một nhà nghiên cứu đang phân tích chuyển động của một chiếc máy bay trên bầu trời từ các khung hình liên tiếp. Máy bay có thể thay đổi hướng bay (quay) và kích thước hình ảnh có thể thay đổi do khoảng cách tới camera. Phép biến đổi hình học nào có thể mô tả cả hai khía cạnh này của chuyển động?",
+        "options": {
+          "A": "Chỉ Tịnh tiến",
+          "B": "Chỉ Xoay",
+          "C": "Chỉ Tỉ lệ",
+          "D": "Biến đổi Affine"
+        },
+        "correct": "D",
+        "explanation": "Biến đổi Affine bao gồm phép tịnh tiến, xoay và tỉ lệ. Vì máy bay có thể thay đổi hướng (xoay) và kích thước hình ảnh có thể thay đổi do thay đổi khoảng cách (tỉ lệ), biến đổi Affine là phù hợp nhất để mô tả sự kết hợp của các thay đổi này."
+      }
+    ],
+    "L4": [
+      {
+        "type": "socratic_prompt",
+        "initial_question": "Khi phân tích chuyển động của một vật thể trong hai khung hình liên tiếp của video, làm thế nào chúng ta có thể sử dụng phép tịnh tiến và phép xoay để mô tả sự thay đổi vị trí và hướng của vật thể đó?",
+        "follow_ups": [
+          "Nếu chỉ có phép tịnh tiến được sử dụng, điều gì sẽ xảy ra với hình dạng và kích thước của vật thể khi nó di chuyển?",
+          "Phép xoay tác động như thế nào đến tọa độ của các điểm trên vật thể so với phép tịnh tiến?",
+          "Làm thế nào để kết hợp cả phép tịnh tiến và phép xoay để có một mô tả chính xác hơn về chuyển động thực tế?"
+        ],
+        "key_points": [
+          "Phép tịnh tiến mô tả sự thay đổi vị trí theo phương ngang và dọc.",
+          "Phép xoay mô tả sự thay đổi góc quay của vật thể.",
+          "Việc phân tích sự kết hợp của tịnh tiến và xoay cho phép ước tính chuyển động phức tạp hơn.",
+          "Phép tịnh tiến không làm thay đổi hình dạng và kích thước của vật thể.",
+          "Phép xoay thay đổi tọa độ của các điểm trên vật thể xung quanh một điểm gốc."
+        ]
+      },
+      {
+        "type": "compare_contrast",
+        "question": "So sánh và đối chiếu phép tịnh tiến và phép tỉ lệ trong việc mô tả chuyển động của một vật thể giữa hai khung hình video. Phép biến đổi nào có thể giữ nguyên hình dạng của vật thể và tại sao?",
+        "points_of_comparison": [
+          "Mục đích chính của phép biến đổi",
+          "Tác động lên vị trí của các điểm",
+          "Tác động lên kích thước của vật thể",
+          "Tác động lên hình dạng của vật thể"
+        ],
+        "analysis": "Phép tịnh tiến chỉ di chuyển vật thể mà không thay đổi kích thước hay hình dạng của nó. Phép tỉ lệ thay đổi kích thước của vật thể, làm cho nó lớn hơn hoặc nhỏ hơn, và do đó có thể làm biến dạng hình dạng nếu tỉ lệ thay đổi theo các hướng khác nhau. Do đó, phép tịnh tiến là phép biến đổi giữ nguyên hình dạng.",
+        "correct_answer_hint": "Phép tịnh tiến."
+      },
+      {
+        "type": "socratic_prompt",
+        "initial_question": "Trong bối cảnh phân tích chuyển động video, tại sao phép biến đổi Affine được coi là một công cụ mạnh mẽ hơn so với chỉ sử dụng riêng lẻ phép tịnh tiến, xoay hoặc tỉ lệ?",
+        "follow_ups": [
+          "Phép biến đổi Affine có thể biểu diễn những loại chuyển động nào mà phép tịnh tiến đơn lẻ không làm được?",
+          "Nếu một chuyển động bao gồm cả việc thay đổi kích thước và xiên (shear), phép biến đổi nào sẽ phù hợp để mô tả nó?",
+          "Làm thế nào để chúng ta phân tích một tập hợp các phép biến đổi cơ bản (tịnh tiến, xoay, tỉ lệ) thành một phép biến đổi Affine duy nhất?"
+        ],
+        "key_points": [
+          "Phép biến đổi Affine kết hợp nhiều phép biến đổi cơ bản.",
+          "Nó có thể mô tả các chuyển động phức tạp hơn, bao gồm cả xiên và biến dạng không đồng nhất.",
+          "Việc phân tích các phép biến đổi thành một phép Affine giúp đơn giản hóa quá trình ước tính chuyển động.",
+          "Phép biến đổi Affine bảo toàn tính thẳng hàng và tỉ lệ khoảng cách giữa các điểm trên một đường thẳng."
+        ]
+      },
+      {
+        "type": "compare_contrast",
+        "question": "Phân tích sự khác biệt giữa phép tỉ lệ đồng nhất (uniform scaling) và phép tỉ lệ không đồng nhất (non-uniform scaling) khi áp dụng lên một hình vuông. Phép nào trong hai phép này sẽ luôn tạo ra một hình chữ nhật và tại sao?",
+        "points_of_comparison": [
+          "Tỉ lệ thay đổi theo các trục",
+          "Tác động lên các cạnh của hình vuông",
+          "Tác động lên các góc của hình vuông",
+          "Tính chất của hình học tạo ra"
+        ],
+        "analysis": "Phép tỉ lệ đồng nhất thay đổi kích thước theo cùng một tỉ lệ trên cả hai trục, do đó hình vuông sẽ trở thành một hình vuông lớn hơn hoặc nhỏ hơn, giữ nguyên tỉ lệ 1:1 giữa các cạnh. Phép tỉ lệ không đồng nhất thay đổi kích thước theo các tỉ lệ khác nhau trên các trục. Nếu áp dụng cho hình vuông, nó sẽ làm thay đổi tỉ lệ giữa các cạnh, biến hình vuông thành hình chữ nhật (ví dụ: một cạnh tăng gấp đôi, cạnh kia giữ nguyên). Các góc của hình vuông sẽ vẫn là 90 độ trong cả hai trường hợp của phép tỉ lệ.",
+        "correct_answer_hint": "Phép tỉ lệ không đồng nhất."
+      },
+      {
+        "type": "socratic_prompt",
+        "initial_question": "Khi ước tính chuyển động giữa hai khung hình video, giả sử chúng ta đã phân tích và nhận ra rằng các điểm tương ứng trong hai khung hình đã trải qua một phép tịnh tiến và một phép xoay. Làm thế nào chúng ta có thể phân biệt xem phép biến đổi nào là chủ đạo hoặc đóng góp lớn nhất vào sự thay đổi tổng thể?",
+        "follow_ups": [
+          "Nếu vật thể chỉ di chuyển theo đường thẳng và quay nhẹ, phép tịnh tiến hay phép xoay sẽ có ảnh hưởng lớn hơn đến sự thay đổi vị trí chung?",
+          "Làm thế nào để chúng ta định lượng 'mức độ' của sự thay đổi do tịnh tiến và xoay gây ra để so sánh?",
+          "Trong các thuật toán ước tính chuyển động thực tế, những phương pháp nào được sử dụng để phân tách và đánh giá đóng góp của từng loại phép biến đổi?"
+        ],
+        "key_points": [
+          "Phân tích sự thay đổi khoảng cách giữa các cặp điểm để đánh giá độ lớn của tịnh tiến.",
+          "Phân tích sự thay đổi góc giữa các cặp vectơ nối các điểm để đánh giá độ lớn của xoay.",
+          "Có thể sử dụng các tiêu chí như sai số bình phương tối thiểu để tìm phép biến đổi phù hợp nhất.",
+          "Sự kết hợp của tịnh tiến và xoay tạo thành phép biến đổi 'rigid transformation'.",
+          "Các thuật toán ước tính chuyển động thường tìm cách tối ưu hóa một hàm mục tiêu dựa trên các phép biến đổi này."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "node_id": "c1.6",
+  "course_id": "môn_học",
+  "version": 2,
+  "updated_at": "2026-05-06T23:40:34.171451",
+  "author": "thangtt",
+  "study_material": {
+    "learning_objectives": [
+      "CLO1: Định nghĩa được ảnh số, pixel, độ phân giải và các định dạng ảnh phổ biến (L1 Ghi nhớ).",
+      "CLO2: Thấu hiểu cách biểu diễn và lưu trữ dữ liệu ảnh số trong máy tính (L2 Thấu hiểu).",
+      "CLO3: Nhận biết được tầm quan trọng của việc hiểu về cấu trúc dữ liệu ảnh số cho các ứng dụng xử lý ảnh (L2 Thấu hiểu)."
+    ],
+    "key_concepts": [
+      {
+        "term": "Ảnh số (Digital Image)",
+        "definition": "Là một biểu diễn hai chiều của một hình ảnh sử dụng một tập hợp hữu hạn các điểm ảnh (pixel), mỗi điểm có một giá trị số biểu thị cường độ sáng hoặc màu sắc."
+      },
+      {
+        "term": "Pixel (Picture Element)",
+        "definition": "Là đơn vị nhỏ nhất của một ảnh số, tương ứng với một điểm ảnh trên lưới tọa độ, có giá trị màu hoặc độ sáng xác định."
+      },
+      {
+        "term": "Độ phân giải (Resolution)",
+        "definition": "Là số lượng pixel trên một đơn vị chiều dài hoặc chiều rộng của ảnh, thường được đo bằng pixel trên inch (PPI) hoặc chấm trên inch (DPI). Độ phân giải cao hơn cho ảnh chi tiết hơn."
+      },
+      {
+        "term": "Định dạng ảnh (Image Format)",
+        "definition": "Là cách thức dữ liệu ảnh được tổ chức và lưu trữ, ảnh hưởng đến kích thước tệp, chất lượng và khả năng tương thích. Ví dụ: JPEG, PNG, BMP, TIFF."
+      },
+      {
+        "term": "Không gian màu (Color Space)",
+        "definition": "Là một mô hình toán học dùng để mô tả cách biểu diễn màu sắc dưới dạng số. Các không gian màu phổ biến bao gồm RGB, CMYK, Grayscale."
+      }
+    ],
+    "detailed_content": "## Giới thiệu về Ảnh số và Biểu diễn Dữ liệu\n\nẢnh số là nền tảng của nhiều ứng dụng công nghệ hiện đại, từ nhiếp ảnh kỹ thuật số, y tế chẩn đoán hình ảnh đến trí tuệ nhân tạo. Khác với ảnh analog truyền thống, ảnh số được biểu diễn dưới dạng dữ liệu rời rạc, có thể xử lý, phân tích và lưu trữ một cách hiệu quả trên máy tính.\n\nTại cốt lõi của ảnh số là **pixel (picture element)**. Mỗi pixel là một điểm ảnh duy nhất, đại diện cho một phần tử nhỏ nhất trong bức ảnh. Pixel được sắp xếp theo một lưới hai chiều (hàng và cột) để tạo thành toàn bộ hình ảnh. Giá trị của mỗi pixel biểu thị đặc tính của điểm ảnh đó, thường là cường độ sáng (cho ảnh xám) hoặc thông tin màu sắc (cho ảnh màu).\n\n**Độ phân giải** của ảnh số chỉ ra mật độ pixel. Độ phân giải cao đồng nghĩa với việc có nhiều pixel hơn trong cùng một diện tích vật lý, dẫn đến hình ảnh chi tiết, sắc nét hơn nhưng cũng làm tăng kích thước tệp. Ngược lại, độ phân giải thấp tạo ra ảnh kém chi tiết và có thể xuất hiện hiện tượng răng cưa (aliasing).\n\nCách thức dữ liệu ảnh được **biểu diễn và lưu trữ** phụ thuộc vào **định dạng ảnh**. Các định dạng phổ biến như JPEG sử dụng nén mất mát để giảm kích thước tệp, phù hợp cho nhiếp ảnh. PNG cung cấp nén không mất mát và hỗ trợ kênh alpha (trong suốt), lý tưởng cho đồ họa web và biểu tượng. BMP là định dạng không nén, cho chất lượng cao nhưng kích thước tệp lớn. TIFF thường được dùng trong in ấn chuyên nghiệp với khả năng lưu trữ đa lớp và siêu dữ liệu.\n\nViệc hiểu rõ cấu trúc pixel, cách tổ chức dữ liệu trong các định dạng khác nhau và không gian màu (như RGB cho màn hình hoặc CMYK cho in ấn) là bước đầu tiên và vô cùng quan trọng để thực hiện các phép xử lý ảnh số như lọc, biến đổi, phân tích hay nhận dạng đối tượng.",
+    "summary": "Ảnh số là tập hợp các pixel được sắp xếp theo lưới, mỗi pixel mang thông tin về màu sắc hoặc cường độ sáng. Độ phân giải xác định chi tiết ảnh, còn định dạng ảnh quyết định cách dữ liệu được lưu trữ và nén, ảnh hưởng đến chất lượng và kích thước tệp.",
+    "practical_examples": [
+      "Khi bạn chụp một bức ảnh bằng điện thoại, cảm biến camera ghi lại thông tin ánh sáng dưới dạng các giá trị số cho từng pixel. Những giá trị này sau đó được xử lý và lưu trữ theo một định dạng ảnh nhất định (thường là JPEG).",
+      "Khi xem ảnh trên màn hình máy tính, mỗi điểm ảnh trên màn hình tương ứng với một pixel trong ảnh số. Số lượng pixel trên màn hình (độ phân giải màn hình) và trên ảnh quyết định độ sắc nét bạn nhìn thấy."
+    ],
+    "multimedia_diagram": "mindmap\n  root((Ảnh Số))\n    Khái niệm\n      Định nghĩa ảnh số\n      Pixel (đơn vị nhỏ nhất)\n    Đặc trưng\n      Độ phân giải (PPI, DPI)\n      Không gian màu (RGB, Grayscale)\n    Biểu diễn và Lưu trữ\n      Cấu trúc dữ liệu (lưới pixel)\n      Định dạng ảnh\n        JPEG (nén mất mát)\n        PNG (nén không mất mát, trong suốt)\n        BMP (không nén)\n        TIFF (chuyên nghiệp)",
+    "micro_learning_flashcards": [
+      {
+        "q": "Pixel là gì?",
+        "a": "Đơn vị nhỏ nhất của ảnh số, đại diện cho một điểm ảnh."
+      },
+      {
+        "q": "Độ phân giải cao có nghĩa là gì?",
+        "a": "Ảnh có nhiều pixel hơn, chi tiết và sắc nét hơn."
+      },
+      {
+        "q": "Định dạng JPEG thường được dùng khi nào?",
+        "a": "Khi cần giảm kích thước tệp ảnh mà vẫn giữ chất lượng chấp nhận được, ví dụ như trong nhiếp ảnh."
+      },
+      {
+        "q": "Ảnh số khác ảnh analog ở điểm nào?",
+        "a": "Ảnh số biểu diễn bằng dữ liệu rời rạc (pixel), ảnh analog biểu diễn liên tục."
+      }
+    ]
+  },
+  "bloom_profile": {
+    "auto_calibrated_levels": [
+      1,
+      2,
+      3
+    ],
+    "user_adjusted_levels": null,
+    "effective_levels": [
+      1,
+      2,
+      3
+    ],
+    "calibration_method": "alpha_base",
+    "alpha_base": 15,
+    "created_at": "2026-05-06T23:38:24.260282"
+  },
+  "question_bank": {
+    "L1": [
+      {
+        "type": "mcq_recall",
+        "question": "Ảnh số được biểu diễn dưới dạng dữ liệu như thế nào?",
+        "options": {
+          "A": "Dữ liệu rời rạc",
+          "B": "Dữ liệu liên tục",
+          "C": "Dữ liệu analog",
+          "D": "Dữ liệu analog và số"
+        },
+        "correct": "A",
+        "explanation": "Bài học nêu rõ ảnh số được biểu diễn dưới dạng dữ liệu rời rạc."
+      },
+      {
+        "type": "flashcard",
+        "front": "Pixel",
+        "back": "Là đơn vị nhỏ nhất cấu thành nên một ảnh số."
+      },
+      {
+        "type": "flashcard",
+        "front": "Độ phân giải",
+        "back": "Là số lượng pixel trên một đơn vị chiều dài, thường được đo bằng pixel trên inch (PPI) hoặc chấm trên inch (DPI)."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Đơn vị nhỏ nhất cấu thành nên một ảnh số được gọi là gì?",
+        "options": {
+          "A": "Pixel",
+          "B": "Độ phân giải",
+          "C": "Byte",
+          "D": "Bit"
+        },
+        "correct": "A",
+        "explanation": "Theo định nghĩa trong bài, pixel là đơn vị nhỏ nhất của ảnh số."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Độ phân giải của ảnh số thường được đo bằng đơn vị nào?",
+        "options": {
+          "A": "Pixel trên inch (PPI)",
+          "B": "Byte trên pixel",
+          "C": "Gigapixel",
+          "D": "Megabyte"
+        },
+        "correct": "A",
+        "explanation": "Bài học liệt kê các đơn vị đo độ phân giải, trong đó có PPI."
+      },
+      {
+        "type": "flashcard",
+        "front": "Ảnh số",
+        "back": "Là ảnh được biểu diễn dưới dạng dữ liệu rời rạc, có thể xử lý, phân tích và lưu trữ hiệu quả trong máy tính."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "So với ảnh analog truyền thống, ảnh số có đặc điểm gì nổi bật về khả năng xử lý và lưu trữ?",
+        "options": {
+          "A": "Có thể xử lý, phân tích và lưu trữ hiệu quả",
+          "B": "Chỉ có thể xem, không xử lý được",
+          "C": "Khó xử lý và tốn dung lượng lưu trữ",
+          "D": "Chỉ lưu trữ được dưới dạng vật lý"
+        },
+        "correct": "A",
+        "explanation": "Bài học nhấn mạnh tính hiệu quả trong xử lý và lưu trữ của ảnh số."
+      }
+    ],
+    "L2": [
+      {
+        "type": "mcq_comprehension",
+        "question": "Trong ảnh số, một pixel đại diện cho điều gì?",
+        "options": {
+          "A": "Một điểm ảnh có màu sắc và độ sáng xác định.",
+          "B": "Toàn bộ bức ảnh với tất cả các chi tiết.",
+          "C": "Độ phân giải của bức ảnh.",
+          "D": "Một định dạng file lưu trữ ảnh."
+        },
+        "correct": "A",
+        "explanation": "Pixel (picture element) là đơn vị nhỏ nhất cấu thành nên một ảnh số, mỗi pixel có giá trị màu sắc và độ sáng cụ thể."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Khả năng hiển thị chi tiết của một ảnh số, được đo bằng số lượng pixel trên một đơn vị chiều dài (ví dụ: pixel trên inch), được gọi là [BLANK].",
+        "answer": "độ phân giải",
+        "explanation": "Độ phân giải là thước đo mức độ chi tiết của một ảnh số, liên quan trực tiếp đến số lượng pixel mà ảnh chứa."
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "term": "Pixel",
+            "definition": "Đơn vị nhỏ nhất tạo nên ảnh số, mang thông tin màu sắc và độ sáng."
+          },
+          {
+            "term": "Độ phân giải",
+            "definition": "Số lượng pixel trên một đơn vị đo lường, quyết định độ chi tiết của ảnh."
+          },
+          {
+            "term": "Ảnh số",
+            "definition": "Ảnh được biểu diễn dưới dạng dữ liệu rời rạc, có thể xử lý bằng máy tính."
+          }
+        ]
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Tại sao việc biểu diễn ảnh dưới dạng dữ liệu rời rạc (ảnh số) lại mang lại lợi thế so với ảnh analog truyền thống?",
+        "options": {
+          "A": "Ảnh số có thể được lưu trữ và xử lý hiệu quả hơn trên máy tính.",
+          "B": "Ảnh số luôn có chất lượng cao hơn ảnh analog.",
+          "C": "Ảnh số không yêu cầu bất kỳ thiết bị nào để xem.",
+          "D": "Ảnh số có dung lượng lưu trữ nhỏ hơn ảnh analog."
+        },
+        "correct": "A",
+        "explanation": "Việc biểu diễn ảnh dưới dạng dữ liệu rời rạc giúp máy tính dễ dàng xử lý, phân tích, lưu trữ và truyền tải, tạo nền tảng cho các ứng dụng xử lý ảnh số."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Để lưu trữ dữ liệu ảnh trong máy tính, thông tin về màu sắc và độ sáng của từng [BLANK] sẽ được mã hóa thành các giá trị số.",
+        "answer": "pixel",
+        "explanation": "Mỗi pixel trong ảnh số được biểu diễn bằng các giá trị số tương ứng với màu sắc và độ sáng của nó, sau đó các giá trị này được lưu trữ trong máy tính."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Khi nói đến các định dạng ảnh phổ biến như JPEG, PNG, GIF, mục đích chính của việc sử dụng các định dạng này là gì?",
+        "options": {
+          "A": "Tăng cường chất lượng hình ảnh một cách tự động.",
+          "B": "Chỉ định cách thức dữ liệu ảnh được tổ chức và lưu trữ để dễ dàng chia sẻ và sử dụng.",
+          "C": "Đảm bảo ảnh có thể hiển thị trên mọi loại màn hình.",
+          "D": "Giảm dung lượng ảnh mà không làm mất đi bất kỳ thông tin nào."
+        },
+        "correct": "B",
+        "explanation": "Các định dạng ảnh phổ biến cung cấp các phương pháp khác nhau để mã hóa và nén dữ liệu ảnh, ảnh hưởng đến dung lượng lưu trữ, chất lượng hình ảnh và khả năng hỗ trợ các tính năng như ảnh động hay độ trong suốt."
+      }
+    ],
+    "L3": [
+      {
+        "type": "scenario_mcq",
+        "question": "Một nhiếp ảnh gia đang xem xét ảnh chụp phong cảnh của mình trên máy tính. Anh ấy nhận thấy rằng khi phóng to vào một khu vực cụ thể của bầu trời, hình ảnh bắt đầu trông hơi 'vỡ' và các chi tiết màu sắc trở nên rõ ràng, không còn mượt mà. Dựa trên kiến thức về ảnh số, hiện tượng này có thể được giải thích chủ yếu bởi yếu tố nào liên quan đến chất lượng ảnh?",
+        "options": {
+          "A": "Độ phân giải thấp của ảnh, dẫn đến số lượng pixel ít trên mỗi đơn vị diện tích.",
+          "B": "Định dạng ảnh được sử dụng không hỗ trợ nhiều màu sắc.",
+          "C": "Pixel trong ảnh có quá nhiều thông tin màu sắc.",
+          "D": "Độ sâu bit của ảnh quá cao, gây nhiễu tín hiệu."
+        },
+        "correct": "A",
+        "explanation": "Khi phóng to ảnh số, nếu độ phân giải thấp (tức là số lượng pixel ít), mỗi pixel sẽ đại diện cho một vùng không gian lớn hơn, dẫn đến việc hình ảnh bị vỡ, răng cưa (pixel hóa) và các chi tiết màu sắc không còn mượt mà."
+      },
+      {
+        "type": "case_study",
+        "question": "Một nhóm thiết kế đồ họa đang làm việc trên một dự án quảng cáo yêu cầu in ấn trên biển quảng cáo lớn. Họ có một bức ảnh gốc có kích thước 1920x1080 pixel. Yêu cầu của khách hàng là hình ảnh phải hiển thị rõ nét và chi tiết ngay cả khi nhìn từ xa. Hãy đề xuất cách tiếp cận của nhóm thiết kế để đảm bảo chất lượng ảnh tốt nhất cho mục đích in ấn này, đồng thời giải thích lý do lựa chọn phương pháp đó.",
+        "options": {
+          "A": "Sử dụng ngay ảnh gốc 1920x1080 pixel và phóng to lên kích thước mong muốn vì định dạng ảnh không quan trọng.",
+          "B": "Tìm kiếm một bức ảnh có độ phân giải cao hơn (ví dụ: 4000x2250 pixel) với định dạng ảnh lossless như TIFF hoặc PNG để đảm bảo chi tiết và màu sắc không bị mất mát khi phóng to.",
+          "C": "Chỉ cần tăng cường độ sáng và độ tương phản của ảnh gốc 1920x1080 pixel để làm cho nó trông 'sắc nét' hơn.",
+          "D": "Chuyển đổi ảnh gốc sang định dạng JPEG chất lượng cao nhất và phóng to theo tỷ lệ."
+        },
+        "correct": "B",
+        "explanation": "Đối với in ấn trên biển quảng cáo lớn, yêu cầu về độ phân giải và chất lượng ảnh là rất cao. Ảnh có độ phân giải thấp khi phóng to sẽ bị vỡ nét. Sử dụng ảnh có độ phân giải cao hơn và định dạng lossless (như TIFF, PNG) sẽ giữ lại tối đa chi tiết và màu sắc, ngăn ngừa tình trạng mất mát thông tin khi xử lý và phóng to, đảm bảo chất lượng in ấn tốt nhất."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một nhà nghiên cứu y tế đang sử dụng phần mềm để phân tích hình ảnh chụp cộng hưởng từ (MRI). Để có thể thực hiện các phép đo chính xác về kích thước khối u, phần mềm cần truy cập thông tin về từng điểm ảnh một cách riêng lẻ. Thông tin màu sắc và vị trí của mỗi điểm ảnh này được máy tính lưu trữ và xử lý dưới dạng nào?",
+        "options": {
+          "A": "Dưới dạng một dãy các byte, mỗi byte biểu diễn cường độ sáng của một pixel.",
+          "B": "Dưới dạng một tập hợp các đường vector nối các điểm ảnh.",
+          "C": "Dưới dạng một tệp văn bản ghi lại tọa độ của toàn bộ ảnh.",
+          "D": "Dưới dạng các mã hex đại diện cho toàn bộ bức ảnh mà không có chi tiết từng pixel."
+        },
+        "correct": "A",
+        "explanation": "Ảnh số được biểu diễn dưới dạng một lưới các điểm ảnh (pixel). Thông tin của mỗi pixel, bao gồm vị trí và giá trị (cường độ màu sắc, mức xám), được lưu trữ dưới dạng dữ liệu số, thường là các chuỗi byte. Việc truy cập thông tin từng pixel là cơ sở để thực hiện các phép xử lý và phân tích ảnh."
+      },
+      {
+        "type": "case_study",
+        "question": "Bạn được giao nhiệm vụ lưu trữ một bộ sưu tập lớn các bức ảnh kỹ thuật số. Một số ảnh sẽ được sử dụng cho website (hiển thị trực tuyến) và một số khác sẽ được in ra với chất lượng cao. Bạn cần lựa chọn định dạng tệp ảnh phù hợp cho từng mục đích để tối ưu hóa dung lượng lưu trữ và chất lượng hiển thị/in ấn. Hãy đề xuất định dạng tệp ảnh và lý do lựa chọn.",
+        "options": {
+          "A": "Sử dụng định dạng JPEG cho tất cả các ảnh để tiết kiệm dung lượng.",
+          "B": "Sử dụng định dạng PNG cho ảnh website và định dạng JPEG cho ảnh in ấn.",
+          "C": "Sử dụng định dạng GIF cho ảnh website và định dạng RAW cho ảnh in ấn.",
+          "D": "Sử dụng định dạng JPEG cho ảnh website (với mức nén hợp lý) và định dạng TIFF hoặc PNG cho ảnh in ấn."
+        },
+        "correct": "D",
+        "explanation": "Đối với ảnh website, JPEG là lựa chọn tốt vì nó cân bằng giữa chất lượng và dung lượng file thông qua nén, tuy nhiên cần chú ý mức nén. Đối với ảnh in ấn chất lượng cao, cần giữ lại nhiều chi tiết nhất có thể, do đó các định dạng lossless như TIFF hoặc PNG là phù hợp hơn, mặc dù dung lượng file lớn hơn."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một kỹ sư đồ họa đang xử lý một bức ảnh chụp bằng điện thoại di động. Anh ấy nhận thấy rằng khi chia sẻ ảnh qua mạng xã hội, chất lượng ảnh bị giảm đi đáng kể, các chi tiết bị mờ và màu sắc không còn rực rỡ như ảnh gốc. Trong các yếu tố dưới đây, yếu tố nào là nguyên nhân chính dẫn đến sự suy giảm chất lượng này khi ảnh được xử lý qua các nền tảng mạng xã hội?",
+        "options": {
+          "A": "Điện thoại di động có độ phân giải quá cao.",
+          "B": "Nền tảng mạng xã hội thường tự động nén ảnh về định dạng JPEG với mức độ nén cao để tiết kiệm băng thông và dung lượng lưu trữ.",
+          "C": "Pixel trong ảnh gốc có quá nhiều thông tin màu sắc.",
+          "D": "Độ sâu bit của ảnh quá thấp."
+        },
+        "correct": "B",
+        "explanation": "Các nền tảng mạng xã hội thường tự động áp dụng thuật toán nén ảnh, phổ biến nhất là JPEG, để giảm kích thước file. Quá trình nén này có thể làm mất mát thông tin, dẫn đến giảm chất lượng, mờ chi tiết và sai lệch màu sắc so với ảnh gốc."
+      }
+    ]
+  }
+}

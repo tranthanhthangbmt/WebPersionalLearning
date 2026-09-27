@@ -1,0 +1,174 @@
+{
+  "node_id": "m1_Meso_1",
+  "course_id": "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống",
+  "version": 2,
+  "updated_at": "2026-05-08T17:12:26.425593",
+  "author": "thanhthangbmt",
+  "study_material": {
+    "learning_objectives": [],
+    "key_concepts": [],
+    "detailed_content": "# Phần 1\n\nTự động tạo nội dung đánh giá cho Phần 1.",
+    "summary": "Tự động tạo nội dung đánh giá cho Phần 1.",
+    "practical_examples": []
+  },
+  "bloom_profile": {
+    "auto_calibrated_levels": [
+      1,
+      2,
+      3
+    ],
+    "user_adjusted_levels": null,
+    "effective_levels": [
+      1,
+      2,
+      3
+    ],
+    "calibration_method": "alpha_base",
+    "alpha_base": 15,
+    "created_at": "2026-05-08T17:11:59.189236"
+  },
+  "question_bank": {
+    "L1": [
+      {
+        "type": "mcq_recall",
+        "question": "Trong Toán lớp 6, chương trình 'Kết nối tri thức với cuộc sống' Phần 1 tập trung vào loại số nào chủ yếu?",
+        "options": {
+          "A": "Số tự nhiên",
+          "B": "Số thập phân",
+          "C": "Phân số",
+          "D": "Số nguyên"
+        },
+        "correct": "A",
+        "explanation": "Phần 1 của Toán lớp 6, theo chương trình 'Kết nối tri thức với cuộc sống', tập trung vào việc ôn tập và mở rộng kiến thức về số tự nhiên."
+      },
+      {
+        "type": "flashcard",
+        "front": "Tập hợp các số tự nhiên",
+        "back": "Là tập hợp gồm 0 và tất cả các số nguyên dương (1, 2, 3, ...)."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Số nào sau đây thuộc tập hợp các số tự nhiên?",
+        "options": {
+          "A": "-5",
+          "B": "0",
+          "C": "2.5",
+          "D": "1/2"
+        },
+        "correct": "B",
+        "explanation": "Theo định nghĩa, số 0 thuộc tập hợp các số tự nhiên."
+      },
+      {
+        "type": "flashcard",
+        "front": "Số liền sau của một số tự nhiên n",
+        "back": "Là số tự nhiên n + 1."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Số liền trước của số tự nhiên 100 là:",
+        "options": {
+          "A": "99",
+          "B": "101",
+          "C": "100",
+          "D": "98"
+        },
+        "correct": "A",
+        "explanation": "Số liền trước của một số tự nhiên n là số tự nhiên n - 1. Vậy số liền trước của 100 là 100 - 1 = 99."
+      },
+      {
+        "type": "flashcard",
+        "front": "Thứ tự trong tập hợp các số tự nhiên",
+        "back": "Với hai số tự nhiên bất kỳ, hoặc chúng bằng nhau, hoặc một số nhỏ hơn số kia."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Trong các khẳng định sau, khẳng định nào đúng về số 7 và số 9?",
+        "options": {
+          "A": "7 > 9",
+          "B": "7 < 9",
+          "C": "7 = 9",
+          "D": "7 >= 9"
+        },
+        "correct": "B",
+        "explanation": "Số 7 nhỏ hơn số 9, kí hiệu là 7 < 9."
+      },
+      {
+        "type": "flashcard",
+        "front": "Phép cộng số tự nhiên",
+        "back": "Cho hai số tự nhiên a và b, ta có thể tìm được một số tự nhiên c sao cho a + b = c. Số c gọi là tổng, a và b gọi là các số hạng."
+      }
+    ],
+    "L2": [
+      {
+        "type": "mcq_comprehension",
+        "question": "Tại sao việc hiểu rõ Phần 1 lại quan trọng trước khi chuyển sang các phần tiếp theo của chương trình Toán lớp 6 - Kết nối tri thức với cuộc sống?",
+        "options": {
+          "A": "Phần 1 cung cấp các khái niệm nền tảng cần thiết cho việc học các chủ đề phức tạp hơn.",
+          "B": "Phần 1 chỉ là phần giới thiệu nên không quá quan trọng.",
+          "C": "Phần 1 chứa đựng tất cả các bài tập khó nhất của chương trình.",
+          "D": "Phần 1 giúp làm quen với cách đánh giá của giáo viên."
+        },
+        "correct": "A",
+        "explanation": "Phần 1 thường tập trung vào các kiến thức cơ bản và cốt lõi của môn học. Việc nắm vững các kiến thức này sẽ giúp học sinh tiếp thu các nội dung nâng cao ở các phần sau một cách dễ dàng và hiệu quả hơn."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Việc so sánh hai số tự nhiên giúp ta xác định được số nào lớn hơn, số nào nhỏ hơn hoặc hai số đó [BLANK].",
+        "answer": "bằng nhau",
+        "explanation": "Khi so sánh hai số tự nhiên, có ba khả năng xảy ra: số thứ nhất lớn hơn số thứ hai, số thứ nhất nhỏ hơn số thứ hai, hoặc hai số đó bằng nhau."
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "term": "Số tự nhiên",
+            "definition": "Tập hợp các số nguyên không âm, bắt đầu từ 0 (0, 1, 2, 3, ...)."
+          },
+          {
+            "term": "So sánh số tự nhiên",
+            "definition": "Quá trình xác định mối quan hệ giữa hai số tự nhiên (lớn hơn, nhỏ hơn, bằng nhau)."
+          },
+          {
+            "term": "Phép cộng",
+            "definition": "Phép toán kết hợp hai hoặc nhiều số lại với nhau để tìm tổng."
+          },
+          {
+            "term": "Phép trừ",
+            "definition": "Phép toán tìm hiệu giữa hai số, thường là lấy số lớn trừ đi số bé."
+          }
+        ]
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Nếu An có 5 quả táo và cho Bình 2 quả, việc diễn giải tình huống này bằng phép toán nào là phù hợp nhất?",
+        "options": {
+          "A": "Phép cộng: 5 + 2",
+          "B": "Phép trừ: 5 - 2",
+          "C": "Phép nhân: 5 x 2",
+          "D": "Phép chia: 5 / 2"
+        },
+        "correct": "B",
+        "explanation": "Tình huống 'cho đi' ám chỉ việc giảm bớt số lượng ban đầu, do đó phép trừ là phép toán phù hợp để diễn giải tình huống này, tính số táo còn lại của An."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Tóm tắt nội dung chính của Phần 1 thường bao gồm các khái niệm về [BLANK] và các phép toán cơ bản trên chúng.",
+        "answer": "số tự nhiên",
+        "explanation": "Phần 1 của chương trình Toán lớp 6 thường giới thiệu về tập hợp số tự nhiên và các phép toán cơ bản như cộng, trừ, nhân, chia trên các số tự nhiên."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Khi giải thích lý do tại sao 3 + 5 = 8, ta có thể diễn giải bằng cách nào sau đây?",
+        "options": {
+          "A": "Ghép 3 đối tượng với 5 đối tượng khác để đếm tổng số.",
+          "B": "Lấy 5 đối tượng trừ đi 3 đối tượng.",
+          "C": "Lặp lại số 3 năm lần.",
+          "D": "Chia đều 8 đối tượng thành 3 phần."
+        },
+        "correct": "A",
+        "explanation": "Phép cộng có thể được hiểu là hành động gộp các nhóm đối tượng lại với nhau và đếm tổng số. Việc gộp 3 đối tượng và 5 đối tượng sẽ cho kết quả là 8 đối tượng."
+      }
+    ],
+    "L3": []
+  }
+}

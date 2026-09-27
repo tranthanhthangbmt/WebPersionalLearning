@@ -1,0 +1,437 @@
+{
+  "course_name": "Lịch Sử Thế Giới Cổ Đại và Đông Nam Á",
+  "macro_nodes": [
+    {
+      "id": "m1",
+      "title": "Chương 1: Vì sao phải học lịch sử"
+    },
+    {
+      "id": "m2",
+      "title": "Chương 2: Xã hội nguyên thủy"
+    },
+    {
+      "id": "m3",
+      "title": "Chương 3: Xã hội cổ đại"
+    },
+    {
+      "id": "m4",
+      "title": "Chương 4: Đông Nam Á từ những thế kỉ tiếp giáp đầu công nguyên đến thế kỉ X"
+    },
+    {
+      "id": "m5",
+      "title": "Chương 5: Việt Nam từ khoảng thế kỉ VII trước công nguyên đến đầu thế kỉ X"
+    }
+  ],
+  "micro_nodes": [
+    {
+      "id": "c1.1",
+      "parent_macro": "m1",
+      "title": "Lịch sử và cuộc sống",
+      "content": "Bài học này giới thiệu về tầm quan trọng của lịch sử trong cuộc sống hiện đại. Nó giúp chúng ta hiểu về quá khứ, rút ra bài học kinh nghiệm và định hướng tương lai. Lịch sử là cầu nối giữa các thế hệ, giúp bảo tồn và phát huy giá trị văn hóa. Nó cũng góp phần hình thành ý thức công dân và trách nhiệm với cộng đồng.",
+      "alpha_base": 10
+    },
+    {
+      "id": "c1.2",
+      "parent_macro": "m1",
+      "title": "Dựa vào đâu để biết và phục dựng lại lịch sử?",
+      "content": "Bài học này khám phá các nguồn sử liệu và phương pháp nghiên cứu lịch sử. Chúng ta sẽ tìm hiểu về các loại bằng chứng như văn bản, hiện vật khảo cổ, truyền khẩu. Việc phân tích, đánh giá và tổng hợp các nguồn sử liệu này giúp các nhà sử học phục dựng lại bức tranh chân thực về quá khứ. Đây là quá trình đòi hỏi sự tỉ mỉ và khoa học.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c1.3",
+      "parent_macro": "m1",
+      "title": "Thời gian trong lịch sử",
+      "content": "Bài học này tập trung vào cách thức đo lường và biểu thị thời gian trong lịch sử. Chúng ta sẽ tìm hiểu về các loại lịch, cách tính niên đại và khái niệm về các mốc thời gian quan trọng. Việc hiểu rõ về thời gian giúp chúng ta sắp xếp các sự kiện lịch sử theo trình tự hợp lý và nắm bắt được quy luật phát triển. Đây là một yếu tố cơ bản trong nghiên cứu lịch sử.",
+      "alpha_base": 15
+    },
+    {
+      "id": "c2.1",
+      "parent_macro": "m2",
+      "title": "Nguồn gốc loài người",
+      "content": "Bài học này đi sâu vào quá trình tiến hóa của loài người, từ vượn người hóa thạch đến con người hiện đại. Chúng ta sẽ khám phá các lý thuyết khoa học về sự phát triển của bộ não, khả năng đi bằng hai chân và sử dụng công cụ. Việc hiểu về nguồn gốc giúp chúng ta nhận thức rõ hơn về vị trí và vai trò của con người trong thế giới tự nhiên.",
+      "alpha_base": 15
+    },
+    {
+      "id": "c2.2",
+      "parent_macro": "m2",
+      "title": "Xã hội nguyên thủy",
+      "content": "Bài học này mô tả đời sống và tổ chức xã hội của con người trong thời kỳ nguyên thủy. Chúng ta sẽ tìm hiểu về các hình thức săn bắn, hái lượm, phát minh ra lửa và công cụ đá. Xã hội lúc này thường sống theo bầy đàn, chưa có sự phân chia giai cấp rõ rệt. Đây là giai đoạn nền tảng cho sự phát triển của văn minh nhân loại.",
+      "alpha_base": 15
+    },
+    {
+      "id": "c2.3",
+      "parent_macro": "m2",
+      "title": "Sự biến chuyển và phân hóa của xã hội nguyên thủy",
+      "content": "Bài học này tập trung vào những thay đổi lớn trong xã hội nguyên thủy, đặc biệt là sự phát triển của nông nghiệp và chăn nuôi. Sự phân công lao động dẫn đến sự hình thành các nghề nghiệp khác nhau và sự tích lũy của cải. Từ đó, xã hội bắt đầu có sự phân hóa giàu nghèo và xuất hiện các hình thức tổ chức xã hội phức tạp hơn.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c3.1",
+      "parent_macro": "m3",
+      "title": "Ai Cập và Lưỡng Hà cổ đại",
+      "content": "Bài học này giới thiệu về nền văn minh rực rỡ của Ai Cập và Lưỡng Hà cổ đại. Chúng ta sẽ khám phá những thành tựu về kiến trúc (kim tự tháp, ziggurat), chữ viết (chữ tượng hình, chữ hình nêm), và hệ thống pháp luật (Bộ luật Hammurabi). Hai nền văn minh này đã đặt nền móng quan trọng cho sự phát triển của nhân loại.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c3.2",
+      "parent_macro": "m3",
+      "title": "Ấn Độ cổ đại",
+      "content": "Bài học này khám phá nền văn minh Ấn Độ cổ đại với những đóng góp độc đáo. Chúng ta sẽ tìm hiểu về hệ thống đẳng cấp (varna), các tôn giáo lớn (Ấn Độ giáo, Phật giáo), chữ viết (chữ Phạn) và những thành tựu trong toán học (số 0, hệ thập phân). Văn hóa Ấn Độ đã lan tỏa rộng khắp châu Á.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c3.3",
+      "parent_macro": "m3",
+      "title": "Trung Quốc từ thời cổ đại đến thế kỉ VII",
+      "content": "Bài học này trình bày về quá trình hình thành và phát triển của các triều đại phong kiến Trung Quốc cổ đại. Chúng ta sẽ tìm hiểu về các học thuyết Nho giáo, Đạo giáo, những phát minh quan trọng như giấy, thuốc súng. Nền văn minh Trung Hoa có ảnh hưởng sâu sắc đến khu vực Đông Á.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c3.4",
+      "parent_macro": "m3",
+      "title": "Hy Lạp và La Mã cổ đại",
+      "content": "Bài học này giới thiệu về hai nền văn minh Hy Lạp và La Mã cổ đại, những cái nôi của văn hóa phương Tây. Chúng ta sẽ khám phá các thành tựu về triết học, khoa học, nghệ thuật, kiến trúc và hệ thống chính trị (dân chủ Aten, cộng hòa La Mã). Di sản của họ vẫn còn ảnh hưởng đến ngày nay.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c4.1",
+      "parent_macro": "m4",
+      "title": "Các quốc gia sơ kì ở Đông Nam Á",
+      "content": "Bài học này khám phá sự hình thành các nhà nước sơ khai ở Đông Nam Á từ những thế kỉ đầu Công nguyên. Chúng ta sẽ tìm hiểu về các quốc gia như Chân Lạp, Phù Nam, Champa và cách họ tiếp nhận, cải biến văn hóa Ấn Độ. Đây là giai đoạn định hình bản sắc văn hóa khu vực.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c4.2",
+      "parent_macro": "m4",
+      "title": "Sự hình thành và bước đầu phát triển của các vương quốc phong kiến ở Đông Nam Á (từ thế kỉ VII đến thế kỉ X)",
+      "content": "Bài học này tập trung vào sự phát triển của các vương quốc phong kiến ở Đông Nam Á từ thế kỉ VII đến X. Chúng ta sẽ tìm hiểu về các vương triều nổi bật, cơ cấu tổ chức nhà nước, kinh tế và văn hóa. Sự hình thành này đánh dấu một bước ngoặt quan trọng trong lịch sử khu vực.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c4.3",
+      "parent_macro": "m4",
+      "title": "Giao lưu văn hóa ở Đông Nam Á từ đầu Công nguyên đến thế kỉ X",
+      "content": "Bài học này phân tích quá trình giao lưu và tiếp biến văn hóa tại Đông Nam Á. Sự tiếp xúc với văn hóa Ấn Độ, Trung Hoa đã tạo nên những nét đặc sắc riêng cho văn hóa các quốc gia trong khu vực. Các tuyến đường thương mại và tôn giáo đóng vai trò quan trọng trong sự giao lưu này.",
+      "alpha_base": 15
+    },
+    {
+      "id": "c5.1",
+      "parent_macro": "m5",
+      "title": "Nhà nước Văn Lang - Âu Lạc",
+      "content": "Bài học này giới thiệu về nhà nước Văn Lang và Âu Lạc, những nhà nước sơ khai đầu tiên của dân tộc Việt Nam. Chúng ta sẽ tìm hiểu về tổ chức xã hội, kinh tế, văn hóa và những dấu ấn lịch sử còn lại. Việc nghiên cứu giai đoạn này giúp hiểu rõ cội nguồn dân tộc.",
+      "alpha_base": 15
+    },
+    {
+      "id": "c5.2",
+      "parent_macro": "m5",
+      "title": "Chính sách cai trị của các triều đại phong kiến phương Bắc và sự chuyển biến của xã hội Âu Lạc",
+      "content": "Bài học này mô tả chính sách đô hộ của các triều đại phong kiến phương Bắc đối với nước ta và những tác động của nó đến xã hội. Mặc dù bị đô hộ, người Việt vẫn cố gắng duy trì bản sắc văn hóa của mình. Sự kiện này là một phần quan trọng trong lịch sử đấu tranh dựng nước và giữ nước.",
+      "alpha_base": 25
+    },
+    {
+      "id": "c5.3",
+      "parent_macro": "m5",
+      "title": "Các cuộc khởi nghĩa tiêu biểu giành độc lập trước thế kỉ X",
+      "content": "Bài học này điểm lại các cuộc khởi nghĩa tiêu biểu của nhân dân ta chống lại ách đô hộ của phong kiến phương Bắc trước thế kỉ X. Các cuộc khởi nghĩa như Hai Bà Trưng, Bà Triệu, Lý Bí, Mai Thúc Loan là minh chứng cho tinh thần yêu nước và ý chí bất khuất của dân tộc. Những thắng lợi tuy không bền vững nhưng đã khích lệ lòng dân.",
+      "alpha_base": 25
+    },
+    {
+      "id": "c5.4",
+      "parent_macro": "m5",
+      "title": "Cuộc đấu tranh bảo tồn và phát triển văn hóa dân tộc của người Việt",
+      "content": "Bài học này tập trung vào nỗ lực của người Việt trong việc bảo tồn và phát huy bản sắc văn hóa dân tộc dưới ách đô hộ. Mặc dù chịu ảnh hưởng từ văn hóa phương Bắc, người Việt vẫn giữ gìn được tiếng nói, phong tục tập quán và các giá trị truyền thống. Sự kiên cường này là yếu tố quan trọng để giành lại độc lập sau này.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c5.5",
+      "parent_macro": "m5",
+      "title": "Bước ngoặt lịch sử đầu thế kỉ X",
+      "content": "Bài học này làm rõ sự kiện bước ngoặt lịch sử đầu thế kỉ X, đánh dấu sự kết thúc của thời kỳ Bắc thuộc kéo dài hơn nghìn năm. Sự kiện này mở ra một kỷ nguyên mới cho dân tộc Việt Nam với sự phục hồi và phát triển quốc gia. Đây là một cột mốc quan trọng trong lịch sử dân tộc.",
+      "alpha_base": 25
+    },
+    {
+      "id": "c5.6",
+      "parent_macro": "m5",
+      "title": "Vương quốc Chăm-pa từ thế kỉ II đến thế kỉ X",
+      "content": "Bài học này giới thiệu về Vương quốc Chăm-pa, một quốc gia cổ nằm ở miền Trung Việt Nam ngày nay. Chúng ta sẽ tìm hiểu về quá trình hình thành, phát triển, các thành tựu văn hóa và mối quan hệ với các quốc gia lân cận trong giai đoạn từ thế kỉ II đến X. Vương quốc này có vai trò quan trọng trong lịch sử khu vực.",
+      "alpha_base": 20
+    },
+    {
+      "id": "c5.7",
+      "parent_macro": "m5",
+      "title": "Vương quốc Phù Nam",
+      "content": "Bài học này khám phá Vương quốc Phù Nam, một quốc gia cổ đại ở khu vực Đông Nam Á lục địa, với trung tâm nằm ở hạ lưu sông Mekong. Chúng ta sẽ tìm hiểu về vị trí địa lý, tổ chức xã hội, kinh tế, văn hóa và sự giao lưu của Phù Nam với các nước trong khu vực. Sự sụp đổ của Phù Nam cũng là một dấu mốc quan trọng.",
+      "alpha_base": 20
+    }
+  ],
+  "assess_nodes": [
+    {
+      "id": "a1.1",
+      "target_micro": "c1.1",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a1.2",
+      "target_micro": "c1.2",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a1.3",
+      "target_micro": "c1.3",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a2.1",
+      "target_micro": "c2.1",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a2.2",
+      "target_micro": "c2.2",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a2.3",
+      "target_micro": "c2.3",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a3.1",
+      "target_micro": "c3.1",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a3.2",
+      "target_micro": "c3.2",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a3.3",
+      "target_micro": "c3.3",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a3.4",
+      "target_micro": "c3.4",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a4.1",
+      "target_micro": "c4.1",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a4.2",
+      "target_micro": "c4.2",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a4.3",
+      "target_micro": "c4.3",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a5.1",
+      "target_micro": "c5.1",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a5.2",
+      "target_micro": "c5.2",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a5.3",
+      "target_micro": "c5.3",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a5.4",
+      "target_micro": "c5.4",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a5.5",
+      "target_micro": "c5.5",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a5.6",
+      "target_micro": "c5.6",
+      "theta_pass": 0.6
+    },
+    {
+      "id": "a5.7",
+      "target_micro": "c5.7",
+      "theta_pass": 0.6
+    }
+  ],
+  "user_id": "thanhthangbmt",
+  "edges": [
+    {
+      "source": "c1.1",
+      "target": "c1.2",
+      "reason": "Hiểu lịch sử và cuộc sống giúp đặt nền tảng để tìm hiểu cách phục dựng lịch sử."
+    },
+    {
+      "source": "c1.1",
+      "target": "c1.3",
+      "reason": "Hiểu lịch sử và cuộc sống giúp làm quen với khái niệm thời gian trong lịch sử."
+    },
+    {
+      "source": "c1.2",
+      "target": "c2.1",
+      "reason": "Biết cách phục dựng lịch sử cho phép nghiên cứu về nguồn gốc loài người."
+    },
+    {
+      "source": "c1.3",
+      "target": "c2.1",
+      "reason": "Hiểu về thời gian lịch sử là cần thiết để nghiên cứu nguồn gốc loài người."
+    },
+    {
+      "source": "c2.1",
+      "target": "c2.2",
+      "reason": "Hiểu về nguồn gốc loài người giúp tiếp cận xã hội nguyên thủy."
+    },
+    {
+      "source": "c2.2",
+      "target": "c2.3",
+      "reason": "Hiểu về xã hội nguyên thủy giúp phân tích sự biến chuyển của nó."
+    },
+    {
+      "source": "c2.3",
+      "target": "c3.1",
+      "reason": "Hiểu sự phân hóa xã hội nguyên thủy là tiền đề cho việc nghiên cứu các nhà nước cổ đại."
+    },
+    {
+      "source": "c2.3",
+      "target": "c3.2",
+      "reason": "Hiểu sự phân hóa xã hội nguyên thủy là tiền đề cho việc nghiên cứu các nhà nước cổ đại."
+    },
+    {
+      "source": "c2.3",
+      "target": "c3.3",
+      "reason": "Hiểu sự phân hóa xã hội nguyên thủy là tiền đề cho việc nghiên cứu các nhà nước cổ đại."
+    },
+    {
+      "source": "c2.3",
+      "target": "c3.4",
+      "reason": "Hiểu sự phân hóa xã hội nguyên thủy là tiền đề cho việc nghiên cứu các nhà nước cổ đại."
+    },
+    {
+      "source": "c3.1",
+      "target": "c4.1",
+      "reason": "Kiến thức về các nền văn minh cổ đại phương Đông tạo cơ sở cho việc tìm hiểu các quốc gia sơ kì ở Đông Nam Á."
+    },
+    {
+      "source": "c3.1",
+      "target": "c4.3",
+      "reason": "Hiểu về Ai Cập và Lưỡng Hà cổ đại giúp nhận diện giao lưu văn hóa ở Đông Nam Á."
+    },
+    {
+      "source": "c3.2",
+      "target": "c4.1",
+      "reason": "Kiến thức về các nền văn minh cổ đại phương Đông tạo cơ sở cho việc tìm hiểu các quốc gia sơ kì ở Đông Nam Á."
+    },
+    {
+      "source": "c3.2",
+      "target": "c4.3",
+      "reason": "Hiểu về Ấn Độ cổ đại giúp nhận diện giao lưu văn hóa ở Đông Nam Á."
+    },
+    {
+      "source": "c3.3",
+      "target": "c4.1",
+      "reason": "Kiến thức về các nền văn minh cổ đại phương Đông tạo cơ sở cho việc tìm hiểu các quốc gia sơ kì ở Đông Nam Á."
+    },
+    {
+      "source": "c3.3",
+      "target": "c4.3",
+      "reason": "Hiểu về Trung Quốc cổ đại giúp nhận diện giao lưu văn hóa ở Đông Nam Á."
+    },
+    {
+      "source": "c3.4",
+      "target": "c4.1",
+      "reason": "Kiến thức về các nền văn minh cổ đại phương Tây tạo cơ sở cho việc tìm hiểu các quốc gia sơ kì ở Đông Nam Á."
+    },
+    {
+      "source": "c3.4",
+      "target": "c4.3",
+      "reason": "Hiểu về Hy Lạp và La Mã cổ đại giúp nhận diện giao lưu văn hóa ở Đông Nam Á."
+    },
+    {
+      "source": "c4.1",
+      "target": "c4.2",
+      "reason": "Hiểu về các quốc gia sơ kì là nền tảng để nghiên cứu sự hình thành các vương quốc phong kiến."
+    },
+    {
+      "source": "c4.1",
+      "target": "c5.1",
+      "reason": "Hiểu về các quốc gia sơ kì ở Đông Nam Á giúp đặt trong bối cảnh nhà nước Văn Lang - Âu Lạc."
+    },
+    {
+      "source": "c4.1",
+      "target": "c5.6",
+      "reason": "Hiểu về các quốc gia sơ kì ở Đông Nam Á giúp đặt trong bối cảnh vương quốc Chăm-pa."
+    },
+    {
+      "source": "c4.1",
+      "target": "c5.7",
+      "reason": "Hiểu về các quốc gia sơ kì ở Đông Nam Á giúp đặt trong bối cảnh vương quốc Phù Nam."
+    },
+    {
+      "source": "c4.2",
+      "target": "c5.2",
+      "reason": "Hiểu về sự phát triển của vương quốc phong kiến giúp phân tích chính sách cai trị và xã hội."
+    },
+    {
+      "source": "c4.2",
+      "target": "c5.3",
+      "reason": "Hiểu về sự phát triển của vương quốc phong kiến giúp phân tích các cuộc khởi nghĩa."
+    },
+    {
+      "source": "c4.2",
+      "target": "c5.5",
+      "reason": "Hiểu về sự phát triển của vương quốc phong kiến giúp hiểu bước ngoặt lịch sử đầu thế kỉ X."
+    },
+    {
+      "source": "c4.3",
+      "target": "c5.4",
+      "reason": "Hiểu về giao lưu văn hóa giúp phân tích cuộc đấu tranh bảo tồn văn hóa dân tộc Việt."
+    },
+    {
+      "source": "c5.1",
+      "target": "c5.2",
+      "reason": "Hiểu về nhà nước Văn Lang - Âu Lạc là điều kiện để nghiên cứu chính sách cai trị của phương Bắc."
+    },
+    {
+      "source": "c5.1",
+      "target": "c5.3",
+      "reason": "Hiểu về nhà nước Văn Lang - Âu Lạc là điều kiện để nghiên cứu các cuộc khởi nghĩa giành độc lập."
+    },
+    {
+      "source": "c5.1",
+      "target": "c5.4",
+      "reason": "Hiểu về nhà nước Văn Lang - Âu Lạc là điều kiện để nghiên cứu văn hóa dân tộc."
+    },
+    {
+      "source": "c5.2",
+      "target": "c5.4",
+      "reason": "Hiểu về chính sách cai trị và sự chuyển biến xã hội giúp làm rõ cuộc đấu tranh văn hóa."
+    },
+    {
+      "source": "c5.3",
+      "target": "c5.5",
+      "reason": "Hiểu về các cuộc khởi nghĩa giúp nhận thức rõ hơn bước ngoặt lịch sử đầu thế kỉ X."
+    },
+    {
+      "source": "c5.6",
+      "target": "c4.2",
+      "reason": "Hiểu về vương quốc Chăm-pa giúp so sánh và đối chiếu với sự hình thành vương quốc phong kiến ở Đông Nam Á."
+    },
+    {
+      "source": "c5.7",
+      "target": "c4.2",
+      "reason": "Hiểu về vương quốc Phù Nam giúp so sánh và đối chiếu với sự hình thành vương quốc phong kiến ở Đông Nam Á."
+    }
+  ]
+}

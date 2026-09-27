@@ -1,0 +1,284 @@
+{
+  "node_id": "m1_Meso_1",
+  "course_id": "toán_lớp_6_-_khan_academy_số_tự_nhiên",
+  "version": 2,
+  "updated_at": "2026-05-21T10:06:41.754546",
+  "author": "guest_4c782a67",
+  "study_material": {
+    "learning_objectives": [
+      "CLO1: Nhận biết và định nghĩa các khái niệm cơ bản về số tự nhiên, bao gồm tập hợp số tự nhiên và các phần tử của nó.",
+      "CLO2: Hiểu được mối quan hệ giữa các số tự nhiên thông qua thứ tự và biểu diễn trên trục số.",
+      "CLO3: Áp dụng kiến thức về số tự nhiên để giải quyết các bài toán đơn giản liên quan đến đếm và so sánh."
+    ],
+    "key_concepts": [
+      {
+        "term": "Số tự nhiên",
+        "definition": "Là các số nguyên không âm (0, 1, 2, 3, ...), được sử dụng để đếm và chỉ số thứ tự."
+      },
+      {
+        "term": "Tập hợp số tự nhiên",
+        "definition": "Ký hiệu là $\\mathbb{N}$, bao gồm tất cả các số tự nhiên. Có hai cách hiểu phổ biến: $\\mathbb{N} = \\{0, 1, 2, 3, ...\\}$ hoặc $\\mathbb{N} = \\{1, 2, 3, ...\\}$. Trong bài học này, chúng ta sử dụng $\\mathbb{N} = \\{0, 1, 2, 3, ...\\}$."
+      },
+      {
+        "term": "Số liền trước",
+        "definition": "Với một số tự nhiên $a > 0$, số liền trước của $a$ là $a-1$. Số 0 không có số liền trước trong tập số tự nhiên."
+      },
+      {
+        "term": "Số liền sau",
+        "definition": "Với một số tự nhiên $a$, số liền sau của $a$ là $a+1$."
+      },
+      {
+        "term": "Trục số tự nhiên",
+        "definition": "Là một đường thẳng với các điểm được đánh dấu cách đều nhau, tương ứng với các số tự nhiên theo thứ tự tăng dần, bắt đầu từ 0."
+      }
+    ],
+    "detailed_content": "## Khám phá Thế giới Số Tự Nhiên\n\nChào mừng bạn đến với chương đầu tiên của Toán lớp 6 trên Khan Academy, nơi chúng ta sẽ cùng nhau khám phá những viên gạch nền tảng của toán học: **Số Tự Nhiên**. Bài học này sẽ giúp bạn nắm vững các khái niệm cốt lõi, đặt nền móng vững chắc cho hành trình học toán sau này.\n\n**Số tự nhiên** là những con số mà chúng ta sử dụng hàng ngày để đếm đồ vật, chỉ thứ tự, hoặc biểu diễn số lượng. Trong chương trình này, chúng ta định nghĩa tập hợp số tự nhiên bao gồm cả số 0, ký hiệu là $\\mathbb{N} = \\{0, 1, 2, 3, ...\\}$. Điều này có nghĩa là 0 là số tự nhiên nhỏ nhất, và không có số tự nhiên lớn nhất.\n\nĐể hiểu rõ hơn về mối quan hệ giữa các số tự nhiên, chúng ta có khái niệm **số liền trước** và **số liền sau**. Với bất kỳ số tự nhiên nào lớn hơn 0, số liền trước của nó sẽ là số đó trừ đi 1. Ví dụ, số liền trước của 5 là 4. Ngược lại, số liền sau của một số tự nhiên bất kỳ là số đó cộng thêm 1. Số liền sau của 5 là 6. Cần lưu ý rằng số 0 không có số liền trước trong tập số tự nhiên.\n\nMột công cụ trực quan mạnh mẽ để biểu diễn thứ tự của các số tự nhiên là **Trục số tự nhiên**. Trên trục số, các số tự nhiên được sắp xếp theo thứ tự từ nhỏ đến lớn, cách đều nhau và bắt đầu từ điểm 0. Điều này giúp chúng ta dễ dàng so sánh các số: số nào nằm bên phải số kia trên trục số thì lớn hơn.\n\nViệc hiểu rõ các khái niệm này là bước đầu tiên quan trọng để chúng ta có thể thực hiện các phép tính, so sánh và giải quyết các bài toán phức tạp hơn trong tương lai.",
+    "summary": "Bài học giới thiệu về số tự nhiên, tập hợp số tự nhiên (bao gồm cả 0), số liền trước và số liền sau. Khái niệm trục số tự nhiên được trình bày như một công cụ trực quan để hiểu thứ tự của các số.",
+    "practical_examples": [
+      "Đếm số kẹo trong hộp: Nếu có 12 cái kẹo, số tự nhiên 12 được dùng để biểu diễn số lượng đó.",
+      "Xác định số thứ tự trong lớp: Học sinh A là người thứ 5 vào lớp, sử dụng số tự nhiên 5 để chỉ vị trí.",
+      "So sánh số lượng đồ vật: Bạn có 3 quả táo và bạn của bạn có 5 quả táo. Sử dụng số tự nhiên để so sánh, 5 lớn hơn 3."
+    ],
+    "multimedia_diagram": "mindmap\n  root(Số Tự Nhiên)\n    Định nghĩa\n      Là số nguyên không âm\n      Sử dụng để đếm, chỉ thứ tự\n    Tập hợp số tự nhiên (N)\n       Bao gồm 0, 1, 2, 3...\n    Quan hệ giữa các số\n      Số liền trước (a-1)\n      Số liền sau (a+1)\n    Biểu diễn\n      Trục số tự nhiên",
+    "micro_learning_flashcards": [
+      {
+        "q": "Tập hợp số tự nhiên N bao gồm những số nào?",
+        "a": "Bao gồm 0, 1, 2, 3, ..."
+      },
+      {
+        "q": "Số liền trước của 10 là gì?",
+        "a": "9"
+      },
+      {
+        "q": "Số liền sau của 0 là gì?",
+        "a": "1"
+      },
+      {
+        "q": "Số tự nhiên nhỏ nhất là số nào?",
+        "a": "0"
+      }
+    ]
+  },
+  "bloom_profile": {
+    "auto_calibrated_levels": [
+      1,
+      2,
+      3
+    ],
+    "user_adjusted_levels": null,
+    "effective_levels": [
+      1,
+      2,
+      3
+    ],
+    "calibration_method": "alpha_base",
+    "alpha_base": 15,
+    "created_at": "2026-05-21T10:06:24.114501"
+  },
+  "question_bank": {
+    "L1": [
+      {
+        "type": "mcq_recall",
+        "question": "Trong Toán lớp 6, chúng ta bắt đầu khám phá với nhóm số nào?",
+        "options": {
+          "A": "Số tự nhiên",
+          "B": "Số nguyên âm",
+          "C": "Phân số",
+          "D": "Số thập phân"
+        },
+        "correct": "A",
+        "explanation": "Bài học đầu tiên giới thiệu về Số tự nhiên, là những con số cơ bản nhất được sử dụng để đếm và biểu thị số lượng."
+      },
+      {
+        "type": "flashcard",
+        "front": "Số tự nhiên",
+        "back": "Những con số được sử dụng hàng ngày để đếm đồ vật, chỉ thứ tự, hoặc biểu diễn số lượng."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Đâu là một trong những mục đích sử dụng của số tự nhiên theo bài học?",
+        "options": {
+          "A": "Đếm đồ vật",
+          "B": "Biểu diễn các số âm",
+          "C": "Tính toán với phân số",
+          "D": "Đo lường khoảng cách lớn"
+        },
+        "correct": "A",
+        "explanation": "Bài học nhấn mạnh rằng số tự nhiên được dùng để đếm đồ vật, chỉ thứ tự hoặc biểu diễn số lượng."
+      },
+      {
+        "type": "flashcard",
+        "front": "Tên chương đầu tiên của Toán lớp 6 trên Khan Academy",
+        "back": "Khám phá Thế giới Số Tự Nhiên"
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Số tự nhiên đóng vai trò là gì đối với hành trình học toán sau này?",
+        "options": {
+          "A": "Viên gạch nền tảng",
+          "B": "Chỉ là một khái niệm phụ",
+          "C": "Một phần của toán nâng cao",
+          "D": "Không có vai trò quan trọng"
+        },
+        "correct": "A",
+        "explanation": "Bài học mô tả số tự nhiên là những 'viên gạch nền tảng', đặt nền móng vững chắc cho việc học toán sau này."
+      },
+      {
+        "type": "flashcard",
+        "front": "Số tự nhiên được sử dụng để chỉ...",
+        "back": "Đếm đồ vật, chỉ thứ tự, hoặc biểu diễn số lượng."
+      }
+    ],
+    "L2": [
+      {
+        "type": "mcq_comprehension",
+        "question": "Dựa vào nội dung bài học, tại sao số tự nhiên lại quan trọng trong cuộc sống hàng ngày?",
+        "options": {
+          "A": "Chúng ta dùng số tự nhiên để đếm đồ vật, chỉ thứ tự và biểu diễn số lượng.",
+          "B": "Số tự nhiên giúp chúng ta học các phép toán phức tạp.",
+          "C": "Số tự nhiên là nền tảng để hiểu về âm nhạc.",
+          "D": "Số tự nhiên chỉ được sử dụng trong lĩnh vực khoa học."
+        },
+        "correct": "A",
+        "explanation": "Bài học nhấn mạnh rằng số tự nhiên là những con số chúng ta sử dụng hàng ngày để đếm, chỉ thứ tự và biểu diễn số lượng."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Trong cuộc sống hàng ngày, chúng ta sử dụng __________ để đếm đồ vật, chỉ thứ tự, hoặc biểu diễn số lượng.",
+        "answer": "số tự nhiên",
+        "explanation": "Định nghĩa của số tự nhiên trong bài học là những con số dùng để đếm, chỉ thứ tự và biểu diễn số lượng."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Nếu bạn đang đếm xem có bao nhiêu quả táo trong giỏ, bạn đang sử dụng khái niệm nào của số tự nhiên?",
+        "options": {
+          "A": "Chỉ thứ tự",
+          "B": "Biểu diễn số lượng",
+          "C": "Đếm đồ vật",
+          "D": "Cả B và C"
+        },
+        "correct": "D",
+        "explanation": "Đếm số lượng táo trong giỏ vừa là hành động đếm đồ vật, vừa là cách biểu diễn số lượng táo."
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "term": "Đếm đồ vật",
+            "definition": "Ví dụ: Đếm số kẹo bạn có."
+          },
+          {
+            "term": "Chỉ thứ tự",
+            "definition": "Ví dụ: Bạn là người thứ nhất trong hàng."
+          },
+          {
+            "term": "Biểu diễn số lượng",
+            "definition": "Ví dụ: Có 5 chiếc xe ô tô trên đường."
+          }
+        ]
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Bài học giới thiệu về __________ trong chương đầu tiên của Toán lớp 6.",
+        "answer": "Số tự nhiên",
+        "explanation": "Nội dung bài học tập trung vào việc khám phá và nắm vững các khái niệm cốt lõi của số tự nhiên."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Quan sát câu sau: 'Mai là học sinh thứ ba của lớp.' Khái niệm số tự nhiên nào đang được sử dụng?",
+        "options": {
+          "A": "Đếm đồ vật",
+          "B": "Chỉ thứ tự",
+          "C": "Biểu diễn số lượng",
+          "D": "So sánh số"
+        },
+        "correct": "B",
+        "explanation": "Số 'thứ ba' trong câu này dùng để chỉ vị trí, tức là chỉ thứ tự của Mai trong lớp."
+      }
+    ],
+    "L3": [
+      {
+        "type": "scenario_mcq",
+        "question": "Một siêu thị đang chuẩn bị hàng tồn kho cho ngày Tết. Họ cần đếm số lượng các mặt hàng khác nhau. Ví dụ, họ đếm được 150 hộp bánh chưng, 200 chai nước ngọt, và 75 giỏ quà. Theo định nghĩa số tự nhiên, những con số 150, 200, và 75 được coi là gì trong trường hợp này?",
+        "options": {
+          "A": "Số đo kích thước",
+          "B": "Số lượng của các vật thể đếm được",
+          "C": "Số thứ tự trong danh sách",
+          "D": "Số chỉ thời gian"
+        },
+        "correct": "B",
+        "explanation": "Số tự nhiên được sử dụng để đếm số lượng đồ vật. Trong tình huống này, 150, 200 và 75 biểu thị số lượng của bánh chưng, nước ngọt và giỏ quà."
+      },
+      {
+        "type": "case_study",
+        "title": "Lập kế hoạch cho buổi dã ngoại",
+        "description": "An và Bình đang lên kế hoạch cho một buổi dã ngoại. Họ cần chuẩn bị đủ đồ ăn và thức uống cho 12 người tham gia. Dưới đây là danh sách các món họ dự định mang theo:\n- 24 chai nước suối\n- 12 chiếc bánh sandwich\n- 30 quả táo\n- 5 hộp bánh quy\n\nAn cần tính toán xem mỗi người sẽ nhận được bao nhiêu chai nước và bao nhiêu chiếc bánh sandwich để đảm bảo mọi người đều có đủ. Dựa vào kiến thức về số tự nhiên, hãy xác định:\n1. Số lượng chai nước mỗi người nhận được.\n2. Số lượng bánh sandwich mỗi người nhận được.",
+        "questions": [
+          {
+            "question": "Dựa vào thông tin đã cho, An sẽ thực hiện phép chia nào để tính số chai nước mỗi người nhận được?",
+            "options": {
+              "A": "24 + 12",
+              "B": "24 / 12",
+              "C": "12 / 24",
+              "D": "24 - 12"
+            },
+            "correct": "B",
+            "explanation": "Để tính số chai nước mỗi người nhận được, An cần lấy tổng số chai nước (24) chia cho số người tham gia (12)."
+          },
+          {
+            "question": "Nếu An chia đều 12 chiếc bánh sandwich cho 12 người, mỗi người sẽ nhận được bao nhiêu chiếc bánh sandwich?",
+            "options": {
+              "A": "0 chiếc",
+              "B": "1 chiếc",
+              "C": "2 chiếc",
+              "D": "12 chiếc"
+            },
+            "correct": "B",
+            "explanation": "Thực hiện phép chia 12 (số bánh sandwich) cho 12 (số người) ta được 1. Vậy mỗi người nhận được 1 chiếc bánh sandwich."
+          }
+        ]
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một người nông dân đang thu hoạch vườn cam của mình. Ông đếm được 350 quả cam. Ông muốn chia đều số cam này vào các túi, mỗi túi đựng 10 quả. Nếu ông sử dụng phép tính để phân loại số cam, con số 350 và 10 đại diện cho điều gì trong bối cảnh bài học về số tự nhiên?",
+        "options": {
+          "A": "350 là số thứ tự, 10 là số lượng vật mẫu.",
+          "B": "350 là số lượng tổng thể, 10 là số lượng trong mỗi nhóm.",
+          "C": "350 là số thứ tự, 10 là số thứ tự.",
+          "D": "350 là số lượng vật mẫu, 10 là số lượng tổng thể."
+        },
+        "correct": "B",
+        "explanation": "Số tự nhiên 350 biểu thị tổng số quả cam (số lượng tổng thể). Số tự nhiên 10 biểu thị số lượng cam được cho vào mỗi túi (số lượng trong mỗi nhóm)."
+      },
+      {
+        "type": "case_study",
+        "title": "Xây dựng thư viện số",
+        "description": "Một trường học đang xây dựng một thư viện số. Họ có 500 cuốn sách điện tử cần được sắp xếp vào các danh mục. Các danh mục dự kiến bao gồm:\n- Văn học: 150 cuốn\n- Khoa học: 120 cuốn\n- Lịch sử: 100 cuốn\n- Nghệ thuật: 80 cuốn\n- Khác: 50 cuốn\n\nGiáo viên muốn sử dụng các con số này để dạy học sinh về cách phân loại và tổng hợp thông tin.",
+        "questions": [
+          {
+            "question": "Giáo viên muốn học sinh tính tổng số cuốn sách thuộc các danh mục Văn học và Khoa học. Phép toán nào cần được thực hiện?",
+            "options": {
+              "A": "150 - 120",
+              "B": "150 + 120",
+              "C": "150 * 120",
+              "D": "150 / 120"
+            },
+            "correct": "B",
+            "explanation": "Để tính tổng số cuốn sách của hai danh mục, ta cần sử dụng phép cộng: 150 (Văn học) + 120 (Khoa học)."
+          },
+          {
+            "question": "Giáo viên muốn kiểm tra xem tổng số sách trong các danh mục đã cho có bằng tổng số sách ban đầu (500 cuốn) hay không. Học sinh cần thực hiện phép tính gì để xác nhận điều này?",
+            "options": {
+              "A": "Tính hiệu của 500 và tổng các danh mục.",
+              "B": "Tính tổng của 500 và tổng các danh mục.",
+              "C": "Tính tổng của tất cả các danh mục.",
+              "D": "Tính tích của 500 và tổng các danh mục."
+            },
+            "correct": "C",
+            "explanation": "Để xác nhận, học sinh cần tính tổng số sách của tất cả các danh mục (150 + 120 + 100 + 80 + 50) và so sánh với 500."
+          }
+        ]
+      }
+    ]
+  }
+}

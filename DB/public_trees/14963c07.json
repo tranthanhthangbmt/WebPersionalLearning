@@ -1,0 +1,1455 @@
+{
+    "course_name": "Địa lý 6",
+    "macro_nodes": [
+        {
+            "id": "m0",
+            "title": "Mở đầu",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "m1",
+            "title": "Chương 1: Bản đồ - Phương tiện thể hiện bề mặt Trái Đất",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "m2",
+            "title": "Chương 2: Trái Đất - Hành tinh trong hệ Mặt Trời",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "m3",
+            "title": "Chương 3: Cấu tạo của Trái Đất. Vỏ Trái Đất",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "m4",
+            "title": "Chương 4: Khí hậu và biến đổi khí hậu",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "m5",
+            "title": "Chương 5: Nước trên Trái Đất",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "m6",
+            "title": "Chương 6: Đất và sinh vật trên Trái Đất",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "m7",
+            "title": "Chương 7: Con người và thiên nhiên",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c0.1",
+            "parent_macro": "m0",
+            "title": "Bài mở đầu: Tại sao cần học địa lí?",
+            "content": "Bài học giúp học sinh hiểu được ý nghĩa và vai trò của môn Địa lí đối với cuộc sống hàng ngày. Nội dung hướng dẫn cách học tốt môn Địa lí thông qua việc khai thác bản đồ, lược đồ và thực địa. Từ đó, khơi dậy niềm đam mê khám phá thế giới tự nhiên và xã hội xung quanh.",
+            "alpha_base": 10,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 10,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Bài 1: Hệ thống kinh vĩ tuyến. Tọa độ địa lí của một địa điểm trên bản đồ",
+            "content": "Giới thiệu khái niệm kinh tuyến, vĩ tuyến, kinh tuyến gốc và vĩ tuyến gốc. Hướng dẫn cách xác định tọa độ địa lí của một điểm cụ thể trên bản đồ dựa trên kinh độ và vĩ độ. Đây là nền tảng quan trọng giúp định vị vị trí địa lí chính xác.",
+            "alpha_base": 15,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Bài 2: Các yếu tố cơ bản của bản đồ",
+            "content": "Phân tích các yếu tố cấu thành một bản đồ hoàn chỉnh bao gồm tỉ lệ bản đồ, hệ thống ký hiệu và bảng chú giải. Học sinh sẽ biết cách tính khoảng cách thực tế dựa vào tỉ lệ bản đồ. Bài học cũng chỉ ra các phương pháp biểu hiện đối tượng địa lí phổ biến.",
+            "alpha_base": 12,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 12,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Bài 3: Lược đồ trí nhớ",
+            "content": "Định nghĩa lược đồ trí nhớ và ý nghĩa của nó trong việc định hướng không gian. Hướng dẫn học sinh cách xây dựng lược đồ trí nhớ từ những quan sát thực tế xung quanh. Giúp phát triển tư duy không gian và khả năng ghi nhớ sơ đồ địa hình.",
+            "alpha_base": 12,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 12,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c1.4",
+            "parent_macro": "m1",
+            "title": "Bài 4: Thực hành: Đọc bản đồ. Xác định vị trí của đối tượng địa lí trên bản đồ. Tìm đường đi trên bản đồ",
+            "content": "Buổi thực hành rèn luyện kỹ năng đọc bản đồ thực tế để xác định vị trí các đối tượng địa lí. Học sinh được thử thách tìm kiếm và lên lộ trình di chuyển tối ưu giữa các địa điểm. Tích hợp kỹ năng giải quyết tình huống định vị ngoài đời thực.",
+            "alpha_base": 25,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Bài 5: Trái Đất trong hệ Mặt Trời. Hình dạng và kích thước của Trái Đất",
+            "content": "Xác định vị trí của Trái Đất trong hệ Mặt Trời và giải thích tầm quan trọng của nó. Cung cấp các thông số khoa học về hình dạng quả cầu và kích thước khổng lồ của Trái Đất. Giúp học sinh hình dung trực quan về ngôi nhà chung của nhân loại.",
+            "alpha_base": 11,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 11,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Bài 6: Chuyển động tự quay quanh trục của Trái Đất và các hệ quả địa lí",
+            "content": "Trình bày hướng và chu kỳ chuyển động tự quay quanh trục của Trái Đất. Phân tích các hệ quả địa lí quan trọng như hiện tượng ngày đêm luân phiên và sự chênh lệch giờ giấc giữa các khu vực. Giải thích lực Coriolis làm lệch hướng các chuyển động.",
+            "alpha_base": 22,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c2.3",
+            "parent_macro": "m2",
+            "title": "Bài 7: Chuyển động của Trái Đất quanh Mặt Trời và các hệ quả địa lí",
+            "content": "Phân tích quỹ đạo và đặc điểm chuyển động của Trái Đất quanh Mặt Trời với trục nghiêng không đổi. Giải thích nguyên nhân hình thành các mùa trong năm và hiện tượng ngày đêm dài ngắn khác nhau theo vĩ độ. Đây là nội dung mang tính tư duy hình học không gian cao.",
+            "alpha_base": 24,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 24,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c2.4",
+            "parent_macro": "m2",
+            "title": "Bài 8: Xác định phương hướng ngoài thực địa",
+            "content": "Hướng dẫn các phương pháp xác định phương hướng thực tế mà không cần bản đồ hiện đại. Sử dụng la bàn, quan sát hướng Mặt Trời mọc/lặn hoặc dùng các chòm sao vào ban đêm để định hướng. Phát triển kỹ năng sinh tồn thực địa bổ ích cho học sinh.",
+            "alpha_base": 20,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Bài 9: Cấu tạo của Trái Đất. Các mảng kiến tạo. Núi lửa và động đất",
+            "content": "Khám phá cấu trúc bên trong Trái Đất gồm vỏ, manti và nhân. Giới thiệu thuyết kiến tạo mảng và sự di chuyển của các mảng vỏ Trái Đất. Phân tích nguyên nhân và hậu quả tàn khốc của các thiên tai như núi lửa và động đất.",
+            "alpha_base": 12,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 12,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "Bài 10: Quá trình nội sinh và ngoại sinh. Hiện tượng tạo núi",
+            "content": "Phân biệt lực nội sinh bắt nguồn từ bên trong Trái Đất và lực ngoại sinh xảy ra trên bề mặt địa hình. Giải thích quá trình uốn nếp, đứt gãy hình thành núi cao kết hợp với các tác nhân mài mòn, bồi tụ. Giúp học sinh hiểu sự hình thành bề mặt Trái Đất hiện tại.",
+            "alpha_base": 18,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 18,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Bài 11: Các dạng địa hình chính. Khoáng sản",
+            "content": "Giới thiệu đặc điểm nhận dạng của các dạng địa hình chính như núi, đồi, cao nguyên, đồng bằng. Phân loại tài nguyên khoáng sản dựa trên trạng thái vật lý và công dụng kinh tế. Nhấn mạnh việc khai thác khoáng sản hợp lý và bảo vệ tài nguyên quốc gia.",
+            "alpha_base": 11,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 11,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c3.4",
+            "parent_macro": "m3",
+            "title": "Bài 12: Thực hành: Đọc lược đồ địa hình tỉ lệ lớn và lát cắt địa hình đơn giản",
+            "content": "Học sinh thực hành phân tích lược đồ địa hình có độ chi tiết cao thông qua đường đồng mức. Hướng dẫn cách đọc và vẽ phác thảo lát cắt địa hình đơn giản để mô phỏng sườn dốc núi. Nâng cao tư duy đồ họa và kỹ năng tính độ dốc địa hình thực tế.",
+            "alpha_base": 25,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c4.1",
+            "parent_macro": "m4",
+            "title": "Bài 13: Khí quyển của Trái Đất. Các khối khí. Khí áp và gió",
+            "content": "Trình bày cấu trúc nhiều tầng của khí quyển Trái Đất cùng vai trò bảo vệ sự sống của nó. Giải thích sự hình thành các khối khí nóng, lạnh, đại dương, lục địa. Phân tích phân bố các đai khí áp toàn cầu và cơ chế sinh ra các loại gió thổi thường xuyên.",
+            "alpha_base": 14,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 14,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c4.2",
+            "parent_macro": "m4",
+            "title": "Bài 14: Nhiệt độ và mưa. Thời tiết và khí hậu",
+            "content": "Nêu rõ các yếu tố khí tượng cơ bản gồm nhiệt độ không khí và độ ẩm sinh ra mưa. Phân biệt sự khác nhau giữa thời tiết diễn ra ngắn hạn và khí hậu mang tính quy luật dài hạn. Hướng dẫn cách phân chia các đới khí hậu chính trên Trái Đất.",
+            "alpha_base": 16,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 16,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c4.3",
+            "parent_macro": "m4",
+            "title": "Bài 15: Biến đổi khí hậu và ứng phó với biến đổi khí hậu",
+            "content": "Làm rõ khái niệm và biểu hiện thực tế của hiện tượng biến đổi khí hậu toàn cầu ngày nay. Chỉ ra nguyên nhân do con người thải khí nhà kính và hậu quả thiên tai gia tăng cực đoan. Đề xuất các giải pháp thích ứng và giảm thiểu tác động tiêu cực.",
+            "alpha_base": 15,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c4.4",
+            "parent_macro": "m4",
+            "title": "Bài 16: Thực hành: Đọc lược đồ khí hậu và biểu đồ nhiệt độ - lượng mưa",
+            "content": "Rèn luyện kỹ năng phân tích biểu đồ nhiệt độ và lượng mưa của một số địa điểm đại diện cho các đới khí hậu. Học sinh biết cách đọc trị số cực đại, cực tiểu và tính toán biên độ nhiệt. Từ đó, xác định được kiểu khí hậu tương ứng một cách độc lập.",
+            "alpha_base": 26,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 26,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c5.1",
+            "parent_macro": "m5",
+            "title": "Bài 17: Các thành phần chủ yếu của thủy quyển. Tuần hoàn nước trên Trái Đất",
+            "content": "Định nghĩa thủy quyển và sự phân bố của nước ngọt, nước mặn trên hành tinh. Mô tả chi tiết vòng tuần hoàn lớn của nước qua các trạng thái bốc hơi, ngưng tụ và mưa rơi. Nhấn mạnh tầm quan trọng cốt lõi của việc bảo vệ nguồn nước sạch.",
+            "alpha_base": 12,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 12,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c5.2",
+            "parent_macro": "m5",
+            "title": "Bài 18: Sông. Nước ngầm và băng hà",
+            "content": "Tìm hiểu cấu tạo một hệ thống sông, nguồn cung cấp nước và chế độ dòng chảy của sông. Giới thiệu vai trò quan trọng của nước ngầm trong sinh hoạt và băng hà trong việc điều hòa khí hậu toàn cầu. Cung cấp góc nhìn toàn diện về tài nguyên nước ngọt dự trữ.",
+            "alpha_base": 13,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 13,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c5.3",
+            "parent_macro": "m5",
+            "title": "Bài 19: Biển và đại dương. Một số đặc điểm của môi trường biển",
+            "content": "Khái quát về hệ thống đại dương thế giới và các đặc tính hóa lí cơ bản của nước biển như độ muối, nhiệt độ. Giải thích cơ chế hình thành sóng biển, thủy triều và các dòng hải lưu di chuyển liên tục. Đánh giá tiềm năng kinh tế biển phong phú.",
+            "alpha_base": 12,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 12,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c5.4",
+            "parent_macro": "m5",
+            "title": "Bài 20: Thực hành: Xác định trên lược đồ các đại dương thế giới",
+            "content": "Thực hành nhận diện và gọi tên chính xác các đại dương lớn trên thế giới trên lược đồ phẳng. Học sinh điền tên các biển và eo biển quan trọng nối liền các đại dương lớn. Giúp củng cố định vị bản đồ không gian đại dương toàn cầu.",
+            "alpha_base": 20,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c6.1",
+            "parent_macro": "m6",
+            "title": "Bài 21: Lớp đất trên Trái Đất",
+            "content": "Nêu khái niệm thổ nhưỡng và cấu tạo gồm nhiều tầng khác nhau của lớp phủ đất. Phân tích các nhân tố hình thành đất chính gồm đá mẹ, khí hậu, sinh vật và thời gian. Nâng cao ý thức cải tạo đất canh tác và chống xói mòn bạc màu.",
+            "alpha_base": 11,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 11,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c6.2",
+            "parent_macro": "m6",
+            "title": "Bài 22: Sự đa dạng của thế giới sinh vật. Các đới thiên nhiên trên Trái Đất. Rừng nhiệt đới",
+            "content": "Mô tả tính đa dạng phong phú của giới động thực vật phân bố ở các đới khí hậu khác nhau. Phân tích cấu trúc đặc trưng và tầm quan trọng sinh thái cực kỳ lớn của các khu rừng mưa nhiệt đới. Kêu gọi hành động bảo vệ đa dạng sinh học tự nhiên.",
+            "alpha_base": 13,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 13,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c6.3",
+            "parent_macro": "m6",
+            "title": "Bài 23: Thực hành: Tìm hiểu lớp phủ thực vật ở địa phương",
+            "content": "Tổ chức cho học sinh khảo sát thực tế hoặc tìm hiểu thông tin về các loài thực vật đặc trưng nơi mình sinh sống. Học sinh viết báo cáo ngắn mô tả hiện trạng sử dụng và bảo vệ cây xanh xung quanh khu vực trường học. Tăng cường kỹ năng quan sát thực tiễn sinh thái.",
+            "alpha_base": 22,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c7.1",
+            "parent_macro": "m7",
+            "title": "Bài 24: Dân số thế giới. Sự phân bố dân cư thế giới. Các thành phố lớn trên thế giới",
+            "content": "Cung cấp số liệu và xu hướng phát triển dân số thế giới qua các thế kỷ. Giải thích các nguyên nhân ảnh hưởng đến sự phân bố dân cư thưa thớt hay đông đúc ở các vùng miền. Giới thiệu danh sách các siêu đô thị lớn đóng vai trò trung tâm kinh tế toàn cầu.",
+            "alpha_base": 13,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 13,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c7.2",
+            "parent_macro": "m7",
+            "title": "Bài 25: Con người và thiên nhiên",
+            "content": "Phân tích mối quan hệ biện chứng tác động qua lại hai chiều giữa hoạt động con người và môi trường tự nhiên. Khẳng định thiên nhiên là nguồn sống tối cần thiết cung cấp tài nguyên, nhưng cũng tạo ra hiểm họa nếu bị khai thác quá mức. Hướng tới mục tiêu phát triển bền vững.",
+            "alpha_base": 14,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 14,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        },
+        {
+            "id": "c7.3",
+            "parent_macro": "m7",
+            "title": "Bài 26: Thực hành: Tìm hiểu tác động của con người lên môi trường tự nhiên trong sản xuất",
+            "content": "Bài thực hành yêu cầu thu thập tranh ảnh, tư liệu về các hoạt động kinh tế địa phương gây ô nhiễm hoặc phục hồi môi trường. Học sinh thảo luận nhóm để đề xuất những hành động thiết thực của bản thân nhằm bảo vệ nguồn nước và không khí sạch. Giúp phát triển kỹ năng tư duy phản biện xã hội.",
+            "alpha_base": 23,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 23,
+                "created_at": "2026-05-31T21:09:18.914281"
+            }
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "a0.1",
+            "target_micro": "c0.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a1.1",
+            "target_micro": "c1.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a1.2",
+            "target_micro": "c1.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a1.3",
+            "target_micro": "c1.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a1.4",
+            "target_micro": "c1.4",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a2.1",
+            "target_micro": "c2.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a2.2",
+            "target_micro": "c2.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a2.3",
+            "target_micro": "c2.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a2.4",
+            "target_micro": "c2.4",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a3.1",
+            "target_micro": "c3.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a3.2",
+            "target_micro": "c3.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a3.3",
+            "target_micro": "c3.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a3.4",
+            "target_micro": "c3.4",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a4.1",
+            "target_micro": "c4.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a4.2",
+            "target_micro": "c4.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a4.3",
+            "target_micro": "c4.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a4.4",
+            "target_micro": "c4.4",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915278"
+            }
+        },
+        {
+            "id": "a5.1",
+            "target_micro": "c5.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a5.2",
+            "target_micro": "c5.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a5.3",
+            "target_micro": "c5.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a5.4",
+            "target_micro": "c5.4",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a6.1",
+            "target_micro": "c6.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a6.2",
+            "target_micro": "c6.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a6.3",
+            "target_micro": "c6.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a7.1",
+            "target_micro": "c7.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a7.2",
+            "target_micro": "c7.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        },
+        {
+            "id": "a7.3",
+            "target_micro": "c7.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:09:18.915776"
+            }
+        }
+    ],
+    "user_id": "thanhthangbmt",
+    "edges": [
+        {
+            "source": "c0.1",
+            "target": "c1.1",
+            "reason": "Bài mở đầu tạo cơ sở lý luận và hứng thú học tập trước khi tìm hiểu các khái niệm hệ thống kinh vĩ tuyến."
+        },
+        {
+            "source": "c1.1",
+            "target": "c1.4",
+            "reason": "Cần nắm vững hệ thống kinh vĩ tuyến và tọa độ để xác định vị trí đối tượng trên bản đồ."
+        },
+        {
+            "source": "c1.2",
+            "target": "c1.4",
+            "reason": "Các yếu tố cơ bản của bản đồ là công cụ bắt buộc để đọc bản đồ và tìm đường đi."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.2",
+            "reason": "Hiểu rõ hình dạng, kích thước Trái Đất là cơ sở để học về chuyển động tự quay quanh trục của nó."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.3",
+            "reason": "Hiểu vị trí Trái Đất trong hệ Mặt Trời để giải thích chuyển động của nó quanh Mặt Trời."
+        },
+        {
+            "source": "c3.1",
+            "target": "c3.2",
+            "reason": "Cấu tạo Trái Đất và các mảng kiến tạo là cơ sở bên trong giải thích cho quá trình nội sinh và tạo núi."
+        },
+        {
+            "source": "c3.2",
+            "target": "c3.3",
+            "reason": "Quá trình nội sinh và ngoại sinh là các tác nhân trực tiếp hình thành nên các dạng địa hình chính."
+        },
+        {
+            "source": "c3.3",
+            "target": "c3.4",
+            "reason": "Phải nhận diện được các dạng địa hình chính trước khi đọc thực hành lát cắt địa hình."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.2",
+            "reason": "Cấu trúc khí quyển, khí áp và gió là nguyên nhân quyết định sự hình thành nhiệt độ, mưa và khí hậu."
+        },
+        {
+            "source": "c4.2",
+            "target": "c4.3",
+            "reason": "Nắm vững đặc điểm thời tiết và khí hậu thông thường là tiền đề để nhận biết các biến đổi bất thường của khí hậu."
+        },
+        {
+            "source": "c4.2",
+            "target": "c4.4",
+            "reason": "Hiểu rõ khái niệm nhiệt độ, mưa và khí hậu mới đọc được lược đồ và biểu đồ nhiệt độ - lượng mưa."
+        },
+        {
+            "source": "c4.2",
+            "target": "c5.1",
+            "reason": "Hiện tượng nhiệt độ, bốc hơi và mưa trong khí hậu là động lực thúc đẩy vòng tuần hoàn nước trên Trái Đất."
+        },
+        {
+            "source": "c5.1",
+            "target": "c5.2",
+            "reason": "Hiểu về tuần hoàn nước để giải thích nguồn gốc hình thành nước ngầm, sông ngòi và băng hà."
+        },
+        {
+            "source": "c5.1",
+            "target": "c5.3",
+            "reason": "Khái niệm chung về thủy quyển là nền tảng để đi sâu tìm hiểu môi trường biển và đại dương."
+        },
+        {
+            "source": "c5.3",
+            "target": "c5.4",
+            "reason": "Cần có kiến thức lý thuyết về biển và đại dương trước khi thực hành định vị chúng trên lược đồ thế giới."
+        },
+        {
+            "source": "c3.2",
+            "target": "c6.1",
+            "reason": "Quá trình ngoại sinh phong hóa đá là tác nhân cốt lõi hình thành nên lớp đất trên Trái Đất."
+        },
+        {
+            "source": "c4.2",
+            "target": "c6.2",
+            "reason": "Khí hậu quyết định sự hình thành các đới thiên nhiên và sự phân bố đa dạng của sinh vật."
+        },
+        {
+            "source": "c6.2",
+            "target": "c6.3",
+            "reason": "Hiểu biết lý thuyết về đới thiên nhiên và rừng nhiệt đới định hướng cho việc thực hành tìm hiểu thực vật địa phương."
+        },
+        {
+            "source": "c6.2",
+            "target": "c7.1",
+            "reason": "Đặc điểm môi trường tự nhiên và các đới thiên nhiên ảnh hưởng trực tiếp đến sự phân bố dân cư thế giới."
+        },
+        {
+            "source": "c7.1",
+            "target": "c7.2",
+            "reason": "Hiểu rõ về quy mô và sự phân bố dân cư là cơ sở để đánh giá mối quan hệ tương tác giữa con người và thiên nhiên."
+        },
+        {
+            "source": "c7.2",
+            "target": "c7.3",
+            "reason": "Nắm vững lý thuyết mối tương tác con người - thiên nhiên để thực hành phân tích tác động cụ thể trong sản xuất."
+        }
+    ]
+}

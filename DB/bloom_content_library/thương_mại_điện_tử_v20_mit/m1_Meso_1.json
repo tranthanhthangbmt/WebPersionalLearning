@@ -1,0 +1,334 @@
+{
+  "node_id": "m1_Meso_1",
+  "course_id": "thương_mại_điện_tử_v20_mit",
+  "version": 2,
+  "updated_at": "2026-04-27T02:00:56.713933",
+  "author": "thanhthangbmt7",
+  "study_material": {
+    "learning_objectives": [
+      "CLO1: Định nghĩa thương mại điện tử (E-commerce) và phân biệt nó với kinh doanh điện tử (E-business). (L1 Ghi nhớ)",
+      "CLO2: Phân tích các đặc điểm độc đáo của thương mại điện tử giúp phân biệt nó với thương mại truyền thống. (L2 Thấu hiểu)",
+      "CLO3: Phân loại các mô hình thương mại điện tử chính dựa trên đối tượng giao dịch và nền tảng công nghệ. (L3 Áp dụng)"
+    ],
+    "key_concepts": [
+      {
+        "term": "Thương mại điện tử (E-commerce)",
+        "definition": "Quá trình mua bán, trao đổi sản phẩm, dịch vụ và thông tin qua mạng máy tính, đặc biệt là Internet."
+      },
+      {
+        "term": "Kinh doanh điện tử (E-business)",
+        "definition": "Việc sử dụng Internet và các công nghệ kỹ thuật số để thực hiện tất cả các quy trình kinh doanh, bao gồm cả e-commerce và các quy trình nội bộ."
+      },
+      {
+        "term": "Tính phổ biến (Ubiquity)",
+        "definition": "Khả năng có mặt ở mọi nơi, mọi lúc, giúp giảm chi phí giao dịch."
+      },
+      {
+        "term": "Mật độ thông tin (Information Density)",
+        "definition": "Tổng lượng và chất lượng thông tin có sẵn cho người tham gia thị trường."
+      },
+      {
+        "term": "Cá nhân hóa (Personalization)",
+        "definition": "Khả năng nhắm mục tiêu thông điệp tiếp thị tới các cá nhân cụ thể bằng cách điều chỉnh thông điệp dựa trên tên, sở thích và hành vi."
+      },
+      {
+        "term": "B2C (Business-to-Consumer)",
+        "definition": "Mô hình thương mại điện tử trong đó các doanh nghiệp bán sản phẩm/dịch vụ trực tiếp cho người tiêu dùng cá nhân."
+      },
+      {
+        "term": "C2C (Consumer-to-Consumer)",
+        "definition": "Mô hình thương mại điện tử trong đó người tiêu dùng bán sản phẩm/dịch vụ cho nhau."
+      },
+      {
+        "term": "M-commerce (Mobile Commerce)",
+        "definition": "Thương mại điện tử được thực hiện thông qua thiết bị di động không dây như điện thoại thông minh và máy tính bảng."
+      }
+    ],
+    "detailed_content": "## Giới thiệu về Thương mại điện tử: Định nghĩa, Đặc điểm và Các Mô hình Cơ bản\n\nPhần 1 của môn học \"Thương mại điện tử v2.0\" giới thiệu những khái niệm nền tảng, định hình bức tranh toàn cảnh về lĩnh vực năng động này. Chúng ta sẽ khám phá định nghĩa, sự khác biệt giữa thương mại điện tử và kinh doanh điện tử, các đặc điểm độc đáo của nó và các mô hình kinh doanh cơ bản.\n\n### 1. Định nghĩa và Phạm vi\n**Thương mại điện tử (E-commerce)** có thể được định nghĩa là việc sử dụng Internet, Web và các công nghệ kỹ thuật số di động để thực hiện các giao dịch kinh doanh. Nó liên quan đến việc trao đổi giá trị (sản phẩm, dịch vụ, thông tin) giữa các tổ chức hoặc cá nhân thông qua mạng máy tính. Điều quan trọng là phải phân biệt E-commerce với **Kinh doanh điện tử (E-business)**. E-business rộng hơn E-commerce, bao gồm toàn bộ các quy trình kinh doanh nội bộ và bên ngoài được kích hoạt bởi công nghệ kỹ thuật số, trong đó E-commerce chỉ là một phần tập trung vào các giao dịch mua bán.\n\n### 2. Các Đặc điểm Độc đáo của Thương mại điện tử\nThương mại điện tử sở hữu tám đặc điểm độc đáo giúp nó vượt trội so với thương mại truyền thống và định hình lại cách thức kinh doanh: \n*   **Tính phổ biến (Ubiquity):** Công nghệ internet/web có mặt ở mọi nơi, tại nhà, nơi làm việc, và nhiều nơi khác thông qua thiết bị di động. Điều này giúp giảm chi phí giao dịch cho cả người mua và người bán.\n*   **Phạm vi toàn cầu (Global Reach):** Công nghệ vượt qua ranh giới văn hóa và quốc gia, cho phép giao dịch diễn ra xuyên biên giới một cách dễ dàng. \n*   **Tiêu chuẩn chung (Universal Standards):** Internet là một bộ tiêu chuẩn kỹ thuật chung, tạo điều kiện thuận lợi cho giao dịch giữa các hệ thống và quốc gia khác nhau.\n*   **Sự phong phú (Richness):** Khả năng gửi thông điệp video, âm thanh và văn bản, tạo ra trải nghiệm đa phương tiện phong phú hơn so với giao tiếp truyền thống.\n*   **Tính tương tác (Interactivity):** Công nghệ cho phép giao tiếp hai chiều giữa người bán và người mua, tạo ra trải nghiệm người dùng năng động hơn.\n*   **Mật độ thông tin (Information Density):** Internet làm tăng đáng kể tổng lượng và chất lượng thông tin có sẵn cho tất cả các bên tham gia thị trường, dẫn đến sự minh bạch hơn về giá cả và chi phí.\n*   **Cá nhân hóa và Tùy chỉnh (Personalization/Customization):** Công nghệ cho phép điều chỉnh thông điệp tiếp thị và sản phẩm/dịch vụ phù hợp với từng cá nhân hoặc nhóm người dùng.\n*   **Công nghệ xã hội (Social Technology):** Khả năng tạo ra nội dung và tương tác xã hội thông qua các mạng xã hội và cộng đồng trực tuyến.\n\n### 3. Các Mô hình Thương mại điện tử Cơ bản\nThương mại điện tử được phân loại chủ yếu dựa trên bản chất của các bên tham gia giao dịch:\n*   **Business-to-Consumer (B2C):** Doanh nghiệp bán hàng cho người tiêu dùng cá nhân (ví dụ: Amazon, Tiki).\n*   **Business-to-Business (B2B):** Doanh nghiệp bán hàng cho doanh nghiệp khác (ví dụ: Alibaba, các nhà cung cấp dịch vụ đám mây).\n*   **Consumer-to-Consumer (C2C):** Người tiêu dùng bán hàng cho người tiêu dùng khác (ví dụ: eBay, Chợ Tốt).\n*   **Consumer-to-Business (C2B):** Người tiêu dùng cung cấp sản phẩm/dịch vụ cho doanh nghiệp (ví dụ: freelancers trên Upwork, Shutterstock).\n*   **Mobile Commerce (M-commerce):** Bất kỳ giao dịch thương mại nào được thực hiện thông qua thiết bị di động không dây (ví dụ: mua hàng qua ứng dụng di động, thanh toán di động).\n*   **Social Commerce:** Giao dịch thương mại được thực hiện thông qua hoặc bị ảnh hưởng bởi các nền tảng mạng xã hội (ví dụ: mua sắm trực tiếp trên Facebook Shop, quảng cáo trên Instagram).\n\nHiểu rõ các yếu tố này là nền tảng để đi sâu vào các khía cạnh phức tạp hơn của thương mại điện tử hiện đại. ",
+    "summary": "Phần 1 giới thiệu thương mại điện tử (e-commerce) là giao dịch kinh doanh qua công nghệ số, phân biệt với kinh doanh điện tử (e-business) rộng hơn. Bài học cũng làm nổi bật tám đặc điểm độc đáo của e-commerce như tính phổ biến, phạm vi toàn cầu, cá nhân hóa, và phân loại các mô hình chính như B2C, B2B, C2C, M-commerce và Social Commerce.",
+    "practical_examples": [
+      "**Cá nhân hóa (Personalization) trong B2C:** Khi bạn truy cập một trang thương mại điện tử như Amazon hoặc Lazada, hệ thống sẽ phân tích lịch sử mua hàng, lượt xem sản phẩm của bạn và đề xuất các sản phẩm liên quan hoặc các mặt hàng mà những người có sở thích tương tự đã mua. Điều này minh họa khả năng điều chỉnh nội dung và ưu đãi cho từng người dùng cụ thể.",
+      "**Mô hình C2C và tính tương tác:** Nền tảng Chợ Tốt cho phép người dùng cá nhân rao bán các mặt hàng không còn nhu cầu sử dụng cho người dùng khác. Người mua và người bán có thể trực tiếp nhắn tin, thương lượng giá cả và sắp xếp việc giao dịch, thể hiện tính tương tác cao giữa các cá nhân trên nền tảng số."
+    ],
+    "multimedia_diagram": "mindmap\n  root((Thương mại điện tử v2.0 - Phần 1))\n    Định nghĩa & Phạm vi\n      E-commerce\n      E-business\n    Đặc điểm Độc đáo\n      Tính phổ biến (Ubiquity)\n      Phạm vi toàn cầu (Global Reach)\n      Tiêu chuẩn chung (Universal Standards)\n      Sự phong phú (Richness)\n      Tính tương tác (Interactivity)\n      Mật độ thông tin (Information Density)\n      Cá nhân hóa & Tùy chỉnh\n      Công nghệ xã hội (Social Technology)\n    Mô hình Thương mại điện tử\n      B2C (Business-to-Consumer)\n      B2B (Business-to-Business)\n      C2C (Consumer-to-Consumer)\n      C2B (Consumer-to-Business)\n      M-commerce (Mobile Commerce)\n      Social Commerce",
+    "micro_learning_flashcards": [
+      {
+        "q": "Điểm khác biệt cốt lõi giữa E-commerce và E-business là gì?",
+        "a": "E-commerce tập trung vào giao dịch mua bán, còn E-business bao gồm tất cả các quy trình kinh doanh nội bộ và bên ngoài được số hóa."
+      },
+      {
+        "q": "Hãy kể tên 3 đặc điểm độc đáo của thương mại điện tử.",
+        "a": "Tính phổ biến, Phạm vi toàn cầu, Mật độ thông tin, Cá nhân hóa, Tương tác (có thể chọn 3 trong số 8)."
+      },
+      {
+        "q": "Amazon là ví dụ cho mô hình thương mại điện tử nào?",
+        "a": "Chủ yếu là B2C (Business-to-Consumer)."
+      },
+      {
+        "q": "Giao dịch mua hàng qua ứng dụng điện thoại được gọi là gì?",
+        "a": "M-commerce (Mobile Commerce)."
+      },
+      {
+        "q": "Khả năng điều chỉnh nội dung hoặc sản phẩm cho từng người dùng cụ thể được gọi là gì?",
+        "a": "Cá nhân hóa (Personalization)."
+      }
+    ]
+  },
+  "bloom_profile": {
+    "auto_calibrated_levels": [
+      1,
+      2,
+      3
+    ],
+    "user_adjusted_levels": null,
+    "effective_levels": [
+      1,
+      2,
+      3
+    ],
+    "calibration_method": "alpha_base",
+    "alpha_base": 15,
+    "created_at": "2026-04-27T01:53:52.092300"
+  },
+  "question_bank": {
+    "L1": [
+      {
+        "type": "mcq_recall",
+        "question": "Thương mại điện tử (E-commerce) được định nghĩa là gì?",
+        "options": {
+          "A": "Việc trao đổi hàng hóa và dịch vụ thông qua các cửa hàng vật lý truyền thống.",
+          "B": "Việc mua bán hàng hóa và dịch vụ chỉ sử dụng điện thoại di động.",
+          "C": "Việc mua bán hoặc trao đổi hàng hóa, dịch vụ hoặc thông tin thông qua mạng internet và các công nghệ số.",
+          "D": "Việc quảng cáo sản phẩm trên các nền tảng mạng xã hội mà không có giao dịch trực tiếp."
+        },
+        "correct": "C",
+        "explanation": "Thương mại điện tử (E-commerce) là hoạt động mua bán, trao đổi hàng hóa, dịch vụ hoặc thông tin thông qua các mạng máy tính, đặc biệt là internet và các công nghệ số liên quan."
+      },
+      {
+        "type": "flashcard",
+        "front": "Giải thích thuật ngữ B2C trong thương mại điện tử.",
+        "back": "B2C (Business-to-Consumer) là mô hình kinh doanh mà các doanh nghiệp bán sản phẩm hoặc dịch vụ trực tiếp cho người tiêu dùng cá nhân."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Nền tảng nào sau đây là ví dụ điển hình cho mô hình thương mại điện tử C2C (Consumer-to-Consumer)?",
+        "options": {
+          "A": "Tiki",
+          "B": "Lazada",
+          "C": "eBay",
+          "D": "Thegioididong.com"
+        },
+        "correct": "C",
+        "explanation": "eBay là một nền tảng cho phép người tiêu dùng cá nhân mua bán sản phẩm trực tiếp với nhau, thể hiện rõ mô hình C2C. Các lựa chọn khác chủ yếu là các nền tảng B2C (doanh nghiệp bán cho người tiêu dùng)."
+      },
+      {
+        "type": "flashcard",
+        "front": "Kể tên một đặc điểm nổi bật của thương mại điện tử so với thương mại truyền thống.",
+        "back": "Một đặc điểm nổi bật là 'Phạm vi toàn cầu' (Global Reach) hoặc 'Tính phổ biến' (Ubiquity), cho phép giao dịch mọi lúc mọi nơi mà không bị giới hạn bởi địa lý hay thời gian."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Đặc điểm 'Tính phổ biến' (Ubiquity) trong thương mại điện tử đề cập đến điều gì?",
+        "options": {
+          "A": "Khả năng tùy chỉnh sản phẩm cho từng khách hàng.",
+          "B": "Khả năng tiếp cận thị trường toàn cầu một cách dễ dàng.",
+          "C": "Khả năng truy cập và thực hiện giao dịch từ mọi nơi, mọi lúc, thông qua nhiều thiết bị.",
+          "D": "Khả năng tích hợp đa kênh bán hàng và tiếp thị."
+        },
+        "correct": "C",
+        "explanation": "Tính phổ biến (Ubiquity) trong thương mại điện tử ám chỉ khả năng có mặt ở mọi nơi, mọi lúc, cho phép người dùng truy cập dịch vụ và thực hiện giao dịch thông qua internet từ bất kỳ thiết bị nào có kết nối."
+      },
+      {
+        "type": "flashcard",
+        "front": "Nêu sự khác biệt chính giữa Thương mại điện tử (E-commerce) và Kinh doanh điện tử (E-business).",
+        "back": "Thương mại điện tử (E-commerce) tập trung vào các giao dịch mua bán, trao đổi hàng hóa/dịch vụ qua internet. Kinh doanh điện tử (E-business) có phạm vi rộng hơn, bao gồm tất cả các quy trình nghiệp vụ nội bộ và bên ngoài của doanh nghiệp được thực hiện bằng công nghệ số, trong đó E-commerce là một phần."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Giai đoạn đầu của thương mại điện tử thường được đặc trưng bởi hình thức giao dịch nào?",
+        "options": {
+          "A": "Các ứng dụng di động phức tạp tích hợp AI.",
+          "B": "Website đơn giản với chức năng catalog điện tử và đặt hàng trực tuyến.",
+          "C": "Nền tảng mạng xã hội tích hợp tính năng mua sắm trực tiếp.",
+          "D": "Hệ thống thanh toán không tiền mặt trên nền tảng blockchain."
+        },
+        "correct": "B",
+        "explanation": "Giai đoạn đầu của thương mại điện tử (khoảng những năm 1990) chủ yếu xoay quanh các website đơn giản đóng vai trò như catalog điện tử, cho phép khách hàng xem sản phẩm và đặt hàng trực tuyến."
+      }
+    ],
+    "L2": [
+      {
+        "type": "mcq_comprehension",
+        "question": "Mục đích chính của việc 'tự động tạo nội dung đánh giá' trong bối cảnh giáo dục là gì?",
+        "options": {
+          "A": "Giảm thiểu đáng kể thời gian và công sức thủ công, đồng thời tăng cường quy mô và tính nhất quán của các bài đánh giá.",
+          "B": "Loại bỏ hoàn toàn sự cần thiết của giáo viên trong quá trình thiết kế bài giảng và đề thi.",
+          "C": "Giới hạn số lượng câu hỏi có thể tạo ra để tránh quá tải cho học sinh.",
+          "D": "Đảm bảo rằng tất cả các câu hỏi đều có độ khó như nhau, phù hợp cho mọi đối tượng học sinh."
+        },
+        "correct": "A",
+        "explanation": "Việc tự động tạo nội dung đánh giá giúp tăng hiệu quả, cho phép tạo ra số lượng lớn câu hỏi một cách nhanh chóng và đảm bảo tính đồng đều về định dạng, cấu trúc, giúp tiết kiệm nguồn lực và nâng cao tính nhất quán của quá trình đánh giá."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Để một hệ thống có thể 'tự động tạo nội dung đánh giá' hiệu quả, nó thường cần được cung cấp một [BLANK] dữ liệu hoặc một [BLANK] kiến thức được cấu trúc rõ ràng.",
+        "answer": "kho",
+        "explanation": "Hệ thống tự động cần một kho dữ liệu lớn (ví dụ: các đoạn văn bản, khái niệm, câu hỏi mẫu) hoặc một cơ sở tri thức (knowledge base) để từ đó phân tích, hiểu và tạo ra các câu hỏi mới có liên quan và chính xác."
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "term": "Tăng hiệu quả",
+            "definition": "Khả năng tạo ra hàng loạt câu hỏi trong thời gian ngắn."
+          },
+          {
+            "term": "Tính nhất quán",
+            "definition": "Đảm bảo các câu hỏi được tạo ra tuân theo một định dạng, độ khó và phong cách chung."
+          },
+          {
+            "term": "Cá nhân hóa",
+            "definition": "Khả năng điều chỉnh độ khó hoặc loại câu hỏi dựa trên năng lực của từng học sinh."
+          }
+        ],
+        "explanation": "Các cặp từ này giải thích các lợi ích chính mà việc tự động hóa trong việc tạo nội dung đánh giá mang lại. 'Tăng hiệu quả' liên quan đến tốc độ và số lượng, 'Tính nhất quán' liên quan đến chất lượng đồng đều, và 'Cá nhân hóa' liên quan đến khả năng thích ứng với người học."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Khi so sánh với việc tạo nội dung đánh giá thủ công, đâu là điểm khác biệt chính về nguyên tắc hoạt động của phương pháp 'tự động'?",
+        "options": {
+          "A": "Phương pháp tự động dựa vào trực giác và kinh nghiệm cá nhân, trong khi thủ công dựa vào thuật toán.",
+          "B": "Phương pháp tự động sử dụng các thuật toán và mô hình học máy để phân tích dữ liệu và sinh câu hỏi, còn thủ công yêu cầu con người soạn thảo trực tiếp.",
+          "C": "Phương pháp tự động luôn tạo ra các câu hỏi sáng tạo hơn so với con người.",
+          "D": "Phương pháp tự động chỉ có thể tạo ra câu hỏi trắc nghiệm, còn thủ công có thể tạo mọi loại câu hỏi."
+        },
+        "correct": "B",
+        "explanation": "Sự khác biệt cốt lõi nằm ở phương thức: tự động hóa dựa trên lập trình, thuật toán và phân tích dữ liệu, trong khi thủ công là quá trình sáng tạo và soạn thảo trực tiếp của con người."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Một trong những thách thức chính của việc 'tự động tạo nội dung đánh giá' là đảm bảo [BLANK] và [BLANK] ngữ cảnh của các câu hỏi được tạo ra, đặc biệt đối với các môn học yêu cầu sự sáng tạo hoặc tư duy phản biện cao.",
+        "answer": "chất lượng",
+        "explanation": "Mặc dù hiệu quả, các hệ thống tự động vẫn gặp khó khăn trong việc hiểu sâu sắc ngữ cảnh, sự tinh tế của ngôn ngữ và khả năng tạo ra các câu hỏi đòi hỏi tư duy cấp cao, có thể ảnh hưởng đến chất lượng tổng thể của bài đánh giá."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Việc sử dụng 'tự động tạo nội dung đánh giá' giúp giải quyết vấn đề nào phổ biến mà các tổ chức giáo dục thường gặp phải?",
+        "options": {
+          "A": "Thiếu hụt nguồn tài chính để mua sắm thiết bị hiện đại.",
+          "B": "Khó khăn trong việc cung cấp các bài đánh giá đa dạng và liên tục cho số lượng lớn học sinh.",
+          "C": "Vấn đề về cơ sở vật chất cũ kỹ và xuống cấp.",
+          "D": "Sự phản đối của học sinh đối với các bài kiểm tra trực tuyến."
+        },
+        "correct": "B",
+        "explanation": "Hệ thống tự động hóa là giải pháp lý tưởng để mở rộng quy mô, giải quyết nhu cầu tạo ra một lượng lớn các bài kiểm tra, bài tập khác nhau một cách nhanh chóng và hiệu quả, đặc biệt phù hợp cho các lớp học lớn hoặc đào tạo trực tuyến."
+      }
+    ],
+    "L3": [
+      {
+        "type": "scenario_mcq",
+        "question": "Một nền tảng giáo dục trực tuyến lớn về Thương mại điện tử cần tạo ra hàng trăm câu hỏi trắc nghiệm đa dạng và chuyên sâu cho một module mới về 'Phân tích dữ liệu trong E-commerce'. Nền tảng này có sẵn một kho dữ liệu khổng lồ gồm các tài liệu nghiên cứu, báo cáo ngành và bài giảng đã được số hóa. Để đạt được mục tiêu này một cách hiệu quả và đảm bảo chất lượng, chiến lược tự động tạo nội dung nào là phù hợp nhất?",
+        "options": {
+          "A": "Sử dụng các mẫu câu hỏi cố định và điền thủ công các thuật ngữ từ tài liệu.",
+          "B": "Triển khai hệ thống dựa trên quy tắc đơn giản để trích xuất câu từ khóa và tạo câu hỏi Đúng/Sai.",
+          "C": "Áp dụng các mô hình Ngôn ngữ tự nhiên (NLP) tiên tiến và Học máy (ML) để phân tích ngữ nghĩa, trích xuất thông tin quan trọng và tự động sinh câu hỏi đa dạng.",
+          "D": "Thuê một đội ngũ lớn viết câu hỏi thủ công để đảm bảo độ chính xác tuyệt đối."
+        },
+        "correct": "C",
+        "explanation": "Để tạo ra 'hàng trăm câu hỏi đa dạng và chuyên sâu' từ 'kho dữ liệu khổng lồ' đòi hỏi khả năng hiểu ngữ nghĩa và linh hoạt trong tạo nội dung mà các phương pháp thủ công, mẫu cố định hay quy tắc đơn giản không thể đáp ứng. Các mô hình NLP và ML tiên tiến cho phép phân tích sâu dữ liệu, nhận diện các mối quan hệ giữa các khái niệm và tạo ra các câu hỏi phức tạp hơn, phù hợp với yêu cầu về sự đa dạng và chuyên sâu ở mức độ 'Áp dụng'."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một giảng viên muốn tự động hóa việc tạo các câu hỏi dạng điền từ (fill-in-the-blank) cho bài kiểm tra cuối kỳ về 'Chiến lược Marketing trong E-commerce'. Mục tiêu là các câu hỏi này phải tập trung vào các thuật ngữ chuyên ngành quan trọng và định nghĩa của chúng, không chỉ đơn thuần là các từ ngẫu nhiên. Giảng viên có một tập hợp các đoạn văn bản giải thích chi tiết các thuật ngữ này.",
+        "options": {
+          "A": "Áp dụng thuật toán ngẫu nhiên loại bỏ một từ bất kỳ trong mỗi câu để tạo chỗ trống.",
+          "B": "Sử dụng công cụ tìm kiếm từ khóa phổ biến nhất trong văn bản và biến chúng thành chỗ trống.",
+          "C": "Phát triển một thuật toán nhận diện các thuật ngữ được định nghĩa, sau đó loại bỏ thuật ngữ đó và tạo câu hỏi với chỗ trống, có thể cung cấp thêm các gợi ý ngữ cảnh.",
+          "D": "Sao chép nguyên văn các định nghĩa và yêu cầu học viên nhắc lại."
+        },
+        "correct": "C",
+        "explanation": "Mục tiêu là tập trung vào 'thuật ngữ chuyên ngành quan trọng và định nghĩa của chúng'. Phương pháp nhận diện các thuật ngữ được định nghĩa (thường thông qua cấu trúc ngữ pháp hoặc đánh dấu đặc biệt) và sau đó biến chúng thành chỗ trống sẽ đảm bảo câu hỏi bám sát mục tiêu học tập. Các phương án khác có thể tạo ra câu hỏi kém chất lượng hoặc không đúng trọng tâm."
+      },
+      {
+        "type": "case_study",
+        "case_description": "Công ty 'EcomPro' đang phát triển một khóa học Thương mại điện tử dành cho người mới bắt đầu. Họ muốn tích hợp các bài kiểm tra ngắn (quiz) sau mỗi phần học. Các bài kiểm tra này cần được tự động tạo ra từ nội dung bài giảng và phải cá nhân hóa một phần dựa trên tiến độ và sự tương tác của học viên (ví dụ: học viên đã xem lại phần nào nhiều lần, hay trả lời sai ở đâu).",
+        "tasks": [
+          {
+            "task_number": 1,
+            "task_question": "Bạn hãy đề xuất 02 công nghệ hoặc kỹ thuật chính mà EcomPro nên tích hợp vào hệ thống của mình để đạt được mục tiêu tự động hóa và cá nhân hóa nội dung đánh giá.",
+            "expected_answer_points": [
+              "Công nghệ xử lý ngôn ngữ tự nhiên (NLP): Để phân tích nội dung bài giảng, trích xuất các thông tin quan trọng, thuật ngữ, định nghĩa, và các mối quan hệ giữa các khái niệm. Từ đó, tạo ra các dạng câu hỏi khác nhau như trắc nghiệm, điền từ, đúng/sai.",
+              "Học máy (Machine Learning) và AI thích ứng: Để phân tích hành vi của học viên (thời gian học, kết quả quiz, các phần xem lại). Dựa trên dữ liệu này, hệ thống AI có thể điều chỉnh độ khó, loại câu hỏi hoặc tập trung vào các chủ đề mà học viên còn yếu, giúp cá nhân hóa trải nghiệm đánh giá."
+            ]
+          },
+          {
+            "task_number": 2,
+            "task_question": "Giải thích ngắn gọn cách mỗi công nghệ bạn đề xuất giúp giải quyết yêu cầu cụ thể của EcomPro.",
+            "expected_answer_points": [
+              "NLP giải quyết yêu cầu 'tự động tạo ra từ nội dung bài giảng' bằng cách biến văn bản thành các câu hỏi có cấu trúc. Ví dụ: từ câu 'Thanh toán trực tuyến là một hình thức thanh toán điện tử', NLP có thể tạo câu hỏi trắc nghiệm với lựa chọn 'Thanh toán trực tuyến là...' hoặc câu điền từ '______ là một hình thức thanh toán điện tử.'",
+              "Học máy/AI thích ứng giải quyết yêu cầu 'cá nhân hóa một phần dựa trên tiến độ và sự tương tác của học viên' bằng cách sử dụng thuật toán để phân tích dữ liệu học tập. Ví dụ, nếu học viên thường xuyên trả lời sai các câu về 'Logistics trong E-commerce', hệ thống AI sẽ ưu tiên tạo thêm câu hỏi về chủ đề này với độ khó phù hợp để củng cố kiến thức."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một hệ thống tự động tạo câu hỏi trắc nghiệm về các khái niệm cơ bản trong E-commerce đã tạo ra câu hỏi sau: 'Thương mại điện tử là gì?' với các lựa chọn: A. Mua bán hàng hóa và dịch vụ. B. Mua bán hàng hóa và dịch vụ qua internet. C. Trao đổi thông tin trực tuyến. D. Giao dịch kinh doanh điện tử. (Đáp án đúng là B). Tuy nhiên, lựa chọn 'A' và 'D' có thể gây nhầm lẫn hoặc không đủ rõ ràng để phân biệt. Để cải thiện chất lượng của các lựa chọn gây nhiễu (distractors) và đảm bảo câu hỏi có tính phân loại cao ở mức độ 'Áp dụng', người phát triển hệ thống nên điều chỉnh thuật toán tạo distractors theo hướng nào?",
+        "options": {
+          "A": "Giới hạn số lượng từ trong mỗi lựa chọn để chúng ngắn gọn hơn.",
+          "B": "Tạo các distractors hoàn toàn không liên quan đến chủ đề để dễ dàng loại bỏ.",
+          "C": "Phân tích ngữ cảnh và các khái niệm liên quan chặt chẽ nhưng không hoàn toàn chính xác hoặc chỉ đúng một phần, để tạo các distractors có vẻ hợp lý nhưng không phải là đáp án tốt nhất.",
+          "D": "Chỉ sử dụng các từ đồng nghĩa của đáp án đúng làm distractors."
+        },
+        "correct": "C",
+        "explanation": "Ở mức độ 'Áp dụng', câu hỏi cần có khả năng phân loại tốt. Tạo distractors hoàn toàn không liên quan (B) sẽ làm câu hỏi quá dễ. Sử dụng các khái niệm liên quan nhưng không hoàn toàn chính xác (C) sẽ thách thức học viên phân biệt sự khác nhau, đòi hỏi sự hiểu biết sâu sắc hơn về khái niệm, đúng với tinh thần của câu hỏi ứng dụng."
+      },
+      {
+        "type": "case_study",
+        "case_description": "Nền tảng 'ProductSkill' cung cấp các khóa học chuyên sâu về từng sản phẩm cụ thể (ví dụ: khóa học về sử dụng Shopify, khóa học về Google Ads cho E-commerce). Để đánh giá khả năng vận dụng kiến thức thực tế của học viên, ProductSkill muốn tự động tạo ra các bài tập tình huống hoặc các câu hỏi mô phỏng vấn đề thực tế, dựa trên kho tài liệu hướng dẫn sử dụng sản phẩm, các trường hợp thành công (case study) và các lỗi thường gặp.",
+        "tasks": [
+          {
+            "task_number": 1,
+            "task_question": "Bạn hãy đề xuất 02 cách thức hệ thống có thể 'áp dụng' thông tin từ các nguồn dữ liệu trên để tạo ra các câu hỏi đánh giá ở mức độ 'Áp dụng' (L3) cho ProductSkill.",
+            "expected_answer_points": [
+              "Tạo tình huống vấn đề: Hệ thống có thể trích xuất các 'lỗi thường gặp' hoặc 'thử thách' được mô tả trong tài liệu, biến chúng thành một tình huống. Ví dụ, từ đoạn mô tả lỗi 'Không thể kết nối Shopify với cổng thanh toán X', hệ thống tạo ra tình huống: 'Một cửa hàng Shopify mới không thể thiết lập cổng thanh toán X. Bạn sẽ làm gì để khắc phục?'",
+              "Yêu cầu so sánh/đánh giá giải pháp: Từ các 'trường hợp thành công' hoặc 'các lựa chọn cài đặt', hệ thống có thể tạo ra các câu hỏi yêu cầu học viên so sánh hai phương pháp hoặc đánh giá hiệu quả của một quyết định. Ví dụ: 'So sánh lợi ích của việc sử dụng Google Shopping Ads và Google Search Ads cho một cửa hàng E-commerce mới.' Các thông tin so sánh có thể được tổng hợp từ các tài liệu hướng dẫn."
+            ]
+          },
+          {
+            "task_number": 2,
+            "task_question": "Loại câu hỏi đánh giá nào sẽ phù hợp nhất với 02 cách thức bạn vừa đề xuất?",
+            "expected_answer_points": [
+              "MCQ tình huống (Scenario-MCQ): Phù hợp để trình bày một tình huống cụ thể và cung cấp các lựa chọn giải pháp, yêu cầu học viên áp dụng kiến thức để chọn ra phương án tối ưu.",
+              "Bài tập Case Study ngắn/Câu hỏi mở: Cho phép học viên tự trình bày giải pháp hoặc phân tích tình huống, thể hiện khả năng tư duy và vận dụng kiến thức thực tế."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một nhà phát triển đang xây dựng một module tự động tạo câu hỏi cho các chủ đề phụ của khóa học E-commerce v2.0. Module này cần đảm bảo rằng các câu hỏi được tạo ra có độ khó phù hợp với cấp độ 'Áp dụng' (Bloom L3).",
+        "options": {
+          "A": "Tạo câu hỏi yêu cầu định nghĩa thuật ngữ chính xác theo bài giảng.",
+          "B": "Tạo câu hỏi yêu cầu liệt kê các bước thực hiện một quy trình cụ thể.",
+          "C": "Tạo câu hỏi trình bày một tình huống giả định trong kinh doanh điện tử và yêu cầu học viên đề xuất giải pháp hoặc hành động cụ thể.",
+          "D": "Tạo câu hỏi yêu cầu nhận diện các sự kiện hoặc mốc thời gian quan trọng trong lịch sử E-commerce."
+        },
+        "correct": "C",
+        "explanation": "Câu hỏi ở cấp độ 'Áp dụng' (Bloom L3) yêu cầu người học sử dụng kiến thức, kỹ năng đã học để giải quyết một vấn đề mới hoặc trong một tình huống cụ thể. Câu hỏi trình bày tình huống và yêu cầu giải pháp (C) là đặc trưng của cấp độ này, khác với việc nhớ lại (A, D) hoặc hiểu quy trình (B)."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Sau khi triển khai một hệ thống tự động tạo nội dung đánh giá cho khóa học 'Quản lý kho hàng trong E-commerce', người quản lý nhận thấy nhiều câu hỏi trắc nghiệm được tạo ra có các lựa chọn đúng-sai (True/False) mà cả hai phương án đều có vẻ hợp lý tùy theo cách diễn giải hoặc câu hỏi không đủ rõ ràng để có một đáp án duy nhất. Nguồn dữ liệu đầu vào là các tài liệu kỹ thuật chuyên sâu và đôi khi có nhiều cách tiếp cận khác nhau cho một vấn đề.",
+        "options": {
+          "A": "Thêm một lựa chọn 'Không có đáp án đúng' vào tất cả các câu hỏi để người học tự quyết định.",
+          "B": "Yêu cầu hệ thống chỉ tạo ra các câu hỏi có đáp án duy nhất và rõ ràng bằng cách so sánh chặt chẽ các lựa chọn với các dữ kiện trong bài giảng, loại bỏ những câu hỏi có sự chồng chéo ngữ nghĩa.",
+          "C": "Đơn giản hóa nội dung bài giảng để tránh sự phức tạp và đa nghĩa.",
+          "D": "Tăng số lượng câu hỏi để bù đắp cho chất lượng không đồng đều."
+        },
+        "correct": "B",
+        "explanation": "Vấn đề 'cả hai phương án đều có vẻ hợp lý' hoặc 'không đủ rõ ràng' cho thấy thiếu tính khách quan và phân loại của câu hỏi. Để cải thiện, hệ thống cần được tinh chỉnh để 'chỉ tạo ra các câu hỏi có đáp án duy nhất và rõ ràng'. Điều này đòi hỏi thuật toán phân tích ngữ nghĩa sâu hơn để phát hiện và loại bỏ các trường hợp gây nhầm lẫn hoặc có nhiều hơn một đáp án 'đúng' dựa trên cùng một ngữ cảnh. Đây là một ứng dụng kỹ thuật để giải quyết vấn đề chất lượng đầu ra."
+      }
+    ]
+  }
+}

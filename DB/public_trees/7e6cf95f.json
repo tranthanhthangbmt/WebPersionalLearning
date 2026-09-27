@@ -1,0 +1,691 @@
+{
+    "course_name": "Toán lớp 6 - Kết nối tri thức với cuộc sống",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Chương I: Tập hợp các số tự nhiên",
+            "type": "macro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "m2",
+            "title": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+            "type": "macro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "m3",
+            "title": "Chương III: Số nguyên",
+            "type": "macro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "m4",
+            "title": "Chương IV: Một số hình phẳng trong thực tiễn",
+            "type": "macro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Bài 1. Tập hợp",
+            "content": "Nhận biết tập hợp và các phần tử của nó. Sử dụng ký hiệu thuộc (∈) và không thuộc (∉). Mô tả tập hợp bằng cách liệt kê phần tử hoặc nêu dấu hiệu đặc trưng. Phân biệt tập hợp số tự nhiên N và N*.",
+            "alpha_base": 12,
+            "type": "micro",
+            "description_md": "## Mục tiêu bài học\n\n*   Người học có khả năng nhận biết, hiểu rõ khái niệm tập hợp và phân biệt rõ đâu là tập hợp, đâu là phần tử của tập hợp.\n*   Người học nắm vững và sử dụng thành thạo ký hiệu thuộc (∈) và không thuộc (∉) để biểu thị mối quan hệ giữa phần tử và tập hợp.\n*   Người học có thể diễn đạt một tập hợp theo hai cách cơ bản: liệt kê tất cả các phần tử hoặc nêu dấu hiệu đặc trưng để xác định các phần tử.\n*   Người học phân biệt được sự khác nhau giữa tập hợp số tự nhiên (N) và tập hợp số tự nhiên khác 0 (N*), hiểu được ý nghĩa và cách sử dụng của từng tập hợp.\n*   Người học vận dụng kiến thức về tập hợp để giải quyết các bài toán thực tế đơn giản, phát triển tư duy logic và khả năng mô hình hóa.\n\n## Nội dung chính\n\n*   **Khái niệm Tập hợp và Phần tử:** Bài học giới thiệu một cách trực quan về tập hợp như một \"bộ sưu tập\" các đối tượng (phần tử) có chung một đặc điểm nào đó. Ví dụ minh họa như tập hợp các đồ dùng học tập trên bàn, tập hợp các bạn trong lớp.\n*   **Ký hiệu ∈ và ∉:** Người học được làm quen với hai ký hiệu toán học cơ bản là \"thuộc\" (∈) và \"không thuộc\" (∉) để thể hiện mối quan hệ giữa một đối tượng và một tập hợp. Ví dụ: Nếu A là tập hợp các số chẵn nhỏ hơn 10, thì $4 \\in A$ nhưng $3 \\notin A$.\n*   **Cách mô tả Tập hợp:** Bài học hướng dẫn hai phương pháp chính để mô tả một tập hợp:\n    *   **Liệt kê các phần tử:** Viết tất cả các phần tử thuộc tập hợp trong dấu ngoặc nhọn {}. Ví dụ: Tập hợp các ngày trong tuần là {Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy, Chủ Nhật}.\n    *   **Nêu dấu hiệu đặc trưng:** Mô tả tính chất chung của các phần tử thuộc tập hợp. Ví dụ: Tập hợp A là tập hợp các số tự nhiên nhỏ hơn 5, ký hiệu $A = \\{x \\mid x \\in \\mathbb{N}, x < 5\\}$.\n*   **Tập hợp số tự nhiên N và N\\*:** Phân biệt rõ ràng tập hợp số tự nhiên ($\\mathbb{N} = \\{0, 1, 2, 3, ...\\}$) bao gồm cả số 0, và tập hợp số tự nhiên khác 0 ($\\mathbb{N}^* = \\{1, 2, 3, ...\\}$) không bao gồm số 0, làm rõ mục đích sử dụng của mỗi ký hiệu trong các bài toán.\n\n## Khái niệm trọng tâm\n\n*   **Tập hợp (Set):** Một khái niệm cơ bản trong toán học, là một bộ sưu tập các đối tượng phân biệt.\n*   **Phần tử (Element):** Mỗi đối tượng riêng lẻ thuộc về một tập hợp.\n*   **Ký hiệu thuộc (∈):** Dùng để chỉ một phần tử nằm trong một tập hợp.\n*   **Ký hiệu không thuộc (∉):** Dùng để chỉ một phần tử không nằm trong một tập hợp.\n*   **Dấu hiệu đặc trưng:** Một tính chất chung xác định các phần tử của một tập hợp.\n*   **Tập hợp số tự nhiên ($\\mathbb{N}$):** Tập hợp các số đếm bắt đầu từ 0.\n*   **Tập hợp số tự nhiên khác 0 ($\\mathbb{N}^*$):** Tập hợp các số đếm bắt đầu từ 1.\n\n## Công thức & Quy tắc\n\n*   **Cách liệt kê phần tử của tập hợp:**\n    Nếu A là một tập hợp, ta có thể viết các phần tử của A trong dấu ngoặc nhọn:\n    $A = \\{a_1, a_2, a_3, ..., a_n\\}$\n    hoặc\n    $A = \\{a_1, a_2, a_3, ...\\}$\n\n*   **Cách nêu dấu hiệu đặc trưng của tập hợp:**\n    Nếu A là tập hợp các phần tử x có tính chất P, ta viết:\n    $A = \\{x \\mid P(x)\\}$\n    trong đó dấu \"|\" đọc là \"sao cho\" hoặc \"với\".\n\n*   **Tập hợp số tự nhiên:**\n    $\\mathbb{N} = \\{0, 1, 2, 3, ...\\}$\n\n*   **Tập hợp số tự nhiên khác 0:**\n    $\\mathbb{N}^* = \\{1, 2, 3, ...\\}$\n\n*   **Quan hệ thuộc:**\n    Nếu phần tử a thuộc tập hợp A, ta viết: $a \\in A$.\n    Nếu phần tử b không thuộc tập hợp A, ta viết: $b \\notin A$.",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 12,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Bài 2. Cách ghi số tự nhiên",
+            "content": "Hệ thập phân sử dụng 10 chữ số với giá trị phụ thuộc vào vị trí. Biểu diễn số tự nhiên thành tổng giá trị các chữ số. Số La Mã sử dụng I, V, X để biểu diễn số từ 1 đến 30, không có số 0.",
+            "alpha_base": 15,
+            "type": "micro",
+            "description_md": "## Mục tiêu bài học\n\n*   Người học nắm vững cấu trúc và nguyên lý hoạt động của hệ thập phân, hiểu rõ vai trò của vị trí chữ số trong việc xác định giá trị.\n*   Người học có khả năng phân tích và biểu diễn một số tự nhiên dưới dạng tổng giá trị các chữ số theo hệ thập phân.\n*   Người học nhận biết được sự khác biệt cơ bản giữa hệ thập phân và hệ số La Mã, đặc biệt là cách biểu diễn và sự vắng mặt của chữ số 0 trong hệ La Mã.\n*   Người học bước đầu làm quen với các ký hiệu cơ bản của số La Mã và có thể chuyển đổi đơn giản giữa hai hệ đếm.\n\n## Nội dung chính\n\n*   **Hệ thập phân và nguyên lý vị trí:** Bài học giới thiệu hệ thập phân là hệ đếm phổ biến nhất, sử dụng mười chữ số từ 0 đến 9. Khái niệm cốt lõi là giá trị của mỗi chữ số phụ thuộc vào vị trí của nó trong số đó (ví dụ: chữ số 2 trong 20 và 200 có giá trị khác nhau).\n*   **Biểu diễn số tự nhiên theo vị trí:** Người học sẽ được hướng dẫn cách phân tích một số tự nhiên thành tổng các giá trị của từng chữ số dựa trên hệ thập phân. Ví dụ, số 345 có thể được viết thành $3 \\times 100 + 4 \\times 10 + 5 \\times 1$.\n*   **Giới thiệu số La Mã:** Bài học cung cấp cái nhìn tổng quan về hệ số La Mã, một hệ thống đếm cổ xưa, với các ký hiệu cơ bản như I (1), V (5), X (10). Người học làm quen với cách đọc và viết các số nhỏ trong hệ này.\n*   **So sánh hai hệ đếm:** Sự khác biệt về cấu trúc và nguyên lý giữa hệ thập phân và hệ La Mã được nhấn mạnh, đặc biệt là việc hệ La Mã không có ký hiệu cho số 0 và cách nó không sử dụng nguyên lý vị trí theo cách của hệ thập phân.\n\n## Khái niệm trọng tâm\n\n*   Hệ thập phân\n*   Nguyên lý vị trí\n*   Giá trị của chữ số\n*   Số La Mã\n*   Chữ số 0\n\n## Công thức & Quy tắc\n\nĐể biểu diễn một số tự nhiên $N$ trong hệ thập phân, ta có thể viết nó dưới dạng tổng các giá trị của các chữ số theo công thức sau:\n\nGiả sử số tự nhiên $N$ có $k$ chữ số, được biểu diễn là $a_{k-1} a_{k-2} \\ldots a_1 a_0$, trong đó $a_i$ là chữ số ở vị trí thứ $i$ (tính từ phải sang, bắt đầu từ 0).\nKhi đó, ta có:\n\n$$ N = a_{k-1} \\times 10^{k-1} + a_{k-2} \\times 10^{k-2} + \\ldots + a_1 \\times 10^1 + a_0 \\times 10^0 $$\n\n**Ví dụ:**\nSố 583 có thể được biểu diễn như sau:\n$a_2 = 5$, $a_1 = 8$, $a_0 = 3$.\n$N = 5 \\times 10^2 + 8 \\times 10^1 + 3 \\times 10^0$\n$N = 5 \\times 100 + 8 \\times 10 + 3 \\times 1$\n$N = 500 + 80 + 3 = 583$\n\n**Quy tắc cơ bản của số La Mã (đến 30):**\n*   I = 1\n*   V = 5\n*   X = 10\n\n**Nguyên tắc ghép số:**\n*   Các ký hiệu được viết từ trái sang phải, theo thứ tự giá trị giảm dần. Ví dụ: XV = 10 + 5 = 15, XII = 10 + 1 + 1 = 12.\n*   Khi một ký hiệu có giá trị nhỏ hơn đứng trước một ký hiệu có giá trị lớn hơn, ta thực hiện phép trừ. Ví dụ: IV = 5 - 1 = 4, IX = 10 - 1 = 9. (Quy tắc này chỉ áp dụng cho một số trường hợp nhất định và không phải lúc nào cũng có).\n*   Một ký hiệu chỉ được lặp lại tối đa ba lần. Ví dụ: III = 3, XXX = 30. Các số như 4 (IV) hoặc 40 (XL) không viết là IIII hoặc XXXX.\n\n**Ví dụ về chuyển đổi số La Mã:**\n*   1 = I\n*   2 = II\n*   3 = III\n*   4 = IV\n*   5 = V\n*   6 = VI\n*   ...\n*   9 = IX\n*   10 = X\n*   11 = XI\n*   14 = XIV\n*   15 = XV\n*   ...\n*   19 = XIX\n*   20 = XX\n*   ...\n*   29 = XXIX\n*   30 = XXX",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Bài 3. Thứ tự trong tập hợp các số tự nhiên",
+            "content": "Biểu diễn số tự nhiên trên tia số, số nhỏ hơn nằm bên trái. Xác định số liền trước, liền sau. Áp dụng tính chất bắc cầu (nếu a < b và b < c thì a < c). Sử dụng ký hiệu ≤ và ≥.",
+            "alpha_base": 15,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c1.4",
+            "parent_macro": "m1",
+            "title": "Bài 4. Phép cộng và phép trừ số tự nhiên",
+            "content": "Thực hiện phép cộng và trừ số tự nhiên. Vận dụng tính chất giao hoán, kết hợp của phép cộng. Hiểu điều kiện để thực hiện phép trừ là số bị trừ phải lớn hơn hoặc bằng số trừ (a ≥ b).",
+            "alpha_base": 20,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c1.5",
+            "parent_macro": "m1",
+            "title": "Bài 5. Phép nhân và phép chia số tự nhiên",
+            "content": "Thực hiện phép nhân và chia số tự nhiên. Vận dụng tính chất giao hoán, kết hợp, phân phối của phép nhân. Nắm vững phép chia hết và phép chia có dư với điều kiện của số dư.",
+            "alpha_base": 25,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c1.6",
+            "parent_macro": "m1",
+            "title": "Bài 6. Luỹ thừa với số mũ tự nhiên",
+            "content": "Định nghĩa luỹ thừa bậc n của a là tích của n thừa số a (a^n = a.a...a). Nắm quy ước bình phương (a^2), lập phương (a^3). Áp dụng quy tắc nhân, chia hai luỹ thừa cùng cơ số và quy ước a^0 = 1.",
+            "alpha_base": 25,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c1.7",
+            "parent_macro": "m1",
+            "title": "Bài 7. Thứ tự thực hiện các phép tính",
+            "content": "Quy tắc thực hiện phép tính: Luỹ thừa -> Nhân và chia -> Cộng và trừ. Thực hiện từ trái sang phải nếu chỉ có phép cộng/trừ hoặc nhân/chia. Ưu tiên thực hiện phép tính trong dấu ngoặc tròn, vuông, nhọn.",
+            "alpha_base": 25,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Bài 8. Quan hệ chia hết và tính chất",
+            "content": "Nhận biết a chia hết cho b (b ≠ 0) nếu a = k.b (a ⋮ b). Hiểu khái niệm Ước và Bội. Tìm tập hợp Ư(a) và B(a). Áp dụng tính chất chia hết của một tổng/hiệu.",
+            "alpha_base": 15,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Bài 9. Dấu hiệu chia hết",
+            "content": "Vận dụng dấu hiệu chia hết cho 2 (tận cùng là số chẵn), 5 (tận cùng là 0 hoặc 5), 9 (tổng chữ số chia hết cho 9), 3 (tổng chữ số chia hết cho 3) để nhận biết nhanh tính chia hết.",
+            "alpha_base": 20,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c2.3",
+            "parent_macro": "m2",
+            "title": "Bài 10. Số nguyên tố",
+            "content": "Phân biệt số nguyên tố (chỉ có 2 ước là 1 và chính nó) và hợp số (có nhiều hơn 2 ước). Số 0 và 1 không phải nguyên tố cũng không hợp số. Phân tích số tự nhiên lớn hơn 1 ra thừa số nguyên tố.",
+            "alpha_base": 25,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c2.4",
+            "parent_macro": "m2",
+            "title": "Bài 11. Ước chung. Ước chung lớn nhất",
+            "content": "Định nghĩa Ước chung (ƯC) và Ước chung lớn nhất (ƯCLN). Tìm ƯCLN bằng cách phân tích ra thừa số nguyên tố: chọn thừa số chung, mũ nhỏ nhất. Ứng dụng tìm ƯC, rút gọn phân số.",
+            "alpha_base": 25,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c2.5",
+            "parent_macro": "m2",
+            "title": "Bài 12. Bội chung. Bội chung nhỏ nhất",
+            "content": "Định nghĩa Bội chung (BC) và Bội chung nhỏ nhất (BCNN). Tìm BCNN: chọn thừa số chung và riêng, mũ lớn nhất. Ứng dụng tìm BC, quy đồng mẫu phân số.",
+            "alpha_base": 25,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Bài 13. Tập hợp các số nguyên",
+            "content": "Nhận biết số nguyên dương, âm, tập hợp số nguyên Z. Số 0 không dương cũng không âm. Ứng dụng số nguyên biểu thị đại lượng đối lập. Biểu diễn trên trục số và so sánh hai số nguyên.",
+            "alpha_base": 15,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "Bài 14. Phép cộng và phép trừ số nguyên",
+            "content": "Thực hiện cộng hai số nguyên cùng dấu và khác dấu. Nhận biết hai số đối nhau có tổng bằng 0. Áp dụng tính chất giao hoán, kết hợp. Thực hiện phép trừ bằng cách cộng với số đối.",
+            "alpha_base": 20,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Bài 15. Quy tắc dấu ngoặc",
+            "content": "Quy tắc bỏ dấu ngoặc: giữ nguyên dấu khi có dấu '+' đằng trước, đổi dấu khi có dấu '-' đằng trước. Tính toán hợp lí dựa trên quy tắc này.",
+            "alpha_base": 15,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c3.4",
+            "parent_macro": "m3",
+            "title": "Bài 16. Phép nhân số nguyên",
+            "content": "Thực hiện nhân hai số nguyên khác dấu (kết quả âm) và cùng dấu (kết quả dương). Tích với 0 bằng 0. Áp dụng tính chất giao hoán, kết hợp, phân phối của phép nhân.",
+            "alpha_base": 20,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c3.5",
+            "parent_macro": "m3",
+            "title": "Bài 17. Phép chia hết. Ước và bội của một số nguyên",
+            "content": "Nhận biết a chia hết cho b (b ≠ 0) nếu a = b.q (a ⋮ b). Khi đó, b là ước, a là bội. Biết tìm ước và bội của số nguyên, hiểu nếu a là bội của b thì -a cũng là bội của b.",
+            "alpha_base": 25,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c4.1",
+            "parent_macro": "m4",
+            "title": "Bài 18. Hình tam giác đều. Hình vuông. Hình lục giác đều",
+            "content": "Nhận biết các yếu tố của hình tam giác đều (3 cạnh, 3 góc 60°), hình vuông (4 cạnh, 4 góc 90°, 2 đường chéo bằng nhau), hình lục giác đều (6 cạnh, 6 góc 120°, 3 đường chéo chính bằng nhau). Biết vẽ hình.",
+            "alpha_base": 20,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c4.2",
+            "parent_macro": "m4",
+            "title": "Bài 19. Hình chữ nhật. Hình bình hành. Hình thoi",
+            "content": "Nhận biết hình chữ nhật (2 cặp cạnh đối song song bằng nhau, 4 góc vuông, 2 đường chéo bằng nhau). Hình bình hành (2 cặp cạnh đối song song và bằng nhau, các góc đối bằng nhau). Hình thoi (4 cạnh bằng nhau, các góc đối bằng nhau, 2 đường chéo vuông góc và cắt nhau tại trung điểm mỗi đường.",
+            "alpha_base": 20,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        },
+        {
+            "id": "c4.3",
+            "parent_macro": "m4",
+            "title": "Bài 20. Chu vi và diện tích của một số hình phẳng",
+            "content": "Tính chu vi hình chữ nhật (2(a+b)), hình vuông (4a), hình bình hành (2(a+b)), hình thoi (4a). Tính diện tích hình chữ nhật (a.b), hình vuông (a^2), hình bình hành (a.h), hình thoi (1/2 . d1.d2).",
+            "alpha_base": 25,
+            "type": "micro",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-05-14T08:31:31.306815"
+            }
+        }
+    ],
+    "assess_nodes": [],
+    "user_id": "thanhthangbmt",
+    "edges": [
+        {
+            "source": "c1.1",
+            "target": "c1.2",
+            "reason": "Cần hiểu về tập hợp để biết cách ghi số tự nhiên."
+        },
+        {
+            "source": "c1.2",
+            "target": "c1.3",
+            "reason": "Cần biết cách ghi số tự nhiên để xác định thứ tự của chúng."
+        },
+        {
+            "source": "c1.3",
+            "target": "c1.4",
+            "reason": "Cần hiểu về thứ tự số tự nhiên để thực hiện phép cộng và trừ."
+        },
+        {
+            "source": "c1.4",
+            "target": "c1.5",
+            "reason": "Cần hiểu phép cộng và trừ để học phép nhân và chia."
+        },
+        {
+            "source": "c1.5",
+            "target": "c1.6",
+            "reason": "Cần hiểu phép nhân để học về luỹ thừa."
+        },
+        {
+            "source": "c1.4",
+            "target": "c1.7",
+            "reason": "Cần hiểu các phép tính cơ bản (cộng, trừ) để biết thứ tự thực hiện chúng."
+        },
+        {
+            "source": "c1.5",
+            "target": "c1.7",
+            "reason": "Cần hiểu các phép tính cơ bản (nhân, chia) để biết thứ tự thực hiện chúng."
+        },
+        {
+            "source": "c1.5",
+            "target": "c2.1",
+            "reason": "Cần hiểu phép chia số tự nhiên để học về quan hệ chia hết."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.2",
+            "reason": "Cần hiểu quan hệ chia hết để học các dấu hiệu chia hết."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.3",
+            "reason": "Cần hiểu quan hệ chia hết để định nghĩa số nguyên tố."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.4",
+            "reason": "Cần hiểu quan hệ chia hết để tìm ước chung lớn nhất."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.5",
+            "reason": "Cần hiểu quan hệ chia hết để tìm bội chung nhỏ nhất."
+        },
+        {
+            "source": "c1.1",
+            "target": "c3.1",
+            "reason": "Cần hiểu khái niệm tập hợp để mở rộng sang tập hợp số nguyên."
+        },
+        {
+            "source": "c1.4",
+            "target": "c3.2",
+            "reason": "Cần hiểu phép cộng, trừ số tự nhiên để học phép cộng, trừ số nguyên."
+        },
+        {
+            "source": "c3.2",
+            "target": "c3.3",
+            "reason": "Cần hiểu phép cộng, trừ số nguyên để học quy tắc dấu ngoặc."
+        },
+        {
+            "source": "c1.5",
+            "target": "c3.4",
+            "reason": "Cần hiểu phép nhân số tự nhiên để học phép nhân số nguyên."
+        },
+        {
+            "source": "c2.1",
+            "target": "c3.5",
+            "reason": "Cần hiểu quan hệ chia hết của số tự nhiên để mở rộng cho số nguyên."
+        },
+        {
+            "source": "c3.4",
+            "target": "c3.5",
+            "reason": "Cần hiểu phép nhân số nguyên để học về ước và bội của số nguyên."
+        },
+        {
+            "source": "c1.1",
+            "target": "c4.1",
+            "reason": "Cần hiểu khái niệm tập hợp để học về các hình phẳng thuộc tập hợp."
+        },
+        {
+            "source": "c1.1",
+            "target": "c4.2",
+            "reason": "Cần hiểu khái niệm tập hợp để học về các hình phẳng thuộc tập hợp."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.3",
+            "reason": "Cần hiểu các hình phẳng cơ bản để tính chu vi và diện tích của chúng."
+        },
+        {
+            "source": "c4.2",
+            "target": "c4.3",
+            "reason": "Cần hiểu các hình phẳng cơ bản để tính chu vi và diện tích của chúng."
+        }
+    ]
+}

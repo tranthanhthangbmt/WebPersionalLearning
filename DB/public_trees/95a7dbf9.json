@@ -1,0 +1,3522 @@
+{
+    "course_name": "Thương mại điện tử v2.0 (MIT)",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Chương 1",
+            "type": "macro",
+            "resources": [
+                {
+                    "id": "res_quiz_MD1_f296",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1",
+                    "title": "📝 Trắc nghiệm - Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_1_44ad",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 1: Khái niệm và Tiếp cận (Chuong_1_Tiet_1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_2_5dbb",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 2: Phân loại, Lợi ích và Hạn chế (Chuong_1_Tiet_2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_3_ff55",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 3: Sự phát triển và Đánh giá (Chuong_1_Tiet_3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_4_5363",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_4/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 4: Hạ tầng Pháp lý và Công nghệ (Chuong_1_Tiet_4)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_5_5eb9",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_5/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 5: Hạ tầng Thanh toán và An toàn thông tin (Chuong_1_Tiet_5)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_6_1fb8",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_6/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 6: Hạ tầng Nhân lực, Phân phối & Bài tập (Chuong_1_Tiet_6)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_7_ee23",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_7/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 7: Mô hình B2C và B2B (Chuong_1_Tiet_7)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_8_929f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_8/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 8: Mô hình C2C và C2B (Chuong_1_Tiet_8)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_9_57c4",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_9/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 9: Phân tích Mô hình & Đánh giá (Chuong_1_Tiet_9)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_10_0769",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_10/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 10: Tổng quan về Sàn Giao dịch (Chuong_1_Tiet_10)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_11_c0a4",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_11/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 11: Lợi ích và Phương thức giao dịch (Chuong_1_Tiet_11)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_1_Tiet_12_ae4f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_12/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 12: Thực hành và Làm việc nhóm (Chuong_1_Tiet_12)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T14:12:35.877849"
+            }
+        },
+        {
+            "id": "m2",
+            "title": "Chương 2",
+            "type": "macro",
+            "resources": [
+                {
+                    "id": "res_quiz_MD2_d54b",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2",
+                    "title": "📝 Trắc nghiệm - Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_2_Tiet_2_adca",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 2:  (Chuong_2_Tiet_2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_2_Tiet_3_d203",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 3:  (Chuong_2_Tiet_3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_2_Tiet_4_d76b",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_4/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 4:  (Chuong_2_Tiet_4)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_2_Tiet_5_07d1",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_5/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 5:  (Chuong_2_Tiet_5)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_2_Tiet_6_7bcd",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_6/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 6:  (Chuong_2_Tiet_6)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T14:12:35.877849"
+            }
+        },
+        {
+            "id": "m3",
+            "title": "Chương 3",
+            "type": "macro",
+            "resources": [
+                {
+                    "id": "res_quiz_MD3_b033",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3",
+                    "title": "📝 Trắc nghiệm - Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_3_Tiet_1_cfdd",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 1:  (Chuong_3_Tiet_1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_3_Tiet_2_6b57",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 2:  (Chuong_3_Tiet_2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_3_Tiet_3_c12d",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 3:  (Chuong_3_Tiet_3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_3_Tiet_4_3b03",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_4/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 4:  (Chuong_3_Tiet_4)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_3_Tiet_5_3fba",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_5/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 5:  (Chuong_3_Tiet_5)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_3_Tiet_6_c15c",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_6/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 6:  (Chuong_3_Tiet_6)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T14:12:35.877849"
+            }
+        },
+        {
+            "id": "m4",
+            "title": "Chương 4",
+            "type": "macro",
+            "resources": [
+                {
+                    "id": "res_quiz_MD4_3b9f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4",
+                    "title": "📝 Trắc nghiệm - Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_4_Tiet_1_f49c",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 1:  (Chuong_4_Tiet_1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_4_Tiet_2_5130",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 2:  (Chuong_4_Tiet_2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_4_Tiet_3_3b5d",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 3:  (Chuong_4_Tiet_3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T14:12:35.877849"
+            }
+        },
+        {
+            "id": "m5",
+            "title": "Chương 5",
+            "type": "macro",
+            "resources": [
+                {
+                    "id": "res_quiz_MD5_e3d7",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5",
+                    "title": "📝 Trắc nghiệm - Module 5",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_5_Tiet_1_8ad2",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 1:  (Chuong_5_Tiet_1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_5_Tiet_2_ce22",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 2:  (Chuong_5_Tiet_2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_Chuong_5_Tiet_3_e49f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản Video: Tiết 3:  (Chuong_5_Tiet_3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T14:12:35.878851"
+            }
+        },
+        {
+            "id": "m999",
+            "title": "Chương 999 (Mở rộng)",
+            "type": "macro",
+            "resources": [
+                {
+                    "id": "res_quiz_MD999_6364",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD999",
+                    "title": "📝 Trắc nghiệm - Module 999",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T14:12:35.878899"
+            }
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "Chuong_1_Tiet_1",
+            "title": "Tiết 1: Khái niệm và Tiếp cận",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_c3df45c0",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.692404"
+                },
+                {
+                    "id": "res_online_ec3a7b33",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_b7f58c6b",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_1/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_2",
+            "title": "Tiết 2: Phân loại, Lợi ích và Hạn chế",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_2ead1382",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_2/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.768766"
+                },
+                {
+                    "id": "res_online_cb5f7603",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_38432c1f",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_2/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_3",
+            "title": "Tiết 3: Sự phát triển và Đánh giá",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_327ac926",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_3/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.796171"
+                },
+                {
+                    "id": "res_online_0c66f0d4",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_fc8f2843",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_3/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_4",
+            "title": "Tiết 4: Hạ tầng Pháp lý và Công nghệ",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_ceff7a87",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_4/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.825770"
+                },
+                {
+                    "id": "res_online_eec944fb",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_4/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_bfba6d18",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_4/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_5",
+            "title": "Tiết 5: Hạ tầng Thanh toán và An toàn thông tin",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_ab56c068",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_5/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.847890"
+                },
+                {
+                    "id": "res_online_e0cb1406",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_5/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_6fc18076",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_5/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_6",
+            "title": "Tiết 6: Hạ tầng Nhân lực, Phân phối & Bài tập",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_358daf71",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_6/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.871498"
+                },
+                {
+                    "id": "res_online_4cc218d5",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_6/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_b5f2a63e",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_6/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_7",
+            "title": "Tiết 7: Mô hình B2C và B2B",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_5a0d190a",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_7/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.896006"
+                },
+                {
+                    "id": "res_online_b6507940",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_7/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_ddf5ba32",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_7/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_8",
+            "title": "Tiết 8: Mô hình C2C và C2B",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_35e0e84a",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_8/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.943734"
+                },
+                {
+                    "id": "res_online_cd9e29e1",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_8/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_f564b154",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_8/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_9",
+            "title": "Tiết 9: Phân tích Mô hình & Đánh giá",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_5a5c2a3e",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_9/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.962886"
+                },
+                {
+                    "id": "res_online_4f190ee0",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_9/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_74aa84ad",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_9/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_10",
+            "title": "Tiết 10: Tổng quan về Sàn Giao dịch",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_a3658de0",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_10/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:36.986899"
+                },
+                {
+                    "id": "res_online_1866f180",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_10/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_b94fc8d7",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_10/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_11",
+            "title": "Tiết 11: Lợi ích và Phương thức giao dịch",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_e8ba74f4",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_11/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.013290"
+                },
+                {
+                    "id": "res_online_51720146",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_11/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_b6cf913e",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_11/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_1_Tiet_12",
+            "title": "Tiết 12: Thực hành và Làm việc nhóm",
+            "type": "micro",
+            "parent_macro": "m1",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_ad003b95",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_12/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.055936"
+                },
+                {
+                    "id": "res_online_2edead9f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_12/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_c7cfdb5d",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_1_Tiet_12/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_2_Tiet_2",
+            "title": "Tiết 2: ",
+            "type": "micro",
+            "parent_macro": "m2",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_383755a1",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_2/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.090181"
+                },
+                {
+                    "id": "res_8eed68ab",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_2/Phần 2_Electronic_Contract_Essentials.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.118740"
+                },
+                {
+                    "id": "res_online_70327bcd",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_cd01fca5",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_2_Tiet_2/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_2_Tiet_3",
+            "title": "Tiết 3: ",
+            "type": "micro",
+            "parent_macro": "m2",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_d805c981",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_3/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.155802"
+                },
+                {
+                    "id": "res_533eb795",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_3/Phần 2_Electronic_Contract_Essentials (1).pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.177085"
+                },
+                {
+                    "id": "res_online_bab8b653",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_b0422dd5",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_2_Tiet_3/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_2_Tiet_4",
+            "title": "Tiết 4: ",
+            "type": "micro",
+            "parent_macro": "m2",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_62340b6c",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_4/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.192504"
+                },
+                {
+                    "id": "res_a5c3294b",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_4/Phần 4_Electronic_Payment_Fundamentals.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.218453"
+                },
+                {
+                    "id": "res_online_9e8ff2f2",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_4/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_1ff77614",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_2_Tiet_4/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_2_Tiet_5",
+            "title": "Tiết 5: ",
+            "type": "micro",
+            "parent_macro": "m2",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_887ce8b8",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_5/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.254791"
+                },
+                {
+                    "id": "res_0fe09b0f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_5/Phần 5_Digital_Payment_Strategies.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.275837"
+                },
+                {
+                    "id": "res_online_df51d9f4",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_5/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_b9699450",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_2_Tiet_5/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_2_Tiet_6",
+            "title": "Tiết 6: ",
+            "type": "micro",
+            "parent_macro": "m2",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_af160277",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_6/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.301261"
+                },
+                {
+                    "id": "res_0d383ee3",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_6/Phần 6_Digital_Signatures_and_Authentication.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.347888"
+                },
+                {
+                    "id": "res_online_014c1fe3",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_6/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_c39723ec",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_2_Tiet_6/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_3_Tiet_1",
+            "title": "Tiết 1: ",
+            "type": "micro",
+            "parent_macro": "m3",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_b86c5c0d",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.379047"
+                },
+                {
+                    "id": "res_2c44dfb8",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/Phần 1_Digital_Marketing_Mindset.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.406253"
+                },
+                {
+                    "id": "res_online_9c59ad56",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_26373c4c",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_3_Tiet_1/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_3_Tiet_2",
+            "title": "Tiết 2: ",
+            "type": "micro",
+            "parent_macro": "m3",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_66557d93",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_2/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.434691"
+                },
+                {
+                    "id": "res_269c4d38",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_2/Phần 2_Digital_Behavior_Blueprint.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.457913"
+                },
+                {
+                    "id": "res_online_42777d42",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_dc38f15f",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_3_Tiet_2/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_3_Tiet_3",
+            "title": "Tiết 3: ",
+            "type": "micro",
+            "parent_macro": "m3",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_b5a7b978",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_3/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.480281"
+                },
+                {
+                    "id": "res_e54d11c6",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_3/Phần 3_Decoding_Digital_Footprints.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.524122"
+                },
+                {
+                    "id": "res_online_855b4b87",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_9344a0cd",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_3_Tiet_3/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_3_Tiet_4",
+            "title": "Tiết 4: ",
+            "type": "micro",
+            "parent_macro": "m3",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_ee9e5f78",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_4/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.551938"
+                },
+                {
+                    "id": "res_de233172",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_4/Phần 4_The_Digital_Marketing_Arsenal.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.578806"
+                },
+                {
+                    "id": "res_online_ec6ff5e1",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_4/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_fed47512",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_3_Tiet_4/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_3_Tiet_5",
+            "title": "Tiết 5: ",
+            "type": "micro",
+            "parent_macro": "m3",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_33d6fcfe",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_5/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.628106"
+                },
+                {
+                    "id": "res_df707a74",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_5/Phần 5_Marketing_Mission_Control.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.671016"
+                },
+                {
+                    "id": "res_online_0f68ffca",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_5/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_cd09ece4",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_3_Tiet_5/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_3_Tiet_6",
+            "title": "Tiết 6: ",
+            "type": "micro",
+            "parent_macro": "m3",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_5e2d199c",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_6/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.701845"
+                },
+                {
+                    "id": "res_fa8ee5fc",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_6/Phần 6_E-Marketing_Analytics.pdf",
+                    "title": "Slide Bài Giảng (PDF)",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "2026-04-17T14:49:37.725975"
+                },
+                {
+                    "id": "res_online_dacc30eb",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_6/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_ffe17cab",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_3_Tiet_6/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_4_Tiet_1",
+            "title": "Tiết 1: ",
+            "type": "micro",
+            "parent_macro": "m4",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_3c96a497",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.746970"
+                },
+                {
+                    "id": "res_online_c7488272",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_534f620b",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_4_Tiet_1/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_4_Tiet_2",
+            "title": "Tiết 2: ",
+            "type": "micro",
+            "parent_macro": "m4",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_8ba4383b",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_2/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.808480"
+                },
+                {
+                    "id": "res_online_5b007494",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_00d29782",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_4_Tiet_2/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_4_Tiet_3",
+            "title": "Tiết 3: ",
+            "type": "micro",
+            "parent_macro": "m4",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_7c810b4e",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_3/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.836755"
+                },
+                {
+                    "id": "res_online_30e8c13d",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_a6635b27",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_4_Tiet_3/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_5_Tiet_1",
+            "title": "Tiết 1: ",
+            "type": "micro",
+            "parent_macro": "m5",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_b3669abb",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.859377"
+                },
+                {
+                    "id": "res_online_6af50dd7",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_07960345",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_5_Tiet_1/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_5_Tiet_2",
+            "title": "Tiết 2: ",
+            "type": "micro",
+            "parent_macro": "m5",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_081cddc2",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_2/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.886260"
+                },
+                {
+                    "id": "res_online_bbc27ec6",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_2/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_84601aff",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_5_Tiet_2/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "Chuong_5_Tiet_3",
+            "title": "Tiết 3: ",
+            "type": "micro",
+            "parent_macro": "m5",
+            "prerequisites": [],
+            "resources": [
+                {
+                    "id": "res_5516dd9b",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_3/index.html",
+                    "title": "Bài giảng Video (HT Sinh Viên)",
+                    "type": "youtube",
+                    "icon": "🌐",
+                    "added_at": "2026-04-17T14:49:37.908291"
+                },
+                {
+                    "id": "res_online_8b56cf55",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_3/script.txt",
+                    "title": "📄 Kịch bản bài giảng (Online)",
+                    "type": "document",
+                    "icon": "📄"
+                },
+                {
+                    "id": "res_local_e215775c",
+                    "url": "vscode://file/I:/MY_CODE/WebPersionalLearning/DB/Video/Chuong_5_Tiet_3/script.txt",
+                    "title": "✏️ Chỉnh sửa Kịch bản (Local)",
+                    "type": "link",
+                    "icon": "✏️"
+                }
+            ],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "CONCEPT_17e4c5",
+            "title": "Tong_hop_toan_bo",
+            "type": "micro",
+            "parent_macro": "m999",
+            "prerequisites": [],
+            "resources": [],
+            "questions": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "a_CONCEPT_17e4c5",
+            "title": "Đánh giá CONCEPT_17e4c5",
+            "type": "assess",
+            "parent_micro": "CONCEPT_17e4c5",
+            "questions": [
+                {
+                    "question": "Theo nghĩa hẹp, thương mại điện tử (E-commerce) chủ yếu tập trung vào hoạt động nào?",
+                    "options": [
+                        "A. Đào tạo nhân sự nội bộ.",
+                        "B. Mua bán qua mạng.",
+                        "C. Quản lý tài nguyên doanh nghiệp (ERP).",
+                        "D. Thiết kế sản phẩm mới."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Thuật ngữ \"E-business\" (Kinh doanh điện tử) khác với \"E-commerce\" (Thương mại điện tử) ở điểm nào?",
+                    "options": [
+                        "A. E-business hẹp hơn E-commerce.",
+                        "B. E-business chỉ dùng cho B2B.",
+                        "C. E-business có phạm vi rộng hơn.",
+                        "D. Cả hai thuật ngữ là đồng nghĩa."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_1",
+            "title": "Đánh giá Chuong_1_Tiet_1",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_1",
+            "questions": [
+                {
+                    "question": "Theo nghĩa hẹp, thương mại điện tử (E-commerce) chủ yếu tập trung vào hoạt động nào?",
+                    "options": [
+                        "A. Đào tạo nhân sự nội bộ.",
+                        "B. Mua bán qua mạng.",
+                        "C. Quản lý tài nguyên doanh nghiệp (ERP).",
+                        "D. Thiết kế sản phẩm mới."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Thuật ngữ \"E-business\" (Kinh doanh điện tử) khác với \"E-commerce\" (Thương mại điện tử) ở điểm nào?",
+                    "options": [
+                        "A. E-business hẹp hơn E-commerce.",
+                        "B. E-business chỉ dùng cho B2B.",
+                        "C. E-business có phạm vi rộng hơn.",
+                        "D. Cả hai thuật ngữ là đồng nghĩa."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_10",
+            "title": "Đánh giá Chuong_1_Tiet_10",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_10",
+            "questions": [
+                {
+                    "question": "\"E-marketplace\" (Sàn giao dịch điện tử) khác với \"Marketplace\" (Chợ truyền thống) ở điểm cơ bản nào?",
+                    "options": [
+                        "A. Chỉ bán hàng vào giờ hành chính.",
+                        "B. Là không gian ảo (Marketspace).",
+                        "C. Chỉ sử dụng tiền mặt để thanh toán.",
+                        "D. Yêu cầu người mua và người bán gặp mặt."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Trong cấu trúc của một sàn giao dịch, \"Front-end\" (Giao diện người dùng) bao gồm thành phần nào?",
+                    "options": [
+                        "A. Quản lý kho bãi phía sau.",
+                        "B. Giỏ hàng và Catalog điện tử.",
+                        "C. Hệ thống kế toán nội bộ.",
+                        "D. Quy trình đóng gói và vận chuyển."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_11",
+            "title": "Đánh giá Chuong_1_Tiet_11",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_11",
+            "questions": [
+                {
+                    "question": "Lợi ích cơ bản nhất mà các Sàn giao dịch TMĐT mang lại cho NGƯỜI MUA là gì?",
+                    "options": [
+                        "A. Tăng giá sản phẩm.",
+                        "B. Giảm chi phí tìm kiếm.",
+                        "C. Tăng thời gian mua hàng.",
+                        "D. Giới hạn nhà cung cấp."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Phương thức giao dịch \"Catalog điện tử cố định\" (Fixed Pricing) thường được sử dụng phổ biến nhất trong mô hình nào?",
+                    "options": [
+                        "A. C2C đấu giá.",
+                        "B. B2C bán lẻ.",
+                        "C. B2B đấu thầu.",
+                        "D. Sàn chứng khoán."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_12",
+            "title": "Đánh giá Chuong_1_Tiet_12",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_12",
+            "questions": [
+                {
+                    "question": "Khi xây dựng ý tưởng cho dự án TMĐT, yếu tố \"Đề xuất giá trị\" (Value Proposition) nhằm giải quyết vấn đề cốt lõi nào?",
+                    "options": [
+                        "A. Lý do khách chọn bạn thay vì đối thủ.",
+                        "B. Tổng số vốn cần đầu tư ban đầu.",
+                        "C. Quy trình tuyển dụng nhân sự kho.",
+                        "D. Danh sách các loại thuế phải đóng."
+                    ],
+                    "answer": "A"
+                },
+                {
+                    "question": "Khi lập kế hoạch cho một gian hàng TMĐT mới, bước đầu tiên thường là gì?",
+                    "options": [
+                        "A. Chạy quảng cáo ngay.",
+                        "B. Xác định khách hàng mục tiêu.",
+                        "C. Thuê nhân viên giao hàng.",
+                        "D. Mua phần mềm đắt tiền."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_2",
+            "title": "Đánh giá Chuong_1_Tiet_2",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_2",
+            "questions": [
+                {
+                    "question": "Loại hình giao dịch TMĐT nào chiếm tỷ trọng lớn nhất (khoảng 85%) về khối lượng giao dịch?",
+                    "options": [
+                        "A. Business-to-Consumer (B2C).",
+                        "B. Consumer-to-Consumer (C2C).",
+                        "C. Business-to-Business (B2B).",
+                        "D. Government-to-Citizen (G2C)."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Hoạt động bán hàng giữa các cá nhân trên eBay hoặc Chợ Tốt thuộc mô hình nào?",
+                    "options": [
+                        "A. B2C.",
+                        "B. C2B.",
+                        "C. C2C.",
+                        "D. B2B."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.888231"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_3",
+            "title": "Đánh giá Chuong_1_Tiet_3",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_3",
+            "questions": [
+                {
+                    "question": "Hình thức sơ khai của thương mại điện tử xuất hiện vào thập niên 1970 là gì?",
+                    "options": [
+                        "A. Sàn giao dịch B2B.",
+                        "B. Chuyển tiền điện tử (EFT).",
+                        "C. Mạng xã hội.",
+                        "D. Website bán lẻ trực tuyến."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Thuật ngữ \"Disintermediation\" (Phi trung gian hóa) trong TMĐT mô tả hiện tượng nào?",
+                    "options": [
+                        "A. Thêm nhiều đại lý vào kênh phân phối.",
+                        "B. Loại bỏ các trung gian.",
+                        "C. Tăng chi phí hoa hồng cho môi giới.",
+                        "D. Hợp tác chặt chẽ với các nhà bán buôn."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889537"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_4",
+            "title": "Đánh giá Chuong_1_Tiet_4",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_4",
+            "questions": [
+                {
+                    "question": "\"Internet\" và \"World Wide Web\" (WWW) có mối quan hệ như thế nào?",
+                    "options": [
+                        "A. Chúng là hai thuật ngữ đồng nghĩa hoàn toàn.",
+                        "B. WWW là hạ tầng vật lý, Internet là phần mềm.",
+                        "C. Internet là mạng lưới vật lý; WWW là dịch vụ chạy trên đó.",
+                        "D. Internet chỉ dành cho quân đội, WWW dành cho dân sự."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Mạng nội bộ của một doanh nghiệp sử dụng các tiêu chuẩn Internet (như trình duyệt web) để chia sẻ thông tin cho nhân viên được gọi là gì?",
+                    "options": [
+                        "A. Extranet.",
+                        "B. Intranet.",
+                        "C. Ethernet.",
+                        "D. Internet công cộng."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_5",
+            "title": "Đánh giá Chuong_1_Tiet_5",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_5",
+            "questions": [
+                {
+                    "question": "Vai trò chính của một \"Cổng thanh toán\" (Payment Gateway) trong thương mại điện tử là gì?",
+                    "options": [
+                        "A. Cung cấp dịch vụ vận chuyển hàng hóa.",
+                        "B. Trung gian xử lý giao dịch điện tử.",
+                        "C. Phát hành thẻ tín dụng cho người mua.",
+                        "D. Quản lý kho hàng cho người bán."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Giao thức bảo mật nào thường được nhận biết qua biểu tượng \"ổ khóa\" và tiền tố \"https://\" trên trình duyệt?",
+                    "options": [
+                        "A. FTP.",
+                        "B. SSL/TLS.",
+                        "C. TCP/IP.",
+                        "D. SMTP."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_6",
+            "title": "Đánh giá Chuong_1_Tiet_6",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_6",
+            "questions": [
+                {
+                    "question": "Thuật ngữ \"Order Fulfillment\" (Hoàn tất đơn hàng) đề cập đến quy trình nào?",
+                    "options": [
+                        "A. Chỉ là khâu vận chuyển hàng hóa.",
+                        "B. Quy trình từ nhận đơn đến khi giao hàng.",
+                        "C. Chỉ là khâu sản xuất sản phẩm tại nhà máy.",
+                        "D. Việc khách hàng thanh toán tiền mặt."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "\"Reverse Logistics\" (Logistics ngược) trong thương mại điện tử chủ yếu giải quyết vấn đề gì?",
+                    "options": [
+                        "A. Nhập nguyên liệu thô.",
+                        "B. Xử lý hàng hóa đổi trả.",
+                        "C. Giao hàng chặng cuối.",
+                        "D. Tuyển dụng nhân sự mới."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_7",
+            "title": "Đánh giá Chuong_1_Tiet_7",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_7",
+            "questions": [
+                {
+                    "question": "Thuật ngữ \"E-tailer\" trong mô hình B2C chủ yếu đề cập đến đối tượng nào?",
+                    "options": [
+                        "A. Người cung cấp nội dung số.",
+                        "B. Nhà bán lẻ trực tuyến.",
+                        "C. Cổng thông tin điện tử.",
+                        "D. Nhà cung cấp dịch vụ mạng."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Wall Street Journal Online (wsj.com) hay Netflix là ví dụ điển hình của mô hình B2C nào?",
+                    "options": [
+                        "A. Portal (Cổng thông tin).",
+                        "B. Content Provider (Nhà cung cấp nội dung).",
+                        "C. Transaction Broker (Môi giới giao dịch).",
+                        "D. Market Creator (Nhà tạo thị trường)."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_8",
+            "title": "Đánh giá Chuong_1_Tiet_8",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_8",
+            "questions": [
+                {
+                    "question": "Trong mô hình Thương mại điện tử C2C, các bên tham gia giao dịch chính là ai?",
+                    "options": [
+                        "A. Doanh nghiệp và Chính phủ.",
+                        "B. Cá nhân với cá nhân.",
+                        "C. Doanh nghiệp bán cho đại lý.",
+                        "D. Nhà sản xuất và nhà bán buôn."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Website nào sau đây là ví dụ điển hình cho mô hình C2C thông qua đấu giá trực tuyến?",
+                    "options": [
+                        "A. Amazon.com.",
+                        "B. Walmart.com.",
+                        "C. eBay.com.",
+                        "D. Dell.com."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_1_Tiet_9",
+            "title": "Đánh giá Chuong_1_Tiet_9",
+            "type": "assess",
+            "parent_micro": "Chuong_1_Tiet_9",
+            "questions": [
+                {
+                    "question": "\"Mô hình kinh doanh\" (Business Model) trong TMĐT được định nghĩa là gì?",
+                    "options": [
+                        "A. Bản danh sách nhân viên công ty.",
+                        "B. Phương pháp tạo ra doanh thu và giá trị.",
+                        "C. Báo cáo tài chính cuối năm.",
+                        "D. Quy trình sản xuất tại nhà máy."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Thành phần nào trong mô hình kinh doanh mô tả \"Lý do khách hàng nên chọn mua từ bạn\"?",
+                    "options": [
+                        "A. Cơ cấu chi phí.",
+                        "B. Đề xuất giá trị (Value Proposition).",
+                        "C. Đối tác chính.",
+                        "D. Kênh phân phối."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_2_Tiet_2",
+            "title": "Đánh giá Chuong_2_Tiet_2",
+            "type": "assess",
+            "parent_micro": "Chuong_2_Tiet_2",
+            "questions": [
+                {
+                    "question": "Giao kết hợp đồng điện tử là sự thỏa thuận về quyền và nghĩa vụ thông qua việc sử dụng gì?",
+                    "options": [
+                        "A. Thông qua sự thỏa thuận bằng các phương thức sử dụng lời nói giao tiếp",
+                        "B. Bằng những sự trao đổi văn bản trên giấy chứng từ, thư từ truyền thống",
+                        "C. Dựa vào thông qua sự giao kết thỏa thuận bằng các phương thức dữ liệu số",
+                        "D. Thể hiện qua việc người mua tiến hành thanh toán tiền trước khi nhận đơn"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Đặc điểm nổi bật nào của hợp đồng điện tử khác với hợp đồng truyền thống?",
+                    "options": [
+                        "A. Bắt buộc phải có hệ chữ ký tay trực tiếp để chứng thực tính pháp lý hợp lệ",
+                        "B. Bắt buộc khâu thanh toán phải bằng tiền mặt khi nhận giao món hàng hóa cho",
+                        "C. Luôn phải có sự gặp mặt trực tiếp để đàm phán thống nhất mặt giá cả chi phí",
+                        "D. Sở hữu khả năng tự động hóa hoàn toàn không cần sự can thiệp của con người"
+                    ],
+                    "answer": "D"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_2_Tiet_3",
+            "title": "Đánh giá Chuong_2_Tiet_3",
+            "type": "assess",
+            "parent_micro": "Chuong_2_Tiet_3",
+            "questions": [
+                {
+                    "question": "Theo tài liệu Cẩm nang thực chiến, chủ đề chính của tiết học này tập trung vào điều gì?",
+                    "options": [
+                        "A. Quy trình thiết kế website bán hàng trực tuyến.",
+                        "B. Những lưu ý cốt lõi khi sử dụng Hợp đồng điện tử.",
+                        "C. Các hình thức thanh toán trực tuyến phổ biến hiện nay.",
+                        "D. Cách thức giao nhận hàng hóa trong không gian số."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Tại sao tên chủ đề lại mang tính chất \"phòng thủ\" (Field Manual)?",
+                    "options": [
+                        "A. Vì pháp luật cấm các doanh nghiệp tấn công lẫn nhau.",
+                        "B. Vì rủi ro lừa đảo hoặc mất tài sản trên mạng rất lớn.",
+                        "C. Vì hệ thống mạng thường xuyên bị lỗi mất kết nối.",
+                        "D. Vì các giao dịch điện tử luôn cần công an bảo vệ."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_2_Tiet_4",
+            "title": "Đánh giá Chuong_2_Tiet_4",
+            "type": "assess",
+            "parent_micro": "Chuong_2_Tiet_4",
+            "questions": [
+                {
+                    "question": "Theo định nghĩa học thuật, Thanh toán điện tử là gì?",
+                    "options": [
+                        "A. Chỉ là việc thao tác thanh toán bằng tiền mặt qua website.",
+                        "B. Tiến hành thanh toán giá trị tiền tệ qua phương tiện điện tử.",
+                        "C. Quá trình này chỉ áp dụng cho các giao dịch ngân hàng lớn.",
+                        "D. Là phương thức tự động nạp tiền vào chiếc thẻ cào điện thoại."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Sự khác biệt lớn nhất giữa việc tìm hiểu thanh toán điện tử của sinh viên nhóm ngành kinh tế và người dùng bình thường là gì?",
+                    "options": [
+                        "A. Tập trung tìm hiểu cách quét mã QR sao cho nhanh nhất.",
+                        "B. Tìm cách nhận được nhiều mã khuyến mãi khi thanh toán nhất.",
+                        "C. Hiểu hệ thống vận hành, quản trị rủi ro và tích hợp mô hình.",
+                        "D. Biết cách đăng nhập ứng dụng mọi lúc mọi nơi để dùng liền."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_2_Tiet_5",
+            "title": "Đánh giá Chuong_2_Tiet_5",
+            "type": "assess",
+            "parent_micro": "Chuong_2_Tiet_5",
+            "questions": [
+                {
+                    "question": "Tại sao thói quen chọn thanh toán bằng tiền mặt khi nhận hàng (COD) lại gây rủi ro cao cho doanh nghiệp?",
+                    "options": [
+                        "A. Giúp doanh nghiệp thu hút được thêm nhiều khách hàng trẻ.",
+                        "B. Làm chậm vòng quay vốn và tiềm ẩn nguy cơ từ chối nhận hàng.",
+                        "C. Làm tăng một cách trực tiếp số tiền chi phí sản xuất sản phẩm.",
+                        "D. Khách hàng sẽ thường xuyên trả dư thêm tiền boa cho shipper."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Thiết lập chiến lược thanh toán điện tử tốt giúp doanh nghiệp điều gì?",
+                    "options": [
+                        "A. Tuyển được nhiều nhân viên thu ngân hơn để phục vụ khách hàng trực tiếp.",
+                        "B. Tránh bị các cơ quan thuế kiểm tra hệ thống sổ sách kế toán của công ty.",
+                        "C. Chốt sale ngay lập tức và tạo trải nghiệm mua sắm không có độ trễ thời gian.",
+                        "D. Phát triển thêm nhiều chi nhánh bán lẻ trực tiếp tiếp cận đến người tiêu dùng."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_2_Tiet_6",
+            "title": "Đánh giá Chuong_2_Tiet_6",
+            "type": "assess",
+            "parent_micro": "Chuong_2_Tiet_6",
+            "questions": [
+                {
+                    "question": "Trong thương mại điện tử giao dịch lớn bằng tỷ đồng cần một công cụ xác thực nào có sức nặng tương đương con dấu đỏ và chữ ký tay thực?",
+                    "options": [
+                        "A. Một mã bấm chữ số an ninh được gửi về tin nhắn SMS của người quản lý điện thoại.",
+                        "B. Hệ thống giải mã quét QRCode loại tĩnh được xử lý bằng các loại máy tính bảng.",
+                        "C. Chữ ký số do các đơn vị tổ chức CA thiết lập mã hóa phức tạp để chứng thực lập ra.",
+                        "D. Bản chụp hình máy quét scan chữ ký viết được người đại diện bằng giấy viết tay thường."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Mục tiêu đầu tiên của tiết học thứ 6 về Chữ ký số là gì?",
+                    "options": [
+                        "A. Học thuộc toàn bộ hướng dẫn cách tải các phần mềm công cụ để khai báo cho cục thuế.",
+                        "B. Nhận diện được nguyên lý bản chất hoạt động cốt lõi của chữ ký số đang dùng cho giao dịch.",
+                        "C. Học và tự nghiên cứu chuyên sâu về cách thức tự phát minh ra chuẩn mật mã bất đối xứng.",
+                        "D. Thiết kế để giải mã được toàn bộ mã nguồn của cơ sở thuộc Bộ Thông tin và Truyền thông."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_3_Tiet_1",
+            "title": "Đánh giá Chuong_3_Tiet_1",
+            "type": "assess",
+            "parent_micro": "Chuong_3_Tiet_1",
+            "questions": [
+                {
+                    "question": "Bản chất của Marketing điện tử theo bài giảng không chỉ là treo banner quảng cáo mà là gì?",
+                    "options": [
+                        "A. Tăng chi phí quảng cáo và mở rộng thị phần",
+                        "B. Phát tờ rơi điện tử để tối ưu hóa doanh thu",
+                        "C. Xây dựng mối quan hệ dài hạn qua dữ liệu",
+                        "D. Gọi điện thoại chăm sóc từng khách hàng"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Marketing điện tử thay đổi cách giao tiếp như thế nào so với việc dùng loa phát thanh phường?",
+                    "options": [
+                        "A. Phát sóng thông điệp rộng hơn và nhanh hơn",
+                        "B. Gõ cửa mục tiêu nhờ sự thấu hiểu từ dữ liệu",
+                        "C. Dùng TV để gửi gắm ưu đãi số lượng nhiều",
+                        "D. Nhắn tin SMS hàng loạt để giảm chi phí bán"
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_3_Tiet_2",
+            "title": "Đánh giá Chuong_3_Tiet_2",
+            "type": "assess",
+            "parent_micro": "Chuong_3_Tiet_2",
+            "questions": [
+                {
+                    "question": "Thông điệp cốt lõi được nhấn mạnh về sự trung thành của khách hàng trên Internet trong Tiết học là gì?",
+                    "options": [
+                        "A. Khách mua online có xu hướng trung thành với một nhãn",
+                        "B. Sự trung thành trên hệ thống mạng rất khó để đứt gãy",
+                        "C. Đối thủ chỉ cách một cú click lòng trung thành rất mỏng",
+                        "D. Khách chỉ nán lại nếu bạn gọi điện tư vấn thêm kỹ"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Quyết định mua hàng của khách trực tuyến KHÔNG CHỈ phụ thuộc vào bản thân sản phẩm mà còn vào:",
+                    "options": [
+                        "A. Phương thức thanh toán truyền thống và giá bán",
+                        "B. Đặc điểm môi trường người bán và hệ thống mạng",
+                        "C. Khoảng cách địa lý từ kho hàng đến nơi giao tận",
+                        "D. Thái độ tích cực khi xem hàng ở cửa hàng thật"
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_3_Tiet_3",
+            "title": "Đánh giá Chuong_3_Tiet_3",
+            "type": "assess",
+            "parent_micro": "Chuong_3_Tiet_3",
+            "questions": [
+                {
+                    "question": "Câu Trên Internet mọi cú click chuột đều để lại dấu vết mang ý nghĩa cốt lõi gì cho Marketing?",
+                    "options": [
+                        "A. Thông cá nhân dễ bị bên khác mã hóa",
+                        "B. Ai nắm được nguồn dữ liệu người đó làm chủ thị trường",
+                        "C. Rủi ro khi thanh toán qua thẻ tín dụng sẽ tăng cao độ",
+                        "D. Khách hàng không thể giấu khoản dư nợ nào khác"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Ưu điểm nổi bật của Nghiên cứu thị trường điện tử so với truyền thống là:",
+                    "options": [
+                        "A. Cần chuyên gia điền phiếu đảm bảo chất lượng cực tốt",
+                        "B. Giao lưu trực tiếp kết nối người dùng rất thân thiết",
+                        "C. Thu thập nhanh tối ưu chi phí và xử lý nguồn mẫu lớn",
+                        "D. Chỉ nhắm vào sinh viên trường lớn phân loại rất dễ"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_3_Tiet_4",
+            "title": "Đánh giá Chuong_3_Tiet_4",
+            "type": "assess",
+            "parent_micro": "Chuong_3_Tiet_4",
+            "questions": [
+                {
+                    "question": "Ý nghĩa của câu nói Website không có công cụ dẫn đường giống như cửa hàng giữa sa mạc là gì?",
+                    "options": [
+                        "A. Trải nghiệm lướt web vô cùng khô khan và chán ngắt như hè",
+                        "B. Làm web rất đẹp nhưng thiếu quảng bá thì không ai tới xem",
+                        "C. Chỉ có những thương hiệu lớn mới được hiển thị trang tìm",
+                        "D. Nên từ bỏ thiết kế web để chạy thẳng vào các hội chợ phiên"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Inbound Marketing (Tiếp thị Kéo) được sinh ra với mục tiêu cốt lõi gì?",
+                    "options": [
+                        "A. Ép người dùng mở xem những banner nháy chớp chớp đều mỗi ngày",
+                        "B. Hướng dẫn người dùng mua qua gọi điện chèo kéo thường xuyên liên",
+                        "C. Dùng giá trị hữu ích trong bài viết lôi kéo khách đến thương hiệu",
+                        "D. Đẩy thông tin liên tục trên các khung giờ phim kịch cao điểm nhất"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_3_Tiet_5",
+            "title": "Đánh giá Chuong_3_Tiet_5",
+            "type": "assess",
+            "parent_micro": "Chuong_3_Tiet_5",
+            "questions": [
+                {
+                    "question": "Tương quan chi phí giữa tìm kiếm khách mới và duy trì khách cũ là gi?",
+                    "options": [
+                        "A. Đầu tư vào khách mới rẻ y hệt",
+                        "B. Tìm kiếm khách hàng mới đắt gấp năm",
+                        "C. Tập trung giữ khách sẽ hao tốn hơn",
+                        "D. Tìm khách thu lời hơn là đi tìm"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Email tuyệt sắc vượt trội so với bản in email rác bởi 2 yếu tố nào?",
+                    "options": [
+                        "A. Sự miễn cưỡng tham gia và ít hình ảnh động",
+                        "B. Được ẩn logo quảng cáo đi nhanh gọn lẹ nhất",
+                        "C. Khách đã xin phép (Opt-in) và gọi đúng tên",
+                        "D. Độ ngắn gọn tối ưu từ trên xuống dưới cùng"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_3_Tiet_6",
+            "title": "Đánh giá Chuong_3_Tiet_6",
+            "type": "assess",
+            "parent_micro": "Chuong_3_Tiet_6",
+            "questions": [
+                {
+                    "question": "Tại thông điệp đầu cái gì không đo lường được thì không quản trị được Marketing truyền thống mắc phải lỗi gì?",
+                    "options": [
+                        "A. Giá cả quá đắt nhưng chất liệu thì rất kém và bị nhòe nhạt",
+                        "B. Giới hạn đo lường cụ thể có bao nhiêu khách xem tờ rơi",
+                        "C. Lượng tương tác vô biên thu hút vô số tệp khách nhỏ tuổi",
+                        "D. Việc đo hiệu suất quảng cáo truyền thống thì tương đối dễ"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Lời thở than của John Wanamaker Một nửa số tiền tôi chi cho quảng cáo là lãng phí chỉ ra mặt yếu nào của truyền thông Billboard?",
+                    "options": [
+                        "A. Bảng quảng cáo đứng đường gặp mưa sẽ hư ngay",
+                        "B. Mua đèn chiếu quá tốn điện cho nhà đầu tư lớn",
+                        "C. Không tính nổi người đi trên đường ai đang mua đơn",
+                        "D. Rất chiếm vị trí trung tâm triển lãm mỹ thuật"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_4_Tiet_1",
+            "title": "Đánh giá Chuong_4_Tiet_1",
+            "type": "assess",
+            "parent_micro": "Chuong_4_Tiet_1",
+            "questions": [
+                {
+                    "question": "Vì sao mạng lưới Internet nguyên thủy lại dễ bị tấn công mạng?",
+                    "options": [
+                        "A. Do được thiết kế mở để chia sẻ thông tin",
+                        "B. Do các giao thức truyền tải quá phức tạp",
+                        "C. Do thiếu kinh phí đầu tư bảo vệ mạng lưới",
+                        "D. Do máy tính thời kỳ đầu có tốc độ rất chậm"
+                    ],
+                    "answer": "A"
+                },
+                {
+                    "question": "Đâu là bản chất của Thương mại điện tử khi so sánh với Internet?",
+                    "options": [
+                        "A. Yêu cầu chia sẻ dữ liệu tự do và công khai",
+                        "B. Ưu tiên tốc độ kết nối hơn an toàn hệ thống",
+                        "C. Tránh sử dụng các hệ thống thanh toán trực tuyến",
+                        "D. Đòi hỏi bảo vệ tuyệt đối dòng tiền và dữ liệu"
+                    ],
+                    "answer": "D"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_4_Tiet_2",
+            "title": "Đánh giá Chuong_4_Tiet_2",
+            "type": "assess",
+            "parent_micro": "Chuong_4_Tiet_2",
+            "questions": [
+                {
+                    "question": "Khi một hệ thống TMĐT bị tin tặc đánh sập thì hậu quả tài chính trực tiếp là gì?",
+                    "options": [
+                        "A. Phải xây dựng lại toàn bộ trụ sở của công ty",
+                        "B. Bị mất doanh thu ngay trong giờ vàng mua sắm",
+                        "C. Trang web khách hàng không nạp tải Internet",
+                        "D. Phải nộp thuế thu nhập doanh nghiệp gấp đôi"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Sự cố rò rỉ dữ liệu khiến chuỗi cung ứng bị gián đoạn, kho hàng đóng gói đơn hàng bị tê liệt thuộc loại rủi ro nào?",
+                    "options": [
+                        "A. Rủi ro về mặt pháp lý",
+                        "B. Rủi ro về mặt tài chính",
+                        "C. Rủi ro về mặt vận hành",
+                        "D. Rủi ro về mặt danh tiếng"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_4_Tiet_3",
+            "title": "Đánh giá Chuong_4_Tiet_3",
+            "type": "assess",
+            "parent_micro": "Chuong_4_Tiet_3",
+            "questions": [
+                {
+                    "question": "Hình ảnh \"sợi dây thừng mục nát\" nối giữa sợi dây xích thép trong an ninh hệ thống ám chỉ điều gì?",
+                    "options": [
+                        "A. Máy chủ máy tính hoạt động quá chậm",
+                        "B. Sự lỗi thời của các phần mềm giá rẻ",
+                        "C. Điểm yếu sinh ra từ nhận thức của con người",
+                        "D. Cáp truyền tải tín hiệu mạng bị đứt gãy"
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Tại sao một hệ thống công nghệ tường lửa đắt tiền nhất vẫn có thể sụp đổ hoàn toàn dễ dàng?",
+                    "options": [
+                        "A. Do ngân sách dự án năm sau luôn bị giảm bớt",
+                        "B. Vì nhân viên quá bất cẩn nhấn link email lừa đảo",
+                        "C. Do khách hàng quên thường xuyên cập nhật mã thẻ số",
+                        "D. Phân bổ lưu lượng máy chủ nội bộ luôn bị ách tắc"
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_5_Tiet_1",
+            "title": "Đánh giá Chuong_5_Tiet_1",
+            "type": "assess",
+            "parent_micro": "Chuong_5_Tiet_1",
+            "questions": [
+                {
+                    "question": "Việc học về hệ thống kỹ thuật TMĐT nhằm trang bị cho nhà quản lý tư duy của ai?",
+                    "options": [
+                        "A. Trở thành một chuyên gia lập trình phát triển code",
+                        "B. Tư duy của cấp bậc một người trưởng kiến trúc sư",
+                        "C. Kỹ năng thiết kế đồ họa hình ảnh bằng hệ thống 3D",
+                        "D. Cách sửa chữa các lỗi thông dòng thiết bị máy tính"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Trong hệ thống TMĐT, các \"banner giảm giá và giao diện sự kiện Flash Sale\" đại diện cho điều gì?",
+                    "options": [
+                        "A. Phần chìm của hệ thống máy chủ mạng cấu trúc tinh xảo",
+                        "B. Các vùng cơ sở dữ liệu lưu kho lưu trữ lớn của hạ tầng",
+                        "C. Phần nổi hào nhoáng của nền tảng các ứng dụng hiển thị",
+                        "D. Chuỗi cung ứng vận hành hệ thống bên trong các quy trình"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_5_Tiet_2",
+            "title": "Đánh giá Chuong_5_Tiet_2",
+            "type": "assess",
+            "parent_micro": "Chuong_5_Tiet_2",
+            "questions": [
+                {
+                    "question": "Hình ảnh bản vẽ blueprint thiết kế kỹ thuật con tàu trên slide mở đầu được ẩn dụ dùng để miêu tả quá trình quan trọng nào?",
+                    "options": [
+                        "A. Quy trình lên bản vẽ thiết kế để sản xuất loạt mặt hàng đồ thủ công mỹ nghệ xuất khẩu",
+                        "B. Nhịp trình lên khung phác thảo lập một kế hoạch chiến lược thương mại điện tử TMĐT",
+                        "C. Hành trình thiết lập đội săn tìm rà soát các nguồn nhập mua hàng sỉ lẻ với mức giá siêu rẻ",
+                        "D. Trình tự thiết lập nội dung vẽ ra lộ trình chạy truyền thông trên chuỗi kênh mạng xã hội"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Ba món hành trang cốt lõi cấp thiết tạo sức mạnh quản trị định hình mà bất kỳ một Nhà sáng lập \"Founder\" nào cũng bắt buộc phải trang bị lúc khởi nghiệp TMĐT là gì?",
+                    "options": [
+                        "A. Tính cảm thụ tính nghệ thuật hình ảnh, Khả năng định thuật lõi và Kỹ năng miệng buôn bán dạo",
+                        "B. Bảng rà đánh giá định kỳ nhân sự NV, Tệp dữ Báo cáo chuẩn nguồn thuế nhà nước và hệ lưu tài khoản",
+                        "C. Bảng Quy trình vòng chiến lược kế hoạch, Bộ radar quét rà quét khung SLEPT và cái Kính lúp ma trận SWOT",
+                        "D. Thông thông lực chỉ số thẻ ngân lượng trạm ngân hàng, Nguồn Sản phẩm mảng ngách và hồ sơ mạn Đối thủ"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        },
+        {
+            "id": "a_Chuong_5_Tiet_3",
+            "title": "Đánh giá Chuong_5_Tiet_3",
+            "type": "assess",
+            "parent_micro": "Chuong_5_Tiet_3",
+            "questions": [
+                {
+                    "question": "Slogan bài học \"Từ Bản vẽ Ý tưởng đến Bàn đàm phán\" dùng để diễn đạt tinh thần cốt lõi nào cho sinh viên trong buổi cuối cùng này?",
+                    "options": [
+                        "A. Rèn luyện tư duy định thiết kế đồ họa 3D quy kiến trúc chuyên nghiệp trước mặt nhóm",
+                        "B. Mục tiêu cuối cùng là biết gói gọn bản kế hoạch TMĐT nhằm tiến ra đàm phán gọi vốn",
+                        "C. Xác định tư thế học cách làm người thuê đàm lấy khoán lương thay vì đứng nhà khởi nghiệp",
+                        "D. Dành chọn việc học đo phân cách lượng hóa dữ toán mua rẻ nguyên theo hệ bảng vật xưởng"
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Ba mục tiêu cốt yếu trong \"Hành trình Xây dựng và Gọi vốn\" được thầy giáo phân tích bao gồm các bước đà nào liên hoàn?",
+                    "options": [
+                        "A. Tuyển chọn phân nhánh nhân sự vận chuyển và dàn Săn dò tìm mua hàng có mức nhập giá sỉ",
+                        "B. Phát quy xây triển trạm điều phối và phân mạng trang Cấu Trúc Khối Kho hàng cuối quý",
+                        "C. Chuỗi kết Cấu trúc khung Kiến tạo và nhịp Lắp ráp mảng chiến lược rồi tới Xuất kích (Pitching)",
+                        "D. Loạt Lên hệ Thiết bị Giao giao diện người diện cho mạng Thu hút dùng tới truyền chạy app"
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "theta_pass": 0.6,
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-24T10:27:19.889573"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "source": "m1",
+            "target": "m2",
+            "type": "prerequisite",
+            "reason": "Chương trước là tiên quyết."
+        },
+        {
+            "source": "m2",
+            "target": "m3",
+            "type": "prerequisite",
+            "reason": "Chương trước là tiên quyết."
+        },
+        {
+            "source": "m3",
+            "target": "m4",
+            "type": "prerequisite",
+            "reason": "Chương trước là tiên quyết."
+        },
+        {
+            "source": "m4",
+            "target": "m5",
+            "type": "prerequisite",
+            "reason": "Chương trước là tiên quyết."
+        },
+        {
+            "source": "Chuong_1_Tiet_1",
+            "target": "Chuong_1_Tiet_2",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_2",
+            "target": "Chuong_1_Tiet_3",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_3",
+            "target": "Chuong_1_Tiet_4",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_4",
+            "target": "Chuong_1_Tiet_5",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_5",
+            "target": "Chuong_1_Tiet_6",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_6",
+            "target": "Chuong_1_Tiet_7",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_7",
+            "target": "Chuong_1_Tiet_8",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_8",
+            "target": "Chuong_1_Tiet_9",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_9",
+            "target": "Chuong_1_Tiet_10",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_10",
+            "target": "Chuong_1_Tiet_11",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_1_Tiet_11",
+            "target": "Chuong_1_Tiet_12",
+            "type": "prerequisite",
+            "reason": "Tuần tự trong chương."
+        },
+        {
+            "source": "Chuong_2_Tiet_2",
+            "target": "Chuong_2_Tiet_3",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_2_Tiet_2",
+            "target": "Chuong_2_Tiet_4",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_2_Tiet_2",
+            "target": "Chuong_2_Tiet_5",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_2_Tiet_2",
+            "target": "Chuong_2_Tiet_6",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_3_Tiet_1",
+            "target": "Chuong_3_Tiet_2",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_3_Tiet_1",
+            "target": "Chuong_3_Tiet_3",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_3_Tiet_1",
+            "target": "Chuong_3_Tiet_4",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_3_Tiet_1",
+            "target": "Chuong_3_Tiet_5",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_3_Tiet_1",
+            "target": "Chuong_3_Tiet_6",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_4_Tiet_1",
+            "target": "Chuong_4_Tiet_2",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_4_Tiet_1",
+            "target": "Chuong_4_Tiet_3",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_5_Tiet_1",
+            "target": "Chuong_5_Tiet_2",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_5_Tiet_1",
+            "target": "Chuong_5_Tiet_3",
+            "type": "prerequisite",
+            "reason": "Bài mở đầu là tiên quyết."
+        },
+        {
+            "source": "Chuong_1_Tiet_12",
+            "target": "Chuong_2_Tiet_2",
+            "type": "prerequisite",
+            "reason": "Cầu nối chương."
+        },
+        {
+            "source": "Chuong_2_Tiet_6",
+            "target": "Chuong_3_Tiet_1",
+            "type": "prerequisite",
+            "reason": "Cầu nối chương."
+        },
+        {
+            "source": "Chuong_3_Tiet_6",
+            "target": "Chuong_4_Tiet_1",
+            "type": "prerequisite",
+            "reason": "Cầu nối chương."
+        },
+        {
+            "source": "Chuong_4_Tiet_3",
+            "target": "Chuong_5_Tiet_1",
+            "type": "prerequisite",
+            "reason": "Cầu nối chương."
+        },
+        {
+            "source": "Chuong_5_Tiet_3",
+            "target": "CONCEPT_17e4c5",
+            "type": "prerequisite",
+            "reason": "Cầu nối chương."
+        }
+    ]
+}

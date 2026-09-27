@@ -1,0 +1,149 @@
+{
+  "packs": {
+    "thương_mại_điện_tử_v20_mit/m1_Meso_1": {
+      "course_id": "thương_mại_điện_tử_v20_mit",
+      "node_id": "m1_Meso_1",
+      "author": "thanhthangbmt7",
+      "version": 2,
+      "updated_at": "2026-04-27T02:00:56.713933",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 20
+    },
+    "kỹ_năng_số/m1_Meso_1": {
+      "course_id": "kỹ_năng_số",
+      "node_id": "m1_Meso_1",
+      "author": "thangtt",
+      "version": 2,
+      "updated_at": "2026-05-05T17:44:51.808280",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 16
+    },
+    "kỹ_năng_số/m2_Meso_1": {
+      "course_id": "kỹ_năng_số",
+      "node_id": "m2_Meso_1",
+      "author": "thangtt",
+      "version": 2,
+      "updated_at": "2026-05-06T01:08:07.780076",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 13
+    },
+    "môn_học/c8.1": {
+      "course_id": "môn_học",
+      "node_id": "c8.1",
+      "author": "thangtt",
+      "version": 2,
+      "updated_at": "2026-05-06T23:30:52.685587",
+      "bloom_levels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "question_count": 24
+    },
+    "môn_học/c1.6": {
+      "course_id": "môn_học",
+      "node_id": "c1.6",
+      "author": "thangtt",
+      "version": 2,
+      "updated_at": "2026-05-06T23:40:34.171451",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 18
+    },
+    "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống/m1_Meso_1": {
+      "course_id": "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống",
+      "node_id": "m1_Meso_1",
+      "author": "thanhthangbmt",
+      "version": 2,
+      "updated_at": "2026-05-08T17:12:26.425593",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 14
+    },
+    "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống/m1_Meso_3": {
+      "course_id": "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống",
+      "node_id": "m1_Meso_3",
+      "author": "thanhthangbmt",
+      "version": 2,
+      "updated_at": "2026-05-12T22:59:57.024650",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 18
+    },
+    "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống/m1_Meso_2": {
+      "course_id": "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống",
+      "node_id": "m1_Meso_2",
+      "author": "thanhthangbmt",
+      "version": 2,
+      "updated_at": "2026-05-15T09:25:58.104580",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 18
+    },
+    "toán_lớp_6_-_khan_academy_số_tự_nhiên/m1_Meso_1": {
+      "course_id": "toán_lớp_6_-_khan_academy_số_tự_nhiên",
+      "node_id": "m1_Meso_1",
+      "author": "guest_4c782a67",
+      "version": 2,
+      "updated_at": "2026-05-21T10:06:41.754546",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 16
+    },
+    "địa_lý_6/m0_Meso_1": {
+      "course_id": "địa_lý_6",
+      "node_id": "m0_Meso_1",
+      "author": "thanhthangbmt",
+      "version": 2,
+      "updated_at": "2026-05-31T21:12:01.244523",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 21
+    },
+    "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống_olm/m1_Meso_1": {
+      "course_id": "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống_olm",
+      "node_id": "m1_Meso_1",
+      "author": "thanhthangbmt",
+      "version": 2,
+      "updated_at": "2026-05-31T21:36:59.159669",
+      "bloom_levels": [
+        1,
+        2,
+        3
+      ],
+      "question_count": 6
+    }
+  },
+  "updated_at": "2026-05-31T21:36:59.201254"
+}

@@ -1,0 +1,1423 @@
+{
+    "course_name": "Trí tuệ nhân tạo ứng dụng",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Khai thác dữ liệu và thông tin",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_session_m1_fde6",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m1_7e07",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.1_e9b5",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.1/script.txt",
+                    "title": "📄 Kịch bản Video: Khai phá Đại dương Số (c1.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.2_4992",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.2/script.txt",
+                    "title": "📄 Kịch bản Video: Hành trình công dân số (c1.2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.3_bb30",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.3/script.txt",
+                    "title": "📄 Kịch bản Video: LÀM CHỦ DỮ LIỆU SỐ (c1.3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "m2",
+            "title": "Giao tiếp và hợp tác trong môi trường số",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_session_m2_a64d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m2_286d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c2.1_71c6",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c2.1/script.txt",
+                    "title": "📄 Kịch bản Video: Hành trình công dân số (c2.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c2.2_0c96",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c2.2/script.txt",
+                    "title": "📄 Kịch bản Video: Làm chủ tương tác (c2.2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "m3",
+            "title": "Sáng tạo nội dung số",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_session_m3_116a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_m3_4502",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.1_f8bb",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.1/script.txt",
+                    "title": "📄 Kịch bản Video: Content Development (c3.1)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.2_454e",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.2/script.txt",
+                    "title": "📄 Kịch bản Video: Content Repurposing (c3.2)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.3_356d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.3/script.txt",
+                    "title": "📄 Kịch bản Video: Digital Rights (c3.3)",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ]
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Duyệt, tìm kiếm và lọc dữ liệu, thông tin và nội dung số",
+            "content": "Phần này bao gồm việc phân biệt dữ liệu thô, thông tin và tri thức, cùng với các loại dữ liệu phổ biến. Sinh viên sẽ học các kỹ năng duyệt, tìm kiếm nâng cao trên các công cụ như Google, Bing và các cơ sở dữ liệu học thuật. Ngoài ra, phần học còn hướng dẫn cách lọc và trích xuất dữ liệu, bao gồm giới thiệu về scraping và sử dụng các công cụ như Google Dataset Search, Python pandas.",
+            "alpha_base": 25,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_lesson_c1.1_d0d9",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=11",
+                    "title": "🎬 Bài giảng: Khai phá Đại dương Số",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.1_d4e9",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.1/script.txt",
+                    "title": "📄 Kịch bản Video: Khai phá Đại dương Số",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.1_34d7",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.1_2f1f",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Đánh giá dữ liệu, thông tin và nội dung số",
+            "content": "Phần này tập trung vào các tiêu chí và phương pháp đánh giá độ tin cậy, chính xác của dữ liệu và thông tin, bao gồm mô hình CRAAP và phương pháp SIFT. Sinh viên sẽ thực hành phân tích, làm sạch dữ liệu không hợp lệ hoặc sai lệch, đồng thời phân biệt thông tin giả mạo. Đặc biệt, phần này hướng dẫn vận dụng AI (như Chat GPT, Gemini) kết hợp công cụ kiểm tra thông tin (Google Fact Check Tools, Snopes) để đánh giá độ tin cậy của nội dung số.",
+            "alpha_base": 28,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 28,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_lesson_c1.2_2913",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=12",
+                    "title": "🎬 Bài giảng: Hành trình công dân số",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.2_d2df",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.2/script.txt",
+                    "title": "📄 Kịch bản Video: Hành trình công dân số",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.2_3912",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.2_ff85",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Quản lý dữ liệu, thông tin và nội dung số",
+            "content": "Phần này cung cấp kiến thức và kỹ năng về quản lý dữ liệu cá nhân và tổ chức, bao gồm cách sử dụng các công cụ quản lý phổ biến và áp dụng các quy tắc tổ chức dữ liệu. Sinh viên sẽ học cách thiết lập quy trình sao lưu dữ liệu, lập kế hoạch lưu trữ và thực hiện các phương pháp bảo mật thông tin hiệu quả. Ngoài ra, phần học còn đề cập đến việc chia sẻ và phối hợp làm việc với dữ liệu một cách an toàn, bao gồm quản lý quyền truy cập và phiên bản.",
+            "alpha_base": 20,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_lesson_c1.3_0f60",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=1&id=13",
+                    "title": "🎬 Bài giảng: LÀM CHỦ DỮ LIỆU SỐ",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c1.3_03db",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c1.3/script.txt",
+                    "title": "📄 Kịch bản Video: LÀM CHỦ DỮ LIỆU SỐ",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c1.3_c120",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD1.csv",
+                    "title": "📝 Trắc nghiệm Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c1.3_47ae",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=1",
+                    "title": "📋 Mục lục Module 1",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Tương tác thông qua công nghệ số",
+            "content": "Phần này hướng dẫn sinh viên lựa chọn và sử dụng các công cụ giao tiếp số phù hợp với từng tình huống học tập và làm việc. Các công cụ bao gồm email, chat và video call. Mục tiêu là giúp sinh viên tương tác hiệu quả trong môi trường số, đảm bảo thông tin được truyền tải rõ ràng và đúng mục đích.",
+            "alpha_base": 15,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_lesson_c2.1_8e02",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=21",
+                    "title": "🎬 Bài giảng: Hành trình công dân số",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c2.1_dd42",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c2.1/script.txt",
+                    "title": "📄 Kịch bản Video: Hành trình công dân số",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c2.1_28cd",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c2.1_d165",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Chia sẻ thông tin và nội dung",
+            "content": "Phần này tập trung vào việc sử dụng các nền tảng chia sẻ nội dung số như Google Drive và OneDrive một cách hiệu quả và an toàn. Sinh viên sẽ học cách chia sẻ thông tin và tài liệu trong học tập và làm việc nhóm, đồng thời đảm bảo an toàn dữ liệu và quyền riêng tư trong quá trình cộng tác.",
+            "alpha_base": 15,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_lesson_c2.2_d860",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=2&id=22",
+                    "title": "🎬 Bài giảng: Làm chủ tương tác",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c2.2_b1c8",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c2.2/script.txt",
+                    "title": "📄 Kịch bản Video: Làm chủ tương tác",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c2.2_facc",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD2.csv",
+                    "title": "📝 Trắc nghiệm Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c2.2_5781",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=2",
+                    "title": "📋 Mục lục Module 2",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c2.3",
+            "parent_macro": "m2",
+            "title": "Sử dụng công nghệ số để thực hiện trách nhiệm công dân",
+            "content": "Phần này khám phá cách sinh viên có thể sử dụng công nghệ số để tham gia vào các hoạt động xã hội. Điều này bao gồm việc phản ánh, kiến nghị hoặc đóng góp ý kiến qua các cổng thông tin và diễn đàn công dân. Mục tiêu là khuyến khích sinh viên thực hiện nghĩa vụ và quyền công dân trong môi trường số một cách có trách nhiệm.",
+            "alpha_base": 10,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 10,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "c2.4",
+            "parent_macro": "m2",
+            "title": "Hợp tác thông qua công nghệ số",
+            "content": "Phần này hướng dẫn sinh viên sử dụng các công cụ cộng tác trực tuyến như Google Docs và Trello để làm việc nhóm hiệu quả. Sinh viên sẽ học cách cùng nhau xây dựng nội dung học thuật, quản lý dự án và phối hợp công việc từ xa. Điều này giúp tăng cường năng lực làm việc nhóm và đạt được mục tiêu chung.",
+            "alpha_base": 18,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 18,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "c2.5",
+            "parent_macro": "m2",
+            "title": "Thực hiện quy tắc ứng xử trên mạng",
+            "content": "Phần này đề cập đến các quy tắc ứng xử cần thiết khi giao tiếp trong môi trường số. Sinh viên sẽ học cách tương tác đúng mực, tôn trọng và phù hợp với văn hóa, thế hệ. Mục tiêu là xây dựng một môi trường trực tuyến tích cực, an toàn và chuyên nghiệp cho tất cả mọi người.",
+            "alpha_base": 10,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 10,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "c2.6",
+            "parent_macro": "m2",
+            "title": "Quản lý danh tính số",
+            "content": "Phần này tập trung vào việc quản lý và bảo vệ danh tính số cá nhân trên các nền tảng khác nhau. Sinh viên sẽ học cách phân biệt, kiểm soát thông tin cá nhân và áp dụng các biện pháp bảo mật dữ liệu. Điều này giúp ngăn chặn rủi ro về quyền riêng tư và bảo vệ hình ảnh trực tuyến.",
+            "alpha_base": 15,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Phát triển nội dung số",
+            "content": "Phần này bao gồm các bước từ phân tích mục tiêu và đối tượng đến lập kế hoạch và sản xuất nội dung số. Sinh viên sẽ học cách xây dựng chân dung người dùng, xác định loại nội dung phù hợp (bài viết, infographic, video) và sản xuất nội dung có giá trị. Các kỹ năng về viết hấp dẫn, kịch bản video, thiết kế hình ảnh và chỉnh sửa đa phương tiện cũng được đề cập.",
+            "alpha_base": 25,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_lesson_c3.1_1579",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=31",
+                    "title": "🎬 Bài giảng: Content Development",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.1_6b1c",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.1/script.txt",
+                    "title": "📄 Kịch bản Video: Content Development",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.1_2284",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.1_6053",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "Tích hợp và tạo lập lại nội dung số",
+            "content": "Phần này hướng dẫn rà soát, đánh giá nội dung đã có và thiết kế khung nội dung mới dựa trên các tài liệu hiện có. Sinh viên sẽ học cách biên tập, chuẩn hóa ngôn ngữ, tông giọng và định dạng. Việc cập nhật dữ liệu, hình ảnh và chuyển đổi nội dung sang các hình thức mới cũng được thực hiện để tối ưu hóa hiệu quả truyền thông.",
+            "alpha_base": 22,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_lesson_c3.2_792a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=32",
+                    "title": "🎬 Bài giảng: Content Repurposing",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.2_3a03",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.2/script.txt",
+                    "title": "📄 Kịch bản Video: Content Repurposing",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.2_29ed",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.2_f5a4",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Thực thi bản quyền và giấy phép",
+            "content": "Phần này tập trung vào việc xác định các thành phần có thể có bản quyền trong nội dung số và kiểm tra nguồn gốc, giấy phép sử dụng. Sinh viên sẽ học cách áp dụng giấy phép bản quyền một cách đúng đắn, ghi nguồn rõ ràng khi sử dụng nội dung cho phép. Ngoài ra, phần này cũng đề cập đến việc xin phép hoặc tìm kiếm nội dung thay thế để đảm bảo tuân thủ pháp luật.",
+            "alpha_base": 18,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 18,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": [
+                {
+                    "id": "res_lesson_c3.3_ffff",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/lesson.html?sessionId=3&id=33",
+                    "title": "🎬 Bài giảng: Digital Rights",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_script_c3.3_a965",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/Video/c3.3/script.txt",
+                    "title": "📄 Kịch bản Video: Digital Rights",
+                    "type": "document",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_c3.3_637d",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/quiz.html?file=data%2Fquiz%2FMD3.csv",
+                    "title": "📝 Trắc nghiệm Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_session_c3.3_ee1a",
+                    "url": "https://tranthanhthangbmt.github.io/AIUD_March2026/session.html?id=3",
+                    "title": "📋 Mục lục Module 3",
+                    "type": "link",
+                    "icon": "📋",
+                    "added_at": "auto-sync"
+                }
+            ]
+        },
+        {
+            "id": "c3.4",
+            "parent_macro": "m3",
+            "title": "Lập trình",
+            "content": "Phần này giới thiệu về việc lựa chọn công nghệ và ngôn ngữ lập trình phù hợp để tạo nội dung số. Sinh viên sẽ được học về các khâu thiết yếu trong quá trình lập trình, bao gồm thiết kế dựa trên yêu cầu người dùng, cài đặt theo bản thiết kế đã chọn và kiểm thử để xác nhận sản phẩm đáp ứng đúng các nội dung đã thiết kế. Mục tiêu là tạo ra các sản phẩm nội dung số có chất lượng và chức năng tốt.",
+            "alpha_base": 28,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 28,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "a1.1",
+            "target_micro": "c1.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Đâu là một kỹ thuật tìm kiếm nâng cao hiệu quả trên Google?",
+                    "options": [
+                        "A. Chỉ nhập một từ khóa chung chung.",
+                        "B. Sử dụng các toán tử logic như AND, OR, NOT và bộ lọc nâng cao.",
+                        "C. Duyệt qua tất cả các trang kết quả một cách ngẫu nhiên.",
+                        "D. Không dùng từ khóa mà chỉ nhấp vào các liên kết gợi ý."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Để phân biệt dữ liệu thô với thông tin, tiêu chí nào sau đây là quan trọng nhất?",
+                    "options": [
+                        "A. Kích thước tập tin của dữ liệu.",
+                        "B. Màu sắc hiển thị của dữ liệu.",
+                        "C. Dữ liệu thô chưa được xử lý, tổ chức hay gán ngữ nghĩa, trong khi thông tin đã được xử lý và có ý nghĩa.",
+                        "D. Số lượng người truy cập vào dữ liệu."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a1.2",
+            "target_micro": "c1.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Mô hình CRAAP dùng để đánh giá độ tin cậy của thông tin bao gồm những tiêu chí nào?",
+                    "options": [
+                        "A. Chi phí, Rủi ro, An toàn, Phân tích, Phản hồi.",
+                        "B. Tiền tệ, Liên quan, Quyền tác giả, Độ chính xác, Mục đích.",
+                        "C. Tính thời sự, Mức độ liên quan, Quyền tác giả, Độ chính xác, Mục đích.",
+                        "D. Tốc độ, Hiệu quả, An toàn, Đơn giản, Chuyên nghiệp."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Công cụ AI nào có thể được kết hợp với các công cụ kiểm tra thông tin để đánh giá độ tin cậy của nội dung số?",
+                    "options": [
+                        "A. Microsoft Paint.",
+                        "B. Adobe Photoshop.",
+                        "C. Chat GPT hoặc Gemini kết hợp Google Fact Check Tools.",
+                        "D. Microsoft Word."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a1.3",
+            "target_micro": "c1.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Tại sao việc lập kế hoạch sao lưu dữ liệu lại quan trọng?",
+                    "options": [
+                        "A. Để làm đẹp giao diện máy tính.",
+                        "B. Để đảm bảo dữ liệu không bị mất mát do sự cố phần cứng, phần mềm hoặc lỗi người dùng.",
+                        "C. Để tăng tốc độ xử lý của máy tính.",
+                        "D. Để giảm dung lượng lưu trữ trên ổ cứng."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Khi chia sẻ dữ liệu với người khác, yếu tố quan trọng nhất để đảm bảo an toàn là gì?",
+                    "options": [
+                        "A. Chia sẻ dữ liệu cho càng nhiều người càng tốt.",
+                        "B. Thiết lập quyền truy cập phù hợp và quản lý phiên bản.",
+                        "C. Sử dụng tên tệp khó đoán.",
+                        "D. Không bao giờ thay đổi dữ liệu sau khi chia sẻ."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a2.1",
+            "target_micro": "c2.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Để tương tác hiệu quả trong môi trường làm việc nhóm từ xa, công cụ nào sau đây thường được ưu tiên?",
+                    "options": [
+                        "A. Gửi thư tay qua đường bưu điện.",
+                        "B. Gọi điện thoại cố định.",
+                        "C. Video call hoặc các nền tảng chat nhóm chuyên nghiệp.",
+                        "D. Sử dụng bảng trắng truyền thống."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Khi lựa chọn công cụ giao tiếp số, yếu tố nào cần được xem xét đầu tiên?",
+                    "options": [
+                        "A. Màu sắc của giao diện công cụ.",
+                        "B. Tình huống giao tiếp và yêu cầu của công việc/học tập.",
+                        "C. Số lượng bạn bè đang sử dụng công cụ đó.",
+                        "D. Tính năng chơi game tích hợp."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a2.2",
+            "target_micro": "c2.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Nền tảng nào sau đây được sử dụng phổ biến để chia sẻ nội dung số và làm việc nhóm hiệu quả?",
+                    "options": [
+                        "A. Facebook cá nhân.",
+                        "B. Google Drive hoặc OneDrive.",
+                        "C. Instagram Stories.",
+                        "D. TikTok."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Để đảm bảo an toàn khi chia sẻ thông tin và nội dung số, điều gì là cần thiết?",
+                    "options": [
+                        "A. Chỉ chia sẻ những thông tin công khai.",
+                        "B. Thiết lập quyền truy cập rõ ràng và hạn chế người xem/chỉnh sửa.",
+                        "C. Sử dụng mật khẩu đơn giản để dễ nhớ.",
+                        "D. Tải lên tất cả tài liệu mà không cần kiểm tra."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a2.3",
+            "target_micro": "c2.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Hoạt động nào sau đây thể hiện việc sử dụng công nghệ số để thực hiện trách nhiệm công dân?",
+                    "options": [
+                        "A. Xem phim giải trí trực tuyến.",
+                        "B. Đăng ảnh cá nhân lên mạng xã hội.",
+                        "C. Phản ánh, kiến nghị hoặc đóng góp ý kiến qua cổng thông tin công dân.",
+                        "D. Chơi game online."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Tại sao việc tham gia vào các hoạt động xã hội số lại quan trọng?",
+                    "options": [
+                        "A. Để tiêu tốn thời gian rảnh rỗi.",
+                        "B. Để tăng cường khả năng kết nối cá nhân và đóng góp vào các vấn đề chung của cộng đồng.",
+                        "C. Để kiểm soát thông tin của người khác.",
+                        "D. Để kiếm tiền từ các hoạt động trực tuyến."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a2.4",
+            "target_micro": "c2.4",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Công cụ nào sau đây hỗ trợ hiệu quả nhất cho việc cộng tác trực tuyến trong một dự án nhóm?",
+                    "options": [
+                        "A. Sổ tay viết tay.",
+                        "B. Google Docs hoặc Trello.",
+                        "C. Máy tính bỏ túi.",
+                        "D. Bảng đen truyền thống."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Khi làm việc nhóm trên các công cụ cộng tác trực tuyến, lợi ích chính là gì?",
+                    "options": [
+                        "A. Chỉ một người có thể chỉnh sửa tài liệu tại một thời điểm.",
+                        "B. Dễ dàng theo dõi tiến độ, phân công nhiệm vụ và cùng nhau xây dựng nội dung.",
+                        "C. Giảm tương tác giữa các thành viên nhóm.",
+                        "D. Không cần lưu trữ tài liệu."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a2.5",
+            "target_micro": "c2.5",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Để giao tiếp đúng mực và tôn trọng trong môi trường số, điều gì là cần thiết?",
+                    "options": [
+                        "A. Sử dụng ngôn ngữ viết tắt và tiếng lóng.",
+                        "B. Luôn chỉ trích ý kiến của người khác.",
+                        "C. Thể hiện sự văn minh, phù hợp văn hóa và thế hệ.",
+                        "D. Đăng tải thông tin cá nhân của người khác mà không có sự cho phép."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Quy tắc ứng xử trên mạng giúp duy trì một môi trường số như thế nào?",
+                    "options": [
+                        "A. Một môi trường hỗn loạn và thiếu kiểm soát.",
+                        "B. Một môi trường an toàn, tôn trọng và xây dựng.",
+                        "C. Một môi trường cho phép mọi người nói bất cứ điều gì họ muốn.",
+                        "D. Một môi trường chỉ dành cho những người có kinh nghiệm."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a2.6",
+            "target_micro": "c2.6",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Để bảo vệ dữ liệu cá nhân và danh tính số, hành động nào sau đây là quan trọng nhất?",
+                    "options": [
+                        "A. Sử dụng cùng một mật khẩu cho tất cả các tài khoản.",
+                        "B. Không bao giờ kiểm tra các cài đặt riêng tư.",
+                        "C. Phân biệt và kiểm soát danh tính số cá nhân trên các nền tảng khác nhau, áp dụng biện pháp bảo mật.",
+                        "D. Chia sẻ mọi thông tin cá nhân công khai."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "“Danh tính số” được hiểu là gì?",
+                    "options": [
+                        "A. Số điện thoại cá nhân duy nhất của mỗi người.",
+                        "B. Tập hợp các thông tin và tương tác của một cá nhân trên môi trường số.",
+                        "C. Mã số định danh công dân.",
+                        "D. Địa chỉ email chính."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a3.1",
+            "target_micro": "c3.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Yếu tố đầu tiên cần xác định khi phát triển nội dung số là gì?",
+                    "options": [
+                        "A. Kích thước phông chữ và màu sắc.",
+                        "B. Mục tiêu và đối tượng của nội dung.",
+                        "C. Thời gian đăng tải nội dung.",
+                        "D. Số lượt thích dự kiến."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Để tạo ra nội dung số có giá trị thực sự, điều gì là cần thiết?",
+                    "options": [
+                        "A. Sao chép nội dung từ các nguồn khác.",
+                        "B. Tập trung vào việc giải trí, truyền cảm hứng hoặc thúc đẩy hành động cho người xem.",
+                        "C. Chỉ đăng tải nội dung dài dòng.",
+                        "D. Không cần quan tâm đến mục tiêu cụ thể."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a3.2",
+            "target_micro": "c3.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Bước nào sau đây là cần thiết khi muốn tích hợp và tạo lập lại nội dung số?",
+                    "options": [
+                        "A. Xóa bỏ tất cả nội dung cũ.",
+                        "B. Rà soát, đánh giá nội dung đã có và thiết kế khung nội dung mới.",
+                        "C. Chỉ tạo nội dung hoàn toàn mới.",
+                        "D. Không cần chỉnh sửa bất kỳ nội dung nào."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Mục đích của việc biên tập và chuyển đổi nội dung là gì?",
+                    "options": [
+                        "A. Để làm cho nội dung trông khác biệt mà không có lý do.",
+                        "B. Để chuẩn hóa ngôn ngữ, tông giọng, định dạng và cập nhật dữ liệu cho phù hợp với hình thức mới.",
+                        "C. Để giảm dung lượng lưu trữ của nội dung.",
+                        "D. Để tăng số lượng từ trong nội dung."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a3.3",
+            "target_micro": "c3.3",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Khi sử dụng nội dung có bản quyền cho phép, điều quan trọng nhất cần làm là gì?",
+                    "options": [
+                        "A. Thay đổi tên tác giả.",
+                        "B. Ghi nguồn rõ ràng.",
+                        "C. Không cần xin phép hoặc ghi nguồn.",
+                        "D. Coi đó là nội dung của mình."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Thành phần nào trong một sản phẩm nội dung số thường dễ vướng bản quyền nhất?",
+                    "options": [
+                        "A. Tiêu đề của sản phẩm.",
+                        "B. Hình ảnh, video, âm thanh và văn bản gốc.",
+                        "C. Mô tả chung về sản phẩm.",
+                        "D. Tên miền trang web."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        },
+        {
+            "id": "a3.4",
+            "target_micro": "c3.4",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Các khâu thiết yếu khi thực hiện lập trình cho nội dung số là gì?",
+                    "options": [
+                        "A. Chỉ có khâu viết code.",
+                        "B. Thiết kế, cài đặt và kiểm thử.",
+                        "C. Không cần kiểm thử.",
+                        "D. Sao chép và dán code."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Mục đích của khâu kiểm thử trong lập trình nội dung số là gì?",
+                    "options": [
+                        "A. Để tìm ra lỗi ngẫu nhiên và bỏ qua chúng.",
+                        "B. Để xác nhận sản phẩm đáp ứng đúng các nội dung đã thiết kế và yêu cầu người dùng.",
+                        "C. Để thay đổi hoàn toàn thiết kế ban đầu.",
+                        "D. Để tăng thêm các tính năng không cần thiết."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-23T09:57:01.294726"
+            },
+            "resources": []
+        }
+    ],
+    "user_id": "thanhthangbmt7",
+    "edges": [
+        {
+            "source": "c1.1",
+            "target": "c1.2",
+            "reason": "Để đánh giá dữ liệu hiệu quả, trước tiên cần biết cách duyệt, tìm kiếm và lọc dữ liệu."
+        },
+        {
+            "source": "c1.1",
+            "target": "c1.3",
+            "reason": "Khả năng duyệt, tìm kiếm và lọc dữ liệu là nền tảng để thu thập và quản lý dữ liệu hiệu quả."
+        },
+        {
+            "source": "c1.2",
+            "target": "c2.2",
+            "reason": "Để chia sẻ thông tin và nội dung một cách có trách nhiệm, cần có khả năng đánh giá độ tin cậy và phù hợp của chúng."
+        },
+        {
+            "source": "c1.2",
+            "target": "c3.1",
+            "reason": "Việc đánh giá thông tin là cần thiết để đảm bảo chất lượng và tính đáng tin cậy của nội dung số được phát triển."
+        },
+        {
+            "source": "c1.2",
+            "target": "c3.2",
+            "reason": "Cần đánh giá nguồn thông tin trước khi tích hợp hoặc tạo lập lại nội dung số để đảm bảo tính chính xác và phù hợp."
+        },
+        {
+            "source": "c2.5",
+            "target": "c2.1",
+            "reason": "Nắm vững quy tắc ứng xử trên mạng là cơ sở để tương tác thông qua công nghệ số một cách có văn hóa và trách nhiệm."
+        },
+        {
+            "source": "c2.6",
+            "target": "c2.1",
+            "reason": "Quản lý danh tính số an toàn là điều kiện tiên quyết để tương tác hiệu quả và bảo mật trên môi trường số."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.2",
+            "reason": "Chia sẻ thông tin và nội dung là một hình thức cụ thể của việc tương tác thông qua công nghệ số."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.4",
+            "reason": "Kỹ năng tương tác cơ bản qua công nghệ số là nền tảng để có thể hợp tác hiệu quả."
+        },
+        {
+            "source": "c2.5",
+            "target": "c2.3",
+            "reason": "Tuân thủ quy tắc ứng xử trên mạng là một yếu tố cốt lõi của việc thực hiện trách nhiệm công dân số."
+        },
+        {
+            "source": "c2.6",
+            "target": "c2.3",
+            "reason": "Quản lý danh tính số một cách có trách nhiệm là một khía cạnh quan trọng của trách nhiệm công dân số."
+        },
+        {
+            "source": "c2.2",
+            "target": "c2.3",
+            "reason": "Chia sẻ thông tin và nội dung một cách có trách nhiệm đóng góp vào việc thực hiện trách nhiệm công dân số."
+        },
+        {
+            "source": "c2.4",
+            "target": "c2.3",
+            "reason": "Hợp tác có trách nhiệm thông qua công nghệ số là một phần của việc thực hiện trách nhiệm công dân số."
+        },
+        {
+            "source": "c3.3",
+            "target": "c3.1",
+            "reason": "Hiểu biết về bản quyền và giấy phép là bắt buộc để phát triển nội dung số một cách hợp pháp và có đạo đức."
+        },
+        {
+            "source": "c3.3",
+            "target": "c3.2",
+            "reason": "Để tích hợp và tạo lập lại nội dung số đúng luật, cần nắm rõ các quy định về bản quyền và giấy phép."
+        },
+        {
+            "source": "c3.1",
+            "target": "c3.2",
+            "reason": "Cần có kiến thức cơ bản về cách phát triển nội dung số trước khi có thể tích hợp hoặc tạo lập lại nội dung phức tạp hơn."
+        },
+        {
+            "source": "c3.1",
+            "target": "c2.2",
+            "reason": "Để có nội dung số để chia sẻ, trước hết cần biết cách phát triển nội dung số."
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+{
+  "node_id": "m1_Meso_1",
+  "course_id": "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống_olm",
+  "version": 2,
+  "updated_at": "2026-05-31T21:36:59.159669",
+  "author": "thanhthangbmt",
+  "study_material": {
+    "learning_objectives": [],
+    "key_concepts": [],
+    "detailed_content": "# Phần 1\n\nTự động tạo nội dung đánh giá cho Phần 1.",
+    "summary": "Tự động tạo nội dung đánh giá cho Phần 1.",
+    "practical_examples": []
+  },
+  "bloom_profile": {
+    "auto_calibrated_levels": [
+      1,
+      2,
+      3
+    ],
+    "user_adjusted_levels": null,
+    "effective_levels": [
+      1,
+      2,
+      3
+    ],
+    "calibration_method": "alpha_base",
+    "alpha_base": 15,
+    "created_at": "2026-05-31T21:35:21.165831"
+  },
+  "question_bank": {
+    "L1": [],
+    "L2": [],
+    "L3": [
+      {
+        "type": "scenario_mcq",
+        "scenario": "Để chuẩn bị quà tặng cho các bạn nhỏ ở trung tâm bảo trợ xã hội, bạn Mai đã mua 24 quyển vở và 18 chiếc bút máy. Mai muốn chia đều số vở và số bút này vào các phần quà sao cho mỗi phần quà đều có số vở và số bút như nhau.",
+        "question": "Hỏi bạn Mai có thể chia được nhiều nhất thành bao nhiêu phần quà?",
+        "options": {
+          "A": "3 phần quà",
+          "B": "6 phần quà",
+          "C": "8 phần quà",
+          "D": "12 phần quà"
+        },
+        "correct": "B",
+        "explanation": "Để chia số vở và bút đều vào các phần quà sao cho số phần quà là nhiều nhất, ta phải tìm ước chung lớn nhất (ƯCLN) của 24 và 18.\nTa có:\n24 = 2^3 * 3\n18 = 2 * 3^2\nDo đó, ƯCLN(24, 18) = 2 * 3 = 6.\nVậy bạn Mai có thể chia được nhiều nhất thành 6 phần quà."
+      },
+      {
+        "type": "scenario_mcq",
+        "scenario": "Tại một bến xe buýt, cứ 12 phút lại có một chuyến xe tuyến A xuất phát và cứ 18 phút lại có một chuyến xe tuyến B xuất phát. Lúc 6 giờ sáng, hai chuyến xe của hai tuyến cùng xuất phát một lúc.",
+        "question": "Hỏi ít nhất sau bao nhiêu phút nữa thì hai tuyến xe lại cùng xuất phát một lúc?",
+        "options": {
+          "A": "18 phút",
+          "B": "30 phút",
+          "C": "36 phút",
+          "D": "72 phút"
+        },
+        "correct": "C",
+        "explanation": "Thời gian ngắn nhất để hai tuyến xe cùng xuất phát lại là bội chung nhỏ nhất (BCNN) của 12 và 18.\nTa có:\n12 = 2^2 * 3\n18 = 2 * 3^2\nBCNN(12, 18) = 2^2 * 3^2 = 4 * 9 = 36.\nVậy sau ít nhất 36 phút nữa thì hai tuyến xe lại cùng xuất phát."
+      },
+      {
+        "type": "scenario_mcq",
+        "scenario": "Bạn Nam đi nhà sách mua đồ dùng học tập chuẩn bị cho năm học mới. Nam mua 5 quyển vở với giá 12 000 đồng/quyển và 3 chiếc bút bi với giá 5 000 đồng/chiếc. Nam đưa cho nhân viên thu ngân tờ tiền mệnh giá 100 000 đồng.",
+        "question": "Biểu thức nào sau đây thể hiện đúng số tiền thừa (đơn vị: đồng) mà Nam nhận lại và số tiền đó là bao nhiêu?",
+        "options": {
+          "A": "100 000 - 5 * 12 000 - 3 * 5 000 = 80 000 đồng",
+          "B": "100 000 - (5 * 12 000 + 3 * 5 000) = 25 000 đồng",
+          "C": "100 000 - 5 * 12 000 + 3 * 5 000 = 55 000 đồng",
+          "D": "5 * 12 000 + 3 * 5 000 = 75 000 đồng"
+        },
+        "correct": "B",
+        "explanation": "Tổng số tiền Nam mua vở và bút là: 5 * 12 000 + 3 * 5 000 (đồng).\nSố tiền thừa Nam nhận lại bằng số tiền đưa cho thu ngân trừ đi tổng số tiền mua hàng.\nBiểu thức đúng là: 100 000 - (5 * 12 000 + 3 * 5 000).\nTính toán: 100 000 - (60 000 + 15 000) = 100 000 - 75 000 = 25 000 (đồng)."
+      },
+      {
+        "type": "case_study",
+        "scenario": "Trường Trung học cơ sở Quyết Thắng tổ chức cho học sinh khối 6 đi tham quan dã ngoại ngoại khóa. Tổng số người tham gia chuyến đi gồm có 126 học sinh và 9 giáo viên hướng dẫn. Ban tổ chức cần thuê xe ô tô để di chuyển.",
+        "questions": [
+          {
+            "question": "Nếu ban tổ chức chọn thuê loại xe ô tô lớn 45 chỗ ngồi thì cần thuê ít nhất bao nhiêu xe để tất cả học sinh và giáo viên đều có chỗ ngồi?",
+            "options": {
+              "A": "2 xe",
+              "B": "3 xe",
+              "C": "4 xe",
+              "D": "5 xe"
+            },
+            "correct": "B",
+            "explanation": "Tổng số người tham gia chuyến đi là: 126 + 9 = 135 (người).\nSố xe 45 chỗ cần thuê là: 135 : 45 = 3 (xe)."
+          },
+          {
+            "question": "Nếu ban tổ chức chọn thuê loại xe 30 chỗ ngồi thì cần thuê ít nhất bao nhiêu xe để đảm bảo mọi người đều có chỗ ngồi?",
+            "options": {
+              "A": "4 xe",
+              "B": "5 xe",
+              "C": "6 xe",
+              "D": "4.5 xe"
+            },
+            "correct": "B",
+            "explanation": "Ta có phép chia: 135 : 30 = 4 (dư 15).\nVì còn dư 15 người nên ban tổ chức cần phải thuê thêm 1 xe nữa.\nSố xe tối thiểu cần thuê là: 4 + 1 = 5 (xe)."
+          }
+        ]
+      },
+      {
+        "type": "scenario_mcq",
+        "scenario": "Nhà trường muốn xếp 150 chiếc ghế vào phòng đa năng thành các hàng sao cho mỗi hàng có số ghế bằng nhau. Đồng thời, số ghế ở mỗi hàng phải lớn hơn 10 và nhỏ hơn 20 chiếc.",
+        "question": "Hỏi nhà trường có thể xếp mỗi hàng bao nhiêu chiếc ghế?",
+        "options": {
+          "A": "12 chiếc",
+          "B": "14 chiếc",
+          "C": "15 chiếc",
+          "D": "18 chiếc"
+        },
+        "correct": "C",
+        "explanation": "Để xếp 150 chiếc ghế thành các hàng bằng nhau thì số ghế mỗi hàng phải là ước của 150.\nCác ước của 150 là: 1, 2, 3, 5, 6, 10, 15, 25, 30, 50, 75, 150.\nTheo đề bài, số ghế ở mỗi hàng phải lớn hơn 10 và nhỏ hơn 20. Trong các ước của 150, chỉ có số 15 thỏa mãn điều kiện này (10 < 15 < 20).\nVậy nhà trường có thể xếp mỗi hàng 15 chiếc ghế."
+      },
+      {
+        "type": "scenario_mcq",
+        "scenario": "Một loại vi khuẩn có đặc tính sinh sản cứ sau 1 giờ lại tự nhân đôi một lần (từ 1 con ban đầu sẽ tách thành 2 con). Ban đầu trong phòng thí nghiệm chỉ có 1 con vi khuẩn này.",
+        "question": "Hỏi sau 5 giờ, số lượng vi khuẩn trong phòng thí nghiệm là bao nhiêu? Hãy viết kết quả dưới dạng lũy thừa và tính giá trị cụ thể.",
+        "options": {
+          "A": "5^2 = 25 con",
+          "B": "2^5 = 32 con",
+          "C": "2 * 5 = 10 con",
+          "D": "2^4 = 16 con"
+        },
+        "correct": "B",
+        "explanation": "Ban đầu: 1 con vi khuẩn.\nSau 1 giờ: 2^1 = 2 con.\nSau 2 giờ: 2 * 2 = 2^2 = 4 con.\nSau 3 giờ: 2^3 = 8 con.\nSau 5 giờ, số lượng vi khuẩn sẽ là: 2^5 = 32 (con vi khuẩn)."
+      }
+    ]
+  }
+}

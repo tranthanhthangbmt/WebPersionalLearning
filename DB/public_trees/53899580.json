@@ -1,0 +1,2024 @@
+{
+    "course_name": "Học máy",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Chương 1. Giới thiệu về Machine Learning",
+            "resources": [
+                {
+                    "id": "res_quiz_MD1_a2fc",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1",
+                    "title": "📝 Trắc nghiệm - Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "m2",
+            "title": "Chương 2. Trích chọn đặc trưng",
+            "resources": [
+                {
+                    "id": "res_quiz_MD2_db92",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2",
+                    "title": "📝 Trắc nghiệm - Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "m3",
+            "title": "Chương 3. Hồi quy – Regression",
+            "resources": [
+                {
+                    "id": "res_quiz_MD3_aa57",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3",
+                    "title": "📝 Trắc nghiệm - Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "m4",
+            "title": "Chương 4. Phân lớp – Classification",
+            "resources": [
+                {
+                    "id": "res_quiz_MD4_65cb",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4",
+                    "title": "📝 Trắc nghiệm - Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "m5",
+            "title": "Chương 5. Gom cụm – Clustering",
+            "resources": [
+                {
+                    "id": "res_quiz_MD5_6cf4",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5",
+                    "title": "📝 Trắc nghiệm - Module 5",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "m6",
+            "title": "Chương 6. Phương pháp tối ưu Gradient Descent",
+            "resources": [
+                {
+                    "id": "res_quiz_MD6_0244",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6",
+                    "title": "📝 Trắc nghiệm - Module 6",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "m7",
+            "title": "Chương 7. Mạng neuron nhân tạo – ANNs",
+            "resources": [
+                {
+                    "id": "res_quiz_MD7_a793",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD7",
+                    "title": "📝 Trắc nghiệm - Module 7",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Định nghĩa machine learning",
+            "content": "Học máy là một lĩnh vực của trí tuệ nhân tạo cho phép máy tính học từ dữ liệu mà không cần được lập trình rõ ràng. Nó tập trung vào việc phát triển các thuật toán có thể phân tích dữ liệu, học hỏi từ đó và đưa ra các dự đoán hoặc quyết định. Mục tiêu chính là tìm ra các quy luật ẩn hoặc mô hình trong dữ liệu để giải quyết các bài toán thực tế.",
+            "alpha_base": 10,
+            "resources": [
+                {
+                    "id": "res_vid_MD1_cdaa",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 1)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD1_2387",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1",
+                    "title": "📝 Trắc nghiệm - Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 10,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Quy trình xây dựng hệ thống machine learning",
+            "content": "Quy trình xây dựng một hệ thống học máy bao gồm nhiều giai đoạn chính. Bắt đầu bằng việc thu thập và tiền xử lý dữ liệu, sau đó lựa chọn và huấn luyện mô hình phù hợp. Các bước tiếp theo là đánh giá hiệu suất của mô hình và tinh chỉnh các siêu tham số để tối ưu. Cuối cùng, mô hình được triển khai để ứng dụng trong thực tế.",
+            "alpha_base": 15,
+            "resources": [
+                {
+                    "id": "res_vid_MD1_9c80",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 1)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD1_253c",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1",
+                    "title": "📝 Trắc nghiệm - Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Phân loại thuật toán machine learning",
+            "content": "Các thuật toán học máy được phân loại chủ yếu thành học có giám sát, học không giám sát và học tăng cường. Học có giám sát sử dụng dữ liệu đã được gán nhãn để dự đoán. Học không giám sát tìm kiếm cấu trúc ẩn trong dữ liệu không nhãn. Học tăng cường học cách ra quyết định thông qua tương tác với môi trường để tối đa hóa phần thưởng.",
+            "alpha_base": 12,
+            "resources": [
+                {
+                    "id": "res_vid_MD1_4cea",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 1)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD1_9b8a",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1",
+                    "title": "📝 Trắc nghiệm - Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 12,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c1.4",
+            "parent_macro": "m1",
+            "title": "Một số bài toán và Datasets",
+            "content": "Học máy giải quyết nhiều bài toán như hồi quy (dự đoán giá trị liên tục), phân lớp (gán đối tượng vào các danh mục), và gom cụm (nhóm các đối tượng tương tự). Các bài toán này thường được thực hiện trên nhiều bộ dữ liệu khác nhau, từ dữ liệu bảng truyền thống đến hình ảnh, văn bản và âm thanh, mỗi loại đòi hỏi kỹ thuật xử lý đặc thù.",
+            "alpha_base": 15,
+            "resources": [
+                {
+                    "id": "res_vid_MD1_280d",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 1)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD1_e178",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1",
+                    "title": "📝 Trắc nghiệm - Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c1.5",
+            "parent_macro": "m1",
+            "title": "Thư viện lập trình machine learning",
+            "content": "Để triển khai các thuật toán học máy, các nhà khoa học dữ liệu sử dụng nhiều thư viện lập trình mạnh mẽ. Phổ biến nhất là Scikit-learn cho các thuật toán truyền thống, TensorFlow và PyTorch cho học sâu. Các thư viện này cung cấp các công cụ cần thiết để xây dựng, huấn luyện và đánh giá mô hình hiệu quả.",
+            "alpha_base": 15,
+            "resources": [
+                {
+                    "id": "res_vid_MD1_021e",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_1_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 1)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD1_e7c2",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD1",
+                    "title": "📝 Trắc nghiệm - Module 1",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Mô tả, Biên tập, Tóm tắt, Trực quan dữ liệu",
+            "content": "Việc hiểu dữ liệu là bước đầu tiên và quan trọng trong học máy. Các kỹ thuật như mô tả thống kê, biên tập dữ liệu thô và tóm tắt giúp khám phá các đặc điểm cơ bản. Trực quan hóa dữ liệu thông qua biểu đồ, đồ thị cũng rất hữu ích để nhận diện xu hướng, mối quan hệ và các điểm ngoại lệ, hỗ trợ đưa ra quyết định tiền xử lý.",
+            "alpha_base": 18,
+            "resources": [
+                {
+                    "id": "res_vid_MD2_82d0",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 2)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD2_f965",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2",
+                    "title": "📝 Trắc nghiệm - Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 18,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Khái niệm về đặc trưng (features)",
+            "content": "Đặc trưng là các thuộc tính hoặc biến đầu vào được sử dụng bởi mô hình học máy để đưa ra dự đoán. Việc lựa chọn và thiết kế đặc trưng chất lượng là yếu tố then chốt, vì chúng ảnh hưởng trực tiếp đến hiệu suất của mô hình. Đặc trưng tốt giúp mô hình học hỏi hiệu quả hơn và đưa ra kết quả chính xác hơn.",
+            "alpha_base": 10,
+            "resources": [
+                {
+                    "id": "res_vid_MD2_479b",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 2)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD2_dca6",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2",
+                    "title": "📝 Trắc nghiệm - Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 10,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c2.3",
+            "parent_macro": "m2",
+            "title": "Trích đặc trưng trên dữ liệu số",
+            "content": "Đối với dữ liệu số, trích đặc trưng bao gồm các phương pháp xử lý như chuẩn hóa, chuẩn hóa tối thiểu-tối đa hoặc biến đổi logarit. Các kỹ thuật này giúp các đặc trưng có cùng phạm vi giá trị, tránh một đặc trưng áp đảo các đặc trưng khác. Ngoài ra, việc tạo ra các đặc trưng mới từ sự kết hợp hoặc biến đổi của các đặc trưng hiện có cũng rất quan trọng.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_vid_MD2_6f48",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 2)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD2_4aed",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2",
+                    "title": "📝 Trắc nghiệm - Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c2.4",
+            "parent_macro": "m2",
+            "title": "Trích đặc trưng trên dữ liệu phân loại",
+            "content": "Dữ liệu phân loại cần được chuyển đổi sang dạng số để các thuật toán học máy có thể xử lý. Các phương pháp phổ biến bao gồm mã hóa nhãn (Label Encoding), gán một số nguyên cho mỗi danh mục, và mã hóa one-hot (One-Hot Encoding), tạo ra các cột nhị phân cho mỗi danh mục. Việc lựa chọn phương pháp phù hợp phụ thuộc vào bản chất của dữ liệu và thuật toán sử dụng.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_vid_MD2_c713",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 2)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD2_5c55",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2",
+                    "title": "📝 Trắc nghiệm - Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c2.5",
+            "parent_macro": "m2",
+            "title": "Trích đặc trưng trên dữ liệu văn bản, ảnh, tuần tự",
+            "content": "Trích đặc trưng từ dữ liệu phi cấu trúc như văn bản, ảnh và dữ liệu tuần tự đòi hỏi các kỹ thuật chuyên biệt. Đối với văn bản, các phương pháp như TF-IDF hoặc Word Embeddings được sử dụng. Đối với ảnh, các đặc trưng có thể được trích xuất từ pixel hoặc thông qua mạng nơ-ron tích chập (CNN). Dữ liệu tuần tự thường sử dụng các mô hình RNN hoặc Transformer để nắm bắt phụ thuộc thời gian.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_vid_MD2_bc8e",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 2)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD2_dd6b",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2",
+                    "title": "📝 Trắc nghiệm - Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_doc_w_1ad5",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
+                    "title": "📄 Slide Bài giảng Word",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c2.6",
+            "parent_macro": "m2",
+            "title": "Chuẩn hóa đặc trưng và Chọn lọc đặc trưng",
+            "content": "Chuẩn hóa đặc trưng (Feature Scaling) là quá trình đưa các đặc trưng về cùng một phạm vi, điều này rất quan trọng để tránh một số đặc trưng chi phối quá trình huấn luyện mô hình. Chọn lọc đặc trưng (Feature Selection) là việc lựa chọn tập con tối ưu các đặc trưng đầu vào. Mục tiêu là giảm thiểu số lượng đặc trưng mà vẫn giữ được hoặc cải thiện hiệu suất mô hình, giảm nhiễu và tăng tốc độ tính toán.",
+            "alpha_base": 22,
+            "resources": [
+                {
+                    "id": "res_vid_MD2_a44f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_2_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 2)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD2_5835",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD2",
+                    "title": "📝 Trắc nghiệm - Module 2",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Bài toán hồi quy và Hồi quy tuyến tính (Linear Regression)",
+            "content": "Bài toán hồi quy trong học máy nhằm dự đoán một giá trị đầu ra liên tục dựa trên một hoặc nhiều biến đầu vào. Hồi quy tuyến tính là một thuật toán cơ bản, tìm cách mô hình hóa mối quan hệ tuyến tính giữa các biến. Nó cố gắng tìm một đường thẳng (hoặc siêu phẳng) phù hợp nhất với dữ liệu để giảm thiểu sai số dự đoán.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_vid_MD3_5855",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 3)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD3_0c7b",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3",
+                    "title": "📝 Trắc nghiệm - Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "Hồi quy dựa trên cây (Tree-based Regression)",
+            "content": "Hồi quy dựa trên cây sử dụng cấu trúc cây quyết định để dự đoán các giá trị liên tục. Các thuật toán như Cây Quyết định Hồi quy (Decision Tree Regressor) và Rừng Ngẫu nhiên Hồi quy (Random Forest Regressor) hoạt động bằng cách chia tập dữ liệu thành các vùng con. Giá trị dự đoán cho một điểm dữ liệu mới là giá trị trung bình của các điểm huấn luyện trong vùng con tương ứng.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_vid_MD3_eb3c",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 3)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD3_1e15",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3",
+                    "title": "📝 Trắc nghiệm - Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Thực hành và so sánh các mô hình hồi quy",
+            "content": "Sinh viên sẽ thực hành triển khai các mô hình hồi quy như Hồi quy Tuyến tính và Hồi quy dựa trên cây bằng các thư viện lập trình. Quá trình này bao gồm việc huấn luyện mô hình trên dữ liệu, sử dụng các chỉ số như Sai số tuyệt đối trung bình (MAE) và Sai số bình phương trung bình (MSE) để đánh giá. Mục tiêu là so sánh hiệu suất và hiểu ưu nhược điểm của từng thuật toán trong các kịch bản khác nhau.",
+            "alpha_base": 30,
+            "resources": [
+                {
+                    "id": "res_vid_MD3_8470",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_3_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 3)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD3_4b49",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD3",
+                    "title": "📝 Trắc nghiệm - Module 3",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c4.1",
+            "parent_macro": "m4",
+            "title": "Bài toán phân lớp dữ liệu",
+            "content": "Bài toán phân lớp là một loại bài toán học có giám sát, nơi mô hình được huấn luyện để gán các điểm dữ liệu vào một trong các danh mục hoặc lớp rời rạc đã xác định trước. Ví dụ điển hình bao gồm phân loại thư rác, chẩn đoán bệnh dựa trên triệu chứng hoặc nhận dạng đối tượng trong ảnh. Mục tiêu là xây dựng một mô hình có khả năng dự đoán lớp chính xác cho dữ liệu mới.",
+            "alpha_base": 15,
+            "resources": [
+                {
+                    "id": "res_vid_MD4_c2ce",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 4)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD4_1a2d",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4",
+                    "title": "📝 Trắc nghiệm - Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c4.2",
+            "parent_macro": "m4",
+            "title": "k-Nearest Neighbors (k-NN)",
+            "content": "k-Nearest Neighbors (k-NN) là một thuật toán phân lớp phi tham số dựa trên khoảng cách. Để phân loại một điểm dữ liệu mới, k-NN tìm k điểm gần nhất trong tập huấn luyện. Sau đó, nó gán nhãn cho điểm mới dựa trên đa số phiếu của k điểm lân cận đó. Thuật toán này đơn giản nhưng hiệu quả, đặc biệt với các bộ dữ liệu có không gian đặc trưng rõ ràng.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_vid_MD4_bec1",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 4)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD4_5548",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4",
+                    "title": "📝 Trắc nghiệm - Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c4.3",
+            "parent_macro": "m4",
+            "title": "Cây quyết định (Decision Trees)",
+            "content": "Cây Quyết định là một mô hình phân lớp mạnh mẽ và dễ hiểu, hoạt động bằng cách tạo ra một cấu trúc cây gồm các nút và nhánh. Mỗi nút bên trong đại diện cho một thuộc tính kiểm tra, mỗi nhánh là kết quả của kiểm tra đó, và mỗi nút lá đại diện cho một nhãn lớp. Dữ liệu được phân loại bằng cách đi theo đường từ gốc đến lá dựa trên các giá trị thuộc tính.",
+            "alpha_base": 22,
+            "resources": [
+                {
+                    "id": "res_vid_MD4_2bf6",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 4)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD4_7433",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4",
+                    "title": "📝 Trắc nghiệm - Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c4.4",
+            "parent_macro": "m4",
+            "title": "Naïve Bayes",
+            "content": "Thuật toán Naïve Bayes là một bộ phân loại dựa trên Định lý Bayes với giả định độc lập mạnh mẽ giữa các đặc trưng. Mặc dù giả định này thường không đúng trong thực tế, Naïve Bayes vẫn hoạt động tốt trên nhiều bài toán phân lớp. Các biến thể phổ biến bao gồm Gaussian, Multinomial và Bernoulli Naïve Bayes, phù hợp với các loại dữ liệu khác nhau.",
+            "alpha_base": 22,
+            "resources": [
+                {
+                    "id": "res_vid_MD4_2412",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 4)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD4_b195",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4",
+                    "title": "📝 Trắc nghiệm - Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c4.5",
+            "parent_macro": "m4",
+            "title": "Hồi quy logistic (Logistic Regression)",
+            "content": "Hồi quy Logistic là một thuật toán phân lớp nhị phân, mặc dù tên gọi có từ 'hồi quy'. Nó sử dụng hàm sigmoid để ước tính xác suất một điểm dữ liệu thuộc về một trong hai lớp. Dựa trên xác suất này, mô hình đưa ra quyết định phân loại. Đây là một thuật toán đơn giản, hiệu quả và thường được sử dụng làm baseline cho các bài toán phân lớp.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_vid_MD4_29f2",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 4)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD4_56fc",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4",
+                    "title": "📝 Trắc nghiệm - Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c4.6",
+            "parent_macro": "m4",
+            "title": "Support Vector Machines (SVM)",
+            "content": "Support Vector Machines (SVM) là một thuật toán phân lớp mạnh mẽ tìm kiếm siêu phẳng tối ưu để phân tách dữ liệu thành các lớp. Siêu phẳng này được chọn sao cho có khoảng cách lớn nhất đến các điểm dữ liệu gần nhất (vector hỗ trợ) của mỗi lớp. SVM có thể xử lý cả dữ liệu tuyến tính và phi tuyến tính thông qua việc sử dụng 'kernel trick' để ánh xạ dữ liệu sang không gian chiều cao hơn.",
+            "alpha_base": 28,
+            "resources": [
+                {
+                    "id": "res_vid_MD4_d994",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_4_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 4)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD4_66ee",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD4",
+                    "title": "📝 Trắc nghiệm - Module 4",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 28,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c5.1",
+            "parent_macro": "m5",
+            "title": "Bài toán gôm cụm dữ liệu",
+            "content": "Gom cụm (Clustering) là một kỹ thuật học không giám sát nhằm nhóm các điểm dữ liệu thành các cụm dựa trên sự tương đồng của chúng. Mục tiêu là các điểm trong cùng một cụm sẽ giống nhau hơn so với các điểm ở các cụm khác. Bài toán này không yêu cầu dữ liệu nhãn trước và thường được dùng để khám phá cấu trúc tiềm ẩn trong dữ liệu.",
+            "alpha_base": 15,
+            "resources": [
+                {
+                    "id": "res_vid_MD5_d416",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 5)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD5_ad9a",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5",
+                    "title": "📝 Trắc nghiệm - Module 5",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c5.2",
+            "parent_macro": "m5",
+            "title": "K-Means",
+            "content": "K-Means là một trong những thuật toán gom cụm phổ biến nhất. Thuật toán hoạt động bằng cách khởi tạo k tâm cụm ngẫu nhiên, sau đó lặp đi lặp lại việc gán mỗi điểm dữ liệu vào cụm có tâm gần nhất và cập nhật vị trí của tâm cụm dựa trên trung bình của các điểm trong cụm đó. Quá trình này tiếp tục cho đến khi các tâm cụm không còn thay đổi đáng kể.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_vid_MD5_9a03",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 5)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD5_9a60",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5",
+                    "title": "📝 Trắc nghiệm - Module 5",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c5.3",
+            "parent_macro": "m5",
+            "title": "DBSCAN",
+            "content": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise) là một thuật toán gom cụm dựa trên mật độ. Nó có khả năng phát hiện các cụm có hình dạng bất kỳ và xử lý hiệu quả các điểm nhiễu (outliers). DBSCAN định nghĩa các cụm là các vùng mật độ cao được phân tách bởi các vùng mật độ thấp, không yêu cầu người dùng phải xác định trước số lượng cụm.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_vid_MD5_8a56",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_5_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 5)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD5_252a",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD5",
+                    "title": "📝 Trắc nghiệm - Module 5",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c6.1",
+            "parent_macro": "m6",
+            "title": "Gradient descent cho hàm một biến và nhiều biến",
+            "content": "Gradient Descent (GD) là một thuật toán tối ưu hóa được sử dụng rộng rãi để tìm cực tiểu của một hàm số. Nó hoạt động bằng cách lặp đi lặp lại việc điều chỉnh các tham số của mô hình theo hướng ngược lại với gradient (đạo hàm) của hàm mất mát. Điều này cho phép mô hình dần dần tiến tới điểm mà hàm mất mát đạt giá trị nhỏ nhất, áp dụng được cho cả hàm một biến và nhiều biến.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_vid_MD6_0157",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 6)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD6_28e6",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6",
+                    "title": "📝 Trắc nghiệm - Module 6",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c6.2",
+            "parent_macro": "m6",
+            "title": "Kỹ thuật Momentum và Nesterov accelerated gradient",
+            "content": "Momentum và Nesterov accelerated gradient là các kỹ thuật cải tiến Gradient Descent, giúp tăng tốc độ hội tụ và tránh mắc kẹt tại các cực tiểu cục bộ. Momentum thêm một thuật ngữ 'quán tính' vào việc cập nhật tham số, giúp các bước di chuyển ổn định hơn theo cùng một hướng. Nesterov accelerated gradient còn cải tiến hơn nữa bằng cách tính gradient tại một 'vị trí dự kiến' trong tương lai.",
+            "alpha_base": 28,
+            "resources": [
+                {
+                    "id": "res_vid_MD6_680f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 6)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD6_1d88",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6",
+                    "title": "📝 Trắc nghiệm - Module 6",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 28,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c6.3",
+            "parent_macro": "m6",
+            "title": "Stochastic Gradient Descent (SGD) và Mini-batch Gradient Descent",
+            "content": "Stochastic Gradient Descent (SGD) cập nhật các tham số mô hình sau mỗi mẫu dữ liệu, giúp hội tụ nhanh hơn nhưng có thể không ổn định. Mini-batch Gradient Descent là sự kết hợp giữa Batch GD và SGD, cập nhật tham số sau mỗi lô nhỏ (mini-batch) dữ liệu. Phương pháp này cân bằng giữa tốc độ và độ ổn định, là lựa chọn phổ biến trong huấn luyện học sâu.",
+            "alpha_base": 28,
+            "resources": [
+                {
+                    "id": "res_vid_MD6_030a",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 6)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD6_410c",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6",
+                    "title": "📝 Trắc nghiệm - Module 6",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 28,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c6.4",
+            "parent_macro": "m6",
+            "title": "Thực hành các biến thể của Gradient Descent",
+            "content": "Trong phần này, sinh viên sẽ được thực hành triển khai và so sánh các biến thể khác nhau của Gradient Descent. Điều này bao gồm Batch Gradient Descent, SGD, Mini-batch Gradient Descent cùng các kỹ thuật tăng tốc như Momentum và Nesterov. Việc thực hành sẽ giúp hiểu rõ hơn về cách mỗi thuật toán hoạt động và ảnh hưởng của các siêu tham số như learning rate đến quá trình tối ưu hóa.",
+            "alpha_base": 30,
+            "resources": [
+                {
+                    "id": "res_vid_MD6_658a",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/Video/Chuong_6_Tiet_1/index.html",
+                    "title": "🎬 Bài giảng Video (Module 6)",
+                    "type": "youtube",
+                    "icon": "🎬",
+                    "added_at": "auto-sync"
+                },
+                {
+                    "id": "res_quiz_MD6_98fb",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/index.html?module=MD6",
+                    "title": "📝 Trắc nghiệm - Module 6",
+                    "type": "link",
+                    "icon": "📝",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 30,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c7.1",
+            "parent_macro": "m7",
+            "title": "Neuron sinh học và neuron nhân tạo (Perceptron)",
+            "content": "Neuron nhân tạo được mô phỏng theo neuron sinh học trong não người, là đơn vị xử lý cơ bản trong mạng nơ-ron. Perceptron là mô hình neuron nhân tạo đơn giản nhất, nhận nhiều đầu vào, tính tổng trọng số của chúng, và đưa ra một đầu ra thông qua hàm kích hoạt. Nó là khối xây dựng nền tảng để hiểu các mạng nơ-ron phức tạp hơn.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_doc_w_1ca0",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
+                    "title": "📄 Slide Bài giảng Word",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c7.2",
+            "parent_macro": "m7",
+            "title": "Mạng neuron đa tầng (MLPs)",
+            "content": "Mạng neuron đa tầng (MLPs) là một kiến trúc mạng nơ-ron bao gồm ít nhất ba lớp: lớp đầu vào, một hoặc nhiều lớp ẩn và lớp đầu ra. Các neuron giữa các lớp được kết nối đầy đủ, cho phép mạng học các mối quan hệ phức tạp phi tuyến tính trong dữ liệu. MLPs là nền tảng của nhiều ứng dụng học sâu hiện đại.",
+            "alpha_base": 22,
+            "resources": [
+                {
+                    "id": "res_doc_w_528a",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
+                    "title": "📄 Slide Bài giảng Word",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c7.3",
+            "parent_macro": "m7",
+            "title": "Thuật toán lan truyền tiến (Feedforward)",
+            "content": "Lan truyền tiến (Feedforward) là quá trình dữ liệu truyền từ lớp đầu vào qua các lớp ẩn và đến lớp đầu ra trong một mạng nơ-ron. Tại mỗi neuron, đầu vào được nhân với trọng số, cộng với độ lệch (bias), và sau đó được truyền qua một hàm kích hoạt để tạo ra đầu ra của neuron đó. Quá trình này tạo ra dự đoán cuối cùng của mạng.",
+            "alpha_base": 25,
+            "resources": [
+                {
+                    "id": "res_doc_w_eff7",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
+                    "title": "📄 Slide Bài giảng Word",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 25,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c7.4",
+            "parent_macro": "m7",
+            "title": "Thuật toán huấn luyện (Lan truyền ngược - Backpropagation)",
+            "content": "Backpropagation (Lan truyền ngược) là thuật toán then chốt để huấn luyện mạng neuron bằng cách điều chỉnh trọng số của chúng. Sau khi dữ liệu được lan truyền tiến và tính toán lỗi ở đầu ra, lỗi này được lan truyền ngược qua mạng. Gradient của hàm mất mát đối với mỗi trọng số được tính toán, cho phép thuật toán tối ưu hóa cập nhật trọng số để giảm thiểu lỗi.",
+            "alpha_base": 28,
+            "resources": [
+                {
+                    "id": "res_doc_w_484f",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
+                    "title": "📄 Slide Bài giảng Word",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 28,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "c7.5",
+            "parent_macro": "m7",
+            "title": "Bốn thành phần của mạng neuron",
+            "content": "Một mạng neuron nhân tạo được cấu thành từ bốn thành phần chính. Đó là dữ liệu đầu vào mà mạng sẽ học hỏi, kiến trúc mạng bao gồm số lượng và loại lớp, hàm mất mát (loss function) để đo lường mức độ sai lệch của dự đoán, và thuật toán tối ưu hóa (optimizer) dùng để điều chỉnh trọng số nhằm giảm thiểu hàm mất mát. Sự kết hợp của chúng định hình khả năng học của mạng.",
+            "alpha_base": 20,
+            "resources": [
+                {
+                    "id": "res_doc_w_113e",
+                    "url": "https://tranthanhthangbmt.github.io/ThuongMaiDienTu_3TC/TaiLieuHuongDan/Slide/Slide_Word.pdf",
+                    "title": "📄 Slide Bài giảng Word",
+                    "type": "pdf",
+                    "icon": "📄",
+                    "added_at": "auto-sync"
+                }
+            ],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "a1.1",
+            "target_micro": "c1.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Bước nào sau đây KHÔNG phải là một phần của quy trình xây dựng hệ thống học máy điển hình?",
+                    "options": [
+                        "A. Tiền xử lý dữ liệu.",
+                        "B. Huấn luyện mô hình.",
+                        "C. Đánh giá hiệu suất.",
+                        "D. Viết mã nguồn ứng dụng web."
+                    ],
+                    "answer": "D"
+                },
+                {
+                    "question": "Trong học máy, thuật ngữ 'học không giám sát' (Unsupervised Learning) đề cập đến việc gì?",
+                    "options": [
+                        "A. Mô hình học từ dữ liệu được gán nhãn rõ ràng.",
+                        "B. Mô hình tìm kiếm cấu trúc hoặc mẫu ẩn trong dữ liệu không nhãn.",
+                        "C. Mô hình học thông qua tương tác với môi trường và nhận phần thưởng.",
+                        "D. Mô hình được giám sát bởi một chuyên gia trong quá trình huấn luyện."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "a2.1",
+            "target_micro": "c2.6",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Mục đích chính của 'chuẩn hóa đặc trưng' (Feature Scaling) trong học máy là gì?",
+                    "options": [
+                        "A. Tăng số lượng đặc trưng đầu vào cho mô hình.",
+                        "B. Đưa các đặc trưng về cùng một phạm vi giá trị để tránh đặc trưng có giá trị lớn áp đảo.",
+                        "C. Loại bỏ hoàn toàn các đặc trưng không liên quan.",
+                        "D. Biến đổi dữ liệu phân loại thành dữ liệu số."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Kỹ thuật nào sau đây THƯỜNG được sử dụng để trích đặc trưng từ dữ liệu phân loại?",
+                    "options": [
+                        "A. Hồi quy tuyến tính.",
+                        "B. K-Means.",
+                        "C. One-Hot Encoding.",
+                        "D. Gradient Descent."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "a3.1",
+            "target_micro": "c3.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Mục tiêu chính của bài toán hồi quy trong học máy là gì?",
+                    "options": [
+                        "A. Phân loại dữ liệu vào các nhóm riêng biệt.",
+                        "B. Dự đoán một giá trị liên tục dựa trên các đặc trưng đầu vào.",
+                        "C. Nhóm các điểm dữ liệu tương tự lại với nhau.",
+                        "D. Tối ưu hóa hiệu suất của mô hình bằng cách điều chỉnh trọng số."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Trong Hồi quy Tuyến tính đơn giản, mối quan hệ giữa biến phụ thuộc (Y) và biến độc lập (X) được biểu diễn bằng một:",
+                    "options": [
+                        "A. Đường thẳng.",
+                        "B. Đường cong parabol.",
+                        "C. Biểu đồ tròn.",
+                        "D. Đồ thị cây."
+                    ],
+                    "answer": "A"
+                }
+            ],
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "a4.1",
+            "target_micro": "c4.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Thuật toán k-Nearest Neighbors (k-NN) phân loại một điểm dữ liệu mới dựa trên yếu tố nào?",
+                    "options": [
+                        "A. Đường hồi quy tuyến tính.",
+                        "B. Siêu phẳng phân chia tối ưu.",
+                        "C. Đa số phiếu từ k điểm dữ liệu gần nhất trong tập huấn luyện.",
+                        "D. Cấu trúc cây quyết định."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Hàm sigmoid thường được sử dụng trong thuật toán phân lớp nào để ước tính xác suất?",
+                    "options": [
+                        "A. Cây quyết định.",
+                        "B. Hồi quy Logistic.",
+                        "C. K-Means.",
+                        "D. Support Vector Machines."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "a5.1",
+            "target_micro": "c5.2",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Thuật toán K-Means thuộc loại bài toán học máy nào?",
+                    "options": [
+                        "A. Học có giám sát (Supervised Learning).",
+                        "B. Học không giám sát (Unsupervised Learning).",
+                        "C. Học tăng cường (Reinforcement Learning).",
+                        "D. Học bán giám sát (Semi-supervised Learning)."
+                    ],
+                    "answer": "B"
+                },
+                {
+                    "question": "Trong thuật toán K-Means, điều gì xảy ra sau khi các điểm dữ liệu được gán vào các cụm?",
+                    "options": [
+                        "A. Các cụm được hợp nhất thành một cụm duy nhất.",
+                        "B. Tâm cụm được di chuyển đến vị trí trung bình của các điểm trong cụm đó.",
+                        "C. Các điểm dữ liệu được xóa khỏi cụm.",
+                        "D. Thuật toán kết thúc ngay lập tức."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "a6.1",
+            "target_micro": "c6.1",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Mục đích chính của thuật toán Gradient Descent là gì?",
+                    "options": [
+                        "A. Phân loại dữ liệu thành các nhóm.",
+                        "B. Tìm giá trị cực đại của một hàm số.",
+                        "C. Tìm giá trị cực tiểu của một hàm mất mát bằng cách điều chỉnh tham số mô hình.",
+                        "D. Tạo ra các đặc trưng mới từ dữ liệu hiện có."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Trong Gradient Descent, 'learning rate' (tốc độ học) là một siêu tham số quan trọng có chức năng gì?",
+                    "options": [
+                        "A. Xác định số lượng epoch huấn luyện.",
+                        "B. Kiểm soát kích thước của bước di chuyển xuống gradient.",
+                        "C. Thiết lập số lượng lớp đầu ra.",
+                        "D. Quyết định thuật toán tiền xử lý dữ liệu."
+                    ],
+                    "answer": "B"
+                }
+            ],
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        },
+        {
+            "id": "a7.1",
+            "target_micro": "c7.4",
+            "theta_pass": 0.6,
+            "questions": [
+                {
+                    "question": "Thuật toán nào sau đây là phương pháp chính để huấn luyện mạng neuron bằng cách cập nhật trọng số dựa trên lỗi dự đoán?",
+                    "options": [
+                        "A. K-Means.",
+                        "B. Support Vector Machines.",
+                        "C. Backpropagation.",
+                        "D. Hồi quy tuyến tính."
+                    ],
+                    "answer": "C"
+                },
+                {
+                    "question": "Một 'Perceptron' là gì trong ngữ cảnh mạng neuron nhân tạo?",
+                    "options": [
+                        "A. Một kỹ thuật tiền xử lý dữ liệu.",
+                        "B. Một thuật toán tối ưu hóa.",
+                        "C. Một mô hình neuron nhân tạo đơn giản, là khối xây dựng cơ bản của ANNs.",
+                        "D. Một loại hàm mất mát."
+                    ],
+                    "answer": "C"
+                }
+            ],
+            "resources": [],
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-04-26T13:21:47.502523"
+            }
+        }
+    ],
+    "user_id": "thanhthangbmt",
+    "edges": [
+        {
+            "source": "c1.1",
+            "target": "c1.2",
+            "reason": "Quy trình xây dựng hệ thống machine learning cần hiểu rõ định nghĩa Machine Learning."
+        },
+        {
+            "source": "c1.1",
+            "target": "c1.3",
+            "reason": "Phân loại thuật toán machine learning cần biết Machine Learning là gì."
+        },
+        {
+            "source": "c1.1",
+            "target": "c1.4",
+            "reason": "Một số bài toán và Datasets trong ML cần hiểu định nghĩa Machine Learning."
+        },
+        {
+            "source": "c1.1",
+            "target": "c1.5",
+            "reason": "Để sử dụng thư viện lập trình Machine Learning, cần hiểu khái niệm Machine Learning."
+        },
+        {
+            "source": "c1.2",
+            "target": "c2.1",
+            "reason": "Mô tả, Biên tập, Tóm tắt, Trực quan dữ liệu là một bước quan trọng trong quy trình xây dựng hệ thống Machine Learning."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.2",
+            "reason": "Khái niệm về đặc trưng (features) dễ hiểu hơn khi đã có kiến thức về mô tả và biên tập dữ liệu."
+        },
+        {
+            "source": "c2.2",
+            "target": "c2.3",
+            "reason": "Trích đặc trưng trên dữ liệu số yêu cầu hiểu khái niệm về đặc trưng."
+        },
+        {
+            "source": "c2.2",
+            "target": "c2.4",
+            "reason": "Trích đặc trưng trên dữ liệu phân loại yêu cầu hiểu khái niệm về đặc trưng."
+        },
+        {
+            "source": "c2.2",
+            "target": "c2.5",
+            "reason": "Trích đặc trưng trên dữ liệu văn bản, ảnh, tuần tự yêu cầu hiểu khái niệm về đặc trưng."
+        },
+        {
+            "source": "c2.2",
+            "target": "c2.6",
+            "reason": "Chuẩn hóa đặc trưng và Chọn lọc đặc trưng yêu cầu hiểu rõ khái niệm về đặc trưng."
+        },
+        {
+            "source": "c1.1",
+            "target": "c3.1",
+            "reason": "Bài toán hồi quy cần hiểu định nghĩa và mục tiêu của Machine Learning."
+        },
+        {
+            "source": "c1.3",
+            "target": "c3.1",
+            "reason": "Để hiểu hồi quy tuyến tính, cần biết cách phân loại các thuật toán Machine Learning."
+        },
+        {
+            "source": "c2.2",
+            "target": "c3.1",
+            "reason": "Các mô hình hồi quy xử lý dữ liệu thông qua các đặc trưng."
+        },
+        {
+            "source": "c3.1",
+            "target": "c3.2",
+            "reason": "Hồi quy dựa trên cây là một loại bài toán hồi quy, cần hiểu bài toán hồi quy cơ bản trước."
+        },
+        {
+            "source": "c1.5",
+            "target": "c3.3",
+            "reason": "Thực hành và so sánh các mô hình hồi quy yêu cầu kiến thức về thư viện lập trình Machine Learning."
+        },
+        {
+            "source": "c3.1",
+            "target": "c3.3",
+            "reason": "Thực hành các mô hình hồi quy cần hiểu các mô hình hồi quy cụ thể như hồi quy tuyến tính."
+        },
+        {
+            "source": "c3.2",
+            "target": "c3.3",
+            "reason": "Thực hành các mô hình hồi quy cần hiểu các mô hình hồi quy cụ thể như hồi quy dựa trên cây."
+        },
+        {
+            "source": "c1.1",
+            "target": "c4.1",
+            "reason": "Bài toán phân lớp dữ liệu cần hiểu định nghĩa và mục tiêu của Machine Learning."
+        },
+        {
+            "source": "c1.3",
+            "target": "c4.1",
+            "reason": "Để hiểu bài toán phân lớp, cần biết cách phân loại các thuật toán Machine Learning."
+        },
+        {
+            "source": "c2.2",
+            "target": "c4.1",
+            "reason": "Các mô hình phân lớp xử lý dữ liệu thông qua các đặc trưng."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.2",
+            "reason": "k-Nearest Neighbors (k-NN) là một thuật toán giải quyết bài toán phân lớp dữ liệu."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.3",
+            "reason": "Cây quyết định là một thuật toán giải quyết bài toán phân lớp dữ liệu."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.4",
+            "reason": "Naïve Bayes là một thuật toán giải quyết bài toán phân lớp dữ liệu."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.5",
+            "reason": "Hồi quy logistic là một thuật toán giải quyết bài toán phân lớp dữ liệu."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.6",
+            "reason": "Support Vector Machines (SVM) là một thuật toán giải quyết bài toán phân lớp dữ liệu."
+        },
+        {
+            "source": "c1.1",
+            "target": "c5.1",
+            "reason": "Bài toán gôm cụm dữ liệu cần hiểu định nghĩa và mục tiêu của Machine Learning."
+        },
+        {
+            "source": "c1.3",
+            "target": "c5.1",
+            "reason": "Để hiểu bài toán gôm cụm, cần biết cách phân loại các thuật toán Machine Learning."
+        },
+        {
+            "source": "c2.2",
+            "target": "c5.1",
+            "reason": "Các mô hình gôm cụm xử lý dữ liệu thông qua các đặc trưng."
+        },
+        {
+            "source": "c5.1",
+            "target": "c5.2",
+            "reason": "K-Means là một thuật toán giải quyết bài toán gôm cụm dữ liệu."
+        },
+        {
+            "source": "c5.1",
+            "target": "c5.3",
+            "reason": "DBSCAN là một thuật toán giải quyết bài toán gôm cụm dữ liệu."
+        },
+        {
+            "source": "c6.1",
+            "target": "c6.2",
+            "reason": "Các kỹ thuật Momentum và Nesterov accelerated gradient là các biến thể cải tiến của Gradient Descent cơ bản."
+        },
+        {
+            "source": "c6.1",
+            "target": "c6.3",
+            "reason": "Stochastic Gradient Descent (SGD) và Mini-batch Gradient Descent là các biến thể của Gradient Descent."
+        },
+        {
+            "source": "c1.5",
+            "target": "c6.4",
+            "reason": "Thực hành các biến thể của Gradient Descent yêu cầu kiến thức về thư viện lập trình Machine Learning."
+        },
+        {
+            "source": "c6.1",
+            "target": "c6.4",
+            "reason": "Thực hành các biến thể Gradient Descent cần hiểu nguyên lý cơ bản của Gradient Descent."
+        },
+        {
+            "source": "c6.2",
+            "target": "c6.4",
+            "reason": "Thực hành các biến thể Gradient Descent cần hiểu về Momentum và Nesterov accelerated gradient."
+        },
+        {
+            "source": "c6.3",
+            "target": "c6.4",
+            "reason": "Thực hành các biến thể Gradient Descent cần hiểu về Stochastic Gradient Descent và Mini-batch Gradient Descent."
+        },
+        {
+            "source": "c1.1",
+            "target": "c7.1",
+            "reason": "Neuron nhân tạo cần được giới thiệu trong ngữ cảnh tổng thể của Machine Learning."
+        },
+        {
+            "source": "c7.1",
+            "target": "c7.2",
+            "reason": "Mạng neuron đa tầng (MLPs) là sự mở rộng của mô hình neuron nhân tạo cơ bản."
+        },
+        {
+            "source": "c7.2",
+            "target": "c7.3",
+            "reason": "Thuật toán lan truyền tiến là cơ chế hoạt động chính của mạng neuron đa tầng."
+        },
+        {
+            "source": "c7.3",
+            "target": "c7.4",
+            "reason": "Thuật toán huấn luyện lan truyền ngược (Backpropagation) dựa trên kết quả của lan truyền tiến."
+        },
+        {
+            "source": "c6.1",
+            "target": "c7.4",
+            "reason": "Lan truyền ngược sử dụng nguyên lý Gradient Descent để tối ưu các trọng số của mạng neuron."
+        },
+        {
+            "source": "c7.2",
+            "target": "c7.5",
+            "reason": "Bốn thành phần của mạng neuron sẽ được hiểu rõ hơn sau khi học về mạng neuron đa tầng."
+        }
+    ]
+}

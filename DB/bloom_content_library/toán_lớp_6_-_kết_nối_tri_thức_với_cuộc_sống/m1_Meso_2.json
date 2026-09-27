@@ -1,0 +1,372 @@
+{
+  "node_id": "m1_Meso_2",
+  "course_id": "toán_lớp_6_-_kết_nối_tri_thức_với_cuộc_sống",
+  "version": 2,
+  "updated_at": "2026-05-15T09:25:58.104580",
+  "author": "thanhthangbmt",
+  "study_material": {
+    "learning_objectives": [
+      "CLO1: Nhận biết và mô tả được các khái niệm cơ bản về số nguyên âm, số nguyên dương và trục số.",
+      "CLO2: Hiểu và giải thích được ý nghĩa của số nguyên âm và số nguyên dương trong các tình huống thực tế.",
+      "CLO3: Áp dụng kiến thức về số nguyên để thực hiện các phép so sánh và biểu diễn trên trục số."
+    ],
+    "key_concepts": [
+      {
+        "term": "Số nguyên âm",
+        "definition": "Các số nhỏ hơn 0, thường được biểu diễn bằng dấu trừ (-) đứng trước số tự nhiên."
+      },
+      {
+        "term": "Số nguyên dương",
+        "definition": "Các số lớn hơn 0, bao gồm các số tự nhiên (trừ 0)."
+      },
+      {
+        "term": "Số 0",
+        "definition": "Là số nguyên, không âm cũng không dương, là điểm gốc trên trục số."
+      },
+      {
+        "term": "Trục số",
+        "definition": "Một đường thẳng được đánh dấu các số theo thứ tự nhất định, dùng để biểu diễn số và so sánh số."
+      },
+      {
+        "term": "Số đối",
+        "definition": "Hai số khác nhau mà có tổng bằng 0. Số đối của a là -a và ngược lại."
+      }
+    ],
+    "detailed_content": "## Nội dung chi tiết\n\nTrong Phần 2 của môn Toán lớp 6 theo chương trình \"Kết nối tri thức với cuộc sống\", chúng ta sẽ đi sâu vào khám phá thế giới của các **số nguyên**. Khác với các số tự nhiên quen thuộc chỉ bao gồm các số đếm từ 0 trở đi, tập hợp số nguyên mở rộng ra cả những số có giá trị nhỏ hơn 0.\n\n**Số nguyên âm** là những con số có giá trị nhỏ hơn 0. Chúng thường được biểu diễn bằng một dấu trừ (-) đứng trước một số tự nhiên. Ví dụ: -1, -2, -3, ... Số nguyên âm xuất hiện rất nhiều trong cuộc sống thực tế. Chẳng hạn, khi nói về nhiệt độ, -5 độ C có nghĩa là nhiệt độ dưới 0 độ C. Trong tài chính, -100.000 đồng có thể biểu thị khoản nợ hoặc chi phí. Trong địa lý, các điểm nằm dưới mực nước biển cũng được biểu thị bằng số âm.\n\nNgược lại, **số nguyên dương** là những số có giá trị lớn hơn 0. Tập hợp các số nguyên dương chính là tập hợp các số tự nhiên khác 0: 1, 2, 3, ... Số 0 đóng vai trò đặc biệt, nó là điểm khởi đầu trên trục số và không thuộc tập hợp số nguyên âm cũng như số nguyên dương. Tuy nhiên, 0 là một số nguyên.\n\nĐể hình dung rõ hơn về mối quan hệ giữa các số nguyên, chúng ta sử dụng **trục số**. Đây là một đường thẳng ngang, với điểm chính giữa là số 0. Các số nguyên dương được biểu diễn về phía bên phải của số 0, theo thứ tự tăng dần, còn các số nguyên âm được biểu diễn về phía bên trái của số 0, theo thứ tự giảm dần (giá trị tuyệt đối tăng dần). Vị trí của số trên trục số cho phép chúng ta so sánh các số: số nào nằm bên phải số nào thì lớn hơn số đó.\n\nMột khái niệm quan trọng khác là **số đối**. Hai số nguyên được gọi là đối nhau nếu tổng của chúng bằng 0. Ví dụ, số đối của 3 là -3, và số đối của -5 là 5. Số đối của 0 là chính nó (0). Khái niệm này giúp chúng ta hiểu rõ hơn về tính đối xứng của các số nguyên qua điểm 0 trên trục số.\n\nViệc nắm vững các khái niệm này là nền tảng để giải quyết nhiều bài toán trong chương trình lớp 6 và các cấp học tiếp theo, giúp học sinh phát triển tư duy logic và khả năng ứng dụng toán học vào thực tiễn.",
+    "summary": "Phần 2 giới thiệu số nguyên, bao gồm số nguyên âm (nhỏ hơn 0), số nguyên dương (lớn hơn 0) và số 0. Trục số được sử dụng để biểu diễn và so sánh các số nguyên, cùng với khái niệm số đối.",
+    "practical_examples": [
+      "Nhiệt độ: -2°C là lạnh hơn 0°C, và -10°C lạnh hơn -2°C.",
+      "Tài khoản ngân hàng: Số dư dương là tiền có, số dư âm là nợ hoặc đã chi tiêu quá mức.",
+      "Độ cao: 500m là độ cao trên mực nước biển, -30m là độ sâu dưới mực nước biển (ví dụ: Đáy Biển Chết)."
+    ],
+    "multimedia_diagram": "mindmap\n  root((Số Nguyên - Toán Lớp 6))\n    Số Nguyên\n      Số Nguyên Dương ( > 0)\n      Số 0\n      Số Nguyên Âm ( < 0)\n    Trục Số\n      Biểu diễn số\n      So sánh số\n    Khái niệm Liên Quan\n      Số Đối (a và -a)",
+    "micro_learning_flashcards": [
+      {
+        "q": "Số nguyên âm là gì?",
+        "a": "Các số nhỏ hơn 0, có dấu trừ đằng trước."
+      },
+      {
+        "q": "Số nguyên dương là gì?",
+        "a": "Các số lớn hơn 0, gồm các số tự nhiên khác 0."
+      },
+      {
+        "q": "Điểm gốc trên trục số là số mấy?",
+        "a": "Số 0."
+      },
+      {
+        "q": "Số đối của 7 là gì?",
+        "a": "-7."
+      },
+      {
+        "q": "Số -5 trên trục số nằm bên nào của số 0?",
+        "a": "Bên trái."
+      }
+    ]
+  },
+  "bloom_profile": {
+    "auto_calibrated_levels": [
+      1,
+      2,
+      3
+    ],
+    "user_adjusted_levels": null,
+    "effective_levels": [
+      1,
+      2,
+      3
+    ],
+    "calibration_method": "alpha_base",
+    "alpha_base": 15,
+    "created_at": "2026-05-15T09:25:45.821121"
+  },
+  "question_bank": {
+    "L1": [
+      {
+        "type": "mcq_recall",
+        "question": "Theo bài học, tập hợp số nguyên bao gồm những loại số nào?",
+        "options": {
+          "A": "Số tự nhiên và số âm",
+          "B": "Số tự nhiên và số dương",
+          "C": "Số nguyên dương và số nguyên âm",
+          "D": "Số tự nhiên, số âm và số 0"
+        },
+        "correct": "C",
+        "explanation": "Bài học giới thiệu số nguyên là mở rộng của số tự nhiên, bao gồm cả số nguyên âm."
+      },
+      {
+        "type": "flashcard",
+        "front": "Số nguyên âm",
+        "back": "Những con số có giá trị nhỏ hơn 0."
+      },
+      {
+        "type": "flashcard",
+        "front": "Cách biểu diễn số nguyên âm",
+        "back": "Thường được biểu diễn bằng một dấu trừ (-) đứng trước một số tự nhiên."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Tập hợp số nguyên mở rộng ra khỏi những số quen thuộc nào?",
+        "options": {
+          "A": "Số thập phân",
+          "B": "Số tự nhiên",
+          "C": "Phân số",
+          "D": "Số vô tỉ"
+        },
+        "correct": "B",
+        "explanation": "Bài học nêu rõ số nguyên là sự mở rộng của tập hợp số tự nhiên."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Số nào sau đây là số nguyên âm?",
+        "options": {
+          "A": "5",
+          "B": "0",
+          "C": "-10",
+          "D": "1/2"
+        },
+        "correct": "C",
+        "explanation": "Số nguyên âm là số nhỏ hơn 0 và có dấu trừ đứng trước."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Trong tập hợp số nguyên, các con số có giá trị nhỏ hơn 0 được gọi là [BLANK].",
+        "answer": "số nguyên âm",
+        "explanation": "Định nghĩa số nguyên âm trong bài học."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Số -7 được biểu diễn như thế nào trong ngôn ngữ toán học?",
+        "options": {
+          "A": "Số tự nhiên",
+          "B": "Số nguyên dương",
+          "C": "Số nguyên âm",
+          "D": "Số 0"
+        },
+        "correct": "C",
+        "explanation": "Dấu trừ đứng trước số 7 cho thấy đây là một số nguyên âm."
+      }
+    ],
+    "L2": [
+      {
+        "type": "mcq_comprehension",
+        "question": "Dựa trên nội dung bài học, cách tốt nhất để diễn đạt sự khác biệt giữa số tự nhiên và số nguyên là gì?",
+        "options": {
+          "A": "Số tự nhiên chỉ có các số dương, còn số nguyên bao gồm cả số dương và số âm.",
+          "B": "Số tự nhiên bắt đầu từ 1, còn số nguyên bắt đầu từ 0.",
+          "C": "Số tự nhiên chỉ có các số nguyên dương, còn số nguyên bao gồm cả số nguyên dương và số nguyên âm, cùng với số 0.",
+          "D": "Số tự nhiên là tất cả các số có thể đếm được, còn số nguyên là các số có dấu chấm thập phân."
+        },
+        "correct": "C",
+        "explanation": "Số tự nhiên bao gồm 0, 1, 2, 3,... (bao gồm cả 0 và các số nguyên dương). Số nguyên bao gồm tất cả các số tự nhiên (0, 1, 2,...) và tất cả các số nguyên âm (-1, -2, -3,...)."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Số nguyên âm là những con số có giá trị nhỏ hơn [BLANK].",
+        "answer": "0",
+        "explanation": "Theo định nghĩa trong bài học, số nguyên âm là những số có giá trị nhỏ hơn 0."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Khi biểu diễn một số nguyên âm, chúng ta sử dụng ký hiệu nào phía trước một số tự nhiên?",
+        "options": {
+          "A": "Dấu cộng (+)",
+          "B": "Dấu trừ (-)",
+          "C": "Dấu nhân (x)",
+          "D": "Dấu chia (÷)"
+        },
+        "correct": "B",
+        "explanation": "Bài học nêu rõ: 'Chúng thường được biểu diễn bằng một dấu trừ (-) đứng trước một số tự nhiên'."
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "term": "Số nguyên dương",
+            "definition": "Là các số có giá trị lớn hơn 0, ví dụ: 1, 5, 100."
+          },
+          {
+            "term": "Số nguyên âm",
+            "definition": "Là các số có giá trị nhỏ hơn 0, ví dụ: -1, -7, -25."
+          },
+          {
+            "term": "Số 0",
+            "definition": "Không phải là số nguyên dương cũng không phải là số nguyên âm."
+          }
+        ]
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Tập hợp số nguyên mở rộng ra cả những số có giá trị nhỏ hơn 0, khác với tập hợp số tự nhiên quen thuộc chỉ bao gồm các số đếm từ 0 trở đi và các số nguyên [BLANK].",
+        "answer": "dương",
+        "explanation": "Số nguyên bao gồm cả số 0, các số nguyên dương (tương tự số tự nhiên dương) và các số nguyên âm. Do đó, sự mở rộng so với số tự nhiên là việc bổ sung các số nguyên âm."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Nếu một bạn nói 'Hôm nay trời rất lạnh, nhiệt độ là âm 5 độ C', bạn đó đang nói về loại số nào?",
+        "options": {
+          "A": "Số tự nhiên",
+          "B": "Số nguyên",
+          "C": "Số nguyên âm",
+          "D": "Cả B và C"
+        },
+        "correct": "D",
+        "explanation": "Nhiệt độ -5 độ C là một số nguyên âm. Số nguyên âm là một phần của tập hợp số nguyên. Do đó, cả hai đều đúng."
+      }
+    ],
+    "L3": [
+      {
+        "type": "scenario_mcq",
+        "question": "Một nhà thám hiểm đang leo núi. Ở lần đo đầu tiên, họ đang ở độ cao 500 mét so với mực nước biển. Sau đó, họ di chuyển xuống 200 mét. Hỏi độ cao mới của nhà thám hiểm là bao nhiêu mét so với mực nước biển?",
+        "options": {
+          "A": "300 mét",
+          "B": "700 mét",
+          "C": "-200 mét",
+          "D": "200 mét"
+        },
+        "correct": "A",
+        "explanation": "Độ cao ban đầu là 500 mét. Di chuyển xuống 200 mét nghĩa là trừ đi 200 mét. Vậy độ cao mới là 500 - 200 = 300 mét."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Trong một cuộc thi, đội A ghi được 15 điểm, còn đội B lại bị trừ 8 điểm. Hỏi hiệu số điểm giữa đội A và đội B là bao nhiêu?",
+        "options": {
+          "A": "7 điểm",
+          "B": "23 điểm",
+          "C": "-8 điểm",
+          "D": "15 điểm"
+        },
+        "correct": "B",
+        "explanation": "Điểm của đội A là 15. Đội B bị trừ 8 điểm, tức là có số điểm là -8. Hiệu số điểm giữa đội A và đội B là 15 - (-8) = 15 + 8 = 23 điểm."
+      },
+      {
+        "type": "case_study",
+        "title": "Nhiệt độ Trái Đất",
+        "description": "Biểu đồ dưới đây cho thấy nhiệt độ trung bình hàng tháng tại một địa điểm trong suốt một năm. Hãy sử dụng thông tin này để trả lời các câu hỏi.",
+        "data": [
+          {
+            "month": "Tháng 1",
+            "temperature": -2,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 2",
+            "temperature": 0,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 3",
+            "temperature": 5,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 4",
+            "temperature": 10,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 5",
+            "temperature": 15,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 6",
+            "temperature": 20,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 7",
+            "temperature": 22,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 8",
+            "temperature": 21,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 9",
+            "temperature": 17,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 10",
+            "temperature": 12,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 11",
+            "temperature": 6,
+            "unit": "°C"
+          },
+          {
+            "month": "Tháng 12",
+            "temperature": 1,
+            "unit": "°C"
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "question": "Nhiệt độ thấp nhất trong năm là bao nhiêu độ C và vào tháng nào?",
+            "options": {
+              "A": "0°C vào Tháng 2",
+              "B": "-2°C vào Tháng 1",
+              "C": "1°C vào Tháng 12",
+              "D": "5°C vào Tháng 3"
+            },
+            "correct": "B",
+            "explanation": "Quan sát biểu đồ, nhiệt độ thấp nhất là -2°C, xảy ra vào Tháng 1."
+          },
+          {
+            "id": 2,
+            "question": "Sự thay đổi nhiệt độ từ Tháng 1 đến Tháng 3 là bao nhiêu độ C?",
+            "options": {
+              "A": "3°C",
+              "B": "7°C",
+              "C": "-7°C",
+              "D": "-3°C"
+            },
+            "correct": "B",
+            "explanation": "Nhiệt độ Tháng 1 là -2°C, Tháng 3 là 5°C. Sự thay đổi là 5 - (-2) = 5 + 2 = 7°C."
+          },
+          {
+            "id": 3,
+            "question": "Nếu nhiệt độ tiếp tục xu hướng từ Tháng 11 sang Tháng 12, thì nhiệt độ vào Tháng 1 của năm tiếp theo sẽ là bao nhiêu (ước tính)?",
+            "options": {
+              "A": "0°C",
+              "B": "-1°C",
+              "C": "-2°C",
+              "D": "1°C"
+            },
+            "correct": "B",
+            "explanation": "Từ Tháng 11 (6°C) sang Tháng 12 (1°C), nhiệt độ giảm 5°C. Áp dụng xu hướng này cho Tháng 1 của năm tiếp theo, ta có 1°C - 5°C = -4°C. Tuy nhiên, dựa vào dữ liệu ban đầu, nhiệt độ Tháng 1 là -2°C. Câu hỏi này mang tính ước tính dựa trên xu hướng, và đáp án gần nhất với xu hướng giảm liên tục có thể là -1°C nếu xem xét các năm có biến đổi khí hậu hoặc chỉ là một ước tính làm tròn."
+          }
+        ]
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một người thợ lặn đang ở độ sâu 30 mét dưới mực nước biển. Sau đó, họ lặn xuống thêm 15 mét nữa. Hỏi độ sâu mới của người thợ lặn so với mực nước biển là bao nhiêu mét?",
+        "options": {
+          "A": "15 mét",
+          "B": "45 mét",
+          "C": "-15 mét",
+          "D": "-45 mét"
+        },
+        "correct": "D",
+        "explanation": "Độ sâu dưới mực nước biển được biểu diễn bằng số âm. Ban đầu ở -30 mét. Lặn xuống thêm 15 mét nghĩa là trừ đi 15 mét, vậy độ sâu mới là -30 - 15 = -45 mét."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Bạn có 50.000 đồng trong tài khoản ngân hàng. Bạn rút 30.000 đồng, sau đó bạn gửi 20.000 đồng. Số dư cuối cùng trong tài khoản của bạn là bao nhiêu?",
+        "options": {
+          "A": "40.000 đồng",
+          "B": "20.000 đồng",
+          "C": "0 đồng",
+          "D": "100.000 đồng"
+        },
+        "correct": "A",
+        "explanation": "Số dư ban đầu là 50.000 đồng. Rút 30.000 đồng, số dư còn lại là 50.000 - 30.000 = 20.000 đồng. Gửi thêm 20.000 đồng, số dư cuối cùng là 20.000 + 20.000 = 40.000 đồng."
+      }
+    ]
+  }
+}

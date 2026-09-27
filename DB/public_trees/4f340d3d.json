@@ -1,0 +1,1126 @@
+{
+    "course_name": "Lịch sử lớp 6",
+    "macro_nodes": [
+        {
+            "id": "m1",
+            "title": "Chương 1: Vì sao phải học lịch sử",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "m2",
+            "title": "Chương 2: Xã hội nguyên thủy",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "m3",
+            "title": "Chương 3: Xã hội cổ đại",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "m4",
+            "title": "Chương 4: Đông Nam Á từ những thế kỉ tiếp giáp đầu công nguyên đến thế kỉ X",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "m5",
+            "title": "Chương 5: Việt Nam từ khoảng thế kỉ VII trước công nguyên đến đầu thế kỉ X",
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        }
+    ],
+    "micro_nodes": [
+        {
+            "id": "c1.1",
+            "parent_macro": "m1",
+            "title": "Bài 1: Lịch sử và cuộc sống",
+            "content": "Tìm hiểu khái niệm cơ bản về lịch sử và môn lịch sử học gì. Giải thích vì sao cần thiết phải tìm hiểu và học tập lịch sử đối với mỗi con người. Giúp học sinh bước đầu nhận thức được mối liên hệ chặt chẽ giữa quá khứ, hiện tại và tương lai.",
+            "alpha_base": 12,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 12,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c1.2",
+            "parent_macro": "m1",
+            "title": "Bài 2: Dựa vào đâu để biết và phục dựng lại lịch sử?",
+            "content": "Giới thiệu các nguồn tư liệu lịch sử chính bao gồm tư liệu truyền miệng, hiện vật và chữ viết. Hướng dẫn cách thức nhận diện và khai thác giá trị của từng loại tư liệu để dựng lại quá khứ một cách chân thực nhất. Giúp học sinh hiểu được phương pháp nghiên cứu lịch sử cơ bản.",
+            "alpha_base": 18,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 18,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c1.3",
+            "parent_macro": "m1",
+            "title": "Bài 3: Thời gian trong lịch sử",
+            "content": "Hướng dẫn cách tính thời gian trong lịch sử bằng các khái niệm thập kỷ, thế kỷ, thiên niên kỷ và cách chia lịch. Giới thiệu sự khác nhau cơ bản giữa âm lịch, dương lịch và công lịch đang được sử dụng phổ biến ngày nay. Rèn luyện kỹ năng đọc trục thời gian và sắp xếp sự kiện lịch sử.",
+            "alpha_base": 15,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c2.1",
+            "parent_macro": "m2",
+            "title": "Bài 4: Nguồn gốc loài người",
+            "content": "Trình bày quá trình tiến hóa lâu dài từ loài Vượn người thành Người tối cổ và sau đó là Người tinh khôn. Xác định các địa điểm khảo cổ quan trọng trên thế giới và Việt Nam có dấu tích của người tiền sử. Giúp học sinh phân biệt được các đặc điểm cơ thể và công cụ lao động qua từng giai đoạn.",
+            "alpha_base": 13,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 13,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c2.2",
+            "parent_macro": "m2",
+            "title": "Bài 5: Xã hội nguyên thủy",
+            "content": "Khái quát sự chuyển biến về đời sống vật chất, tinh thần cũng như tổ chức xã hội thời nguyên thủy từ bầy người sang thị tộc, bộ lạc. Mô tả chi tiết cách thức người nguyên thủy chế tạo công cụ, phát minh ra lửa và thực hiện hái lượm, săn bắn. Làm rõ những biểu hiện sơ khai của đời sống tâm linh, nghệ thuật.",
+            "alpha_base": 14,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 14,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c2.3",
+            "parent_macro": "m2",
+            "title": "Bài 6: Sự biến chuyển và phân hóa của xã hội nguyên thủy",
+            "content": "Phân tích phát minh vĩ đại về công cụ lao động bằng kim loại đã làm thay đổi hoàn toàn năng suất sản xuất của con người. Giải thích nguyên nhân xuất hiện của cải dư thừa dẫn đến sự phân hóa giàu nghèo và rạn nứt cấu trúc xã hội thị tộc. Làm rõ quá trình xã hội nguyên thủy tan rã và nhường chỗ cho xã hội có giai cấp.",
+            "alpha_base": 20,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c3.1",
+            "parent_macro": "m3",
+            "title": "Bài 7: Ai Cập và Lưỡng Hà cổ đại",
+            "content": "Giới thiệu điều kiện tự nhiên thuận lợi tại lưu vực sông Nin, sông Ti-gơ-rơ và Ơ-phơ-rát đã thúc đẩy hình thành nhà nước. Phân tích cơ cấu xã hội phân tầng rõ rệt và quyền lực tối cao của các Pharaon cũng như vua Lưỡng Hà. Giới thiệu các thành tựu văn hóa vĩ đại còn lưu giữ giá trị đến nay như kim tự tháp, chữ tượng hình, toán học.",
+            "alpha_base": 16,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 16,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c3.2",
+            "parent_macro": "m3",
+            "title": "Bài 8: Ấn Độ cổ đại",
+            "content": "Trình bày điều kiện tự nhiên vùng lưu vực sông Ấn và sông Hằng tác động tới sự hình thành nền văn minh Ấn Độ. Phân tích chế độ đẳng cấp Vác-na hà khắc chi phối sâu sắc đời sống xã hội cổ đại. Giới thiệu những đóng góp vĩ đại về tư tưởng tôn giáo như Phật giáo, Hindu giáo và các thành tựu khoa học tiêu biểu.",
+            "alpha_base": 16,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 16,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c3.3",
+            "parent_macro": "m3",
+            "title": "Bài 9: Trung Quốc từ thời cổ đại đến thế kỉ VII",
+            "content": "Khái quát lịch sử Trung Quốc từ thời kỳ lập quốc đầu tiên bên sông Hoàng Hà đến sự thống nhất của nhà Tần và thịnh trị nhà Đường. Phân tích sâu sắc sự chuyển biến chế độ phong kiến và các chính sách quản lý xã hội. Giới thiệu các học thuyết tư tưởng lớn như Nho giáo, Đạo giáo cùng các phát minh kỹ thuật độc đáo.",
+            "alpha_base": 18,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 18,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c3.4",
+            "parent_macro": "m3",
+            "title": "Bài 10: Hy Lạp và La Mã cổ đại",
+            "content": "Mô tả điều kiện tự nhiên Địa Trung Hải thúc đẩy kinh tế thủ công nghiệp và thương nghiệp phát triển mạnh mẽ. Trình bày đặc điểm nổi bật của mô hình nhà nước thành bang dân chủ Hy Lạp và chế độ cộng hòa La Mã. Đánh giá hệ thống di sản đồ sộ về luật pháp, triết học, nghệ thuật kiến trúc phương Tây.",
+            "alpha_base": 18,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 18,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c4.1",
+            "parent_macro": "m4",
+            "title": "Bài 11: Các quốc gia sơ kì ở Đông Nam Á",
+            "content": "Xác định vị trí địa lý địa-chính trị quan trọng của khu vực Đông Nam Á và những nét tương đồng về tự nhiên. Trình bày quá trình xuất hiện của các quốc gia sơ kỳ đầu tiên trong khoảng những thế kỷ đầu Công nguyên. Làm rõ vai trò của hoạt động giao thương hàng hải quốc tế đối với sự ra đời của các quốc gia này.",
+            "alpha_base": 15,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 15,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c4.2",
+            "parent_macro": "m4",
+            "title": "Bài 12: Sự hình thành và bước đầu phát triển của các vương quốc phong kiến ở Đông Nam Á (từ thế kỉ VII đến thế kỉ X)",
+            "content": "Phác họa bản đồ chính trị khu vực Đông Nam Á với sự trỗi dậy của các vương quốc phong kiến tiêu biểu như Ăng-co, Chân Lạp, Sơ-ri Vi-giay-a. Phân tích nền tảng kinh tế nông nghiệp kết hợp thương mại biển phát triển mạnh mẽ. Đánh giá sự ổn định và phát triển của các thể chế nhà nước phong kiến trong giai đoạn này.",
+            "alpha_base": 19,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 19,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c4.3",
+            "parent_macro": "m4",
+            "title": "Bài 13: Giao lưu văn hóa ở Đông Nam Á từ đầu Công nguyên đến thế kỉ X",
+            "content": "Phân tích sâu sắc quá trình tiếp xúc, giao thoa văn hóa giữa Đông Nam Á với hai trung tâm lớn là Ấn Độ và Trung Quốc. Làm rõ cách thức người dân bản địa tiếp thu một cách chủ động và sáng tạo chữ viết, tôn giáo, kiến trúc để tạo lập bản sắc riêng. Giới thiệu các công trình kiến trúc đền tháp độc đáo của khu vực.",
+            "alpha_base": 22,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c5.1",
+            "parent_macro": "m5",
+            "title": "Bài 14: Nhà nước Văn Lang - Âu Lạc",
+            "content": "Tái hiện quá trình thành lập nhà nước sơ khai đầu tiên của người Việt cổ dưới thời đại các vua Hùng và vua An Dương Vương. Mô tả cấu trúc bộ máy cai trị đơn giản nhưng có tính gắn kết cộng đồng cao. Giới thiệu đời sống vật chất tinh thần sinh động gắn liền với nền văn minh sông Hồng và biểu tượng trống đồng.",
+            "alpha_base": 16,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 16,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c5.2",
+            "parent_macro": "m5",
+            "title": "Bài 15: Chính sách cai trị của các triều đại phong kiến phương Bắc và sự chuyển biến của xã hội Âu Lạc",
+            "content": "Vạch trần các chính sách cai trị tàn độc của phong kiến phương Bắc về hành chính, bóc lột thuế khóa nặng nề và âm mưu đồng hóa văn hóa. Phân tích những biến động sâu sắc về cơ cấu giai cấp xã hội trong thời kỳ Bắc thuộc kéo dài. Làm rõ sự chuyển biến kinh tế nông nghiệp và thủ công nghiệp dù bị kìm kẹp.",
+            "alpha_base": 24,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 24,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c5.3",
+            "parent_macro": "m5",
+            "title": "Bài 16: Các cuộc khởi nghĩa tiêu biểu giành độc lập trước thế kỉ X",
+            "content": "Tóm tắt diễn biến, nguyên nhân và kết quả của các cuộc khởi nghĩa oanh liệt từ Hai Bà Trưng, Bà Triệu đến Lý Bí, Mai Thúc Loan, Phùng Hưng. Phân tích ý nghĩa lịch sử to lớn của các phong trào này trong việc giữ vững ngọn lửa đấu tranh dân tộc. Khẳng định tinh thần yêu nước không chịu khuất phục của người Việt.",
+            "alpha_base": 20,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c5.4",
+            "parent_macro": "m5",
+            "title": "Bài 17: Cuộc đấu tranh bảo tồn và phát triển văn hóa dân tộc của người Việt",
+            "content": "Trình bày nỗ lực kiên cường của nhân dân ta nhằm gìn giữ tiếng nói, phong tục thờ cúng tổ tiên, ăn trầu, nhuộm răng truyền thống. Phân tích quá trình tiếp thu có chọn lọc các yếu tố văn hóa Trung Hoa như chữ Hán, tư tưởng để làm giàu thêm bản sắc Việt. Chứng minh văn hóa chính là cội nguồn của sự trường tồn dân tộc.",
+            "alpha_base": 22,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 22,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c5.5",
+            "parent_macro": "m5",
+            "title": "Bài 18: Bước ngoặt lịch sử đầu thế kỉ X",
+            "content": "Phân tích ý nghĩa to lớn của sự kiện Khúc Thừa Dụ giành quyền tự chủ năm 905 và cuộc cải cách tiến bộ của Khúc Hạo. Tái hiện chiến thắng Bạch Đằng oanh liệt năm 938 do Ngô Quyền lãnh đạo đánh tan quân Nam Hán. Khẳng định đây là bước ngoặt vĩ đại kết thúc hoàn toàn nghìn năm Bắc thuộc, mở ra kỷ nguyên độc lập lâu dài.",
+            "alpha_base": 26,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 26,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c5.6",
+            "parent_macro": "m5",
+            "title": "Bài 19: Vương quốc Chăm-pa từ thế kỉ II đến thế kỉ X",
+            "content": "Giới thiệu quá trình hình thành vương quốc Chăm-pa trên cơ sở nền văn hóa Sa Huỳnh tại dải đất miền Trung ngày nay. Mô tả tổ chức chính quyền, hoạt động kinh tế nông nghiệp kết hợp khai thác lâm thổ sản và hàng hải. Trình bày những thành tựu văn hóa nghệ thuật điêu khắc và tháp gạch rực rỡ.",
+            "alpha_base": 17,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 17,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "c5.7",
+            "parent_macro": "m5",
+            "title": "Bài 20: Vương quốc Phù Nam",
+            "content": "Khám phá lịch sử hình thành, phát triển và suy vong của vương quốc cổ Phù Nam ở vùng đất Nam Bộ. Tìm hiểu nền kinh tế thương nghiệp phát triển mạnh mẽ gắn với cảng thị Óc Eo sầm uất trên tuyến đường biển quốc tế. Đánh giá các di sản văn hóa độc đáo còn để lại qua hiện vật khảo cổ học.",
+            "alpha_base": 17,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 17,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        }
+    ],
+    "assess_nodes": [
+        {
+            "id": "a1.1",
+            "target_micro": "c1.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a1.2",
+            "target_micro": "c1.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a1.3",
+            "target_micro": "c1.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a2.1",
+            "target_micro": "c2.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a2.2",
+            "target_micro": "c2.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a2.3",
+            "target_micro": "c2.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a3.1",
+            "target_micro": "c3.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a3.2",
+            "target_micro": "c3.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a3.3",
+            "target_micro": "c3.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a3.4",
+            "target_micro": "c3.4",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a4.1",
+            "target_micro": "c4.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a4.2",
+            "target_micro": "c4.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.765669"
+            }
+        },
+        {
+            "id": "a4.3",
+            "target_micro": "c4.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.766667"
+            }
+        },
+        {
+            "id": "a5.1",
+            "target_micro": "c5.1",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.766667"
+            }
+        },
+        {
+            "id": "a5.2",
+            "target_micro": "c5.2",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.766667"
+            }
+        },
+        {
+            "id": "a5.3",
+            "target_micro": "c5.3",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.766667"
+            }
+        },
+        {
+            "id": "a5.4",
+            "target_micro": "c5.4",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.766667"
+            }
+        },
+        {
+            "id": "a5.5",
+            "target_micro": "c5.5",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.766667"
+            }
+        },
+        {
+            "id": "a5.6",
+            "target_micro": "c5.6",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.766667"
+            }
+        },
+        {
+            "id": "a5.7",
+            "target_micro": "c5.7",
+            "theta_pass": 0.6,
+            "bloom_profile": {
+                "auto_calibrated_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "user_adjusted_levels": null,
+                "effective_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "calibration_method": "alpha_base",
+                "alpha_base": 20,
+                "created_at": "2026-05-31T21:04:24.766667"
+            }
+        }
+    ],
+    "user_id": "thanhthangbmt",
+    "edges": [
+        {
+            "source": "c1.1",
+            "target": "c1.2",
+            "reason": "Hiểu lịch sử và cuộc sống là nền tảng để biết cách phục dựng lại lịch sử."
+        },
+        {
+            "source": "c1.2",
+            "target": "c1.3",
+            "reason": "Hiểu cách phục dựng lịch sử giúp hiểu về cách xác định và sắp xếp thời gian trong lịch sử."
+        },
+        {
+            "source": "c1.3",
+            "target": "c2.1",
+            "reason": "Kiến thức về thời gian trong lịch sử là cần thiết để tìm hiểu về nguồn gốc loài người."
+        },
+        {
+            "source": "c2.1",
+            "target": "c2.2",
+            "reason": "Hiểu về nguồn gốc loài người giúp hiểu rõ hơn về xã hội nguyên thủy."
+        },
+        {
+            "source": "c2.2",
+            "target": "c2.3",
+            "reason": "Hiểu về xã hội nguyên thủy là cơ sở để phân tích sự biến chuyển và phân hóa của nó."
+        },
+        {
+            "source": "c2.3",
+            "target": "c3.1",
+            "reason": "Sự phát triển của xã hội nguyên thủy dẫn đến sự hình thành các quốc gia cổ đại."
+        },
+        {
+            "source": "c2.3",
+            "target": "c3.2",
+            "reason": "Sự phát triển của xã hội nguyên thủy dẫn đến sự hình thành các quốc gia cổ đại."
+        },
+        {
+            "source": "c2.3",
+            "target": "c3.3",
+            "reason": "Sự phát triển của xã hội nguyên thủy dẫn đến sự hình thành các quốc gia cổ đại."
+        },
+        {
+            "source": "c2.3",
+            "target": "c3.4",
+            "reason": "Sự phát triển của xã hội nguyên thủy dẫn đến sự hình thành các quốc gia cổ đại."
+        },
+        {
+            "source": "c3.1",
+            "target": "c4.1",
+            "reason": "Các nền văn minh Ai Cập và Lưỡng Hà cổ đại là tiền đề cho sự hình thành các quốc gia sơ kì ở Đông Nam Á."
+        },
+        {
+            "source": "c3.2",
+            "target": "c4.1",
+            "reason": "Nền văn minh Ấn Độ cổ đại có ảnh hưởng đến sự hình thành các quốc gia sơ kì ở Đông Nam Á."
+        },
+        {
+            "source": "c3.3",
+            "target": "c4.1",
+            "reason": "Sự phát triển của Trung Quốc cổ đại có liên quan đến sự hình thành các quốc gia sơ kì ở Đông Nam Á."
+        },
+        {
+            "source": "c3.4",
+            "target": "c4.1",
+            "reason": "Sự phát triển của Hy Lạp và La Mã cổ đại có ảnh hưởng gián tiếp đến các nền văn minh khác, bao gồm cả Đông Nam Á."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.2",
+            "reason": "Hiểu về các quốc gia sơ kì là điều kiện để tìm hiểu sự phát triển của các vương quốc phong kiến."
+        },
+        {
+            "source": "c4.1",
+            "target": "c4.3",
+            "reason": "Sự hình thành các quốc gia sơ kì tạo cơ sở cho các hoạt động giao lưu văn hóa."
+        },
+        {
+            "source": "c4.2",
+            "target": "c5.1",
+            "reason": "Kiến thức về các vương quốc phong kiến ở Đông Nam Á giúp hiểu về Nhà nước Văn Lang - Âu Lạc trong bối cảnh khu vực."
+        },
+        {
+            "source": "c4.2",
+            "target": "c5.6",
+            "reason": "Kiến thức về các vương quốc phong kiến ở Đông Nam Á giúp hiểu về Vương quốc Chăm-pa trong bối cảnh khu vực."
+        },
+        {
+            "source": "c4.2",
+            "target": "c5.7",
+            "reason": "Kiến thức về các vương quốc phong kiến ở Đông Nam Á giúp hiểu về Vương quốc Phù Nam trong bối cảnh khu vực."
+        },
+        {
+            "source": "c5.1",
+            "target": "c5.2",
+            "reason": "Hiểu về Nhà nước Văn Lang - Âu Lạc là nền tảng để nghiên cứu chính sách cai trị của các triều đại phong kiến phương Bắc."
+        },
+        {
+            "source": "c5.1",
+            "target": "c5.3",
+            "reason": "Hiểu về Nhà nước Văn Lang - Âu Lạc giúp đánh giá các cuộc khởi nghĩa giành độc lập."
+        },
+        {
+            "source": "c5.2",
+            "target": "c5.3",
+            "reason": "Hiểu về chính sách cai trị của phương Bắc là cần thiết để hiểu về các cuộc khởi nghĩa chống lại."
+        },
+        {
+            "source": "c5.2",
+            "target": "c5.4",
+            "reason": "Hiểu chính sách cai trị của phương Bắc giúp đánh giá cuộc đấu tranh bảo tồn và phát triển văn hóa dân tộc."
+        },
+        {
+            "source": "c5.3",
+            "target": "c5.5",
+            "reason": "Các cuộc khởi nghĩa giành độc lập dẫn đến bước ngoặt lịch sử đầu thế kỉ X."
+        },
+        {
+            "source": "c5.4",
+            "target": "c5.5",
+            "reason": "Cuộc đấu tranh bảo tồn văn hóa góp phần tạo nên bối cảnh cho bước ngoặt lịch sử đầu thế kỉ X."
+        },
+        {
+            "source": "c5.6",
+            "target": "c5.5",
+            "reason": "Sự tồn tại và phát triển của Vương quốc Chăm-pa là một phần của lịch sử Việt Nam giai đoạn này, liên quan đến bước ngoặt lịch sử."
+        },
+        {
+            "source": "c5.7",
+            "target": "c5.5",
+            "reason": "Sự tồn tại và phát triển của Vương quốc Phù Nam cũng là một phần của lịch sử khu vực, có liên quan đến bối cảnh lịch sử Việt Nam."
+        }
+    ]
+}

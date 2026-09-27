@@ -1,0 +1,311 @@
+{
+  "node_id": "m0_Meso_1",
+  "course_id": "địa_lý_6",
+  "version": 2,
+  "updated_at": "2026-05-31T21:12:01.244523",
+  "author": "thanhthangbmt",
+  "study_material": {
+    "learning_objectives": [
+      "CLO1 (L1): Nhận biết và định nghĩa chính xác các khái niệm kinh tuyến, vĩ tuyến, tọa độ địa lý và tỉ lệ bản đồ.",
+      "CLO2 (L2): Giải thích được ý nghĩa của tỉ lệ bản đồ và cách xác định phương hướng trên bản đồ bằng hệ thống kinh, vĩ tuyến.",
+      "CLO3 (L3): Áp dụng kỹ năng địa lý để tính khoảng cách thực tế dựa vào tỉ lệ bản đồ và xác định tọa độ địa lý của một vị trí trên thực địa."
+    ],
+    "key_concepts": [
+      {
+        "term": "Kinh tuyến",
+        "definition": "Các đường nối liền hai cực Bắc và Nam trên bề mặt Quả Địa Cầu."
+      },
+      {
+        "term": "Vĩ tuyến",
+        "definition": "Các vòng tròn trên bề mặt Quả Địa Cầu vuông góc với các kinh tuyến."
+      },
+      {
+        "term": "Tọa độ địa lý",
+        "definition": "Kinh độ và vĩ độ của một điểm trên bản đồ hoặc Quả Địa Cầu."
+      },
+      {
+        "term": "Tỉ lệ bản đồ",
+        "definition": "Tỉ số giữa khoảng cách trên bản đồ so với khoảng cách tương ứng trên thực địa."
+      }
+    ],
+    "detailed_content": "## Hệ Thống Đánh Giá Năng Lực Địa Lý Lớp 6 - Phần 1\n\nĐể đảm bảo học sinh đạt được các tiêu chuẩn tư duy địa không gian theo chuẩn MIT, hệ thống đánh giá Phần 1 (Bản đồ và Trái Đất) được thiết kế tích hợp qua ba mức độ nhận thức: Nhận biết (L1), Thông hiểu (L2), và Vận dụng (L3).\n\n### 1. Đánh giá Mức độ Nhận biết (L1)\nỞ cấp độ này, công cụ đánh giá tập trung vào khả năng tái hiện các khái niệm nền tảng. Người học cần xác định chính xác các thành phần trên Quả Địa Cầu bao gồm: Kinh tuyến gốc (0 độ - đi qua đài thiên văn Greenwich), Vĩ tuyến gốc (Xích đạo - vĩ tuyến lớn nhất), bán cầu Bắc và bán cầu Nam. Các câu hỏi trắc nghiệm khách quan (MCQ) đa lựa chọn là công cụ tối ưu để kiểm tra nhanh vùng kiến thức này.\n\n### 2. Đánh giá Mức độ Thông hiểu (L2)\nĐánh giá khả năng giải thích và phân tích bản chất của các công cụ địa lý. Trọng tâm là việc hiểu ý nghĩa của tỉ lệ bản đồ (tỉ lệ số và tỉ lệ thước). Người học phải giải thích được sự khác biệt giữa bản đồ tỉ lệ lớn (hiển thị chi tiết một khu vực nhỏ) và bản đồ tỉ lệ nhỏ (hiển thị khái quát một khu vực lớn). Ngoài ra, việc hiểu quy tắc định hướng trên bản đồ dựa vào mũi tên chỉ hướng Bắc hoặc hệ thống kinh vĩ tuyến cũng được đánh giá qua các câu hỏi tự luận ngắn.\n\n### 3. Đánh giá Mức độ Vận dụng (L3)\nĐây là mức độ yêu cầu người học giải quyết các bài toán thực tiễn bằng kỹ năng địa lý. Đánh giá L3 tập trung vào hai kỹ năng cốt lõi:\n- **Xác định tọa độ địa lý**: Đọc và ghi chính xác tọa độ (kinh độ, vĩ độ) của một điểm trên bản đồ số hoặc bản đồ giấy.\n- **Tính toán khoảng cách thực tế**: Sử dụng công thức: D_thực tế = d_bản đồ * T (với T là mẫu số của tỉ lệ thức). Ví dụ, nếu khoảng cách đo được trên bản đồ tỉ lệ 1:100.000 là 5 cm, học sinh phải tính ra khoảng cách thực địa tương ứng là 5 km.\n\nPhương pháp đánh giá này không chỉ kiểm tra lý thuyết thuần túy mà còn rèn luyện tư duy định lượng và định vị không gian cho học sinh ngay từ lớp 6.",
+    "summary": "Hệ thống đánh giá Địa lý 6 - Phần 1 tập trung đo lường ba mức độ nhận thức từ ghi nhớ các đường kinh vĩ tuyến, thông hiểu ý nghĩa tỉ lệ bản đồ, đến vận dụng kỹ năng tính toán khoảng cách thực tế và định vị tọa độ địa lý. Phương pháp này giúp phát triển toàn diện tư duy không gian và khả năng giải quyết vấn đề của học sinh.",
+    "practical_examples": [
+      "Ví dụ 1: Tính khoảng cách thực tế giữa hai trường học trên bản đồ tỉ lệ 1:10.000. Nếu đo bằng thước kẻ trên bản đồ được 5 cm, khoảng cách thực tế sẽ là 5 cm x 10.000 = 50.000 cm = 500 mét.",
+      "Ví dụ 2: Xác định tọa độ của một tàu cá gặp nạn trên biển thông qua hệ thống định vị GPS hiển thị trị số: kinh độ 110 độ Đông và vĩ độ 15 độ Bắc, giúp lực lượng cứu hộ nhanh chóng định vị mục tiêu."
+    ],
+    "multimedia_diagram": "mindmap\n  root((Danh gia Dia ly 6))\n    Nhan biet L1\n      Kinh vi tuyen\n      Kinh tuyen goc 0 do\n      Xich dao\n    Thong hieu L2\n      Y nghia ti le ban do\n      Xac dinh huong tren ban do\n    Van dung L3\n      Doc toa do dia ly\n      Tinh khoang cach thuc te",
+    "micro_learning_flashcards": [
+      {
+        "q": "Kinh tuyến gốc (0 độ) đi qua đài thiên văn nào?",
+        "a": "Đài thiên văn Greenwich (Anh)."
+      },
+      {
+        "q": "Công thức tính khoảng cách thực địa từ bản đồ?",
+        "a": "Khoảng cách thực địa = Khoảng cách trên bản đồ x Mẫu số tỉ lệ."
+      },
+      {
+        "q": "Tọa độ địa lý của một điểm gồm những yếu tố nào?",
+        "a": "Vĩ độ và kinh độ của điểm đó."
+      }
+    ]
+  },
+  "bloom_profile": {
+    "auto_calibrated_levels": [
+      1,
+      2,
+      3
+    ],
+    "user_adjusted_levels": null,
+    "effective_levels": [
+      1,
+      2,
+      3
+    ],
+    "calibration_method": "alpha_base",
+    "alpha_base": 15,
+    "created_at": "2026-05-31T21:09:32.239971"
+  },
+  "question_bank": {
+    "L1": [
+      {
+        "type": "mcq_recall",
+        "question": "Theo chuẩn MIT, hệ thống đánh giá Phần 1 (Bản đồ và Trái Đất) được thiết kế tích hợp qua bao nhiêu mức độ nhận thức?",
+        "options": {
+          "A": "Hai mức độ",
+          "B": "Ba mức độ",
+          "C": "Bốn mức độ",
+          "D": "Năm mức độ"
+        },
+        "correct": "B",
+        "explanation": "Bài học nêu rõ hệ thống đánh giá được thiết kế qua ba mức độ nhận thức: Nhận biết (L1), Thông hiểu (L2), và Vận dụng (L3)."
+      },
+      {
+        "type": "flashcard",
+        "front": "Mức độ Nhận biết (L1)",
+        "back": "Cấp độ mà công cụ đánh giá tập trung vào khả năng tái hiện các khái niệm nền tảng."
+      },
+      {
+        "type": "flashcard",
+        "front": "Mức độ Thông hiểu (L2)",
+        "back": "Cấp độ đánh giá khả năng giải thích, diễn giải và tóm tắt thông tin địa lý."
+      },
+      {
+        "type": "flashcard",
+        "front": "Mức độ Vận dụng (L3)",
+        "back": "Cấp độ đánh giá khả năng áp dụng kiến thức địa lý vào các tình huống thực tế và giải quyết vấn đề."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Ở cấp độ Nhận biết (L1), người học cần xác định chính xác yếu tố nào?",
+        "options": {
+          "A": "Các mối quan hệ giữa các yếu tố địa lý",
+          "B": "Các khái niệm nền tảng",
+          "C": "Các giải pháp cho vấn đề địa lý",
+          "D": "Các dự báo về biến đổi khí hậu"
+        },
+        "correct": "B",
+        "explanation": "Bài học nêu rõ: 'Ở cấp độ này, công cụ đánh giá tập trung vào khả năng tái hiện các khái niệm nền tảng.'"
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Hệ thống đánh giá Phần 1 tập trung vào Bản đồ và [BLANK].",
+        "answer": "Trái Đất",
+        "explanation": "Phần 1 của hệ thống đánh giá tập trung vào hai nội dung chính là Bản đồ và Trái Đất."
+      },
+      {
+        "type": "mcq_recall",
+        "question": "Tiêu chuẩn tư duy không gian mà học sinh cần đạt theo chuẩn nào?",
+        "options": {
+          "A": "Chuẩn Cambridge",
+          "B": "Chuẩn MIT",
+          "C": "Chuẩn Oxford",
+          "D": "Chuẩn Pearson"
+        },
+        "correct": "B",
+        "explanation": "Bài học nêu rõ: 'Để đảm bảo học sinh đạt được các tiêu chuẩn tư duy địa không gian theo chuẩn MIT...'"
+      }
+    ],
+    "L2": [
+      {
+        "type": "mcq_comprehension",
+        "question": "Tại sao việc hiểu các yếu tố cơ bản của bản đồ lại quan trọng đối với học sinh Lớp 6 khi bắt đầu học Địa lý?",
+        "options": {
+          "A": "Để có thể vẽ các bản đồ phức tạp ngay lập tức.",
+          "B": "Để giúp học sinh hình dung và hiểu được mối quan hệ không gian của các đối tượng trên bề mặt Trái Đất.",
+          "C": "Để nhớ tên tất cả các quốc gia trên thế giới.",
+          "D": "Để chỉ đơn thuần là hoàn thành bài tập về nhà."
+        },
+        "correct": "B",
+        "explanation": "Hiểu các yếu tố cơ bản của bản đồ (như tỉ lệ, phương hướng, ký hiệu) giúp học sinh diễn giải thông tin địa lý, hình dung được khoảng cách và vị trí tương đối của các địa điểm, từ đó xây dựng tư duy không gian."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Tỉ lệ bản đồ cho biết mối quan hệ giữa khoảng cách trên bản đồ và khoảng cách thực tế trên [BLANK].",
+        "answer": "bề mặt Trái Đất",
+        "explanation": "Tỉ lệ bản đồ là yếu tố quan trọng giúp biểu thị đúng kích thước và khoảng cách của các đối tượng địa lý so với thực tế."
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "term": "Phương hướng",
+            "definition": "Giúp xác định vị trí của một đối tượng so với một đối tượng khác."
+          },
+          {
+            "term": "Ký hiệu bản đồ",
+            "definition": "Là hình vẽ, màu sắc để biểu thị các đối tượng địa lý khác nhau."
+          },
+          {
+            "term": "Tỉ lệ bản đồ",
+            "definition": "Quy ước thể hiện sự thu nhỏ của khoảng cách trên bản đồ so với thực tế."
+          }
+        ]
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Nếu tỉ lệ bản đồ là 1:1.000.000, điều này có nghĩa là gì?",
+        "options": {
+          "A": "1 cm trên bản đồ tương ứng với 1.000.000 km trên thực tế.",
+          "B": "1 cm trên bản đồ tương ứng với 10 km trên thực tế.",
+          "C": "1 mét trên bản đồ tương ứng với 1 km trên thực tế.",
+          "D": "Bản đồ này không có tỉ lệ."
+        },
+        "correct": "B",
+        "explanation": "Tỉ lệ 1:1.000.000 có nghĩa là 1 đơn vị đo trên bản đồ (ví dụ: cm) tương ứng với 1.000.000 đơn vị đo đó trên thực tế. 1.000.000 cm = 10.000 m = 10 km."
+      },
+      {
+        "type": "fill_blank",
+        "sentence": "Các loại kí hiệu trên bản đồ giúp người đọc dễ dàng [BLANK] và phân biệt các đối tượng địa lý khác nhau.",
+        "answer": "nhận biết",
+        "explanation": "Ký hiệu bản đồ là những hình vẽ, màu sắc được quy ước để biểu thị các đối tượng địa lý, giúp người đọc nhận biết và phân biệt chúng."
+      },
+      {
+        "type": "mcq_comprehension",
+        "question": "Tại sao cần có hướng Bắc trên bản đồ dù bản đồ đó biểu thị một khu vực nhỏ?",
+        "options": {
+          "A": "Để bản đồ trông đẹp hơn.",
+          "B": "Để dễ dàng xác định vị trí và hướng di chuyển tương đối của các đối tượng so với hướng Bắc.",
+          "C": "Chỉ những bản đồ thế giới mới cần có hướng Bắc.",
+          "D": "Nó không thực sự cần thiết nếu bạn biết rõ khu vực đó."
+        },
+        "correct": "B",
+        "explanation": "Việc có mũi tên chỉ hướng Bắc giúp định vị tất cả các hướng khác (Đông, Tây, Nam) một cách chính xác và giúp người xem hiểu rõ mối quan hệ không gian giữa các địa điểm được thể hiện trên bản đồ."
+      },
+      {
+        "type": "matching",
+        "pairs": [
+          {
+            "term": "Bản đồ hành chính",
+            "definition": "Thể hiện ranh giới các đơn vị hành chính và các điểm dân cư."
+          },
+          {
+            "term": "Bản đồ địa hình",
+            "definition": "Biểu thị độ cao và hình dạng của bề mặt Trái Đất."
+          },
+          {
+            "term": "Bản đồ giao thông",
+            "definition": "Thể hiện mạng lưới đường bộ, đường sắt, đường thủy..."
+          }
+        ]
+      }
+    ],
+    "L3": [
+      {
+        "type": "scenario_mcq",
+        "question": "Bạn Nam dùng một bản đồ du lịch có tỉ lệ 1 : 50 000 để lên kế hoạch đi dã ngoại. Trên bản đồ, quãng đường đi bộ từ trường học đến khu cắm trại đo được là 8 cm. Hãy tính khoảng cách thực tế ngoài thực địa giữa hai địa điểm này là bao nhiêu?",
+        "options": {
+          "A": "4 km",
+          "B": "40 km",
+          "C": "400 m",
+          "D": "8 km"
+        },
+        "correct": "A",
+        "explanation": "Tỉ lệ bản đồ 1 : 50 000 nghĩa là 1 cm trên bản đồ bằng 50 000 cm trên thực tế. Khoảng cách thực tế là: 8 cm x 50 000 = 400 000 cm. Đổi 400 000 cm = 4 000 m = 4 km."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Trận chung kết bóng đá thế giới diễn ra tại London (múi giờ số 0) vào lúc 15:00 ngày 15/05. Một học sinh ở Hà Nội (múi giờ số 7) muốn xem trực tiếp trận đấu này thì phải bật tivi vào lúc mấy giờ, ngày nào theo giờ Việt Nam?",
+        "options": {
+          "A": "22:00 ngày 15/05",
+          "B": "08:00 ngày 15/05",
+          "C": "22:00 ngày 16/05",
+          "D": "08:00 ngày 16/05"
+        },
+        "correct": "A",
+        "explanation": "Hà Nội ở múi giờ số 7, đi trước London (múi giờ số 0) là 7 tiếng. Thời gian tại Hà Nội sẽ là: 15:00 + 7 giờ = 22:00 cùng ngày 15/05."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Trong một chuyến thám hiểm, nhóm của Lan xác định vị trí của họ nằm ở nửa cầu Bắc và phía tây của kinh tuyến gốc. Kinh tuyến đi qua chỗ họ cách kinh tuyến gốc 45°, và vĩ tuyến cách xích đạo 10°. Em hãy giúp nhóm Lan ghi lại tọa độ địa lí chính xác của vị trí này?",
+        "options": {
+          "A": "(10°B, 45°T)",
+          "B": "(10°N, 45°Đ)",
+          "C": "(45°B, 10°T)",
+          "D": "(10°B, 45°Đ)"
+        },
+        "correct": "A",
+        "explanation": "Vĩ độ nằm ở nửa cầu Bắc là vĩ độ Bắc (B): vĩ tuyến cách xích đạo 10° là vĩ độ 10°B. Kinh độ nằm ở phía Tây kinh tuyến gốc là kinh độ Tây (T): kinh tuyến cách kinh tuyến gốc 45° là kinh độ 45°T. Do đó tọa độ địa lí là (10°B, 45°T)."
+      },
+      {
+        "type": "scenario_mcq",
+        "question": "Một kiến trúc sư đang vẽ bản đồ quy hoạch chi tiết cho một khu đô thị với tỉ lệ 1 : 2 000. Trong thực tế, một hồ nước nhân tạo có chiều dài là 300 m. Người kiến trúc sư này cần vẽ chiều dài của hồ nước trên bản đồ giấy là bao nhiêu xăng-ti-mét (cm)?",
+        "options": {
+          "A": "15 cm",
+          "B": "1.5 cm",
+          "C": "150 cm",
+          "D": "6 cm"
+        },
+        "correct": "A",
+        "explanation": "Đổi khoảng cách thực tế: 300 m = 30 000 cm. Với tỉ lệ bản đồ 1 : 2 000, chiều dài hồ nước trên bản đồ là: 30 000 cm / 2 000 = 15 cm."
+      },
+      {
+        "type": "case_study",
+        "scenario": "Một tàu đánh cá của ngư dân Việt Nam gặp sự cố và phát tín hiệu cứu hộ khẩn cấp tại tọa độ (15°B, 112°Đ) trên Biển Đông. Trạm cứu hộ bờ biển tại thành phố Đà Nẵng có tọa độ ước tính khoảng (16°B, 108°Đ) lập tức điều tàu cứu nạn ra khơi.",
+        "questions": [
+          {
+            "question": "Dựa vào tọa độ địa lí của hai địa điểm trên, lực lượng cứu hộ phải cho tàu di chuyển theo hướng nào từ Đà Nẵng để tiếp cận tàu bị nạn nhanh nhất?",
+            "options": {
+              "A": "Hướng Đông Nam",
+              "B": "Hướng Đông Bắc",
+              "C": "Hướng Tây Nam",
+              "D": "Hướng Tây"
+            },
+            "correct": "A",
+            "explanation": "So sánh tọa độ: Tàu bị nạn (15°B, 112°Đ) có vĩ độ thấp hơn Đà Nẵng (16°B -> lệch về phía Nam) và kinh độ lớn hơn Đà Nẵng (112°Đ > 108°Đ -> lệch về phía Đông). Vì vậy, hướng đi từ Đà Nẵng đến tàu nạn là hướng Đông Nam."
+          }
+        ]
+      },
+      {
+        "type": "case_study",
+        "scenario": "Một doanh nhân khởi hành chuyến bay từ sân bay Nội Bài - Hà Nội (múi giờ số 7) lúc 20:00 ngày 20/11 để sang New York - Mỹ (múi giờ số -5). Tổng thời gian bay của chuyến bay thẳng này là 18 tiếng liên tục.",
+        "questions": [
+          {
+            "question": "Tính thời điểm (giờ, ngày) vị doanh nhân này hạ cánh xuống sân bay New York theo giờ địa phương tại đó?",
+            "options": {
+              "A": "02:00 ngày 21/11",
+              "B": "14:00 ngày 20/11",
+              "C": "14:00 ngày 21/11",
+              "D": "02:00 ngày 20/11"
+            },
+            "correct": "A",
+            "explanation": "Bước 1: Tính chênh lệch giờ giữa Hà Nội và New York. Múi giờ số 7 cách múi giờ số -5 là: 7 - (-5) = 12 múi giờ (Hà Nội đi trước New York 12 tiếng). Bước 2: Khi máy bay cất cánh tại Hà Nội lúc 20:00 ngày 20/11 thì giờ tại New York lúc đó là: 20:00 - 12 tiếng = 08:00 ngày 20/11. Bước 3: Cộng thêm thời gian bay 18 tiếng: 08:00 ngày 20/11 + 18 tiếng = 26:00 ngày 20/11, tức là 02:00 ngày 21/11."
+          }
+        ]
+      },
+      {
+        "type": "socratic_prompt",
+        "initial_question": "Giả sử Trái Đất của chúng ta đột nhiên ngừng tự quay quanh trục của nó nhưng vẫn tiếp tục chuyển động quỹ đạo quanh Mặt Trời. Theo em, hiện tượng ngày, đêm và sự sống trên Trái Đất sẽ thay đổi như thế nào?",
+        "follow_ups": [
+          "Lúc này một chu kỳ ngày - đêm tại một điểm bất kỳ trên Trái Đất sẽ kéo dài bao lâu?",
+          "Làm thế nào con người có thể thích nghi với sự chênh lệch nhiệt độ cực đoan giữa hai nửa cầu?"
+        ],
+        "key_points": [
+          "Nếu Trái Đất ngừng quay quanh trục nhưng vẫn quay quanh Mặt Trời, chu kỳ ngày đêm sẽ bằng 1 năm (6 tháng nóng sáng liên tục, 6 tháng tối lạnh liên tục).",
+          "Gây ra sự chênh lệch nhiệt độ cực kỳ lớn giữa phần hướng về Mặt Trời và phần bị khuất.",
+          "Ảnh hưởng nghiêm trọng đến khí hậu, hoàn lưu khí quyển, và sự sống của toàn bộ sinh vật."
+        ]
+      }
+    ]
+  }
+}
